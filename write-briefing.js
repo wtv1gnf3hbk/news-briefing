@@ -113,6 +113,7 @@ STYLE:
 - BAD bullet: "AstraZeneca is switching from Nasdaq to NYSE, per Reuters"
 - GOOD bullet: "AstraZeneca's planning to ditch Nasdaq for the NYSE next month - a rare transatlantic switch that says something about where the action is"
 - Be specific about geopolitical frameworks - say "NATO" not "transatlantic relations", say "EU" not "Europe" when referring to the institution, name specific alliances and organizations
+- NEVER use the word "amid" - it's lazy jargon. Find a better way to connect ideas.
 
 LINKS (CRITICAL):
 - Use markdown links: [link text](url)
