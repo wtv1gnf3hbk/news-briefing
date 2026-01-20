@@ -1,0 +1,40 @@
+# Generate briefing daily at 5:30am ET (10:30 UTC)
+# Also runs on manual trigger for testing
+
+name: Generate Briefing
+
+on:
+  schedule:
+    # 5:30am ET = 10:30 UTC (during EST)
+    # Note: During EDT (daylight saving), this will be 6:30am ET
+    - cron: '30 10 * * *'
+
+  # Manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate briefing
+        run: node generate-briefing.js
+
+      - name: Commit and push briefing.json
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add briefing.json
+          git diff --staged --quiet || git commit -m "Update briefing $(date -u +%Y-%m-%d)"
+          git push

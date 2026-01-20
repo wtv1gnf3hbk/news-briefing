@@ -1,0 +1,12 @@
+{
+  "name": "concierge2",
+  "version": "1.0.0",
+  "description": "Daily news briefing generator - runs on GitHub Actions",
+  "main": "generate-briefing.js",
+  "scripts": {
+    "generate": "node generate-briefing.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
