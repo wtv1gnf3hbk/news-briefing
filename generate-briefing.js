@@ -3,6 +3,8 @@
  * Standalone briefing generator for GitHub Actions
  * Scrapes NYT + secondary sources and outputs briefing.json
  *
+ * All fetches run in parallel for speed (~2-3s total)
+ *
  * Run: node generate-briefing.js
  * Output: briefing.json (committed to repo, accessible via GitHub Pages)
  */
@@ -34,7 +36,7 @@ function fetch(url) {
       res.on('end', () => resolve(data));
     });
     req.on('error', reject);
-    req.setTimeout(15000, () => {
+    req.setTimeout(10000, () => {
       req.destroy();
       reject(new Error('Timeout'));
     });
@@ -60,7 +62,6 @@ function parseHomepage(html) {
   const result = { lead: null, live: [], headlines: [] };
   const seen = new Set();
 
-  // Live stories
   $('a[href*="/live/"]').each((i, el) => {
     let h = $(el).text().trim().replace(/\s+/g, ' ').replace(/Jan\.\s*\d+.*?ET/gi, '').trim();
     if (h.length < 5) return;
@@ -72,7 +73,6 @@ function parseHomepage(html) {
     }
   });
 
-  // Regular articles - match current and previous year
   const currentYear = new Date().getFullYear();
   const prevYear = currentYear - 1;
   $(`a[href*="/${currentYear}/"], a[href*="/${prevYear}/"]`).each((i, el) => {
@@ -112,57 +112,6 @@ function parseSection(html, name) {
   return headlines;
 }
 
-async function scrapeNYT() {
-  console.log('Scraping NYT...');
-  const results = { lead: null, live: [], primary: [], secondary: [], timestamp: null };
-
-  const tasks = [
-    { type: 'homepage', url: 'https://www.nytimes.com/' },
-    { type: 'section', url: 'https://www.nytimes.com/section/us', name: 'U.S.' },
-    { type: 'section', url: 'https://www.nytimes.com/section/politics', name: 'Politics' },
-    { type: 'section', url: 'https://www.nytimes.com/section/world/americas', name: 'Latin America' },
-    { type: 'section', url: 'https://www.nytimes.com/section/world/europe', name: 'Europe' },
-    { type: 'section', url: 'https://www.nytimes.com/section/world/asia', name: 'Asia' },
-    { type: 'section', url: 'https://www.nytimes.com/section/world/middleeast', name: 'Middle East' },
-    { type: 'section', url: 'https://www.nytimes.com/section/world/africa', name: 'Africa' },
-    { type: 'section', url: 'https://www.nytimes.com/section/business', name: 'Business' },
-    { type: 'section', url: 'https://www.nytimes.com/section/technology', name: 'Technology' }
-  ];
-
-  const seen = new Set();
-
-  for (const task of tasks) {
-    try {
-      const html = await fetch(task.url);
-      if (task.type === 'homepage') {
-        const hp = parseHomepage(html);
-        results.lead = hp.lead;
-        results.live = hp.live;
-        hp.headlines.slice(0, 10).forEach(h => {
-          if (!seen.has(h.url)) {
-            seen.add(h.url);
-            results.primary.push(h);
-          }
-        });
-      } else {
-        const headlines = parseSection(html, task.name);
-        headlines.slice(0, 5).forEach(h => {
-          if (!seen.has(h.url)) {
-            seen.add(h.url);
-            results.secondary.push(h);
-          }
-        });
-      }
-      console.log(`  ✓ ${task.name || 'Homepage'}`);
-    } catch (e) {
-      console.log(`  ✗ ${task.name || 'Homepage'}: ${e.message}`);
-    }
-  }
-
-  results.timestamp = new Date().toISOString();
-  return results;
-}
-
 // ============================================
 // RSS SCRAPING
 // ============================================
@@ -194,51 +143,101 @@ function parseRSS(xml) {
   return items;
 }
 
-const RSS_FEEDS = {
-  reuters: [{ name: 'Reuters', url: 'https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US' }],
-  ap: [{ name: 'AP', url: 'https://news.google.com/rss/search?q=when:24h+allinurl:apnews.com&ceid=US:en&hl=en-US&gl=US' }],
-  bbc: [{ name: 'BBC World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml' }],
-  wsj: [
-    { name: 'WSJ World', url: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml' },
-    { name: 'WSJ Markets', url: 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml' }
-  ],
-  ft: [{ name: 'FT', url: 'https://www.ft.com/rss/home' }],
-  bloomberg: [
-    { name: 'Bloomberg Markets', url: 'https://feeds.bloomberg.com/markets/news.rss' },
-    { name: 'Bloomberg Politics', url: 'https://feeds.bloomberg.com/politics/news.rss' }
-  ],
-  guardian: [{ name: 'Guardian World', url: 'https://www.theguardian.com/world/rss' }],
-  aljazeera: [{ name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml' }],
-  washpost: [{ name: 'Washington Post World', url: 'https://feeds.washingtonpost.com/rss/world' }],
-  economist: [{ name: 'Economist', url: 'https://news.google.com/rss/search?q=when:7d+allinurl:economist.com&ceid=US:en&hl=en-US&gl=US' }],
-  scmp: [{ name: 'South China Morning Post', url: 'https://www.scmp.com/rss/91/feed' }],
-  timesofisrael: [{ name: 'Times of Israel', url: 'https://www.timesofisrael.com/feed/' }],
-  afp: [{ name: 'AFP/France24', url: 'https://www.france24.com/en/rss' }]
-};
+// ============================================
+// ALL SOURCES (fetched in parallel)
+// ============================================
 
-async function scrapeRSS() {
-  console.log('Scraping RSS feeds...');
-  const results = {};
+const ALL_SOURCES = [
+  // NYT
+  { id: 'nyt_homepage', type: 'nyt', url: 'https://www.nytimes.com/', name: 'Homepage' },
+  { id: 'nyt_us', type: 'nyt_section', url: 'https://www.nytimes.com/section/us', name: 'U.S.' },
+  { id: 'nyt_politics', type: 'nyt_section', url: 'https://www.nytimes.com/section/politics', name: 'Politics' },
+  { id: 'nyt_latam', type: 'nyt_section', url: 'https://www.nytimes.com/section/world/americas', name: 'Latin America' },
+  { id: 'nyt_europe', type: 'nyt_section', url: 'https://www.nytimes.com/section/world/europe', name: 'Europe' },
+  { id: 'nyt_asia', type: 'nyt_section', url: 'https://www.nytimes.com/section/world/asia', name: 'Asia' },
+  { id: 'nyt_mideast', type: 'nyt_section', url: 'https://www.nytimes.com/section/world/middleeast', name: 'Middle East' },
+  { id: 'nyt_africa', type: 'nyt_section', url: 'https://www.nytimes.com/section/world/africa', name: 'Africa' },
+  { id: 'nyt_business', type: 'nyt_section', url: 'https://www.nytimes.com/section/business', name: 'Business' },
+  { id: 'nyt_tech', type: 'nyt_section', url: 'https://www.nytimes.com/section/technology', name: 'Technology' },
 
-  for (const [source, feeds] of Object.entries(RSS_FEEDS)) {
-    results[source] = [];
-    for (const feed of feeds) {
+  // RSS feeds
+  { id: 'reuters', type: 'rss', url: 'https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US', name: 'Reuters' },
+  { id: 'ap', type: 'rss', url: 'https://news.google.com/rss/search?q=when:24h+allinurl:apnews.com&ceid=US:en&hl=en-US&gl=US', name: 'AP' },
+  { id: 'bbc', type: 'rss', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', name: 'BBC World' },
+  { id: 'wsj', type: 'rss', url: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml', name: 'WSJ World' },
+  { id: 'wsj_markets', type: 'rss', url: 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml', name: 'WSJ Markets' },
+  { id: 'bloomberg', type: 'rss', url: 'https://feeds.bloomberg.com/markets/news.rss', name: 'Bloomberg Markets' },
+  { id: 'bloomberg_politics', type: 'rss', url: 'https://feeds.bloomberg.com/politics/news.rss', name: 'Bloomberg Politics' },
+  { id: 'guardian', type: 'rss', url: 'https://www.theguardian.com/world/rss', name: 'Guardian World' },
+  { id: 'aljazeera', type: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml', name: 'Al Jazeera' },
+  { id: 'washpost', type: 'rss', url: 'https://feeds.washingtonpost.com/rss/world', name: 'Washington Post' },
+  { id: 'economist', type: 'rss', url: 'https://news.google.com/rss/search?q=when:7d+allinurl:economist.com&ceid=US:en&hl=en-US&gl=US', name: 'Economist' },
+  { id: 'scmp', type: 'rss', url: 'https://www.scmp.com/rss/91/feed', name: 'SCMP' },
+  { id: 'timesofisrael', type: 'rss', url: 'https://www.timesofisrael.com/feed/', name: 'Times of Israel' },
+  { id: 'afp', type: 'rss', url: 'https://www.france24.com/en/rss', name: 'AFP/France24' }
+];
+
+async function scrapeAll() {
+  console.log('Fetching all sources in parallel...');
+
+  // Fetch everything at once
+  const results = await Promise.all(
+    ALL_SOURCES.map(async (source) => {
       try {
-        const xml = await fetch(feed.url);
-        const items = parseRSS(xml);
-        results[source].push(...items.slice(0, 8).map(item => ({
-          ...item,
-          source: feed.name
-        })));
-        console.log(`  ✓ ${feed.name} (${items.length} items)`);
+        const html = await fetch(source.url);
+        return { ...source, html, error: null };
       } catch (e) {
-        console.log(`  ✗ ${feed.name}: ${e.message}`);
+        return { ...source, html: null, error: e.message };
       }
+    })
+  );
+
+  // Process results
+  const nyt = { lead: null, live: [], primary: [], secondary: [], timestamp: new Date().toISOString() };
+  const secondary = { timestamp: new Date().toISOString() };
+  const seen = new Set();
+
+  for (const result of results) {
+    if (result.error) {
+      console.log(`  ✗ ${result.name}: ${result.error}`);
+      continue;
+    }
+
+    if (result.type === 'nyt') {
+      const hp = parseHomepage(result.html);
+      nyt.lead = hp.lead;
+      nyt.live = hp.live;
+      hp.headlines.slice(0, 10).forEach(h => {
+        if (!seen.has(h.url)) {
+          seen.add(h.url);
+          nyt.primary.push(h);
+        }
+      });
+      console.log(`  ✓ ${result.name}`);
+    }
+    else if (result.type === 'nyt_section') {
+      const headlines = parseSection(result.html, result.name);
+      headlines.slice(0, 5).forEach(h => {
+        if (!seen.has(h.url)) {
+          seen.add(h.url);
+          nyt.secondary.push(h);
+        }
+      });
+      console.log(`  ✓ ${result.name}`);
+    }
+    else if (result.type === 'rss') {
+      const items = parseRSS(result.html);
+      const key = result.id.replace('_markets', '').replace('_politics', '');
+      if (!secondary[key]) secondary[key] = [];
+      secondary[key].push(...items.slice(0, 8).map(item => ({
+        ...item,
+        source: result.name
+      })));
+      console.log(`  ✓ ${result.name} (${items.length} items)`);
     }
   }
 
-  results.timestamp = new Date().toISOString();
-  return results;
+  return { nyt, secondary };
 }
 
 // ============================================
@@ -254,11 +253,7 @@ async function main() {
 
   const startTime = Date.now();
 
-  // Run both scrapers in parallel
-  const [nyt, secondary] = await Promise.all([
-    scrapeNYT(),
-    scrapeRSS()
-  ]);
+  const { nyt, secondary } = await scrapeAll();
 
   const briefing = {
     nyt,
@@ -267,7 +262,6 @@ async function main() {
     source: 'github-actions'
   };
 
-  // Save to file (will be committed by GitHub Actions)
   fs.writeFileSync('briefing.json', JSON.stringify(briefing, null, 2));
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
@@ -281,9 +275,7 @@ async function main() {
   console.log(`RSS sources: ${Object.keys(secondary).length - 1}`);
   console.log(`Time: ${elapsed}s`);
   console.log('');
-  console.log('Output: briefing.json');
 
-  // Exit with error if no data (so GitHub Actions marks it as failed)
   if (!nyt.lead && nyt.primary.length === 0) {
     console.error('❌ FAILED: No NYT data scraped');
     process.exit(1);
