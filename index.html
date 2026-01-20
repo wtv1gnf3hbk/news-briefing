@@ -8,199 +8,48 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: Georgia, 'Times New Roman', serif;
-      line-height: 1.6;
+      line-height: 1.7;
       max-width: 680px;
       margin: 0 auto;
-      padding: 24px 16px;
+      padding: 32px 16px;
       background: #fafafa;
       color: #1a1a1a;
-    }
-    h1 {
-      font-size: 1.5rem;
-      font-weight: normal;
-      margin-bottom: 8px;
-      color: #333;
     }
     .timestamp {
       font-size: 0.85rem;
       color: #666;
       margin-bottom: 24px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid #ddd;
     }
-    .lead {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
+    h1, h2, strong {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     }
-    .section {
-      margin: 24px 0;
-    }
-    .section h2 {
-      font-size: 0.9rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #666;
-      margin-bottom: 12px;
-      padding-bottom: 6px;
-      border-bottom: 2px solid #333;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-      padding-left: 0;
-    }
-    li::before {
-      content: "- ";
-      color: #999;
-    }
+    p { margin-bottom: 16px; }
+    ul { margin: 12px 0 20px 0; padding-left: 0; list-style: none; }
+    li { margin-bottom: 10px; padding-left: 16px; position: relative; }
+    li::before { content: "•"; position: absolute; left: 0; color: #999; }
     a {
       color: #1a1a1a;
       text-decoration: underline;
-      text-decoration-color: #ccc;
+      text-decoration-color: #999;
       text-underline-offset: 2px;
     }
-    a:hover {
-      text-decoration-color: #333;
-    }
-    .region {
-      font-weight: bold;
-      color: #555;
-    }
-    .source {
-      font-size: 0.8rem;
-      color: #888;
-    }
-    #loading {
-      text-align: center;
-      padding: 40px;
-      color: #666;
-    }
-    #error {
-      background: #fee;
-      padding: 16px;
-      border-radius: 4px;
-      color: #c00;
-      display: none;
-    }
+    a:hover { text-decoration-color: #333; }
+    strong { font-weight: 600; }
   </style>
 </head>
 <body>
-  <div id="loading">Loading briefing...</div>
-  <div id="error"></div>
-  <div id="content" style="display: none;">
-    <h1>Good morning, Adam.</h1>
-    <div class="timestamp" id="timestamp"></div>
-
-    <div class="lead" id="lead"></div>
-
-    <div class="section" id="live-section" style="display: none;">
-      <h2>Live Coverage</h2>
-      <ul id="live"></ul>
-    </div>
-
-    <div class="section">
-      <h2>Top Stories</h2>
-      <ul id="primary"></ul>
-    </div>
-
-    <div class="section">
-      <h2>Business & Tech</h2>
-      <ul id="business"></ul>
-    </div>
-
-    <div class="section">
-      <h2>Around the World</h2>
-      <ul id="world"></ul>
-    </div>
-
-    <div class="section">
-      <h2>Wire Services</h2>
-      <ul id="wires"></ul>
-    </div>
+  <div class="timestamp">Generated Tuesday, January 20, 2026 at 1:24 PM ET</div>
+  <div id="content">
+<p>Good morning Adam. Here's the state of play:</p><p>The big story today is Trump ramping up his confrontation with Europe as he heads to Davos, with his <a href="https://www.nytimes.com/2026/01/20/world/europe/davos-trump-europe.html" target="_blank">Greenland threats</a> now triggering serious pushback from European leaders and market jitters. What started as seemingly outlandish territorial ambitions is now looking more like a calculated pressure campaign that's putting real strain on transatlantic relations. European officials are <a href="https://www.nytimes.com/live/2026/01/20/us/trump-news" target="_blank">pushing back</a> hard, with EU foreign policy chief Kaja Kallas questioning Trump's trustworthiness, per the BBC.</p><p>The market reaction tells you how seriously investors are taking this. <a href="https://www.nytimes.com/live/2026/01/20/us/trump-news#stocks-trump-greenland-tariffs" target="_blank">U.S. stocks</a> tumbled yesterday on renewed tariff fears, and volatility gauges are jumping as Trump's threats spook investors, per Reuters. Meanwhile, Canada's prime minister is calling this a <a href="https://www.nytimes.com/live/2026/01/20/us/trump-news#carney-davos-speech-world-economic-forum" target="_blank">"rupture"</a> in the world order at Davos. It's shaping up to be a defining moment for how Trump's second term will reshape global relationships - and whether his <a href="https://www.nytimes.com/2026/01/20/us/politics/trump-oval-office-world-leaders.html" target="_blank">use of power</a> on the world stage will bring results or chaos.</p><p><strong>Business/Tech</strong></p>
+<p>• <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXNNMU1IWkF0VUM1YnBsYl96ZXI4WWQ4ajR1VjMtZHl2TDY0aTBVdEFYVjlCS0J1OUVvbldPQ0h3YlNfakluZDdtQURadjA2VFFzeXZFdl9fVlhjZjRsbjY0WlpOTmVrSE5zeTBvdDJqMHVmbmYyeFZVQnhIZEUzYWgxOHJuVjJIWF9ieUh1eV9EdjMyMG9qYmw1QU5nZ1FaSW5WVklydzkybm5mdEVFbEhUbVBDUnM?oc=5" target="_blank">AstraZeneca is switching</a> from Nasdaq to NYSE in February, per Reuters</p>
+<p>• <a href="https://www.bloomberg.com/news/articles/2026-01-20/stripe-s-collison-says-no-rush-for-payment-firm-to-go-public" target="_blank">Stripe's co-founder</a> says there's no "rush" for the payment giant to go public, per Bloomberg  </p>
+<p>• Global market jitters are causing some <a href="https://www.bloomberg.com/news/articles/2026-01-20/bond-borrowers-make-cautious-return-as-greenland-tensions-bite" target="_blank">companies to pause</a> debt sales amid the Greenland tensions, per Bloomberg</p>
+<p>• Trump's <a href="https://www.nytimes.com/2026/01/20/business/trump-first-year-economy.html" target="_blank">first year</a> could have lasting economic consequences, and <a href="https://www.nytimes.com/2026/01/20/business/davos-trump.html" target="_blank">A.I. and Big Tech</a> are shining brightest at the Davos spectacle</p><p><strong>Around the World</strong></p>
+<p>• <strong>Latin America</strong>: A <a href="https://www.nytimes.com/2026/01/20/world/americas/venezuela-prisoner-release.html" target="_blank">Venezuelan political prisoner</a> has finally come home, while the <a href="https://www.nytimes.com/2026/01/19/world/americas/death-toll-rises-in-guatemalan-gang-riots.html" target="_blank">death toll rises</a> in Guatemalan gang riots</p>
+<p>• <strong>Europe</strong>: Britain <a href="https://www.nytimes.com/2026/01/20/world/europe/chinese-embassy-london-starmer.html" target="_blank">approved a contentious</a> Chinese mega-embassy in London, while Spain continues <a href="https://www.nytimes.com/2026/01/20/world/europe/spain-train-crash-track-investigation.html" target="_blank">mourning train crash</a> victims as investigators focus on track issues</p>
+<p>• <strong>Asia</strong>: ISIS <a href="https://www.nytimes.com/2026/01/20/world/asia/isis-kabul-bomb-china.html" target="_blank">claimed a deadly attack</a> on a Chinese restaurant in Afghanistan, and there's a fascinating look at <a href="https://www.nytimes.com/2026/01/20/world/asia/china-ocean-flower-island-real-estate.html" target="_blank">a Chinese island</a> where real estate dreams never die</p>
+<p>• <strong>Middle East</strong>: The Afghanistan attack targeting Chinese nationals shows ISIS is still active and trying to disrupt China's regional ambitions</p>
+<p>• <strong>Africa</strong>: The <a href="https://news.google.com/rss/articles/CBMiuAFBVV85cUxOakJ2ZU02Rk1SVVNuNlU4Y3o5UVY5RmNfZ2JFSFFBQTByemdQdmZjWE1Ed2xhcjU3VjBDdHJOTFg0Z2NxLXNZRXhSeUxSZFA0cnE4M0FQZ1ZkQmxjVFRORnhIUmN1Rno5eWJEVUk0TlVINTBOMFVmSGtNZzVJeTVuT1VJWnRRcXc1b2l6czZ5cm1OVVNldkFrVE54YWh4dU14M2lMTEFpUEhBMWVVMEIyRTdNMVUyTEEw?oc=5" target="_blank">World Bank reports</a> that frontier markets are failing to live up to their economic potential, per Reuters</p>
   </div>
-
-  <script>
-    const BRIEFING_URL = 'briefing.json';
-
-    async function loadBriefing() {
-      try {
-        const res = await fetch(BRIEFING_URL);
-        if (!res.ok) throw new Error('Failed to load briefing');
-        const data = await res.json();
-        renderBriefing(data);
-      } catch (e) {
-        document.getElementById('loading').style.display = 'none';
-        document.getElementById('error').style.display = 'block';
-        document.getElementById('error').textContent = 'Could not load briefing: ' + e.message;
-      }
-    }
-
-    function renderBriefing(data) {
-      document.getElementById('loading').style.display = 'none';
-      document.getElementById('content').style.display = 'block';
-
-      // Timestamp
-      const date = new Date(data.generated);
-      document.getElementById('timestamp').textContent =
-        date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }) +
-        ' at ' + date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-
-      // Lead story
-      if (data.nyt.lead) {
-        document.getElementById('lead').innerHTML =
-          `<strong>Lead:</strong> <a href="${data.nyt.lead.url}" target="_blank">${data.nyt.lead.headline}</a>`;
-      }
-
-      // Live coverage
-      if (data.nyt.live && data.nyt.live.length > 0) {
-        document.getElementById('live-section').style.display = 'block';
-        document.getElementById('live').innerHTML = data.nyt.live
-          .slice(0, 3)
-          .map(item => `<li><a href="${item.url}" target="_blank">${item.headline}</a></li>`)
-          .join('');
-      }
-
-      // Primary headlines
-      document.getElementById('primary').innerHTML = data.nyt.primary
-        .slice(1, 6) // Skip lead, show next 5
-        .map(item => `<li><a href="${item.url}" target="_blank">${item.headline}</a></li>`)
-        .join('');
-
-      // Business & Tech (from secondary)
-      const bizTech = data.nyt.secondary.filter(h =>
-        h.source === 'Business' || h.source === 'Technology'
-      ).slice(0, 5);
-      document.getElementById('business').innerHTML = bizTech
-        .map(item => `<li><a href="${item.url}" target="_blank">${item.headline}</a></li>`)
-        .join('');
-
-      // World news by region
-      const regions = ['Latin America', 'Europe', 'Asia', 'Middle East', 'Africa'];
-      const worldItems = [];
-      regions.forEach(region => {
-        const item = data.nyt.secondary.find(h => h.source === region);
-        if (item) {
-          worldItems.push(`<li><span class="region">${region}:</span> <a href="${item.url}" target="_blank">${item.headline}</a></li>`);
-        }
-      });
-      document.getElementById('world').innerHTML = worldItems.join('');
-
-      // Wire services
-      const wires = [];
-      ['reuters', 'ap', 'bbc'].forEach(source => {
-        if (data.secondary[source] && data.secondary[source].length > 0) {
-          const item = data.secondary[source][0];
-          wires.push(`<li><a href="${item.link}" target="_blank">${item.title}</a> <span class="source">(${item.source})</span></li>`);
-        }
-      });
-      document.getElementById('wires').innerHTML = wires.slice(0, 5).join('');
-    }
-
-    loadBriefing();
-  </script>
 </body>
 </html>
