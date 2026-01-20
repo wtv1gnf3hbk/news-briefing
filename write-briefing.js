@@ -121,7 +121,8 @@ LINKS (CRITICAL):
 - Every bullet must have at least one link
 
 ATTRIBUTION:
-- For non-NYT stories, weave attribution naturally: "per Reuters", "BBC reports", etc.
+- For non-NYT stories, vary your attribution language: "Reuters reports", "according to Bloomberg", "the BBC notes", "per AP" (use "per X" only once in the entire briefing)
+- Don't over-attribute - if it's clearly sourced from the link, you don't always need to say where it came from
 
 Here's the data:
 
