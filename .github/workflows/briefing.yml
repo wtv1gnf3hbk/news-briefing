@@ -5,9 +5,9 @@ name: Generate Briefing
 
 on:
   schedule:
-    # 5:30am ET = 10:30 UTC (during EST)
-    # Note: During EDT (daylight saving), this will be 6:30am ET
-    - cron: '30 10 * * *'
+    # 6am ET = 11:00 UTC (during EST)
+    # Note: During EDT (daylight saving), this will be 7am ET
+    - cron: '0 11 * * *'
 
   # Manual trigger for testing
   workflow_dispatch:
