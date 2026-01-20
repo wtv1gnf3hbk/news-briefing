@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Briefing</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.6;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      background: #fafafa;
+      color: #1a1a1a;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    .timestamp {
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #ddd;
+    }
+    .lead {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    .section {
+      margin: 24px 0;
+    }
+    .section h2 {
+      font-size: 0.9rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #666;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      padding-left: 0;
+    }
+    li::before {
+      content: "- ";
+      color: #999;
+    }
+    a {
+      color: #1a1a1a;
+      text-decoration: underline;
+      text-decoration-color: #ccc;
+      text-underline-offset: 2px;
+    }
+    a:hover {
+      text-decoration-color: #333;
+    }
+    .region {
+      font-weight: bold;
+      color: #555;
+    }
+    .source {
+      font-size: 0.8rem;
+      color: #888;
+    }
+    #loading {
+      text-align: center;
+      padding: 40px;
+      color: #666;
+    }
+    #error {
+      background: #fee;
+      padding: 16px;
+      border-radius: 4px;
+      color: #c00;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">Loading briefing...</div>
+  <div id="error"></div>
+  <div id="content" style="display: none;">
+    <h1>Good morning, Adam.</h1>
+    <div class="timestamp" id="timestamp"></div>
+
+    <div class="lead" id="lead"></div>
+
+    <div class="section" id="live-section" style="display: none;">
+      <h2>Live Coverage</h2>
+      <ul id="live"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Top Stories</h2>
+      <ul id="primary"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Business & Tech</h2>
+      <ul id="business"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Around the World</h2>
+      <ul id="world"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Wire Services</h2>
+      <ul id="wires"></ul>
+    </div>
+  </div>
+
+  <script>
+    const BRIEFING_URL = 'briefing.json';
+
+    async function loadBriefing() {
+      try {
+        const res = await fetch(BRIEFING_URL);
+        if (!res.ok) throw new Error('Failed to load briefing');
+        const data = await res.json();
+        renderBriefing(data);
+      } catch (e) {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+        document.getElementById('error').textContent = 'Could not load briefing: ' + e.message;
+      }
+    }
+
+    function renderBriefing(data) {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+
+      // Timestamp
+      const date = new Date(data.generated);
+      document.getElementById('timestamp').textContent =
+        date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }) +
+        ' at ' + date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+
+      // Lead story
+      if (data.nyt.lead) {
+        document.getElementById('lead').innerHTML =
+          `<strong>Lead:</strong> <a href="${data.nyt.lead.url}" target="_blank">${data.nyt.lead.headline}</a>`;
+      }
+
+      // Live coverage
+      if (data.nyt.live && data.nyt.live.length > 0) {
+        document.getElementById('live-section').style.display = 'block';
+        document.getElementById('live').innerHTML = data.nyt.live
+          .slice(0, 3)
+          .map(item => `<li><a href="${item.url}" target="_blank">${item.headline}</a></li>`)
+          .join('');
+      }
+
+      // Primary headlines
+      document.getElementById('primary').innerHTML = data.nyt.primary
+        .slice(1, 6) // Skip lead, show next 5
+        .map(item => `<li><a href="${item.url}" target="_blank">${item.headline}</a></li>`)
+        .join('');
+
+      // Business & Tech (from secondary)
+      const bizTech = data.nyt.secondary.filter(h =>
+        h.source === 'Business' || h.source === 'Technology'
+      ).slice(0, 5);
+      document.getElementById('business').innerHTML = bizTech
+        .map(item => `<li><a href="${item.url}" target="_blank">${item.headline}</a></li>`)
+        .join('');
+
+      // World news by region
+      const regions = ['Latin America', 'Europe', 'Asia', 'Middle East', 'Africa'];
+      const worldItems = [];
+      regions.forEach(region => {
+        const item = data.nyt.secondary.find(h => h.source === region);
+        if (item) {
+          worldItems.push(`<li><span class="region">${region}:</span> <a href="${item.url}" target="_blank">${item.headline}</a></li>`);
+        }
+      });
+      document.getElementById('world').innerHTML = worldItems.join('');
+
+      // Wire services
+      const wires = [];
+      ['reuters', 'ap', 'bbc'].forEach(source => {
+        if (data.secondary[source] && data.secondary[source].length > 0) {
+          const item = data.secondary[source][0];
+          wires.push(`<li><a href="${item.link}" target="_blank">${item.title}</a> <span class="source">(${item.source})</span></li>`);
+        }
+      });
+      document.getElementById('wires').innerHTML = wires.slice(0, 5).join('');
+    }
+
+    loadBriefing();
+  </script>
+</body>
+</html>
