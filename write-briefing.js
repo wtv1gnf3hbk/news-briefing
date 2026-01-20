@@ -74,11 +74,18 @@ async function main() {
   const briefing = JSON.parse(fs.readFileSync('briefing.json', 'utf8'));
 
   // Build a condensed version for the prompt (to save tokens)
+  // Extract regional stories explicitly
+  const regions = ['Latin America', 'Europe', 'Asia', 'Middle East', 'Africa', 'U.S.', 'Politics', 'Business', 'Technology'];
+  const byRegion = {};
+  regions.forEach(r => {
+    byRegion[r] = briefing.nyt.secondary.filter(h => h.source === r).slice(0, 3);
+  });
+
   const condensed = {
     lead: briefing.nyt.lead,
     live: briefing.nyt.live.slice(0, 3),
     primary: briefing.nyt.primary.slice(0, 8),
-    secondary: briefing.nyt.secondary.slice(0, 15),
+    byRegion: byRegion,
     wire: {
       reuters: briefing.secondary.reuters?.slice(0, 3) || [],
       ap: briefing.secondary.ap?.slice(0, 3) || [],
@@ -92,16 +99,19 @@ async function main() {
 Write a conversational briefing based on this headline data. Follow these rules EXACTLY:
 
 FORMAT:
-- Start with "Good morning Adam. Here's the state of play:"
+- Start with "Good morning. Here's the state of play:" (no name, just greeting)
 - 2-3 paragraphs on the lead/top stories (synthesize, don't just list)
 - "**Business/Tech**" section with 3-4 bullet points
-- "**Around the World**" section with bullets for: Latin America, Europe, Asia, Middle East, Africa (one story each)
+- "**Around the World**" section with bullets for: Latin America, Europe, Asia, Middle East, Africa (one story each - ALWAYS include a real story for each region, never say "limited coverage")
 
 STYLE:
-- Conversational, like chatting with a well-informed friend
+- Conversational throughout, like chatting with a well-informed friend
 - Warm but not jokey. Use contractions.
 - Lead with context/stakes, not just headlines
 - Full sentences, not headline fragments
+- BULLETS MUST BE CONVERSATIONAL TOO - write them as complete thoughts with context, not just "Headline happened, per Source"
+- BAD bullet: "AstraZeneca is switching from Nasdaq to NYSE, per Reuters"
+- GOOD bullet: "AstraZeneca's planning to ditch Nasdaq for the NYSE next month - a rare transatlantic switch that says something about where the action is"
 
 LINKS (CRITICAL):
 - Use markdown links: [link text](url)
@@ -111,7 +121,7 @@ LINKS (CRITICAL):
 - Every bullet must have at least one link
 
 ATTRIBUTION:
-- For non-NYT stories, attribute: "per Reuters", "BBC reports", etc.
+- For non-NYT stories, weave attribution naturally: "per Reuters", "BBC reports", etc.
 
 Here's the data:
 
@@ -124,8 +134,8 @@ ${JSON.stringify(condensed.live, null, 2)}
 TOP HEADLINES:
 ${JSON.stringify(condensed.primary, null, 2)}
 
-SECTION HEADLINES (by region/topic):
-${JSON.stringify(condensed.secondary, null, 2)}
+STORIES BY REGION (use these for Around the World section):
+${JSON.stringify(condensed.byRegion, null, 2)}
 
 WIRE SERVICES:
 ${JSON.stringify(condensed.wire, null, 2)}

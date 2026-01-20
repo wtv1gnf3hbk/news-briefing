@@ -1,18 +1,27 @@
-Good morning Adam. Here's the state of play:
+Good morning. Here's the state of play:
 
-The big story today is Trump ramping up his confrontation with Europe as he heads to Davos, with his [Greenland threats](https://www.nytimes.com/2026/01/20/world/europe/davos-trump-europe.html) now triggering serious pushback from European leaders and market jitters. What started as seemingly outlandish territorial ambitions is now looking more like a calculated pressure campaign that's putting real strain on transatlantic relations. European officials are [pushing back](https://www.nytimes.com/live/2026/01/20/us/trump-news) hard, with EU foreign policy chief Kaja Kallas questioning Trump's trustworthiness, per the BBC.
+The world's getting a front-row seat to Trump 2.0 in action, and it's making everyone pretty nervous. The president's [doubling down](https://www.nytimes.com/live/2026/01/20/us/trump-news) on his Greenland threats — he says he'll "100%" impose tariffs on Denmark if they don't play ball — and European leaders are pushing back hard. It's not just diplomatic theater: markets are spooked, with [U.S. stocks tumbling](https://www.nytimes.com/live/2026/01/20/us/trump-news#stocks-trump-greenland-tariffs) on fears of a transatlantic trade war.
 
-The market reaction tells you how seriously investors are taking this. [U.S. stocks](https://www.nytimes.com/live/2026/01/20/us/trump-news#stocks-trump-greenland-tariffs) tumbled yesterday on renewed tariff fears, and volatility gauges are jumping as Trump's threats spook investors, per Reuters. Meanwhile, Canada's prime minister is calling this a ["rupture"](https://www.nytimes.com/live/2026/01/20/us/trump-news#carney-davos-speech-world-economic-forum) in the world order at Davos. It's shaping up to be a defining moment for how Trump's second term will reshape global relationships - and whether his [use of power](https://www.nytimes.com/2026/01/20/us/politics/trump-oval-office-world-leaders.html) on the world stage will bring results or chaos.
+The timing couldn't be more dramatic, with world leaders gathering at Davos where [Trump's presence](https://www.nytimes.com/2026/01/20/world/europe/davos-trump-europe.html) is casting a shadow over everything. Canada's prime minister captured the mood, declaring there's been a "rupture" in the world order. Meanwhile, the EU's foreign policy chief is warning they'll "hold their ground" — diplomatic speak for "bring it on." What we're watching is Trump testing just how far he can push America's allies, and the early returns suggest we're in for a bumpy ride.
 
 **Business/Tech**
-• [AstraZeneca is switching](https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXNNMU1IWkF0VUM1YnBsYl96ZXI4WWQ4ajR1VjMtZHl2TDY0aTBVdEFYVjlCS0J1OUVvbldPQ0h3YlNfakluZDdtQURadjA2VFFzeXZFdl9fVlhjZjRsbjY0WlpOTmVrSE5zeTBvdDJqMHVmbmYyeFZVQnhIZEUzYWgxOHJuVjJIWF9ieUh1eV9EdjMyMG9qYmw1QU5nZ1FaSW5WVklydzkybm5mdEVFbEhUbVBDUnM?oc=5) from Nasdaq to NYSE in February, per Reuters
-• [Stripe's co-founder](https://www.bloomberg.com/news/articles/2026-01-20/stripe-s-collison-says-no-rush-for-payment-firm-to-go-public) says there's no "rush" for the payment giant to go public, per Bloomberg  
-• Global market jitters are causing some [companies to pause](https://www.bloomberg.com/news/articles/2026-01-20/bond-borrowers-make-cautious-return-as-greenland-tensions-bite) debt sales amid the Greenland tensions, per Bloomberg
-• Trump's [first year](https://www.nytimes.com/2026/01/20/business/trump-first-year-economy.html) could have lasting economic consequences, and [A.I. and Big Tech](https://www.nytimes.com/2026/01/20/business/davos-trump.html) are shining brightest at the Davos spectacle
+
+• [AstraZeneca's planning](https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXNNMU1IWkF0VUM1YnBsYl96ZXI4WWQ4ajR1VjMtZHl2TDY0aTBVdEFYVjlCS0J1OUVvbldPQ0h3YlNfakluZDdtQURadjA2VFFzeXZFdl9fVlhjZjRsbjY0WlpOTmVrSE5zeTB) to ditch Nasdaq for the NYSE next month — a rare transatlantic switch that says something about where the financial action is, per Reuters.
+
+• [Netflix is revamping](https://www.nytimes.com/2026/01/20/business/netflix-warner-bros-discovery-paramount-takeover.html) its Warner Bros. bid to try to block Paramount's takeover attempt, setting up what could be a messy Hollywood battle.
+
+• [Stripe's co-founder says](https://www.bloomberg.com/news/articles/2026-01-20/stripe-s-collison-says-no-rush-for-payment-firm-to-go-public) there's no "rush" for the payment giant to go public, which probably disappoints investors who've been waiting for that IPO payday.
+
+• [An A.I. startup](https://www.nytimes.com/2026/01/20/technology/humans-ai-anthropic-xai.html) is making the familiar pitch that it wants to empower workers, not replace them — though we've heard that song before.
 
 **Around the World**
-• **Latin America**: A [Venezuelan political prisoner](https://www.nytimes.com/2026/01/20/world/americas/venezuela-prisoner-release.html) has finally come home, while the [death toll rises](https://www.nytimes.com/2026/01/19/world/americas/death-toll-rises-in-guatemalan-gang-riots.html) in Guatemalan gang riots
-• **Europe**: Britain [approved a contentious](https://www.nytimes.com/2026/01/20/world/europe/chinese-embassy-london-starmer.html) Chinese mega-embassy in London, while Spain continues [mourning train crash](https://www.nytimes.com/2026/01/20/world/europe/spain-train-crash-track-investigation.html) victims as investigators focus on track issues
-• **Asia**: ISIS [claimed a deadly attack](https://www.nytimes.com/2026/01/20/world/asia/isis-kabul-bomb-china.html) on a Chinese restaurant in Afghanistan, and there's a fascinating look at [a Chinese island](https://www.nytimes.com/2026/01/20/world/asia/china-ocean-flower-island-real-estate.html) where real estate dreams never die
-• **Middle East**: The Afghanistan attack targeting Chinese nationals shows ISIS is still active and trying to disrupt China's regional ambitions
-• **Africa**: The [World Bank reports](https://news.google.com/rss/articles/CBMiuAFBVV85cUxOakJ2ZU02Rk1SVVNuNlU4Y3o5UVY5RmNfZ2JFSFFBQTByemdQdmZjWE1Ed2xhcjU3VjBDdHJOTFg0Z2NxLXNZRXhSeUxSZFA0cnE4M0FQZ1ZkQmxjVFRORnhIUmN1Rno5eWJEVUk0TlVINTBOMFVmSGtNZzVJeTVuT1VJWnRRcXc1b2l6czZ5cm1OVVNldkFrVE54YWh4dU14M2lMTEFpUEhBMWVVMEIyRTdNMVUyTEEw?oc=5) that frontier markets are failing to live up to their economic potential, per Reuters
+
+• **Latin America:** [A Venezuelan political prisoner](https://www.nytimes.com/2026/01/20/world/americas/venezuela-prisoner-release.html) has finally been released and made it home, offering a rare bit of hope amid the country's ongoing political crisis.
+
+• **Europe:** [Spain's investigators](https://www.bbc.com/news/articles/c5y2qjy9l4yo) are focusing on a possible gap in the railway track after that devastating train crash, while the country continues mourning the victims and working to recover people still trapped in the wreckage.
+
+• **Asia:** [ISIS claimed responsibility](https://www.nytimes.com/2026/01/20/world/asia/isis-kabul-bomb-china.html) for a deadly bombing at a Chinese restaurant in Kabul, highlighting how Afghanistan remains dangerous even under Taliban rule and how foreign businesses remain targets.
+
+• **Middle East:** There's [complete chaos](https://www.nytimes.com/2026/01/20/world/middleeast/syria-isis-camp-al-hol-kurds.html) at a camp housing ISIS families after Kurdish-led forces stopped providing security — a reminder of how fragile Syria's post-Assad transition remains.
+
+• **Africa:** [Church leaders say](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) over 160 people were kidnapped in Nigeria, though officials are denying it happened — the conflicting accounts highlighting how hard it is to get reliable information about security in the region.
