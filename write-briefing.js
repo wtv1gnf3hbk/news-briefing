@@ -198,7 +198,8 @@ Write the briefing now. Keep it concise but comprehensive.`;
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated ${new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })} at ${new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET</div>
+  <div class="timestamp">Generated ${new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })} at ${new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET · <a href="https://github.com/wtv1gnf3hbk/news-briefing/actions/workflows/briefing.yml">Refresh</a></div>
+
   <div id="content">
 ${briefingText
   .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
