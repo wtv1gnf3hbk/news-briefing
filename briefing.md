@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The world's getting a front-row seat to Trump 2.0 in action, and it's making everyone pretty nervous. The president's [doubling down](https://www.nytimes.com/live/2026/01/20/us/trump-news) on his Greenland threats — he says he'll "100%" impose tariffs on Denmark if they don't play ball — and European leaders are pushing back hard. It's not just diplomatic theater: markets are spooked, with [U.S. stocks tumbling](https://www.nytimes.com/live/2026/01/20/us/trump-news#stocks-trump-greenland-tariffs) on fears of a transatlantic trade war.
+The big picture today is all about alliances under pressure. Canada's making some bold moves on the global stage - [Mark Carney spoke](https://www.nytimes.com/2026/01/20/world/canada/carney-speech-davos-trump.html) at Davos yesterday with what sounds like a pretty direct message about Canada's place in the world, even as Trump's territorial ambitions loom large. Speaking of which, Trump's finally [heading to Davos](https://www.nytimes.com/live/2026/01/21/us/trump-davos-greenland-news) after an electrical issue delayed his departure, and his Greenland obsession is creating some serious headaches for NATO allies.
 
-The timing couldn't be more dramatic, with world leaders gathering at Davos where [Trump's presence](https://www.nytimes.com/2026/01/20/world/europe/davos-trump-europe.html) is casting a shadow over everything. Canada's prime minister captured the mood, declaring there's been a "rupture" in the world order. Meanwhile, the EU's foreign policy chief is warning they'll "hold their ground" — diplomatic speak for "bring it on." What we're watching is Trump testing just how far he can push America's allies, and the early returns suggest we're in for a bumpy ride.
+The Davos drama isn't just symbolic - it's reflecting real fractures in the transatlantic relationship that could reshape everything from trade to security cooperation. Meanwhile, back in Washington, the Supreme Court is weighing whether Trump can [fire Fed officials](https://www.nytimes.com/2026/01/21/us/politics/supreme-court-trump-fed-cook.html) at will, which would be a pretty massive shift in how monetary policy works. All of this is happening while his EPA has literally [valued human life](https://www.nytimes.com/2026/01/21/climate/epa-human-life-value.html) at zero dollars in new regulatory calculations - a stark signal about where environmental policy is headed.
 
 **Business/Tech**
 
-• [AstraZeneca's planning](https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXNNMU1IWkF0VUM1YnBsYl96ZXI4WWQ4ajR1VjMtZHl2TDY0aTBVdEFYVjlCS0J1OUVvbldPQ0h3YlNfakluZDdtQURadjA2VFFzeXZFdl9fVlhjZjRsbjY0WlpOTmVrSE5zeTB) to ditch Nasdaq for the NYSE next month — a rare transatlantic switch that says something about where the financial action is, per Reuters.
+• Netflix is [revamping its bid](https://www.nytimes.com/2026/01/20/business/netflix-warner-bros-discovery-paramount-takeover.html) for Warner Bros. Discovery, trying to outmaneuver Paramount in what's shaping up to be a massive media consolidation play.
 
-• [Netflix is revamping](https://www.nytimes.com/2026/01/20/business/netflix-warner-bros-discovery-paramount-takeover.html) its Warner Bros. bid to try to block Paramount's takeover attempt, setting up what could be a messy Hollywood battle.
+• Meta's CTO says their new AI team just delivered [key models internally](https://news.google.com/rss/articles/CBMixAFBVV95cUxOdU1NVGtGaXd3bm1BT1QzRTBoTHB0VG1zWGE5c2ljWmpQQW01cWVnOUNxN1RmS2M1bjR0QklXVkxJT1o5ZUg4OXFzQ1pKVGlkcnlGblhtWjhFenNQNUZsV1hjcklUbmdSaDl0NThaM0FraXB4VDl5eVg3bkRwZlRGQkJMUXFOOGgzcjNBSVY4ejlFbno4MkozaDY1UFVCWDZCTUVnaGx3UjNJWHR5ZmN6aTZHWFpRY0J6ZnhRNnlKVDVBNTNS?oc=5) this month, per Reuters - a sign they're moving fast to compete in the AI arms race.
 
-• [Stripe's co-founder says](https://www.bloomberg.com/news/articles/2026-01-20/stripe-s-collison-says-no-rush-for-payment-firm-to-go-public) there's no "rush" for the payment giant to go public, which probably disappoints investors who've been waiting for that IPO payday.
+• Natural gas futures [jumped 50%](https://www.bloomberg.com/news/articles/2026-01-21/us-natural-gas-jumps-over-50-this-week-as-freeze-takes-hold) this week as a brutal freeze grips much of the US, according to Bloomberg.
 
-• [An A.I. startup](https://www.nytimes.com/2026/01/20/technology/humans-ai-anthropic-xai.html) is making the familiar pitch that it wants to empower workers, not replace them — though we've heard that song before.
+• Snap just [settled a lawsuit](https://www.nytimes.com/2026/01/20/technology/snap-social-media-addiction-lawsuit.html) over social media addiction right before what could've been a landmark trial - avoiding what might've been some uncomfortable revelations about how these platforms work.
 
 **Around the World**
 
-• **Latin America:** [A Venezuelan political prisoner](https://www.nytimes.com/2026/01/20/world/americas/venezuela-prisoner-release.html) has finally been released and made it home, offering a rare bit of hope amid the country's ongoing political crisis.
+• **Latin America**: The fallout from that US operation against Maduro is playing out in fascinating ways - [regional governments seem](https://www.nytimes.com/2026/01/21/world/americas/latin-america-venezuela-us-raid-maduro-polls.html) more relieved than outraged, which tells you everything about how isolated Venezuela's leader has become.
 
-• **Europe:** [Spain's investigators](https://www.bbc.com/news/articles/c5y2qjy9l4yo) are focusing on a possible gap in the railway track after that devastating train crash, while the country continues mourning the victims and working to recover people still trapped in the wreckage.
+• **Europe**: A Spanish train crash [killed the driver](https://www.bbc.com/news/articles/c1m78xl0gmpo?at_medium=RSS&at_campaign=rss) and injured 37 others yesterday - that's the second deadly rail accident there in just a few days, the BBC reports.
 
-• **Asia:** [ISIS claimed responsibility](https://www.nytimes.com/2026/01/20/world/asia/isis-kabul-bomb-china.html) for a deadly bombing at a Chinese restaurant in Kabul, highlighting how Afghanistan remains dangerous even under Taliban rule and how foreign businesses remain targets.
+• **Asia**: Japan just [restarted the world's](https://www.nytimes.com/2026/01/21/business/japan-nuclear-restart.html) biggest nuclear plant, a major shift as the country grapples with energy security and climate goals more than a decade after Fukushima.
 
-• **Middle East:** There's [complete chaos](https://www.nytimes.com/2026/01/20/world/middleeast/syria-isis-camp-al-hol-kurds.html) at a camp housing ISIS families after Kurdish-led forces stopped providing security — a reminder of how fragile Syria's post-Assad transition remains.
+• **Middle East**: Israel has [seized the UN](https://www.nytimes.com/2026/01/20/world/middleeast/israel-unrwa-jerusalem.html) refugee agency's Jerusalem headquarters, escalating its campaign against UNRWA in a move that's sure to complicate aid operations.
 
-• **Africa:** [Church leaders say](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) over 160 people were kidnapped in Nigeria, though officials are denying it happened — the conflicting accounts highlighting how hard it is to get reliable information about security in the region.
+• **Africa**: More than [160 people were](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) kidnapped from a church service in Nigeria, according to local officials - another grim reminder of the security crisis gripping parts of the country.
