@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Trump's [Davos appearance](https://www.nytimes.com/live/2026/01/21/us/trump-davos-greenland-news) is dominating global headlines, but not necessarily for the reasons organizers hoped. The president's wide-ranging address touched everything from his designs on Greenland to sharp rebukes of Canada, creating the kind of diplomatic ripples that have become his trademark. What's striking is how quickly his territorial ambitions have become [Europe's "No. 1 Priority"](https://www.nytimes.com/2026/01/21/us/politics/greenland-ukraine-nato-rutte.html) according to NATO leadership, potentially reshaping the alliance's focus just as the Ukraine war continues.
+The world's economic and political elite are getting a front-row seat to Trump's second-term diplomacy at Davos, and it's quite the show. [Trump's appearing](https://www.nytimes.com/live/2026/01/21/us/trump-davos-greenland-news) via video link from the White House, where he's doubling down on his threats to acquire Greenland while insisting he won't use military force. The spectacle reached peak awkwardness when California Governor Gavin Newsom was [reportedly blocked](https://www.nytimes.com/live/2026/01/21/us/trump-davos-greenland-news#newsom-davos-trump) from entering the U.S. pavilion at the forum.
 
-The broader context here is fascinating. As Europe scrambles to respond to Trump's pressure campaign, we're seeing traditional diplomatic norms get tossed aside in favor of more transactional approaches. Meanwhile, [Trump's confusion](https://www.nytimes.com/live/2026/01/21/us/trump-davos-greenland-news#trump-greenland-iceland-confusion) between Greenland and Iceland at one point underscores how these high-stakes territorial discussions can sometimes veer into the surreal. The ripple effects are already visible in markets, where energy stocks are surging on geopolitical uncertainty, according to Bloomberg.
+NATO Secretary-General Mark Rutte called defending Greenland Europe's "[No. 1 priority](https://www.nytimes.com/2026/01/21/us/politics/greenland-ukraine-nato-rutte.html)" as the alliance grapples with Trump's territorial ambitions. The president also found time to [rebuke Canada's](https://www.nytimes.com/2026/01/21/us/politics/trump-mark-carney-davos-speech.html) new finance minister at Davos, showing his willingness to publicly dress down allies. Meanwhile, the EU is struggling with its own economic challenges as a [major trade deal](https://www.nytimes.com/2026/01/21/us/politics/mercosur-trade-deal-eu.html) with South America hits fresh obstacles just when Europe needs to diversify away from China and the U.S.
 
 **Business/Tech**
 
-• [Big Tech's role](https://www.nytimes.com/2026/01/20/business/davos-trump.html) at Davos is getting scrutinized as CEOs navigate Trump's unpredictable policy agenda and try to position themselves for whatever comes next in Washington.
+• [Uber's facing](https://www.nytimes.com/2026/01/21/business/uber-scrutiny-sexual-assault.html) mounting pressure over its sexual assault record as regulators and advocacy groups demand better safety measures from the ride-hailing giant.
 
-• [Uber's facing](https://www.nytimes.com/2026/01/21/business/uber-scrutiny-sexual-assault.html) renewed pressure over its sexual assault record, with regulators and advocacy groups pushing for stronger safety measures across the ride-sharing industry.
+• An AI startup is making the bold claim that it [wants to](https://www.nytimes.com/2026/01/20/technology/humans-ai-anthropic-xai.html) empower workers rather than replace them, swimming against the current narrative about automation's impact on jobs.
 
-• An [AI startup](https://www.nytimes.com/2026/01/20/technology/humans-ai-anthropic-xai.html) is making the case that it wants to empower workers rather than replace them, a pitch that's becoming more common as the industry tries to calm public anxiety about job displacement.
+• [Snap settled](https://www.nytimes.com/2026/01/20/technology/snap-social-media-addiction-lawsuit.html) a social media addiction lawsuit just ahead of what could have been a landmark trial about tech platforms' responsibility for user wellbeing.
 
-• [Snap settled](https://www.nytimes.com/2026/01/20/technology/snap-social-media-addiction-lawsuit.html) a major social media addiction lawsuit just ahead of what would have been a landmark trial, avoiding a precedent that could have reshaped how platforms handle user safety.
+• The FTC is [appealing its loss](https://www.nytimes.com/2026/01/20/technology/ftc-meta-antitrust-appeal.html) in the Meta antitrust case, keeping the fight over Big Tech's market power alive in the courts.
 
 **Around the World**
 
-• **Latin America:** Most Latin Americans actually [support Trump's](https://www.nytimes.com/2026/01/21/world/americas/latin-america-venezuela-us-raid-maduro-polls.html) proposed military intervention in Venezuela, according to new polling data. It's a striking sign of how unpopular Maduro's regime has become across the region.
+• **Latin America**: Most Latin Americans actually [support Trump's raid](https://www.nytimes.com/2026/01/21/world/americas/latin-america-venezuela-us-raid-maduro-polls.html) in Venezuela, according to new polling that shows regional frustration with the Maduro regime outweighs concerns about U.S. intervention.
 
-• **Europe:** [Prince Harry](https://www.nytimes.com/2026/01/21/world/europe/prince-harry-emotional-court-daily-mail.html) gave emotional testimony about how media coverage has affected his life, as his legal battle with the Daily Mail continues to expose the darker side of Britain's tabloid culture.
+• **Europe**: Prince Harry gave [emotional testimony](https://www.nytimes.com/2026/01/21/world/europe/prince-harry-emotional-court-daily-mail.html) in his case against the Daily Mail, describing how news coverage affected his mental health and relationships.
 
-• **Asia:** Japan [restarted operations](https://www.nytimes.com/2026/01/21/business/japan-nuclear-restart.html) at the world's biggest nuclear plant despite public anxiety, as the country tries to balance energy security with safety concerns more than a decade after Fukushima.
+• **Asia**: Japan has [restarted the](https://www.nytimes.com/2026/01/21/business/japan-nuclear-restart.html) world's biggest nuclear plant as the country weighs energy security against lingering public anxiety about atomic power after Fukushima.
 
-• **Middle East:** [Israeli strikes](https://www.nytimes.com/2026/01/21/world/middleeast/israeli-strikes-in-gaza-kill-11-including-three-journalists.html) in Gaza killed 11 people including three journalists, highlighting how the conflict continues to exact a heavy toll on media workers trying to cover the story.
+• **Middle East**: The U.S. has [started moving](https://www.nytimes.com/2026/01/21/world/middleeast/isis-syria-prisons-iraq.html) ISIS detainees from Syrian prisons to Iraq, part of the complex logistics of managing jihadist prisoners as Syria's new government takes shape.
 
-• **Africa:** Church leaders and police say [over 160 people](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) were kidnapped in Nigeria, part of an ongoing security crisis that's become a major challenge for the government in Abuja.
+• **Africa**: Church leaders and police say [over 160 people](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) were kidnapped from a church in Nigeria, highlighting the country's ongoing security crisis that has drawn Trump's military attention.
