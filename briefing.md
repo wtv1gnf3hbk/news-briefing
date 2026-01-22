@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Trump's [Davos appearance](https://www.nytimes.com/2026/01/21/us/politics/trump-davos-speech-takeaways.html) yesterday created the kind of global stir we've come to expect, but with a twist that matters for international relations. He floated what he called a "[Greenland framework](https://www.nytimes.com/live/2026/01/21/us/trump-davos-greenland-news)" for some kind of future deal, stepping back from his earlier tariff threats against Europe. NATO allies are now quietly discussing U.S. sovereignty over bases there, which represents a significant shift in how they're responding to Trump's territorial ambitions.
+The big story from Davos is [China's ascent](https://www.nytimes.com/2026/01/22/business/davos-trump-xi-china.html) as the dominant economic power while Trump steps back from global leadership. It's a striking reversal from the usual American-led world order, and it's playing out on the biggest stage in international business. Meanwhile, Trump's hosting a "[Board of Peace](https://www.nytimes.com/live/2026/01/22/us/trump-davos-news)" signing ceremony, though the details of what that actually means remain fuzzy.
 
-The Supreme Court heard arguments on Trump's attempt to [fire Fed](https://www.nytimes.com/2026/01/21/us/politics/supreme-court-trump-fed-cook.html) Governor Michelle Cook, with justices seeming skeptical of executive power over central bank independence. It's an early test of how far Trump can push institutional boundaries, and the court's eventual ruling could define the Fed's autonomy for decades. Meanwhile, ICE operations are ramping up nationwide, creating the kind of federal-local tensions that defined Trump's first term.
+The transatlantic relationship is getting even messier. [Trump's rift](https://www.nytimes.com/2026/01/21/world/europe/trump-rift-europe.html) with Europe is now impossible to ignore, and European leaders are scrambling to figure out their next moves. The [Greenland situation](https://www.nytimes.com/2026/01/21/us/politics/trump-greenland-threats-diplomacy-force.html) has NATO allies particularly worried as Trump pushes his sovereignty framework. And there's movement on Ukraine, with [Zelensky meeting Trump](https://www.nytimes.com/2026/01/22/us/politics/zelensky-trump-davos-ukraine-peace-deal.html) to discuss a potential peace deal.
 
 **Business/Tech**
 
-• A federal judge blocked the government from reviewing devices seized from Washington Post reporters, handing the paper a [First Amendment](https://www.nytimes.com/2026/01/21/business/media/washington-post-reporter-search-first-amendment.html) victory that could set important precedent for press protections under Trump.
+• [Japan's nuclear](https://www.nytimes.com/2026/01/22/business/japan-nuclear-offline.html) restart hit a snag when a malfunction forced them to take a recently restarted plant offline again. It's another setback for the country's post-Fukushima nuclear revival plans.
 
-• [Uber's facing](https://www.nytimes.com/2026/01/21/business/uber-scrutiny-sexual-assault.html) renewed pressure over its sexual assault record as lawmakers push for stronger oversight of ride-sharing safety protocols.
+• Job applicants are [suing companies](https://www.nytimes.com/2026/01/21/business/ai-hiring-tools-lawsuit-eightfold-fcra.html) to crack open the "black box" of AI hiring decisions. The lawsuit against Eightfold could set important precedents for algorithmic transparency in recruitment.
 
-• Snap settled a major social media addiction lawsuit just before what would have been a [landmark trial](https://www.nytimes.com/2026/01/20/technology/snap-social-media-addiction-lawsuit.html) that could have reshaped how we think about platform liability.
+• Turkey's central bank surprised markets by [cutting rates](https://www.bloomberg.com/news/articles/2026-01-22/turkey-lowers-key-interest-rate-to-37-in-fifth-straight-cut) less aggressively than expected, according to Bloomberg. The smaller cut to 37% suggests they might be getting more cautious about their easing cycle.
 
-• The FTC is appealing its loss in the [Meta antitrust](https://www.nytimes.com/2026/01/20/technology/ftc-meta-antitrust-appeal.html) case, keeping alive one of the biggest tech monopoly fights of the decade.
+• [Snap settled](https://www.nytimes.com/2026/01/20/technology/snap-social-media-addiction-lawsuit.html) a major social media addiction lawsuit just before what would have been a landmark trial. The terms weren't disclosed, but it avoids what could have been a precedent-setting case.
 
 **Around the World**
 
-• **Latin America**: Most Latin Americans actually support Trump's recent [Venezuela raid](https://www.nytimes.com/2026/01/21/world/americas/latin-america-venezuela-us-raid-maduro-polls.html), according to new polling that shows how unpopular Maduro's regime has become across the region.
+• **Latin America**: Most Latin Americans actually [supported Trump's raid](https://www.nytimes.com/2026/01/21/world/americas/latin-america-venezuela-us-raid-maduro-polls.html) in Venezuela, according to new polling. It's a fascinating glimpse into how the region views both Maduro and American intervention.
 
-• **Europe**: Prince Harry gave emotional testimony about how tabloid coverage affected his life, the latest chapter in his ongoing [court battle](https://www.nytimes.com/2026/01/21/world/europe/prince-harry-emotional-court-daily-mail.html) against the Daily Mail.
+• **Europe**: Trump's sending his envoys [Witkoff and Kushner](https://www.nytimes.com/2026/01/22/world/europe/putin-meeting-witkoff-kushner-moscow-us-russia.html) to meet with Putin for Ukraine talks. It's the first high-level U.S.-Russia diplomatic contact since Trump took office.
 
-• **Asia**: South Korea's former prime minister got [23 years](https://www.nytimes.com/2026/01/21/world/asia/south-korea-prime-minister-martial-law.html) in prison for his role in the martial law crisis, showing how seriously Seoul is taking accountability for that constitutional mess.
+• **Asia**: A Filipino journalist just got [prison time](https://www.nytimes.com/2026/01/22/world/asia/philippines-cumpio-journalist-prison.html) in what press freedom groups are calling a direct attack on independent media. The Duterte-era crackdown on journalism continues under Marcos Jr.
 
-• **Middle East**: Rifaat al-Assad, the "Butcher of Hama" who led some of the Syrian regime's worst massacres, [died at](https://www.nytimes.com/2026/01/21/world/middleeast/rifaat-al-assad-dead.html) 88, closing a dark chapter just as Syria tries to rebuild.
+• **Middle East**: Rifaat al-Assad, known as the "[Butcher of Hama](https://www.nytimes.com/2026/01/21/world/middleeast/rifaat-al-assad-dead.html)," died at 88. The uncle of ousted Syrian dictator Bashar al-Assad was behind some of the regime's worst massacres in the 1980s.
 
-• **Africa**: Church leaders and police report that [over 160](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) people were kidnapped in Nigeria, highlighting the ongoing security crisis plaguing the country's northern regions.
+• **Africa**: More than [160 people were kidnapped](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) from a Christian church in Nigeria, according to church leaders and police. It's another massive abduction in a country that's struggled with kidnapping epidemics for years.
