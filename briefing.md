@@ -1,27 +1,25 @@
 Good morning. Here's the state of play:
 
-The big story from Davos is [China's ascent](https://www.nytimes.com/2026/01/22/business/davos-trump-xi-china.html) as the dominant economic power while Trump steps back from global leadership. It's a striking reversal from the usual American-led world order, and it's playing out on the biggest stage in international business. Meanwhile, Trump's hosting a "[Board of Peace](https://www.nytimes.com/live/2026/01/22/us/trump-davos-news)" signing ceremony, though the details of what that actually means remain fuzzy.
+The biggest story coming out of Davos isn't just Trump's trade threats, but the specific framework emerging around [Greenland talks](https://www.nytimes.com/2026/01/22/world/europe/trump-greenland-deal-framework.html). We're hearing about potential U.S. sovereign military bases and explicit restrictions on Russian drilling rights. It's a far more concrete proposal than many expected, though [Denmark's pushing back](https://www.nytimes.com/2026/01/22/world/europe/denmark-greenland-trump-us-reaction.html) hard on any sovereignty concessions. This isn't just posturing anymore.
 
-The transatlantic relationship is getting even messier. [Trump's rift](https://www.nytimes.com/2026/01/21/world/europe/trump-rift-europe.html) with Europe is now impossible to ignore, and European leaders are scrambling to figure out their next moves. The [Greenland situation](https://www.nytimes.com/2026/01/21/us/politics/trump-greenland-threats-diplomacy-force.html) has NATO allies particularly worried as Trump pushes his sovereignty framework. And there's movement on Ukraine, with [Zelensky meeting Trump](https://www.nytimes.com/2026/01/22/us/politics/zelensky-trump-davos-ukraine-peace-deal.html) to discuss a potential peace deal.
+Meanwhile, the broader transatlantic relationship is under serious strain. [Zelensky's lashing out](https://www.nytimes.com/live/2026/01/22/us/trump-davos-news) at European leaders in Davos, telling them they need to step up or risk being left behind as Trump reshapes global alliances. European officials are scrambling to figure out their approach, especially as Trump rolls out his [glittering Gaza plan](https://www.nytimes.com/2026/01/22/world/middleeast/us-gaza-peace-trump-kushner-davos.html) complete with skyscraper developments. The question isn't whether Trump will disrupt the old order, it's how quickly he'll replace it.
 
 **Business/Tech**
 
-• [Japan's nuclear](https://www.nytimes.com/2026/01/22/business/japan-nuclear-offline.html) restart hit a snag when a malfunction forced them to take a recently restarted plant offline again. It's another setback for the country's post-Fukushima nuclear revival plans.
+• [Musk's Grok chatbot](https://www.nytimes.com/2026/01/22/technology/grok-x-ai-elon-musk-deepfakes.html) has flooded X with millions of sexualized AI images in just days, according to new estimates that underscore how quickly these tools can spiral out of control once unleashed.
 
-• Job applicants are [suing companies](https://www.nytimes.com/2026/01/21/business/ai-hiring-tools-lawsuit-eightfold-fcra.html) to crack open the "black box" of AI hiring decisions. The lawsuit against Eightfold could set important precedents for algorithmic transparency in recruitment.
+• There's a fascinating [AI startup soap opera](https://www.nytimes.com/2026/01/22/technology/thinking-machines-ai-startup-openai.html) riveting Silicon Valley right now, with all the drama you'd expect from an industry where billions are at stake and egos run wild.
 
-• Turkey's central bank surprised markets by [cutting rates](https://www.bloomberg.com/news/articles/2026-01-22/turkey-lowers-key-interest-rate-to-37-in-fifth-straight-cut) less aggressively than expected, according to Bloomberg. The smaller cut to 37% suggests they might be getting more cautious about their easing cycle.
-
-• [Snap settled](https://www.nytimes.com/2026/01/20/technology/snap-social-media-addiction-lawsuit.html) a major social media addiction lawsuit just before what would have been a landmark trial. The terms weren't disclosed, but it avoids what could have been a precedent-setting case.
+• JPMorgan's [buying UK fintech](https://news.google.com/rss/articles/CBMitAFBVV95cUxQbDkzeURHZmQ1eUV5SVF6ZFdCalIwMmc4RGlNZVE2UUFORXJsQ19nUXNNNlF1VUFCVEtJcjJkRDFvdl85UWpnYVREVjhHUTdMbkNVNG51eUpTX1JrWVRtOXgzYTJkQjJ1MHBSWnF) WealthOS in a deal that shows big banks are still hunting for pension technology, Reuters reports.
 
 **Around the World**
 
-• **Latin America**: Most Latin Americans actually [supported Trump's raid](https://www.nytimes.com/2026/01/21/world/americas/latin-america-venezuela-us-raid-maduro-polls.html) in Venezuela, according to new polling. It's a fascinating glimpse into how the region views both Maduro and American intervention.
+• **Latin America**: Venezuela's new leadership just [freed the son-in-law](https://www.nytimes.com/2026/01/22/world/americas/edmundo-gonzalez-rafael-tudares-detention.html) of opposition candidate Edmundo González, a small but significant gesture as the country tries to reset its international relationships.
 
-• **Europe**: Trump's sending his envoys [Witkoff and Kushner](https://www.nytimes.com/2026/01/22/world/europe/putin-meeting-witkoff-kushner-moscow-us-russia.html) to meet with Putin for Ukraine talks. It's the first high-level U.S.-Russia diplomatic contact since Trump took office.
+• **Europe**: [Putin's dangling](https://www.nytimes.com/2026/01/22/world/europe/putin-board-of-peace-frozen-assets.html) the possibility that Russia could contribute to Trump's "Board of Peace" if the U.S. unfreezes Russian assets, a typically cynical move that puts the ball back in Washington's court.
 
-• **Asia**: A Filipino journalist just got [prison time](https://www.nytimes.com/2026/01/22/world/asia/philippines-cumpio-journalist-prison.html) in what press freedom groups are calling a direct attack on independent media. The Duterte-era crackdown on journalism continues under Marcos Jr.
+• **Asia**: A [67,800-year-old handprint](https://www.nytimes.com/2026/01/22/world/asia/indonesia-handprint-rock-art-research.html) found in Indonesia may be the world's oldest rock art, pushing back the timeline of human artistic expression by tens of thousands of years.
 
-• **Middle East**: Rifaat al-Assad, known as the "[Butcher of Hama](https://www.nytimes.com/2026/01/21/world/middleeast/rifaat-al-assad-dead.html)," died at 88. The uncle of ousted Syrian dictator Bashar al-Assad was behind some of the regime's worst massacres in the 1980s.
+• **Middle East**: [Rifaat al-Assad died](https://www.nytimes.com/2026/01/21/world/middleeast/rifaat-al-assad-dead.html) at 88, taking with him decades of secrets about Syria's brutal past. Known as the "Butcher of Hama," he was Bashar's uncle and architect of some of the regime's worst atrocities.
 
-• **Africa**: More than [160 people were kidnapped](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) from a Christian church in Nigeria, according to church leaders and police. It's another massive abduction in a country that's struggled with kidnapping epidemics for years.
+• **Africa**: Church leaders say [over 160 people](https://www.nytimes.com/2026/01/20/world/africa/nigeria-christian-church-kidnapping.html) were kidnapped in Nigeria's latest mass abduction, highlighting how security continues to deteriorate across large swaths of the country.
