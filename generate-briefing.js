@@ -61,7 +61,9 @@ function parseHomepage(html) {
   const $ = cheerio.load(html);
   const result = { lead: null, live: [], headlines: [] };
   const seen = new Set();
+  const candidates = [];
 
+  // Collect live stories first (often major breaking news)
   $('a[href*="/live/"]').each((i, el) => {
     let h = $(el).text().trim().replace(/\s+/g, ' ').replace(/Jan\.\s*\d+.*?ET/gi, '').trim();
     if (h.length < 5) return;
@@ -75,6 +77,7 @@ function parseHomepage(html) {
 
   const currentYear = new Date().getFullYear();
   const prevYear = currentYear - 1;
+
   $(`a[href*="/${currentYear}/"], a[href*="/${prevYear}/"]`).each((i, el) => {
     const href = $(el).attr('href');
     if (!href?.match(/\/\d{4}\/\d{2}\/\d{2}\//)) return;
@@ -84,9 +87,41 @@ function parseHomepage(html) {
     const full = href.startsWith('/') ? 'https://www.nytimes.com' + href : href;
     if (seen.has(full)) return;
     seen.add(full);
-    if (!result.lead) result.lead = { headline: h, url: full, source: 'Lead' };
+
+    // Score each headline for lead-worthiness
+    let score = 100 - i; // Position bonus (earlier = higher)
+
+    // Check parent elements for prominence signals
+    const parent = $(el).parent();
+    const grandparent = parent.parent();
+    const context = (parent.attr('class') || '') + ' ' + (grandparent.attr('class') || '');
+
+    // Boost for prominent placement indicators
+    if (context.match(/story-wrapper|top-|lead|banner|spotlight|lede/i)) score += 50;
+    if (context.match(/package|collection|stream/i)) score += 20;
+
+    // Boost for hard news sections (world, politics, breaking)
+    if (href.match(/\/(world|politics|us)\//)) score += 15;
+    if (href.match(/\/(business|economy)\//)) score += 10;
+
+    // Slight penalty for softer sections
+    if (href.match(/\/(style|arts|food|travel|magazine)\//)) score -= 30;
+
+    // Check headline text for importance signals
+    const lowerH = h.toLowerCase();
+    if (lowerH.match(/breaking|dies|killed|attack|war|crisis|emergency/)) score += 25;
+    if (lowerH.match(/trump|biden|president|congress|supreme court/)) score += 10;
+
+    candidates.push({ headline: h, url: full, source: 'Homepage', score });
     result.headlines.push({ headline: h, url: full, source: 'Homepage' });
   });
+
+  // Select highest-scoring candidate as lead
+  if (candidates.length > 0) {
+    candidates.sort((a, b) => b.score - a.score);
+    const best = candidates[0];
+    result.lead = { headline: best.headline, url: best.url, source: 'Lead' };
+  }
 
   return result;
 }
