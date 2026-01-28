@@ -376,7 +376,7 @@ function parseEconomistWorldInBrief(html) {
 async function fetchEconomistWithLogin() {
   let browser = null;
   try {
-    console.log('  Launching browser for Economist login...');
+    console.log('  Launching browser for Economist...');
     browser = await puppeteer.launch({
       headless: 'new',
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
@@ -385,69 +385,122 @@ async function fetchEconomistWithLogin() {
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-    // Go to login page
-    console.log('  Navigating to Economist login...');
-    await page.goto('https://www.economist.com/api/auth/login', {
-      waitUntil: 'networkidle2',
-      timeout: 30000
-    });
-
-    // Wait for and fill login form
-    await page.waitForSelector('input[type="email"], input[name="email"], #email', { timeout: 10000 });
-
-    // Try different selectors for email field
-    const emailSelectors = ['input[type="email"]', 'input[name="email"]', '#email', 'input[autocomplete="email"]'];
-    for (const sel of emailSelectors) {
-      const el = await page.$(sel);
-      if (el) {
-        await el.type(ECONOMIST_EMAIL, { delay: 50 });
-        break;
-      }
-    }
-
-    // Try different selectors for password field
-    const pwdSelectors = ['input[type="password"]', 'input[name="password"]', '#password'];
-    for (const sel of pwdSelectors) {
-      const el = await page.$(sel);
-      if (el) {
-        await el.type(ECONOMIST_PASSWORD, { delay: 50 });
-        break;
-      }
-    }
-
-    // Submit form
-    const submitSelectors = ['button[type="submit"]', 'input[type="submit"]', 'button:contains("Log in")', 'button:contains("Sign in")'];
-    for (const sel of submitSelectors) {
-      try {
-        const el = await page.$(sel);
-        if (el) {
-          await el.click();
-          break;
-        }
-      } catch (e) { /* try next */ }
-    }
-
-    // Wait for navigation after login
-    await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
-
-    // Now navigate to World in Brief
-    console.log('  Fetching World in Brief...');
+    // Go directly to World in Brief
+    console.log('  Navigating to World in Brief...');
     await page.goto('https://www.economist.com/the-world-in-brief', {
       waitUntil: 'networkidle2',
       timeout: 30000
     });
 
-    // Wait a bit for dynamic content
+    // Check if we need to log in - look for login/subscribe buttons or paywall
+    const needsLogin = await page.evaluate(() => {
+      const text = document.body.innerText.toLowerCase();
+      return text.includes('subscribe') || text.includes('log in') || text.includes('sign in') ||
+             document.querySelector('[data-testid="login-button"]') ||
+             document.querySelector('a[href*="login"]') ||
+             document.querySelector('.paywall');
+    });
+
+    if (needsLogin) {
+      console.log('  Login required, clicking login link...');
+
+      // Try to find and click login link
+      const loginClicked = await page.evaluate(() => {
+        const selectors = [
+          'a[href*="login"]',
+          'button:contains("Log in")',
+          '[data-testid="login-button"]',
+          'a:contains("Log in")',
+          '.login-link',
+          'nav a[href*="auth"]'
+        ];
+        for (const sel of selectors) {
+          try {
+            const el = document.querySelector(sel);
+            if (el) { el.click(); return true; }
+          } catch(e) {}
+        }
+        // Try finding by text content
+        const links = Array.from(document.querySelectorAll('a, button'));
+        for (const link of links) {
+          if (link.textContent.toLowerCase().includes('log in') ||
+              link.textContent.toLowerCase().includes('sign in')) {
+            link.click();
+            return true;
+          }
+        }
+        return false;
+      });
+
+      if (loginClicked) {
+        await new Promise(r => setTimeout(r, 2000));
+      }
+
+      // Wait for login form
+      console.log('  Waiting for login form...');
+      await page.waitForSelector('input[type="email"], input[name="email"], #email, input[type="text"][name*="email"]', { timeout: 10000 }).catch(() => {});
+
+      // Fill email
+      const emailFilled = await page.evaluate((email) => {
+        const selectors = ['input[type="email"]', 'input[name="email"]', '#email', 'input[autocomplete="email"]', 'input[type="text"]'];
+        for (const sel of selectors) {
+          const el = document.querySelector(sel);
+          if (el && (el.type === 'email' || el.name?.includes('email') || el.placeholder?.toLowerCase().includes('email'))) {
+            el.value = email;
+            el.dispatchEvent(new Event('input', { bubbles: true }));
+            return true;
+          }
+        }
+        return false;
+      }, ECONOMIST_EMAIL);
+      console.log('  Email filled:', emailFilled);
+
+      // Fill password
+      const pwdFilled = await page.evaluate((pwd) => {
+        const el = document.querySelector('input[type="password"]');
+        if (el) {
+          el.value = pwd;
+          el.dispatchEvent(new Event('input', { bubbles: true }));
+          return true;
+        }
+        return false;
+      }, ECONOMIST_PASSWORD);
+      console.log('  Password filled:', pwdFilled);
+
+      // Submit
+      if (emailFilled && pwdFilled) {
+        console.log('  Submitting login...');
+        await page.evaluate(() => {
+          const btn = document.querySelector('button[type="submit"], input[type="submit"]');
+          if (btn) btn.click();
+        });
+
+        // Wait for navigation/login to complete
+        await new Promise(r => setTimeout(r, 5000));
+
+        // Navigate back to World in Brief if needed
+        const currentUrl = page.url();
+        if (!currentUrl.includes('the-world-in-brief')) {
+          await page.goto('https://www.economist.com/the-world-in-brief', {
+            waitUntil: 'networkidle2',
+            timeout: 30000
+          });
+        }
+      }
+    }
+
+    // Wait for content to load
     await new Promise(r => setTimeout(r, 2000));
 
     // Get the page HTML
     const html = await page.content();
+    console.log('  Got Economist HTML, length:', html.length);
 
     await browser.close();
     return html;
 
   } catch (error) {
-    console.log('  Economist login failed:', error.message);
+    console.log('  Economist fetch failed:', error.message);
     if (browser) await browser.close();
     return null;
   }
