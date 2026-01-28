@@ -43,3 +43,8 @@ jobs:
           git add briefing.json briefing.md index.html
           git diff --staged --quiet || git commit -m "Update briefing $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Send push notification
+        run: |
+          curl -d "☀️ Briefing ready: https://wtv1gnf3hbk.github.io/news-briefing/" \
+            ntfy.sh/briefing-wtv1gnf3hbk-7x9k
