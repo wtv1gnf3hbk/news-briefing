@@ -220,6 +220,65 @@ function parseAlJazeeraHomepage(html) {
   return { lead: stories[0] || null, top: stories.slice(0, 5) };
 }
 
+function parseEconomistWorldInBrief(html) {
+  const $ = cheerio.load(html);
+  const stories = [];
+  const seen = new Set();
+
+  // World in Brief has a bulleted list at the top with key stories
+  // Each bullet typically has bold text followed by summary
+  $('li').each((i, el) => {
+    if (stories.length >= 10) return;
+    const $el = $(el);
+
+    // Get the full text of the list item
+    const fullText = $el.text().trim().replace(/\s+/g, ' ');
+    if (fullText.length < 20 || fullText.length > 300) return;
+
+    // Look for a link in this list item
+    const $link = $el.find('a').first();
+    let url = $link.attr('href');
+
+    // If no link in li, create a placeholder URL
+    if (!url) {
+      url = 'https://www.economist.com/the-world-in-brief';
+    } else {
+      if (url.startsWith('/')) url = 'https://www.economist.com' + url;
+    }
+
+    if (seen.has(fullText.slice(0, 50))) return;
+    seen.add(fullText.slice(0, 50));
+
+    // Use full text as headline (truncated)
+    const headline = fullText.slice(0, 180);
+    stories.push({ headline, url, source: 'Economist' });
+  });
+
+  // Also check for bold-lead paragraphs if bullets didn't yield enough
+  if (stories.length < 3) {
+    $('p strong, p b').each((i, el) => {
+      if (stories.length >= 10) return;
+      const $el = $(el);
+      const $p = $el.closest('p');
+      const $link = $p.find('a').first();
+
+      let url = $link.attr('href');
+      if (!url) url = 'https://www.economist.com/the-world-in-brief';
+      else if (url.startsWith('/')) url = 'https://www.economist.com' + url;
+
+      const fullText = $p.text().trim().replace(/\s+/g, ' ');
+      if (fullText.length < 20 || fullText.length > 300) return;
+      if (seen.has(fullText.slice(0, 50))) return;
+      seen.add(fullText.slice(0, 50));
+
+      const headline = fullText.slice(0, 180);
+      stories.push({ headline, url, source: 'Economist' });
+    });
+  }
+
+  return { lead: stories[0] || null, top: stories.slice(0, 5) };
+}
+
 function parseReutersHomepage(html) {
   const $ = cheerio.load(html);
   const stories = [];
@@ -295,8 +354,11 @@ const ALL_SOURCES = [
   { id: 'nyt_tech', type: 'nyt_section', url: 'https://www.nytimes.com/section/technology', name: 'Technology' },
 
   // International homepages (for cross-source lead comparison)
-  { id: 'bbc_homepage', type: 'bbc_homepage', url: 'https://www.bbc.com/news', name: 'BBC' },
-  { id: 'guardian_homepage', type: 'guardian_homepage', url: 'https://www.theguardian.com/international', name: 'Guardian' },
+  // Key sources: UK editions for non-US perspective
+  { id: 'bbc_homepage', type: 'bbc_homepage', url: 'https://www.bbc.co.uk/news', name: 'BBC' },
+  { id: 'guardian_homepage', type: 'guardian_homepage', url: 'https://www.theguardian.com/uk', name: 'Guardian' },
+  { id: 'economist_homepage', type: 'economist_homepage', url: 'https://www.economist.com/the-world-in-brief', name: 'Economist' },
+  // Additional international sources
   { id: 'aljazeera_homepage', type: 'aljazeera_homepage', url: 'https://www.aljazeera.com/', name: 'Al Jazeera' },
   { id: 'reuters_homepage', type: 'reuters_homepage', url: 'https://www.reuters.com/', name: 'Reuters' },
 
@@ -376,6 +438,11 @@ async function scrapeAll() {
       internationalLeads.guardian = { lead: parsed.lead, top: parsed.top };
       console.log(`  ✓ ${result.name} (lead: ${parsed.lead?.headline?.slice(0, 40) || 'none'}...)`);
     }
+    else if (result.type === 'economist_homepage') {
+      const parsed = parseEconomistWorldInBrief(result.html);
+      internationalLeads.economist = { lead: parsed.lead, top: parsed.top };
+      console.log(`  ✓ ${result.name} (lead: ${parsed.lead?.headline?.slice(0, 40) || 'none'}...)`);
+    }
     else if (result.type === 'aljazeera_homepage') {
       const parsed = parseAlJazeeraHomepage(result.html);
       internationalLeads.aljazeera = { lead: parsed.lead, top: parsed.top };
@@ -437,8 +504,8 @@ async function main() {
   console.log(`RSS sources: ${Object.keys(secondary).length - 1}`);
 
   // Log international leads for comparison
-  const intlSources = ['bbc', 'guardian', 'aljazeera', 'reuters'];
-  console.log('\nInternational Leads:');
+  const intlSources = ['bbc', 'guardian', 'economist'];
+  console.log('\nInternational Leads (UK editions):');
   intlSources.forEach(src => {
     const lead = internationalLeads[src]?.lead;
     console.log(`  ${src.toUpperCase()}: ${lead?.headline?.slice(0, 50) || 'None'}${lead?.headline?.length > 50 ? '...' : ''}`);

@@ -160,8 +160,13 @@ function analyzeLeadStories(briefing) {
   }
 
   // Gather international leads
-  const intlSources = ['bbc', 'guardian', 'aljazeera', 'reuters'];
+  // Key sources for comparison: UK editions (BBC, Guardian, Economist)
+  // Additional sources: Al Jazeera, Reuters (still scraped but not primary comparison)
+  const keySources = ['bbc', 'guardian', 'economist'];
+  const additionalSources = ['aljazeera', 'reuters'];
+  const intlSources = [...keySources, ...additionalSources];
   const intlLeadsList = [];
+  const keyLeadsList = [];
 
   intlSources.forEach(src => {
     const lead = briefing.internationalLeads?.[src]?.lead;
@@ -169,19 +174,25 @@ function analyzeLeadStories(briefing) {
       analysis.internationalLeads[src] = {
         headline: lead.headline,
         url: lead.url,
-        isUSCentric: isUSCentric(lead.headline)
+        isUSCentric: isUSCentric(lead.headline),
+        isKeySource: keySources.includes(src)
       };
       intlLeadsList.push(lead);
+      // Track key sources separately for comparison
+      if (keySources.includes(src)) {
+        keyLeadsList.push(lead);
+      }
     }
   });
 
-  // Find common topics among international sources
-  analysis.commonTopics = findCommonTopics(intlLeadsList);
+  // Find common topics among KEY international sources (BBC, Guardian, Economist)
+  analysis.commonTopics = findCommonTopics(keyLeadsList);
 
   // Determine if we should suggest a different lead
-  if (analysis.nytIsUSCentric && intlLeadsList.length >= 2) {
-    // Count how many international sources are NOT leading with US news
-    const nonUSLeads = intlLeadsList.filter(lead => !isUSCentric(lead.headline));
+  // Use KEY sources (UK editions) for the comparison
+  if (analysis.nytIsUSCentric && keyLeadsList.length >= 2) {
+    // Count how many KEY sources are NOT leading with US news
+    const nonUSLeads = keyLeadsList.filter(lead => !isUSCentric(lead.headline));
 
     if (nonUSLeads.length >= 2) {
       // Find the most common non-US topic
@@ -203,7 +214,7 @@ function analyzeLeadStories(briefing) {
         };
 
         analysis.reasoning = `NYT leads with US domestic news ("${analysis.nytLead.headline.slice(0, 50)}..."), ` +
-          `but ${nonUSLeads.length} of ${intlLeadsList.length} international sources are leading with non-US stories. ` +
+          `but ${nonUSLeads.length} of ${keyLeadsList.length} key UK sources (BBC, Guardian, Economist) are leading with non-US stories. ` +
           `Common international topic: "${topTopic}" (${nonUSTopics[0].count} sources).`;
       }
     }
@@ -262,7 +273,7 @@ async function main() {
   if (leadAnalysis.suggestedLead) {
     leadGuidance = `
 IMPORTANT - LEAD STORY GUIDANCE:
-The NYT is leading with a US-centric domestic story, but international news outlets (BBC, Guardian, Al Jazeera, Reuters) are prominently featuring a different global story. For this international news briefing, you should:
+The NYT is leading with a US-centric domestic story, but key UK news outlets (BBC, Guardian, Economist) are prominently featuring a different global story. For this international news briefing, you should:
 
 1. LEAD with the international story that other outlets are featuring: "${leadAnalysis.suggestedLead.headline}"
    Source: ${leadAnalysis.suggestedLead.source}
