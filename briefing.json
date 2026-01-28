@@ -1,23 +1,58 @@
 {
   "nyt": {
     "lead": {
-      "headline": "As Minneapolis Rages, Legislators Move to Restrict ICE in Their States",
-      "url": "https://www.nytimes.com/2026/01/28/us/politics/minneapolis-ice-states.html",
+      "headline": "Iran Killed Thousands of Protesters. Here Are Some of Their Stories.",
+      "url": "https://www.nytimes.com/2026/01/28/world/middleeast/iran-protester-deaths.html",
       "source": "Lead"
     },
     "live": [
+      {
+        "headline": "Minneapolis Tensions",
+        "url": "https://www.nytimes.com/live/2026/01/28/us/minneapolis-shooting-ice-minnesota",
+        "source": "Live"
+      },
       {
         "headline": "Trump Administration",
         "url": "https://www.nytimes.com/live/2026/01/28/us/trump-news",
         "source": "Live"
       },
       {
-        "headline": "Minneapolis Tensions",
-        "url": "https://www.nytimes.com/live/2026/01/28/us/minneapolis-shooting-ice-minnesota",
+        "headline": "Fed Set to Pause Rate Cuts",
+        "url": "https://www.nytimes.com/live/2026/01/28/business/federal-reserve-interest-rates",
         "source": "Live"
       }
     ],
     "primary": [
+      {
+        "headline": "Iran Killed Thousands of Protesters. Here Are Some of Their Stories.",
+        "url": "https://www.nytimes.com/2026/01/28/world/middleeast/iran-protester-deaths.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Iraq’s Nominee for Prime Minister Rejects Trump Threats",
+        "url": "https://www.nytimes.com/2026/01/28/world/middleeast/trump-iraq-prime-minister-al-maliki.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Shooting of Alex Pretti",
+        "url": "https://www.nytimes.com/2026/01/24/us/politics/second-ice-shooting-minneapolis.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Who Was Pretti?",
+        "url": "https://www.nytimes.com/2026/01/25/us/alex-pretti-minneapolis-shooting.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Ilhan Omar Attacked",
+        "url": "https://www.nytimes.com/2026/01/27/us/ilhan-omar-town-hall-minnesota.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Shooting of Renee Good",
+        "url": "https://www.nytimes.com/2026/01/10/us/rennee-good-ice-shooting-minnesota.html",
+        "source": "Homepage"
+      },
       {
         "headline": "As Minneapolis Rages, Legislators Move to Restrict ICE in Their States",
         "url": "https://www.nytimes.com/2026/01/28/us/politics/minneapolis-ice-states.html",
@@ -34,38 +69,8 @@
         "source": "Homepage"
       },
       {
-        "headline": "How Trump Realized He Had a Big Problem in Minneapolis",
-        "url": "https://www.nytimes.com/2026/01/28/us/politics/trump-minnesota-noem-bovino-homan-miller.html",
-        "source": "Homepage"
-      },
-      {
         "headline": "At the Center of the ICE Uproar, a Familiar Figure: Corey Lewandowski",
         "url": "https://www.nytimes.com/2026/01/27/us/politics/corey-lewandowski-noem-trump.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Modest Hiring Growth",
-        "url": "https://www.nytimes.com/2026/01/05/business/economy/business-economy-jobs-report-december.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "State Minimum Wage Increases",
-        "url": "https://www.nytimes.com/2026/01/08/us/minimum-wage-increases.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Fed Meeting Comes at Pivotal Moment for Central Bank’s Independence",
-        "url": "https://www.nytimes.com/2026/01/28/business/economy/fed-trump-powell-interest-rates.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "A Municipal Debt Boom Is Driving Public Projects and Tax Breaks for Investors",
-        "url": "https://www.nytimes.com/2026/01/28/business/economy/municipal-debt-market.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Things to Watch for as the Federal Reserve Meets Today",
-        "url": "https://www.nytimes.com/2026/01/28/business/economy/fed-interest-rates.html",
         "source": "Homepage"
       }
     ],
@@ -171,16 +176,6 @@
         "source": "Asia"
       },
       {
-        "headline": "Iraq’s Nominee for Prime Minister Rejects Trump Threats",
-        "url": "https://www.nytimes.com/2026/01/28/world/middleeast/trump-iraq-prime-minister-al-maliki.html",
-        "source": "Middle East"
-      },
-      {
-        "headline": "Iran Killed Thousands of Protesters. Here Are Five of Their Stories.",
-        "url": "https://www.nytimes.com/2026/01/28/world/middleeast/iran-protester-deaths.html",
-        "source": "Middle East"
-      },
-      {
         "headline": "Board of Peace Set to Hand Trump Sweeping Powers Over Gaza",
         "url": "https://www.nytimes.com/2026/01/27/world/middleeast/board-of-peace-trump-gaza.html",
         "source": "Middle East"
@@ -226,6 +221,16 @@
         "source": "Business"
       },
       {
+        "headline": "A Municipal Debt Boom Is Driving Public Projects and Tax Breaks for Investors",
+        "url": "https://www.nytimes.com/2026/01/28/business/economy/municipal-debt-market.html",
+        "source": "Business"
+      },
+      {
+        "headline": "Fed Meeting Comes at Pivotal Moment for Central Bank’s Independence",
+        "url": "https://www.nytimes.com/2026/01/28/business/economy/fed-trump-powell-interest-rates.html",
+        "source": "Business"
+      },
+      {
         "headline": "Bari Weiss Urges CBS News to Think Like a ‘Start-Up’",
         "url": "https://www.nytimes.com/2026/01/27/business/media/bari-weiss-cbs-news-town-hall.html",
         "source": "Business"
@@ -251,10 +256,10 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-01-28T17:13:15.242Z"
+    "timestamp": "2026-01-28T17:24:29.012Z"
   },
   "secondary": {
-    "timestamp": "2026-01-28T17:13:15.243Z",
+    "timestamp": "2026-01-28T17:24:29.012Z",
     "reuters": [
       {
         "title": "Ro CEO says Wegovy pill is bringing in new customers, including men - Reuters",
@@ -285,6 +290,13 @@
         "source": "Reuters"
       },
       {
+        "title": "Tether CEO aims to allocate up to 15% of its portfolio to gold - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUZFQXN6ZGpORG0yVzJ4eTdOemJ4VVRCYWZpOXpFOHktWjNDT3AwUUl1Mmh4T0lBdVJFV3U2enRyeDdDcXhOZ0tHZEd6dUxMRDR3ZWJPWkczNDNIc3k1WjlxdlphMVlWR0FNZUtydnhFSHo3cEsyUER4cmpoeU9iQW1WMlVUQUtiY05XMXEtdlJfbzBsd2pOZUpR?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUZFQXN6ZGpORG0yVzJ4eTdOemJ4VVRCYWZpOXpFOHktWjNDT3AwUUl1Mmh4T0lBdVJFV3U2enRyeDdDcXhOZ0tHZEd6dUxMRDR3ZWJPWkczNDNIc3k1WjlxdlphMVlWR0FNZUt",
+        "pubDate": "Wed, 28 Jan 2026 14:20:11 GMT",
+        "source": "Reuters"
+      },
+      {
         "title": "EU needs digital euro to become independent from US, says EU's Dombrovskis - Reuters",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeFZvdDlSQm94U0twN09fenFGcVZMeFRjLUJlalNQa0haYjV6bC13Z2RsQ3hUNHIzenZTRUFYdVBOVmREYzRUeU9GU25pTzBHdUR3UF9FYm5PVXRTeC14enBDUy1YbkRCTHJhLW1wY1RIal82YTIyT3NNdjJsc2prQnptdUhBNEJMUVJIRUM1SUlBVklIMXhfVjBTaHE1WWFUdWxTRldzX3ZmSkZIbU1qMnE0dU5ob19h?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeFZvdDlSQm94U0twN09fenFGcVZMeFRjLUJlalNQa0haYjV6bC13Z2RsQ3hUNHIzenZTRUFYdVBOVmREYzRUeU9GU25pTzBHdUR3UF9FYm5PVXRTeC14enBDUy1YbkRCTHJhLW1",
@@ -299,21 +311,21 @@
         "source": "Reuters"
       },
       {
-        "title": "Big hedging of dollars for clients could test banks' capacity, senior UBS trader says - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUmkxcTJsZmtTU1R0RFYwd1lCMDJwaVEzaFY0eVZrMGRQb2RjemxTckREc3QxVTJSRDc3ZFUydFBnNk9pQ2lzajRXZjNDelExTUNfYVVVS1B2bExVbHZBcmdtdEpHMnhEdllqOE44RDJJT3U0T2VBZlB2dV81cDRoYUpiRUpRT0lnWVZDYmJvN1hMYlI5SkhwRHVJMnZRbjZKSkJDcXNNcFoxTmNqbU9WOEY0cFhXbzdWWTVlOWI2SjZrY2pJbk1MaA?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUmkxcTJsZmtTU1R0RFYwd1lCMDJwaVEzaFY0eVZrMGRQb2RjemxTckREc3QxVTJSRDc3ZFUydFBnNk9pQ2lzajRXZjNDelExTUNfYVVVS1B2bExVbHZBcmdtdEpHMnhEdllqOE4",
-        "pubDate": "Wed, 28 Jan 2026 15:29:29 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Walmart boosts pharmacy pay, elevates 3,000 roles in healthcare push - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOElHT0xWbUxXc0VZd2R5bDlKTzZrbVppS0tHTjI0a2YzbU1ITW9Nd2loelFIU2kyTFVGSjlWUjNsTHVDbUhDZVhBQ0FneVRpb3hUTDJRUDV1N0FTTlZicjM2cmZSWHRYbjRkR1VGWHRJTThvUDFvWFB6d0dULWRlLVQ3SFZ1M3pmTU5tU2x2b0FWbTk3M1k0Uzdlb2c3SENYYzJ6OERIZHpVOXRMZHhxSTdFejlELXNSa1I1T2otSQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQOElHT0xWbUxXc0VZd2R5bDlKTzZrbVppS0tHTjI0a2YzbU1ITW9Nd2loelFIU2kyTFVGSjlWUjNsTHVDbUhDZVhBQ0FneVRpb3hUTDJRUDV1N0FTTlZicjM2cmZSWHRYbjRkR1V",
-        "pubDate": "Wed, 28 Jan 2026 15:37:09 GMT",
+        "title": "Elevance forecasts 2026 profit below estimates, flags revenue decline - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZno1RGVMekFleml4aHFpWmVnTnRzN3M3RFcyREFURTJQMUlHZU1VSmItbEZkTC1INlFreVJVMk5hTHFoRW8zeng3STFBTS1BcDNNcVN0MnFrWjdFRXlpZmM0TFREZmxFUV81QmpScWlWV3FwRG4zVDJabGl6ckRaSHBvTEd6cXBENGVoTzFKYU1zOUtrWnpweXBoUERFUXpTdkpTY1g5TEFQbkQ1YjRIRzNXdEZ6MFNWamFraGxWN0ZYeHIzODREQnY1cVY1clRBMGl2TTNOakRWOXFYcHNTQm9SeEs?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZno1RGVMekFleml4aHFpWmVnTnRzN3M3RFcyREFURTJQMUlHZU1VSmItbEZkTC1INlFreVJVMk5hTHFoRW8zeng3STFBTS1BcDNNcVN0MnFrWjdFRXlpZmM0TFREZmxFUV81Qmp",
+        "pubDate": "Wed, 28 Jan 2026 16:01:43 GMT",
         "source": "Reuters"
       }
     ],
     "ap": [
+      {
+        "title": "Homeland Security Secretary Kristi Noem faces rising calls for her firing or impeachment - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPem9GUXhHY2xZSXBmRlhzeVZ2R0p6R0dZZDBBcm1pMGJzTXNhWFlMcEZUYmJTYkVfaFUweVZ5Um91MkpDTWJ3OHdYYi1GN3ltLXRfcW40dVNXdE51am0xdnl6V0o3QVo4NVU5WVk1dEo3YmN5V1NCNk1TcG5LVjlVQlktb3J1eXJNWUpPWk1PejIwTUYzeVF1R2xWNHd4d0xMSEc3MzJDenByZw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPem9GUXhHY2xZSXBmRlhzeVZ2R0p6R0dZZDBBcm1pMGJzTXNhWFlMcEZUYmJTYkVfaFUweVZ5Um91MkpDTWJ3OHdYYi1GN3ltLXRfcW40dVNXdE51am0xdnl6V0o3QVo4NVU5WVk",
+        "pubDate": "Wed, 28 Jan 2026 17:15:00 GMT",
+        "source": "AP"
+      },
       {
         "title": "Wall Street set to open with gains ahead of Federal Reserve interest rate call; gold and silver soar - AP News",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2JvSDhrODhla0pFZDFaWEpZbmNfaGh3VzNfemRMOWctclJ4WGVKeHlrei1kQ0JrZ1ZLRE9XWlB2Qk9Za1pfU05LeXNKMFdyVU4yekxGTHNndF9wZDZLZFMyYU82TFZ0aEpHQ1RaUi1yYWRoZTFBZ0FUTWdFMmlacjdGNi1vODdyem5mTERadzRwUV8xS0VF?oc=5",
@@ -336,6 +348,20 @@
         "source": "AP"
       },
       {
+        "title": "Sarah Mullally confirmed as archbishop of Canterbury, first woman to lead the Church of England - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDlpMjVycjVVNlltRnYxM3pLVnZIVW9wY3FsQTQ2QXFnMDF6M0kwaktnS2Vpc2JKSllJc1FxdFFjQkJMeVZmSHd2a2YwQzgwV21TQUVvUG9MV1JXRC1falJoSlR2a3BGOHhYWFB2ZGVzNEVsZXllcThVVkZyMzJHTkxyNU95dVZ5WHBsVC00cU9meU5RVUNfV1VNVHdiSnc1eFhJSTJfSWdOTWJUQnZlT2x4a1ltU1Y5MkE?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDlpMjVycjVVNlltRnYxM3pLVnZIVW9wY3FsQTQ2QXFnMDF6M0kwaktnS2Vpc2JKSllJc1FxdFFjQkJMeVZmSHd2a2YwQzgwV21TQUVvUG9MV1JXRC1falJoSlR2a3BGOHhYWFB",
+        "pubDate": "Wed, 28 Jan 2026 14:43:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Al-Maliki is defiant after Trump threatens to withdraw US support for Iraq - AP News",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1E1c1g2MThUeGpCazBfNVN5RC1Rd2NKMlk0UUhleGZpcHl2WURkbFFXNUUwb01oODJlVVdxNnlEdHRsb1NVbU5BQjZMUi1xTkZFQzd5S1NDc0hfdWVqbnpaeXRFWXlVb3BhdlpTdW83ZE1uTVdvajhQMWJoRmlQZUxNYS12bGx2eHVpd1I5c01SOUR1cUxr?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1E1c1g2MThUeGpCazBfNVN5RC1Rd2NKMlk0UUhleGZpcHl2WURkbFFXNUUwb01oODJlVVdxNnlEdHRsb1NVbU5BQjZMUi1xTkZFQzd5S1NDc0hfdWVqbnpaeXRFWXlVb3Bhdlp",
+        "pubDate": "Wed, 28 Jan 2026 15:08:00 GMT",
+        "source": "AP"
+      },
+      {
         "title": "3 months after rapidly scheduled arguments, the Supreme Court has yet to decide on Trump's tariffs - AP News",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZUtUMlBHZmFyU1RjOUVDamlucFNsMHI1NWltek5pNzNRWDhLd0hobXExeVhVcWttVmZ6Um5laTNGX0tRandNdU9UT3pUYndGNkxRZGhOTlhJWS1acWYyQllpMG1JaWlnRk9yTmwtTXR4M0xEWXRGVlNfRy1FVmZkaWlBN1Z5c1RaX0pJcDlpbzhDaTRpcDBhMTRB?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOZUtUMlBHZmFyU1RjOUVDamlucFNsMHI1NWltek5pNzNRWDhLd0hobXExeVhVcWttVmZ6Um5laTNGX0tRandNdU9UT3pUYndGNkxRZGhOTlhJWS1acWYyQllpMG1JaWlnRk9yTmw",
@@ -347,27 +373,6 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVAyM0tSQldldU1LWDlnUGdKeTFYNnJFXzBmR3FXMFVzd0t5UnowR3RTQVAxUTJNX3B6YWI1U2VzZ0hzSFMyQ0NzdXA2Y3I0OGFxOUtOLUZyRnRQaTZVSnpsY1A5bngzczcza19sc0NCdGk0eVVybDNUWGRFTU1ZekY1Q3dHSGJ0LWgwaDJfb0gxUQ?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVAyM0tSQldldU1LWDlnUGdKeTFYNnJFXzBmR3FXMFVzd0t5UnowR3RTQVAxUTJNX3B6YWI1U2VzZ0hzSFMyQ0NzdXA2Y3I0OGFxOUtOLUZyRnRQaTZVSnpsY1A5bngzczcza19",
         "pubDate": "Wed, 28 Jan 2026 12:45:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Al-Maliki is defiant after Trump threatens to withdraw US support for Iraq - AP News",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1E1c1g2MThUeGpCazBfNVN5RC1Rd2NKMlk0UUhleGZpcHl2WURkbFFXNUUwb01oODJlVVdxNnlEdHRsb1NVbU5BQjZMUi1xTkZFQzd5S1NDc0hfdWVqbnpaeXRFWXlVb3BhdlpTdW83ZE1uTVdvajhQMWJoRmlQZUxNYS12bGx2eHVpd1I5c01SOUR1cUxr?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1E1c1g2MThUeGpCazBfNVN5RC1Rd2NKMlk0UUhleGZpcHl2WURkbFFXNUUwb01oODJlVVdxNnlEdHRsb1NVbU5BQjZMUi1xTkZFQzd5S1NDc0hfdWVqbnpaeXRFWXlVb3Bhdlp",
-        "pubDate": "Wed, 28 Jan 2026 15:08:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Trump endorses Republican Rep. Tom Tiffany in Wisconsin’s open race for governor - AP News",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVRKcXFIcHF4engzaHAxSmdEWXNQYzFDVUJlUURiTGV2M0VSYmxNcEktQTRCSjBvUTZ4b2JOS1gyWVNXYnVQTllwbjFOc3hMelVYMm9fc2h4d1JHTUNrTUxoMVVBSjlyOHFoUnluWnN2ZzZxcUZHLUJzMGUxSHZtU0ZjcFYzM0NzdjdoR0FLMmduc1Z1TnE3X05UNmc2bThQMUxYWDFPRk5jTWs4?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVRKcXFIcHF4engzaHAxSmdEWXNQYzFDVUJlUURiTGV2M0VSYmxNcEktQTRCSjBvUTZ4b2JOS1gyWVNXYnVQTllwbjFOc3hMelVYMm9fc2h4d1JHTUNrTUxoMVVBSjlyOHFoUnl",
-        "pubDate": "Wed, 28 Jan 2026 14:47:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Local prosecutors launch a project to fight federal overreach in immigration enforcement surges - AP News",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNzlmaDV1RG1YWmhjc0tXRkF5dXFOT3pmejk2eFJaXzhuemNfOUFLUnpDWW1yRkVRWGxWbmNKb0J1UnlEUTRma2dac0cwOUxvNUk4c2pLRndsMmRxck5kNHNjZ2RrbGprUW1UUWRDaHduQ1M3TDJPZlVTR2dkd0xBUjNyU1dJVTE3c3dVNGh4d3E0SkExYy1SelhZdmVzTmM?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNNzlmaDV1RG1YWmhjc0tXRkF5dXFOT3pmejk2eFJaXzhuemNfOUFLUnpDWW1yRkVRWGxWbmNKb0J1UnlEUTRma2dac0cwOUxvNUk4c2pLRndsMmRxck5kNHNjZ2RrbGprUW1UUWR",
-        "pubDate": "Wed, 28 Jan 2026 16:33:00 GMT",
         "source": "AP"
       }
     ],
@@ -545,6 +550,20 @@
     ],
     "bloomberg": [
       {
+        "title": "China Picks Up Canadian Canola After Trade Reset",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/china-picks-up-canadian-canola-cargoes-after-reset-in-trade-ties",
+        "description": "China has resumed purchases of Canadian canola, an early sign of a revival in the trade after the nations reached a deal this month to mend ties.",
+        "pubDate": "Wed, 28 Jan 2026 09:03:27 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Loparex Sounds Out Private Credit Firms for Up To $1.5 Billion",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/loparex-sounds-out-private-credit-firms-for-up-to-1-5-billion",
+        "description": "Loparex has sounded out private credit investors for new debt to refinance its existing borrowings, nearly two years after the firm completed a distressed exchange amid weak demand and high interest c",
+        "pubDate": "Wed, 28 Jan 2026 17:11:09 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
         "title": "Afreximbank’s Bonds Plunge After Fitch Cuts Rating to Junk",
         "link": "https://www.bloomberg.com/news/articles/2026-01-28/fitch-cuts-afreximbank-s-rating-to-junk-after-lender-severs-ties",
         "description": "Fitch Ratings cut its assessment of the African Export-Import Bank’s credit to ‘junk’ status, just days after the Cairo-based lender said it terminated their relationship following a dispute. The Cair",
@@ -554,7 +573,7 @@
       {
         "title": "Deutsche Bank Raided Over Past Links to Russia’s Abramovich",
         "link": "https://www.bloomberg.com/news/articles/2026-01-28/deutsche-bank-offices-inspected-by-frankfurt-prosecutor",
-        "description": "Deutsche Bank AG was raided by German authorities as part of a money laundering probe looking at past dealings by staff with firms linked to the now-sanctioned Roman Abramovich, dealing a setback to i",
+        "description": "Deutsche Bank AG was raided by German authorities as part of a money laundering probe looking at past dealings by staff with firms linked to the now-sanctioned Roman Abramovich, setting back the lende",
         "pubDate": "Wed, 28 Jan 2026 12:23:46 GMT",
         "source": "Bloomberg Markets"
       },
@@ -587,18 +606,11 @@
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Mexico to Continue ‘Humanitarian’ Cuba Oil Aid Despite Trump Vow",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/mexico-to-continue-humanitarian-cuba-oil-aid-despite-trump-vow",
-        "description": "Mexico will continue sending aid shipments of crude oil to Cuba, in a potential clash with Donald Trump’s pledge to deprive the impoverished island of such energy assistance.",
-        "pubDate": "Wed, 28 Jan 2026 16:32:56 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Bessent Touts a Strong Dollar After Trump Brushed Off Its Drop",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/bessent-cools-yen-intervention-speculation-touts-strong-dollar",
-        "description": "Treasury Secretary Scott Bessent touted a strong-dollar policy on Wednesday, offering the greenback support a day after comments by President Donald Trump had sent the US currency tumbling.",
-        "pubDate": "Wed, 28 Jan 2026 15:27:42 GMT",
-        "source": "Bloomberg Markets"
+        "title": "Europe to Decide How Much Toxin in Baby Formula Is Too Much",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/europe-to-decide-how-much-toxin-in-baby-formula-is-too-much",
+        "description": "Europe’s food safety regulator will publish advice on what is an acceptable level of the toxin currently at the heart of one of the biggest infant formula recalls in history.",
+        "pubDate": "Wed, 28 Jan 2026 17:02:24 GMT",
+        "source": "Bloomberg Politics"
       },
       {
         "title": "Ecuador Probes Left-Wing Candidates Over Alleged Venezuela Cash",
@@ -647,13 +659,6 @@
         "link": "https://www.bloomberg.com/news/articles/2026-01-28/bessent-cools-yen-intervention-speculation-touts-strong-dollar",
         "description": "Treasury Secretary Scott Bessent touted a strong-dollar policy on Wednesday, offering the greenback support a day after comments by President Donald Trump had sent the US currency tumbling.",
         "pubDate": "Wed, 28 Jan 2026 15:27:42 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Three Charts That Show Trump’s Unpopularity",
-        "link": "https://www.bloomberg.com/news/videos/2026-01-28/opinion-three-charts-that-show-trump-s-unpopularity-video",
-        "description": "Poll data show that Trump has disappointed voters in three main areas, Bloomberg Opinion columnist Nia-Malika Henderson says. (Source: Bloomberg)",
-        "pubDate": "Wed, 28 Jan 2026 16:25:30 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -771,6 +776,64 @@
         "description": "At a rally to remember Jose Marti, some protesters disavowed any interference in Cuba from US President Donald Trump.",
         "pubDate": "Wed, 28 Jan 2026 15:37:52 +0000",
         "source": "Al Jazeera"
+      }
+    ],
+    "washpost": [
+      {
+        "title": "Ukraine sees ‘progress’ in latest talks with Russia despite ongoing attacks",
+        "link": "https://www.washingtonpost.com/world/2026/01/28/ukraine-russia-war-talks-territory/",
+        "description": "Ukraine’s foreign minister described the Russian officials involved in the new rounds of talks, which resume Sunday in the United Arab Emirates, as much more serious than before.",
+        "pubDate": "Wed, 28 Jan 2026 16:55:56 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Germany and France push for ‘two-speed’ E.U. to overcome policy inertia",
+        "link": "https://www.washingtonpost.com/world/2026/01/28/two-speed-europe-germany-france/",
+        "description": "Germany and France want to speed up action on strengthening the euro currency, cooperating on military spending and building supply chains for critical raw materials.",
+        "pubDate": "Wed, 28 Jan 2026 15:55:18 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Clamor is growing in Europe to boycott Trump’s World Cup",
+        "link": "https://www.washingtonpost.com/world/2026/01/28/trump-world-cup-boycott-europe/",
+        "description": "This summer’s North American World Cup is inextricably tied to President Donald Trump. Some of his critics are questioning the fitness of the U.S. as a host.",
+        "pubDate": "Wed, 28 Jan 2026 15:06:06 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Right on cue: Toddler is recognized for his mastery of trick shots",
+        "link": "https://www.washingtonpost.com/lifestyle/2026/01/28/toddler-guinness-world-records-jude-owens/",
+        "description": "Jude Owens has already scored two Guinness World Records for his snooker skills. He’s 3 years old and needs a stool to reach the table.",
+        "pubDate": "Wed, 28 Jan 2026 15:05:43 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Hungary announces charges against Budapest mayor over Pride events",
+        "link": "https://www.washingtonpost.com/world/2026/01/28/hungary-budapest-mayor-pride-viktor-orban/",
+        "description": "Prime Minister Viktor Orban has aligned himself closely with President Donald Trump’s brand of populist conservatism and is a MAGA darling.",
+        "pubDate": "Wed, 28 Jan 2026 14:28:51 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Inside the shadow war between Russia and Ukraine that exploits teens",
+        "link": "https://www.washingtonpost.com/world/2026/01/28/ukraine-russia-teens-sabotage-war/",
+        "description": "Vika, 18, needed a job. Then an offer came for $2,500 to make a simple delivery that seemed too good to be true. It was a Russian sabotage operation.",
+        "pubDate": "Wed, 28 Jan 2026 10:00:24 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "What to know about the deadly Nipah virus, amid outbreak in India",
+        "link": "https://www.washingtonpost.com/world/2026/01/27/nipah-virus-outbreak-india/",
+        "description": "Some airports in Asia are on alert after confirmed cases in West Bengal of Nipah virus, which has no known cure. South Asia sees outbreaks nearly every year.",
+        "pubDate": "Tue, 27 Jan 2026 16:01:23 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Facing U.S. turmoil, Europe and India announce blockbuster trade deal",
+        "link": "https://www.washingtonpost.com/world/2026/01/27/indian-european-union-free-trade-agreement/",
+        "description": "",
+        "pubDate": "Tue, 27 Jan 2026 14:07:20 +0000",
+        "source": "Washington Post"
       }
     ],
     "economist": [
@@ -950,7 +1013,7 @@
     "afp": [
       {
         "title": "Greenland: France and Denmark closer than ever in face of US threat",
-        "link": "https://www.france24.com/en/video/20260128-greenland-france-and-denmark-closer-than-ever-in-face-of-us-threat-2",
+        "link": "https://www.france24.com/en/video/20260128-greenland-france-and-denmark-closer-than-ever-in-face-of-us-threat-3",
         "description": "",
         "pubDate": "Wed, 28 Jan 2026 17:05:23 GMT",
         "source": "AFP/France24"
@@ -1007,7 +1070,7 @@
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-01-28T17:13:15.243Z",
+    "timestamp": "2026-01-28T17:24:29.012Z",
     "bbc": {
       "lead": {
         "headline": "Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf",
@@ -1026,11 +1089,6 @@
           "source": "BBC"
         },
         {
-          "headline": "China trip will bring benefits to UK, Starmer insists, ahead of Xi meeting",
-          "url": "https://www.bbc.com/news/articles/c4gw47prew7o",
-          "source": "BBC"
-        },
-        {
           "headline": "Why China views the UK visit as part of something bigger",
           "url": "https://www.bbc.com/news/articles/c3wz2x7ppz7o",
           "source": "BBC"
@@ -1039,12 +1097,47 @@
           "headline": "I will speak out on misogyny, first female Archbishop of Canterbury says",
           "url": "https://www.bbc.com/news/articles/c7v0948vm9go",
           "source": "BBC"
+        },
+        {
+          "headline": "Live. It's in Venezuela's interest to co-operate with US, Rubio says in heated testimony",
+          "url": "https://www.bbc.com/news/live/ckgnpdvwqz8t",
+          "source": "BBC"
         }
       ]
     },
     "guardian": {
-      "lead": null,
-      "top": []
+      "lead": {
+        "headline": "‘Like a sea out there’: flooded Somerset residents wonder how water can be managed",
+        "url": "https://www.theguardian.com/uk-news/2026/jan/28/somerset-flooded-residents-storm-chandra-water-managed",
+        "source": "Guardian"
+      },
+      "top": [
+        {
+          "headline": "‘Like a sea out there’: flooded Somerset residents wonder how water can be managed",
+          "url": "https://www.theguardian.com/uk-news/2026/jan/28/somerset-flooded-residents-storm-chandra-water-managed",
+          "source": "Guardian"
+        },
+        {
+          "headline": "‘You’d be ashamed to bring someone here’: The struggling billionaire-owned high street that shows Reform’s road to No 10",
+          "url": "https://www.theguardian.com/society/ng-interactive/2026/jan/28/newton-aycliffe-county-durham-high-street-decline",
+          "source": "Guardian"
+        },
+        {
+          "headline": "Jess Cartner-Morley on fashion: Still wearing a cross-body bag and French-tucking your shirt? Sorry to say, your wardrobe is cringe",
+          "url": "https://www.theguardian.com/fashion/2026/jan/28/jess-cartner-morley-on-fashion-your-wardrobe-is-cringe",
+          "source": "Guardian"
+        },
+        {
+          "headline": "Threat of US-Iran war escalates as Trump warns time running out for deal",
+          "url": "https://www.theguardian.com/world/2026/jan/28/trump-threat-us-iran-war-armada-nuclear-programme",
+          "source": "Guardian"
+        },
+        {
+          "headline": "Centrist ideas no longer wanted in Conservative party, says Kemi Badenoch",
+          "url": "https://www.theguardian.com/politics/2026/jan/28/centrist-ideas-no-longer-wanted-in-conservative-party-says-kemi-badenoch",
+          "source": "Guardian"
+        }
+      ]
     },
     "economist": {
       "lead": null,
@@ -1063,6 +1156,11 @@
           "source": "Al Jazeera"
         },
         {
+          "headline": "Iran’s ‘government ‘weaker than ever’: Rubio",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271833",
+          "source": "Al Jazeera"
+        },
+        {
           "headline": "Trump using pressure campaign to push Iran on uranium enrichment",
           "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271787",
           "source": "Al Jazeera"
@@ -1076,11 +1174,6 @@
           "headline": "Germany’s Merz says Iranian government’s ‘days are numbered’",
           "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271750",
           "source": "Al Jazeera"
-        },
-        {
-          "headline": "What exactly did Trump say?",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271723",
-          "source": "Al Jazeera"
         }
       ]
     },
@@ -1089,6 +1182,6 @@
       "top": []
     }
   },
-  "generated": "2026-01-28T17:13:16.252Z",
+  "generated": "2026-01-28T17:24:30.074Z",
   "source": "github-actions"
 }
