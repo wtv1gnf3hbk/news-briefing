@@ -59,6 +59,35 @@ Options:
 - `--open-rate` - The open rate as decimal (0.35 = 35%)
 - `--edition` - asia, europe, or combined
 - `--newsletter-html` - URL or file path to newsletter HTML
+- `--visual-heatmap` - Generate color-coded HTML overlay
+- `--screenshot` - Also generate PNG screenshot (requires playwright)
+
+### Visual Heatmap
+```bash
+# Generate HTML with colored links (green=good, red=bad)
+python v2/analyze_v2.py clicks.csv --visual-heatmap
+
+# Also generate a PNG screenshot (zoomed out overview)
+python v2/analyze_v2.py clicks.csv --visual-heatmap --screenshot
+```
+
+Or run the heatmap generator directly:
+```bash
+python v2/visual_heatmap.py clicks.csv --screenshot --zoom 0.4
+```
+
+The heatmap shows:
+- **Green** = 2x+ expected CTR
+- **Yellow** = At expected CTR
+- **Red** = <0.5x expected CTR
+
+Hover over links to see exact performance numbers.
+
+For screenshots, install Playwright:
+```bash
+pip install playwright
+playwright install chromium
+```
 
 ## Step 4: Review Output
 
@@ -146,5 +175,6 @@ news-briefing/
 └── v2/
     ├── analyze_v2.py       # Full analysis engine
     ├── parse_newsletter.py # Newsletter HTML parser
-    └── fetch_trending.py   # NYT trending scraper
+    ├── fetch_trending.py   # NYT trending scraper
+    └── visual_heatmap.py   # Color-coded newsletter overlay
 ```

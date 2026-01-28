@@ -741,8 +741,10 @@ def main():
         print("  --subject <text>          Subject line to analyze")
         print("  --open-rate <float>       Open rate (e.g., 0.35 for 35%)")
         print("  --edition <name>          Edition: asia, europe, or combined")
+        print("  --visual-heatmap          Generate visual heatmap HTML overlay")
+        print("  --screenshot              Also generate PNG screenshot (requires playwright)")
         print("\nExample:")
-        print("  python analyze_v2.py clicks.csv --subject 'Breaking: Major Story' --open-rate 0.38")
+        print("  python analyze_v2.py clicks.csv --subject 'Breaking: Major Story' --open-rate 0.38 --visual-heatmap")
         sys.exit(1)
 
     csv_path = sys.argv[1]
@@ -752,6 +754,8 @@ def main():
     subject_line = '[No subject provided]'
     open_rate = 0.34
     edition = 'combined'
+    generate_visual = False
+    generate_screenshot = False
 
     args = sys.argv[2:]
     i = 0
@@ -768,6 +772,13 @@ def main():
         elif args[i] == '--edition' and i + 1 < len(args):
             edition = args[i + 1]
             i += 2
+        elif args[i] == '--visual-heatmap':
+            generate_visual = True
+            i += 1
+        elif args[i] == '--screenshot':
+            generate_screenshot = True
+            generate_visual = True  # Screenshot implies visual heatmap
+            i += 1
         else:
             i += 1
 
@@ -812,6 +823,41 @@ def main():
     }
     Path(output_path).write_text(json.dumps(report_dict, indent=2))
     print(f"\n\nFull report saved to: {output_path}")
+
+    # Generate visual heatmap if requested
+    if generate_visual:
+        print("\n" + "=" * 40)
+        print("GENERATING VISUAL HEATMAP")
+        print("=" * 40)
+
+        from visual_heatmap import generate_heatmap_html, take_screenshot
+
+        # Re-fetch newsletter HTML and build click data dict
+        html = fetch_html(newsletter_url)
+        newsletter_links = parse_newsletter(html)
+        clicks = parse_mode_csv(csv_path)
+        click_data = {c.url: {'clicks': c.clicks, 'sends': c.sends, 'ctr': c.ctr} for c in clicks}
+
+        # Generate heatmap HTML
+        heatmap_html = generate_heatmap_html(html, click_data, newsletter_links)
+
+        heatmap_path = Path(csv_path).stem + '_heatmap.html'
+        Path(heatmap_path).write_text(heatmap_html)
+        print(f"Visual heatmap saved to: {heatmap_path}")
+
+        # Generate screenshot if requested
+        if generate_screenshot:
+            screenshot_path = Path(csv_path).stem + '_heatmap.png'
+            print(f"Generating screenshot...")
+            success = take_screenshot(
+                str(Path(heatmap_path).absolute()),
+                str(screenshot_path),
+                zoom=0.5,
+            )
+            if success:
+                print(f"Screenshot saved to: {screenshot_path}")
+            else:
+                print("Screenshot failed - open the HTML file in a browser instead")
 
 
 if __name__ == '__main__':
