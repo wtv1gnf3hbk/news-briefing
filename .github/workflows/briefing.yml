@@ -29,6 +29,9 @@ jobs:
         run: npm install
 
       - name: Scrape headlines
+        env:
+          ECONOMIST_EMAIL: ${{ secrets.ECONOMIST_EMAIL }}
+          ECONOMIST_PASSWORD: ${{ secrets.ECONOMIST_PASSWORD }}
         run: node generate-briefing.js
 
       - name: Write conversational briefing
