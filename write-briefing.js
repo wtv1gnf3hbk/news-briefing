@@ -66,12 +66,184 @@ function callClaude(prompt) {
 }
 
 // ============================================
+// CROSS-SOURCE LEAD ANALYSIS
+// ============================================
+
+// Keywords that suggest US-centric domestic news
+const US_DOMESTIC_KEYWORDS = [
+  'congress', 'senate', 'house of representatives', 'capitol hill',
+  'white house', 'oval office', 'biden', 'trump', 'republican', 'democrat',
+  'gop', 'dnc', 'rnc', 'scotus', 'supreme court', 'fbi', 'doj', 'cia',
+  'homeland security', 'ice', 'border patrol', 'immigration',
+  'governor', 'mayor', 'state legislature',
+  'minneapolis', 'texas', 'florida', 'california', 'new york',
+  // US domestic policy
+  'medicaid', 'medicare', 'obamacare', 'social security',
+  'gun control', 'abortion', 'roe v wade',
+  // US politics/elections
+  'midterm', 'primary', 'caucus', 'electoral', 'swing state',
+  'poll', 'approval rating'
+];
+
+// Keywords suggesting international/global news
+const INTERNATIONAL_KEYWORDS = [
+  'ukraine', 'russia', 'putin', 'kyiv', 'moscow', 'nato',
+  'china', 'beijing', 'xi jinping', 'taiwan',
+  'middle east', 'israel', 'gaza', 'palestinian', 'hamas', 'hezbollah',
+  'iran', 'tehran', 'nuclear',
+  'eu', 'european union', 'brussels', 'eurozone',
+  'un', 'united nations', 'security council',
+  'climate', 'cop', 'paris agreement',
+  'africa', 'asia', 'latin america', 'south america',
+  'refugee', 'migrant', 'mediterranean',
+  'syria', 'assad', 'taliban', 'afghanistan'
+];
+
+function isUSCentric(headline) {
+  if (!headline) return false;
+  const lower = headline.toLowerCase();
+
+  // Check for US domestic keywords
+  const usScore = US_DOMESTIC_KEYWORDS.filter(kw => lower.includes(kw)).length;
+  const intlScore = INTERNATIONAL_KEYWORDS.filter(kw => lower.includes(kw)).length;
+
+  // US-centric if more US keywords than international, or US keywords with no international
+  return usScore > 0 && usScore >= intlScore;
+}
+
+function extractTopicSignature(headline) {
+  if (!headline) return [];
+  const lower = headline.toLowerCase();
+  const topics = [];
+
+  // Extract key topic markers
+  const allKeywords = [...US_DOMESTIC_KEYWORDS, ...INTERNATIONAL_KEYWORDS];
+  allKeywords.forEach(kw => {
+    if (lower.includes(kw)) topics.push(kw);
+  });
+
+  return topics;
+}
+
+function findCommonTopics(leads) {
+  // Count topic occurrences across leads
+  const topicCounts = {};
+
+  leads.forEach(lead => {
+    if (!lead?.headline) return;
+    const topics = extractTopicSignature(lead.headline);
+    topics.forEach(topic => {
+      topicCounts[topic] = (topicCounts[topic] || 0) + 1;
+    });
+  });
+
+  // Find topics that appear in 2+ sources
+  return Object.entries(topicCounts)
+    .filter(([_, count]) => count >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .map(([topic, count]) => ({ topic, count }));
+}
+
+function analyzeLeadStories(briefing) {
+  const analysis = {
+    nytLead: briefing.nyt?.lead || null,
+    nytIsUSCentric: false,
+    internationalLeads: {},
+    commonTopics: [],
+    suggestedLead: null,
+    reasoning: ''
+  };
+
+  // Check if NYT lead is US-centric
+  if (analysis.nytLead) {
+    analysis.nytIsUSCentric = isUSCentric(analysis.nytLead.headline);
+  }
+
+  // Gather international leads
+  // Key sources for comparison: UK editions (BBC, Guardian, Economist)
+  // Additional sources: Al Jazeera, Reuters (still scraped but not primary comparison)
+  const keySources = ['bbc', 'guardian', 'economist'];
+  const additionalSources = ['aljazeera', 'reuters'];
+  const intlSources = [...keySources, ...additionalSources];
+  const intlLeadsList = [];
+  const keyLeadsList = [];
+
+  intlSources.forEach(src => {
+    const lead = briefing.internationalLeads?.[src]?.lead;
+    if (lead) {
+      analysis.internationalLeads[src] = {
+        headline: lead.headline,
+        url: lead.url,
+        isUSCentric: isUSCentric(lead.headline),
+        isKeySource: keySources.includes(src)
+      };
+      intlLeadsList.push(lead);
+      // Track key sources separately for comparison
+      if (keySources.includes(src)) {
+        keyLeadsList.push(lead);
+      }
+    }
+  });
+
+  // Find common topics among KEY international sources (BBC, Guardian, Economist)
+  analysis.commonTopics = findCommonTopics(keyLeadsList);
+
+  // Determine if we should suggest a different lead
+  // Use KEY sources (UK editions) for the comparison
+  if (analysis.nytIsUSCentric && keyLeadsList.length >= 2) {
+    // Count how many KEY sources are NOT leading with US news
+    const nonUSLeads = keyLeadsList.filter(lead => !isUSCentric(lead.headline));
+
+    if (nonUSLeads.length >= 2) {
+      // Find the most common non-US topic
+      const nonUSTopics = findCommonTopics(nonUSLeads);
+
+      if (nonUSTopics.length > 0) {
+        // Find the lead that best represents the common topic
+        const topTopic = nonUSTopics[0].topic;
+        const bestLead = nonUSLeads.find(lead =>
+          lead.headline.toLowerCase().includes(topTopic)
+        ) || nonUSLeads[0];
+
+        analysis.suggestedLead = {
+          headline: bestLead.headline,
+          url: bestLead.url,
+          source: bestLead.source,
+          topic: topTopic,
+          consensusCount: nonUSTopics[0].count
+        };
+
+        analysis.reasoning = `NYT leads with US domestic news ("${analysis.nytLead.headline.slice(0, 50)}..."), ` +
+          `but ${nonUSLeads.length} of ${keyLeadsList.length} key UK sources (BBC, Guardian, Economist) are leading with non-US stories. ` +
+          `Common international topic: "${topTopic}" (${nonUSTopics[0].count} sources).`;
+      }
+    }
+  }
+
+  return analysis;
+}
+
+// ============================================
 // MAIN
 // ============================================
 
 async function main() {
   console.log('Reading briefing.json...');
   const briefing = JSON.parse(fs.readFileSync('briefing.json', 'utf8'));
+
+  // Analyze lead stories across sources
+  const leadAnalysis = analyzeLeadStories(briefing);
+  console.log('\n=== LEAD ANALYSIS ===');
+  console.log(`NYT Lead: ${leadAnalysis.nytLead?.headline?.slice(0, 60) || 'None'}...`);
+  console.log(`NYT is US-centric: ${leadAnalysis.nytIsUSCentric}`);
+  console.log(`International leads found: ${Object.keys(leadAnalysis.internationalLeads).length}`);
+  if (leadAnalysis.suggestedLead) {
+    console.log(`\n⚡ SUGGESTED ALTERNATIVE LEAD:`);
+    console.log(`   "${leadAnalysis.suggestedLead.headline}"`);
+    console.log(`   Source: ${leadAnalysis.suggestedLead.source}`);
+    console.log(`   Reason: ${leadAnalysis.reasoning}`);
+  }
+  console.log('=====================\n');
 
   // Build a condensed version for the prompt (to save tokens)
   // Extract regional stories explicitly
@@ -91,13 +263,44 @@ async function main() {
       ap: briefing.secondary.ap?.slice(0, 3) || [],
       bbc: briefing.secondary.bbc?.slice(0, 3) || [],
       bloomberg: briefing.secondary.bloomberg?.slice(0, 3) || []
-    }
+    },
+    // Add international homepage leads for context
+    internationalLeads: briefing.internationalLeads || {}
   };
+
+  // Build lead guidance based on analysis
+  let leadGuidance = '';
+  if (leadAnalysis.suggestedLead) {
+    leadGuidance = `
+IMPORTANT - LEAD STORY GUIDANCE:
+The NYT is leading with a US-centric domestic story, but key UK news outlets (BBC, Guardian, Economist) are prominently featuring a different global story. For this international news briefing, you should:
+
+1. LEAD with the international story that other outlets are featuring: "${leadAnalysis.suggestedLead.headline}"
+   Source: ${leadAnalysis.suggestedLead.source}
+   URL: ${leadAnalysis.suggestedLead.url}
+
+2. THEN cover the NYT's US story as secondary/context, noting it's dominating US coverage
+
+3. Look for NYT coverage of the international lead story in the regional sections or wire services to augment your lead
+
+This ensures the briefing prioritizes globally significant news over US-centric stories.
+`;
+  } else if (Object.keys(leadAnalysis.internationalLeads).length > 0) {
+    leadGuidance = `
+CONTEXT - INTERNATIONAL LEAD STORIES:
+Here's what other major outlets are leading with (for context):
+${Object.entries(leadAnalysis.internationalLeads).map(([src, data]) =>
+  `- ${src.toUpperCase()}: "${data.headline}"`
+).join('\n')}
+
+The NYT lead aligns with international coverage, so proceed normally.
+`;
+  }
 
   const prompt = `You are writing a morning news briefing for Adam, an NYT journalist who writes "The World" newsletter (international news).
 
 Write a conversational briefing based on this headline data. Follow these rules EXACTLY:
-
+${leadGuidance}
 FORMAT:
 - Start with "Good morning. Here's the state of play:" (no name, just greeting)
 - 2-3 paragraphs on the lead/top stories (synthesize, don't just list)
@@ -142,6 +345,9 @@ ${JSON.stringify(condensed.byRegion, null, 2)}
 
 WIRE SERVICES:
 ${JSON.stringify(condensed.wire, null, 2)}
+
+INTERNATIONAL HOMEPAGE LEADS (what BBC/Guardian/Al Jazeera/Reuters are featuring):
+${JSON.stringify(condensed.internationalLeads, null, 2)}
 
 Write the briefing now. Keep it concise but comprehensive.`;
 
