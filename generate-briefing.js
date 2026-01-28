@@ -167,8 +167,11 @@ function parseGuardianHomepage(html) {
   const stories = [];
   const seen = new Set();
 
-  // Guardian uses semantic HTML with article tags and clear headline structure
-  $('h3 a, h2 a').each((i, el) => {
+  // Guardian uses fc-item containers with fc-item__link for articles
+  // Try multiple selector strategies
+
+  // Strategy 1: fc-item containers (main Guardian homepage structure)
+  $('div.fc-item__container a.fc-item__link, a.fc-item__link').each((i, el) => {
     if (stories.length >= 10) return;
     const $el = $(el);
     let url = $el.attr('href');
@@ -176,16 +179,61 @@ function parseGuardianHomepage(html) {
 
     if (url.startsWith('/')) url = 'https://www.theguardian.com' + url;
     if (!url.includes('theguardian.com')) return;
-    // Skip non-article pages
     if (url.includes('/live/') || url.includes('/video/')) return;
 
-    const headline = $el.text().trim().replace(/\s+/g, ' ');
+    // Get headline from link text or nearby headline element
+    let headline = $el.find('.fc-item__headline, .fc-item__title').text().trim();
+    if (!headline) headline = $el.text().trim();
+    headline = headline.replace(/\s+/g, ' ');
+
     if (headline.length < 10 || headline.length > 200) return;
     if (seen.has(url)) return;
     seen.add(url);
 
     stories.push({ headline, url, source: 'Guardian' });
   });
+
+  // Strategy 2: data-link-name attributes (Guardian's tracking structure)
+  if (stories.length < 3) {
+    $('a[data-link-name*="article"]').each((i, el) => {
+      if (stories.length >= 10) return;
+      const $el = $(el);
+      let url = $el.attr('href');
+      if (!url) return;
+
+      if (url.startsWith('/')) url = 'https://www.theguardian.com' + url;
+      if (!url.includes('theguardian.com')) return;
+      if (url.includes('/live/') || url.includes('/video/')) return;
+      if (seen.has(url)) return;
+
+      const headline = $el.text().trim().replace(/\s+/g, ' ');
+      if (headline.length < 10 || headline.length > 200) return;
+      seen.add(url);
+
+      stories.push({ headline, url, source: 'Guardian' });
+    });
+  }
+
+  // Strategy 3: Fallback to h3/h2 with links (older structure)
+  if (stories.length < 3) {
+    $('h3 a, h2 a, h1 a').each((i, el) => {
+      if (stories.length >= 10) return;
+      const $el = $(el);
+      let url = $el.attr('href');
+      if (!url) return;
+
+      if (url.startsWith('/')) url = 'https://www.theguardian.com' + url;
+      if (!url.includes('theguardian.com')) return;
+      if (url.includes('/live/') || url.includes('/video/')) return;
+      if (seen.has(url)) return;
+
+      const headline = $el.text().trim().replace(/\s+/g, ' ');
+      if (headline.length < 10 || headline.length > 200) return;
+      seen.add(url);
+
+      stories.push({ headline, url, source: 'Guardian' });
+    });
+  }
 
   return { lead: stories[0] || null, top: stories.slice(0, 5) };
 }
@@ -225,53 +273,97 @@ function parseEconomistWorldInBrief(html) {
   const stories = [];
   const seen = new Set();
 
-  // World in Brief has a bulleted list at the top with key stories
-  // Each bullet typically has bold text followed by summary
-  $('li').each((i, el) => {
+  // World in Brief uses various structures - try multiple strategies
+
+  // Strategy 1: Topic item containers (common Economist structure)
+  $('div.topic-item-container, div[class*="topic-item"]').each((i, el) => {
     if (stories.length >= 10) return;
     const $el = $(el);
-
-    // Get the full text of the list item
-    const fullText = $el.text().trim().replace(/\s+/g, ' ');
-    if (fullText.length < 20 || fullText.length > 300) return;
-
-    // Look for a link in this list item
     const $link = $el.find('a').first();
     let url = $link.attr('href');
 
-    // If no link in li, create a placeholder URL
-    if (!url) {
-      url = 'https://www.economist.com/the-world-in-brief';
-    } else {
-      if (url.startsWith('/')) url = 'https://www.economist.com' + url;
-    }
+    if (!url) return;
+    if (url.startsWith('/')) url = 'https://www.economist.com' + url;
 
-    if (seen.has(fullText.slice(0, 50))) return;
-    seen.add(fullText.slice(0, 50));
+    const headline = $link.text().trim().replace(/\s+/g, ' ');
+    if (headline.length < 10 || headline.length > 200) return;
+    if (seen.has(url)) return;
+    seen.add(url);
 
-    // Use full text as headline (truncated)
-    const headline = fullText.slice(0, 180);
     stories.push({ headline, url, source: 'Economist' });
   });
 
-  // Also check for bold-lead paragraphs if bullets didn't yield enough
+  // Strategy 2: Article cards/teasers
   if (stories.length < 3) {
-    $('p strong, p b').each((i, el) => {
+    $('article, div[class*="teaser"], div[class*="card"]').each((i, el) => {
       if (stories.length >= 10) return;
       const $el = $(el);
-      const $p = $el.closest('p');
-      const $link = $p.find('a').first();
+      const $link = $el.find('a[href*="/"]').first();
+      let url = $link.attr('href');
 
+      if (!url) return;
+      if (url.startsWith('/')) url = 'https://www.economist.com' + url;
+      if (!url.includes('economist.com')) return;
+      if (seen.has(url)) return;
+
+      // Try to find headline in h2, h3, or link text
+      let headline = $el.find('h2, h3, h4').first().text().trim();
+      if (!headline) headline = $link.text().trim();
+      headline = headline.replace(/\s+/g, ' ');
+
+      if (headline.length < 10 || headline.length > 200) return;
+      seen.add(url);
+
+      stories.push({ headline, url, source: 'Economist' });
+    });
+  }
+
+  // Strategy 3: World in Brief bullet points (bold lead text)
+  if (stories.length < 3) {
+    $('p').each((i, el) => {
+      if (stories.length >= 10) return;
+      const $el = $(el);
+
+      // Look for paragraphs with bold opening (typical World in Brief style)
+      const $bold = $el.find('strong, b').first();
+      if (!$bold.length) return;
+
+      const boldText = $bold.text().trim();
+      if (boldText.length < 10) return;
+
+      const fullText = $el.text().trim().replace(/\s+/g, ' ');
+      if (fullText.length < 30 || fullText.length > 400) return;
+
+      const $link = $el.find('a').first();
       let url = $link.attr('href');
       if (!url) url = 'https://www.economist.com/the-world-in-brief';
       else if (url.startsWith('/')) url = 'https://www.economist.com' + url;
 
-      const fullText = $p.text().trim().replace(/\s+/g, ' ');
-      if (fullText.length < 20 || fullText.length > 300) return;
-      if (seen.has(fullText.slice(0, 50))) return;
-      seen.add(fullText.slice(0, 50));
+      if (seen.has(boldText)) return;
+      seen.add(boldText);
 
-      const headline = fullText.slice(0, 180);
+      // Use bold text as headline, or truncated full text
+      const headline = boldText.length > 20 ? boldText.slice(0, 150) : fullText.slice(0, 150);
+      stories.push({ headline, url, source: 'Economist' });
+    });
+  }
+
+  // Strategy 4: Any headline links as fallback
+  if (stories.length < 3) {
+    $('h2 a, h3 a, a[class*="headline"]').each((i, el) => {
+      if (stories.length >= 10) return;
+      const $el = $(el);
+      let url = $el.attr('href');
+
+      if (!url) return;
+      if (url.startsWith('/')) url = 'https://www.economist.com' + url;
+      if (!url.includes('economist.com')) return;
+      if (seen.has(url)) return;
+
+      const headline = $el.text().trim().replace(/\s+/g, ' ');
+      if (headline.length < 10 || headline.length > 200) return;
+      seen.add(url);
+
       stories.push({ headline, url, source: 'Economist' });
     });
   }
