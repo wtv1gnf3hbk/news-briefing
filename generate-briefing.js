@@ -113,6 +113,140 @@ function parseSection(html, name) {
 }
 
 // ============================================
+// INTERNATIONAL HOMEPAGE SCRAPING
+// ============================================
+
+function parseBBCHomepage(html) {
+  const $ = cheerio.load(html);
+  const stories = [];
+  const seen = new Set();
+
+  // BBC uses data-testid for hero/lead stories and h2 for headlines
+  // Look for prominent story containers first
+  $('h2').each((i, el) => {
+    const $el = $(el);
+    const $link = $el.find('a').first() || $el.closest('a');
+    let url = $link.attr('href') || $el.closest('a').attr('href');
+    if (!url) return;
+
+    // Make URL absolute
+    if (url.startsWith('/')) url = 'https://www.bbc.com' + url;
+    if (!url.includes('bbc.com') && !url.includes('bbc.co.uk')) return;
+
+    const headline = $el.text().trim().replace(/\s+/g, ' ');
+    if (headline.length < 10 || headline.length > 200) return;
+    if (seen.has(url)) return;
+    seen.add(url);
+
+    stories.push({ headline, url, source: 'BBC' });
+  });
+
+  // Also check h3s for additional stories
+  $('h3').each((i, el) => {
+    if (stories.length >= 10) return;
+    const $el = $(el);
+    let url = $el.find('a').attr('href') || $el.closest('a').attr('href');
+    if (!url) return;
+
+    if (url.startsWith('/')) url = 'https://www.bbc.com' + url;
+    if (!url.includes('bbc.com') && !url.includes('bbc.co.uk')) return;
+
+    const headline = $el.text().trim().replace(/\s+/g, ' ');
+    if (headline.length < 10 || headline.length > 200) return;
+    if (seen.has(url)) return;
+    seen.add(url);
+
+    stories.push({ headline, url, source: 'BBC' });
+  });
+
+  return { lead: stories[0] || null, top: stories.slice(0, 5) };
+}
+
+function parseGuardianHomepage(html) {
+  const $ = cheerio.load(html);
+  const stories = [];
+  const seen = new Set();
+
+  // Guardian uses semantic HTML with article tags and clear headline structure
+  $('h3 a, h2 a').each((i, el) => {
+    if (stories.length >= 10) return;
+    const $el = $(el);
+    let url = $el.attr('href');
+    if (!url) return;
+
+    if (url.startsWith('/')) url = 'https://www.theguardian.com' + url;
+    if (!url.includes('theguardian.com')) return;
+    // Skip non-article pages
+    if (url.includes('/live/') || url.includes('/video/')) return;
+
+    const headline = $el.text().trim().replace(/\s+/g, ' ');
+    if (headline.length < 10 || headline.length > 200) return;
+    if (seen.has(url)) return;
+    seen.add(url);
+
+    stories.push({ headline, url, source: 'Guardian' });
+  });
+
+  return { lead: stories[0] || null, top: stories.slice(0, 5) };
+}
+
+function parseAlJazeeraHomepage(html) {
+  const $ = cheerio.load(html);
+  const stories = [];
+  const seen = new Set();
+
+  // Al Jazeera uses h3 for headlines typically
+  $('h3 a, h2 a, .article-card a').each((i, el) => {
+    if (stories.length >= 10) return;
+    const $el = $(el);
+    let url = $el.attr('href');
+    if (!url) return;
+
+    if (url.startsWith('/')) url = 'https://www.aljazeera.com' + url;
+    if (!url.includes('aljazeera.com')) return;
+
+    // Try to get headline from the link text or parent h3
+    let headline = $el.text().trim().replace(/\s+/g, ' ');
+    if (headline.length < 10) {
+      headline = $el.closest('article, .article-card').find('h3, h2').first().text().trim().replace(/\s+/g, ' ');
+    }
+    if (headline.length < 10 || headline.length > 200) return;
+    if (seen.has(url)) return;
+    seen.add(url);
+
+    stories.push({ headline, url, source: 'Al Jazeera' });
+  });
+
+  return { lead: stories[0] || null, top: stories.slice(0, 5) };
+}
+
+function parseReutersHomepage(html) {
+  const $ = cheerio.load(html);
+  const stories = [];
+  const seen = new Set();
+
+  // Reuters has a mix of structures, look for headline patterns
+  $('[data-testid*="Headline"] a, h3 a, h2 a').each((i, el) => {
+    if (stories.length >= 10) return;
+    const $el = $(el);
+    let url = $el.attr('href');
+    if (!url) return;
+
+    if (url.startsWith('/')) url = 'https://www.reuters.com' + url;
+    if (!url.includes('reuters.com')) return;
+
+    const headline = $el.text().trim().replace(/\s+/g, ' ');
+    if (headline.length < 10 || headline.length > 200) return;
+    if (seen.has(url)) return;
+    seen.add(url);
+
+    stories.push({ headline, url, source: 'Reuters' });
+  });
+
+  return { lead: stories[0] || null, top: stories.slice(0, 5) };
+}
+
+// ============================================
 // RSS SCRAPING
 // ============================================
 
@@ -160,6 +294,12 @@ const ALL_SOURCES = [
   { id: 'nyt_business', type: 'nyt_section', url: 'https://www.nytimes.com/section/business', name: 'Business' },
   { id: 'nyt_tech', type: 'nyt_section', url: 'https://www.nytimes.com/section/technology', name: 'Technology' },
 
+  // International homepages (for cross-source lead comparison)
+  { id: 'bbc_homepage', type: 'bbc_homepage', url: 'https://www.bbc.com/news', name: 'BBC' },
+  { id: 'guardian_homepage', type: 'guardian_homepage', url: 'https://www.theguardian.com/international', name: 'Guardian' },
+  { id: 'aljazeera_homepage', type: 'aljazeera_homepage', url: 'https://www.aljazeera.com/', name: 'Al Jazeera' },
+  { id: 'reuters_homepage', type: 'reuters_homepage', url: 'https://www.reuters.com/', name: 'Reuters' },
+
   // RSS feeds
   { id: 'reuters', type: 'rss', url: 'https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US', name: 'Reuters' },
   { id: 'ap', type: 'rss', url: 'https://news.google.com/rss/search?q=when:24h+allinurl:apnews.com&ceid=US:en&hl=en-US&gl=US', name: 'AP' },
@@ -195,6 +335,7 @@ async function scrapeAll() {
   // Process results
   const nyt = { lead: null, live: [], primary: [], secondary: [], timestamp: new Date().toISOString() };
   const secondary = { timestamp: new Date().toISOString() };
+  const internationalLeads = { timestamp: new Date().toISOString() };
   const seen = new Set();
 
   for (const result of results) {
@@ -225,6 +366,26 @@ async function scrapeAll() {
       });
       console.log(`  ✓ ${result.name}`);
     }
+    else if (result.type === 'bbc_homepage') {
+      const parsed = parseBBCHomepage(result.html);
+      internationalLeads.bbc = { lead: parsed.lead, top: parsed.top };
+      console.log(`  ✓ ${result.name} (lead: ${parsed.lead?.headline?.slice(0, 40) || 'none'}...)`);
+    }
+    else if (result.type === 'guardian_homepage') {
+      const parsed = parseGuardianHomepage(result.html);
+      internationalLeads.guardian = { lead: parsed.lead, top: parsed.top };
+      console.log(`  ✓ ${result.name} (lead: ${parsed.lead?.headline?.slice(0, 40) || 'none'}...)`);
+    }
+    else if (result.type === 'aljazeera_homepage') {
+      const parsed = parseAlJazeeraHomepage(result.html);
+      internationalLeads.aljazeera = { lead: parsed.lead, top: parsed.top };
+      console.log(`  ✓ ${result.name} (lead: ${parsed.lead?.headline?.slice(0, 40) || 'none'}...)`);
+    }
+    else if (result.type === 'reuters_homepage') {
+      const parsed = parseReutersHomepage(result.html);
+      internationalLeads.reuters = { lead: parsed.lead, top: parsed.top };
+      console.log(`  ✓ ${result.name} (lead: ${parsed.lead?.headline?.slice(0, 40) || 'none'}...)`);
+    }
     else if (result.type === 'rss') {
       const items = parseRSS(result.html);
       const key = result.id.replace('_markets', '').replace('_politics', '');
@@ -237,7 +398,7 @@ async function scrapeAll() {
     }
   }
 
-  return { nyt, secondary };
+  return { nyt, secondary, internationalLeads };
 }
 
 // ============================================
@@ -253,11 +414,12 @@ async function main() {
 
   const startTime = Date.now();
 
-  const { nyt, secondary } = await scrapeAll();
+  const { nyt, secondary, internationalLeads } = await scrapeAll();
 
   const briefing = {
     nyt,
     secondary,
+    internationalLeads,
     generated: new Date().toISOString(),
     source: 'github-actions'
   };
@@ -273,6 +435,14 @@ async function main() {
   console.log(`NYT Lead: ${nyt.lead?.headline || 'None'}`);
   console.log(`NYT Live: ${nyt.live.length} | Primary: ${nyt.primary.length} | Secondary: ${nyt.secondary.length}`);
   console.log(`RSS sources: ${Object.keys(secondary).length - 1}`);
+
+  // Log international leads for comparison
+  const intlSources = ['bbc', 'guardian', 'aljazeera', 'reuters'];
+  console.log('\nInternational Leads:');
+  intlSources.forEach(src => {
+    const lead = internationalLeads[src]?.lead;
+    console.log(`  ${src.toUpperCase()}: ${lead?.headline?.slice(0, 50) || 'None'}${lead?.headline?.length > 50 ? '...' : ''}`);
+  });
   console.log(`Time: ${elapsed}s`);
   console.log('');
 
