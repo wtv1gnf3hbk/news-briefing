@@ -10,16 +10,34 @@ Step-by-step guide for running newsletter performance analysis.
 | Newsletter HTML | https://static.nytimes.com/email-content/WOR_sample.html | Auto-fetched |
 | NYT Trending | https://www.nytimes.com/trending/ | Auto-scraped |
 
+## Edition Schedule
+
+The World publishes **two editions daily** with different audiences:
+
+| Edition | Publish Time (ET) | Calendar Date | Audience |
+|---------|-------------------|---------------|----------|
+| **Asia** | ~4:00pm | Same day | Asia-Pacific readers |
+| **Europe** | ~12:30am | Next day | European readers |
+
+**Important**: Both editions share the same content/subject line but publish on different calendar days. When analyzing, they should be linked as a pair but compared separately.
+
+Example: "Xi's Purge" issue
+- Asia edition: Jan 27, 4pm ET → Mode shows as Jan 27
+- Europe edition: Jan 28, 12:30am ET → Mode shows as Jan 28
+- Both are the same "issue" and should be analyzed together
+
 ## Step 1: Export Click Data from Mode
 
 1. Open the Mode dashboard: https://app.mode.com/nytimes/reports/935f63aaed8f
 
 2. Set the date filter to the send date you want to analyze
+   - For **Asia**: Use the issue date (e.g., Jan 27)
+   - For **Europe**: Use the next calendar day (e.g., Jan 28)
 
 3. Export the click data:
    - Click the **Export** button (top right)
    - Select **CSV**
-   - Save as `clicks_YYYY-MM-DD.csv`
+   - Save with edition in filename: `clicks_asia_2024-01-27.csv` or `clicks_europe_2024-01-28.csv`
 
 4. Required columns in the export:
    ```
@@ -29,6 +47,7 @@ Step-by-step guide for running newsletter performance analysis.
    sends                 - Total emails sent
    link_text             - The link text shown (optional but helpful)
    position              - Link position in newsletter (optional)
+   edition               - asia/europe (optional - can detect from filename)
    ```
 
 ## Step 2: Get Newsletter HTML (Optional)
@@ -88,6 +107,33 @@ For screenshots, install Playwright:
 pip install playwright
 playwright install chromium
 ```
+
+### Compare Asia & Europe Editions
+
+To analyze both editions side-by-side and see what performed differently:
+
+```bash
+python v2/analyze_v2.py --compare \
+  --asia-csv clicks_asia_2024-01-27.csv \
+  --europe-csv clicks_europe_2024-01-28.csv \
+  --subject "Xi's Purge of the Chinese Military" \
+  --asia-open-rate 0.33 \
+  --europe-open-rate 0.36 \
+  --newsletter-html newsletter.html
+```
+
+Edition comparison options:
+- `--compare` - Enable edition comparison mode
+- `--asia-csv <path>` - Path to Asia edition CSV
+- `--europe-csv <path>` - Path to Europe edition CSV
+- `--asia-open-rate <float>` - Asia open rate (default: 0.334)
+- `--europe-open-rate <float>` - Europe open rate (default: 0.355)
+
+The comparison shows:
+- Side-by-side open rates and click rates
+- Links with biggest performance differences between editions
+- Which stories resonated more with Asian vs European readers
+- Individual detailed analysis for each edition
 
 ## Step 4: Review Output
 
@@ -176,5 +222,6 @@ news-briefing/
     ├── analyze_v2.py       # Full analysis engine
     ├── parse_newsletter.py # Newsletter HTML parser
     ├── fetch_trending.py   # NYT trending scraper
-    └── visual_heatmap.py   # Color-coded newsletter overlay
+    ├── visual_heatmap.py   # Color-coded newsletter overlay
+    └── editions.py         # Asia/Europe edition handling & comparison
 ```

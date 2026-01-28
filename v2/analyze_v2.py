@@ -30,6 +30,12 @@ from typing import Optional
 # Import sibling modules
 from parse_newsletter import parse_newsletter, fetch_html, NewsletterLink
 from fetch_trending import fetch_trending, TrendingStory
+from editions import (
+    EDITIONS, EditionPair, EditionComparison,
+    detect_edition_from_filename, detect_edition_from_csv_column,
+    detect_edition_from_time, parse_send_date, get_issue_date,
+    get_position_baseline, compare_editions, print_edition_comparison,
+)
 
 
 # =============================================================================
@@ -135,7 +141,7 @@ class AnalysisReport:
 # MODE CSV PARSING
 # =============================================================================
 
-def parse_mode_csv(filepath: str) -> list[ClickData]:
+def parse_mode_csv(filepath: str, edition_override: str = '') -> list[ClickData]:
     """
     Parse Mode dashboard CSV export.
 
@@ -148,8 +154,17 @@ def parse_mode_csv(filepath: str) -> list[ClickData]:
     - position (optional)
     - edition (optional)
     - send_date (optional)
+
+    Edition detection priority:
+    1. edition_override parameter
+    2. Edition column in CSV
+    3. Filename pattern (asia/europe in name)
+    4. Send time (4pm ET = Asia, 12:30am ET = Europe)
     """
     clicks = []
+
+    # Try to detect edition from filename
+    filename_edition = detect_edition_from_filename(filepath)
 
     with open(filepath, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -173,6 +188,19 @@ def parse_mode_csv(filepath: str) -> list[ClickData]:
             ctr = total_clicks / sends if sends > 0 else 0
             unique_ctr = unique / sends if sends > 0 else 0
 
+            # Detect edition (priority: override > csv column > filename > time)
+            send_date_str = row.get('send_date') or row.get('date', '')
+            edition = edition_override
+
+            if not edition:
+                edition = detect_edition_from_csv_column(row) or ''
+            if not edition:
+                edition = filename_edition or ''
+            if not edition and send_date_str:
+                send_dt = parse_send_date(send_date_str)
+                if send_dt:
+                    edition = detect_edition_from_time(send_dt)
+
             click_data = ClickData(
                 url=url,
                 clicks=total_clicks,
@@ -182,12 +210,67 @@ def parse_mode_csv(filepath: str) -> list[ClickData]:
                 unique_ctr=unique_ctr,
                 link_text=row.get('link_text', ''),
                 position=int(row.get('position') or 0),
-                edition=row.get('edition', ''),
-                send_date=row.get('send_date') or row.get('date', ''),
+                edition=edition,
+                send_date=send_date_str,
             )
             clicks.append(click_data)
 
     return clicks
+
+
+def load_edition_pair(
+    asia_csv: str = '',
+    europe_csv: str = '',
+    subject: str = '',
+    asia_open_rate: float = 0.0,
+    europe_open_rate: float = 0.0,
+) -> tuple[EditionPair, list[ClickData], list[ClickData]]:
+    """
+    Load a linked pair of Asia and Europe edition data.
+
+    Returns: (EditionPair, asia_clicks, europe_clicks)
+    """
+    asia_clicks = []
+    europe_clicks = []
+
+    if asia_csv:
+        asia_clicks = parse_mode_csv(asia_csv, edition_override='asia')
+    if europe_csv:
+        europe_clicks = parse_mode_csv(europe_csv, edition_override='europe')
+
+    # Determine issue date from Asia data
+    issue_date = ''
+    if asia_clicks and asia_clicks[0].send_date:
+        send_dt = parse_send_date(asia_clicks[0].send_date)
+        if send_dt:
+            issue_date = send_dt.strftime('%Y-%m-%d')
+
+    # Calculate aggregate stats
+    asia_sends = asia_clicks[0].sends if asia_clicks else 0
+    europe_sends = europe_clicks[0].sends if europe_clicks else 0
+
+    asia_total_clicks = sum(c.clicks for c in asia_clicks)
+    europe_total_clicks = sum(c.clicks for c in europe_clicks)
+
+    asia_click_rate = asia_total_clicks / asia_sends if asia_sends else 0
+    europe_click_rate = europe_total_clicks / europe_sends if europe_sends else 0
+
+    pair = EditionPair(
+        issue_date=issue_date,
+        subject_line=subject,
+        asia_send_date=asia_clicks[0].send_date if asia_clicks else '',
+        asia_open_rate=asia_open_rate,
+        asia_click_rate=asia_click_rate,
+        asia_sends=asia_sends,
+        asia_csv_path=asia_csv,
+        europe_send_date=europe_clicks[0].send_date if europe_clicks else '',
+        europe_open_rate=europe_open_rate,
+        europe_click_rate=europe_click_rate,
+        europe_sends=europe_sends,
+        europe_csv_path=europe_csv,
+    )
+
+    return pair, asia_clicks, europe_clicks
 
 
 # =============================================================================
@@ -736,6 +819,10 @@ def print_report(report: AnalysisReport):
 def main():
     if len(sys.argv) < 2:
         print("Usage: python analyze_v2.py <mode_export.csv> [options]")
+        print("\nSingle Edition Analysis:")
+        print("  python analyze_v2.py clicks.csv --edition asia --subject 'Subject'")
+        print("\nCompare Asia & Europe Editions:")
+        print("  python analyze_v2.py --compare --asia-csv asia.csv --europe-csv europe.csv")
         print("\nOptions:")
         print("  --newsletter-html <url>   Newsletter HTML URL or file path")
         print("  --subject <text>          Subject line to analyze")
@@ -743,13 +830,18 @@ def main():
         print("  --edition <name>          Edition: asia, europe, or combined")
         print("  --visual-heatmap          Generate visual heatmap HTML overlay")
         print("  --screenshot              Also generate PNG screenshot (requires playwright)")
-        print("\nExample:")
-        print("  python analyze_v2.py clicks.csv --subject 'Breaking: Major Story' --open-rate 0.38 --visual-heatmap")
+        print("\nEdition Comparison Options:")
+        print("  --compare                 Compare Asia and Europe editions")
+        print("  --asia-csv <path>         Path to Asia edition CSV")
+        print("  --europe-csv <path>       Path to Europe edition CSV")
+        print("  --asia-open-rate <float>  Asia open rate (e.g., 0.33)")
+        print("  --europe-open-rate <float> Europe open rate (e.g., 0.35)")
+        print("\nNote: Asia publishes ~4pm ET, Europe publishes ~12:30am ET next day.")
+        print("      Both editions share the same content but different audiences.")
         sys.exit(1)
 
-    csv_path = sys.argv[1]
-
-    # Parse optional arguments
+    # Parse arguments
+    csv_path = sys.argv[1] if not sys.argv[1].startswith('--') else ''
     newsletter_url = 'https://static.nytimes.com/email-content/WOR_sample.html'
     subject_line = '[No subject provided]'
     open_rate = 0.34
@@ -757,7 +849,14 @@ def main():
     generate_visual = False
     generate_screenshot = False
 
-    args = sys.argv[2:]
+    # Edition comparison options
+    compare_editions_mode = False
+    asia_csv = ''
+    europe_csv = ''
+    asia_open_rate = 0.334
+    europe_open_rate = 0.355
+
+    args = sys.argv[1:]
     i = 0
     while i < len(args):
         if args[i] == '--newsletter-html' and i + 1 < len(args):
@@ -777,10 +876,98 @@ def main():
             i += 1
         elif args[i] == '--screenshot':
             generate_screenshot = True
-            generate_visual = True  # Screenshot implies visual heatmap
+            generate_visual = True
+            i += 1
+        elif args[i] == '--compare':
+            compare_editions_mode = True
+            i += 1
+        elif args[i] == '--asia-csv' and i + 1 < len(args):
+            asia_csv = args[i + 1]
+            i += 2
+        elif args[i] == '--europe-csv' and i + 1 < len(args):
+            europe_csv = args[i + 1]
+            i += 2
+        elif args[i] == '--asia-open-rate' and i + 1 < len(args):
+            asia_open_rate = float(args[i + 1])
+            i += 2
+        elif args[i] == '--europe-open-rate' and i + 1 < len(args):
+            europe_open_rate = float(args[i + 1])
+            i += 2
+        elif not args[i].startswith('--') and not csv_path:
+            csv_path = args[i]
             i += 1
         else:
             i += 1
+
+    # Edition comparison mode
+    if compare_editions_mode or (asia_csv and europe_csv):
+        print("=" * 80)
+        print("EDITION COMPARISON MODE")
+        print("=" * 80)
+
+        pair, asia_clicks, europe_clicks = load_edition_pair(
+            asia_csv=asia_csv,
+            europe_csv=europe_csv,
+            subject=subject_line,
+            asia_open_rate=asia_open_rate,
+            europe_open_rate=europe_open_rate,
+        )
+
+        print(f"\nLoaded Asia: {len(asia_clicks)} links from {asia_csv}")
+        print(f"Loaded Europe: {len(europe_clicks)} links from {europe_csv}")
+
+        # Parse newsletter for link metadata
+        print(f"\nParsing newsletter from {newsletter_url}...")
+        try:
+            html = fetch_html(newsletter_url)
+            newsletter_links = parse_newsletter(html)
+            print(f"  Found {len(newsletter_links)} links")
+        except Exception as e:
+            print(f"  Warning: Could not parse newsletter: {e}")
+            newsletter_links = []
+
+        # Build click data dicts by URL
+        asia_by_url = {c.url: c for c in asia_clicks}
+        europe_by_url = {c.url: c for c in europe_clicks}
+
+        # Run comparison
+        comparisons = compare_editions(asia_by_url, europe_by_url, newsletter_links)
+        print_edition_comparison(comparisons, pair)
+
+        # Also run individual analysis for each edition if we have data
+        if asia_clicks:
+            print("\n" + "=" * 80)
+            print("ASIA EDITION DETAILED ANALYSIS")
+            print("=" * 80)
+            # Use first CSV for single-edition analysis
+            report = generate_report(
+                csv_path=asia_csv,
+                newsletter_url=newsletter_url,
+                subject_line=subject_line,
+                open_rate=asia_open_rate,
+                edition='asia',
+            )
+            print_report(report)
+
+        if europe_clicks:
+            print("\n" + "=" * 80)
+            print("EUROPE EDITION DETAILED ANALYSIS")
+            print("=" * 80)
+            report = generate_report(
+                csv_path=europe_csv,
+                newsletter_url=newsletter_url,
+                subject_line=subject_line,
+                open_rate=europe_open_rate,
+                edition='europe',
+            )
+            print_report(report)
+
+        return
+
+    # Single edition mode (original behavior)
+    if not csv_path:
+        print("Error: No CSV file specified")
+        sys.exit(1)
 
     report = generate_report(
         csv_path=csv_path,
