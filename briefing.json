@@ -7,13 +7,13 @@
     },
     "live": [
       {
-        "headline": "Minneapolis Tensions",
-        "url": "https://www.nytimes.com/live/2026/01/28/us/minneapolis-shooting-ice-minnesota",
+        "headline": "Federal Reserve Meeting",
+        "url": "https://www.nytimes.com/live/2026/01/28/business/federal-reserve-interest-rates",
         "source": "Live"
       },
       {
-        "headline": "Federal Reserve Meeting",
-        "url": "https://www.nytimes.com/live/2026/01/28/business/federal-reserve-interest-rates",
+        "headline": "Minneapolis Tensions",
+        "url": "https://www.nytimes.com/live/2026/01/28/us/minneapolis-shooting-ice-minnesota",
         "source": "Live"
       },
       {
@@ -256,10 +256,10 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-01-28T18:44:21.278Z"
+    "timestamp": "2026-01-28T19:09:02.353Z"
   },
   "secondary": {
-    "timestamp": "2026-01-28T18:44:21.278Z",
+    "timestamp": "2026-01-28T19:09:02.353Z",
     "reuters": [
       {
         "title": "Snap doubles down on smart glasses with new independent unit - Reuters",
@@ -273,6 +273,13 @@
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeFZvdDlSQm94U0twN09fenFGcVZMeFRjLUJlalNQa0haYjV6bC13Z2RsQ3hUNHIzenZTRUFYdVBOVmREYzRUeU9GU25pTzBHdUR3UF9FYm5PVXRTeC14enBDUy1YbkRCTHJhLW1wY1RIal82YTIyT3NNdjJsc2prQnptdUhBNEJMUVJIRUM1SUlBVklIMXhfVjBTaHE1WWFUdWxTRldzX3ZmSkZIbU1qMnE0dU5ob19h?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeFZvdDlSQm94U0twN09fenFGcVZMeFRjLUJlalNQa0haYjV6bC13Z2RsQ3hUNHIzenZTRUFYdVBOVmREYzRUeU9GU25pTzBHdUR3UF9FYm5PVXRTeC14enBDUy1YbkRCTHJhLW1",
         "pubDate": "Wed, 28 Jan 2026 15:56:39 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Ro CEO says Wegovy pill is bringing in new customers, including men - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbTJRcENVZ3JEcVpoT3R2RnA2N0FFTGhBVVRjLTRLVGdhVkVkd1kxMlY0Sm8tMzFzWW5hVVVOTWpNbEdZLTVpMUFuR2RlRXBpMGVrXzF6ZEhLRVR2bElna0xyZG1Ndlgwd3N1THdTRTFnZk40TWF4Y09FQjhaS0YySzZNQWVJNTNMR05PYVl5aDF3bURTeHcxWXNQY0ZsRGZ4azBiNGp4YTFTZUM5N2hzaEpFSUJucmkxTjZhVFV3c3RfTldla0pfQjhPd0RQTzBI?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbTJRcENVZ3JEcVpoT3R2RnA2N0FFTGhBVVRjLTRLVGdhVkVkd1kxMlY0Sm8tMzFzWW5hVVVOTWpNbEdZLTVpMUFuR2RlRXBpMGVrXzF6ZEhLRVR2bElna0xyZG1Ndlgwd3N1THd",
+        "pubDate": "Wed, 28 Jan 2026 15:21:47 GMT",
         "source": "Reuters"
       },
       {
@@ -290,20 +297,6 @@
         "source": "Reuters"
       },
       {
-        "title": "Ro CEO says Wegovy pill is bringing in new customers, including men - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbTJRcENVZ3JEcVpoT3R2RnA2N0FFTGhBVVRjLTRLVGdhVkVkd1kxMlY0Sm8tMzFzWW5hVVVOTWpNbEdZLTVpMUFuR2RlRXBpMGVrXzF6ZEhLRVR2bElna0xyZG1Ndlgwd3N1THdTRTFnZk40TWF4Y09FQjhaS0YySzZNQWVJNTNMR05PYVl5aDF3bURTeHcxWXNQY0ZsRGZ4azBiNGp4YTFTZUM5N2hzaEpFSUJucmkxTjZhVFV3c3RfTldla0pfQjhPd0RQTzBI?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbTJRcENVZ3JEcVpoT3R2RnA2N0FFTGhBVVRjLTRLVGdhVkVkd1kxMlY0Sm8tMzFzWW5hVVVOTWpNbEdZLTVpMUFuR2RlRXBpMGVrXzF6ZEhLRVR2bElna0xyZG1Ndlgwd3N1THd",
-        "pubDate": "Wed, 28 Jan 2026 15:21:47 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Brazil's PicPay set to price New York IPO at top of range, source says - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbUhoN3RYbzdiVE5lczRvVFltWDlWckVsNUV6dkpCWVVkTzFGb2tIVmdaM0pWdlVSMVFFVHpzN2lWeEhSVl9uenFXRFJrTFRUTXptRnZtNVE0ek9UX1BIVWFIUnpoU0FVakVjdjNLM0oyUHZlZFlsa05kODVpelhKSXhlTGNKNTgwOElvVjIyeWw2ZS1uNGFFQXlWdHhzbjNQWTJ3SVU2MWFXclVuMmFYdWZR?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPbUhoN3RYbzdiVE5lczRvVFltWDlWckVsNUV6dkpCWVVkTzFGb2tIVmdaM0pWdlVSMVFFVHpzN2lWeEhSVl9uenFXRFJrTFRUTXptRnZtNVE0ek9UX1BIVWFIUnpoU0FVakVjdjN",
-        "pubDate": "Wed, 28 Jan 2026 14:24:59 GMT",
-        "source": "Reuters"
-      },
-      {
         "title": "Volkswagen looks to Asia, Middle East for export opportunities from China - Reuters",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdERWdGs4eDBTcWlSTFdjYUxPSTBUcGVsaXI4Ml9TR3ZWZ3p4d0RsWnRYLTJZVzJwZXJOeVdvR1ZpWTZ1NDVNSF9aSG8tWWozZWJnRFpkMGV4VGVBT3dJaERiUkFjbXQ1R3JQd3dRTUpETlhGdTF2SzJtUVJ4eHlUX3hWWC1wbWxVUF96SUNxX3JTYnhxdzlVcWNnaXBBSUhKenlHLUtrUDlkbzVsR3Y5WmUwTTZJTVFkeFc1S2ZhbUdEMDFn?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNdERWdGs4eDBTcWlSTFdjYUxPSTBUcGVsaXI4Ml9TR3ZWZ3p4d0RsWnRYLTJZVzJwZXJOeVdvR1ZpWTZ1NDVNSF9aSG8tWWozZWJnRFpkMGV4VGVBT3dJaERiUkFjbXQ1R3JQd3d",
@@ -316,6 +309,13 @@
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPcDYwS0p0MV9uR2MyWkdrZjdEX09GZDdlV1FwOHcxekhFaFA2UGJ0V3UtUnNnMWFuRnZjQTZUYlpIaEZaanAxbFBPaFQ1MUlJUF80d2xHTmhRRGduZ0JVeTRWZ2RzSlEwNl9kZlZ",
         "pubDate": "Wed, 28 Jan 2026 17:06:06 GMT",
         "source": "Reuters"
+      },
+      {
+        "title": "US, Mexico agree to begin talks on USMCA reforms, USTR's office says - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN21FdW9Jc2pKYTNqb2V4RzQ0S0xNRWtSV09KSDBUaXVXWEU2aG5OeU83eTlHOEdBSWNWZmVXS0VwamxmdzhlU0F2M29aX0lBMTBYQ2xqNDFERFRxUG9IOWg1S3ZKMUFrTWpndzlZWk1kZ1VrbnNlMXJDcVdXemtKUk5fcEJPSG95a1BBM3owbHJHUzhmSjZXOWp2ZC1pUWdJZmxleWNrN3M5SU9CdE9tbGZPNl81RVdsQWpaRHkwb2p0SEk?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN21FdW9Jc2pKYTNqb2V4RzQ0S0xNRWtSV09KSDBUaXVXWEU2aG5OeU83eTlHOEdBSWNWZmVXS0VwamxmdzhlU0F2M29aX0lBMTBYQ2xqNDFERFRxUG9IOWg1S3ZKMUFrTWpndzl",
+        "pubDate": "Wed, 28 Jan 2026 18:13:49 GMT",
+        "source": "Reuters"
       }
     ],
     "ap": [
@@ -327,17 +327,17 @@
         "source": "AP"
       },
       {
+        "title": "Man arrested in the attack on Ilhan Omar is a convicted felon who made pro-Trump posts - AP News",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS0ZieEo4MW4xdzNpRmxnMDlGT0lFWnM0dTlBWU1XeVluUUZEUWRELTVwTWhFdTZWdFFxSnBQQlZsTnVON2xkenlUN0gtbXpHSDdFb29ESG1nRXZ5MzlneW9oVDhfTEJsd2N5am1fTlNEdVF5MW1QdW1fZVNmMndYbkxabTJzRjZIREMwQm5OSEphaHAtaUY0MG1SdUJaV3RNQVV0VQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQS0ZieEo4MW4xdzNpRmxnMDlGT0lFWnM0dTlBWU1XeVluUUZEUWRELTVwTWhFdTZWdFFxSnBQQlZsTnVON2xkenlUN0gtbXpHSDdFb29ESG1nRXZ5MzlneW9oVDhfTEJsd2N5am1",
+        "pubDate": "Wed, 28 Jan 2026 17:01:00 GMT",
+        "source": "AP"
+      },
+      {
         "title": "Homeland Security Secretary Kristi Noem faces rising calls for her firing or impeachment - AP News",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPem9GUXhHY2xZSXBmRlhzeVZ2R0p6R0dZZDBBcm1pMGJzTXNhWFlMcEZUYmJTYkVfaFUweVZ5Um91MkpDTWJ3OHdYYi1GN3ltLXRfcW40dVNXdE51am0xdnl6V0o3QVo4NVU5WVk1dEo3YmN5V1NCNk1TcG5LVjlVQlktb3J1eXJNWUpPWk1PejIwTUYzeVF1R2xWNHd4d0xMSEc3MzJDenByZw?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPem9GUXhHY2xZSXBmRlhzeVZ2R0p6R0dZZDBBcm1pMGJzTXNhWFlMcEZUYmJTYkVfaFUweVZ5Um91MkpDTWJ3OHdYYi1GN3ltLXRfcW40dVNXdE51am0xdnl6V0o3QVo4NVU5WVk",
         "pubDate": "Wed, 28 Jan 2026 17:15:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "2 federal officers fired shots during encounter that killed Alex Pretti, DHS tells Congress - AP News",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGdFR1duQjJ0a1gtTGxaZ0kzTlNtZjFwbUk4RnM0Rm0zMXpzN2hmTEZ6TzEtNU4xYVI4YUpDS3Vlb3JHbDVsMlhZXzJHMm1NUjNOMEJBY0J3SENLTF9TaFpDNFFGOTFZY3RmVXpzbHQzUFMtUUd3ZnF5RGszNXI4ZHY5MTk2UGw1VGNydzMtSkRkTVplQ09MUTVNcmdoQQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdGdFR1duQjJ0a1gtTGxaZ0kzTlNtZjFwbUk4RnM0Rm0zMXpzN2hmTEZ6TzEtNU4xYVI4YUpDS3Vlb3JHbDVsMlhZXzJHMm1NUjNOMEJBY0J3SENLTF9TaFpDNFFGOTFZY3RmVXp",
-        "pubDate": "Wed, 28 Jan 2026 03:56:00 GMT",
         "source": "AP"
       },
       {
@@ -348,31 +348,31 @@
         "source": "AP"
       },
       {
-        "title": "Trump signals interest in easing tensions, but Minneapolis sees little change on the streets - AP News",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnlXQjVjelBGVkM5NDQ3dVI0andEWkk0NjkwMm9ILXdRSEtHYnVVRnM0bERpNzRYeEQtZUJMNnhGNkd2MnR5SGV5enYyUXhrakF5b0IwTjVQczh1TVN3Y3dTUVZLRU1VZ3VGMVZucHpmTVUtOWx2a1A3VXliX1c5WWV4RFh1SVI4YXVoSS03ZXhzRnBkNVQ4SWplR3NMNG15U1JtSzNB?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnlXQjVjelBGVkM5NDQ3dVI0andEWkk0NjkwMm9ILXdRSEtHYnVVRnM0bERpNzRYeEQtZUJMNnhGNkd2MnR5SGV5enYyUXhrakF5b0IwTjVQczh1TVN3Y3dTUVZLRU1VZ3VGMVZ",
-        "pubDate": "Wed, 28 Jan 2026 17:50:00 GMT",
+        "title": "2 federal officers fired shots during encounter that killed Alex Pretti, DHS tells Congress - AP News",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGdFR1duQjJ0a1gtTGxaZ0kzTlNtZjFwbUk4RnM0Rm0zMXpzN2hmTEZ6TzEtNU4xYVI4YUpDS3Vlb3JHbDVsMlhZXzJHMm1NUjNOMEJBY0J3SENLTF9TaFpDNFFGOTFZY3RmVXpzbHQzUFMtUUd3ZnF5RGszNXI4ZHY5MTk2UGw1VGNydzMtSkRkTVplQ09MUTVNcmdoQQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdGdFR1duQjJ0a1gtTGxaZ0kzTlNtZjFwbUk4RnM0Rm0zMXpzN2hmTEZ6TzEtNU4xYVI4YUpDS3Vlb3JHbDVsMlhZXzJHMm1NUjNOMEJBY0J3SENLTF9TaFpDNFFGOTFZY3RmVXp",
+        "pubDate": "Wed, 28 Jan 2026 03:56:00 GMT",
         "source": "AP"
       },
       {
-        "title": "Sarah Mullally confirmed as archbishop of Canterbury, first woman to lead the Church of England - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDlpMjVycjVVNlltRnYxM3pLVnZIVW9wY3FsQTQ2QXFnMDF6M0kwaktnS2Vpc2JKSllJc1FxdFFjQkJMeVZmSHd2a2YwQzgwV21TQUVvUG9MV1JXRC1falJoSlR2a3BGOHhYWFB2ZGVzNEVsZXllcThVVkZyMzJHTkxyNU95dVZ5WHBsVC00cU9meU5RVUNfV1VNVHdiSnc1eFhJSTJfSWdOTWJUQnZlT2x4a1ltU1Y5MkE?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDlpMjVycjVVNlltRnYxM3pLVnZIVW9wY3FsQTQ2QXFnMDF6M0kwaktnS2Vpc2JKSllJc1FxdFFjQkJMeVZmSHd2a2YwQzgwV21TQUVvUG9MV1JXRC1falJoSlR2a3BGOHhYWFB",
-        "pubDate": "Wed, 28 Jan 2026 14:43:00 GMT",
+        "title": "Paxton sues another provider accused of illegally sending abortion-inducing pills to Texans - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNXdtZ09FRkVOZGU0MHNCV2t4WS1JRjdSLU44ZV9DOEF1dHF3QUZBdzUwUmNhX1pFS3NiQk0wX0RSeVd0RnFIQ0F1Ri11d3VaYW9KSloxYWlIODd4YlhCdTJXV2F3Tjl1UGk5QUFXTDVUQ1QwTWgtVzFfMXYwaGJfakE1Mmw0WHlaOXJSRXdrbWtJWDExMlZENWM4Y1NmOWkyQmdmQnNLNktXRXREWUJnejdPWQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPNXdtZ09FRkVOZGU0MHNCV2t4WS1JRjdSLU44ZV9DOEF1dHF3QUZBdzUwUmNhX1pFS3NiQk0wX0RSeVd0RnFIQ0F1Ri11d3VaYW9KSloxYWlIODd4YlhCdTJXV2F3Tjl1UGk5QUF",
+        "pubDate": "Wed, 28 Jan 2026 16:34:00 GMT",
         "source": "AP"
       },
       {
         "title": "Al-Maliki is defiant after Trump threatens to withdraw US support for Iraq - AP News",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1E1c1g2MThUeGpCazBfNVN5RC1Rd2NKMlk0UUhleGZpcHl2WURkbFFXNUUwb01oODJlVVdxNnlEdHRsb1NVbU5BQjZMUi1xTkZFQzd5S1NDc0hfdWVqbnpaeXRFWXlVb3BhdlpTdW83ZE1uTVdvajhQMWJoRmlQZUxNYS12bGx2eHVpd1I5c01SOUR1cUxr?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1E1c1g2MThUeGpCazBfNVN5RC1Rd2NKMlk0UUhleGZpcHl2WURkbFFXNUUwb01oODJlVVdxNnlEdHRsb1NVbU5BQjZMUi1xTkZFQzd5S1NDc0hfdWVqbnpaeXRFWXlVb3Bhdlp",
-        "pubDate": "Wed, 28 Jan 2026 15:08:00 GMT",
+        "pubDate": "Wed, 28 Jan 2026 16:48:00 GMT",
         "source": "AP"
       },
       {
-        "title": "Wall Street drifts around its record while the dollar’s value stabilizes - AP News",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2JvSDhrODhla0pFZDFaWEpZbmNfaGh3VzNfemRMOWctclJ4WGVKeHlrei1kQ0JrZ1ZLRE9XWlB2Qk9Za1pfU05LeXNKMFdyVU4yekxGTHNndF9wZDZLZFMyYU82TFZ0aEpHQ1RaUi1yYWRoZTFBZ0FUTWdFMmlacjdGNi1vODdyem5mTERadzRwUV8xS0VF?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2JvSDhrODhla0pFZDFaWEpZbmNfaGh3VzNfemRMOWctclJ4WGVKeHlrei1kQ0JrZ1ZLRE9XWlB2Qk9Za1pfU05LeXNKMFdyVU4yekxGTHNndF9wZDZLZFMyYU82TFZ0aEpHQ1R",
-        "pubDate": "Wed, 28 Jan 2026 17:32:00 GMT",
+        "title": "Trump signals interest in easing tensions, but Minneapolis sees little change on the streets - AP News",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnlXQjVjelBGVkM5NDQ3dVI0andEWkk0NjkwMm9ILXdRSEtHYnVVRnM0bERpNzRYeEQtZUJMNnhGNkd2MnR5SGV5enYyUXhrakF5b0IwTjVQczh1TVN3Y3dTUVZLRU1VZ3VGMVZucHpmTVUtOWx2a1A3VXliX1c5WWV4RFh1SVI4YXVoSS03ZXhzRnBkNVQ4SWplR3NMNG15U1JtSzNB?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnlXQjVjelBGVkM5NDQ3dVI0andEWkk0NjkwMm9ILXdRSEtHYnVVRnM0bERpNzRYeEQtZUJMNnhGNkd2MnR5SGV5enYyUXhrakF5b0IwTjVQczh1TVN3Y3dTUVZLRU1VZ3VGMVZ",
+        "pubDate": "Wed, 28 Jan 2026 17:50:00 GMT",
         "source": "AP"
       }
     ],
@@ -380,8 +380,8 @@
       {
         "title": "Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf",
         "link": "https://www.bbc.com/news/articles/cly5pd459gko?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Tehran says it will “respond like never before” if necessary to what the US president says is a \"massive Armada\" moving towards Iran.",
-        "pubDate": "Wed, 28 Jan 2026 16:34:43 GMT",
+        "description": "Tehran says its armed forces are ready \"with their fingers on the trigger\" to respond to any aggression.",
+        "pubDate": "Wed, 28 Jan 2026 18:58:42 GMT",
         "source": "BBC World"
       },
       {
@@ -550,60 +550,88 @@
     ],
     "bloomberg": [
       {
-        "title": "Motability Sells Debt for First Time Since Drawing Scrutiny",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/motability-sells-debt-for-the-first-time-since-drawing-scrutiny",
-        "description": "Motability Operations Group Plc tapped the public debt market for the first time since criticism of its business model led to government intervention.",
-        "pubDate": "Wed, 28 Jan 2026 08:28:05 GMT",
+        "title": "Stocks Join Bonds Lower After Fed Stays on Hold: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-27/stock-market-today-dow-s-p-live-updates",
+        "description": "The widely anticipated Federal Reserve decision to hold rates steady drew modest reaction on Wall Street, with stocks and bonds edging lower. The dollar rose after Treasury Secretary Scott Bessent tou",
+        "pubDate": "Tue, 27 Jan 2026 22:36:07 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Stellantis Cuts Fiat, Peugeot Prices in France in Race for Volumes",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/stellantis-cuts-fiat-opel-prices-in-france-in-race-for-volumes",
-        "description": "Stellantis NV is slashing prices for its Fiat, Opel and Peugeot cars in France in a bid to regain market share at a time when the manufacturer is conducting a deep review of its global operations.",
-        "pubDate": "Wed, 28 Jan 2026 18:29:01 GMT",
+        "title": "Bessent Touts a Strong Dollar After Trump Brushed Off Its Drop",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/bessent-cools-yen-intervention-speculation-touts-strong-dollar",
+        "description": "Treasury Secretary Scott Bessent touted a strong-dollar policy on Wednesday, offering the greenback support a day after comments by President Donald Trump had sent the US currency tumbling.",
+        "pubDate": "Wed, 28 Jan 2026 15:27:42 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Germany Cancels 2026 Offshore Auctions, Plans New Design",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/germany-cancels-2026-offshore-auctions-plans-new-design-in-2027",
-        "description": "Germany has canceled its remaining 2026 offshore wind auctions after the last round in August failed to attract bids and the industry lobbied for better terms.",
-        "pubDate": "Wed, 28 Jan 2026 12:54:41 GMT",
+        "title": "Bank of Canada Holds at 2.25% as Uncertainty Binds Rate Path",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/bank-of-canada-holds-at-2-25-as-uncertainty-binds-rate-path",
+        "description": "The Bank of Canada held interest rates steady but warned that volatile US policy is clouding the outlook, leaving officials unsure of the duration of their pause or whether their next move will be a h",
+        "pubDate": "Wed, 28 Jan 2026 14:45:00 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Goldman Warns Base Metals Rally at Risk on Weak Chinese Demand",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/goldman-warns-metal-rally-at-risk-as-users-respond-negatively",
-        "description": "The rally in base metals this year could soon run into headwinds as soaring prices and bullish sentiment clash with the reality of softer demand from manufacturers, especially in China, according to G",
-        "pubDate": "Wed, 28 Jan 2026 04:36:15 GMT",
+        "title": "Apollo's Slok Expects US Economy to Grow More Than Expected",
+        "link": "https://www.bloomberg.com/news/videos/2026-01-28/apollo-s-slok-expects-us-to-grow-more-than-expected-video",
+        "description": "Apollo Chief Economist Torsten Slok says there are a lot of strong tailwinds that will lead to higher GDP growth than is expected on \"Bloomberg Surveillance: The Fed Decides.\" (Source: Bloomberg)",
+        "pubDate": "Wed, 28 Jan 2026 18:58:24 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Deutsche Bank Said to Eye Insurer Stake to Return to Life Market",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/deutsche-bank-said-to-eye-insurer-stake-to-return-to-life-market",
-        "description": "Deutsche Bank AG and its asset manager DWS Group are considering taking a significant minority stake in a Fosun International Ltd.-controlled life insurance consolidator, people familiar with the matt",
-        "pubDate": "Wed, 28 Jan 2026 18:14:29 GMT",
+        "title": "General Motors Earns Slew of Target Boosts After Earnings Beat",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/general-motors-earns-slew-of-target-boosts-after-earnings-beat",
+        "description": "General Motors Co.’s blockbuster fourth-quarter results prompted more than a dozen Wall Street analysts to boost their price targets on the carmaker, sending a signal to investors that the furious ral",
+        "pubDate": "Wed, 28 Jan 2026 18:57:39 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Dollar Swings Finally Start to Ripple Through Treasury Market",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/dollar-swings-finally-start-to-ripple-through-treasury-market",
-        "description": "Sharp swings in the dollar are starting to seep into the Treasury bond market, a warning sign that a weak greenback has the potential to push interest rates higher.",
-        "pubDate": "Wed, 28 Jan 2026 18:11:58 GMT",
+        "title": "Brazil to Tap International Debt Markets in Dollars, Euros, Yuan",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/brazil-to-tap-international-debt-markets-in-dollars-euros-yuan",
+        "description": "Brazil will tap international markets more often in 2026 with bond issuances denominated in Chinese renminbi, its national treasury said in a plan released Wednesday.",
+        "pubDate": "Wed, 28 Jan 2026 18:47:25 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Longer Dated Muni Bonds See Uptick in Demand on Elevated Yields",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/longer-dated-muni-bonds-see-uptick-in-demand-on-elevated-yields",
-        "description": "While municipal bonds have gotten increasingly expensive this year, money managers say that long-dated US state and local debt &mdash; often eschewed by investors &mdash; still look appealing.",
-        "pubDate": "Wed, 28 Jan 2026 18:11:47 GMT",
+        "title": "Trump’s Penn Station Revamp Heads for Funding Fight With States",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/trump-s-penn-station-revamp-heads-for-funding-fight-with-states",
+        "description": "Amtrak, which the Trump administration put in charge of overhauling Manhattan’s Penn Station, will ask New Jersey and New York to help finance the renovation of North America’s busiest train depot.",
+        "pubDate": "Wed, 28 Jan 2026 18:44:40 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Gold Climbs Above $5,300 as Trump Downplays US Dollar Weakness",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-27/gold-holds-gains-as-trump-comments-add-fuel-to-debasement-trade",
-        "description": "Gold surged to a record high above $5,300 an ounce, extending a breakneck rally fueled by US dollar weakness and a flight from sovereign bonds and currencies.",
-        "pubDate": "Tue, 27 Jan 2026 23:18:31 GMT",
+        "title": "Leveraged Firms Capitalize on Investor Demand for US Risky Loans",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/leveraged-firms-capitalize-on-investor-demand-for-us-risky-loans",
+        "description": "Corporate borrowers are seizing on strong investor demand in the US leveraged loan market, upsizing deals and locking in cheaper financing.",
+        "pubDate": "Wed, 28 Jan 2026 18:38:18 GMT",
         "source": "Bloomberg Markets"
+      },
+      {
+        "title": "‘Davos of Latin America’ Tests Lula’s Regional Clout",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/-davos-of-latin-america-sets-up-test-of-lula-s-regional-clout",
+        "description": "Brazil’s Luiz Inacio Lula da Silva returned to power vowing to revive South American political and economic unity. A regional event this week shows he’s now fighting to maintain clout in his own backy",
+        "pubDate": "Wed, 28 Jan 2026 13:48:12 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Bessent Touts a Strong Dollar After Trump Brushed Off Its Drop",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/bessent-cools-yen-intervention-speculation-touts-strong-dollar",
+        "description": "Treasury Secretary Scott Bessent touted a strong-dollar policy on Wednesday, offering the greenback support a day after comments by President Donald Trump had sent the US currency tumbling.",
+        "pubDate": "Wed, 28 Jan 2026 15:27:42 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Carney’s Liberals See Jump in Popularity After Bracing Davos Speech",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/carney-s-liberals-see-jump-in-popularity-after-bracing-davos-speech",
+        "description": "Mark Carney’s Liberal Party is enjoying a surge in polls after the Canadian prime minister earned praise from other world leaders for his Davos speech urging smaller countries to resist coercion by su",
+        "pubDate": "Wed, 28 Jan 2026 18:53:55 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Brazil to Tap International Debt Markets in Dollars, Euros, Yuan",
+        "link": "https://www.bloomberg.com/news/articles/2026-01-28/brazil-to-tap-international-debt-markets-in-dollars-euros-yuan",
+        "description": "Brazil will tap international markets more often in 2026 with bond issuances denominated in Chinese renminbi, its national treasury said in a plan released Wednesday.",
+        "pubDate": "Wed, 28 Jan 2026 18:47:25 GMT",
+        "source": "Bloomberg Politics"
       },
       {
         "title": "UK Examines Whether Trump Has Power to Derail Chagos Deal",
@@ -631,34 +659,6 @@
         "link": "https://www.bloomberg.com/news/articles/2026-01-28/trump-warns-minneapolis-mayor-over-immigration-comments",
         "description": "President Donald Trump criticized Jacob Frey after the Minneapolis mayor said he wouldn’t change the city’s immigration policies, raising doubts about a fragile detente between federal and local leade",
         "pubDate": "Wed, 28 Jan 2026 13:45:58 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "China Picks Up Canadian Canola After Reset in Trade Ties",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/china-picks-up-canadian-canola-cargoes-after-reset-in-trade-ties",
-        "description": "China has resumed purchases of Canadian canola, an early sign of a revival in the trade after the nations reached a deal this month to mend ties.",
-        "pubDate": "Wed, 28 Jan 2026 09:03:27 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Odd Lots: Lessons From A US Sovereign Wealth Fund",
-        "link": "https://www.bloomberg.com/news/audio/2025-08-18/how-the-alaska-permanent-fund-protects-the-state-s-oil-money",
-        "description": "President Trump and others have talked about the idea of the US having a Sovereign Wealth Fund, a la the UAE or Singapore. It feels like a longshot, but as it turns out, there are actually several Sov",
-        "pubDate": "Mon, 18 Aug 2025 08:00:00 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Europe to Decide How Much Toxin in Baby Formula Is Too Much",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/europe-to-decide-how-much-toxin-in-baby-formula-is-too-much",
-        "description": "Europe’s food safety regulator will publish advice on what is an acceptable level of the toxin currently at the heart of one of the biggest infant formula recalls in history.",
-        "pubDate": "Wed, 28 Jan 2026 17:02:24 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Ecuador Probes Left-Wing Candidates Over Alleged Venezuela Cash",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-28/ecuador-probes-left-wing-candidates-over-alleged-venezuela-cash",
-        "description": "Ecuador’s police and state prosecutors searched the homes of two recent left-wing presidential candidates in a probe over alleged laundering of illicit campaign funds from Venezuela.",
-        "pubDate": "Wed, 28 Jan 2026 16:58:29 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -722,6 +722,27 @@
     ],
     "aljazeera": [
       {
+        "title": "Looking for My Mum",
+        "link": "https://www.aljazeera.com/video/al-jazeera-world/2026/1/28/looking-for-my-mum?traffic_source=rss",
+        "description": "A young Tunisian man goes on a personal journey to find his biological mother and understand where he comes from.",
+        "pubDate": "Wed, 28 Jan 2026 18:30:00 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Even in death, Palestinians are still denied dignity",
+        "link": "https://www.aljazeera.com/opinions/2026/1/28/even-in-death-palestinians-are-still-denied-dignity?traffic_source=rss",
+        "description": "To find Ran Gvili, Israel desecrated hundreds of Palestinian graves and the world did not care.",
+        "pubDate": "Wed, 28 Jan 2026 18:26:58 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Iran delegates import powers as US war threats keep economy unstable",
+        "link": "https://www.aljazeera.com/news/2026/1/28/iran-delegates-import-powers-as-us-war-threats-keep-economy-unstable?traffic_source=rss",
+        "description": "Iranian governors gain new powers as country prepares for possible war amid sanctions and looming geopolitical tensions.",
+        "pubDate": "Wed, 28 Jan 2026 18:17:14 +0000",
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Amazon cuts thousands of jobs amid AI push",
         "link": "https://www.aljazeera.com/economy/2026/1/28/amazon-cuts-thousands-of-jobs-amid-ai-push?traffic_source=rss",
         "description": "",
@@ -755,85 +776,6 @@
         "description": "Follow our live updates, with team news coverage, ahead of our text commentary stream of the UCL league-phase finale.",
         "pubDate": "Wed, 28 Jan 2026 16:15:51 +0000",
         "source": "Al Jazeera"
-      },
-      {
-        "title": "UK police to use AI facial recognition tech linked to Israel’s war on Gaza",
-        "link": "https://www.aljazeera.com/news/2026/1/28/uk-police-to-use-ai-facial-recognition-tech-linked-to-israels-war-on-gaza?traffic_source=rss",
-        "description": "Concerns rise as UK partners with controversial facial recognition company used by Israel in Gaza.",
-        "pubDate": "Wed, 28 Jan 2026 16:10:25 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "LIVE: Iran says it will ‘respond like never before’ after Trump’s threats",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?traffic_source=rss",
-        "description": "Iran says it will deliver an unprecedented retaliation to any US attack following threats by Trump.",
-        "pubDate": "Wed, 28 Jan 2026 15:56:52 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Nearly 300 evacuated as luxury hotel in French Alps burns",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/1/28/nearly-300-evacuated-as-luxury-hotel-in-french-alps-burns?traffic_source=rss",
-        "description": "A fire tore through a luxury hotel in Courchevel in the French Alps, forcing the evacuation of nearly 300 people.",
-        "pubDate": "Wed, 28 Jan 2026 15:56:07 +0000",
-        "source": "Al Jazeera"
-      }
-    ],
-    "washpost": [
-      {
-        "title": "ICE at Olympics angers Milan mayor, who says agency’s image is ‘terrible’",
-        "link": "https://www.washingtonpost.com/world/2026/01/28/ice-olympics-italy-trump-milan-immigration/",
-        "description": "A routine role for ICE around next month’s Winter Olympics has drawn ire in Italy, amid President Donald Trump’s sprawling immigration crackdown.",
-        "pubDate": "Wed, 28 Jan 2026 17:33:28 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Ukraine sees ‘progress’ in latest talks with Russia despite ongoing attacks",
-        "link": "https://www.washingtonpost.com/world/2026/01/28/ukraine-russia-war-talks-territory/",
-        "description": "Ukraine’s foreign minister described the Russian officials involved in the new rounds of talks, which resume Sunday in the United Arab Emirates, as much more serious than before.",
-        "pubDate": "Wed, 28 Jan 2026 16:55:56 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Germany and France push for ‘two-speed’ E.U. to overcome policy inertia",
-        "link": "https://www.washingtonpost.com/world/2026/01/28/two-speed-europe-germany-france/",
-        "description": "Germany and France want to speed up action on strengthening the euro currency, cooperating on military spending and building supply chains for critical raw materials.",
-        "pubDate": "Wed, 28 Jan 2026 15:55:18 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Clamor is growing in Europe to boycott Trump’s World Cup",
-        "link": "https://www.washingtonpost.com/world/2026/01/28/trump-world-cup-boycott-europe/",
-        "description": "This summer’s North American World Cup is inextricably tied to President Donald Trump. Some of his critics are questioning the fitness of the U.S. as a host.",
-        "pubDate": "Wed, 28 Jan 2026 15:06:06 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Right on cue: Toddler is recognized for his mastery of trick shots",
-        "link": "https://www.washingtonpost.com/lifestyle/2026/01/28/toddler-guinness-world-records-jude-owens/",
-        "description": "Jude Owens has already scored two Guinness World Records for his snooker skills. He’s 3 years old and needs a stool to reach the table.",
-        "pubDate": "Wed, 28 Jan 2026 15:05:43 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Hungary announces charges against Budapest mayor over Pride events",
-        "link": "https://www.washingtonpost.com/world/2026/01/28/hungary-budapest-mayor-pride-viktor-orban/",
-        "description": "Prime Minister Viktor Orban has aligned himself closely with President Donald Trump’s brand of populist conservatism and is a MAGA darling.",
-        "pubDate": "Wed, 28 Jan 2026 14:28:51 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Inside the shadow war between Russia and Ukraine that exploits teens",
-        "link": "https://www.washingtonpost.com/world/2026/01/28/ukraine-russia-teens-sabotage-war/",
-        "description": "Vika, 18, needed a job. Then an offer came for $2,500 to make a simple delivery that seemed too good to be true. It was a Russian sabotage operation.",
-        "pubDate": "Wed, 28 Jan 2026 10:00:24 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "What to know about the deadly Nipah virus, amid outbreak in India",
-        "link": "https://www.washingtonpost.com/world/2026/01/27/nipah-virus-outbreak-india/",
-        "description": "Some airports in Asia are on alert after confirmed cases in West Bengal of Nipah virus, which has no known cure. South Asia sees outbreaks nearly every year.",
-        "pubDate": "Tue, 27 Jan 2026 16:01:23 +0000",
-        "source": "Washington Post"
       }
     ],
     "economist": [
@@ -1012,6 +954,13 @@
     ],
     "afp": [
       {
+        "title": "France backs push to put Iran's Revolutionary Guards on EU terrorism list",
+        "link": "https://www.france24.com/en/asia-pacific/20260128-france-backs-push-eu-list-iran-revolutionary-guards-terrorist-group",
+        "description": "",
+        "pubDate": "Wed, 28 Jan 2026 19:02:06 GMT",
+        "source": "AFP/France24"
+      },
+      {
         "title": "Greenland: France and Denmark closer than ever in face of US threat",
         "link": "https://www.france24.com/en/video/20260128-greenland-france-and-denmark-closer-than-ever-in-face-of-us-threat-3",
         "description": "",
@@ -1059,18 +1008,11 @@
         "description": "",
         "pubDate": "Wed, 28 Jan 2026 16:01:35 GMT",
         "source": "AFP/France24"
-      },
-      {
-        "title": "Film show: Russell Crowe is a paunchy Hermann Göring in Nazi drama 'Nuremberg'",
-        "link": "https://www.france24.com/en/tv-shows/arts24/20260128-film-show-russell-crowe-is-a-paunchy-hermann-g%C3%B6ring-in-nazi-drama-nuremberg",
-        "description": "",
-        "pubDate": "Wed, 28 Jan 2026 15:54:00 GMT",
-        "source": "AFP/France24"
       }
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-01-28T18:44:21.278Z",
+    "timestamp": "2026-01-28T19:09:02.353Z",
     "bbc": {
       "lead": {
         "headline": "Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf",
@@ -1133,8 +1075,8 @@
           "source": "Guardian"
         },
         {
-          "headline": "Threat of US-Iran war escalates as Trump warns time running out for deal",
-          "url": "https://www.theguardian.com/world/2026/jan/28/trump-threat-us-iran-war-armada-nuclear-programme",
+          "headline": "Badenoch shoots herself in the foot on the Tories’ long march to the right",
+          "url": "https://www.theguardian.com/politics/2026/jan/28/badenoch-tories-mp-defections-march-to-the-right",
           "source": "Guardian"
         }
       ]
@@ -1152,6 +1094,16 @@
           "source": "Al Jazeera"
         },
         {
+          "headline": "Iran’s president says gov’t must acknowledge own shortcomings over protests",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4272013",
+          "source": "Al Jazeera"
+        },
+        {
+          "headline": "China warns against ‘military adventurism’ in Iran",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271964",
+          "source": "Al Jazeera"
+        },
+        {
           "headline": "What is the USS Abraham Lincoln Carrier Strike Group?",
           "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271981",
           "source": "Al Jazeera"
@@ -1160,24 +1112,18 @@
           "headline": "WATCH: Iran’s currency drops to record low against dollar",
           "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271970",
           "source": "Al Jazeera"
-        },
-        {
-          "headline": "Earthquake hits southern Iran",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4272038",
-          "source": "Al Jazeera"
-        },
-        {
-          "headline": "Turkiye’s FM says Iran ready to negotiate, warns against US attack",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/1/28/live-iran-says-it-will-respond-like-never-before-after-trumps-threats?update=4271914",
-          "source": "Al Jazeera"
         }
       ]
     },
     "reuters": {
       "lead": null,
       "top": []
+    },
+    "economist": {
+      "lead": null,
+      "top": []
     }
   },
-  "generated": "2026-01-28T18:44:22.348Z",
+  "generated": "2026-01-28T19:09:03.503Z",
   "source": "github-actions"
 }
