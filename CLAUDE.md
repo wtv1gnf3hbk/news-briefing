@@ -77,3 +77,18 @@ Headlines mentioning "Trump" in international context (e.g., "Iran responds to T
 - Puppeteer requires `--no-sandbox` flag on ubuntu-latest
 - First run slow (~6min) due to Chromium download
 - npm cache helps subsequent runs
+
+## Briefing Writing Style
+
+### Contractions Rule
+**NEVER use "'s" as a contraction for "is".**
+
+Bad:
+- "Meta's planning to spend..."
+- "Amazon's cutting 16,000 jobs..."
+
+Good:
+- "Meta is planning to spend..."
+- "Amazon is cutting 16,000 jobs..."
+
+Note: "'s" for possession is fine (e.g., "Amazon's CEO", "Meta's earnings").
