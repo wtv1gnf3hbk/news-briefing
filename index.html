@@ -40,6 +40,55 @@
 <body>
   <div class="timestamp">Generated Sunday, February 1, 2026 at 4:53 PM ET · <a href="https://github.com/wtv1gnf3hbk/news-briefing/actions/workflows/briefing.yml">Refresh</a></div>
 
+  <!-- Audio Player -->
+  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <button id="play-btn" onclick="toggleAudio()" style="
+        width: 48px; height: 48px; border-radius: 50%; border: none;
+        background: #1a1a1a; color: white; cursor: pointer;
+        font-size: 18px; display: flex; align-items: center; justify-content: center;
+      ">&#9658;</button>
+      <div style="flex: 1;">
+        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
+          Listen to today's briefing
+        </div>
+        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
+      </div>
+    </div>
+    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
+  </div>
+  <script>
+    const audio = document.getElementById('briefing-audio');
+    const playBtn = document.getElementById('play-btn');
+    const voiceInfo = document.getElementById('voice-info');
+
+    // Check if audio exists
+    audio.addEventListener('loadedmetadata', () => {
+      const duration = Math.round(audio.duration);
+      const mins = Math.floor(duration / 60);
+      const secs = duration % 60;
+      voiceInfo.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+    });
+
+    audio.addEventListener('error', () => {
+      document.getElementById('audio-player').style.display = 'none';
+    });
+
+    audio.addEventListener('ended', () => {
+      playBtn.innerHTML = '&#9658;';
+    });
+
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        playBtn.innerHTML = '&#10074;&#10074;';
+      } else {
+        audio.pause();
+        playBtn.innerHTML = '&#9658;';
+      }
+    }
+  </script>
+
   <div id="content">
 <p>Good morning. Here's the state of play:</p><p>Trump's immigration enforcement is hitting some serious turbulence in Minnesota, where <a href="https://www.nytimes.com/2026/02/01/us/politics/tom-homan-minnesota-ice.html" target="_blank">border czar</a> Tom Homan is trying to calm tensions after ICE operations sparked widespread protests. The situation's gotten complicated enough that a <a href="https://www.nytimes.com/live/2026/02/01/us/trump-news" target="_blank">5-year-old and father</a> were just released from detention, while federal courts are increasingly <a href="https://www.nytimes.com/2026/02/01/us/habeas-corpus-detainee-immigrant-trump-federal-courts.html" target="_blank">pushing back</a> against the administration's mass deportation plans through habeas corpus rulings.</p><p>The broader immigration crackdown is creating ripple effects across Trump's agenda. He's even <a href="https://www.nytimes.com/2026/01/31/us/politics/trump-schumer-deal.html" target="_blank">reached out</a> to Chuck Schumer about cutting some kind of deal, according to Bloomberg, suggesting the political backlash might be stronger than expected. Meanwhile, questions about Trump's financial entanglements keep surfacing - there's news that a <a href="https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html" target="_blank">UAE firm</a> quietly bought into his family's crypto company, and he's now <a href="https://www.nytimes.com/2026/01/30/us/politics/trump-lawsuit-irs-taxes.html" target="_blank">suing the IRS</a> over his taxes.</p><p><strong>Business/Tech</strong></p><p>• <a href="https://www.nytimes.com/2026/01/29/technology/openai-in-talks-to-raise-as-much-as-100-billion.html" target="_blank">OpenAI's hunting</a> for another massive funding round that could reach $100 billion, which would be wild even by Silicon Valley standards.</p><p>• The "Sell America" trade is becoming the hot new thing on <a href="https://www.nytimes.com/2026/01/31/business/sell-america-dollar-financial-markets.html" target="_blank">Wall Street</a>, with traders betting against the dollar and U.S. assets as Trump's policies create uncertainty.</p><p>• <a href="https://www.nytimes.com/2026/02/01/business/target-ceo-minneapolis.html" target="_blank">Target's new CEO</a> is dealing with a perfect storm - trying to turn around the company while his Minneapolis headquarters is at the center of the immigration enforcement crisis.</p><p>• The AI boom might make your <a href="https://www.nytimes.com/2026/01/29/technology/ai-memory-chips-pc-smartphone.html" target="_blank">next PC</a> way more expensive because of skyrocketing demand for memory chips.</p><p><strong>Around the World</strong></p><p>• <strong>Latin America</strong>: Costa Rica's heading into an election with a <a href="https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html" target="_blank">right-wing populist</a> holding a commanding lead, which would be a big shift for this traditionally centrist country.</p><p>• <strong>Europe</strong>: Russia killed <a href="https://www.nytimes.com/2026/02/01/world/europe/russia-strikes-ukraine-energy-sector-killing-12-miners.html" target="_blank">12 miners</a> in a strike on Ukraine's energy sector, while peace talks got delayed after the U.S. and Russia met directly, according to Reuters.</p><p>• <strong>Asia</strong>: Indonesia just <a href="https://www.nytimes.com/2026/02/01/world/asia/indonesia-lift-grok-ban.html" target="_blank">lifted its ban</a> on Grok after getting new assurances from X Corp, and Myanmar's government-in-exile is <a href="https://www.nytimes.com/2026/02/01/world/asia/myanmar-coup-anniversary-government.html" target="_blank">teetering on irrelevance</a> years after the coup.</p><p>• <strong>Middle East</strong>: The <a href="https://www.nytimes.com/2026/02/01/world/middleeast/rafah-crossing-gaza-egypt-israel.html" target="_blank">Rafah crossing</a> is set to reopen partially, but thousands are still waiting for medical evacuation from Gaza. Iran's dealing with <a href="https://www.nytimes.com/2026/01/31/world/middleeast/iran-explosions-jitters.html" target="_blank">mysterious explosions</a> that have everyone on edge about possible foreign attacks.</p><p>• <strong>Africa</strong>: Egypt's been running a <a href="https://www.nytimes.com/2026/02/01/world/africa/egypt-sudan-drones.html" target="_blank">secret air base</a> that's fueling Sudan's devastating drone war, while devastating floods have <a href="https://www.nytimes.com/2026/01/29/world/africa/mozambique-south-africa-flood.html" target="_blank">displaced hundreds of thousands</a> across southern Africa.</p>
   </div>
