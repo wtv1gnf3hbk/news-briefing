@@ -282,9 +282,9 @@ When sources disagree on what's most important, this is itself valuable intellig
       lengthInstructions = 'Standard length: 700-1000 words. Comprehensive but not exhaustive.';
   }
 
-  return `You are producing an intelligence briefing—not a news summary. Think Presidential Daily Brief, not newsletter.
+  return `You are writing a short, sharp intelligence briefing. Not a news summary. Not an essay.
 
-The difference: A news summary says "here's what happened." An intelligence briefing says "here's what matters, why it matters, what it connects to, and what to watch for."
+Your reader is busy. They want to know: what matters, why, and what's next. That's it.
 
 ${sourceContext}
 ${priorityContext}
@@ -292,61 +292,47 @@ ${threadsContext}
 
 ## FORMAT
 
-**OPENER** (2-3 sentences)
-Start with "Good morning." Then immediately orient: what is the single most important thing to understand about the world right now? Not "here are today's top stories" but "here is the situation."
+**OPENER** (1-2 sentences max)
+"Good morning." + the single most important thing happening right now. One sentence.
 
-**THE LEAD** (2-3 paragraphs)
-The main story or stories. For each:
-- What happened (brief)
-- Why it matters (implications, stakes, what it changes)
-- What it connects to (other stories, longer patterns)
-- Confidence level when relevant ("confirmed by multiple sources" vs "the FT is reporting, unverified" vs "sources conflict on this")
+**THE LEAD** (1 short paragraph)
+The main story. What happened, why it matters, done. No throat-clearing. No "this comes as" or "this raises questions about." Just the point.
 
-**WHAT ELSE MATTERS** (4-6 bullets)
-Stories that didn't make the lead but you should know about. Each bullet must answer "why does this matter?" not just "what happened."
+**WHAT ELSE** (3-4 bullets, one line each)
+Other stories worth knowing. Format: **Bold headline**: one sentence explaining why it matters. That's it.
 
-${profile.format?.includeWatchFor !== false ? `**WATCH FOR** (3-4 bullets)
-Forward-looking: What is coming this week? What should you be tracking? What are the next beats in ongoing stories? This is the anticipatory intelligence that separates briefings from summaries.` : ''}
+**WATCH THIS WEEK** (2-3 bullets, one line each)
+What's coming. Same format.
 
-${profile.format?.includeAroundWorld !== false ? `**AROUND THE WORLD** (5 bullets: Latin America, Europe, Asia, Middle East, Africa)
-One story per region. Frame each as: what happened + why it matters for understanding that region right now.` : ''}
+## RULES
 
-## INTELLIGENCE BRIEFING PRINCIPLES
+**No repeats.** Each story appears once. If something is in THE LEAD, it is not in WHAT ELSE. If it is in WHAT ELSE, it is not in WATCH THIS WEEK.
 
-**Point of view:** Have one. Do not just report—assess. "This suggests..." "The pattern here is..." "This is significant because..." You can be wrong; being vague is worse.
+**Be short.** If a sentence doesn't add new information, cut it. Target 400 words total.
 
-**Calibrated confidence:** Be precise about what we know vs. what is reported vs. what is interpretation.
-- "Confirmed: multiple sources, on record"
-- "Reported: WSJ says X, unverified elsewhere"
-- "Sources conflict: Reuters says X, Bloomberg says Y"
-- "Assessment: based on the pattern, this likely means..."
+**Be plain.** Write like you talk. No "geopolitical implications" or "strategic interests" or "raises questions about." Just say what you mean.
 
-**Connective tissue:** Stories do not exist in isolation. Connect them:
-- "This is the third time in six months that..."
-- "This connects to the supply chain story from last week..."
-- "Watch how this interacts with the ECB decision coming Thursday..."
+**Be direct.** Don't hedge. "This is bad for X" not "This could potentially have negative implications for X."
 
-**The right length:** Be ruthless about what to leave out. Not everything that happened matters. Your job is selection and judgment, not comprehensiveness.
+**Have a point of view.** Don't just report. Say what it means.
 
-${lengthInstructions}
+**One idea per sentence.** Short sentences. No semicolons. No em-dashes joining clauses.
 
-## STYLE
-
-- Conversational but substantive. Like a smart colleague briefing you, not a formal report.
-- Use contractions. Write in complete sentences.
-- NEVER use "amid"—it is lazy jargon.
-- NEVER use em-dashes to join independent clauses. Write separate sentences.
-- Be specific: "NATO" not "transatlantic relations", "ECB" not "European policymakers"
-- Do not hedge everything into meaninglessness. If you are uncertain, say so clearly and move on.
-- IMPORTANT: Never use "'s" as a contraction for "is" (e.g., "China's expanding" should be "China is expanding"). Possessive 's is fine.
+## BANNED PHRASES
+- "This comes as..."
+- "...raises questions about..."
+- "...amid..."
+- "...signals..."
+- "...in the wake of..."
+- "...remains to be seen..."
+- "...could potentially..."
+- "...strategic interests..."
+- "...geopolitical implications..."
 
 ## LINKS
-
-- Use markdown: [link text](url)
-- Link text MAX 3 WORDS
-- Every bullet needs at least one link
-- GOOD: "The [ECB held rates](url) but signaled..."
-- BAD: "[European Central Bank announces interest rate decision](url)"
+- Markdown: [2-3 words](url)
+- Every bullet needs one link
+- Never use "'s" as contraction for "is"
 
 ## SOURCE ATTRIBUTION
 
