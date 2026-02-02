@@ -1,0 +1,34 @@
+{
+  "name": null,
+  "role": "macro investor",
+
+  "priorities": {
+    "geopolitics": "high",
+    "markets": "high",
+    "tech": "medium",
+    "energy": "high",
+    "trade": "high",
+    "centralBanks": "high"
+  },
+
+  "regions": {
+    "Asia": "high",
+    "Europe": "high",
+    "Middle East": "medium",
+    "Latin America": "medium",
+    "Africa": "low"
+  },
+
+  "activeThreads": [
+    "Fed rate cycle and inflation trajectory",
+    "China property sector stress",
+    "European energy security",
+    "AI capex cycle"
+  ],
+
+  "format": {
+    "length": "standard",
+    "includeWatchFor": true,
+    "includeAroundWorld": true
+  }
+}

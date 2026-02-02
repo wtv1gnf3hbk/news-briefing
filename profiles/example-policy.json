@@ -1,0 +1,34 @@
+{
+  "name": null,
+  "role": "policy professional",
+
+  "priorities": {
+    "geopolitics": "high",
+    "defense": "high",
+    "trade": "high",
+    "climate": "medium",
+    "tech": "medium",
+    "markets": "low"
+  },
+
+  "regions": {
+    "Asia": "high",
+    "Europe": "high",
+    "Middle East": "high",
+    "Latin America": "medium",
+    "Africa": "medium"
+  },
+
+  "activeThreads": [
+    "Ukraine support and NATO cohesion",
+    "Taiwan Strait situation",
+    "US-China tech decoupling",
+    "Middle East escalation dynamics"
+  ],
+
+  "format": {
+    "length": "standard",
+    "includeWatchFor": true,
+    "includeAroundWorld": true
+  }
+}
