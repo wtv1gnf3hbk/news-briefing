@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligence Dashboard | Monday, February 2, 2026</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    .dashboard {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .timestamp {
+      color: #888;
+      font-size: 0.875rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #333;
+    }
+    .card h2 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #888;
+      margin-bottom: 12px;
+    }
+    .lead-story {
+      grid-column: 1 / -1;
+    }
+    .lead-story .headline {
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+    .lead-story .analysis {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .story-list {
+      list-style: none;
+    }
+    .story-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid #333;
+    }
+    .story-list li:last-child {
+      border-bottom: none;
+    }
+    .story-title {
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .story-context {
+      font-size: 0.9rem;
+      color: #999;
+    }
+    .sources {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .source-badge {
+      font-size: 0.7rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background: #333;
+      color: #888;
+    }
+    .source-badge.active {
+      background: #1a472a;
+      color: #4ade80;
+    }
+    .watch-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #333;
+    }
+    .watch-item:last-child {
+      border-bottom: none;
+    }
+    .watch-date {
+      background: #2563eb;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .formats {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .format-btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #1a1a1a;
+      color: #ccc;
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .format-btn:hover {
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="header">
+      <h1>Intelligence Dashboard</h1>
+      <div class="timestamp">Monday, February 2, 2026 · 3:51 AM ET</div>
+    </div>
+
+    <div class="sources">
+      <span style="color: #888; font-size: 0.75rem; margin-right: 8px;">SOURCES:</span>
+      <span class="source-badge active">NYT</span><span class="source-badge active">BBC</span><span class="source-badge active">GUARDIAN</span><span class="source-badge ">REUTERS</span><span class="source-badge ">ECONOMIST</span><span class="source-badge active">ALJAZEERA</span>
+    </div>
+
+    <div class="formats">
+      <button class="format-btn" onclick="location.href='intelligence-briefing.html'">Standard</button>
+      <button class="format-btn" onclick="location.href='intelligence-headline.txt'">Headlines</button>
+      <button class="format-btn" onclick="location.href='intelligence-deep.html'">Deep Dive</button>
+      <button class="format-btn" onclick="location.href='intelligence-email.txt'">Email</button>
+      <button class="format-btn" onclick="location.href='intelligence-slack.txt'">Slack</button>
+    </div>
+
+    <div style="margin-top: 24px;">
+      <div class="grid">
+        <div class="card lead-story">
+          <h2>Lead Story</h2>
+          <div id="lead-content">
+<div class="section-header">OPENER</div>
+Good morning. A UAE firm quietly took a stake in the Trump family's crypto company, creating new foreign investment concerns for the presidency.
+<div class="section-header">THE LEAD</div>
+The New York Times reports that a United Arab Emirates company acquired an undisclosed stake in World Liberty Financial, the Trump family's cryptocurrency venture. This marks direct foreign investment in a business owned by the sitting president's family. The UAE connection adds complexity to US-Middle East relations as Trump navigates regional tensions, particularly around Iran policy where Emirati and American interests don't always align.
+<div class="section-header">WHAT ELSE</div>
+<p>• <strong><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXlXVkEtcUpyaUs5ZHVSVE5MUTU3QVQwTXdDR19saGZIdmNTdFN4T0xfbWxPME93SUtDMG1vMUhjelFjYzJJbG5YNGZodXNfUmhfbkpPN2dNOS1paEh6OV90TzhRaERXSFRmdnhoRzZJY3IxVV9wN0ZucGxKS3lFdjdvUEJ2S0ZEb0xPMW50emQzdnpwazV6dkhjTF9CX2NUMExB" target="_blank">Democrat flips Texas</a></strong>: Taylor Rehmet won a special election in a Republican state Senate district that Trump carried by 17 points, per AP, signaling potential GOP weakness heading into 2026 midterms.</p>
+<p>• <strong><a href="https://news.google.com/rss/articles/CBMioAFBVV85cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnRVTE1mUDlrVWtLWmUxY19aWFlYeFVDQV9FaG8weWdVRzhOMUhaTHJUektCblJENXpFNEhY" target="_blank">Oil prices drop 3%</a></strong>: Reuters cites US-Iran de-escalation talks as markets bet on reduced Middle East conflict risk.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>What Else Matters</h2>
+          <ul class="story-list" id="stories">
+            <!-- Populated from briefing -->
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Watch This Week</h2>
+          <div id="watch-items">
+            <!-- Populated from briefing -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Parse briefing and populate sections
+    const briefing = "**OPENER**\nGood morning. A UAE firm quietly took a stake in the Trump family's crypto company, creating new foreign investment concerns for the presidency.\n\n**THE LEAD**\nThe New York Times reports that a United Arab Emirates company acquired an undisclosed stake in World Liberty Financial, the Trump family's cryptocurrency venture. This marks direct foreign investment in a business owned by the sitting president's family. The UAE connection adds complexity to US-Middle East relations as Trump navigates regional tensions, particularly around Iran policy where Emirati and American interests don't always align.\n\n**WHAT ELSE**\n\n• **[Democrat flips Texas](https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXlXVkEtcUpyaUs5ZHVSVE5MUTU3QVQwTXdDR19saGZIdmNTdFN4T0xfbWxPME93SUtDMG1vMUhjelFjYzJJbG5YNGZodXNfUmhfbkpPN2dNOS1paEh6OV90TzhRaERXSFRmdnhoRzZJY3IxVV9wN0ZucGxKS3lFdjdvUEJ2S0ZEb0xPMW50emQzdnpwazV6dkhjTF9CX2NUMExB)**: Taylor Rehmet won a special election in a Republican state Senate district that Trump carried by 17 points, per AP, signaling potential GOP weakness heading into 2026 midterms.\n\n• **[Oil prices drop 3%](https://news.google.com/rss/articles/CBMioAFBVV85cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnRVTE1mUDlrVWtLWmUxY19aWFlYeFVDQV9FaG8weWdVRzhOMUhaTHJUektCblJENXpFNEhY)**: Reuters cites US-Iran de-escalation talks as markets bet on reduced Middle East conflict risk.\n\n• **[Ukraine peace talks delayed](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html)**: Planned negotiations postponed after Russia and US held separate bilateral discussions, showing fragmented diplomacy.\n\n• **[Lord Mandelson resigns](https://www.bbc.com/news/articles/cn8jm2vpve1o)**: UK's current US ambassador quit Labour Party over Epstein connections revealed in newly released files, per the BBC.\n\n**WATCH THIS WEEK**\n\n• **Rafah crossing reopens**: [Israel begins](https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot) limited pilot program Monday for Gaza travel to Egypt.\n\n• **Costa Rica election**: [Right-wing populist](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html) leads polls ahead of voting that could shift Central America further right.";
+    // Additional client-side parsing could go here
+  </script>
+</body>
+</html>

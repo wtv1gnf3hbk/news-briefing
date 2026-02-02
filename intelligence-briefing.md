@@ -1,21 +1,21 @@
-**Good morning.** A UAE firm quietly took a stake in the Trump family's crypto company World Liberty Financial.
+**OPENER**
+Good morning. A UAE firm quietly took a stake in the Trump family's crypto company, creating new foreign investment concerns for the presidency.
 
 **THE LEAD**
-
-The New York Times reports that a United Arab Emirates company acquired an undisclosed stake in World Liberty Financial, the cryptocurrency venture run by Trump's sons. This creates potential conflicts of interest as Trump conducts foreign policy with a Middle Eastern ally while his family business has financial ties to UAE investors. The investment occurred while Trump was president-elect, according to the reporting, giving foreign actors direct financial relationships with the incoming administration's business interests.
+The New York Times reports that a United Arab Emirates company acquired an undisclosed stake in World Liberty Financial, the Trump family's cryptocurrency venture. This marks direct foreign investment in a business owned by the sitting president's family. The UAE connection adds complexity to US-Middle East relations as Trump navigates regional tensions, particularly around Iran policy where Emirati and American interests don't always align.
 
 **WHAT ELSE**
 
-• **Russia kills 12 Ukrainian miners**: Russian strikes targeted Ukraine's energy infrastructure, killing a dozen coal miners and escalating attacks on civilian economic targets according to [the Times](https://www.nytimes.com/2026/02/01/world/europe/russia-strikes-ukraine-energy-sector-killing-12-miners.html).
+• **[Democrat flips Texas](https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXlXVkEtcUpyaUs5ZHVSVE5MUTU3QVQwTXdDR19saGZIdmNTdFN4T0xfbWxPME93SUtDMG1vMUhjelFjYzJJbG5YNGZodXNfUmhfbkpPN2dNOS1paEh6OV90TzhRaERXSFRmdnhoRzZJY3IxVV9wN0ZucGxKS3lFdjdvUEJ2S0ZEb0xPMW50emQzdnpwazV6dkhjTF9CX2NUMExB)**: Taylor Rehmet won a special election in a Republican state Senate district that Trump carried by 17 points, per AP, signaling potential GOP weakness heading into 2026 midterms.
 
-• **Texas Democrat flips deep red seat**: Taylor Rehmet won a state Senate district that Trump carried by 17 points, shocking Republicans and suggesting potential weakness in their Texas stronghold per [AP](https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXlXVkEtcUpyaUs5ZHVSVE5MUVU3QVQwTXdDR19saGZIdmNTdFN4T0xfbWxPME93SUtDMG1vMUhjelFjYzJJbG5YNGZodXNfUmhfbkpPN2dNOS1paEh6OV90TzhRaERXSFRmdnh).
+• **[Oil prices drop 3%](https://news.google.com/rss/articles/CBMioAFBVV85cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnRVTE1mUDlrVWtLWmUxY19aWFlYeFVDQV9FaG8weWdVRzhOMUhaTHJUektCblJENXpFNEhY)**: Reuters cites US-Iran de-escalation talks as markets bet on reduced Middle East conflict risk.
 
-• **Indonesia lifts Grok ban**: The government reversed its block on Elon Musk's AI chatbot after receiving new assurances from X Corp, ending a brief tech dispute [with the platform](https://www.nytimes.com/2026/02/01/world/asia/indonesia-lift-grok-ban.html).
+• **[Ukraine peace talks delayed](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html)**: Planned negotiations postponed after Russia and US held separate bilateral discussions, showing fragmented diplomacy.
 
-• **Egypt runs secret drone base for Sudan war**: The Times reveals Egypt operates a covert air base to supply drones for Sudan's civil war, showing deeper regional involvement in [the conflict](https://www.nytimes.com/2026/02/01/world/africa/egypt-sudan-drones.html).
+• **[Lord Mandelson resigns](https://www.bbc.com/news/articles/cn8jm2vpve1o)**: UK's current US ambassador quit Labour Party over Epstein connections revealed in newly released files, per the BBC.
 
 **WATCH THIS WEEK**
 
-• **Costa Rica election results**: Right-wing populist candidate holds commanding lead in Sunday's presidential election, potentially shifting Central American [politics rightward](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html).
+• **Rafah crossing reopens**: [Israel begins](https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot) limited pilot program Monday for Gaza travel to Egypt.
 
-• **Ukraine peace talks timeline**: Negotiations between Russia and Ukraine face delays after US-Russia meetings, with timing now [uncertain](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html).
+• **Costa Rica election**: [Right-wing populist](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html) leads polls ahead of voting that could shift Central America further right.

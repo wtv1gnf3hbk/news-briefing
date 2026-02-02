@@ -667,6 +667,370 @@ Write the corrected briefing:`;
 }
 
 // ============================================
+// MULTIMODAL OUTPUT GENERATORS
+// ============================================
+
+// 30-second headline version
+function generateHeadlineVersion(briefingText) {
+  const prompt = `Convert this briefing to a 30-second headline version. MAX 3 bullets, no context, just the facts.
+
+BRIEFING:
+${briefingText}
+
+OUTPUT FORMAT:
+• [First headline - most important]
+• [Second headline]
+• [Third headline]
+
+That's it. No intro, no "Good morning", no analysis. Just 3 bullet points.`;
+  return callClaude(prompt, 300);
+}
+
+// Email digest version
+function generateEmailVersion(briefingText) {
+  const prompt = `Convert this briefing to a clean email digest format. Plain text, no markdown links.
+
+BRIEFING:
+${briefingText}
+
+OUTPUT FORMAT:
+Subject: Intelligence Briefing - [current date description]
+
+[1-2 sentence opener]
+
+TOP STORY
+[Paragraph on the lead]
+
+ALSO TODAY
+• [Bullet 1]
+• [Bullet 2]
+• [Bullet 3]
+
+WATCHING
+• [Forward-looking item 1]
+• [Forward-looking item 2]
+
+---
+[Footer with source note]
+
+Write it now:`;
+  return callClaude(prompt, 800);
+}
+
+// Slack/Discord version
+function generateSlackVersion(briefingText) {
+  const prompt = `Convert this briefing to Slack/Discord format. Use emoji sparingly, bold for emphasis, keep it scannable.
+
+BRIEFING:
+${briefingText}
+
+OUTPUT FORMAT:
+*MORNING BRIEF* 📰
+
+*Top Story*
+[1-2 sentences with key link]
+
+*What Else*
+→ [bullet 1]
+→ [bullet 2]
+→ [bullet 3]
+
+*Watch This Week*
+→ [item 1]
+→ [item 2]
+
+Write it now:`;
+  return callClaude(prompt, 600);
+}
+
+// SMS/Push notification version (opener only)
+function generateSMSVersion(briefingText) {
+  const prompt = `Extract the single most important sentence from this briefing for an SMS/push notification. MAX 160 characters.
+
+BRIEFING:
+${briefingText}
+
+Just the sentence, nothing else:`;
+  return callClaude(prompt, 100);
+}
+
+// Deep dive version (10 min read)
+function generateDeepVersion(briefingText, briefing) {
+  const sourceData = {
+    lead: briefing.nyt.lead,
+    primary: briefing.nyt.primary.slice(0, 15),
+    secondary: briefing.nyt.secondary?.slice(0, 20) || [],
+    wire: briefing.secondary || {},
+    internationalLeads: briefing.internationalLeads || {}
+  };
+
+  const prompt = `Expand this briefing into a 10-minute deep dive version. Add more context, more analysis, more stories.
+
+ORIGINAL BRIEFING:
+${briefingText}
+
+ADDITIONAL SOURCE DATA:
+${JSON.stringify(sourceData, null, 2)}
+
+OUTPUT FORMAT:
+**INTELLIGENCE BRIEFING - DEEP DIVE**
+
+**EXECUTIVE SUMMARY**
+[2-3 sentences]
+
+**THE LEAD**
+[3-4 paragraphs with full analysis]
+
+**SECONDARY STORIES**
+[6-8 stories, each with a paragraph of context]
+
+**REGIONAL ROUNDUP**
+• Latin America: [paragraph]
+• Europe: [paragraph]
+• Asia: [paragraph]
+• Middle East: [paragraph]
+• Africa: [paragraph]
+
+**WATCH THIS WEEK**
+[4-5 items with explanation of why they matter]
+
+**SOURCES & METHODOLOGY**
+[Note on sources used]
+
+Write the deep dive now. Target 1500+ words:`;
+  return callClaude(prompt, 4000);
+}
+
+// Visual dashboard HTML
+function generateDashboardHTML(briefingText, briefing) {
+  const dateStr = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
+  });
+  const timeStr = new Date().toLocaleTimeString('en-US', {
+    hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York'
+  });
+
+  // Extract sources for dashboard
+  const sources = {
+    nyt: briefing.nyt?.lead ? true : false,
+    bbc: briefing.internationalLeads?.bbc?.lead ? true : false,
+    guardian: briefing.internationalLeads?.guardian?.lead ? true : false,
+    reuters: briefing.internationalLeads?.reuters?.lead ? true : false,
+    economist: briefing.internationalLeads?.economist?.lead ? true : false,
+    aljazeera: briefing.internationalLeads?.aljazeera?.lead ? true : false,
+  };
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligence Dashboard | ${dateStr}</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    .dashboard {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .timestamp {
+      color: #888;
+      font-size: 0.875rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #333;
+    }
+    .card h2 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #888;
+      margin-bottom: 12px;
+    }
+    .lead-story {
+      grid-column: 1 / -1;
+    }
+    .lead-story .headline {
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+    .lead-story .analysis {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .story-list {
+      list-style: none;
+    }
+    .story-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid #333;
+    }
+    .story-list li:last-child {
+      border-bottom: none;
+    }
+    .story-title {
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .story-context {
+      font-size: 0.9rem;
+      color: #999;
+    }
+    .sources {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .source-badge {
+      font-size: 0.7rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background: #333;
+      color: #888;
+    }
+    .source-badge.active {
+      background: #1a472a;
+      color: #4ade80;
+    }
+    .watch-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #333;
+    }
+    .watch-item:last-child {
+      border-bottom: none;
+    }
+    .watch-date {
+      background: #2563eb;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .formats {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .format-btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #1a1a1a;
+      color: #ccc;
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .format-btn:hover {
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="header">
+      <h1>Intelligence Dashboard</h1>
+      <div class="timestamp">${dateStr} · ${timeStr} ET</div>
+    </div>
+
+    <div class="sources">
+      <span style="color: #888; font-size: 0.75rem; margin-right: 8px;">SOURCES:</span>
+      ${Object.entries(sources).map(([name, active]) =>
+        `<span class="source-badge ${active ? 'active' : ''}">${name.toUpperCase()}</span>`
+      ).join('')}
+    </div>
+
+    <div class="formats">
+      <button class="format-btn" onclick="location.href='intelligence-briefing.html'">Standard</button>
+      <button class="format-btn" onclick="location.href='intelligence-headline.txt'">Headlines</button>
+      <button class="format-btn" onclick="location.href='intelligence-deep.html'">Deep Dive</button>
+      <button class="format-btn" onclick="location.href='intelligence-email.txt'">Email</button>
+      <button class="format-btn" onclick="location.href='intelligence-slack.txt'">Slack</button>
+    </div>
+
+    <div style="margin-top: 24px;">
+      <div class="grid">
+        <div class="card lead-story">
+          <h2>Lead Story</h2>
+          <div id="lead-content">
+${formatBriefingHTML(briefingText).split('</p>').slice(0, 2).join('</p>') + '</p>'}
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>What Else Matters</h2>
+          <ul class="story-list" id="stories">
+            <!-- Populated from briefing -->
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Watch This Week</h2>
+          <div id="watch-items">
+            <!-- Populated from briefing -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Parse briefing and populate sections
+    const briefing = ${JSON.stringify(briefingText)};
+    // Additional client-side parsing could go here
+  </script>
+</body>
+</html>`;
+}
+
+// ============================================
 // STYLE CHECK
 // ============================================
 
@@ -747,19 +1111,49 @@ async function main() {
     console.log(styleOk ? '  Style: ✓' : '  Style: ⚠ (proceeding anyway)');
     console.log('');
 
+    // Generate all output variants in parallel
+    console.log('Generating output variants...');
+    const [headline, email, slack, sms, deep] = await Promise.all([
+      generateHeadlineVersion(briefingText),
+      generateEmailVersion(briefingText),
+      generateSlackVersion(briefingText),
+      generateSMSVersion(briefingText),
+      generateDeepVersion(briefingText, briefing)
+    ]);
+    console.log('  ✓ All variants generated');
+
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
     console.log(`Total time: ${elapsed}s`);
+    console.log('');
 
-    // Save outputs
+    // Save all outputs
+    console.log('Saving outputs...');
+
+    // Standard
     fs.writeFileSync('intelligence-briefing.md', briefingText);
-    console.log('Saved: intelligence-briefing.md');
+    fs.writeFileSync('intelligence-briefing.html', generateHTML(briefingText, profile));
 
-    const html = generateHTML(briefingText, profile);
-    fs.writeFileSync('intelligence-briefing.html', html);
-    console.log('Saved: intelligence-briefing.html');
+    // Variants
+    fs.writeFileSync('intelligence-headline.txt', headline);
+    fs.writeFileSync('intelligence-email.txt', email);
+    fs.writeFileSync('intelligence-slack.txt', slack);
+    fs.writeFileSync('intelligence-sms.txt', sms);
+    fs.writeFileSync('intelligence-deep.md', deep);
+
+    // Dashboard
+    fs.writeFileSync('intelligence-dashboard.html', generateDashboardHTML(briefingText, briefing));
+
+    console.log('  ✓ intelligence-briefing.md (standard)');
+    console.log('  ✓ intelligence-briefing.html');
+    console.log('  ✓ intelligence-headline.txt (30s)');
+    console.log('  ✓ intelligence-email.txt');
+    console.log('  ✓ intelligence-slack.txt');
+    console.log('  ✓ intelligence-sms.txt (160 chars)');
+    console.log('  ✓ intelligence-deep.md (10 min)');
+    console.log('  ✓ intelligence-dashboard.html');
 
     console.log('');
-    console.log(factResult.passed ? '✅ Intelligence briefing ready' : '⚠️ Briefing ready (with warnings)');
+    console.log(factResult.passed ? '✅ All outputs ready' : '⚠️ Outputs ready (with warnings)');
 
   } catch (e) {
     console.error('❌ Failed:', e.message);
