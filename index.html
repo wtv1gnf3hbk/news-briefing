@@ -38,7 +38,29 @@
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated Sunday, February 1, 2026 at 4:53 PM ET · <a href="https://github.com/wtv1gnf3hbk/news-briefing/actions/workflows/briefing.yml">Refresh</a></div>
+  <div class="timestamp">Generated Sunday, February 1, 2026 at 4:53 PM ET · <a href="#" onclick="refreshBriefing(); return false;">Refresh</a></div>
+  <script>
+    async function refreshBriefing() {
+      const link = event.target;
+      const original = link.textContent;
+      link.textContent = 'Refreshing...';
+      link.style.pointerEvents = 'none';
+      try {
+        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
+        const data = await res.json();
+        if (data.success) {
+          link.textContent = 'Triggered! Reloading in 60s...';
+          setTimeout(() => location.reload(), 60000);
+        } else {
+          link.textContent = 'Error - try again';
+          link.style.pointerEvents = 'auto';
+        }
+      } catch (e) {
+        link.textContent = 'Error - try again';
+        link.style.pointerEvents = 'auto';
+      }
+    }
+  </script>
 
   <!-- Audio Player -->
   <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
