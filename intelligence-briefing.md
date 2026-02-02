@@ -1,21 +1,21 @@
-**OPENER**
-Good morning. A UAE firm quietly took a stake in the Trump family's crypto company, creating new foreign investment concerns for the presidency.
+Good morning. A UAE firm quietly took a stake in the Trump family's crypto company World Liberty Financial, creating new conflicts of interest at the highest levels of government.
 
 **THE LEAD**
-The New York Times reports that a United Arab Emirates company acquired an undisclosed stake in World Liberty Financial, the Trump family's cryptocurrency venture. This marks direct foreign investment in a business owned by the sitting president's family. The UAE connection adds complexity to US-Middle East relations as Trump navigates regional tensions, particularly around Iran policy where Emirati and American interests don't always align.
+
+The [UAE investment](https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html) in World Liberty Financial puts foreign money directly into Trump family business while the president shapes Middle East policy. This goes beyond typical ethics concerns about presidential business dealings - it creates a direct financial link between Trump family profits and a key Gulf ally's interests. The investment size and timing remain unclear, but it marks another erosion of traditional boundaries between presidential duties and personal wealth.
 
 **WHAT ELSE**
 
-• **[Democrat flips Texas](https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXlXVkEtcUpyaUs5ZHVSVE5MUTU3QVQwTXdDR19saGZIdmNTdFN4T0xfbWxPME93SUtDMG1vMUhjelFjYzJJbG5YNGZodXNfUmhfbkpPN2dNOS1paEh6OV90TzhRaERXSFRmdnhoRzZJY3IxVV9wN0ZucGxKS3lFdjdvUEJ2S0ZEb0xPMW50emQzdnpwazV6dkhjTF9CX2NUMExB)**: Taylor Rehmet won a special election in a Republican state Senate district that Trump carried by 17 points, per AP, signaling potential GOP weakness heading into 2026 midterms.
+• **Democratic upset in Texas**: Taylor Rehmet [flipped a state Senate seat](https://www.nytimes.com/2026/02/01/us/democratic-upset-texas-district-republicans.html) that Trump won by 17 points, signaling trouble for Republicans heading into 2026 midterms.
 
-• **[Oil prices drop 3%](https://news.google.com/rss/articles/CBMioAFBVV85cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnRVTE1mUDlrVWtLWmUxY19aWFlYeFVDQV9FaG8weWdVRzhOMUhaTHJUektCblJENXpFNEhY)**: Reuters cites US-Iran de-escalation talks as markets bet on reduced Middle East conflict risk.
+• **Costa Rica swings right**: A right-wing populist [holds a commanding lead](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html) ahead of the country's election, potentially shifting Central America's most stable democracy.
 
-• **[Ukraine peace talks delayed](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html)**: Planned negotiations postponed after Russia and US held separate bilateral discussions, showing fragmented diplomacy.
+• **Egypt's secret drone war**: Egypt is operating [a secret air base](https://www.nytimes.com/2026/02/01/world/africa/egypt-sudan-drones.html) to supply drones in Sudan's civil war, expanding regional proxy conflicts.
 
-• **[Lord Mandelson resigns](https://www.bbc.com/news/articles/cn8jm2vpve1o)**: UK's current US ambassador quit Labour Party over Epstein connections revealed in newly released files, per the BBC.
+• **Ukraine peace talks stall**: Planned peace negotiations were [delayed after US-Russia meetings](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html), suggesting diplomatic complications in ending the war.
 
 **WATCH THIS WEEK**
 
-• **Rafah crossing reopens**: [Israel begins](https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot) limited pilot program Monday for Gaza travel to Egypt.
+• **Rafah crossing reopens**: Israel says Gaza's border with Egypt will [reopen for limited travel Monday](https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot), potentially easing humanitarian crisis.
 
-• **Costa Rica election**: [Right-wing populist](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html) leads polls ahead of voting that could shift Central America further right.
+• **Iran tensions escalate**: Khamenei [warned of "regional war"](https://www.aljazeera.com/news/2026/2/1/khamenei-warns-us-of-regional-war-if-iran-is-attacked) if attacked, as oil prices fell 3% on de-escalation hopes.

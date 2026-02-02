@@ -1031,6 +1031,70 @@ ${formatBriefingHTML(briefingText).split('</p>').slice(0, 2).join('</p>') + '</p
 }
 
 // ============================================
+// TTS AUDIO GENERATION (ElevenLabs)
+// ============================================
+
+const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || 'sk_bc24778bfd2077f53aa3637e71eaa93fab45a7dd67ac1d34';
+
+async function generateAudio(text, outputPath) {
+  // Strip markdown formatting for cleaner audio
+  const cleanText = text
+    .replace(/\*\*([^*]+)\*\*/g, '$1')  // Remove bold
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')  // Remove links, keep text
+    .replace(/^[•→-]\s*/gm, '')  // Remove bullets
+    .replace(/\n{2,}/g, '\n\n');  // Normalize spacing
+
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify({
+      text: cleanText,
+      model_id: 'eleven_turbo_v2_5',
+      voice_settings: {
+        stability: 0.5,
+        similarity_boost: 0.75
+      }
+    });
+
+    // Using "Rachel" voice - professional, clear
+    const voiceId = '21m00Tcm4TlvDq8ikWAM';
+
+    const req = https.request({
+      hostname: 'api.elevenlabs.io',
+      path: `/v1/text-to-speech/${voiceId}`,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'xi-api-key': ELEVENLABS_API_KEY,
+        'Accept': 'audio/mpeg'
+      }
+    }, (res) => {
+      if (res.statusCode !== 200) {
+        let error = '';
+        res.on('data', chunk => error += chunk);
+        res.on('end', () => reject(new Error(`ElevenLabs error ${res.statusCode}: ${error}`)));
+        return;
+      }
+
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
+      res.on('end', () => {
+        const buffer = Buffer.concat(chunks);
+        fs.writeFileSync(outputPath, buffer);
+        resolve(outputPath);
+      });
+    });
+
+    req.on('error', reject);
+    req.setTimeout(120000, () => {
+      req.destroy();
+      reject(new Error('TTS timeout'));
+    });
+
+    req.write(body);
+    req.end();
+  });
+}
+
+// ============================================
 // STYLE CHECK
 // ============================================
 
@@ -1111,19 +1175,23 @@ async function main() {
     console.log(styleOk ? '  Style: ✓' : '  Style: ⚠ (proceeding anyway)');
     console.log('');
 
-    // Generate all output variants in parallel
+    // Generate output variants sequentially to avoid rate limits
     console.log('Generating output variants...');
-    const [headline, email, slack, sms, deep] = await Promise.all([
-      generateHeadlineVersion(briefingText),
-      generateEmailVersion(briefingText),
-      generateSlackVersion(briefingText),
-      generateSMSVersion(briefingText),
-      generateDeepVersion(briefingText, briefing)
-    ]);
-    console.log('  ✓ All variants generated');
 
-    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-    console.log(`Total time: ${elapsed}s`);
+    const headline = await generateHeadlineVersion(briefingText);
+    console.log('  ✓ Headlines');
+
+    const sms = await generateSMSVersion(briefingText);
+    console.log('  ✓ SMS');
+
+    const email = await generateEmailVersion(briefingText);
+    console.log('  ✓ Email');
+
+    const slack = await generateSlackVersion(briefingText);
+    console.log('  ✓ Slack');
+
+    const deep = await generateDeepVersion(briefingText, briefing);
+    console.log('  ✓ Deep dive');
     console.log('');
 
     // Save all outputs
@@ -1152,7 +1220,23 @@ async function main() {
     console.log('  ✓ intelligence-deep.md (10 min)');
     console.log('  ✓ intelligence-dashboard.html');
 
+    // Generate audio versions
     console.log('');
+    console.log('Generating audio...');
+    try {
+      await Promise.all([
+        generateAudio(briefingText, 'intelligence-briefing.mp3'),
+        generateAudio(headline, 'intelligence-headline.mp3')
+      ]);
+      console.log('  ✓ intelligence-briefing.mp3 (2-min audio)');
+      console.log('  ✓ intelligence-headline.mp3 (30s audio)');
+    } catch (audioErr) {
+      console.log(`  ⚠ Audio generation failed: ${audioErr.message}`);
+    }
+
+    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    console.log('');
+    console.log(`Total time: ${elapsed}s`);
     console.log(factResult.passed ? '✅ All outputs ready' : '⚠️ Outputs ready (with warnings)');
 
   } catch (e) {
