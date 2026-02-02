@@ -1,33 +1,23 @@
 {
   "nyt": {
     "lead": {
-      "headline": "U.A.E. Firm Quietly Took Stake in the Trump Family’s Crypto Company",
-      "url": "https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html",
+      "headline": "Trump Says Kennedy Center Will Close for 2-Year Reconstruction Project",
+      "url": "https://www.nytimes.com/2026/02/01/us/politics/trump-kennedy-center.html",
       "source": "Lead"
     },
     "live": [
       {
-        "headline": "Trump AdministrationFeb. 1, 2026, 10:09 p.m. ET",
-        "url": "https://www.nytimes.com/live/2026/02/01/us/trump-news",
-        "source": "Live"
-      },
-      {
-        "headline": "Grammy AwardsFeb. 1, 2026, 10:08 p.m. ET",
+        "headline": "Bad Bunny Wins Album of the Year in Grammy Awards First",
         "url": "https://www.nytimes.com/live/2026/02/01/arts/grammys-2026",
-        "source": "Live"
-      },
-      {
-        "headline": "Bad Bunny says ‘ICE out’ in his Grammys acceptance speech.Feb. 1, 2026, 9:59 p.m. ET",
-        "url": "https://www.nytimes.com/live/2026/02/01/arts/grammys-2026#bad-bunny-speech-ice-grammys",
-        "source": "Live"
-      },
-      {
-        "headline": "Justin Bieber breaks his public performance pause at the Grammys.Feb. 1, 2026, 9:22 p.m. ET",
-        "url": "https://www.nytimes.com/live/2026/02/01/arts/grammys-2026#justin-bieber-grammys-performance",
         "source": "Live"
       }
     ],
     "primary": [
+      {
+        "headline": "Trump Says Kennedy Center Will Close for 2-Year Reconstruction Project",
+        "url": "https://www.nytimes.com/2026/02/01/us/politics/trump-kennedy-center.html",
+        "source": "Homepage"
+      },
       {
         "headline": "U.A.E. Firm Quietly Took Stake in the Trump Family’s Crypto Company",
         "url": "https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html",
@@ -44,13 +34,13 @@
         "source": "Homepage"
       },
       {
-        "headline": "Anti-ICE Protests",
-        "url": "https://www.nytimes.com/2026/01/31/us/ice-protests-cities-minneapolis.html",
+        "headline": "Move Fast, but Obey the Rules: China’s Vision for Dominating A.I.",
+        "url": "https://www.nytimes.com/2026/02/02/business/china-ai-regulations.html",
         "source": "Homepage"
       },
       {
-        "headline": "Justice Department’s Minnesota Playbook",
-        "url": "https://www.nytimes.com/2026/01/29/us/politics/minnesota-justice-department-trump-ice.html",
+        "headline": "Protesters Rally Across U.S.",
+        "url": "https://www.nytimes.com/2026/01/31/us/protesters-rally-solidarity-minneapolis.html",
         "source": "Homepage"
       },
       {
@@ -72,17 +62,17 @@
         "headline": "Can the White House Border Czar De-escalate Tensions in Minnesota?",
         "url": "https://www.nytimes.com/2026/02/01/us/politics/tom-homan-minnesota-ice.html",
         "source": "Homepage"
-      },
-      {
-        "headline": "Federal Courts Undercut Trump’s Mass Deportation Campaign",
-        "url": "https://www.nytimes.com/2026/02/01/us/habeas-corpus-detainee-immigrant-trump-federal-courts.html",
-        "source": "Homepage"
       }
     ],
     "secondary": [
       {
         "headline": "Democratic Upset in Deep Red Texas District Rattles Republicans",
         "url": "https://www.nytimes.com/2026/02/01/us/democratic-upset-texas-district-republicans.html",
+        "source": "U.S."
+      },
+      {
+        "headline": "Federal Courts Undercut Trump’s Mass Deportation Campaign",
+        "url": "https://www.nytimes.com/2026/02/01/us/habeas-corpus-detainee-immigrant-trump-federal-courts.html",
         "source": "U.S."
       },
       {
@@ -96,9 +86,9 @@
         "source": "U.S."
       },
       {
-        "headline": "Trump Says Kennedy Center Will Close for 2-Year Reconstruction Project",
-        "url": "https://www.nytimes.com/2026/02/01/us/politics/trump-kennedy-center.html",
-        "source": "U.S."
+        "headline": "Administration Social Media Posts Echo White Supremacist Messaging",
+        "url": "https://www.nytimes.com/2026/01/27/us/politics/white-supremacy-trump-administration-social-media.html",
+        "source": "Politics"
       },
       {
         "headline": "With New Memoir, Newsom Wants Americans to Know He Struggled Growing Up",
@@ -111,14 +101,19 @@
         "source": "Politics"
       },
       {
-        "headline": "Administration Social Media Posts Echo White Supremacist Messaging",
-        "url": "https://www.nytimes.com/2026/01/27/us/politics/white-supremacy-trump-administration-social-media.html",
-        "source": "Politics"
-      },
-      {
         "headline": "Facing Immigration Backlash, Trump Called Schumer to Cut a Deal",
         "url": "https://www.nytimes.com/2026/01/31/us/politics/trump-schumer-deal.html",
         "source": "Politics"
+      },
+      {
+        "headline": "A Slice of Caracas Flourishes in an Unlikely Spot: The Italian Mediterranean",
+        "url": "https://www.nytimes.com/2026/02/02/world/americas/italy-marina-di-camerota-venezuela-migrants.html",
+        "source": "Latin America"
+      },
+      {
+        "headline": "Costa Rica Elects Right-Wing Candidate Amid Fears Over Crime",
+        "url": "https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election-fernandez.html",
+        "source": "Latin America"
       },
       {
         "headline": "Right-Wing Populist Holds Commanding Lead Ahead of Costa Rica’s Election",
@@ -133,16 +128,6 @@
       {
         "headline": "Canada’s Conservatives Give Their Trump-esque Leader a Second Chance",
         "url": "https://www.nytimes.com/2026/01/31/world/americas/canada-pierre-poilievre-conservatives.html",
-        "source": "Latin America"
-      },
-      {
-        "headline": "Loads of Heat, No Rivalry on This Red Carpet",
-        "url": "https://www.nytimes.com/2026/01/31/world/canada/carney-heated-rivalry-hudson-williams.html",
-        "source": "Latin America"
-      },
-      {
-        "headline": "U.N. Says It’s in Danger of Financial Collapse Because of Unpaid Dues",
-        "url": "https://www.nytimes.com/2026/01/30/world/americas/un-finances-collapse-debts.html",
         "source": "Latin America"
       },
       {
@@ -171,6 +156,11 @@
         "source": "Europe"
       },
       {
+        "headline": "China Fails to Curb the ‘Secret Filming Betrayal’ of Women and Girls",
+        "url": "https://www.nytimes.com/interactive/2026/02/01/world/asia/telegram-china-women-sex-exploitation.html",
+        "source": "Asia"
+      },
+      {
         "headline": "Indonesia Lifts Ban on Grok After New Assurances From X Corp",
         "url": "https://www.nytimes.com/2026/02/01/world/asia/indonesia-lift-grok-ban.html",
         "source": "Asia"
@@ -183,16 +173,6 @@
       {
         "headline": "Years After Coup, Myanmar’s Government in Exile Teeters on Irrelevance",
         "url": "https://www.nytimes.com/2026/02/01/world/asia/myanmar-coup-anniversary-government.html",
-        "source": "Asia"
-      },
-      {
-        "headline": "T. Kumar, Rights Activist Who Was Shaped by Time in Prison, Dies at 76",
-        "url": "https://www.nytimes.com/2026/01/31/world/asia/t-kumar-dead.html",
-        "source": "Asia"
-      },
-      {
-        "headline": "Americans Are Learning Korean Because of ‘KPop Demon Hunters’",
-        "url": "https://www.nytimes.com/2026/01/31/us/kpop-demon-hunters-korean-lessons.html",
         "source": "Asia"
       },
       {
@@ -286,16 +266,23 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-02-02T03:11:33.142Z"
+    "timestamp": "2026-02-02T05:40:06.757Z"
   },
   "secondary": {
-    "timestamp": "2026-02-02T03:11:33.142Z",
+    "timestamp": "2026-02-02T05:40:06.757Z",
     "reuters": [
       {
-        "title": "Hyundai Motor did not exercise option to buy back Russian auto factory - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMzhEM1BJZWg4eGVtUmkyd3ZvUTMtRHpoWm0wZGRVb0UwdzAzdlRjMmw0S3EtcS10eFZSN05XS1Z6RE5EdkFBNXBkbmRLWGhPZUhOX0EwNG9KeGE2RC1ROGFKVnRQYXNIRHQ4S0s2UjRtXzVmNmNTZXJDcjk4Qi1sdlQ2WmVCYXRRTG4tUWVWVlp6SjRneklsQWtpdzE1cW43MnlqQzhCVFVqWXUtNkpEWFQxQ0NWZHBKd3gxUTJGcXBzZ0JOYXV4TFVIbHF4Zw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOMzhEM1BJZWg4eGVtUmkyd3ZvUTMtRHpoWm0wZGRVb0UwdzAzdlRjMmw0S3EtcS10eFZSN05XS1Z6RE5EdkFBNXBkbmRLWGhPZUhOX0EwNG9KeGE2RC1ROGFKVnRQYXNIRHQ4S0s",
-        "pubDate": "Mon, 02 Feb 2026 00:33:31 GMT",
+        "title": "Argentina buys $808 million in drawing rights from US to pay IMF, media reports - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMDVQSTdmZV9rVy1QNkNwdHFLSG9BdS1LNDdvUFBTX0hjTnFOSDd6c0l3OWNiTmFfM3VGWVAxQmxBdmtWd0JpRnlzRERERXZIOXpnNFJTUkZiOWRlTDFmZGNsc0xuSlBpUkpZQ1Zaa1ZwRERhS19zR1ZuNHIzSnI4U0xTVHNGZ3pSVXFEMXFqV1FuMVYzaTJpY3pPZ1ZfLXZSTEJ5dVVTcWNqZTdGcjVnelhNWXVyTzJsaXNXbXl6WkRnajg?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMDVQSTdmZV9rVy1QNkNwdHFLSG9BdS1LNDdvUFBTX0hjTnFOSDd6c0l3OWNiTmFfM3VGWVAxQmxBdmtWd0JpRnlzRERERXZIOXpnNFJTUkZiOWRlTDFmZGNsc0xuSlBpUkpZQ1Z",
+        "pubDate": "Mon, 02 Feb 2026 02:17:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Aviation leaders tackle industrial and geopolitical headwinds - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeDNzRVUyQWJyNXFyN3FVbUNxaVl0WlF3Yy1IYmpnS0xsZWpFb0dSYWZiX3A1MFhNTFg0SFV3cmo0NjdGZUtGanRZa3Zwa1Vwa0lzYVlqNlJHTGJrdXZtTGRhenJiS21mX1g1M2NVR1g3VUxEQlRCWi1EMl92c1gwSllyZjNfN1NlZWJPUHJGaHkxVmtfaHNBY3VoN1lGNFFJUE5tRlBVYkxNNVY1SWlQMktLSzlDU0phQzZSMQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQeDNzRVUyQWJyNXFyN3FVbUNxaVl0WlF3Yy1IYmpnS0xsZWpFb0dSYWZiX3A1MFhNTFg0SFV3cmo0NjdGZUtGanRZa3Zwa1Vwa0lzYVlqNlJHTGJrdXZtTGRhenJiS21mX1g1M2N",
+        "pubDate": "Mon, 02 Feb 2026 03:24:05 GMT",
         "source": "Reuters"
       },
       {
@@ -306,54 +293,75 @@
         "source": "Reuters"
       },
       {
-        "title": "BMG Resources Seeks Trading Halt - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVJ5UGlaUDZqRVBKUUswbW0yajF1aGRfRWN0OEdieG5oNS02NVhUM1lucE10c2ZyakZhX1I3SVlMUHNoUU5YUHc4dzVBamFVSTFZUnpHN0YxU3pNVXJNV3JYdTJtZTdlcXprM0JBejN3S211TTkzdFc0dXJuVWRmQnI0V1JjODFfOUwzd0YxSHJ4YnNnWHQ2R2YtaEhVemgzV2hXTA?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVJ5UGlaUDZqRVBKUUswbW0yajF1aGRfRWN0OEdieG5oNS02NVhUM1lucE10c2ZyakZhX1I3SVlMUHNoUU5YUHc4dzVBamFVSTFZUnpHN0YxU3pNVXJNV3JYdTJtZTdlcXprM0J",
-        "pubDate": "Sun, 01 Feb 2026 22:25:47 GMT",
+        "title": "UK business sentiment rebounds in January, IoD says - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFRsQmJxU2xlaFpEZGVybFQ5MHhEeWJ6QlhsNXEtU1dtQTlsR3ZXRHZ4ay1kOE5UVGJaWVJGUXVPSFJpMGVRWXEtamxDOG52RWNzcU1FNmVRQTU1dUpObGVzMmNpOHJIS2xuc2k3aHhRQlBlQll1LWZmNnhoQ2RCSUl0YzVYZjA0X2FlNHNxZ1h6Q3BRaHRR?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFRsQmJxU2xlaFpEZGVybFQ5MHhEeWJ6QlhsNXEtU1dtQTlsR3ZXRHZ4ay1kOE5UVGJaWVJGUXVPSFJpMGVRWXEtamxDOG52RWNzcU1FNmVRQTU1dUpObGVzMmNpOHJIS2xuc2k",
+        "pubDate": "Mon, 02 Feb 2026 00:05:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Oil prices fall by 3% on US-Iran de-escalation - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnRVTE1mUDlrVWtLWmUxY19aWFlYeFVDQV9FaG8weWdVRzhOMUhaTHJUektCblJENXpFNEhY?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnR",
-        "pubDate": "Sun, 01 Feb 2026 23:20:33 GMT",
+        "title": "BOJ debated risk of being 'behind the curve' on inflation, January summary shows - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMDdKc3E2aTdNOWtpSU9ZV2NndndhNm9MZXUzUDhkREdLSGo5N3dfZ2hoSV9TMmp3LVZMdWdZOFVpeDJib1pvaEJMVFdueDFzaUhrdHQxcDhQZFo2U2dkS3dhdzgzcUhsSFVxZUxXX244eldTdHNvZ3BWWHoyVHZ0SXlvYTBBZ0lPS1drMElNLVVLSDNuZXlzVmtnMU9VaURMeWNhRG9SSENJOUNEbm9WXy1kdWU4RG0wdURVeTVSSk5CRVZLWWhQeg?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMDdKc3E2aTdNOWtpSU9ZV2NndndhNm9MZXUzUDhkREdLSGo5N3dfZ2hoSV9TMmp3LVZMdWdZOFVpeDJib1pvaEJMVFdueDFzaUhrdHQxcDhQZFo2U2dkS3dhdzgzcUhsSFVxZUx",
+        "pubDate": "Mon, 02 Feb 2026 00:15:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Oracle plans to raise $45 billion to $50 billion in 2026 - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMTVmVjhaWDdFRFhZc3BHa0JQZHh1SFo1X1dRd2JxZzh1QWxOeXh2c19xbkJMbHZtdWNfRmRwallmSVBKdUZrdXloMkhHSFF4cUNPeUZGV25aTEJDbzNIaHNjQ1YxcUVNQzlqMVc0TlVSZUItbWJlUXJFb2NndTl1b1pjX2hJWFQ1UGYtNEliLThPSkpU?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQMTVmVjhaWDdFRFhZc3BHa0JQZHh1SFo1X1dRd2JxZzh1QWxOeXh2c19xbkJMbHZtdWNfRmRwallmSVBKdUZrdXloMkhHSFF4cUNPeUZGV25aTEJDbzNIaHNjQ1YxcUVNQzlqMVc",
-        "pubDate": "Sun, 01 Feb 2026 23:40:01 GMT",
+        "title": "Japan's factory activity growth hits near 3-1/2-year peak, PMI shows - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYkhCNEFNRzVBZHpwN1ZQSGRpcE1hY0dMaGpKUE13eHRodnBnTHJMeEtfV1d4Q1I0YTE2U1NuMUE4eE45MlZFYUlidlI1aVRHaHdybTh5WC02T1JUSUpOek5RU0NtcGZnV1gxd0I1ZUNxalFNVmVuTU93RWRvSHktUk9SLUJKTUJYZU1hdUJTM180ZlN5YjJ3cHJONHAybXpHLWJrb1dfUERXc3FXS0d0ckhxeXlGNkhsYmJpQ3E2cV90SlNjR1AyS1pEaw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNYkhCNEFNRzVBZHpwN1ZQSGRpcE1hY0dMaGpKUE13eHRodnBnTHJMeEtfV1d4Q1I0YTE2U1NuMUE4eE45MlZFYUlidlI1aVRHaHdybTh5WC02T1JUSUpOek5RU0NtcGZnV1gxd0I",
+        "pubDate": "Mon, 02 Feb 2026 00:37:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Shares jittery in Asia as metals gyrate, earnings loom - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQckVYdU9NWFN5RUJYOG54clIwdHQ2OEYxb0JHalNGVm5ZVlpOSER5eFpxTkJ4ME0yNk1vT2gwdVNpOGpqU3FPT0dlTlgycDZ1QkU4U0JNU3NJaTVxcjNnUEV6Zng0VGFVV0puZ1ZwR1c2TDVMUXEzeVkwdVgwaDhLWFFZSQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQckVYdU9NWFN5RUJYOG54clIwdHQ2OEYxb0JHalNGVm5ZVlpOSER5eFpxTkJ4ME0yNk1vT2gwdVNpOGpqU3FPT0dlTlgycDZ1QkU4U0JNU3NJaTVxcjNnUEV6Zng0VGFVV0puZ1Z",
-        "pubDate": "Mon, 02 Feb 2026 00:39:00 GMT",
+        "title": "Hyundai Motor did not exercise option to buy back Russian auto factory - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMzhEM1BJZWg4eGVtUmkyd3ZvUTMtRHpoWm0wZGRVb0UwdzAzdlRjMmw0S3EtcS10eFZSN05XS1Z6RE5EdkFBNXBkbmRLWGhPZUhOX0EwNG9KeGE2RC1ROGFKVnRQYXNIRHQ4S0s2UjRtXzVmNmNTZXJDcjk4Qi1sdlQ2WmVCYXRRTG4tUWVWVlp6SjRneklsQWtpdzE1cW43MnlqQzhCVFVqWXUtNkpEWFQxQ0NWZHBKd3gxUTJGcXBzZ0JOYXV4TFVIbHF4Zw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOMzhEM1BJZWg4eGVtUmkyd3ZvUTMtRHpoWm0wZGRVb0UwdzAzdlRjMmw0S3EtcS10eFZSN05XS1Z6RE5EdkFBNXBkbmRLWGhPZUhOX0EwNG9KeGE2RC1ROGFKVnRQYXNIRHQ4S0s",
+        "pubDate": "Mon, 02 Feb 2026 00:33:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Trump plans to close Kennedy Center for two years for reconstruction work - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSF94UXIzV3pWVGZ0T3laSnNKMHdTbGZuZ201QlBPQllwdUZRVlJtQWhjTUZ5Qk0wTmdKSzhFVXlTZHFKX1Y2QWZ1TTVuX0g2dEotNkYtdTEyWFItMTRKYUJuX1RyTFFNMDI0bl9fRGJYZVo2NTM2bjFHcHVrQ0doSF9tTnFiLXhXWnNBQi1MQkxHMzhrczdHekwzS1hJbm5jNTFCdkpRRGIyMmVhOWVmRQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPSF94UXIzV3pWVGZ0T3laSnNKMHdTbGZuZ201QlBPQllwdUZRVlJtQWhjTUZ5Qk0wTmdKSzhFVXlTZHFKX1Y2QWZ1TTVuX0g2dEotNkYtdTEyWFItMTRKYUJuX1RyTFFNMDI0bl9",
-        "pubDate": "Sun, 01 Feb 2026 23:47:34 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Five-year-old boy detained by ICE has returned to Minnesota, lawmaker says - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ2g5NVhaZ0g1UVRfMmZlR0pXNlF3TlNId1dZTzRzaS12WmhLNWx1RnB0WUVrWFFta3lDZWd1eVhXQkFkX1lvT2Z0dTVrc1FtUVk3SzYxTWwzTC1yZURjY1hUR0FQdHZoTHdiNmdxVm4tZ0hiSUxOS2FZNUpLX2t5LVlsSTNSR2ZGaV9LYVRFVnBfWk95Qk1IY0U2NEZXUEpKc0VhQmRielZoUjhwUzdyTUh5LXhvZw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ2g5NVhaZ0g1UVRfMmZlR0pXNlF3TlNId1dZTzRzaS12WmhLNWx1RnB0WUVrWFFta3lDZWd1eVhXQkFkX1lvT2Z0dTVrc1FtUVk3SzYxTWwzTC1yZURjY1hUR0FQdHZoTHdiNmd",
-        "pubDate": "Sun, 01 Feb 2026 19:57:43 GMT",
+        "title": "Japan PM Takaichi's party poised for landslide victory, poll shows - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnRXZi15ZWRydHR4QldTX010SHFwX3RsbHZna3BfbXdtS2lvREY3TFk4cnF3dEowRFJxWDNDa0hEZ3A1RXlLVjBXUzF4ZkNGb1JKazRZME1oU0pYV2hDNGIwOG5LS2ZhMDB4ejZaQ1lkSVRtMFMxLWJMRzV4bFVKV1RfMV8tLV9idDRYbEw4NTBHYWVTcFlRQ0ZldFpvTTR4LUJqbk5MQ3Q2V0VUYWZfUHFhWkc0VzBHOWp2b2R3?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnRXZi15ZWRydHR4QldTX010SHFwX3RsbHZna3BfbXdtS2lvREY3TFk4cnF3dEowRFJxWDNDa0hEZ3A1RXlLVjBXUzF4ZkNGb1JKazRZME1oU0pYV2hDNGIwOG5LS2ZhMDB4ejZ",
+        "pubDate": "Sun, 01 Feb 2026 23:02:00 GMT",
         "source": "Reuters"
       }
     ],
     "ap": [
       {
+        "title": "Speaker Johnson faces tough choices as partial government shutdown drags and debate over ICE deepens - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWmlmVksxa2RfMmFxQ1VOUzd0RmpmdmZ3cWt3Umt5ZFYtZHZWOHpNNzBxZmJ3WE1YUnpMMjdfQUtMVHB5NlJPRll0b2owNl84bl9lQkdsUzExS3FmRGI0RGNMc0RtMXFWWmJVZy01TTNPQWZNUDJkY0lpQU9oNUdNUm1rdE5OVXBzZHMweHJjUEd0OUk3UnNJaW1GTWtsYjJCZ180b3k0SWlodzM4MGN3VldTdw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQWmlmVksxa2RfMmFxQ1VOUzd0RmpmdmZ3cWt3Umt5ZFYtZHZWOHpNNzBxZmJ3WE1YUnpMMjdfQUtMVHB5NlJPRll0b2owNl84bl9lQkdsUzExS3FmRGI0RGNMc0RtMXFWWmJVZy0",
+        "pubDate": "Mon, 02 Feb 2026 05:01:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "5-year-old Liam Conejo Ramos and father return to Minnesota from ICE facility in Texas - AP News",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMnpId0tOeDQ0d1JlZUlYTTk1WDZaNGxQTTJQSTRLMFZrdzFVUldHbjlpWkFaZHJiQWUwdHZWb3JxWExuSDVQUHpDVnljNWcyUzlkcERFbmgzR2RDU0hhejh6Q0ZEb3RLRWMzanhRT09MWEdSSTFoUTlEOW4zdmxzNDNnNlItc3A1NU9JMzU2cmhFRlEtNEE?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPMnpId0tOeDQ0d1JlZUlYTTk1WDZaNGxQTTJQSTRLMFZrdzFVUldHbjlpWkFaZHJiQWUwdHZWb3JxWExuSDVQUHpDVnljNWcyUzlkcERFbmgzR2RDU0hhejh6Q0ZEb3RLRWMzanh",
+        "pubDate": "Mon, 02 Feb 2026 03:26:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "From Elon Musk to the former Prince Andrew, a who’s who of powerful people named in Epstein files - AP News",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzdjcFFlbFktOHFvUFNRWEk0TlkwYzFOeExObmNlbHNDLWZHa0pBaEdyZVVDX1VxT0hQRTlaOF9oMHpZaDItU3ZKUHhVQnhxajJSYTVFN1FUbkd2d3FmMnU2ZlFsYmdqN3pYbVBUOUFFc0d3aFRGUHNpemhBVTFhZWY4QnZyaHgzQVZKbHlEMFBaVGx4OThEWEdWT25jaWc?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzdjcFFlbFktOHFvUFNRWEk0TlkwYzFOeExObmNlbHNDLWZHa0pBaEdyZVVDX1VxT0hQRTlaOF9oMHpZaDItU3ZKUHhVQnhxajJSYTVFN1FUbkd2d3FmMnU2ZlFsYmdqN3pYbVB",
+        "pubDate": "Mon, 02 Feb 2026 03:12:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "A mix of hope and fear settles over Venezuela after US-imposed government change - AP News",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXNsU3FuanF4UjB5bl9ZWWVEQ1FCVk01TmlRd0hQTzhhcUx5U2paUlVFaWZSdmZTbkJXT3VmbnFTY2RSSWhEY0JlVTlkWk9OVkxmdGY4OGxoYlJ1NU8tU1RzQ1lTc09STlJyalBLWXgyU3hoMFNacENKV0tsN21ZNjBYVGFOdU9PLWpkbi1PTkNMU0E3TkhsR3JKQkZmUWVNa2V6VWRPZWlLRlk2SkE?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXNsU3FuanF4UjB5bl9ZWWVEQ1FCVk01TmlRd0hQTzhhcUx5U2paUlVFaWZSdmZTbkJXT3VmbnFTY2RSSWhEY0JlVTlkWk9OVkxmdGY4OGxoYlJ1NU8tU1RzQ1lTc09STlJyalB",
+        "pubDate": "Mon, 02 Feb 2026 05:08:00 GMT",
+        "source": "AP"
+      },
+      {
         "title": "Kennedy Center to close for 2 years for renovations in July, Trump says, after performers' backlash - AP News",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTzBrVDlDXy1lVjBUWHB1WnM5cmY5UExVRnIwajl0RTQ5Y21WSnNpdE9fWEttV3gyRDZ6S0ozZTJJc0x0R0RkMlZiTVQ0LUlKS3lHNzk3QjdGNExreGdmY2ppd1hRUG5NczlFRzREaVNnQk1mVTVRVGsxQmJKNTJIb3gzXzBydDJ1WDhHS29GTElyZVJjd0NfX2wxWk92SmRRdUE?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOTzBrVDlDXy1lVjBUWHB1WnM5cmY5UExVRnIwajl0RTQ5Y21WSnNpdE9fWEttV3gyRDZ6S0ozZTJJc0x0R0RkMlZiTVQ0LUlKS3lHNzk3QjdGNExreGdmY2ppd1hRUG5NczlFRzR",
-        "pubDate": "Mon, 02 Feb 2026 00:04:00 GMT",
+        "pubDate": "Mon, 02 Feb 2026 02:37:00 GMT",
         "source": "AP"
       },
       {
@@ -364,45 +372,17 @@
         "source": "AP"
       },
       {
-        "title": "From Elon Musk to the former Prince Andrew, a who’s who of powerful men are named in Epstein files - AP News",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzdjcFFlbFktOHFvUFNRWEk0TlkwYzFOeExObmNlbHNDLWZHa0pBaEdyZVVDX1VxT0hQRTlaOF9oMHpZaDItU3ZKUHhVQnhxajJSYTVFN1FUbkd2d3FmMnU2ZlFsYmdqN3pYbVBUOUFFc0d3aFRGUHNpemhBVTFhZWY4QnZyaHgzQVZKbHlEMFBaVGx4OThEWEdWT25jaWc?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzdjcFFlbFktOHFvUFNRWEk0TlkwYzFOeExObmNlbHNDLWZHa0pBaEdyZVVDX1VxT0hQRTlaOF9oMHpZaDItU3ZKUHhVQnhxajJSYTVFN1FUbkd2d3FmMnU2ZlFsYmdqN3pYbVB",
-        "pubDate": "Mon, 02 Feb 2026 00:30:00 GMT",
+        "title": "Lightning’s historic four-goal comeback stuns Bruins in NHL Stadium Series - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdWNUOWVVRUJzeTlXOV84bWhNSGRUNGdsUHN6a1FBQVREbmhyMHh6X2hpTk1ob01ZODY5TGtjajc4YmE0cXVQTllLT0NrczFVaXFFVmpla2I1Y2UyTzJGUXhXNWhIeVh3OEliODVCWWRZeXF3dWJRdmFudXVXTldfN082TjRwSnB4S2c?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQdWNUOWVVRUJzeTlXOV84bWhNSGRUNGdsUHN6a1FBQVREbmhyMHh6X2hpTk1ob01ZODY5TGtjajc4YmE0cXVQTllLT0NrczFVaXFFVmpla2I1Y2UyTzJGUXhXNWhIeVh3OEliODV",
+        "pubDate": "Mon, 02 Feb 2026 03:42:00 GMT",
         "source": "AP"
       },
       {
-        "title": "5-year-old Liam Conejo Ramos and father return to Minnesota from ICE facility in Texas - AP News",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMnpId0tOeDQ0d1JlZUlYTTk1WDZaNGxQTTJQSTRLMFZrdzFVUldHbjlpWkFaZHJiQWUwdHZWb3JxWExuSDVQUHpDVnljNWcyUzlkcERFbmgzR2RDU0hhejh6Q0ZEb3RLRWMzanhRT09MWEdSSTFoUTlEOW4zdmxzNDNnNlItc3A1NU9JMzU2cmhFRlEtNEE?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPMnpId0tOeDQ0d1JlZUlYTTk1WDZaNGxQTTJQSTRLMFZrdzFVUldHbjlpWkFaZHJiQWUwdHZWb3JxWExuSDVQUHpDVnljNWcyUzlkcERFbmgzR2RDU0hhejh6Q0ZEb3RLRWMzanh",
-        "pubDate": "Sun, 01 Feb 2026 22:53:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Fundraising hauls show RNC vastly outpacing Democrats ahead of midterm elections - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOW9uSjZ6Y29neThLNF8tS3htYXpoTW5aQnVZM3JPY3MtZUgzMWdaY25GWnl5aHgtUGYxTFBwQmN3QjlQbzJwQTJXa3NqYzVNMVUtajZocXdwV0xBWDc1TVhyc3RGS2phRGdEMTdTejBYaUtXNDJXWnl6Y0o3R1dxNzhWbGxiWmJ2cEdSUXBmeWhoZW5yRURwamkyLUowN1RJWmFBbXJ4UXN2QQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOW9uSjZ6Y29neThLNF8tS3htYXpoTW5aQnVZM3JPY3MtZUgzMWdaY25GWnl5aHgtUGYxTFBwQmN3QjlQbzJwQTJXa3NqYzVNMVUtajZocXdwV0xBWDc1TVhyc3RGS2phRGdEMTd",
-        "pubDate": "Mon, 02 Feb 2026 01:22:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "More frigid temperatures expected in much of US after a weekend of heavy snow - AP News",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcF9sVUd4SERZamRabmw2c3BKNVFmS3RELUJpZHdFeHl5VzZtdGhLenNDOS02bFVDYUZFRS1fZFdZeHExaV91Q3hGT003bEhEWDJvWnVZRk1QNGMyWi1mWmt2Qkl3MkozU3VPVXFCTzA2UWJTRHRqbzdHZ3FEaWNpdTFSSmVCcnlERjBsYlBhYjlZZw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQcF9sVUd4SERZamRabmw2c3BKNVFmS3RELUJpZHdFeHl5VzZtdGhLenNDOS02bFVDYUZFRS1fZFdZeHExaV91Q3hGT003bEhEWDJvWnVZRk1QNGMyWi1mWmt2Qkl3MkozU3VPVXF",
-        "pubDate": "Mon, 02 Feb 2026 02:44:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Knicks beat Lakers 112-100 to spoil LeBron James' 32nd regular-season game at Madison Square Garden - AP News",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUo2dlh1dHZ1enlDZjdZbjVJY3pEOXBfMjRvd1lNdnJPNG1KZTZPSDBlQnZtMng2ZUhIcjcyazZZcTlMZ2JrWGpwbV9sZUtqX2cxMGhwZ3R3c2FVNjlFRUdtbUowcHpTdzdtY1lMbktSUmhaUDNLZzh3QVh3dUY2cXdHcGMzZw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUo2dlh1dHZ1enlDZjdZbjVJY3pEOXBfMjRvd1lNdnJPNG1KZTZPSDBlQnZtMng2ZUhIcjcyazZZcTlMZ2JrWGpwbV9sZUtqX2cxMGhwZ3R3c2FVNjlFRUdtbUowcHpTdzdtY1l",
-        "pubDate": "Mon, 02 Feb 2026 02:36:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Keaton Wagler scores 28, leads No. 9 Illinois to 11th straight win, 78-69 over No. 5 Nebraska - AP News",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa2phWnRYLVBhdFIyZTZOdE5YWDE0cGRaNlViUDBSVVJaY0pwTmhjTVRfb0R2SU8tNDQ3bEFmUnpvSFFSZzZZSGoyTkpDNng2aHdxU0Vja21aREV1bnQ5YjJVbWprSUp1UWstODBTVXFpUW43RXNadE02STRBWWpPX3FQMmtDcml6SkEweDNFVFBnSXJlVGV2MkVR?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPa2phWnRYLVBhdFIyZTZOdE5YWDE0cGRaNlViUDBSVVJaY0pwTmhjTVRfb0R2SU8tNDQ3bEFmUnpvSFFSZzZZSGoyTkpDNng2aHdxU0Vja21aREV1bnQ5YjJVbWprSUp1UWstODB",
-        "pubDate": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title": "Wembanyama fuels early surge in late start as Spurs overcome travel woes to beat Magic - AP News",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3VSQVkxQjlSazMyVGg1NGxvaXVUMWk1SmJkS19BeUpfR2NQUFBaTzBXdnNTei1uM1FzVlFlemVfaGtSbzJyMjhSLTdsV2FhR2RlLVVfOWhuLW81SWVjTmRTNzVDWS1Ya0dPZ3lpRUUtcVp0LVVlNlVlMUhTdVppUHhCQQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3VSQVkxQjlSazMyVGg1NGxvaXVUMWk1SmJkS19BeUpfR2NQUFBaTzBXdnNTei1uM1FzVlFlemVfaGtSbzJyMjhSLTdsV2FhR2RlLVVfOWhuLW81SWVjTmRTNzVDWS1Ya0dPZ3l",
+        "pubDate": "Mon, 02 Feb 2026 04:45:00 GMT",
         "source": "AP"
       }
     ],
@@ -429,14 +409,14 @@
         "source": "BBC World"
       },
       {
-        "title": "Bad Bunny declares 'ICE out' as he wins Grammy",
+        "title": "Bad Bunny makes Grammy history as he wins best album",
         "link": "https://www.bbc.com/news/articles/ce8g7q4ymrvo?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The Puerto Rican star gets political, as he's tipped to win the main prize, album of the year.",
-        "pubDate": "Mon, 02 Feb 2026 01:38:29 GMT",
+        "description": "Other prizes went to Billie Eilish, Olivia Dean and Lady Gaga, at a ceremony dominated by politics.",
+        "pubDate": "Mon, 02 Feb 2026 05:28:41 GMT",
         "source": "BBC World"
       },
       {
-        "title": "KPop Demon Hunters make history with early Grammy award",
+        "title": "Golden becomes the first K-Pop song to win a Grammy",
         "link": "https://www.bbc.com/news/articles/c931vdngdd2o?at_medium=RSS&amp;at_campaign=rss",
         "description": "The Cure, Yungblud and FKA Twigs are the first British winners on the night in Los Angeles.",
         "pubDate": "Sun, 01 Feb 2026 21:38:14 GMT",
@@ -457,10 +437,10 @@
         "source": "BBC World"
       },
       {
-        "title": "Iranian protester Erfan Soltani released on bail, reports say",
-        "link": "https://www.bbc.com/news/articles/ceqz8r2j24do?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Reports in January had said he was due to be executed after his arrest in connection with anti-government protests.",
-        "pubDate": "Sun, 01 Feb 2026 19:00:01 GMT",
+        "title": "China executes four more Myanmar mafia members",
+        "link": "https://www.bbc.com/news/articles/cg4e9eqz4rxo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "China has executed four members of the Bai family mafia, which ran scam centres in Myanmar, state media report.",
+        "pubDate": "Mon, 02 Feb 2026 04:00:51 GMT",
         "source": "BBC World"
       }
     ],
@@ -580,119 +560,126 @@
     ],
     "bloomberg": [
       {
-        "title": "Cebu Pacific: Supply-Chain Issues to End From 2028",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-02/cebu-pacific-supply-chain-issues-to-end-from-2028-video",
-        "description": "Mike Szucs, CEO at Cebu Pacific, discusses the carrier's business strategy and how supply-chain and engine-availability issues are easing. He speaks with Avril Hong from the sidelines of the Changi Av",
-        "pubDate": "Mon, 02 Feb 2026 03:00:12 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Stocks Fall With Futures as Gold, Silver Whipsaw: Markets Wrap",
+        "title": "Gold, Silver Slump With Stocks in Volatile Trading: Markets Wrap",
         "link": "https://www.bloomberg.com/news/articles/2026-02-01/dollar-firms-stocks-look-weaker-as-sentiment-ebbs-markets-wrap",
-        "description": "Stocks declined, with technology stocks leading, and precious metals had a volatile start to the week as sentiment weakened amid uncertainty over the outlook for interest rates.",
+        "description": "Gold and silver extended their slump with stocks, as assets that had performed the best in January came under intense selling pressure following Friday’s dramatic market reversal.",
         "pubDate": "Sun, 01 Feb 2026 22:40:41 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Indonesian Stocks Resume Selloff on Weaker Commodity Prices",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-02/indonesia-regulator-reshuffle-reforms-seen-positive-for-market",
-        "description": "Indonesian stocks resumed their selloff Monday, weighed by weaker commodity prices, complicating efforts by regulators to shore up confidence in Southeast Asia’s biggest equities market.",
-        "pubDate": "Mon, 02 Feb 2026 01:31:09 GMT",
+        "title": "Korea’s World-Beating Stock Rally Stumbles as Risk-Off Wave Hits",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/korean-stocks-slide-on-uncertainties-over-rates-ai-spending",
+        "description": "For much of the past year, South Korean stocks stood out as an anomaly, continuing to rise even on days when the global AI boom took a break in other markets. Monday’s rout is now testing investor con",
+        "pubDate": "Mon, 02 Feb 2026 03:23:30 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Shock Hike in Transaction Tax, Gold &amp; Silver Selloff Deepen India Stock Gloom",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-02-02/hike-in-stt-on-f-o-trades-sinks-nifty-bse-groww-angel-shares-tumble",
-        "description": "Nifty 50 posts its worst budget-day performance in six years.",
-        "pubDate": "Mon, 02 Feb 2026 02:46:28 GMT",
+        "title": "Why the Price of Gold Reflects a Long-Term Shift",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/podcast-why-the-price-of-gold-reflects-a-long-term-shift",
+        "description": "World Gold Council strategist John Reade explains the perfect storm that’s&nbsp;turning gold into a preferred safe haven.",
+        "pubDate": "Mon, 02 Feb 2026 05:00:25 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Mexico to Continue Diplomatic Talks to Keep Sending Oil to Cuba",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-02/mexico-to-continue-diplomatic-talks-to-keep-sending-oil-to-cuba",
-        "description": "Mexican President Claudia Sheinbaum said her country will continue to pursue diplomatic channels to keep sending oil to Cuba on humanitarian grounds “without seeking confrontation,” after US President",
-        "pubDate": "Mon, 02 Feb 2026 02:31:31 GMT",
+        "title": "How to Calculate the True Value of Gold | Merryn Talks Money",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-02/gold-prices-hit-record-highs-a-portfolio-wake-up-call-merryn-talks-money",
+        "description": "Investors have flocked to gold in the past year, prompting the precious metal to notch a series of price records and eclipse its inflation-adjusted peak from 1980. Friday’s Fed-announcement drama notw",
+        "pubDate": "Mon, 02 Feb 2026 05:00:07 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Precious Metals Are Long-Term Play, Buffalo Bayou's Monkam Says",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-02/trade-gold-silver-around-the-technicals-monkam-says-video",
-        "description": "Frank Monkam of Buffalo Bayou Commodities discusses the outlook for gold and silver. He speaks on Bloomberg Television. (Source: Bloomberg)",
-        "pubDate": "Mon, 02 Feb 2026 02:24:29 GMT",
+        "title": "Markets Fallout Worsens as Gold, Silver Extend Rout",
+        "link": "https://www.bloomberg.com/news/live-blog/2026-02-02/markets-fallout",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 04:53:58 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Copper Slump Deepens as Chinese Traders Step Back for Now",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-02/copper-extends-slump-as-traders-eye-volatility-across-metals",
-        "description": "Copper fell further, after steep losses on Friday, as traders mulled what’s next after a tumultuous few days for metals markets fueled by waves of buying and selling in China.",
-        "pubDate": "Mon, 02 Feb 2026 01:21:03 GMT",
+        "title": "Synspective CEO on Business Outlook",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-02/synspective-ceo-on-business-outlook-video",
+        "description": "Motoyuki Arai, Founder and CEO of Tokyo-based space technology firm Synspective, discusses his company's business and growth outlook, and addresses the global demand for satellite technology. He speak",
+        "pubDate": "Mon, 02 Feb 2026 04:49:30 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Japan Steps Up Deep-Sea Mining Plan to Cut Rare-Earth Dependence",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-02/japan-steps-up-deep-sea-mining-push-to-cut-rare-earth-dependence",
-        "description": "Japan is accelerating a decade-old plan to extract rare earths from the deep seabed, an ambitious initiative given extra impetus by the country’s drive to cut reliance on Chinese supply.",
-        "pubDate": "Mon, 02 Feb 2026 02:11:50 GMT",
+        "title": "Asset Management One Sees Gains in Yen to 150 on April Rate Hike",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/asset-management-one-sees-gains-in-yen-to-150-on-april-rate-hike",
+        "description": "Mizuho Financial Group Inc.’s asset management unit expects the yen to strengthen beyond 150 per dollar after an April rate hike by the Bank of Japan, said Shigeki Muramatsu, the firm’s chief investme",
+        "pubDate": "Mon, 02 Feb 2026 04:41:57 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Impeachment Complaint Filed Against Philippines VP Sara Duterte",
+        "title": "India’s Record Borrowing Plan Drives Yields to One-Year High",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/traders-brace-for-bond-losses-on-india-s-record-borrowing-plan",
+        "description": "India’s benchmark bond yields climbed to the highest in more than a year after the government unveiled a record debt-sale plan that exceeded analysts’ expectations.",
+        "pubDate": "Mon, 02 Feb 2026 00:42:15 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Millennial Anti-Gang Hardliner Elected Costa Rican President",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/millennial-anti-gang-hardliner-elected-president-of-costa-rica",
+        "description": "Costa Ricans elected ruling party candidate Laura Fernández in a first round landslide as her promise of a draconian crackdown on criminals appealed to voters in a nation roiled by soaring drug violen",
+        "pubDate": "Mon, 02 Feb 2026 04:30:55 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Modi Aims at Trump’s Threats With Budget to Shield India",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-01/modi-takes-aim-at-trump-s-threats-with-budget-to-shield-india",
+        "description": "Prime Minister Narendra Modi’s plan to protect India’s economy from Donald Trump’s tariffs is coming into sharper focus.",
+        "pubDate": "Sun, 01 Feb 2026 21:00:00 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Japan LNG Buyers Skip Qatar Conference on Security Concerns",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/tokyo-gas-to-skip-qatar-lng-conference-on-security-concerns",
+        "description": "Some of Japan’s major liquefied natural gas buyers said they will skip a key conference in Qatar, as tensions between Iran and the US threaten to spill over to the wider region.",
+        "pubDate": "Mon, 02 Feb 2026 03:46:56 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Britain’s Growing Ranks of Jobless Men Are Flocking to Farage",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/britain-s-growing-ranks-of-jobless-men-are-flocking-to-farage",
+        "description": "Nigel Farage’s Reform UK party is appealing to a growing group of voters ahead of a crucial special election this month: men without a job.",
+        "pubDate": "Mon, 02 Feb 2026 05:00:00 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "China Highlights Xi’s Old Speech on Risks, Powerful Currency",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/china-highlights-xi-s-old-speech-on-risks-powerful-currency",
+        "description": "Chinese President Xi Jinping’s pledge to curb financial risks and build a powerful currency with global reserve status, reiterated in a state publication, is boosting expectations of an accelerated pu",
+        "pubDate": "Mon, 02 Feb 2026 03:35:50 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Philippine House Body Says Marcos Impeachment Plea Form Sufficient",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/philippine-house-body-says-marcos-impeach-plea-form-sufficient",
+        "description": "The House of Representatives’ justice committee on Monday voted to declare the first impeachment complaint against Philippine President Ferdinand Marcos Jr. as sufficient in form, according to Chairpe",
+        "pubDate": "Mon, 02 Feb 2026 03:51:21 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Sara Duterte Impeachment Bids Revived as One-Year Reprieve Ends",
         "link": "https://www.bloomberg.com/news/articles/2026-02-02/impeachment-complaint-filed-against-philippines-vp-sara-duterte",
-        "description": "A group of private individuals including former lawmakers filed a fresh impeachment complaint against Philippine Vice President Sara Duterte on Monday, citing her alleged betrayal of public trust over",
+        "description": "Two new impeachment complaints were filed against Philippine Vice President Sara Duterte on Monday, reviving efforts to oust her as a year-long ban on such measures expires.",
         "pubDate": "Mon, 02 Feb 2026 02:04:20 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Warsh’s Return Revives Tensions Over the Fed’s $6.6 Trillion QE Hangover",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-01/warsh-s-return-revives-tensions-over-the-fed-s-6-6-trillion-qe-hangover",
-        "description": "For much of the time that President Donald Trump was mulling his potential choice for the next chair of the Federal Reserve, the debate in markets swirled around whether his pick would lower interest ",
-        "pubDate": "Sun, 01 Feb 2026 21:00:35 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Takaichi’s Solid Poll Support Points to LDP Winning Big Majority",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-02/takaichi-s-solid-poll-support-points-to-ldp-winning-big-majority",
-        "description": "Japanese Prime Minister Sanae Takaichi’s public support remains solid while a new opposition alliance is struggling to resonate with voters, opinion polls over the weekend showed, positioning the ruli",
-        "pubDate": "Mon, 02 Feb 2026 01:22:06 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Ro Khanna Pushes California Billionaires, Union to Compromise on Wealth Tax Plan",
-        "link": "https://www.bloomberg.com/news/articles/2026-01-31/ro-khanna-pushes-compromise-talks-as-california-wealth-tax-rattles-tech-sector",
-        "description": "Tech industry and labor leaders plan to meet in March as Representative Ro Khanna pushes for a compromise deal over a proposed billionaire tax that has rattled Silicon Valley, a person familiar with t",
-        "pubDate": "Sat, 31 Jan 2026 18:09:22 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "UK Ex-Ambassador Mandelson Quits Labour Party in Epstein Fallout",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-02/uk-ex-ambassador-mandelson-quits-labour-party-in-epstein-fallout",
-        "description": "Peter Mandelson, Britain’s former ambassador to the US, resigned from the UK’s ruling Labour Party to avoid causing it “further embarrassment” after the latest revelations about his links to the disgr",
-        "pubDate": "Mon, 02 Feb 2026 00:14:49 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Vote Count Starts in Costa Rican Election Dominated by Crime",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-01/costa-rica-votes-for-president-as-gang-wars-shatter-serene-image",
-        "description": "Ballots are being counted in Costa Rica in an election dominated by soaring drug violence that has shocked a country historically known as a peaceful tourist haven in a turbulent region.",
-        "pubDate": "Sun, 01 Feb 2026 12:00:00 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Trump Says He’ll Close Kennedy Center for Two Years in July",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-01/trump-says-he-ll-close-kennedy-center-for-two-years-in-july",
-        "description": "President Donald Trump said he plans to close the John F. Kennedy Center for the Performing Arts for about two years to carry out renovations after his takeover prompted a significant backlash.",
-        "pubDate": "Sun, 01 Feb 2026 23:33:59 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Argentina Bought $808 Million from US to Pay IMF, La Nacion Says",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-01/argentina-bought-808-million-from-us-to-pay-imf-la-nacion-says",
-        "description": "Argentina bought $808 million in special drawing rights from the US Treasury to confront its latest interest payments at the International Monetary Fund without tapping a swap line shared between both",
-        "pubDate": "Sun, 01 Feb 2026 22:02:24 GMT",
+        "title": "Taiwan’s Opposition Seeks to Slash Arms Budget Demanded by Trump",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-02/taiwan-s-opposition-seeks-to-slash-arms-budget-demanded-by-trump",
+        "description": "Taiwan’s opposition parties have advanced a bill that would slash a special military budget, potentially jeopardizing the purchases of billions of dollars of US weapons aimed at deterring the threat o",
+        "pubDate": "Mon, 02 Feb 2026 03:15:35 GMT",
         "source": "Bloomberg Politics"
       }
     ],
     "guardian": [
+      {
+        "title": "International law meant to limit effects of war at breaking point, study finds",
+        "link": "https://www.theguardian.com/law/2026/feb/02/more-than-100000-civilians-killed-war-crimes-out-of-control-study",
+        "description": "&lt;p&gt;Report covering 23 conflicts over last 18 months concludes more than 100,000 civilians have been killed as war crimes rage out of control&lt;/p&gt;&lt;p&gt;An authoritative survey of 23 armed",
+        "pubDate": "Mon, 02 Feb 2026 05:00:48 GMT",
+        "source": "Guardian World"
+      },
       {
         "title": "More than 200 killed in coltan mine collapse in eastern DRC, officials say",
         "link": "https://www.theguardian.com/world/2026/jan/30/more-than-200-killed-in-coltan-mine-collapse-in-eastern-drc-officials-say",
@@ -722,13 +709,6 @@
         "source": "Guardian World"
       },
       {
-        "title": "Hundreds feared dead in attempt to cross Mediterranean during cyclone",
-        "link": "https://www.theguardian.com/world/2026/jan/26/hundreds-feared-dead-after-attempting-to-cross-mediterranean-amid-cyclone-harry",
-        "description": "&lt;p&gt;Fifty killed in one incident as Italian authorities estimate 380 people may have drowned last week&lt;/p&gt;&lt;p&gt;Up to 380 people may have drowned attempting to cross the Mediterranean la",
-        "pubDate": "Mon, 26 Jan 2026 14:54:36 GMT",
-        "source": "Guardian World"
-      },
-      {
         "title": "Mexico moves to combat pollution following Guardian investigations",
         "link": "https://www.theguardian.com/us-news/2026/feb/01/mexico-moves-to-combat-pollution-following-guardian-investigations",
         "description": "&lt;p&gt;After stories revealed high levels of contamination in neighborhood around factory processing US toxic waste, government announces sweeping array of tactics&lt;/p&gt;&lt;p&gt;The Mexican gove",
@@ -752,6 +732,20 @@
     ],
     "aljazeera": [
       {
+        "title": "Laura Fernandez nears victory in Costa Rica’s presidential election",
+        "link": "https://www.aljazeera.com/news/2026/2/2/laura-fernandez-leads-early-results-in-costa-ricas-presidential-election?traffic_source=rss",
+        "description": "Fernandez&#039;s closest challenger concedes defeat as partial results showed her on verge of winning the presidency.",
+        "pubDate": "Mon, 02 Feb 2026 03:43:36 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Trump to close Kennedy Center for renovations amid backlash from performers",
+        "link": "https://www.aljazeera.com/news/2026/2/2/trump-to-close-kennedy-center-for-renovations-amid-backlash-from-performers?traffic_source=rss",
+        "description": "US president says the arts complex will close for two years for reconstruction starting in July.",
+        "pubDate": "Mon, 02 Feb 2026 03:15:10 +0000",
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Russia-Ukraine war: List of key events, day 1,439",
         "link": "https://www.aljazeera.com/news/2026/2/2/russia-ukraine-war-list-of-key-events-day-1439?traffic_source=rss",
         "description": "These are the key developments from day 1,439 of Russia’s war on Ukraine.",
@@ -773,9 +767,9 @@
         "source": "Al Jazeera"
       },
       {
-        "title": "Israel says Gaza’s Rafah crossing ready to resume operations on Monday",
+        "title": "Israel says Gaza’s Rafah crossing to reopen for limited travel on Monday",
         "link": "https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot?traffic_source=rss",
-        "description": "Israel will reopen the crossing with Egypt in a limited &#039;pilot phase&#039;, allowing only a few Palestinians through.",
+        "description": "Israel to reopen the crossing with Egypt under tight security and international monitoring for medical evacuations.",
         "pubDate": "Sun, 01 Feb 2026 22:47:11 +0000",
         "source": "Al Jazeera"
       },
@@ -791,20 +785,6 @@
         "link": "https://www.aljazeera.com/news/2026/2/1/epstein-email-reveals-plan-to-access-libyas-frozen-state-assets?traffic_source=rss",
         "description": "Email sent to Jeffrey Epstein in 2011 outlines what the sender described as financial and legal opportunities in Libya.",
         "pubDate": "Sun, 01 Feb 2026 21:13:03 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Gaza patients in limbo amid Israel’s ‘pilot reopening’ of Rafah crossing",
-        "link": "https://www.aljazeera.com/features/2026/2/1/gaza-patients-in-limbo-amid-israels-pilot-reopening-of-rafah-crossing?traffic_source=rss",
-        "description": "The Rafah crossing’s pilot opening begins amid confusion as Gaza’s patients face unclear criteria, limited travel slots.",
-        "pubDate": "Sun, 01 Feb 2026 20:35:37 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Gaza’s daily nightmare vs US talk of AI-driven smart cities",
-        "link": "https://www.aljazeera.com/video/the-bottom-line/2026/2/1/gazas-daily-nightmare-vs-us-talk-of-ai-driven-smart-cities?traffic_source=rss",
-        "description": "Why are Gazans living in misery, with daily Israeli bombings, as the US promises ‘peace, stability and opportunity’?",
-        "pubDate": "Sun, 01 Feb 2026 19:33:01 +0000",
         "source": "Al Jazeera"
       }
     ],
@@ -838,6 +818,13 @@
         "source": "Economist"
       },
       {
+        "title": "Has America hit “peak tariff”? - The Economist",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVmVZcFExT1Q3X3JxRmZGeThwWmJxSzJ2dU13ZDkwOW9JRUpfYUEtRzd5VGJTYXdzZU03RVU4V3lUR2wxN1ZpV1NoQU5uZFFEeld0YXE5OW9oc2pMQVZsMWh3dXVuZ2x1MUNjeEg5OFY0aTM5Rjh6cVI0YXlYc2RPTElqcjJwYUwxamVON05vcw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNVmVZcFExT1Q3X3JxRmZGeThwWmJxSzJ2dU13ZDkwOW9JRUpfYUEtRzd5VGJTYXdzZU03RVU4V3lUR2wxN1ZpV1NoQU5uZFFEeld0YXE5OW9oc2pMQVZsMWh3dXVuZ2x1MUNjeEg",
+        "pubDate": "Sun, 01 Feb 2026 11:20:08 GMT",
+        "source": "Economist"
+      },
+      {
         "title": "How porn stars can survive in the age of AI - The Economist",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGZHd1pjMlZSU0xmVVVTTVExMjVDckNaQjNoRXh4bWotX1VFbzJfUVBNbkhWbVNicHplNEJjSnhmaXBjbWVWSFg2a252TDNaRzU2SjJiNHdPZEs4Tk5ySGF2OGlFVWd1aktfeG9sU1FiNmN6TUI4RVdELXhSUDZ4elMwYlBtaUhqMW54QW91eGZCWFU?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGZHd1pjMlZSU0xmVVVTTVExMjVDckNaQjNoRXh4bWotX1VFbzJfUVBNbkhWbVNicHplNEJjSnhmaXBjbWVWSFg2a252TDNaRzU2SjJiNHdPZEs4Tk5ySGF2OGlFVWd1aktfeG9",
@@ -857,74 +844,81 @@
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOVnZZSkFjd0hGSnEyWEk2azVfZHN2b0RoRWtjVmY5WVZXdnU5Zk5fdTZpTFpLa09tNWFYcnNCYnNOQmhUODk2MkZnbGxtdVJ4bnNNVjFUMV9RdEdWZWIzbFhQWlBtZC1TWDRuSTN",
         "pubDate": "Mon, 26 Jan 2026 20:16:25 GMT",
         "source": "Economist"
-      },
-      {
-        "title": "Has America hit “peak tariff”? - The Economist",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVmVZcFExT1Q3X3JxRmZGeThwWmJxSzJ2dU13ZDkwOW9JRUpfYUEtRzd5VGJTYXdzZU03RVU4V3lUR2wxN1ZpV1NoQU5uZFFEeld0YXE5OW9oc2pMQVZsMWh3dXVuZ2x1MUNjeEg5OFY0aTM5Rjh6cVI0YXlYc2RPTElqcjJwYUwxamVON05vcw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNVmVZcFExT1Q3X3JxRmZGeThwWmJxSzJ2dU13ZDkwOW9JRUpfYUEtRzd5VGJTYXdzZU03RVU4V3lUR2wxN1ZpV1NoQU5uZFFEeld0YXE5OW9oc2pMQVZsMWh3dXVuZ2x1MUNjeEg",
-        "pubDate": "Sun, 01 Feb 2026 11:20:08 GMT",
-        "source": "Economist"
       }
     ],
     "scmp": [
       {
-        "title": "North America’s top computer vision scientist Liang Jie returns to China",
-        "link": "https://www.scmp.com/news/china/science/article/3341662/north-americas-top-computer-vision-scientist-liang-jie-returns-china?utm_source=rss_feed",
+        "title": "Small Hong Kong firms struggling with scaffold net safety costs: contractor",
+        "link": "https://www.scmp.com/news/hong-kong/society/article/3342053/small-hong-kong-firms-struggling-scaffold-net-safety-costs-contractor?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 02:00:11 +0000",
+        "pubDate": "Mon, 02 Feb 2026 05:30:18 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Pakistan to play in T20 World Cup but will boycott India clash",
-        "link": "https://www.scmp.com/news/asia/south-asia/article/3342031/pakistan-play-t20-world-cup-will-boycott-india-clash?utm_source=rss_feed",
+        "title": "Supply chain ‘weaponisation’ tops agenda at Singapore aviation meet",
+        "link": "https://www.scmp.com/news/asia/southeast-asia/article/3342050/aviation-chiefs-warn-turbulence-ahead-supply-chains-remain-grounded?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 01:52:30 +0000",
+        "pubDate": "Mon, 02 Feb 2026 05:05:55 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Seat belt U-turn in Hong Kong another case of ill-fitting policy",
-        "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3341855/seat-belt-u-turn-hong-kong-another-case-ill-fitting-policy?utm_source=rss_feed",
+        "title": "Trump plans to shut down Kennedy Centre for 2 years for renovations",
+        "link": "https://www.scmp.com/news/world/united-states-canada/article/3342049/trump-plans-shut-down-kennedy-centre-2-years-renovations?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 01:30:08 +0000",
+        "pubDate": "Mon, 02 Feb 2026 05:05:32 +0000",
         "source": "SCMP"
       },
       {
-        "title": "China girl, 7, cares for dad alone as he fights heart disease, inspires online donations",
-        "link": "https://www.scmp.com/news/people-culture/trending-china/article/3340665/china-girl-7-cares-dad-alone-he-fights-heart-disease-inspires-online-donations?utm_source=rss_feed",
+        "title": "Korean travel boom in China, PLA tightens fuel rules: 5 weekend reads you missed",
+        "link": "https://www.scmp.com/news/world/article/3342036/korean-travel-boom-china-pla-tightens-fuel-rules-5-weekend-reads-you-missed?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 01:00:08 +0000",
+        "pubDate": "Mon, 02 Feb 2026 04:30:07 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Japanese researchers unmask hidden bias against female politicians",
-        "link": "https://www.scmp.com/news/asia/east-asia/article/3342029/japanese-researchers-unmask-hidden-bias-against-female-politicians?utm_source=rss_feed",
+        "title": "Indonesian woman collapses after 140 lashes for sex and alcohol",
+        "link": "https://www.scmp.com/week-asia/people/article/3342042/indonesian-woman-collapses-after-140-lashes-sex-and-alcohol?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 00:57:16 +0000",
+        "pubDate": "Mon, 02 Feb 2026 04:08:28 +0000",
         "source": "SCMP"
       },
       {
-        "title": "55% plunge in new hires as Hong Kong graduates face gloomiest job outlook in 5 years",
-        "link": "https://www.scmp.com/news/hong-kong/education/article/3341998/55-plunge-new-hires-hong-kong-graduates-face-gloomiest-job-outlook-5-years?utm_source=rss_feed",
+        "title": "Man arrested after 20 cats, hamster found dead in Hong Kong flat",
+        "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3342041/man-arrested-after-20-cats-hamster-found-dead-hong-kong-flat?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 00:30:12 +0000",
+        "pubDate": "Mon, 02 Feb 2026 04:05:03 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Trade war, global instability push de-dollarisation into China’s academic mainstream",
-        "link": "https://www.scmp.com/economy/global-economy/article/3341876/trade-war-global-instability-push-de-dollarisation-chinas-academic-mainstream?utm_source=rss_feed",
+        "title": "Chinese team’s hydrogel coating boosts solar panel power output 13%, ideal for hot regions",
+        "link": "https://www.scmp.com/news/china/science/article/3341723/chinese-teams-hydrogel-coating-boosts-solar-panel-power-output-13-ideal-hot-regions?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 02 Feb 2026 00:00:10 +0000",
+        "pubDate": "Mon, 02 Feb 2026 04:00:12 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Fundraising hauls show RNC vastly outpacing Democrats ahead of midterm elections",
-        "link": "https://www.scmp.com/news/world/united-states-canada/article/3342028/fundraising-hauls-show-rnc-vastly-outpacing-democrats-ahead-midterm-elections?utm_source=rss_feed",
+        "title": "Japan retrieves rare earth-rich mud from 6,000 metres under the sea",
+        "link": "https://www.scmp.com/news/asia/east-asia/article/3342039/japan-retrieves-rare-earth-rich-mud-6000-metres-under-sea?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Feb 2026 23:12:17 +0000",
+        "pubDate": "Mon, 02 Feb 2026 03:52:53 +0000",
         "source": "SCMP"
       }
     ],
     "timesofisrael": [
+      {
+        "title": "&#8216;Hard to believe&#8217;: Deni Avdija becomes first Israeli to be selected as NBA All-Star",
+        "link": "https://www.timesofisrael.com/hard-to-believe-deni-avdija-becomes-first-israeli-to-be-selected-as-nba-all-star/",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 04:47:23 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "IDF says airstrike killed Hezbollah engineering commander in south Lebanon",
+        "link": "https://www.timesofisrael.com/idf-says-airstrike-killed-hezbollah-engineering-commander-in-south-lebanon/",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 04:02:08 +0000",
+        "source": "Times of Israel"
+      },
       {
         "title": "Syria says it detained group that used Hezbollah arms for attacks on airport",
         "link": "https://www.timesofisrael.com/syria-says-it-detained-group-that-used-hezbollah-arms-for-attacks-on-airport/",
@@ -940,7 +934,7 @@
         "source": "Times of Israel"
       },
       {
-        "title": "Making history, Deni Avdija becomes first Israeli selected for NBA All-Star Game",
+        "title": "Music’s biggest stars use Grammys stage to protest Trump’s immigration crackdown",
         "link": "https://www.timesofisrael.com/liveblog-february-2-2026/",
         "description": "",
         "pubDate": "Mon, 02 Feb 2026 00:48:14 +0000",
@@ -966,23 +960,37 @@
         "description": "",
         "pubDate": "Sun, 01 Feb 2026 22:00:41 +0000",
         "source": "Times of Israel"
-      },
-      {
-        "title": "Ex-hostages demand Gal Hirsch quit after &#8216;despicable comments&#8217; that protests helped Hamas",
-        "link": "https://www.timesofisrael.com/ex-hostages-demand-gal-hirsch-quit-after-despicable-comments-that-protests-helped-hamas/",
-        "description": "",
-        "pubDate": "Sun, 01 Feb 2026 21:37:01 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "A third of Israel&#8217;s 156 butterfly species threatened, with three already extinct",
-        "link": "https://www.timesofisrael.com/a-third-of-israels-butterfly-species-threatened-with-three-already-extinct/",
-        "description": "",
-        "pubDate": "Sun, 01 Feb 2026 21:17:51 +0000",
-        "source": "Times of Israel"
       }
     ],
     "afp": [
+      {
+        "title": "Japan taps rare earth-rich mud from deep-sea floor to cut reliance on China",
+        "link": "https://www.france24.com/en/asia-pacific/20260202-japan-rare-earth-found-sediment-deep-sea-mission",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 04:59:27 GMT",
+        "source": "AFP/France24"
+      },
+      {
+        "title": "Bad Bunny’s 2026 Grammy Awards triumph becomes protest against ICE",
+        "link": "https://www.france24.com/en/culture/20260202-bad-bunny-billie-eilish-call-out-ice-at-the-2026-grammy-awards",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 04:20:35 GMT",
+        "source": "AFP/France24"
+      },
+      {
+        "title": "Trump's Board of Peace: 'An attempt to replace existing international institutions like the UN'",
+        "link": "https://www.france24.com/en/trump-s-board-of-peace-an-attempt-to-replace-existing-international-institutions-like-the-un",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 04:00:04 GMT",
+        "source": "AFP/France24"
+      },
+      {
+        "title": "Live: Trump hopes to reach a deal with Iran, keeps military option on table",
+        "link": "https://www.france24.com/en/asia-pacific/20260202-live-trump-hopes-to-reach-a-deal-with-iran-keeps-military-option-on-table",
+        "description": "",
+        "pubDate": "Mon, 02 Feb 2026 03:19:25 GMT",
+        "source": "AFP/France24"
+      },
       {
         "title": "UK’s Peter Mandelson resigns from Labour party after Epstein ties resurface",
         "link": "https://www.france24.com/en/europe/20260202-uk-ex-ambassador-quits-labour-epstein-links",
@@ -1010,39 +1018,11 @@
         "description": "",
         "pubDate": "Sun, 01 Feb 2026 21:20:22 GMT",
         "source": "AFP/France24"
-      },
-      {
-        "title": "Israel to stop MSF work in Gaza: Destroying health system 'as a way of making Gaza uninhabitable’",
-        "link": "https://www.france24.com/en/israel-to-stop-msf-work-in-gaza-destroying-health-system-as-a-way-of-making-gaza-uninhabitable",
-        "description": "",
-        "pubDate": "Sun, 01 Feb 2026 18:49:50 GMT",
-        "source": "AFP/France24"
-      },
-      {
-        "title": "Israel to halt MSF work in Gaza, NGO slams ‘pretext to obstruct’ aid",
-        "link": "https://www.france24.com/en/middle-east/20260201-israel-to-halt-msf-work-in-gaza-ngo-slams-pretext-to-obstruct-aid",
-        "description": "",
-        "pubDate": "Sun, 01 Feb 2026 17:22:43 GMT",
-        "source": "AFP/France24"
-      },
-      {
-        "title": "Russian drone strike on bus transporting Ukrainian energy sector workers kills 15",
-        "link": "https://www.france24.com/en/europe/20260201-russian-drone-strike-bus-transporting-ukrainian-energy-sector-workers-kills-15",
-        "description": "",
-        "pubDate": "Sun, 01 Feb 2026 16:57:43 GMT",
-        "source": "AFP/France24"
-      },
-      {
-        "title": "Russia strikes a maternity hospital and a miner's bus in Ukraine, killing at least 21",
-        "link": "https://www.france24.com/en/russia-strikes-a-maternity-hospital-and-a-miner-s-bus-in-ukraine-killing-at-least-21",
-        "description": "",
-        "pubDate": "Sun, 01 Feb 2026 16:45:55 GMT",
-        "source": "AFP/France24"
       }
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-02-02T03:11:33.142Z",
+    "timestamp": "2026-02-02T05:40:06.757Z",
     "bbc": {
       "lead": {
         "headline": "Lord Mandelson resigns from Labour Party over Epstein links",
@@ -1071,7 +1051,7 @@
           "source": "BBC"
         },
         {
-          "headline": "Bad Bunny declares 'ICE out' as he wins Grammy",
+          "headline": "Bad Bunny makes Grammy history as he wins best album",
           "url": "https://www.bbc.com/news/articles/ce8g7q4ymrvo",
           "source": "BBC"
         }
@@ -1090,13 +1070,8 @@
           "source": "Guardian"
         },
         {
-          "headline": "‘Made me want to punch the air’: The Night Manager’s seductive, twisty return was a TV triumph",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/feb/01/the-night-manager-return-bbc-triumph",
-          "source": "Guardian"
-        },
-        {
-          "headline": "Two federal agents reportedly identified in fatal shooting of Alex Pretti",
-          "url": "https://www.theguardian.com/us-news/2026/feb/01/border-patrol-agents-identified-alex-pretti-minneapolis",
+          "headline": "Trump news at a glance: Kennedy Center to close; Epstein case ‘over’, says deputy US attorney general",
+          "url": "https://www.theguardian.com/us-news/2026/feb/02/trump-administration-news-updates-today",
           "source": "Guardian"
         },
         {
@@ -1108,18 +1083,23 @@
           "headline": "Norway’s crown princess had years of contact with Epstein, files suggest",
           "url": "https://www.theguardian.com/world/2026/feb/01/norway-crown-princess-contact-epstein-files-appear-to-show",
           "source": "Guardian"
+        },
+        {
+          "headline": "‘Made me want to punch the air’: The Night Manager’s seductive, twisty return was a TV triumph",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/feb/01/the-night-manager-return-bbc-triumph",
+          "source": "Guardian"
         }
       ]
     },
     "aljazeera": {
       "lead": {
-        "headline": "Israel says Gaza’s Rafah crossing to reopen for limited travel on Monday",
+        "headline": "Ambulances line up at Gaza’s Rafah crossing as Israel plans limited opening",
         "url": "https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot",
         "source": "Al Jazeera"
       },
       "top": [
         {
-          "headline": "Israel says Gaza’s Rafah crossing to reopen for limited travel on Monday",
+          "headline": "Ambulances line up at Gaza’s Rafah crossing as Israel plans limited opening",
           "url": "https://www.aljazeera.com/news/2026/2/1/israel-partially-reopens-rafah-crossing-in-pilot",
           "source": "Al Jazeera"
         },
@@ -1129,18 +1109,18 @@
           "source": "Al Jazeera"
         },
         {
+          "headline": "Laura Fernandez nears victory in Costa Rica’s presidential election",
+          "url": "https://www.aljazeera.com/news/2026/2/2/laura-fernandez-leads-early-results-in-costa-ricas-presidential-election",
+          "source": "Al Jazeera"
+        },
+        {
           "headline": "Gaza patients in limbo amid Israel’s ‘pilot reopening’ of Rafah crossing",
           "url": "https://www.aljazeera.com/features/2026/2/1/gaza-patients-in-limbo-amid-israels-pilot-reopening-of-rafah-crossing",
           "source": "Al Jazeera"
         },
         {
-          "headline": "UK’s ex-ambassador Mandelson quits Labour over Epstein links, reports say",
-          "url": "https://www.aljazeera.com/economy/2026/2/2/uks-ex-ambassador-mandelson-quits-labour-over-epstein-links-reports-say",
-          "source": "Al Jazeera"
-        },
-        {
-          "headline": "Russian drone attack on bus in Ukraine kills at least 12",
-          "url": "https://www.aljazeera.com/news/2026/2/1/russian-drone-attack-on-bus-in-ukraine-kills-at-least-12",
+          "headline": "Pakistani forces kill 145 fighters in Balochistan after deadly attacks",
+          "url": "https://www.aljazeera.com/news/2026/2/2/pakistani-forces-kill-145-fighters-in-balochistan-after-deadly-attacks",
           "source": "Al Jazeera"
         }
       ]
@@ -1154,6 +1134,6 @@
       "top": []
     }
   },
-  "generated": "2026-02-02T03:11:34.291Z",
+  "generated": "2026-02-02T05:40:07.821Z",
   "source": "github-actions"
 }
