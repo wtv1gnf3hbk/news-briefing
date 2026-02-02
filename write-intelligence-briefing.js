@@ -306,6 +306,8 @@ What's coming. Same format.
 
 ## RULES
 
+**Get the facts right.** CRITICAL: Only state facts that are in the source data. Use the exact phrasing from headlines. If the headline says "president-elect," write "while Trump was president-elect" - do not change it to "after taking office" or "timing unclear." If you don't know something, don't mention it at all. Never say "unclear" or "unknown" - just omit what you don't know and state what you do know.
+
 **No repeats.** Each story appears once. If something is in THE LEAD, it is not in WHAT ELSE. If it is in WHAT ELSE, it is not in WATCH THIS WEEK.
 
 **Be short.** If a sentence doesn't add new information, cut it. Target 400 words total.
@@ -314,7 +316,7 @@ What's coming. Same format.
 
 **Be direct.** Don't hedge. "This is bad for X" not "This could potentially have negative implications for X."
 
-**Have a point of view.** Don't just report. Say what it means.
+**Have a point of view.** Don't just report. Say what it means. But your opinion must be grounded in facts from the data, not invented context.
 
 **One idea per sentence.** Short sentences. No semicolons. No em-dashes joining clauses.
 
@@ -560,6 +562,134 @@ function formatBriefingHTML(text) {
 }
 
 // ============================================
+// FACT CHECKING
+// ============================================
+
+function buildFactCheckPrompt(briefingText, sourceData) {
+  return `You are a fact-checker for an intelligence briefing. Your job is to catch FACTUAL ERRORS, not to remove analysis.
+
+## BRIEFING TO CHECK:
+${briefingText}
+
+## SOURCE HEADLINES:
+${JSON.stringify(sourceData, null, 2)}
+
+## WHAT COUNTS AS AN ERROR:
+
+ERRORS (flag these):
+- Changing facts: headline says "president-elect" but briefing says "after taking office"
+- Inventing specifics: headline says "took stake" but briefing says "bought 40% stake"
+- Wrong timing: headline implies one date, briefing states another
+- Banned phrases: "raises questions about", "this comes as", "amid", "in the wake of", "remains to be seen", "could potentially", "strategic interests", "geopolitical implications"
+
+NOT ERRORS (allow these):
+- Analysis: "This matters because..." or "This is significant for..."
+- Connecting dots: "This fits a pattern of..."
+- Interpretation: "This suggests..." or "This is bad for..."
+- Context the reader would know: "Trump is president" (if we're in his term)
+- General knowledge: "The UAE has interests in Iran policy"
+
+## KEY DISTINCTION:
+The briefing SHOULD have analysis and point of view. Only flag claims that CONTRADICT the source data, not claims that INTERPRET it.
+
+## RESPOND WITH:
+If no factual errors, respond: PASS
+
+If errors found:
+FAIL
+- [quote] → [what's wrong and why]
+
+Only list genuine factual errors, not stylistic concerns.`;
+}
+
+async function factCheck(briefingText, briefing, maxAttempts = 3) {
+  // Include ALL source data so fact-checker can verify everything
+  const sourceData = {
+    lead: briefing.nyt.lead,
+    primary: briefing.nyt.primary.slice(0, 15),
+    secondary: briefing.nyt.secondary?.slice(0, 20) || [],
+    wire: {
+      reuters: briefing.secondary?.reuters?.slice(0, 5) || [],
+      bbc: briefing.secondary?.bbc?.slice(0, 5) || [],
+      bloomberg: briefing.secondary?.bloomberg?.slice(0, 5) || [],
+      ap: briefing.secondary?.ap?.slice(0, 5) || [],
+    },
+    internationalLeads: Object.fromEntries(
+      Object.entries(briefing.internationalLeads || {}).map(([k, v]) => [k, { lead: v.lead, top: v.top?.slice(0, 3) }])
+    )
+  };
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    console.log(`  Fact check ${attempt}/${maxAttempts}...`);
+
+    const checkPrompt = buildFactCheckPrompt(briefingText, sourceData);
+    const result = await callClaude(checkPrompt, 1000);
+
+    if (result.trim().startsWith('PASS')) {
+      console.log(`  ✓ Passed`);
+      return { passed: true, text: briefingText };
+    }
+
+    console.log(`  ✗ Issues found:`);
+    const issues = result.split('\n').filter(l => l.startsWith('-'));
+    issues.forEach(issue => console.log(`    ${issue}`));
+
+    if (attempt < maxAttempts) {
+      console.log(`  Regenerating...`);
+      // Include the errors in a new prompt to fix them
+      const fixPrompt = `The previous briefing had factual errors. Fix ONLY the specific errors listed below. Keep the sharp, analytical tone.
+
+ERRORS TO FIX:
+${result}
+
+PREVIOUS BRIEFING:
+${briefingText}
+
+SOURCE DATA:
+${JSON.stringify(sourceData, null, 2)}
+
+INSTRUCTIONS:
+- Fix the specific factual errors listed above
+- Keep all the analysis and point of view - that's good
+- Keep the format: OPENER, THE LEAD, WHAT ELSE, WATCH THIS WEEK
+- Stay short and punchy
+- Do NOT become bland or generic - keep the intelligence briefing tone
+
+Write the corrected briefing:`;
+
+      briefingText = await callClaude(fixPrompt, 2000);
+    }
+  }
+
+  console.log(`  ⚠ Could not pass after ${maxAttempts} attempts, using last version`);
+  return { passed: false, text: briefingText };
+}
+
+// ============================================
+// STYLE CHECK
+// ============================================
+
+async function styleCheck(briefingText) {
+  const checkPrompt = `Check this briefing for style issues. Be brief.
+
+BRIEFING:
+${briefingText}
+
+CHECK FOR:
+1. Any use of "'s" as contraction for "is" (e.g., "Trump's planning" instead of "Trump is planning")
+2. Em-dashes joining independent clauses
+3. Sentences over 25 words
+4. Any banned phrases that slipped through
+
+RESPOND WITH:
+If clean, respond: PASS
+If issues, respond: FAIL followed by bullet list of issues`;
+
+  const result = await callClaude(checkPrompt, 500);
+  return result.trim().startsWith('PASS');
+}
+
+// ============================================
 // MAIN
 // ============================================
 
@@ -602,10 +732,24 @@ async function main() {
   const startTime = Date.now();
 
   try {
-    const briefingText = await callClaude(prompt);
-    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-    console.log(`Generated in ${elapsed}s`);
+    let briefingText = await callClaude(prompt);
+    console.log('Draft generated');
     console.log('');
+
+    // Fact checking layer
+    console.log('Running fact checks...');
+    const factResult = await factCheck(briefingText, briefing);
+    briefingText = factResult.text;
+    console.log('');
+
+    // Style check
+    console.log('Running style check...');
+    const styleOk = await styleCheck(briefingText);
+    console.log(styleOk ? '  ✓ Style OK' : '  ⚠ Style issues (proceeding anyway)');
+    console.log('');
+
+    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    console.log(`Total time: ${elapsed}s`);
 
     // Save outputs
     fs.writeFileSync('intelligence-briefing.md', briefingText);
@@ -616,7 +760,7 @@ async function main() {
     console.log('Saved: intelligence-briefing.html');
 
     console.log('');
-    console.log('✅ Intelligence briefing ready');
+    console.log(factResult.passed ? '✅ Intelligence briefing ready' : '⚠️ Briefing ready (with warnings)');
 
   } catch (e) {
     console.error('❌ Failed:', e.message);

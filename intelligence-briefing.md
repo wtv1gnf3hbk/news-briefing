@@ -1,21 +1,19 @@
-**Good morning.** The UAE quietly bought a stake in the Trump family's crypto company World Liberty Financial, creating new conflicts of interest for a sitting president.
+**Good morning.** A UAE firm quietly bought a stake in the Trump family's crypto company, creating new questions about foreign money and presidential business interests.
 
 **THE LEAD**
 
-[CIC Digital](https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html), a UAE state-backed firm, purchased tokens worth millions in World Liberty Financial. The deal happened after Trump took office, meaning foreign government money is now flowing directly to the Trump family business. This violates basic ethics rules that presidents should avoid financial entanglements with foreign powers. The UAE is already pushing Trump on Iran sanctions and Gaza policy - now they have direct financial leverage over his family's wealth.
+The New York Times reports that [a UAE firm took a stake](https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html) in World Liberty Financial, the Trump family's cryptocurrency venture. This puts Middle Eastern money directly into a business run by the president's family while he sets policy toward the region. The investment happened quietly, without public disclosure of the terms or timing. This is exactly the kind of foreign financial entanglement that ethics experts have warned about since Trump took office.
 
 **WHAT ELSE**
 
-**[Russia kills 12 Ukrainian miners](https://www.nytimes.com/2026/02/01/world/europe/russia-strikes-ukraine-energy-sector-killing-12-miners.html)**: Moscow targeted energy infrastructure again, showing Putin has no interest in peace talks despite US-Russia meetings.
+• **Ukraine peace talks delayed**: The Times reports [talks between Ukraine, Russia and the US have been delayed](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html), undermining Trump's promise of a quick resolution to the war.
 
-**[Democrat flips deep red Texas seat](https://www.nytimes.com/2026/02/01/us/democratic-upset-texas-district-republicans.html)**: Taylor Rehmet won a state Senate district Trump carried by 17 points, signaling serious GOP trouble in the midterms.
+• **Democratic upset in Texas**: A Democrat flipped [a deep red Texas state Senate seat](https://www.nytimes.com/2026/02/01/us/democratic-upset-texas-district-republicans.html) that Trump won by 17 points, rattling Republicans ahead of midterms.
 
-**[Egypt runs secret Sudan drone war](https://www.nytimes.com/2026/02/01/world/africa/egypt-sudan-drones.html)**: Cairo is using a hidden air base to fuel Sudan's civil war, destabilizing the entire region.
-
-**[Oil drops 3% on Iran talks](https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnR)**: Markets bet on US-Iran de-escalation after Trump team meetings, but Khamenei just warned of "regional war" if attacked.
+• **Oil prices tumble**: Reuters reports [oil fell 3% on US-Iran de-escalation](https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2d3NklrTjVqYjhaZHBoTmZicGF2QWNtWDg4NnJWQkZ0Xy1QcUxCa0oyN0NIc2l1cDhHQTVEWGJINnZlVkdiTjlJcHZoWENiV1ExVUswblBjY1hkWm5YR01xbDJCdWl4Q1poWnR) signals, easing fears of Middle East conflict.
 
 **WATCH THIS WEEK**
 
-**[Ukraine peace talks resume](https://www.nytimes.com/2026/02/01/world/europe/ukraine-russia-us-peace-talks.html)**: Trump's promised 24-hour solution to Ukraine is already delayed after initial US-Russia contact.
+• **Costa Rica votes**: A [right-wing populist leads](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html) polls ahead of Sunday's election in the traditionally stable Central American democracy.
 
-**[Costa Rica elects right-wing populist](https://www.nytimes.com/2026/02/01/world/americas/costa-rica-election.html)**: Another Trump-style candidate leads polls in Central America's most stable democracy.
+• **Oracle funding push**: Reuters reports [Oracle plans to raise $45-50 billion](https://news.google.com/rss/articles/CBMilAFBVV95cUxQMTVmVjhaWDdFRFhZc3BHa0JQZHh1SFo1X1dRd2JxZzh1QWxOeXh2c19xbkJMbHZtdWNfRmRwallmSVBKdUZrdXloMkhHSFF4cUNPeUZGV25aTEJDbzNIaHNjQ1YxcUVNQzlqMVc) in 2026, signaling major AI infrastructure investments ahead.

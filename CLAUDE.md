@@ -4,7 +4,56 @@
 
 - `generate-briefing.js` - Scrapes all news sources, outputs `briefing.json`
 - `write-briefing.js` - Uses Claude API to write conversational briefing from JSON
+- `write-intelligence-briefing.js` - PDB-style intelligence briefing with fact-checking
 - `.github/workflows/briefing.yml` - Daily workflow (6am ET) + manual trigger
+
+## Intelligence Briefing System
+
+### Philosophy
+This is a "democratized intelligence briefing" - think Presidential Daily Brief, not news summary. The difference: a news summary says "here's what happened." An intelligence briefing says "here's what matters, why it matters, and what to watch for."
+
+### Output Structure
+```
+OPENER - 1-2 sentences, the single most important thing
+THE LEAD - 1 short paragraph, what happened + why it matters
+WHAT ELSE - 3-4 bullets, one line each
+WATCH THIS WEEK - 2-3 bullets, forward-looking
+```
+
+### Fact-Checking Pipeline
+The intelligence briefing runs through multiple validation layers:
+
+1. **Draft Generation** - Initial briefing from source data
+2. **Fact Check (up to 3 attempts)** - Compares output against source headlines
+   - Flags factual errors (changing "president-elect" to "after taking office")
+   - Allows analysis/interpretation (that's the point)
+   - Catches banned phrases
+3. **Style Check** - Verifies no style violations slipped through
+4. **Regeneration** - If errors found, regenerates while preserving tone
+
+### User Profiles
+Optional personalization via JSON config:
+```javascript
+{
+  "role": "macro investor",
+  "priorities": { "markets": "high", "geopolitics": "high" },
+  "activeThreads": ["Fed rate cycle", "China property stress"],
+  "format": { "length": "standard" }
+}
+```
+
+Usage: `node write-intelligence-briefing.js --config=profiles/my-profile.json`
+
+### Banned Phrases
+These are automatically flagged by fact-checker:
+- "This comes as..."
+- "...raises questions about..."
+- "...amid..."
+- "...in the wake of..."
+- "...remains to be seen..."
+- "...could potentially..."
+- "...strategic interests..."
+- "...geopolitical implications..."
 
 ## International Homepage Scraping
 
