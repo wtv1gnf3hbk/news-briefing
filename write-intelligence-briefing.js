@@ -84,6 +84,7 @@ function loadProfile() {
 // ============================================
 
 function callClaude(prompt, maxTokens = 3000) {
+
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       model: 'claude-sonnet-4-20250514',
@@ -736,16 +737,14 @@ async function main() {
     console.log('Draft generated');
     console.log('');
 
-    // Fact checking layer
-    console.log('Running fact checks...');
-    const factResult = await factCheck(briefingText, briefing);
+    // Run fact-check and style-check in parallel
+    console.log('Running checks in parallel...');
+    const [factResult, styleOk] = await Promise.all([
+      factCheck(briefingText, briefing),
+      styleCheck(briefingText)
+    ]);
     briefingText = factResult.text;
-    console.log('');
-
-    // Style check
-    console.log('Running style check...');
-    const styleOk = await styleCheck(briefingText);
-    console.log(styleOk ? '  ✓ Style OK' : '  ⚠ Style issues (proceeding anyway)');
+    console.log(styleOk ? '  Style: ✓' : '  Style: ⚠ (proceeding anyway)');
     console.log('');
 
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
