@@ -55,6 +55,27 @@ These are automatically flagged by fact-checker:
 - "...strategic interests..."
 - "...geopolitical implications..."
 
+### Multimodal Output Formats
+The intelligence briefing generates multiple output formats:
+
+| File | Format | Length | Use Case |
+|------|--------|--------|----------|
+| `intelligence-headline.txt` | Plain text | 30s read | Push notification, glanceable |
+| `intelligence-briefing.md` | Markdown | 2min read | Standard daily briefing |
+| `intelligence-deep.md` | Markdown | 10min read | Deep analysis, weekend read |
+| `intelligence-email.txt` | Plain text | 2min read | Email newsletter format |
+| `intelligence-slack.txt` | Plain text | 1min read | Slack/Teams message |
+| `intelligence-sms.txt` | Plain text | 160 chars | SMS alert |
+| `intelligence-briefing.html` | HTML | 2min read | Web embed, styled |
+| `intelligence-dashboard.html` | HTML | Visual | Dashboard display, dark mode |
+| `intelligence-briefing.mp3` | Audio | 2-3min | TTS via ElevenLabs |
+
+### Audio Generation (TTS)
+Requires `ELEVENLABS_API_KEY` environment variable.
+- Voice: Rachel (professional, clear)
+- Model: eleven_turbo_v2_5
+- Output: intelligence-briefing.mp3
+
 ## International Homepage Scraping
 
 ### Sources & URLs
@@ -120,6 +141,74 @@ const US_DOMESTIC_KEYWORDS = [
 
 ### False Positive Issue
 Headlines mentioning "Trump" in international context (e.g., "Iran responds to Trump") get flagged as US-centric. Consider context-aware classification.
+
+## Interactive Query Tools
+
+A suite of CLI tools for querying and analyzing the daily briefing data.
+
+### query-briefing.js
+Interactive Q&A against today's news data.
+```bash
+node query-briefing.js                    # Interactive mode
+node query-briefing.js "what happened?"   # Single query
+```
+Query types: catch-up, topic, meeting prep, source comparison.
+
+### explain-headline.js
+Get context on a headline or screenshot.
+```bash
+node explain-headline.js "UAE takes stake in Trump crypto"
+```
+Returns: story context, why it matters, other coverage, related stories.
+
+### meeting-prep.js
+Generate a focused briefing for an upcoming meeting.
+```bash
+node meeting-prep.js --who "investors" --topic "AI" --time 5
+```
+Returns: quick context, key facts, their perspective, talking points.
+
+### compare-sources.js
+Compare how different outlets cover the same story.
+```bash
+node compare-sources.js --leads           # Compare lead stories
+node compare-sources.js "Ukraine"         # Compare topic coverage
+```
+Analyzes: consensus, framing differences, US vs international lens.
+
+### watchlist.js
+Track specific topics, companies, people across news sources.
+```bash
+node watchlist.js                         # Run watchlist check
+node watchlist.js --add "Tesla"           # Add item
+node watchlist.js --list                  # Show watchlist
+```
+Persists to `watchlist.json`. Generates personalized alerts.
+
+### news-calendar.js
+Extract upcoming events from news coverage.
+```bash
+node news-calendar.js                     # All upcoming events
+node news-calendar.js --week              # Next 7 days
+```
+Extracts: elections, earnings, policy deadlines, summits.
+
+### contrarian-view.js
+Alternative perspectives on today's news.
+```bash
+node contrarian-view.js                   # Challenge today's leads
+node contrarian-view.js "tariffs"         # Contrarian on topic
+```
+Surfaces underrepresented viewpoints without being conspiratorial.
+
+### blind-spots.js
+Identify stories you might be missing.
+```bash
+node blind-spots.js                       # General check
+node blind-spots.js --international       # US vs intl gaps
+node blind-spots.js --profile=investor    # Based on profile
+```
+Uses watchlist.json and profiles/ for personalization.
 
 ## GitHub Actions Notes
 
