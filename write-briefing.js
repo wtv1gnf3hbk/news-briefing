@@ -404,7 +404,72 @@ Write the briefing now. Keep it concise but comprehensive.`;
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated ${new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })} at ${new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET · <a href="https://github.com/wtv1gnf3hbk/news-briefing/actions/workflows/briefing.yml">Refresh</a></div>
+  <div class="timestamp">Generated ${new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })} at ${new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET · <a href="#" onclick="refreshBriefing(); return false;">Refresh</a></div>
+  <script>
+    async function refreshBriefing() {
+      const link = event.target;
+      link.textContent = 'Refreshing...';
+      link.style.pointerEvents = 'none';
+      try {
+        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
+        const data = await res.json();
+        if (data.success) {
+          link.textContent = 'Triggered! Reloading in 60s...';
+          setTimeout(() => location.reload(), 60000);
+        } else {
+          link.textContent = 'Error - try again';
+          link.style.pointerEvents = 'auto';
+        }
+      } catch (e) {
+        link.textContent = 'Error - try again';
+        link.style.pointerEvents = 'auto';
+      }
+    }
+  </script>
+
+  <!-- Audio Player -->
+  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <button id="play-btn" onclick="toggleAudio()" style="
+        width: 48px; height: 48px; border-radius: 50%; border: none;
+        background: #1a1a1a; color: white; cursor: pointer;
+        font-size: 18px; display: flex; align-items: center; justify-content: center;
+      ">&#9658;</button>
+      <div style="flex: 1;">
+        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
+          Listen to today's briefing
+        </div>
+        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
+      </div>
+    </div>
+    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
+  </div>
+  <script>
+    const audio = document.getElementById('briefing-audio');
+    const playBtn = document.getElementById('play-btn');
+    const voiceInfo = document.getElementById('voice-info');
+    audio.addEventListener('loadedmetadata', () => {
+      const duration = Math.round(audio.duration);
+      const mins = Math.floor(duration / 60);
+      const secs = duration % 60;
+      voiceInfo.textContent = mins + ':' + secs.toString().padStart(2, '0');
+    });
+    audio.addEventListener('error', () => {
+      document.getElementById('audio-player').style.display = 'none';
+    });
+    audio.addEventListener('ended', () => {
+      playBtn.innerHTML = '&#9658;';
+    });
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        playBtn.innerHTML = '&#10074;&#10074;';
+      } else {
+        audio.pause();
+        playBtn.innerHTML = '&#9658;';
+      }
+    }
+  </script>
 
   <div id="content">
 ${briefingText
