@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The big story this morning is Trump's dramatic escalation in his push to reshape American elections. The president is now [calling for Republicans](https://www.nytimes.com/2026/02/02/us/politics/trump-nationalize-elections.html) to "nationalize" elections, marking his most aggressive move yet to centralize control over voting systems. This comes as he's simultaneously pressuring House holdouts on a [spending deal](https://www.nytimes.com/live/2026/02/02/us/trump-news) that's gaining momentum but still faces resistance from fiscal conservatives.
+Trump's escalating his battle over election administration, now [calling for Republicans](https://www.nytimes.com/2026/02/02/us/politics/trump-nationalize-elections.html) to "nationalize" elections. It's a striking rhetorical shift that signals he's moving beyond his usual complaints about state-level voting rules toward something that sounds more like federal intervention. This comes as he's also scheduled to [meet today](https://www.nytimes.com/2026/02/03/us/politics/colombia-petro-trump-meeting.html) with Colombia's President Petro at the White House, presumably to smooth over their recent deportation flight standoff.
 
-The Epstein files continue to reverberate on both sides of the Atlantic. The [Clintons have agreed](https://www.nytimes.com/2026/02/02/us/politics/bill-hillary-clinton-epstein-comer-contempt.html) to testify in the House Epstein inquiry after initially resisting, while across the pond, the BBC reports that British authorities are reviewing misconduct claims after files suggest Peter Mandelson sent government information to Epstein. It's a reminder of how these revelations are creating political headaches far beyond U.S. borders.
+The international picture shows similar tensions around governance and control. The BBC's leading with revelations that Peter Mandelson allegedly shared government information with Jeffrey Epstein, while Al Jazeera's focused on Israel restricting medical evacuations from Gaza despite the ceasefire. It's a day when questions about who controls what are front and center globally.
 
 **Business/Tech**
 
-• Elon Musk is [merging SpaceX](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) with his AI startup xAI, creating a potentially massive integrated space and artificial intelligence company that could reshape both industries.
+• Elon Musk's [merging SpaceX](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) with his AI startup xAI, creating what could be a formidable space-meets-artificial-intelligence conglomerate that'll have serious implications for both industries.
 
-• Waymo just raised a [staggering $16 billion](https://www.nytimes.com/2026/02/02/business/waymo-funding-growth.html) to fuel its global ambitions in autonomous driving, signaling serious investor confidence in the self-driving car race.
+• [Waymo raised](https://www.nytimes.com/2026/02/02/business/waymo-funding-growth.html) a massive $16 billion to fuel its global expansion plans, signaling that investors still believe autonomous vehicles are the next big thing despite years of slower-than-expected progress.
 
-• China's rolling out its vision for [AI dominance](https://www.nytimes.com/2026/02/02/business/china-ai-regulations.html) with a "move fast but obey the rules" approach that tries to balance innovation with state control.
+• Trump and India [called off](https://www.nytimes.com/2026/02/03/business/us-india-trade-tariffs.html) their trade war with a new deal to reduce tariffs, though the exact terms remain frustratingly vague for businesses trying to plan their supply chains.
 
-• Bloomberg reports that China's brutal [delivery price war](https://www.bloomberg.com/news/articles/2026-02-03/china-s-delivery-price-war-starts-to-cool-as-brands-raise-prices) is finally cooling as major brands like KFC start raising prices after years of unsustainable discounting.
+• [Siemens Energy's betting](https://www.nytimes.com/2026/02/03/business/energy-environment/siemens-energy-ai-power-demand.html) $1 billion that AI's power demands will keep growing, a major infrastructure play on the assumption that data centers aren't going anywhere.
 
 **Around the World**
 
-• **Latin America**: Colombia's President Petro just can't help himself when it comes to [needling Trump](https://www.nytimes.com/2026/02/02/world/americas/colombia-petro-trump-white-house.html), continuing his provocative rhetoric even days before their scheduled White House meeting.
+• **Latin America**: Venezuela's showing [some signs](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html) of easing its authoritarian grip, but analysts are skeptical about how long any opening might last given Maduro's track record.
 
-• **Europe**: After months of political chaos, France's Prime Minister finally [cleared a major hurdle](https://www.nytimes.com/2026/02/02/world/europe/france-budget-lecornu.html) to pass a budget, offering some stability to the country's shaky coalition government.
+• **Europe**: The [Greenland crisis](https://www.nytimes.com/2026/02/03/world/europe/denmark-trump-boycott.html) has Danes responding with their characteristic dry humor, even as the diplomatic implications of Trump's territorial ambitions continue to reverberate across NATO.
 
-• **Asia**: Trump announced a significant [trade deal with India](https://www.nytimes.com/2026/02/02/us/politics/trump-tariffs-india-trade-deal.html) that will reduce tariffs, reportedly in exchange for New Delhi agreeing to scale back Russian oil purchases.
+• **Asia**: Xi Jinping's military purge continues with [more generals disappearing](https://www.nytimes.com/interactive/2026/02/03/world/asia/china-xi-military-purge.html) from public view, part of what appears to be the most extensive cleanup of China's armed forces in decades.
 
-• **Middle East**: U.S. and Iranian officials are set to [meet directly](https://www.nytimes.com/2026/02/02/world/middleeast/us-iran-meeting-trump-threats.html) as both sides try to navigate diplomatic openings despite Trump's continued threats, while the [Rafah crossing](https://www.nytimes.com/2026/02/02/world/middleeast/gaza-rafah-border-crossing.html) between Gaza and Egypt has reopened in a positive step for the fragile cease-fire.
+• **Middle East**: [Palestinians are returning](https://www.nytimes.com/2026/02/03/world/middleeast/palestinians-gaza-return.html) to Gaza for the first time in nearly two years, though the ceasefire remains fragile and medical evacuations are still severely restricted.
 
-• **Africa**: A new investigation reveals Egypt's been running [a secret air base](https://www.nytimes.com/2026/02/01/world/africa/egypt-sudan-drones.html) that's fueling Sudan's devastating drone war, adding another layer to the complex regional proxy conflict.
+• **Africa**: New reporting reveals [Egypt's been running](https://www.nytimes.com/2026/02/01/world/africa/egypt-sudan-drones.html) a secret air base that's central to Sudan's drone war, showing how regional powers are quietly fueling the conflict.
