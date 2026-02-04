@@ -39,10 +39,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node write-briefing.js
 
+      - name: Generate audio podcast
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node generate-podcast.js
+
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add briefing.json briefing.md index.html
+          git add briefing.json briefing.md index.html podcast.mp3 podcast-metadata.json
           git diff --staged --quiet || git commit -m "Update briefing $(date -u +%Y-%m-%d)"
           git push
