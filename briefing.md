@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Epstein scandal is rippling through British politics as [U.K. police](https://www.nytimes.com/2026/02/03/world/europe/peter-mandelson-uk-epstein.html) investigate Peter Mandelson, the former ambassador to Washington, over claims he leaked information to Jeffrey Epstein. This comes as the Met also reviews fresh allegations about Prince Andrew's connections to the disgraced financier. The timing couldn't be worse for Mandelson, who's expected to take up his post as Britain's next ambassador to the U.S. The investigations underscore how the Epstein affair continues to cast a shadow over high-profile figures on both sides of the Atlantic.
+The Epstein saga took another turn yesterday as the [Clintons agreed](https://www.nytimes.com/2026/02/03/us/politics/clintons-epstein-testify.html) to testify before Congress, prompting House leaders to cancel their contempt vote. It's a significant development in what's become a sprawling investigation touching multiple countries. The fallout continues rippling across the Atlantic, where London's Met Police have [launched an investigation](https://www.theguardian.com/uk-news/2026/feb/03/met-police-to-launch-investigation-into-alleged-mandelson-epstein-email-leaks) into alleged email leaks involving Peter Mandelson, the UK's newly appointed ambassador to Washington.
 
-Meanwhile, tensions are escalating between Washington and Tehran after the U.S. [shot down](https://www.nytimes.com/2026/02/03/us/politics/us-iran-drone-downing.html) an Iranian drone in the Arabian Sea near an American aircraft carrier. The Pentagon says the drone was approaching the vessel when it was intercepted, marking another flashpoint in the already strained relationship. Oil markets are responding to the geopolitical jitters, with prices climbing for the second straight day.
+The timing couldn't be more awkward for Keir Starmer's government, which is now defending Mandelson's appointment as questions swirl about his past connections. Meanwhile, new court documents reveal who would have inherited [Epstein's fortune](https://www.nytimes.com/2026/02/03/business/jeffrey-epstein-trust-inherit-karyna-shuliak.html), adding another layer to the unfolding story. It's becoming clear this isn't going away anytime soon.
 
 **Business/Tech**
 
-- [Walmart hit](https://www.nytimes.com/2026/02/03/business/walmart-trillion-market-value.html) the $1 trillion market cap milestone, joining the exclusive club of mega-cap companies that's been dominated by tech giants like Apple and Microsoft. It's a remarkable transformation for the Arkansas retailer.
+• [Walmart joined](https://www.nytimes.com/2026/02/03/business/walmart-trillion-market-value.html) the exclusive trillion-dollar market cap club, making it the latest retail giant to reach that milestone alongside the tech heavyweights.
 
-- [Disney named](https://www.nytimes.com/2026/02/03/business/disney-damaro-ceo.html) Josh D'Amaro as its next CEO, tapping the parks chief to lead the entertainment empire through its next chapter. D'Amaro's been credited with revitalizing Disney's theme park operations post-pandemic.
+• Elon Musk is [merging SpaceX](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) with his AI startup xAI in a move that consolidates his sprawling tech empire under one roof.
 
-- [Elon Musk merged](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) SpaceX with his AI startup xAI in a deal that further consolidates his business empire. The move signals Musk's bet that space and artificial intelligence will increasingly intersect.
+• Netflix's Ted Sarandos faced [skeptical lawmakers](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) over the proposed Warner deal, with senators pressing him on competition concerns.
 
-- [Waymo raised](https://www.nytimes.com/2026/02/02/business/waymo-funding-growth.html) $16 billion in fresh funding to fuel its global expansion plans, a massive war chest that underscores investor confidence in autonomous driving technology.
+• The AI boom is starting to hit consumers where it hurts. New analysis shows how [memory chip shortages](https://www.nytimes.com/2026/01/29/technology/ai-memory-chips-pc-smartphone.html) driven by AI demand could make your next PC or smartphone significantly pricier.
 
 **Around the World**
 
-- **Latin America**: [Venezuela's authoritarian grip](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html) appears to be loosening slightly, but analysts warn it's too early to tell whether the shift represents genuine political opening or tactical maneuvering by the Maduro regime.
+• **Latin America**: Venezuela's authoritarian grip appears to be [loosening slightly](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html), but analysts are questioning whether this represents genuine reform or just tactical repositioning by the Maduro regime.
 
-- **Europe**: British authorities are [investigating Peter Mandelson](https://www.nytimes.com/2026/02/03/world/europe/peter-mandelson-uk-epstein.html) over allegations he shared confidential information with Jeffrey Epstein, a bombshell that threatens his expected appointment as ambassador to Washington.
+• **Europe**: The [2026 Winter Olympics](https://www.nytimes.com/2026/02/04/world/europe/winter-olympics-security-milan-cortina.html) in Milan and Cortina are deploying an unprecedented security apparatus, complete with robots, drones, and a dedicated cyber command center to protect athletes and spectators.
 
-- **Asia**: [At least 30 people](https://www.nytimes.com/2026/02/03/world/asia/japan-snow-deaths.html) have died in Japan after weeks of unprecedented snowfall battered the country, with authorities warning conditions remain dangerous across several prefectures.
+• **Asia**: Japan's brutal winter continues to claim lives, with [at least 30 people](https://www.nytimes.com/2026/02/03/world/asia/japan-snow-deaths.html) now confirmed dead after weeks of record snowfall that's paralyzed parts of the country.
 
-- **Middle East**: [Seif al-Islam el-Qaddafi](https://www.nytimes.com/2026/02/03/world/middleeast/libya-seif-al-islam-el-qaddafi-killed.html) was killed in an attack in Libya, according to his lawyer. The death of Muammar el-Qaddafi's son removes a key figure who once seemed destined to inherit power in the North African nation.
+• **Middle East**: A major blow to Libya's Gaddafi legacy as [Seif al-Islam](https://www.nytimes.com/2026/02/03/world/middleeast/libya-seif-al-islam-el-qaddafi-killed.html), the dictator's son who once seemed poised to inherit power, was reportedly killed in an attack according to his lawyer.
 
-- **Africa**: Health officials warn that ['biblical diseases'](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html) like river blindness and sleeping sickness could make a comeback across Africa as international funding for prevention programs faces cuts under the new U.S. administration.
+• **Africa**: Health officials are sounding alarms about a potential resurgence of ["biblical diseases"](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html) across Africa, including river blindness and other neglected tropical diseases that could affect millions.
