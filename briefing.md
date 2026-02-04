@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Epstein saga took another turn yesterday as the [Clintons agreed](https://www.nytimes.com/2026/02/03/us/politics/clintons-epstein-testify.html) to testify before Congress, prompting House leaders to cancel their contempt vote. It's a significant development in what's become a sprawling investigation touching multiple countries. The fallout continues rippling across the Atlantic, where London's Met Police have [launched an investigation](https://www.theguardian.com/uk-news/2026/feb/03/met-police-to-launch-investigation-into-alleged-mandelson-epstein-email-leaks) into alleged email leaks involving Peter Mandelson, the UK's newly appointed ambassador to Washington.
+The Trump administration's immigration crackdown is creating ripple effects far beyond enforcement operations themselves. In Minneapolis, children are staying home from school en masse as families fear ICE raids, creating what amounts to a [winter of anguish](https://www.nytimes.com/2026/02/04/us/minneapolis-children-ice-schools.html) for kids caught in the crosshairs of federal policy. The scene captures something larger about how immigration enforcement reshapes entire communities, not just the families directly targeted.
 
-The timing couldn't be more awkward for Keir Starmer's government, which is now defending Mandelson's appointment as questions swirl about his past connections. Meanwhile, new court documents reveal who would have inherited [Epstein's fortune](https://www.nytimes.com/2026/02/03/business/jeffrey-epstein-trust-inherit-karyna-shuliak.html), adding another layer to the unfolding story. It's becoming clear this isn't going away anytime soon.
+This isn't happening in isolation. The administration is also pushing to ["nationalize" elections](https://www.nytimes.com/2026/02/03/us/politics/trump-save-act-elections.html), though the White House keeps walking back Trump's more sweeping statements. Meanwhile, international outlets are fixated on newly released [Epstein documents](https://www.bbc.com/news/topics/cl7003r72r4t) that are dragging prominent figures back into uncomfortable scrutiny. It's a moment when domestic policy turbulence meets ongoing revelations about powerful people's past associations.
 
 **Business/Tech**
 
-• [Walmart joined](https://www.nytimes.com/2026/02/03/business/walmart-trillion-market-value.html) the exclusive trillion-dollar market cap club, making it the latest retail giant to reach that milestone alongside the tech heavyweights.
+• [Walmart just joined](https://www.nytimes.com/2026/02/03/business/walmart-trillion-market-value.html) the trillion-dollar club alongside tech giants, a sign of how traditional retail has evolved in the digital age.
 
-• Elon Musk is [merging SpaceX](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) with his AI startup xAI in a move that consolidates his sprawling tech empire under one roof.
+• Elon Musk is [merging SpaceX](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) with his AI startup xAI, creating an even more sprawling empire that spans rockets and artificial intelligence.
 
-• Netflix's Ted Sarandos faced [skeptical lawmakers](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) over the proposed Warner deal, with senators pressing him on competition concerns.
+• Netflix's leadership faced [skeptical lawmakers](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) over its proposed Warner deal, with senators questioning the streaming giant's growing media dominance.
 
-• The AI boom is starting to hit consumers where it hurts. New analysis shows how [memory chip shortages](https://www.nytimes.com/2026/01/29/technology/ai-memory-chips-pc-smartphone.html) driven by AI demand could make your next PC or smartphone significantly pricier.
+• European investors are [shifting assets away](https://www.bloomberg.com/news/articles/2026-02-04/investors-move-assets-to-europe-from-us-euroclear-chief-says) from the US, according to Bloomberg, as Trump's policies create market uncertainty.
 
 **Around the World**
 
-• **Latin America**: Venezuela's authoritarian grip appears to be [loosening slightly](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html), but analysts are questioning whether this represents genuine reform or just tactical repositioning by the Maduro regime.
+• **Latin America**: Venezuela's authoritarian grip appears to be [easing slightly](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html), though observers are wondering how long any political opening might last under Maduro's government.
 
-• **Europe**: The [2026 Winter Olympics](https://www.nytimes.com/2026/02/04/world/europe/winter-olympics-security-milan-cortina.html) in Milan and Cortina are deploying an unprecedented security apparatus, complete with robots, drones, and a dedicated cyber command center to protect athletes and spectators.
+• **Europe**: At least 15 people died in a [rare collision](https://www.nytimes.com/2026/02/04/world/europe/15-dead-migrant-clash-collision-greece.html) between a migrant boat and Greek patrol vessel, highlighting the ongoing dangers in the Mediterranean migration routes.
 
-• **Asia**: Japan's brutal winter continues to claim lives, with [at least 30 people](https://www.nytimes.com/2026/02/03/world/asia/japan-snow-deaths.html) now confirmed dead after weeks of record snowfall that's paralyzed parts of the country.
+• **Asia**: US aid cuts to Afghanistan are leaving a [trail of hunger](https://www.nytimes.com/2026/02/04/world/asia/afghanistan-us-aid-cuts.html) and death, showing how American foreign policy decisions ripple through vulnerable populations.
 
-• **Middle East**: A major blow to Libya's Gaddafi legacy as [Seif al-Islam](https://www.nytimes.com/2026/02/03/world/middleeast/libya-seif-al-islam-el-qaddafi-killed.html), the dictator's son who once seemed poised to inherit power, was reportedly killed in an attack according to his lawyer.
+• **Middle East**: Trump's closest Arab allies are [openly clashing](https://www.nytimes.com/2026/02/04/world/middleeast/emirates-saudi-arabia-rift.html), with the UAE and Saudi Arabia dropping diplomatic niceties as regional tensions escalate.
 
-• **Africa**: Health officials are sounding alarms about a potential resurgence of ["biblical diseases"](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html) across Africa, including river blindness and other neglected tropical diseases that could affect millions.
+• **Africa**: Health officials fear ["biblical diseases"](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html) could resurge across the continent as funding for neglected tropical disease programs faces cuts.
