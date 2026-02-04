@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Trump administration's immigration crackdown is creating ripple effects far beyond enforcement operations themselves. In Minneapolis, children are staying home from school en masse as families fear ICE raids, creating what amounts to a [winter of anguish](https://www.nytimes.com/2026/02/04/us/minneapolis-children-ice-schools.html) for kids caught in the crosshairs of federal policy. The scene captures something larger about how immigration enforcement reshapes entire communities, not just the families directly targeted.
+The Trump administration's immigration crackdown is hitting hard in Minneapolis, where children are experiencing what our team calls a "[winter of fear](https://www.nytimes.com/2026/02/04/us/minneapolis-children-ice-schools.html)" as ICE operations tear through their communities. Kids are having nightmares, friends are disappearing from school, and the psychological toll is mounting. This comes as Trump's border czar announced plans to [pull 700](https://www.nytimes.com/live/2026/02/04/us/trump-news) immigration agents from Minnesota, part of a broader reshuffling that's left local police chiefs struggling to maintain community trust they've spent years building.
 
-This isn't happening in isolation. The administration is also pushing to ["nationalize" elections](https://www.nytimes.com/2026/02/03/us/politics/trump-save-act-elections.html), though the White House keeps walking back Trump's more sweeping statements. Meanwhile, international outlets are fixated on newly released [Epstein documents](https://www.bbc.com/news/topics/cl7003r72r4t) that are dragging prominent figures back into uncomfortable scrutiny. It's a moment when domestic policy turbulence meets ongoing revelations about powerful people's past associations.
+The broader political picture shows Trump continuing to push boundaries on federal power. He's [repeating calls](https://www.nytimes.com/2026/02/03/us/politics/trump-save-act-elections.html) to "nationalize" elections, even as his own White House walks back the comments, and his administration has thrown [Harvard deal talks](https://www.nytimes.com/2026/02/03/us/politics/trump-changing-course-throws-harvard-deal-talks-into-chaos.html) into chaos with another policy reversal. It's a pattern that historians are calling "neoroyalism," reflecting how Trump's governing style echoes monarchical approaches to executive power.
 
 **Business/Tech**
 
-• [Walmart just joined](https://www.nytimes.com/2026/02/03/business/walmart-trillion-market-value.html) the trillion-dollar club alongside tech giants, a sign of how traditional retail has evolved in the digital age.
+• The [Epstein files](https://www.nytimes.com/2026/02/03/business/jeffrey-epstein-trust-inherit-karyna-shuliak.html) keep revealing new details, this time about who stands to inherit his fortune through a trust structure that's finally been made public.
 
-• Elon Musk is [merging SpaceX](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) with his AI startup xAI, creating an even more sprawling empire that spans rockets and artificial intelligence.
+• [Musk merged](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) SpaceX with his AI startup xAI, creating a massive space-tech conglomerate that could reshape both industries.
 
-• Netflix's leadership faced [skeptical lawmakers](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) over its proposed Warner deal, with senators questioning the streaming giant's growing media dominance.
+• Netflix's leadership is [pushing hard](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) for its Warner Bros. acquisition in front of skeptical senators who worry about media consolidation.
 
-• European investors are [shifting assets away](https://www.bloomberg.com/news/articles/2026-02-04/investors-move-assets-to-europe-from-us-euroclear-chief-says) from the US, according to Bloomberg, as Trump's policies create market uncertainty.
+• [Match Group surged](https://www.bloomberg.com/news/articles/2026-02-03/match-beats-on-quarterly-revenue-earnings-in-sign-of-turnaround) after earnings that suggest its turnaround strategy is finally working, according to Bloomberg.
 
 **Around the World**
 
-• **Latin America**: Venezuela's authoritarian grip appears to be [easing slightly](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html), though observers are wondering how long any political opening might last under Maduro's government.
+• **Latin America**: [Venezuela's authoritarian grip](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html) appears to be loosening slightly, but analysts are questioning how long any reforms will last under Maduro's government.
 
-• **Europe**: At least 15 people died in a [rare collision](https://www.nytimes.com/2026/02/04/world/europe/15-dead-migrant-clash-collision-greece.html) between a migrant boat and Greek patrol vessel, highlighting the ongoing dangers in the Mediterranean migration routes.
+• **Europe**: At least [15 migrants died](https://www.nytimes.com/2026/02/04/world/europe/15-dead-migrant-clash-collision-greece.html) in a rare collision between a migrant boat and Greek patrol vessel, highlighting the ongoing dangers in the Mediterranean crossing.
 
-• **Asia**: US aid cuts to Afghanistan are leaving a [trail of hunger](https://www.nytimes.com/2026/02/04/world/asia/afghanistan-us-aid-cuts.html) and death, showing how American foreign policy decisions ripple through vulnerable populations.
+• **Asia**: Beijing detained [two Chinese journalists](https://www.nytimes.com/2026/02/04/world/asia/china-journalists-liu-hu-detained.html) who were reporting on corruption, part of Xi Jinping's continued crackdown on press freedom.
 
-• **Middle East**: Trump's closest Arab allies are [openly clashing](https://www.nytimes.com/2026/02/04/world/middleeast/emirates-saudi-arabia-rift.html), with the UAE and Saudi Arabia dropping diplomatic niceties as regional tensions escalate.
+• **Middle East**: The [UAE and Saudi Arabia](https://www.nytimes.com/2026/02/04/world/middleeast/emirates-saudi-arabia-rift.html) are openly clashing despite both being Trump's closest Arab allies, creating new complications for Gulf diplomacy.
 
-• **Africa**: Health officials fear ["biblical diseases"](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html) could resurge across the continent as funding for neglected tropical disease programs faces cuts.
+• **Africa**: Health officials are warning that "[biblical diseases](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html)" like river blindness could resurge across the continent due to funding cuts to neglected tropical disease programs.
