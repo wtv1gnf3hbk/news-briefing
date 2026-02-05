@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Trump administration's immigration crackdown is hitting hard in Minneapolis, where children are experiencing what our team calls a "[winter of fear](https://www.nytimes.com/2026/02/04/us/minneapolis-children-ice-schools.html)" as ICE operations tear through their communities. Kids are having nightmares, friends are disappearing from school, and the psychological toll is mounting. This comes as Trump's border czar announced plans to [pull 700](https://www.nytimes.com/live/2026/02/04/us/trump-news) immigration agents from Minnesota, part of a broader reshuffling that's left local police chiefs struggling to maintain community trust they've spent years building.
+We're seeing a convergence around two major diplomatic stories that could reshape global dynamics. [Trump's unpredictable approach](https://www.nytimes.com/2026/02/04/us/politics/trump-deals-allies-adversaries.html) to foreign policy is creating both opportunities and complications for the U.S., particularly as [Xi pressed him](https://www.nytimes.com/2026/02/04/us/politics/xi-phone-call-taiwan.html) on Taiwan during their latest phone call. This comes as Washington and Tehran prepare for [crucial talks](https://www.nytimes.com/2026/02/04/world/middleeast/iran-us-talks-oman.html) in Oman on Friday, following what Al Jazeera describes as "a barrage of threats" between the two countries.
 
-The broader political picture shows Trump continuing to push boundaries on federal power. He's [repeating calls](https://www.nytimes.com/2026/02/03/us/politics/trump-save-act-elections.html) to "nationalize" elections, even as his own White House walks back the comments, and his administration has thrown [Harvard deal talks](https://www.nytimes.com/2026/02/03/us/politics/trump-changing-course-throws-harvard-deal-talks-into-chaos.html) into chaos with another policy reversal. It's a pattern that historians are calling "neoroyalism," reflecting how Trump's governing style echoes monarchical approaches to executive power.
+The Epstein files continue to dominate headlines across major outlets, with new revelations creating political headaches on both sides of the Atlantic. In the U.S., the scandal has prompted [Brad Karp's resignation](https://www.nytimes.com/2026/02/04/business/brad-karp-paul-weiss-resigns-epstein.html) as Paul Weiss chairman, while in Britain, it's fueling calls for Prime Minister Starmer's ouster over his handling of the Peter Mandelson connection. The files have revealed everything from [powerful men's involvement](https://www.nytimes.com/2026/01/31/us/epstein-trump-gates-musk-tisch-andrew.html) to [victims' disclosed names](https://www.nytimes.com/2026/02/03/nyregion/epstein-files-victim-names.html), keeping the story front and center globally.
 
 **Business/Tech**
 
-• The [Epstein files](https://www.nytimes.com/2026/02/03/business/jeffrey-epstein-trust-inherit-karyna-shuliak.html) keep revealing new details, this time about who stands to inherit his fortune through a trust structure that's finally been made public.
+• The [Washington Post axed](https://www.nytimes.com/2026/02/04/business/media/washington-post-layoffs.html) more than 300 journalists in a massive downsizing that cuts a third of its staff, marking another brutal blow to legacy media.
 
-• [Musk merged](https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html) SpaceX with his AI startup xAI, creating a massive space-tech conglomerate that could reshape both industries.
+• [Netflix's Sarandos faced](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) skeptical lawmakers over the streaming giant's proposed Warner deal, as regulators scrutinize the consolidation of entertainment power.
 
-• Netflix's leadership is [pushing hard](https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html) for its Warner Bros. acquisition in front of skeptical senators who worry about media consolidation.
+• Google's pulling ahead of OpenAI with what Reuters calls "stellar AI growth," flipping from laggard to leader in the artificial intelligence race.
 
-• [Match Group surged](https://www.bloomberg.com/news/articles/2026-02-03/match-beats-on-quarterly-revenue-earnings-in-sign-of-turnaround) after earnings that suggest its turnaround strategy is finally working, according to Bloomberg.
+• [Bitcoin's tumbling](https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEJYN0YyS19DNkU0dHFOUUo1eDJmMXh0ZjlHcGlDQ3FWcW1IbVFpOUlKUkFFeGQ0eW9jQWdyaFB1a2k2b0hEZTBPOVFKZFUwcWdEbFpnQi0zWU1sN0xnM0E0QlA3UnVpNldEamdmU05NMEVROEFOQTB3M254OEpmRFpvUXR4N1FPTHJoeXYtSQ?oc=5) as it approaches the key $70,000 threshold, showing just how volatile crypto markets remain.
 
 **Around the World**
 
-• **Latin America**: [Venezuela's authoritarian grip](https://www.nytimes.com/2026/02/03/world/americas/venezuela-rodriguez-maduro-authoritarian.html) appears to be loosening slightly, but analysts are questioning how long any reforms will last under Maduro's government.
+• **Latin America**: [Venezuela's detaining](https://www.nytimes.com/2026/02/04/world/americas/venezuela-said-to-detain-maduro-allies-targeted-by-the-us.html) Maduro allies who've been targeted by U.S. sanctions, suggesting internal fractures within the regime as international pressure mounts.
 
-• **Europe**: At least [15 migrants died](https://www.nytimes.com/2026/02/04/world/europe/15-dead-migrant-clash-collision-greece.html) in a rare collision between a migrant boat and Greek patrol vessel, highlighting the ongoing dangers in the Mediterranean crossing.
+• **Europe**: A [Russian comedian got](https://www.nytimes.com/2026/02/04/world/europe/russian-comedian-jokes-about-veterans.html) prison time for making jokes about veterans, showing how Moscow's crackdown on dissent now extends to even mild criticism wrapped in humor.
 
-• **Asia**: Beijing detained [two Chinese journalists](https://www.nytimes.com/2026/02/04/world/asia/china-journalists-liu-hu-detained.html) who were reporting on corruption, part of Xi Jinping's continued crackdown on press freedom.
+• **Asia**: [Two Chinese journalists](https://www.nytimes.com/2026/02/04/world/asia/china-journalists-liu-hu-detained.html) were detained for reporting on corruption, as Beijing continues tightening its grip on press freedoms despite its anti-graft rhetoric.
 
-• **Middle East**: The [UAE and Saudi Arabia](https://www.nytimes.com/2026/02/04/world/middleeast/emirates-saudi-arabia-rift.html) are openly clashing despite both being Trump's closest Arab allies, creating new complications for Gulf diplomacy.
+• **Middle East**: Beyond the U.S.-Iran talks, [two staffers quit](https://www.nytimes.com/2026/02/04/world/middleeast/israel-human-rights-watch-palestinians.html) Human Rights Watch over a shelved report criticizing Israel, highlighting ongoing tensions within advocacy organizations over Middle East coverage.
 
-• **Africa**: Health officials are warning that "[biblical diseases](https://www.nytimes.com/2026/02/03/health/neglected-tropical-diseases-usaid-ntds-river-blindness.html)" like river blindness could resurge across the continent due to funding cuts to neglected tropical disease programs.
+• **Africa**: [Gunmen killed](https://www.nytimes.com/2026/02/04/world/africa/nigeria-attack-woro-nuku.html) more than 160 people in Nigeria according to aid officials, underscoring the persistent security crisis plaguing Africa's most populous nation.
