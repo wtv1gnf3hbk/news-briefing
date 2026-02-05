@@ -66,6 +66,75 @@ function callClaude(prompt) {
 }
 
 // ============================================
+// FEEDBACK MEMORY
+// ============================================
+
+function getRecentFeedback() {
+  try {
+    const history = JSON.parse(fs.readFileSync('briefing-history.json', 'utf8'));
+    const recent = history
+      .filter(e => e.human_feedback || e.auto_scores?.feedback)
+      .slice(-7);
+
+    if (recent.length === 0) return '';
+
+    const lines = [];
+
+    // Human feedback takes priority
+    const humanEntries = recent.filter(e => e.human_feedback);
+    if (humanEntries.length > 0) {
+      lines.push('RECENT FEEDBACK FROM ADAM (pay close attention):');
+      humanEntries.slice(-5).forEach(e => {
+        const f = e.human_feedback;
+        lines.push(`- [${e.date}, ${f.score}/5]: ${f.notes || 'no notes'}`);
+        if (f.keep) lines.push(`  Keep doing: ${f.keep}`);
+        if (f.fix) lines.push(`  Fix: ${f.fix}`);
+      });
+    }
+
+    // LLM judge feedback as supplement
+    const judgeEntries = recent
+      .filter(e => e.auto_scores?.feedback && !e.human_feedback)
+      .slice(-3);
+    if (judgeEntries.length > 0) {
+      lines.push('RECENT QUALITY NOTES:');
+      judgeEntries.forEach(e => {
+        lines.push(`- [${e.date}]: ${e.auto_scores.feedback}`);
+      });
+    }
+
+    return lines.length > 0 ? '\n' + lines.join('\n') + '\n' : '';
+  } catch {
+    return '';
+  }
+}
+
+// ============================================
+// QUICK STRUCTURAL SANITY CHECK (for retry logic)
+// ============================================
+
+function quickSanityCheck(text) {
+  const issues = [];
+
+  if (!text.startsWith("Good morning. Here's the state of play:")) {
+    issues.push('Missing greeting');
+  }
+  if (!text.includes('**Business/Tech**')) {
+    issues.push('Missing Business/Tech section');
+  }
+  if (!text.includes('**Around the World**')) {
+    issues.push('Missing Around the World section');
+  }
+  const regions = ['Latin America', 'Europe', 'Asia', 'Middle East', 'Africa'];
+  const missing = regions.filter(r => !text.includes(`**${r}**`));
+  if (missing.length > 0) {
+    issues.push(`Missing regions: ${missing.join(', ')}`);
+  }
+
+  return { pass: issues.length === 0, issues };
+}
+
+// ============================================
 // CROSS-SOURCE LEAD ANALYSIS
 // ============================================
 
@@ -297,10 +366,18 @@ The NYT lead aligns with international coverage, so proceed normally.
 `;
   }
 
+  // Pull in recent feedback to inform today's briefing
+  const feedbackMemory = getRecentFeedback();
+  if (feedbackMemory) {
+    console.log('=== FEEDBACK MEMORY ===');
+    console.log(feedbackMemory.trim());
+    console.log('=======================\n');
+  }
+
   const prompt = `You are writing a morning news briefing for Adam, an NYT journalist who writes "The World" newsletter (international news).
 
 Write a conversational briefing based on this headline data. Follow these rules EXACTLY:
-${leadGuidance}
+${leadGuidance}${feedbackMemory}
 FORMAT:
 - Start with "Good morning. Here's the state of play:" (no name, just greeting)
 - 2-3 paragraphs on the lead/top stories (synthesize, don't just list)
@@ -355,9 +432,31 @@ Write the briefing now. Keep it concise but comprehensive.`;
   const startTime = Date.now();
 
   try {
-    const briefingText = await callClaude(prompt);
-    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    let briefingText = await callClaude(prompt);
+    let elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
     console.log(`Claude responded in ${elapsed}s`);
+
+    // Sanity check - retry once if structural issues
+    const sanity = quickSanityCheck(briefingText);
+    if (!sanity.pass) {
+      console.log(`Sanity check failed: ${sanity.issues.join(', ')}`);
+      console.log('Retrying with explicit format reminder...');
+
+      const retryPrompt = prompt + `\n\nIMPORTANT REMINDER: Your previous attempt had these issues: ${sanity.issues.join('; ')}. Fix them in this attempt.`;
+      const retryStart = Date.now();
+      briefingText = await callClaude(retryPrompt);
+      elapsed = ((Date.now() - retryStart) / 1000).toFixed(1);
+      console.log(`Retry responded in ${elapsed}s`);
+
+      const recheck = quickSanityCheck(briefingText);
+      if (!recheck.pass) {
+        console.log(`Retry still has issues: ${recheck.issues.join(', ')} - using best attempt`);
+      } else {
+        console.log('Retry passed sanity check');
+      }
+    } else {
+      console.log('Passed structural sanity check');
+    }
 
     // Save markdown
     fs.writeFileSync('briefing.md', briefingText);
