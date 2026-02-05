@@ -373,126 +373,63 @@ function parseEconomistWorldInBrief(html) {
 }
 
 // Fetch Economist World in Brief with login using headless browser
+// Optimized: Go directly to login page, skip checks, use faster waits
 async function fetchEconomistWithLogin() {
   let browser = null;
   try {
     console.log('  Launching browser for Economist...');
     browser = await puppeteer.launch({
       headless: 'new',
-      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
     });
 
     const page = await browser.newPage();
-    await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36');
 
-    // Go directly to World in Brief
+    // Go directly to login page (skip checking if we need to log in)
+    console.log('  Going directly to login...');
+    await page.goto('https://www.economist.com/api/auth/login', {
+      waitUntil: 'domcontentloaded',  // Faster than networkidle2
+      timeout: 15000
+    });
+
+    // Wait for email field (shorter timeout)
+    await page.waitForSelector('input[type="email"], input[name="email"]', { timeout: 5000 }).catch(() => {});
+
+    // Fill email and password in one go
+    await page.evaluate((email, pwd) => {
+      const emailEl = document.querySelector('input[type="email"], input[name="email"]');
+      const pwdEl = document.querySelector('input[type="password"]');
+      if (emailEl) {
+        emailEl.value = email;
+        emailEl.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+      if (pwdEl) {
+        pwdEl.value = pwd;
+        pwdEl.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }, ECONOMIST_EMAIL, ECONOMIST_PASSWORD);
+
+    // Submit and don't wait for full navigation
+    console.log('  Submitting login...');
+    await Promise.all([
+      page.evaluate(() => {
+        const btn = document.querySelector('button[type="submit"], input[type="submit"]');
+        if (btn) btn.click();
+      }),
+      page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 10000 }).catch(() => {})
+    ]);
+
+    // Go to World in Brief
     console.log('  Navigating to World in Brief...');
     await page.goto('https://www.economist.com/the-world-in-brief', {
-      waitUntil: 'networkidle2',
-      timeout: 30000
+      waitUntil: 'domcontentloaded',
+      timeout: 15000
     });
 
-    // Check if we need to log in - look for login/subscribe buttons or paywall
-    const needsLogin = await page.evaluate(() => {
-      const text = document.body.innerText.toLowerCase();
-      return text.includes('subscribe') || text.includes('log in') || text.includes('sign in') ||
-             document.querySelector('[data-testid="login-button"]') ||
-             document.querySelector('a[href*="login"]') ||
-             document.querySelector('.paywall');
-    });
+    // Quick wait for content
+    await new Promise(r => setTimeout(r, 1000));
 
-    if (needsLogin) {
-      console.log('  Login required, clicking login link...');
-
-      // Try to find and click login link
-      const loginClicked = await page.evaluate(() => {
-        const selectors = [
-          'a[href*="login"]',
-          'button:contains("Log in")',
-          '[data-testid="login-button"]',
-          'a:contains("Log in")',
-          '.login-link',
-          'nav a[href*="auth"]'
-        ];
-        for (const sel of selectors) {
-          try {
-            const el = document.querySelector(sel);
-            if (el) { el.click(); return true; }
-          } catch(e) {}
-        }
-        // Try finding by text content
-        const links = Array.from(document.querySelectorAll('a, button'));
-        for (const link of links) {
-          if (link.textContent.toLowerCase().includes('log in') ||
-              link.textContent.toLowerCase().includes('sign in')) {
-            link.click();
-            return true;
-          }
-        }
-        return false;
-      });
-
-      if (loginClicked) {
-        await new Promise(r => setTimeout(r, 2000));
-      }
-
-      // Wait for login form
-      console.log('  Waiting for login form...');
-      await page.waitForSelector('input[type="email"], input[name="email"], #email, input[type="text"][name*="email"]', { timeout: 10000 }).catch(() => {});
-
-      // Fill email
-      const emailFilled = await page.evaluate((email) => {
-        const selectors = ['input[type="email"]', 'input[name="email"]', '#email', 'input[autocomplete="email"]', 'input[type="text"]'];
-        for (const sel of selectors) {
-          const el = document.querySelector(sel);
-          if (el && (el.type === 'email' || el.name?.includes('email') || el.placeholder?.toLowerCase().includes('email'))) {
-            el.value = email;
-            el.dispatchEvent(new Event('input', { bubbles: true }));
-            return true;
-          }
-        }
-        return false;
-      }, ECONOMIST_EMAIL);
-      console.log('  Email filled:', emailFilled);
-
-      // Fill password
-      const pwdFilled = await page.evaluate((pwd) => {
-        const el = document.querySelector('input[type="password"]');
-        if (el) {
-          el.value = pwd;
-          el.dispatchEvent(new Event('input', { bubbles: true }));
-          return true;
-        }
-        return false;
-      }, ECONOMIST_PASSWORD);
-      console.log('  Password filled:', pwdFilled);
-
-      // Submit
-      if (emailFilled && pwdFilled) {
-        console.log('  Submitting login...');
-        await page.evaluate(() => {
-          const btn = document.querySelector('button[type="submit"], input[type="submit"]');
-          if (btn) btn.click();
-        });
-
-        // Wait for navigation/login to complete
-        await new Promise(r => setTimeout(r, 5000));
-
-        // Navigate back to World in Brief if needed
-        const currentUrl = page.url();
-        if (!currentUrl.includes('the-world-in-brief')) {
-          await page.goto('https://www.economist.com/the-world-in-brief', {
-            waitUntil: 'networkidle2',
-            timeout: 30000
-          });
-        }
-      }
-    }
-
-    // Wait for content to load
-    await new Promise(r => setTimeout(r, 2000));
-
-    // Get the page HTML
     const html = await page.content();
     console.log('  Got Economist HTML, length:', html.length);
 
@@ -607,33 +544,40 @@ const ALL_SOURCES = [
 ];
 
 async function scrapeAll() {
-  console.log('Fetching all sources in parallel...');
+  console.log('Fetching all sources in parallel (including Economist)...');
 
   // Separate Economist (needs puppeteer) from other sources
   const regularSources = ALL_SOURCES.filter(s => s.type !== 'economist_homepage');
-
-  // Fetch regular sources in parallel
-  const results = await Promise.all(
-    regularSources.map(async (source) => {
-      try {
-        const html = await fetch(source.url);
-        return { ...source, html, error: null };
-      } catch (e) {
-        return { ...source, html: null, error: e.message };
-      }
-    })
-  );
-
-  // Fetch Economist separately with login
   const economistSource = ALL_SOURCES.find(s => s.type === 'economist_homepage');
-  if (economistSource) {
-    try {
-      const html = await fetchEconomistWithLogin();
-      results.push({ ...economistSource, html, error: html ? null : 'Login failed' });
-    } catch (e) {
-      results.push({ ...economistSource, html: null, error: e.message });
-    }
-  }
+
+  // Fetch ALL sources in parallel - including Economist
+  const [regularResults, economistResult] = await Promise.all([
+    // Regular HTTP fetches
+    Promise.all(
+      regularSources.map(async (source) => {
+        try {
+          const html = await fetch(source.url);
+          return { ...source, html, error: null };
+        } catch (e) {
+          return { ...source, html: null, error: e.message };
+        }
+      })
+    ),
+    // Economist Puppeteer fetch (runs simultaneously)
+    (async () => {
+      if (!economistSource) return null;
+      try {
+        const html = await fetchEconomistWithLogin();
+        return { ...economistSource, html, error: html ? null : 'Login failed' };
+      } catch (e) {
+        return { ...economistSource, html: null, error: e.message };
+      }
+    })()
+  ]);
+
+  // Combine results
+  const results = [...regularResults];
+  if (economistResult) results.push(economistResult);
 
   // Process results
   const nyt = { lead: null, live: [], primary: [], secondary: [], timestamp: new Date().toISOString() };
