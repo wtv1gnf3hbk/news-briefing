@@ -575,12 +575,13 @@ The NYT lead aligns with international coverage, so proceed normally.
 
     const totalTime = ((Date.now() - totalStart) / 1000).toFixed(1);
 
-    // Save outputs
-    fs.writeFileSync('briefing.md', finalBriefing);
-    console.log('\nSaved briefing.md');
+    // Save outputs to briefing-v2/ for separate GitHub Pages URL
+    fs.mkdirSync('briefing-v2', { recursive: true });
+    fs.writeFileSync('briefing-v2/briefing.md', finalBriefing);
+    console.log('\nSaved briefing-v2/briefing.md');
 
-    fs.writeFileSync('index.html', generateHTML(finalBriefing));
-    console.log('Saved index.html');
+    fs.writeFileSync('briefing-v2/index.html', generateHTML(finalBriefing));
+    console.log('Saved briefing-v2/index.html');
 
     console.log(`\n✅ Briefing 2.0 complete in ${totalTime}s (write: ${writeTime}s, edit: ${editTime}s, revise: ${reviseTime}s)`);
 
