@@ -4,6 +4,8 @@
 
 - `generate-briefing.js` - Scrapes all news sources, outputs `briefing.json`
 - `write-briefing.js` - Uses Claude API to write conversational briefing from JSON
+- `evaluate-briefing.js` - Evaluates briefing quality + records human feedback
+- `briefing-history.json` - Accumulates daily auto scores + human feedback
 - `.github/workflows/briefing.yml` - Daily workflow (6am ET) + manual trigger
 
 ## International Homepage Scraping
@@ -92,3 +94,77 @@ Good:
 - "Amazon is cutting 16,000 jobs..."
 
 Note: "'s" for possession is fine (e.g., "Amazon's CEO", "Meta's earnings").
+
+## Evaluation & Feedback System
+
+### Overview
+Three-layer automated evaluation runs after each briefing generation, plus human feedback that feeds into the next day's prompt.
+
+Pipeline: `generate-briefing.js` → `write-briefing.js` → `evaluate-briefing.js` → `generate-podcast.js`
+
+### Running Evaluation
+```bash
+# Full auto evaluation (structural + source integrity + LLM judge)
+node evaluate-briefing.js
+
+# Record human feedback (quick)
+node evaluate-briefing.js feedback 4 "lead was strong, AW bullets too thin"
+
+# Record human feedback (interactive - prompts for score, notes, keep, fix)
+node evaluate-briefing.js feedback
+
+# View score history and trends
+node evaluate-briefing.js history
+```
+
+### Three Evaluation Layers
+
+**Layer 1 - Structural Checks** (automated, no API):
+- Greeting format, Business/Tech section, Around the World section
+- All 5 regional bullets present (Latin America, Europe, Asia, Middle East, Africa)
+- Every bullet has ≥1 markdown link, link text ≤3 words
+- No `'s`-as-is contractions, no "amid", no em-dashes
+- Word count 300-900
+
+**Layer 2 - Source Integrity** (automated, no API):
+- Every URL in output exists in `briefing.json` (catches hallucinated URLs)
+- Link count 6-25, attribution variety, non-NYT sources cited
+
+**Layer 3 - Editorial Quality** (LLM judge, 1 API call):
+- 6 dimensions scored 1-5 (max 30): story selection, synthesis, global balance, conversational tone, information density, lead quality
+- Threshold: 22/30 to pass
+- Returns specific actionable feedback for improvement
+
+### Feedback Loop
+- `write-briefing.js` reads the last 7 days from `briefing-history.json`
+- Human feedback (score, notes, keep/fix) gets injected into the generation prompt
+- LLM judge feedback supplements when no human feedback exists
+- `write-briefing.js` runs a structural sanity check after generation and retries once on failure
+
+### briefing-history.json Format
+```json
+[
+  {
+    "date": "2026-02-05",
+    "auto_scores": {
+      "structural_pass": true,
+      "source_integrity_pass": true,
+      "story_selection": {"score": 4, "note": "..."},
+      "total": 24,
+      "feedback": "actionable feedback string"
+    },
+    "human_feedback": {
+      "score": 4,
+      "notes": "lead was great, AW section thin",
+      "keep": "cross-source synthesis",
+      "fix": "more context in regional bullets"
+    }
+  }
+]
+```
+
+### Success Metrics for Iteration
+- **Structural pass rate** should be 100% (hard failures trigger retry)
+- **LLM judge total** target ≥22/30, track trend over time
+- **Human score** is ground truth - correlate with auto scores to calibrate rubric
+- Agents modifying prompts/scraping can measure impact by comparing score averages before/after changes
