@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-02-06",
+    "auto_scores": {
+      "structural_pass": false,
+      "structural_failures": [
+        "bullet_links",
+        "no_is_contraction"
+      ],
+      "source_integrity_pass": true,
+      "source_integrity_failures": [],
+      "word_count": 371,
+      "evaluated_at": "2026-02-06T00:14:09.209Z"
+    },
+    "human_feedback": null
+  }
+]

@@ -66,6 +66,75 @@ function callClaude(prompt) {
 }
 
 // ============================================
+// FEEDBACK MEMORY
+// ============================================
+
+function getRecentFeedback() {
+  try {
+    const history = JSON.parse(fs.readFileSync('briefing-history.json', 'utf8'));
+    const recent = history
+      .filter(e => e.human_feedback || e.auto_scores?.feedback)
+      .slice(-7);
+
+    if (recent.length === 0) return '';
+
+    const lines = [];
+
+    // Human feedback takes priority
+    const humanEntries = recent.filter(e => e.human_feedback);
+    if (humanEntries.length > 0) {
+      lines.push('RECENT FEEDBACK FROM ADAM (pay close attention):');
+      humanEntries.slice(-5).forEach(e => {
+        const f = e.human_feedback;
+        lines.push(`- [${e.date}, ${f.score}/5]: ${f.notes || 'no notes'}`);
+        if (f.keep) lines.push(`  Keep doing: ${f.keep}`);
+        if (f.fix) lines.push(`  Fix: ${f.fix}`);
+      });
+    }
+
+    // LLM judge feedback as supplement
+    const judgeEntries = recent
+      .filter(e => e.auto_scores?.feedback && !e.human_feedback)
+      .slice(-3);
+    if (judgeEntries.length > 0) {
+      lines.push('RECENT QUALITY NOTES:');
+      judgeEntries.forEach(e => {
+        lines.push(`- [${e.date}]: ${e.auto_scores.feedback}`);
+      });
+    }
+
+    return lines.length > 0 ? '\n' + lines.join('\n') + '\n' : '';
+  } catch {
+    return '';
+  }
+}
+
+// ============================================
+// QUICK STRUCTURAL SANITY CHECK (for retry logic)
+// ============================================
+
+function quickSanityCheck(text) {
+  const issues = [];
+
+  if (!text.startsWith("Good morning. Here's the state of play:")) {
+    issues.push('Missing greeting');
+  }
+  if (!text.includes('**Business/Tech**')) {
+    issues.push('Missing Business/Tech section');
+  }
+  if (!text.includes('**Around the World**')) {
+    issues.push('Missing Around the World section');
+  }
+  const regions = ['Latin America', 'Europe', 'Asia', 'Middle East', 'Africa'];
+  const missing = regions.filter(r => !text.includes(`**${r}**`));
+  if (missing.length > 0) {
+    issues.push(`Missing regions: ${missing.join(', ')}`);
+  }
+
+  return { pass: issues.length === 0, issues };
+}
+
+// ============================================
 // CROSS-SOURCE LEAD ANALYSIS
 // ============================================
 
@@ -297,10 +366,18 @@ The NYT lead aligns with international coverage, so proceed normally.
 `;
   }
 
+  // Pull in recent feedback to inform today's briefing
+  const feedbackMemory = getRecentFeedback();
+  if (feedbackMemory) {
+    console.log('=== FEEDBACK MEMORY ===');
+    console.log(feedbackMemory.trim());
+    console.log('=======================\n');
+  }
+
   const prompt = `You are writing a morning news briefing for Adam, an NYT journalist who writes "The World" newsletter (international news).
 
 Write a conversational briefing based on this headline data. Follow these rules EXACTLY:
-${leadGuidance}
+${leadGuidance}${feedbackMemory}
 FORMAT:
 - Start with "Good morning. Here's the state of play:" (no name, just greeting)
 - 2-3 paragraphs on the lead/top stories (synthesize, don't just list)
@@ -355,9 +432,31 @@ Write the briefing now. Keep it concise but comprehensive.`;
   const startTime = Date.now();
 
   try {
-    const briefingText = await callClaude(prompt);
-    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    let briefingText = await callClaude(prompt);
+    let elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
     console.log(`Claude responded in ${elapsed}s`);
+
+    // Sanity check - retry once if structural issues
+    const sanity = quickSanityCheck(briefingText);
+    if (!sanity.pass) {
+      console.log(`Sanity check failed: ${sanity.issues.join(', ')}`);
+      console.log('Retrying with explicit format reminder...');
+
+      const retryPrompt = prompt + `\n\nIMPORTANT REMINDER: Your previous attempt had these issues: ${sanity.issues.join('; ')}. Fix them in this attempt.`;
+      const retryStart = Date.now();
+      briefingText = await callClaude(retryPrompt);
+      elapsed = ((Date.now() - retryStart) / 1000).toFixed(1);
+      console.log(`Retry responded in ${elapsed}s`);
+
+      const recheck = quickSanityCheck(briefingText);
+      if (!recheck.pass) {
+        console.log(`Retry still has issues: ${recheck.issues.join(', ')} - using best attempt`);
+      } else {
+        console.log('Retry passed sanity check');
+      }
+    } else {
+      console.log('Passed structural sanity check');
+    }
 
     // Save markdown
     fs.writeFileSync('briefing.md', briefingText);
@@ -491,6 +590,76 @@ ${briefingText
   })
   .join('\n')}
   </div>
+
+  <!-- Feedback Widget -->
+  <div id="feedback-widget" style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #ddd;">
+    <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.9rem; color: #666; margin-bottom: 12px;">
+      How was today's briefing?
+    </div>
+    <div id="feedback-buttons" style="display: flex; gap: 8px; margin-bottom: 12px;">
+      ${[1,2,3,4,5].map(n => `<button onclick="submitFeedback(${n})" style="
+        width: 40px; height: 40px; border-radius: 8px; border: 1px solid #ccc;
+        background: #fff; cursor: pointer; font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      " onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fff'">${n}</button>`).join('\n      ')}
+    </div>
+    <textarea id="feedback-notes" placeholder="Notes (optional)" style="
+      width: 100%; height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 8px;
+      font-family: Georgia, serif; font-size: 0.85rem; resize: vertical; display: none;
+    "></textarea>
+    <div id="feedback-status" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.85rem; color: #666;"></div>
+  </div>
+  <script>
+    let selectedScore = null;
+    const feedbackDate = '${new Date().toISOString().split('T')[0]}';
+
+    function submitFeedback(score) {
+      selectedScore = score;
+      // Highlight selected button
+      document.querySelectorAll('#feedback-buttons button').forEach((btn, i) => {
+        btn.style.background = (i + 1 === score) ? '#1a1a1a' : '#fff';
+        btn.style.color = (i + 1 === score) ? '#fff' : '#1a1a1a';
+      });
+      // Show notes field
+      document.getElementById('feedback-notes').style.display = 'block';
+      // Auto-submit after short delay (user can add notes first)
+      clearTimeout(window._feedbackTimeout);
+      window._feedbackTimeout = setTimeout(sendFeedback, 3000);
+    }
+
+    async function sendFeedback() {
+      if (!selectedScore) return;
+      const notes = document.getElementById('feedback-notes').value;
+      const status = document.getElementById('feedback-status');
+      status.textContent = 'Sending...';
+
+      try {
+        const params = new URLSearchParams({ score: selectedScore, date: feedbackDate });
+        if (notes) params.set('notes', notes);
+        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/feedback?' + params);
+        const data = await res.json();
+        if (data.success) {
+          status.textContent = 'Thanks! Score: ' + selectedScore + '/5';
+          document.getElementById('feedback-notes').style.display = 'none';
+        } else {
+          status.textContent = 'Saved locally. Score: ' + selectedScore + '/5';
+        }
+      } catch (e) {
+        status.textContent = 'Saved locally. Score: ' + selectedScore + '/5';
+      }
+      // Disable further submissions
+      document.querySelectorAll('#feedback-buttons button').forEach(btn => {
+        btn.disabled = true;
+        btn.style.cursor = 'default';
+      });
+    }
+
+    // Submit on notes blur too
+    document.getElementById('feedback-notes').addEventListener('blur', () => {
+      clearTimeout(window._feedbackTimeout);
+      sendFeedback();
+    });
+  </script>
 </body>
 </html>`;
 
