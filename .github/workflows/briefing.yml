@@ -28,6 +28,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Pull web feedback
+        env:
+          FEEDBACK_TOKEN: ${{ secrets.FEEDBACK_TOKEN }}
+        run: node pull-feedback.js
+
       - name: Scrape headlines
         env:
           ECONOMIST_EMAIL: ${{ secrets.ECONOMIST_EMAIL }}
