@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Briefing</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 32px 16px;
+      background: #fafafa;
+      color: #1a1a1a;
+    }
+    .timestamp {
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 24px;
+    }
+    h1, h2, strong {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    p { margin-bottom: 16px; }
+    ul { margin: 12px 0 20px 0; padding-left: 0; list-style: none; }
+    li { margin-bottom: 10px; padding-left: 16px; position: relative; }
+    li::before { content: "\2022"; position: absolute; left: 0; color: #999; }
+    a {
+      color: #1a1a1a;
+      text-decoration: underline;
+      text-decoration-color: #999;
+      text-underline-offset: 2px;
+    }
+    a:hover { text-decoration-color: #333; }
+    strong { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="timestamp">Generated Friday, February 6, 2026 at 8:19 PM ET · <a href="#" onclick="refreshBriefing(); return false;">Refresh</a></div>
+  <script>
+    async function refreshBriefing() {
+      const link = event.target;
+      link.textContent = 'Refreshing...';
+      link.style.pointerEvents = 'none';
+      try {
+        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
+        const data = await res.json();
+        if (data.success) {
+          link.textContent = 'Triggered! Reloading in 60s...';
+          setTimeout(() => location.reload(), 60000);
+        } else {
+          link.textContent = 'Error - try again';
+          link.style.pointerEvents = 'auto';
+        }
+      } catch (e) {
+        link.textContent = 'Error - try again';
+        link.style.pointerEvents = 'auto';
+      }
+    }
+  </script>
+
+  <!-- Audio Player -->
+  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <button id="play-btn" onclick="toggleAudio()" style="
+        width: 48px; height: 48px; border-radius: 50%; border: none;
+        background: #1a1a1a; color: white; cursor: pointer;
+        font-size: 18px; display: flex; align-items: center; justify-content: center;
+      ">&#9658;</button>
+      <div style="flex: 1;">
+        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
+          Listen to today's briefing
+        </div>
+        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
+      </div>
+    </div>
+    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
+  </div>
+  <script>
+    const audio = document.getElementById('briefing-audio');
+    const playBtn = document.getElementById('play-btn');
+    const voiceInfo = document.getElementById('voice-info');
+    audio.addEventListener('loadedmetadata', () => {
+      const duration = Math.round(audio.duration);
+      const mins = Math.floor(duration / 60);
+      const secs = duration % 60;
+      voiceInfo.textContent = mins + ':' + secs.toString().padStart(2, '0');
+    });
+    audio.addEventListener('error', () => {
+      document.getElementById('audio-player').style.display = 'none';
+    });
+    audio.addEventListener('ended', () => {
+      playBtn.innerHTML = '&#9658;';
+    });
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        playBtn.innerHTML = '&#10074;&#10074;';
+      } else {
+        audio.pause();
+        playBtn.innerHTML = '&#9658;';
+      }
+    }
+  </script>
+
+  <div id="content">
+<p>Good morning. Here's the state of play:</p><p>Trump's transactional approach to diplomacy is getting a stress test from all directions. The president's <a href="https://www.nytimes.com/2026/02/04/us/politics/trump-deals-allies-adversaries.html" target="_blank">unpredictable style</a> that he claims gives him leverage is running up against some hard realities. Xi Jinping pressed him directly on Taiwan during <a href="https://www.nytimes.com/2026/02/04/us/politics/xi-phone-call-taiwan.html" target="_blank">their phone call</a> yesterday, warning the US to be "prudent" about arms supplies to the island. That's diplomatic speak for backing off, and it shows how Beijing is testing Trump's resolve early.</p><p>The Epstein files continue to ripple through Washington and beyond, with <a href="https://www.nytimes.com/2026/02/04/business/brad-karp-paul-weiss-resigns-epstein.html" target="_blank">Brad Karp resigning</a> as chairman of elite law firm Paul Weiss over the fallout. It's a reminder of how these revelations aren't just reshaping American politics but creating headaches for allies as well.</p><p><strong>Business/Tech</strong></p><p>• The <a href="https://www.nytimes.com/2026/02/04/business/media/washington-post-layoffs.html" target="_blank">Washington Post</a> delivered a brutal blow to its newsroom yesterday, cutting a third of its staff and laying off more than 300 journalists in what many are calling the end of an era for one of America's most storied news brands.</p><p>• Google is apparently <a href="https://www.reuters.com/technology/google-goes-laggard-leader-it-pulls-ahead-openai-stellar-ai-growth-2026-02-05/" target="_blank">pulling</a> ahead of OpenAI in the AI race, according to Reuters, going from laggard to leader with what analysts are calling stellar growth numbers.</p><p>• <a href="https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html" target="_blank">Netflix's Ted Sarandos</a> faced skeptical lawmakers over the company's proposed Warner deal, trying to sell a merger that's raising all the usual antitrust red flags.</p><p>• <a href="https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html" target="_blank">Elon Musk merged</a> SpaceX with his AI startup xAI, creating what could be a formidable space-meets-artificial-intelligence powerhouse.</p><p><strong>Around the World</strong></p><p>• <strong>Latin America</strong>: Venezuela's Maduro government has reportedly <a href="https://www.nytimes.com/2026/02/04/world/americas/venezuela-said-to-detain-maduro-allies-targeted-by-the-us.html" target="_blank">detained allies</a> who were targeted by US sanctions, suggesting either an internal purge or a gesture toward Washington.</p><p>• <strong>Europe</strong>: <a href="https://www.nytimes.com/2026/02/04/world/europe/netherlands-queen-maxima-military.html" target="_blank">Queen Maxima</a> joined the Dutch armed forces in a symbolic show of support for the military, a rare move that signals how European royals are stepping up backing for defense institutions.</p><p>• <strong>Asia</strong>: Two Chinese journalists were <a href="https://www.nytimes.com/2026/02/04/world/asia/china-journalists-liu-hu-detained.html" target="_blank">detained</a> for reporting on corruption, the latest sign of Beijing's tightening grip on press freedom even as it engages diplomatically with Trump.</p><p>• <strong>Middle East</strong>: The US and Iran are set for <a href="https://www.nytimes.com/2026/02/04/world/middleeast/iran-us-talks-oman.html" target="_blank">talks in Oman</a> on Friday after weeks of escalating threats, with oil prices already falling on hopes for de-escalation.</p><p>• <strong>Africa</strong>: A horrific attack in Nigeria left <a href="https://www.nytimes.com/2026/02/04/world/africa/nigeria-attack-woro-nuku.html" target="_blank">more than 160 people</a> dead after gunmen struck in the country's troubled north, making it one of this year's deadliest incidents according to aid officials.</p>
+  </div>
+</body>
+</html>
