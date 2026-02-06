@@ -1,10 +1,45 @@
 # News Briefing Project
 
+## User Notes
+
+Adam is not a developer. Keep git instructions simple (always include `cd ~/news-briefing` first). Explain file paths and directory structures when referencing them. Don't assume familiarity with terminal concepts.
+
 ## Architecture
 
-- `generate-briefing.js` - Scrapes all news sources, outputs `briefing.json`
-- `write-briefing.js` - Uses Claude API to write conversational briefing from JSON
-- `.github/workflows/briefing.yml` - Daily workflow (6am ET) + manual trigger
+### File Structure
+```
+news-briefing/
+  generate-briefing.js      - Step 1: Scrapes news sources → briefing.json
+  write-briefing.js          - Step 2 (v1): Single API call → briefing.md + index.html
+  write-briefing-v2.js       - Step 2 (v2): 3-pass chain → briefing-v2/briefing.md + briefing-v2/index.html
+  briefing.json              - Raw scraped data (regenerated each run)
+  briefing.md                - V1 output (markdown)
+  index.html                 - V1 output (web page)
+  briefing-v2/
+    index.html               - V2 output (web page, served at /news-briefing/briefing-v2/)
+    briefing.md              - V2 output (markdown)
+    comparison.md            - Side-by-side comparison of all approaches
+    prompt.md                - Agent team prompt (for CLI use)
+  .claude/
+    commands/
+      run-briefing.md        - /project:run-briefing  (v1: single-shot)
+      run-briefing-v2.md     - /project:run-briefing-v2  (v2: 3-pass chain)
+  .github/
+    workflows/
+      briefing.yml           - Daily workflow (6am ET) + manual trigger
+```
+
+### Pipelines
+- **V1 (original)**: `generate-briefing.js` → `write-briefing.js` → `briefing.md` + `index.html`
+- **V2 (3-pass chain)**: `generate-briefing.js` → `write-briefing-v2.js` → `briefing-v2/briefing.md` + `briefing-v2/index.html`
+
+### GitHub Pages URLs
+- **V1**: https://wtv1gnf3hbk.github.io/news-briefing/
+- **V2**: https://wtv1gnf3hbk.github.io/news-briefing/briefing-v2/
+
+### Claude Code Commands
+- `/project:run-briefing` - Run v1 pipeline (scrape + single-shot write)
+- `/project:run-briefing-v2` - Run v2 pipeline (scrape + write → edit → revise)
 
 ## International Homepage Scraping
 
