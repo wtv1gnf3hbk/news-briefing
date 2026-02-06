@@ -590,6 +590,76 @@ ${briefingText
   })
   .join('\n')}
   </div>
+
+  <!-- Feedback Widget -->
+  <div id="feedback-widget" style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #ddd;">
+    <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.9rem; color: #666; margin-bottom: 12px;">
+      How was today's briefing?
+    </div>
+    <div id="feedback-buttons" style="display: flex; gap: 8px; margin-bottom: 12px;">
+      ${[1,2,3,4,5].map(n => `<button onclick="submitFeedback(${n})" style="
+        width: 40px; height: 40px; border-radius: 8px; border: 1px solid #ccc;
+        background: #fff; cursor: pointer; font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      " onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fff'">${n}</button>`).join('\n      ')}
+    </div>
+    <textarea id="feedback-notes" placeholder="Notes (optional)" style="
+      width: 100%; height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 8px;
+      font-family: Georgia, serif; font-size: 0.85rem; resize: vertical; display: none;
+    "></textarea>
+    <div id="feedback-status" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.85rem; color: #666;"></div>
+  </div>
+  <script>
+    let selectedScore = null;
+    const feedbackDate = '${new Date().toISOString().split('T')[0]}';
+
+    function submitFeedback(score) {
+      selectedScore = score;
+      // Highlight selected button
+      document.querySelectorAll('#feedback-buttons button').forEach((btn, i) => {
+        btn.style.background = (i + 1 === score) ? '#1a1a1a' : '#fff';
+        btn.style.color = (i + 1 === score) ? '#fff' : '#1a1a1a';
+      });
+      // Show notes field
+      document.getElementById('feedback-notes').style.display = 'block';
+      // Auto-submit after short delay (user can add notes first)
+      clearTimeout(window._feedbackTimeout);
+      window._feedbackTimeout = setTimeout(sendFeedback, 3000);
+    }
+
+    async function sendFeedback() {
+      if (!selectedScore) return;
+      const notes = document.getElementById('feedback-notes').value;
+      const status = document.getElementById('feedback-status');
+      status.textContent = 'Sending...';
+
+      try {
+        const params = new URLSearchParams({ score: selectedScore, date: feedbackDate });
+        if (notes) params.set('notes', notes);
+        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/feedback?' + params);
+        const data = await res.json();
+        if (data.success) {
+          status.textContent = 'Thanks! Score: ' + selectedScore + '/5';
+          document.getElementById('feedback-notes').style.display = 'none';
+        } else {
+          status.textContent = 'Saved locally. Score: ' + selectedScore + '/5';
+        }
+      } catch (e) {
+        status.textContent = 'Saved locally. Score: ' + selectedScore + '/5';
+      }
+      // Disable further submissions
+      document.querySelectorAll('#feedback-buttons button').forEach(btn => {
+        btn.disabled = true;
+        btn.style.cursor = 'default';
+      });
+    }
+
+    // Submit on notes blur too
+    document.getElementById('feedback-notes').addEventListener('blur', () => {
+      clearTimeout(window._feedbackTimeout);
+      sendFeedback();
+    });
+  </script>
 </body>
 </html>`;
 
