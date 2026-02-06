@@ -314,9 +314,13 @@ STYLE:
 - Full sentences, not headline fragments
 - BULLETS MUST BE CONVERSATIONAL TOO - write them as complete thoughts with context, not just "Headline happened, per Source"
 - BAD bullet: "AstraZeneca is switching from Nasdaq to NYSE, per Reuters"
-- GOOD bullet: "AstraZeneca's planning to ditch Nasdaq for the NYSE next month - a rare transatlantic switch that says something about where the action is"
+- GOOD bullet: "AstraZeneca is planning to ditch Nasdaq for the NYSE next month, a rare transatlantic switch that says something about where the action is"
 - Be specific about geopolitical frameworks - say "NATO" not "transatlantic relations", say "EU" not "Europe" when referring to the institution, name specific alliances and organizations
-- NEVER use the word "amid" - it's lazy jargon. Find a better way to connect ideas.- NEVER use em-dashes or hyphens to join two independent clauses. Write separate sentences instead.
+- NEVER use the word "amid" - it's lazy jargon. Find a better way to connect ideas.
+- NEVER use em-dashes or hyphens to join two independent clauses. Write separate sentences instead.
+- NEVER use 's as a contraction for "is" or "has" (possessives are fine). BAD: "Toyota's shaking things up" GOOD: "Toyota is shaking things up". BAD: "Iran's back to business" GOOD: "Iran is back to business".
+- NEVER add speculative analysis or editorializing. No "The timing isn't coincidental", "suggest it's doubling down", "which could...", "This signals...", "It's a reminder...". Stick to reported facts only.
+- When linking to a non-NYT source, ALWAYS attribute it. If a fact comes from an Al Jazeera link, say "Al Jazeera reports" or "according to Al Jazeera". The link alone is not enough attribution.
 
 LINKS (CRITICAL):
 - Use markdown links: [link text](url)

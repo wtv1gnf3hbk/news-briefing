@@ -1,6 +1,6 @@
 Good morning. Here's the state of play:
 
-Iran's back to business at its nuclear and missile facilities, according to new [satellite imagery](https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html) that shows Tehran rebuilding sites damaged in recent Israeli strikes. This comes as [indirect talks](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman) between the U.S. and Iran in Oman have ended "for now," leaving the nuclear standoff unresolved. The timing isn't coincidental. Iran's reconstruction efforts suggest it's doubling down on its strategic weapons programs even as diplomatic channels remain open but stalled.
+Iran's back to business at its nuclear and missile facilities, according to new [satellite imagery](https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html) that shows Tehran rebuilding sites damaged in recent Israeli strikes. This comes as [indirect talks](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman) between the U.S. and Iran in Oman have ended "for now," Al Jazeera reports.
 
 Elsewhere, the world's trying to focus on the [Winter Olympics](https://www.nytimes.com/2026/02/06/world/europe/olympics-world-order-war.html) opening ceremonies in Milan today, though the games are playing out against a backdrop of global tensions that make the Olympic ideal of harmony feel pretty distant. Even Pope Leo felt compelled to warn against using sports for "propaganda or national supremacy" as the ceremonies kick off.
 
@@ -10,7 +10,7 @@ Elsewhere, the world's trying to focus on the [Winter Olympics](https://www.nyti
 
 • The EU is going after [TikTok's design](https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html) features, accusing the platform of deliberately making its app addictive and demanding changes to protect users.
 
-• Toyota's shaking things up with a [CEO change](https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html) as the Japanese giant faces pressure from both U.S. trade policies and Chinese competition in the EV market.
+• Toyota is shaking things up with a [CEO change](https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html) as the Japanese giant faces pressure from both U.S. trade policies and Chinese competition in the EV market.
 
 • [Uber was found liable](https://www.nytimes.com/2026/02/05/business/uber-safety-rape-verdict.html) in a rape case involving one of its drivers, a verdict that could open the floodgates for thousands of similar lawsuits against the ride-sharing company.
 
