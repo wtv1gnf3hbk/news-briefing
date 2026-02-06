@@ -1,25 +1,27 @@
 Good morning. Here's the state of play:
 
-[Crypto's taking](https://www.nytimes.com/2026/02/05/technology/bitcoin-price-drop-crypto-market.html) a beating despite Trump's vocal support, with Bitcoin sliding below $67,000 and dragging the whole digital asset market down with it. It's a reality check for anyone who thought presidential cheerleading alone could prop up speculative investments. The selloff is part of a broader tech rout that's got investors spooked about valuations across the board.
+Iran's back to business at its nuclear and missile facilities, according to new [satellite imagery](https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html) that shows Tehran rebuilding sites damaged in recent Israeli strikes. This comes as [indirect talks](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman) between the U.S. and Iran in Oman have ended "for now," leaving the nuclear standoff unresolved. The timing isn't coincidental. Iran's reconstruction efforts suggest it's doubling down on its strategic weapons programs even as diplomatic channels remain open but stalled.
 
-Meanwhile, Trump's continuing his federal workforce overhaul, [expanding his authority](https://www.nytimes.com/live/2026/02/05/us/trump-news) to fire career civil servants. It's the latest step in what looks like a systematic effort to reshape how the federal government operates. On Capitol Hill, [senators are clashing](https://www.nytimes.com/2026/02/05/us/politics/senate-immigration-enforcement-dhs-shutdown.html) over immigration enforcement funding, raising the specter of a Department of Homeland Security shutdown if they can't find common ground.
+Elsewhere, the world's trying to focus on the [Winter Olympics](https://www.nytimes.com/2026/02/06/world/europe/olympics-world-order-war.html) opening ceremonies in Milan today, though the games are playing out against a backdrop of global tensions that make the Olympic ideal of harmony feel pretty distant. Even Pope Leo felt compelled to warn against using sports for "propaganda or national supremacy" as the ceremonies kick off.
 
 **Business/Tech**
 
-• [Amazon's doubling down](https://www.nytimes.com/2026/02/05/technology/amazon-200-billion-ai.html) with a $200 billion AI spending plan that puts serious money behind the artificial intelligence arms race. It's a massive bet that AI infrastructure will pay off in the long run.
+• [AI concerns](https://www.nytimes.com/2026/02/06/business/the-dark-side-of-ai-weighs-on-the-stock-market.html) are weighing on markets as investors worry about the technology's darker implications, contributing to this week's tech selloff that's had everyone on edge.
 
-• Tech stocks are getting hammered across Asia as the selloff that started in the U.S. spreads globally, according to Bloomberg. South Korean markets are taking it particularly hard.
+• The EU is going after [TikTok's design](https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html) features, accusing the platform of deliberately making its app addictive and demanding changes to protect users.
 
-• [Reddit's beating](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWl2QnR0RVY3UU1WWTVqMnVtWHNGMFRiUjhWS213UjV1OE9IT212b0F6b0RfZ3dxMjRfaWdkT3VZa2FkMUp6VXExOTAtMTdBSVVCU2lQamQ0VlRpVDFMbmRJalgyYnk4N0hmdVF6cURrcmJ1LUo1cU01eVlKMDEzLVN5aDl2N2pzVEw0WjdvRENDcFhfQ19Rdi05TlpYajRmRVNVc0ZqLWV5R1RPN05wVGdyUVgwbnlC?oc=5) revenue forecasts as AI tools help boost ad sales, per Reuters. At least someone's making money off the AI boom.
+• Toyota's shaking things up with a [CEO change](https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html) as the Japanese giant faces pressure from both U.S. trade policies and Chinese competition in the EV market.
+
+• [Uber was found liable](https://www.nytimes.com/2026/02/05/business/uber-safety-rape-verdict.html) in a rape case involving one of its drivers, a verdict that could open the floodgates for thousands of similar lawsuits against the ride-sharing company.
 
 **Around the World**
 
-• **Latin America**: Mexico's [tequila mayor](https://www.nytimes.com/2026/02/05/world/americas/mexico-tequila-mayor-arrested.html) is in hot water, accused of shaking down the very tequila companies that put his town on the map. You really can't make this stuff up.
+• **Latin America:** Argentina and the U.S. just signed a [sweeping trade deal](https://www.nytimes.com/2026/02/05/world/americas/argentina-us-trade-deal-trump-milei.html) that deepens the alliance between Trump and President Milei, marking a significant shift in hemispheric trade relationships.
 
-• **Europe**: Italy just [toughened protest laws](https://www.nytimes.com/2026/02/05/world/europe/italy-olympics-security-law-protests.html) hours before planned Winter Olympics rallies, creating a tense backdrop for what's supposed to be a celebration of international sport.
+• **Europe:** Norway's rallying behind its [royal family](https://www.nytimes.com/2026/02/06/world/europe/epstein-revelations-norway-royal-support.html) despite revelations about Epstein connections, showing how the scandal is rippling through European monarchies in unexpected ways.
 
-• **Asia**: Pakistan's military launched an operation that [displaced thousands](https://www.nytimes.com/2026/02/05/world/asia/pakistan-military-operation-displaced-people.html), but here's the twist: Islamabad claims it never ordered the offensive. The disconnect between military action and civilian authority is deeply troubling.
+• **Asia:** A Japanese politician is [upending local politics](https://www.nytimes.com/2026/02/06/world/asia/japan-election-pregnant-candidate.html) simply by announcing "I'm pregnant" during her campaign, challenging the country's rigid expectations for women in public life.
 
-• **Middle East**: Iranian Nobel laureate Narges Mohammadi has [started another hunger strike](https://www.nytimes.com/2026/02/05/world/middleeast/iran-narges-mohammadi-prison-hunger-strike.html) from prison, highlighting the regime's continued crackdown on dissent even as the BBC reports that US-Iran talks are set to begin.
+• **Middle East:** Iranian Nobel laureate Narges Mohammadi has started another [hunger strike](https://www.nytimes.com/2026/02/05/world/middleeast/iran-narges-mohammadi-prison-hunger-strike.html) in prison, highlighting Tehran's continued crackdown on dissent even as it engages in diplomacy abroad.
 
-• **Africa**: [Gunmen killed](https://www.nytimes.com/2026/02/04/world/africa/nigeria-attack-woro-nuku.html) more than 160 people in Nigeria, according to aid officials, another reminder of the security challenges plaguing parts of West Africa.
+• **Africa:** A [political shakeup](https://www.nytimes.com/2026/02/04/world/africa/john-steenhuisen-democratic-alliance-anc-south-africa.html) in South Africa has the Democratic Alliance leader stepping down, raising fears about the stability of the country's coalition government.

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Briefing</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 32px 16px;
+      background: #fafafa;
+      color: #1a1a1a;
+    }
+    .timestamp {
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 24px;
+    }
+    h1, h2, strong {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    p { margin-bottom: 16px; }
+    ul { margin: 12px 0 20px 0; padding-left: 0; list-style: none; }
+    li { margin-bottom: 10px; padding-left: 16px; position: relative; }
+    li::before { content: "\2022"; position: absolute; left: 0; color: #999; }
+    a {
+      color: #1a1a1a;
+      text-decoration: underline;
+      text-decoration-color: #999;
+      text-underline-offset: 2px;
+    }
+    a:hover { text-decoration-color: #333; }
+    strong { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="timestamp">Generated Friday, February 6, 2026 at 8:55 AM ET · <a href="#" onclick="refreshBriefing(); return false;">Refresh</a></div>
+  <script>
+    async function refreshBriefing() {
+      const link = event.target;
+      link.textContent = 'Refreshing...';
+      link.style.pointerEvents = 'none';
+      try {
+        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
+        const data = await res.json();
+        if (data.success) {
+          link.textContent = 'Triggered! Reloading in 60s...';
+          setTimeout(() => location.reload(), 60000);
+        } else {
+          link.textContent = 'Error - try again';
+          link.style.pointerEvents = 'auto';
+        }
+      } catch (e) {
+        link.textContent = 'Error - try again';
+        link.style.pointerEvents = 'auto';
+      }
+    }
+  </script>
+
+  <!-- Audio Player -->
+  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <button id="play-btn" onclick="toggleAudio()" style="
+        width: 48px; height: 48px; border-radius: 50%; border: none;
+        background: #1a1a1a; color: white; cursor: pointer;
+        font-size: 18px; display: flex; align-items: center; justify-content: center;
+      ">&#9658;</button>
+      <div style="flex: 1;">
+        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
+          Listen to today's briefing
+        </div>
+        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
+      </div>
+    </div>
+    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
+  </div>
+  <script>
+    const audio = document.getElementById('briefing-audio');
+    const playBtn = document.getElementById('play-btn');
+    const voiceInfo = document.getElementById('voice-info');
+    audio.addEventListener('loadedmetadata', () => {
+      const duration = Math.round(audio.duration);
+      const mins = Math.floor(duration / 60);
+      const secs = duration % 60;
+      voiceInfo.textContent = mins + ':' + secs.toString().padStart(2, '0');
+    });
+    audio.addEventListener('error', () => {
+      document.getElementById('audio-player').style.display = 'none';
+    });
+    audio.addEventListener('ended', () => {
+      playBtn.innerHTML = '&#9658;';
+    });
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        playBtn.innerHTML = '&#10074;&#10074;';
+      } else {
+        audio.pause();
+        playBtn.innerHTML = '&#9658;';
+      }
+    }
+  </script>
+
+  <div id="content">
+<p>Good morning. Here's the state of play:</p><p>Iran's nuclear program is back in the spotlight this morning, with <a href="https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html" target="_blank">satellite images</a> showing Tehran actively working on both missile and nuclear facilities. This comes as diplomatic efforts hit another roadblock. Iran confirmed that <a href="https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman" target="_blank">indirect talks</a> with the US in Oman have ended "for now," leaving little hope for de-escalation through dialogue.</p><p>The timing couldn't be more awkward for the global community. Tonight, the Winter Olympics open in Milan with the usual pageantry about international harmony and peaceful competition. But as our colleagues note, <a href="https://www.nytimes.com/2026/02/06/world/europe/olympics-world-order-war.html" target="_blank">the Olympics</a> are arriving at a moment when the world feels anything but harmonious. Between Iran's nuclear ambitions, ongoing conflicts, and rising geopolitical tensions, the contrast between Olympic ideals and reality has rarely been starker.</p><p><strong>Business/Tech</strong></p><p>• AI stocks are getting hammered as investors start questioning whether the AI revolution is <a href="https://www.nytimes.com/2026/02/06/business/the-dark-side-of-ai-weighs-on-the-stock-market.html" target="_blank">sustainable</a> or just expensive hype.</p><p>• <a href="https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html" target="_blank">Toyota replaced</a> its CEO as the Japanese giant faces pressure from both American trade policies and Chinese competition in the electric vehicle space.</p><p>• Europe is coming for TikTok again, claiming the app is deliberately designed to be <a href="https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html" target="_blank">"addictive"</a>.</p><p>• <a href="https://www.nytimes.com/2026/02/05/business/uber-safety-rape-verdict.html" target="_blank">Uber was found liable</a> in a rape case involving one of its drivers, a verdict that could open the floodgates for thousands of similar lawsuits against the ride-sharing company.</p><p><strong>Around the World</strong></p><p>• <strong>Latin America</strong>: Trump and Argentina's Milei just inked a major <a href="https://www.nytimes.com/2026/02/05/world/americas/argentina-us-trade-deal-trump-milei.html" target="_blank">trade deal</a>, cementing their populist bromance.</p><p>• <strong>Europe</strong>: Pope Leo issued a pointed warning as the Olympics begin, urging nations not to use sports for <a href="https://www.nytimes.com/2026/02/06/world/europe/pope-leo-milan-olympics-letter.html" target="_blank">"propaganda or supremacy"</a>. The message feels particularly relevant given current global tensions.</p><p>• <strong>Asia</strong>: A Japanese politician is <a href="https://www.nytimes.com/2026/02/06/world/asia/japan-election-pregnant-candidate.html" target="_blank">upending local politics</a> simply by announcing "I'm pregnant," challenging deep-seated cultural expectations about women in public life.</p><p>• <strong>Middle East</strong>: Iranian Nobel Peace laureate Narges Mohammadi has started another <a href="https://www.nytimes.com/2026/02/05/world/middleeast/iran-narges-mohammadi-prison-hunger-strike.html" target="_blank">hunger strike</a> from prison, part of Iran's broader crackdown on dissent that's exacting a heavy toll on protest supporters.</p><p>• <strong>Africa</strong>: A <a href="https://www.nytimes.com/2026/02/04/world/africa/john-steenhuisen-democratic-alliance-anc-south-africa.html" target="_blank">political shakeup</a> in South Africa has the ruling coalition on edge after the Democratic Alliance leader stepped down, raising fresh questions about the government's stability.</p>
+  </div>
+</body>
+</html>
