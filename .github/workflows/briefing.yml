@@ -40,6 +40,7 @@ jobs:
         run: node write-briefing.js
 
       - name: Generate audio podcast
+        continue-on-error: true
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: node generate-podcast.js
