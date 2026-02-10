@@ -1,18 +1,63 @@
 {
   "nyt": {
     "lead": {
-      "headline": "Immigration Judge Says Trump Administration Cannot Deport Tufts Student",
-      "url": "https://www.nytimes.com/2026/02/10/us/immigration-judge-tufts-student-rumeysa-ozturk.html",
+      "headline": "Republican Cash Edge Threatens to Swamp Democrats in the Midterms",
+      "url": "https://www.nytimes.com/2026/02/10/us/politics/republicans-democrats-midterms-fund-raising.html",
       "source": "Lead"
     },
     "live": [
       {
-        "headline": "Trump AdministrationFeb. 10, 2026, 12:02 p.m. ET",
+        "headline": "Trump AdministrationFeb. 10, 2026, 1:01 p.m. ET",
         "url": "https://www.nytimes.com/live/2026/02/10/us/trump-news",
+        "source": "Live"
+      },
+      {
+        "headline": "LIVEFeb. 10, 2026, 1:00 p.m. ETThe Latest Updates From the Search for Nancy GuthrieAuthorities are searching for Nancy Guthrie, 84, the mother of the “Today” show anchor Savannah Guthrie, whose disappearance is being investigated as a kidnapping. <img src=\"https://static01.nyt.com/images/2026/02/10/multimedia/10HP-GUTHRIE-REFER-zqkb/10HP-GUTHRIE-REFER-zqkb-threeByTwoMediumAt2X.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale\" alt=\"\" class=\"css-122y91a\"/>Rebecca Noble/Reuters",
+        "url": "https://www.nytimes.com/live/2026/02/10/us/savannah-guthrie-mom-news",
         "source": "Live"
       }
     ],
     "primary": [
+      {
+        "headline": "Republican Cash Edge Threatens to Swamp Democrats in the Midterms",
+        "url": "https://www.nytimes.com/2026/02/10/us/politics/republicans-democrats-midterms-fund-raising.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Susan Collins Runs for Re-election in Must-Win Senate Seat for Democrats",
+        "url": "https://www.nytimes.com/2026/02/10/us/politics/susan-collins-maine-senate-2026.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Malinowski Concedes to Mejia, a Progressive Activist, in New Jersey Race",
+        "url": "https://www.nytimes.com/2026/02/10/nyregion/new-jersey-special-election-winner.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Antonio Delgado Drops Out of Democratic Primary for N.Y. Governor",
+        "url": "https://www.nytimes.com/2026/02/10/nyregion/antonio-delgado-drops-out-governor-new-york.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Detention Pipeline",
+        "url": "https://www.nytimes.com/2026/02/05/us/minnesota-el-paso-ice-immigration.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Clash in Congress",
+        "url": "https://www.nytimes.com/2026/02/05/us/politics/senate-immigration-enforcement-dhs-shutdown.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Crackdown in Minnesota",
+        "url": "https://www.nytimes.com/2026/02/05/us/minnesota-ice-agents-deployment.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Strong G.O.P. Support",
+        "url": "https://www.nytimes.com/2026/02/03/us/politics/trump-ice-immigration-polls-republicans.html",
+        "source": "Homepage"
+      },
       {
         "headline": "Immigration Judge Says Trump Administration Cannot Deport Tufts Student",
         "url": "https://www.nytimes.com/2026/02/10/us/immigration-judge-tufts-student-rumeysa-ozturk.html",
@@ -21,46 +66,6 @@
       {
         "headline": "When D.H.S. Claims About Shootings Unravel in Court",
         "url": "https://www.nytimes.com/2026/02/10/us/politics/homeland-security-shootings.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Democrats Want to Rein In ICE. Their Ideas Are Facing Blowback.6 min read<img src=\"https://static01.nyt.com/images/2026/02/05/multimedia/05nat-ice-restrictions-zpbl/05nat-ice-restrictions-zpbl-small",
-        "url": "https://www.nytimes.com/2026/02/10/us/democrat-plan-ice-masks-warrants.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Peace Negotiations",
-        "url": "https://www.nytimes.com/2026/02/05/world/europe/russia-ukraine-peace-talks.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Trump’s Vision to Rebuild Ukraine",
-        "url": "https://www.nytimes.com/2026/01/19/world/europe/ukraine-reconstruction-blackrock.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Russia Nears Capture of Key Ukrainian Towns After Year of Grinding Assaults",
-        "url": "https://www.nytimes.com/2026/02/10/world/europe/russia-ukraine-battlefield-huliaipole-pokrovsk.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "A Tent in Bed: In Frigid Kyiv, Residents Find Ways to Stay Warm Without Power",
-        "url": "https://www.nytimes.com/2026/02/10/world/europe/ukraine-war-russia-power-cold.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Trump’s Online Drugstore",
-        "url": "https://www.nytimes.com/2026/02/05/health/trumprx-online-drugstore-prices.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Trump Allies Near ‘Total Victory’ in Wiping Out U.S. Climate Regulation",
-        "url": "https://www.nytimes.com/2026/02/09/climate/endangerment-finding.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Trump Threatens to Block Opening of New Bridge to Canada",
-        "url": "https://www.nytimes.com/2026/02/09/us/politics/trump-gordie-howe-bridge-canada.html",
         "source": "Homepage"
       }
     ],
@@ -71,23 +76,28 @@
         "source": "U.S."
       },
       {
+        "headline": "Democrats Want to Rein In ICE. Their Ideas Are Facing Blowback.",
+        "url": "https://www.nytimes.com/2026/02/10/us/democrat-plan-ice-masks-warrants.html",
+        "source": "U.S."
+      },
+      {
         "headline": "New Email Shows Bard’s President Thanked Epstein for Caribbean Trip",
         "url": "https://www.nytimes.com/2026/02/09/us/bard-leon-botstein-jeffrey-epstein-relationship.html",
         "source": "U.S."
       },
       {
-        "headline": "Republican Cash Edge Threatens to Swamp Democrats in the Midterms",
-        "url": "https://www.nytimes.com/2026/02/10/us/politics/republicans-democrats-midterms-fund-raising.html",
+        "headline": "Ahead of Jobs Report, White House Seeks to Downplay Any Slowdown",
+        "url": "https://www.nytimes.com/2026/02/10/us/politics/white-house-jobs.html",
         "source": "U.S."
-      },
-      {
-        "headline": "Newly Unbound, Trump Weighs More Nuclear Arms and Underground Tests",
-        "url": "https://www.nytimes.com/2026/02/09/us/politics/trump-nuclear-arms-underground-tests.html",
-        "source": "Politics"
       },
       {
         "headline": "Gabbard’s 2020 Election Claims Put Her Back in Favor With Trump",
         "url": "https://www.nytimes.com/2026/02/09/us/politics/tulsi-gabbard-2020-election.html",
+        "source": "Politics"
+      },
+      {
+        "headline": "Newly Unbound, Trump Weighs More Nuclear Arms and Underground Tests",
+        "url": "https://www.nytimes.com/2026/02/09/us/politics/trump-nuclear-arms-underground-tests.html",
         "source": "Politics"
       },
       {
@@ -96,13 +106,8 @@
         "source": "Politics"
       },
       {
-        "headline": "Susan Collins Runs for Re-election in Must-Win Senate Seat for Democrats",
-        "url": "https://www.nytimes.com/2026/02/10/us/politics/susan-collins-maine-senate-2026.html",
-        "source": "Politics"
-      },
-      {
-        "headline": "U.S. Hands Over Some NATO Commands to European Allies",
-        "url": "https://www.nytimes.com/2026/02/10/us/politics/us-nato-commands-european-allies.html",
+        "headline": "Homeland Security Shutdown Nears Amid Stalemate on Immigration Agent Curbs",
+        "url": "https://www.nytimes.com/2026/02/10/us/politics/homeland-security-shutdown-nears-amid-stalemate-on-immigration-agent-curbs.html",
         "source": "Politics"
       },
       {
@@ -131,6 +136,16 @@
         "source": "Latin America"
       },
       {
+        "headline": "The Ties That Bound the ‘Prince of Darkness’ of U.K. Politics to Epstein",
+        "url": "https://www.nytimes.com/2026/02/10/world/europe/ties-peter-mandelson-jeffrey-epstein.html",
+        "source": "Europe"
+      },
+      {
+        "headline": "Mariah? Matilda? Italy’s Olympics Anchor Couldn’t Tell the Difference. Now His Reporters Plan to Strike.",
+        "url": "https://www.nytimes.com/2026/02/10/world/europe/olympics-italy-rai-broadcaster-gaffe-strike.html",
+        "source": "Europe"
+      },
+      {
         "headline": "Olympic Officials Ban Ukrainian’s Helmet Honoring War Dead",
         "url": "https://www.nytimes.com/2026/02/10/world/europe/ukraine-winter-olympics-skeleton-helmet-war.html",
         "source": "Europe"
@@ -143,11 +158,6 @@
       {
         "headline": "Philippe Gaulier, Revered Clown and ‘Tormentor’ of Aspiring Comedians, Dies at 82",
         "url": "https://www.nytimes.com/2026/02/10/arts/philippe-gaulier-clown-dead.html",
-        "source": "Europe"
-      },
-      {
-        "headline": "BP Suspends Share Buybacks as Profit Slumps",
-        "url": "https://www.nytimes.com/2026/02/10/business/bp-oil-energy-buybacks.html",
         "source": "Europe"
       },
       {
@@ -221,13 +231,13 @@
         "source": "Africa"
       },
       {
-        "headline": "Why the N.F.L. Booked Bad Bunny for the Super Bowl",
-        "url": "https://www.nytimes.com/2026/02/08/business/bad-bunny-super-bowl-nfl.html",
+        "headline": "New Epstein Details Rattle Washington, Hollywood and Beyond",
+        "url": "https://www.nytimes.com/2026/02/10/business/dealbook/epstein-lutnick-wasserman-starmer.html",
         "source": "Business"
       },
       {
-        "headline": "New Epstein Details Rattle Washington, Hollywood and Beyond",
-        "url": "https://www.nytimes.com/2026/02/10/business/dealbook/epstein-lutnick-wasserman-starmer.html",
+        "headline": "Why the N.F.L. Booked Bad Bunny for the Super Bowl",
+        "url": "https://www.nytimes.com/2026/02/08/business/bad-bunny-super-bowl-nfl.html",
         "source": "Business"
       },
       {
@@ -246,6 +256,11 @@
         "source": "Business"
       },
       {
+        "headline": "A.I. Is Giving You a Personalized Internet, but You Have No Say in It",
+        "url": "https://www.nytimes.com/2026/02/10/technology/personaltech/ai-google-meta-opt-out.html",
+        "source": "Technology"
+      },
+      {
         "headline": "Meta and YouTube Created ‘Digital Casinos,’ Lawyers Argue in Landmark Trial",
         "url": "https://www.nytimes.com/2026/02/09/technology/social-media-addiction-trial.html",
         "source": "Technology"
@@ -261,26 +276,35 @@
         "source": "Technology"
       },
       {
-        "headline": "The Dark Side of A.I. Weighs on Tech Stocks",
-        "url": "https://www.nytimes.com/2026/02/06/business/ai-stock-market-anthropic-openai.html",
-        "source": "Technology"
-      },
-      {
-        "headline": "A.I. Is Giving You a Personalized Internet, but You Have No Say in It",
-        "url": "https://www.nytimes.com/2026/02/10/technology/personaltech/ai-google-meta-opt-out.html",
+        "headline": "How the A.I. Boom Could Push Up the Price of Your Next PC",
+        "url": "https://www.nytimes.com/2026/01/29/technology/ai-memory-chips-pc-smartphone.html",
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-02-10T17:02:55.647Z"
+    "timestamp": "2026-02-10T18:03:38.481Z"
   },
   "secondary": {
-    "timestamp": "2026-02-10T17:02:55.647Z",
+    "timestamp": "2026-02-10T18:03:38.481Z",
     "reuters": [
       {
         "title": "Marriott forecasts weak room revenue growth on weak US travel demand - Reuters",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVUVwQWZUT1p5YUczMHhrWFdVNUxROHpUM2tJMlRaVmJtdlV0MDhsV1dzaFFOd0lPYkt5R2VsT0xLV0xxMFU0Q3FvUndxUU0wZi1wZnd5QmRoNVRxeGNLZGNUU2d0UHBPRXpZcmRZOEFBSzRGeHZSaXpTTnE2YXRNNnd0VVJfbEp5Zk9fQXptZ0F0VnoyMk5wZ0s3QVRUcndhc3RqVkhxbXdzdGpBX0VSRGRZRGU?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQVUVwQWZUT1p5YUczMHhrWFdVNUxROHpUM2tJMlRaVmJtdlV0MDhsV1dzaFFOd0lPYkt5R2VsT0xLV0xxMFU0Q3FvUndxUU0wZi1wZnd5QmRoNVRxeGNLZGNUU2d0UHBPRXpZcmR",
         "pubDate": "Tue, 10 Feb 2026 12:09:55 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "US proposes boosting 'Buy America' requirements for government-funded EV charging stations - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDR3SWstN3pBVDY3ZmJOaFdYR2NMakYzOEU0X2tSUnBQUTdjenVta1dJNDZlcVhXejVYNnRraHNlc05odWlFZWJhT0l5dlZsQnVhcVJRRkV6ejNoUG11VU5LTVJtb3FkblpwSDliRlBVLTZMRlM0V2xHcHFyUHEyblFLUzdPM0N6Uk82cUdpMkhnaGRLUDBieW8yYW15QWxyU0RVT3VKRnV2N3dxMFpQaUVrNHNaUHJhXzNkTkRGYkttVGQ2VjNvR1k2YlZUZ0w1V2FRUXJOZmQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDR3SWstN3pBVDY3ZmJOaFdYR2NMakYzOEU0X2tSUnBQUTdjenVta1dJNDZlcVhXejVYNnRraHNlc05odWlFZWJhT0l5dlZsQnVhcVJRRkV6ejNoUG11VU5LTVJtb3FkblpwSDl",
+        "pubDate": "Tue, 10 Feb 2026 16:10:01 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "EU Parliament backs digital euro, aligns with Council on online‑ and offline‑ready currency - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDFObUwwdHRKQUNyWWVrWVZrWU10cTAwYU44VkdmU3VQdVRYMm5TeWFpSzJXZ1pkUmhUenJXYVFqODVWeDNVLVE0MU15NkktZ3R0NnhuT21KUjBVZ3IyUmEtaTVhOTRDR3FSeDZ0UU9IVjJ0MWRTLVZGaWVIQXY0WEZSZFpodEhMdVI4RFFmaDVGUWVnTU1RX3NqRFBvZFloWUd6QWFmT0JmU3dYa1VqTjhSa3B6WEV5MG93T004b0t6czQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDFObUwwdHRKQUNyWWVrWVZrWU10cTAwYU44VkdmU3VQdVRYMm5TeWFpSzJXZ1pkUmhUenJXYVFqODVWeDNVLVE0MU15NkktZ3R0NnhuT21KUjBVZ3IyUmEtaTVhOTRDR3FSeDZ",
+        "pubDate": "Tue, 10 Feb 2026 16:23:23 GMT",
         "source": "Reuters"
       },
       {
@@ -298,13 +322,6 @@
         "source": "Reuters"
       },
       {
-        "title": "Harley-Davidson shares skid after sluggish demand drives wider loss - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYXN1ekFvU3FkOUFCcDdDLWRuY0x5UTFrMmFFYWQ2ZzBZRzhLNk9xQUJoMFJ3WDlaWHZvQ3ljU0NkcjdLU1JwbS1lRVVxMEpZbEFXcTZMcEVpdmwtQ0loYnVQczNsMHo2N2xKVS1NWHB6b25YRlZaOEpkQmVGUHcwZ29DS1Jib2tMZmNqUkRNd3hhbzJPSDAtWkZmR0hEel9idFNaWTlHRlJPelVoUmc?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNYXN1ekFvU3FkOUFCcDdDLWRuY0x5UTFrMmFFYWQ2ZzBZRzhLNk9xQUJoMFJ3WDlaWHZvQ3ljU0NkcjdLU1JwbS1lRVVxMEpZbEFXcTZMcEVpdmwtQ0loYnVQczNsMHo2N2xKVS1",
-        "pubDate": "Tue, 10 Feb 2026 11:57:07 GMT",
-        "source": "Reuters"
-      },
-      {
         "title": "Morning Bid: Yen lift, dollar drift - Reuters",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFU2bzZmTmFGeTQzekpqaS1CazRwUmpZbTdqX3RSVnJ2X1VjWHVXRGxaNDNDTGVTV2liUXdBdThhRGxrTy1zYkVJV0tHMVpzTmRSMUQtSWJ3b2g0WVNFSU8xUTZrTWN1dlB2czJTYjJHUFlYcjdsMHhRMTQzLWtYR3hB?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFU2bzZmTmFGeTQzekpqaS1CazRwUmpZbTdqX3RSVnJ2X1VjWHVXRGxaNDNDTGVTV2liUXdBdThhRGxrTy1zYkVJV0tHMVpzTmRSMUQtSWJ3b2g0WVNFSU8xUTZrTWN1dlB2czJ",
@@ -312,10 +329,10 @@
         "source": "Reuters"
       },
       {
-        "title": "Zimmer Biomet beats quarterly estimates on strong implant demand amid US sales overhaul - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSHllNFZMdUFDU2JhNmpHLTVpQ2hxcHMxeDFqeUtRRVZydUlVNmNucmxWNFdUNWttN1NWRWdHWXYxVzE5Z1hzOWMzR0xjcnczVGxHb0RiV3lJTUtITnAxSnJvSC1nbGVpRW52ZFZZT0MtWHgzcFdaV3hoYThwbE5aVmM2MmdjYVlkMjEyV0w5c3BSbzNacG9IUzFMNE9HbEhJRHFhSHpHX1dwbEtZLTNsVzlZY1pIcEJKU2VOR2J1ZDdTcWNnZHdZWXdnYlpGc1BJdFNwc2Y0MGZWRUk?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSHllNFZMdUFDU2JhNmpHLTVpQ2hxcHMxeDFqeUtRRVZydUlVNmNucmxWNFdUNWttN1NWRWdHWXYxVzE5Z1hzOWMzR0xjcnczVGxHb0RiV3lJTUtITnAxSnJvSC1nbGVpRW52ZFZ",
-        "pubDate": "Tue, 10 Feb 2026 13:18:39 GMT",
+        "title": "Harley-Davidson shares skid after sluggish demand drives wider loss - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYXN1ekFvU3FkOUFCcDdDLWRuY0x5UTFrMmFFYWQ2ZzBZRzhLNk9xQUJoMFJ3WDlaWHZvQ3ljU0NkcjdLU1JwbS1lRVVxMEpZbEFXcTZMcEVpdmwtQ0loYnVQczNsMHo2N2xKVS1NWHB6b25YRlZaOEpkQmVGUHcwZ29DS1Jib2tMZmNqUkRNd3hhbzJPSDAtWkZmR0hEel9idFNaWTlHRlJPelVoUmc?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNYXN1ekFvU3FkOUFCcDdDLWRuY0x5UTFrMmFFYWQ2ZzBZRzhLNk9xQUJoMFJ3WDlaWHZvQ3ljU0NkcjdLU1JwbS1lRVVxMEpZbEFXcTZMcEVpdmwtQ0loYnVQczNsMHo2N2xKVS1",
+        "pubDate": "Tue, 10 Feb 2026 11:57:07 GMT",
         "source": "Reuters"
       },
       {
@@ -324,70 +341,63 @@
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSm50ZHJEU2lBRzBxZmI3SWpVZTJLNWJXbkd6WXNJNkhDUmVFc21oc1FrUDVlSV9fcnpJNEQ2WjdpYVdQeWtFX2hfMTNfTUdpR3NBaXFpeFpkVkxaTGZfU0xENlRTT1lKTGJJckc",
         "pubDate": "Tue, 10 Feb 2026 13:13:53 GMT",
         "source": "Reuters"
-      },
-      {
-        "title": "Coca-Cola's incoming CEO seeks faster innovation as low-sugar, weight-loss trends grow - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWmtfTHJSTENYM3ljVm9iMG1HdFNKWlpKYkZXS01hY2tKNUxnaXBsNW5FdHNRQk1Tb3AyMFI5cFE3RFVLTUxqX0hqcXFZQVZmbVhfY3FZeWh2RlM3M1JhM0ZrUGl5bWFLdk04MWVFakhKajFqSFBndlZXTTE3TTRnRHIxaXF4RVdGYVZHbTBNclpuYldmdWVGSlVCYXpuQQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQWmtfTHJSTENYM3ljVm9iMG1HdFNKWlpKYkZXS01hY2tKNUxnaXBsNW5FdHNRQk1Tb3AyMFI5cFE3RFVLTUxqX0hqcXFZQVZmbVhfY3FZeWh2RlM3M1JhM0ZrUGl5bWFLdk04MWV",
-        "pubDate": "Tue, 10 Feb 2026 12:01:49 GMT",
-        "source": "Reuters"
       }
     ],
     "ap": [
       {
-        "title": "What a new Gallup poll shows about the depth of Americans’ gloom - AP News",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1dxX3RlcGxqNkNzUGxXOUZ6M2lPSmZtOXZ3d3F3Z211MkZNcGpuU3ZLU0JrOEllZmVVWm12WVFqRW5xa3lBNGdlaGVlVDJVVjlCc2gzYklvU2ViMUIxNTB6VVpPVWJZZnUyTnJKdXRQaDZQSUFCOWt1TjZTTWZFcE0wb2cxSExobzI5QlBlNE1DOVBTellKQ3VJNWF2SU9iOVRPbm5fWnE3d1NxYmc?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1dxX3RlcGxqNkNzUGxXOUZ6M2lPSmZtOXZ3d3F3Z211MkZNcGpuU3ZLU0JrOEllZmVVWm12WVFqRW5xa3lBNGdlaGVlVDJVVjlCc2gzYklvU2ViMUIxNTB6VVpPVWJZZnUyTnJ",
-        "pubDate": "Tue, 10 Feb 2026 14:36:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Trump set to gut U.S. climate change policy and environmental regulations: White House official - AP News",
+        "title": "Trump set to gut U.S. climate change policy and environmental regulations: White House official - apnews.com",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnpBUk90WWwyN3hUWHN6bWNiWWxiZFRGeC1vSVBjQUx0NW5rdzgzRENxTHpmRW05UHRkRTBscEZzdUVkN1FPaWlFZVNpSV83OUhWNFZxM2FjMVRZQ2szS0R5bEYwT0h1SlROZXVHLWYxdUhaT1lWdGMyWXpESERTbzFDOTJSUU8zdk1uQW5sS3N4TmhsSDc0?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnpBUk90WWwyN3hUWHN6bWNiWWxiZFRGeC1vSVBjQUx0NW5rdzgzRENxTHpmRW05UHRkRTBscEZzdUVkN1FPaWlFZVNpSV83OUhWNFZxM2FjMVRZQ2szS0R5bEYwT0h1SlROZXV",
         "pubDate": "Tue, 10 Feb 2026 13:18:00 GMT",
         "source": "AP"
       },
       {
-        "title": "Russia can’t attack NATO this year but plans to boost its own forces, an intelligence chief says - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUzZVNzJCaHpPWVR5cEpRVEtsOWtoY0NpeEozNHlJUGpNS25rTkM3YVlmMTRfQ094clNpbWFIR3ZTSVJzV1hKN1U4Q2hOOWZGdEtCUFlnbkVOTlZ6SnNGbkU4ZnBNQVNDcnVnbC13X3ZwQnY3dE1kdkpsYlQtWFhxSWlMdEF4V0R1ZVBTZGg3RXAwbV9OVWZWM2FHYWd2UFZqMDVHczhoZGVtUQ?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUzZVNzJCaHpPWVR5cEpRVEtsOWtoY0NpeEozNHlJUGpNS25rTkM3YVlmMTRfQ094clNpbWFIR3ZTSVJzV1hKN1U4Q2hOOWZGdEtCUFlnbkVOTlZ6SnNGbkU4ZnBNQVNDcnVnbC1",
-        "pubDate": "Tue, 10 Feb 2026 14:37:00 GMT",
+        "title": "What a new Gallup poll shows about the depth of Americans’ gloom - apnews.com",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1dxX3RlcGxqNkNzUGxXOUZ6M2lPSmZtOXZ3d3F3Z211MkZNcGpuU3ZLU0JrOEllZmVVWm12WVFqRW5xa3lBNGdlaGVlVDJVVjlCc2gzYklvU2ViMUIxNTB6VVpPVWJZZnUyTnJKdXRQaDZQSUFCOWt1TjZTTWZFcE0wb2cxSExobzI5QlBlNE1DOVBTellKQ3VJNWF2SU9iOVRPbm5fWnE3d1NxYmc?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1dxX3RlcGxqNkNzUGxXOUZ6M2lPSmZtOXZ3d3F3Z211MkZNcGpuU3ZLU0JrOEllZmVVWm12WVFqRW5xa3lBNGdlaGVlVDJVVjlCc2gzYklvU2ViMUIxNTB6VVpPVWJZZnUyTnJ",
+        "pubDate": "Tue, 10 Feb 2026 14:36:00 GMT",
         "source": "AP"
       },
       {
-        "title": "Social media ‘addicting the brains of children,’ plaintiff’s lawyer argues in landmark trial - AP News",
+        "title": "UK leader's chief of staff quits over appointment of Mandelson as ambassador despite Epstein ties - apnews.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUo0bjltQVI2WlViRGZGWkM5bFZBSndlMU9oQmdqa01wVWV2Q05SZU9WSzBPLUhxeTNSQS1hZHRiZFM3YWR6dnpNRFhDZEF1MXNrMlJmNDBnWkw0Wmd5WFRRNld1M2NKN0x5NG5vaUM5Mk9vWUlMcUY0ZE5xeEZWOWdkbGpzZzZJSU9ZUXpqalR3ZjFzdGdLdjhGbWFSSWpUNlZra1dLSy05dw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUo0bjltQVI2WlViRGZGWkM5bFZBSndlMU9oQmdqa01wVWV2Q05SZU9WSzBPLUhxeTNSQS1hZHRiZFM3YWR6dnpNRFhDZEF1MXNrMlJmNDBnWkw0Wmd5WFRRNld1M2NKN0x5NG5",
+        "pubDate": "Tue, 10 Feb 2026 16:08:43 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Governors won’t hold Trump meeting after White House only invited Republicans - apnews.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNVVWaEoyc1hIS0w2cXM5UzlOLXBPQ0p5cVhTeUtmQ2JSU3JoWnZLbDV1akxMUzhHajlIcF9ySWJEWTZzdUVaZi1vQWFLS3Q1WG9keV85Y3ZtdFVtMWRSOXlmUENnZFR3Umc1anY0QXpTaFRIUjFDMTdoRUM1ODVKaGNPUlh4UmRQQjhaTnd2WENtNHpHYW1JWWljZXFBVTNKYTU3aW96aGRBUQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNVVWaEoyc1hIS0w2cXM5UzlOLXBPQ0p5cVhTeUtmQ2JSU3JoWnZLbDV1akxMUzhHajlIcF9ySWJEWTZzdUVaZi1vQWFLS3Q1WG9keV85Y3ZtdFVtMWRSOXlmUENnZFR3Umc1anY",
+        "pubDate": "Tue, 10 Feb 2026 17:21:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Commerce Secretary Howard Lutnick acknowledges meetings with Epstein that contradict previous claims - apnews.com",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTRnY3lsbklFTGZoRWVwcHkzcG1KUE5EaFNSd21OcDhMNllxQUpvMkVJRFUwaW54ZFF1RE5aZkhsN1RlZWh3WFA3ZE5SWWZZbDh5dWFxNzNObklEXy1wVEpmU1pBY0tOcE55Vk9kTTZiQzNEX1o3UWFib3ZGcDZJUXI1QU01OWhGZzlaM0lTczhxMzRqeV9QelJ4LUM?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTRnY3lsbklFTGZoRWVwcHkzcG1KUE5EaFNSd21OcDhMNllxQUpvMkVJRFUwaW54ZFF1RE5aZkhsN1RlZWh3WFA3ZE5SWWZZbDh5dWFxNzNObklEXy1wVEpmU1pBY0tOcE55Vk9",
+        "pubDate": "Tue, 10 Feb 2026 16:38:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Social media ‘addicting the brains of children,’ plaintiff’s lawyer argues in landmark trial - apnews.com",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjQtY3N1TExtYmN3ZW9mNFY3aGI2akxsWk8zcmg0QUhhUE1CZ0ZTeThyN2I2aDVSU0k5S0x4X0k1QkYyMXNDNnd1a09TQU13ZnN3aTZNTlhEc1BIM1p2STNxU2ozQ3BiUzZGZUhWQjh5NnNkcF85Zk9zNDJDS1paaW1BalJqblY3cTByWmpLT0lxMlczRWhZMkxvQQ?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjQtY3N1TExtYmN3ZW9mNFY3aGI2akxsWk8zcmg0QUhhUE1CZ0ZTeThyN2I2aDVSU0k5S0x4X0k1QkYyMXNDNnd1a09TQU13ZnN3aTZNTlhEc1BIM1p2STNxU2ozQ3BiUzZGZUh",
         "pubDate": "Tue, 10 Feb 2026 06:00:00 GMT",
         "source": "AP"
       },
       {
-        "title": "Top EU diplomat drafts a list of concessions Russia needs to make to secure real peace in Ukraine - AP News",
+        "title": "Russia can’t attack NATO this year but plans to boost its own forces, an intelligence chief says - apnews.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUzZVNzJCaHpPWVR5cEpRVEtsOWtoY0NpeEozNHlJUGpNS25rTkM3YVlmMTRfQ094clNpbWFIR3ZTSVJzV1hKN1U4Q2hOOWZGdEtCUFlnbkVOTlZ6SnNGbkU4ZnBNQVNDcnVnbC13X3ZwQnY3dE1kdkpsYlQtWFhxSWlMdEF4V0R1ZVBTZGg3RXAwbV9OVWZWM2FHYWd2UFZqMDVHczhoZGVtUQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUzZVNzJCaHpPWVR5cEpRVEtsOWtoY0NpeEozNHlJUGpNS25rTkM3YVlmMTRfQ094clNpbWFIR3ZTSVJzV1hKN1U4Q2hOOWZGdEtCUFlnbkVOTlZ6SnNGbkU4ZnBNQVNDcnVnbC1",
+        "pubDate": "Tue, 10 Feb 2026 14:37:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Top EU diplomat drafts a list of concessions Russia needs to make to secure real peace in Ukraine - apnews.com",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlR4eWtIWjBZbmdhd25YMVpqY2VnaHZ2a19RdXkxOWRwQlJDZjcwS0tfOEg1c0s2UThTTEVpYTg3OEQ2U0JOcDg0X2docVRNSzB6MTIwS05zbmRXa2YxaUVaSFRlZGM2ek8tQWE1em9kU1NUcVVvOUN1VXlycWFaZkdQRldJQWt2Wm12Z0owdDhjWWdNbTdGNEJvc1Y2MmhVNlh4Vm44a3VxTDJ3dEMwMVlB?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlR4eWtIWjBZbmdhd25YMVpqY2VnaHZ2a19RdXkxOWRwQlJDZjcwS0tfOEg1c0s2UThTTEVpYTg3OEQ2U0JOcDg0X2docVRNSzB6MTIwS05zbmRXa2YxaUVaSFRlZGM2ek8tQWE",
         "pubDate": "Tue, 10 Feb 2026 16:20:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Movie Review: Emerald Fennell's 'Wuthering Heights' is a bold but shallow take on Brontë's classic - AP News",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUN3cGF5WGR6TWlUQWZRV3hfbGlCX1NXRVp4Z0gzeDNIcmktaEtpUnJ4NENfMXcwVzg5S2FjbkpFWkc0QnYwN2VEeUNDd3ZyVENzQzJDb3ZTRWlHMG85dHNDVEI5aHdWQXRobTVFeGZHTEQ3d2FXU0RDSUxYVmtkWGNQRXRKSTl2clBPYjFGV2FQd0I4?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUN3cGF5WGR6TWlUQWZRV3hfbGlCX1NXRVp4Z0gzeDNIcmktaEtpUnJ4NENfMXcwVzg5S2FjbkpFWkc0QnYwN2VEeUNDd3ZyVENzQzJDb3ZTRWlHMG85dHNDVEI5aHdWQXRobTV",
-        "pubDate": "Tue, 10 Feb 2026 15:19:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "‘Don’t jump in them': Olympic athletes’ medals break during celebrations - AP News",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2ZFemtVZklrN25HTVBPMXo0M01ueW8xRUJIdEVQc0RZS2tCNjlnbTRqbkJBdnpaS0pYeDNwZVhsMnpkYnJ5QVFpdWs0TlR3RTRLWjB1R3FKem00cU1zUkRNNVNDNm95MVl0NTYwUWJVTklsTWRVQmZNS1dBNDlPdG9GdmxUU0dJN3pqNVkweC1DTDFsay1NeEJTRTdiTkRsMjdTbEpPNzNUVW1K?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2ZFemtVZklrN25HTVBPMXo0M01ueW8xRUJIdEVQc0RZS2tCNjlnbTRqbkJBdnpaS0pYeDNwZVhsMnpkYnJ5QVFpdWs0TlR3RTRLWjB1R3FKem00cU1zUkRNNVNDNm95MVl0NTY",
-        "pubDate": "Tue, 10 Feb 2026 12:08:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "An emotional countdown to the maiden launch of the Ariane 64, Europe's most powerful rocket - AP News",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNFV3TjNrOG1KNXlIZjVaSXE5dDR4ZGp6Um9oSXpyZUo0MlkzRHo1NUMzZXVEdmFSYi1ldDhhT1BGMlo1Wm9NMWowVWEtLVQ1SU5fZE5zZE5ZTjdsSjZqYm1yR2FUZFhkaUZaRV9sNmhSMEIwU2JWbzh4REhrOG8zZl9ZNnhKVUNvVGl4czRuRndZUmVoek5NSk1PbEh5Y2Q4RmQyOUJJNA?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPNFV3TjNrOG1KNXlIZjVaSXE5dDR4ZGp6Um9oSXpyZUo0MlkzRHo1NUMzZXVEdmFSYi1ldDhhT1BGMlo1Wm9NMWowVWEtLVQ1SU5fZE5zZE5ZTjdsSjZqYm1yR2FUZFhkaUZaRV9",
-        "pubDate": "Tue, 10 Feb 2026 06:33:00 GMT",
         "source": "AP"
       }
     ],
@@ -417,7 +427,14 @@
         "title": "Kenya to confront Russia over 'unacceptable' use of its nationals in combat",
         "link": "https://www.bbc.com/news/articles/c0k1jzvrykro?at_medium=RSS&amp;at_campaign=rss",
         "description": "Nairobi says it has shut down illegal recruiters and will urge Moscow to sign a deal banning conscription.",
-        "pubDate": "Tue, 10 Feb 2026 11:20:46 GMT",
+        "pubDate": "Tue, 10 Feb 2026 17:39:33 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "French former teacher charged with abusing 89 teens dating back to 1960s",
+        "link": "https://www.bbc.com/news/articles/czx4dnky0dzo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Jacques Leveugle allegedly kept a diary of the abuse which also spanned several countries, prompting police to appeal for more victims to come forward.",
+        "pubDate": "Tue, 10 Feb 2026 17:16:52 GMT",
         "source": "BBC World"
       },
       {
@@ -435,17 +452,10 @@
         "source": "BBC World"
       },
       {
-        "title": "Instagram and YouTube owners built 'addiction machines', trial hears",
-        "link": "https://www.bbc.com/news/articles/c3wlpqpe2z4o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The tech giants are under scrutiny over social media addiction in a landmark jury trial in Los Angeles",
-        "pubDate": "Tue, 10 Feb 2026 07:25:42 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "Pilot praised after crash-landing faulty Somali passenger plane on seashore",
-        "link": "https://www.bbc.com/news/articles/c2d1pz3pxewo?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The Civil Aviation Authority say it overshot the tarmac after failing to stop on the runway.",
-        "pubDate": "Tue, 10 Feb 2026 16:16:30 GMT",
+        "title": "Laegreid wins bronze then confesses to affair on TV",
+        "link": "https://www.bbc.com/sport/articles/ckglnm521kko?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Winter Olympics bronze medallist Sturla Holm Laegreid says on live TV that he made the \"biggest mistake\" by cheating on his girlfriend.",
+        "pubDate": "Tue, 10 Feb 2026 17:19:20 GMT",
         "source": "BBC World"
       }
     ],
@@ -565,60 +575,95 @@
     ],
     "bloomberg": [
       {
-        "title": "Rajeev Misra Ups Private Equity Bets as SoftBank Scars Fade",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/rajeev-misra-ramps-up-private-equity-bets-as-softbank-scars-fade",
-        "description": "Rajeev Misra helped transform SoftBank Group Corp. into one of the world’s largest technology backers before his tenure ended amid souring bets and internal clashes. Now he’s once again looking to mak",
-        "pubDate": "Tue, 10 Feb 2026 15:34:02 GMT",
+        "title": "Acorn Owners Said to Weigh Options for £1 Billion UK Cab Insurer",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/acorn-owners-said-to-weigh-options-for-1-billion-uk-cab-insurer",
+        "description": "The owners of British specialist motor and home insurer Acorn Group are exploring strategic options including selling a controlling stake in the company, according to people familiar with the matter.",
+        "pubDate": "Tue, 10 Feb 2026 17:49:49 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Selectively Positive on European Banks: Reingen",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-10/selectively-positive-on-european-banks-reingen-video",
-        "description": "Anke Reingen, co-head of global financials research and European banks at RBC Capital Markets, is selectively positive on European banks and says accelerating loan growth, the investment-banking pipel",
-        "pubDate": "Tue, 10 Feb 2026 16:36:24 GMT",
+        "title": "Treasuries Surge After Weak Retail Sales Back Fed Rate Cuts",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/us-bond-gains-leave-yields-close-to-four-week-low-ahead-of-data",
+        "description": "A surge in US Treasuries sent some yields to their lowest levels of the past month after weak retail sales data bolstered expectations for at least two Federal Reserve interest-rate cuts this year.",
+        "pubDate": "Tue, 10 Feb 2026 10:30:44 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Venezuela Ships First Crude Cargo to Israel as Oil Exports Reopen After Maduro’s Ouster",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/venezuela-sending-first-crude-oil-cargo-to-israel-in-years",
-        "description": "Venezuela is sending its first crude oil cargo to Israel in years as the Latin American country’s exports open up following the capture of its president Nicolas Maduro.",
-        "pubDate": "Tue, 10 Feb 2026 16:19:27 GMT",
+        "title": "JPMorgan Kicks Off Electronic Arts $1.5 Billion Bond Buyback",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/jpmorgan-kicks-off-electronic-arts-1-5-billion-bond-buyback",
+        "description": "JPMorgan Chase &amp; Co. has kicked off a buyback offer for $1.5 billion of Electronic Arts Inc. bonds, paving the way for a $20 billion financing package tied to the acquisition of the video-game mak",
+        "pubDate": "Tue, 10 Feb 2026 13:53:29 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Vet Firm IVC Evidensia Scraps $5.5 Billion Leveraged-Loan Deal",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/vet-firm-ivc-evidensia-scraps-5-5-billion-leveraged-loan-deal",
-        "description": "Europe’s largest veterinary services provider, IVC Evidensia Ltd., has shelved a plan to extend about $5.5 billion of debt, adding to a number of stalled leveraged loan deals this year.",
-        "pubDate": "Tue, 10 Feb 2026 16:18:40 GMT",
+        "title": "Coller Strikes $1.3 Billion Credit Secondaries Deal With Ares",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/coller-strikes-1-3-billion-credit-secondaries-deal-with-ares",
+        "description": "Secondaries firm Coller Capital closed a deal to extend the life of an Ares Management Corp. private credit portfolio, amassing more than $1.3 billion in total commitments.",
+        "pubDate": "Tue, 10 Feb 2026 17:29:40 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Stocks Hold Near Peak as Retail Data Fuel Fed Bets: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-09/stock-market-today-dow-s-p-live-updates",
-        "description": "Wall Street traders left stocks near their all-time highs while bond yields fell after weaker-than-estimated retail sales reinforced the case for the Federal Reserve to cut interest rates this year. B",
-        "pubDate": "Mon, 09 Feb 2026 22:36:16 GMT",
+        "title": "S&amp;P 500 Hovers Near Record as Weak Data Sets Rate Cut Path",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/us-stocks-stall-as-investors-digest-sluggish-retail-sales-data",
+        "description": "US stocks advanced as investors examined the first of several key economic data releases this week in an attempt to find clues on the Federal Reserve’s interest-rate path.",
+        "pubDate": "Tue, 10 Feb 2026 14:53:18 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Disney Offers Its First Bonds Since 2020 Amid Record Volume",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/disney-kicks-off-its-first-investment-grade-bond-sale-since-2020",
-        "description": "Walt Disney Co. is offering high-grade dollar bonds for the first time since 2020, joining a record rush of activity as firms lock in reduced borrowing premiums.",
-        "pubDate": "Tue, 10 Feb 2026 14:54:35 GMT",
+        "title": "Mexico Makes Arrests After Canadian Miner’s Workers Found Dead",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-09/canadian-silver-miner-says-staff-taken-from-mexico-site-are-dead",
+        "description": "Mexican authorities said they arrested four suspects linked to the kidnapping  of miners from Canada’s Vizsla Silver Corp. Panuco project east of the Pacific Coast city of Mazatlan in January.",
+        "pubDate": "Mon, 09 Feb 2026 20:54:57 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Aston Martin F1 Owner Sets Expectations for New Season",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-10/aston-martin-f1-owner-sets-expectations-for-new-season-video",
-        "description": "Aston Martin Aramco Formula One team owner Lawrence Stroll has tempered expectations for the upcoming season, indicating that winning races will require time following the recent rule changes. He spea",
-        "pubDate": "Tue, 10 Feb 2026 16:04:33 GMT",
+        "title": "Wealth Manager Stocks Sink as New AI Tool Sparks Disruption Fear",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/wealth-manager-stocks-sink-as-new-ai-tool-sparks-disruption-fear",
+        "description": "Tax planning and wealth management stocks sank Tuesday after financial software provider Altruist Corp. launched an artificial intelligence tool for creating tax strategies, sparking concerns that tra",
+        "pubDate": "Tue, 10 Feb 2026 17:25:26 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Creditors Ready Talks on $60 Billion Venezuela Debt After Maduro Arrest",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/venezuela-bondholders-choose-houlihan-lokey-as-financial-adviser",
-        "description": "A group of international investors holding Venezuelan bonds chose Houlihan Lokey as its financial adviser, according to people familiar with the matter, a key step as they gear up for a massive debt r",
-        "pubDate": "Tue, 10 Feb 2026 16:00:30 GMT",
+        "title": "Emerging Stocks Hover Near Record, Currencies Gain Before Jobs",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/emerging-market-stocks-rise-anew-as-ai-spending-jitters-ease",
+        "description": "Emerging-market stocks hovered near record highs as concerns over artificial-intelligence spending receded, while currencies edged up in volatile trading ahead of a key jobs report.",
+        "pubDate": "Tue, 10 Feb 2026 12:07:01 GMT",
         "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Big Take: What’s At Stake For US-Iran Talks",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-10/big-take-what-s-at-stake-for-us-iran-talks-video",
+        "description": "As the US and Iran plan for another round of talks aimed at de-escalation, Israel’s Netanyahu plans to meet with Trump &mdash; and the threat of regional war continues to loom. Listen to Iran reporter",
+        "pubDate": "Tue, 10 Feb 2026 17:57:38 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Lutnick Admits Travel to Epstein Island, Downplays Relationship",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/lutnick-downplays-relationship-with-epstein-in-senate-testimony",
+        "description": "Commerce Secretary Howard Lutnick minimized his relationship with Jeffrey Epstein Tuesday even as he acknowledged visiting the disgraced financier at his private island in 2012 after Epstein was a con",
+        "pubDate": "Tue, 10 Feb 2026 15:56:05 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Pentagon Seeks to Formalize Trump’s Threats on Contractor Pay",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/pentagon-seeks-to-formalize-trump-s-threats-on-contractor-pay",
+        "description": "The Pentagon is looking to turn President Donald Trump’s threats on government contractors into enforceable contract provisions and potentially Securities and Exchange Commission regulations.",
+        "pubDate": "Tue, 10 Feb 2026 17:21:58 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Fewer Regulations Expected to Help Power Ford Earnings",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-10/fewer-regulations-expected-to-help-power-ford-earnings-video",
+        "description": "Analysts are expecting a strong quarter from Ford which reports earnings after the bell. President Donald Trump's push to cut subsidies for EVs and roll back emissions standards means Ford can sell ga",
+        "pubDate": "Tue, 10 Feb 2026 17:16:09 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "ICE, CBP Defend Training as Lawmakers Probe Minnesota Shootings",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/ice-cbp-officials-defend-training-as-lawmakers-probe-minnesota-shootings",
+        "description": "Senior US immigration officials told House lawmakers that officers involved in federal operations in Minnesota were trained on constitutional limits, crowd control and the use of force, as Congress sc",
+        "pubDate": "Tue, 10 Feb 2026 16:56:44 GMT",
+        "source": "Bloomberg Politics"
       },
       {
         "title": "Trump’s Grip on Billions of Taxpayer Dollars Loosened by Courts",
@@ -639,41 +684,6 @@
         "link": "https://www.bloomberg.com/news/articles/2026-02-10/democratic-challenger-to-ny-governor-hochul-suspends-campaign",
         "description": "Lieutenant Governor Antonio Delgado suspended his campaign for governor of New York after deciding that he couldn’t defeat the incumbent, his fellow Democrat Kathy Hochul.",
         "pubDate": "Tue, 10 Feb 2026 16:34:35 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Democrats Aren't Negotiating in Good Faith, Says Rep. Downing",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-10/democrats-aren-t-negotiating-in-good-faith-says-rep-downing",
-        "description": "Rep. Troy Downing (R) Montana states he doesn’t believe Congressional Democratic leaders are negotiating in good faith when it comes to the demands they are asking for. Downing expresses some doubt th",
-        "pubDate": "Tue, 10 Feb 2026 16:26:57 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Lutnick Admits Travel to Epstein Island, Downplays Relationship",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/lutnick-downplays-relationship-with-epstein-in-senate-testimony",
-        "description": "Commerce Secretary Howard Lutnick minimized his relationship with Jeffrey Epstein Tuesday even as he acknowledged visiting the disgraced financier at his private island in 2012 after Epstein was a con",
-        "pubDate": "Tue, 10 Feb 2026 15:56:05 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Mejia Rival Concedes in Special NJ House Democratic Primary",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/mejia-wins-special-nj-house-democratic-primary-malinowski-says",
-        "description": "Political organizer Analilia Mejia won the special Democratic primary in New Jersey’s 11th Congressional District, according to her rival, former Representative Tom Malinowski.",
-        "pubDate": "Tue, 10 Feb 2026 15:30:38 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Trump Threatens to Block Detroit-Canada Bridge in New Row",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-09/trump-threatens-to-block-detroit-canada-bridge-in-new-trade-row",
-        "description": "President Donald Trump threatened to block the opening of a new bridge that connects Michigan and Ontario until the US was given compensation and ownership of half of it, saying he’d start negotiation",
-        "pubDate": "Mon, 09 Feb 2026 23:10:42 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Ecuador Police Detain Guayaquil Mayor in Money Laundering Probe",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-10/ecuador-police-detain-guayaquil-mayor-in-money-laundering-probe",
-        "description": "Ecuador prosecutors and police in a pre-dawn raid detained Guayaquil Mayor Aquiles Alvarez in connection with a money laundering and tax evasion probe.",
-        "pubDate": "Tue, 10 Feb 2026 15:51:15 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -737,6 +747,27 @@
     ],
     "aljazeera": [
       {
+        "title": "Pakistan beat USA to avenge T20 World Cup upset",
+        "link": "https://www.aljazeera.com/sports/2026/2/10/pakistan-beat-usa-to-avenge-t20-world-cup-upset?traffic_source=rss",
+        "description": "After their shock defeat at the 2024 T20 World Cup, Pakistan exact revenge on USA with 32-run win at 2026 edition.",
+        "pubDate": "Tue, 10 Feb 2026 17:34:01 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Netanyahu says he’ll present ‘principles’ for Iran talks to Trump",
+        "link": "https://www.aljazeera.com/news/2026/2/10/netanyahu-says-hell-present-principles-for-iran-talks-to-trump?traffic_source=rss",
+        "description": "Departing for Washington, DC, Israeli prime minister hails his close ties to US president amid nuclear talks with Iran.",
+        "pubDate": "Tue, 10 Feb 2026 17:07:11 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "What happens when Netanyahu visits Trump? A look at his past six US visits",
+        "link": "https://www.aljazeera.com/news/2026/2/10/what-happens-when-netanyahu-visits-trump-a-look-at-his-past-six-us-visits?traffic_source=rss",
+        "description": "Israel&#039;s Netanyahu embarks on his sixth US trip amid escalating tensions in the region and ongoing US-Iran negotiations.",
+        "pubDate": "Tue, 10 Feb 2026 16:47:51 +0000",
+        "source": "Al Jazeera"
+      },
+      {
         "title": "T20 World Cup: India vs Pakistan match confirmation delights teams, fans",
         "link": "https://www.aljazeera.com/sports/2026/2/10/t20-world-cup-india-vs-pakistan-match-confirmation-delights-teams-fans?traffic_source=rss",
         "description": "Ex-players and fans say good sense prevails after Pakistan reverses its decision to boycott Sunday&#039;s clash.",
@@ -769,27 +800,6 @@
         "link": "https://www.aljazeera.com/video/newsfeed/2026/2/10/mexicos-sheinbaum-laments-us-oil-block-on-cuba?traffic_source=rss",
         "description": "Mexico&#039;s Claudia Sheinbaum said the US cutting off oil to Cuba harms the people Washington says it wants to help.",
         "pubDate": "Tue, 10 Feb 2026 15:17:04 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Why did Saif al-Islam Gaddafi have to die?",
-        "link": "https://www.aljazeera.com/opinions/2026/2/10/why-did-saif-al-islam-gaddafi-have-to-die?traffic_source=rss",
-        "description": "His name offered an alternative line of succession that Libya’s rival elites could neither control nor neutralise.",
-        "pubDate": "Tue, 10 Feb 2026 14:12:03 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Iran shuts down private businesses after protests as economy slumps",
-        "link": "https://www.aljazeera.com/news/2026/2/10/iran-shuts-down-private-businesses-after-protests-as-economy-slumps?traffic_source=rss",
-        "description": "Many of the businesses had either observed strikes or expressed support online for the nationwide protests.",
-        "pubDate": "Tue, 10 Feb 2026 14:02:08 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Macron warns US trade ‘threats, intimidation’ towards EU not over",
-        "link": "https://www.aljazeera.com/news/2026/2/10/macron-warns-us-trade-threats-and-intimidation-towards-eu-are-not-over?traffic_source=rss",
-        "description": "French president has urged the bloc to learn lessons from &#039;the Greenland moment&#039; and undertake urgent reforms.",
-        "pubDate": "Tue, 10 Feb 2026 13:34:39 +0000",
         "source": "Al Jazeera"
       }
     ],
@@ -884,11 +894,25 @@
         "title": "How unpopular is Britain’s Labour government? - The Economist",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPdGdHaGlvdlI1bC1TSXpEalk0N3BhbEpxMUo0ZXNtdkVNUUxHWWJiN3g3WUhBN3VxblY2YjZwM1BEMTZFSFRBaFBrVFEyQlBRU1pPVEY4TXl3cmFtSWNIWlh1ZExrRkhLYVlN?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBPdGdHaGlvdlI1bC1TSXpEalk0N3BhbEpxMUo0ZXNtdkVNUUxHWWJiN3g3WUhBN3VxblY2YjZwM1BEMTZFSFRBaFBrVFEyQlBRU1pPVEY4TXl3cmFtSWNIWlh1ZExrRkhLYVlN?oc",
-        "pubDate": "Fri, 06 Feb 2026 08:00:00 GMT",
+        "pubDate": "Tue, 10 Feb 2026 02:48:45 GMT",
         "source": "Economist"
       }
     ],
     "scmp": [
+      {
+        "title": "Trump commerce chief admits travelling to Epstein island, faces calls to resign",
+        "link": "https://www.scmp.com/news/world/united-states-canada/article/3343111/trump-commerce-chief-admits-travelling-epstein-island-faces-calls-resign?utm_source=rss_feed",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:34:50 +0000",
+        "source": "SCMP"
+      },
+      {
+        "title": "Walk for peace: Buddhist monks arrive in Washington after 3,700km journey",
+        "link": "https://www.scmp.com/news/world/united-states-canada/article/3343110/walk-peace-buddhist-monks-arrive-washington-after-3700km-journey?utm_source=rss_feed",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:14:01 +0000",
+        "source": "SCMP"
+      },
       {
         "title": "Trump’s cheeky dance with Statue of Liberty to headline German carnival",
         "link": "https://www.scmp.com/news/world/europe/article/3343108/trumps-cheeky-dance-statue-liberty-headline-german-carnival?utm_source=rss_feed",
@@ -930,23 +954,37 @@
         "description": "",
         "pubDate": "Tue, 10 Feb 2026 14:49:44 +0000",
         "source": "SCMP"
-      },
-      {
-        "title": "Starmer claims UK government ‘united’ amid calls to quit over Epstein fallout",
-        "link": "https://www.scmp.com/news/world/europe/article/3343103/starmer-claims-uk-government-united-amid-calls-quit-over-epstein-fallout?utm_source=rss_feed",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 14:48:51 +0000",
-        "source": "SCMP"
-      },
-      {
-        "title": "Indonesia on track for 10% growth by 2029, energy envoy Hashim says",
-        "link": "https://www.scmp.com/week-asia/economics/article/3343102/indonesia-track-10-growth-2029-energy-envoy-hashim-says?utm_source=rss_feed",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 14:37:35 +0000",
-        "source": "SCMP"
       }
     ],
     "timesofisrael": [
+      {
+        "title": "Accusations served after South African school cancels tennis match with Jewish team",
+        "link": "https://www.timesofisrael.com/accusations-served-after-south-african-school-cancels-tennis-match-with-jewish-team/",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:37:04 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Egypt blocks Epstein-themed party; calls for Starmer&#8217;s exit mount as he stays defiant",
+        "link": "https://www.timesofisrael.com/egypt-blocks-epstein-themed-party-calls-for-starmers-exit-mount-as-he-stays-defiant/",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:30:50 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Backers of proposed Oklahoma Jewish charter school say they&#8217;ll sue to overturn state ban",
+        "link": "https://www.timesofisrael.com/backers-of-proposed-oklahoma-jewish-charter-school-say-theyll-sue-to-overturn-state-ban/",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:23:30 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Soccer returns to war-torn Gaza with first organized tournament in over two years",
+        "link": "https://www.timesofisrael.com/soccer-returns-to-war-torn-gaza-with-first-organized-tournament-in-over-two-years/",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:12:45 +0000",
+        "source": "Times of Israel"
+      },
       {
         "title": "Teachers union chief in talks with Finance Ministry to shorten school week to 5 days",
         "link": "https://www.timesofisrael.com/teachers-union-chief-in-talks-with-finance-ministry-to-shorten-school-week-to-5-days/",
@@ -974,37 +1012,23 @@
         "description": "",
         "pubDate": "Tue, 10 Feb 2026 16:27:51 +0000",
         "source": "Times of Israel"
-      },
-      {
-        "title": "Settlers appear to be filmed entering Palestinian village, harassing locals at night",
-        "link": "https://www.timesofisrael.com/settlers-filmed-entering-palestinian-village-harassing-locals-at-night/",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 16:10:23 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "AIPAC defends spending $2.3m to thwart &#8216;pro-Israel&#8217; NJ congressional candidate",
-        "link": "https://www.timesofisrael.com/aipac-defends-spending-2-3m-to-thwart-pro-israel-nj-congressional-candidate/",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 16:08:56 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "StandWithUs VIP Mission: Bear Witness, Lift Spirits, &#038; Gain Elite Access - Sponsored Content",
-        "link": "https://toi.li/kOJQE0",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 15:47:11 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Shin Bet busts Lebanon-directed West Bank terror cells; 5 Palestinian suspects indicted",
-        "link": "https://www.timesofisrael.com/shin-bet-busts-lebanon-directed-west-bank-terror-cells-5-palestinian-suspects-indicted/",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 15:31:48 +0000",
-        "source": "Times of Israel"
       }
     ],
     "afp": [
+      {
+        "title": "NASA delays rocket launch to ISS over weather conditions",
+        "link": "https://www.france24.com/en/science/20260210-nasa-delays-rocket-launch-iss-over-weather-conditions",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:35:28 GMT",
+        "source": "AFP/France24"
+      },
+      {
+        "title": "'Democracy loses out': France sinks to new low in annual global corruption index",
+        "link": "https://www.france24.com/en/france/20260210-france-sinks-new-low-in-annual-global-corruption-index-democracy",
+        "description": "",
+        "pubDate": "Tue, 10 Feb 2026 17:12:37 GMT",
+        "source": "AFP/France24"
+      },
       {
         "title": "Netanyahu heads to Washington to meet Trump with Iran missiles high on agenda",
         "link": "https://www.france24.com/en/video/20260210-netanyahu-heads-to-washington-to-meet-trump-with-iran-missiles-high-on-agenda",
@@ -1046,25 +1070,11 @@
         "description": "",
         "pubDate": "Tue, 10 Feb 2026 16:14:46 GMT",
         "source": "AFP/France24"
-      },
-      {
-        "title": "UN decries 'preventable human rights catastrophe' in Sudan's El-Fasher",
-        "link": "https://www.france24.com/en/video/20260210-un-decries-preventable-human-rights-catastrophe-in-sudan-s-el-fasher",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 16:12:19 GMT",
-        "source": "AFP/France24"
-      },
-      {
-        "title": "Armed gang blows up armoured van in Italy",
-        "link": "https://www.france24.com/en/video/20260210-armed-gang-blows-up-armoured-van-in-italy",
-        "description": "",
-        "pubDate": "Tue, 10 Feb 2026 16:09:35 GMT",
-        "source": "AFP/France24"
       }
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-02-10T17:02:55.647Z",
+    "timestamp": "2026-02-10T18:03:38.481Z",
     "bbc": {
       "lead": {
         "headline": "Winter Olympics",
@@ -1088,7 +1098,7 @@
           "source": "BBC"
         },
         {
-          "headline": "'Blocked' weather pattern to blame for UK's endless downpours",
+          "headline": "UK braces for more rain as flood warnings remain in place",
           "url": "https://www.bbc.com/weather/articles/cn9el029173o",
           "source": "BBC"
         },
@@ -1112,6 +1122,11 @@
           "source": "Guardian"
         },
         {
+          "headline": "UK sleepwalking into joblessness epidemic, Tesco boss warns",
+          "url": "https://www.theguardian.com/business/2026/feb/10/uk-sleepwalking-into-joblessness-epidemic-tesco-boss-unemployment",
+          "source": "Guardian"
+        },
+        {
           "headline": "Irish man held in ICE detention says he fears for his life and asks Ireland for help",
           "url": "https://www.theguardian.com/us-news/2026/feb/10/irish-man-ice-detention-fears-life-ireland-help-seamus-culleton",
           "source": "Guardian"
@@ -1119,11 +1134,6 @@
         {
           "headline": "It’s nothing short of TV gold: mix horror with wild comedy and call it Starmer’s last stand",
           "url": "https://www.theguardian.com/commentisfree/2026/feb/10/keir-starmer-wes-streeting-rayner-sarwar-political-drama-labour",
-          "source": "Guardian"
-        },
-        {
-          "headline": "Out of the red, but at what cost? Birmingham council asset sales have left city reeling, say residents",
-          "url": "https://www.theguardian.com/uk-news/2026/feb/10/birmingham-council-asset-sales-city-reeling-residents-bankruptcy",
           "source": "Guardian"
         },
         {
@@ -1146,23 +1156,23 @@
           "source": "Al Jazeera"
         },
         {
-          "headline": "If you’re just joining us",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303239",
+          "headline": "Iran warns against Israel’s ‘destructive role’ ahead of Trump-Netanyahu talks",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303417",
           "source": "Al Jazeera"
         },
         {
-          "headline": "WATCH: Israeli attacks across Gaza kill several Palestinians despite ‘ceasefire’",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4302936",
+          "headline": "Photos: Israeli forces demolish Palestinian homes in occupied East Jerusalem",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303157",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Netanyahu, Trump to hold seventh meeting since US president took office",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303063",
+          "headline": "PLO official urges global community to pressure Israel to drop West Bank plans",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303384",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Netanyahu’s plane flies over Greece, Italy, France despite ICC arrest warrant",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303053",
+          "headline": "Israeli forces to demolish sports field near occupied West Bank’s Hebron",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/10/live-israeli-attack-on-gaza-building-kills-four-palestinians?update=4303211",
           "source": "Al Jazeera"
         }
       ]
@@ -1186,6 +1196,6 @@
       ]
     }
   },
-  "generated": "2026-02-10T17:02:56.725Z",
+  "generated": "2026-02-10T18:03:39.671Z",
   "source": "github-actions"
 }
