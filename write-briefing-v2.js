@@ -399,18 +399,45 @@ function generateHTML(briefingText) {
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated ${new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })} at ${new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET · <a href="#" onclick="refreshBriefing(); return false;">Refresh</a></div>
+  <div class="timestamp">Generated ${new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })} at ${new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
   <script>
-    async function refreshBriefing() {
-      const link = event.target;
+    async function refreshBriefing(e) {
+      var link = e.target;
       link.textContent = 'Refreshing...';
       link.style.pointerEvents = 'none';
+      var currentTimestamp = document.querySelector('.timestamp').textContent.match(/Generated ([^·]*)/);
+      currentTimestamp = currentTimestamp ? currentTimestamp[1].trim() : '';
       try {
-        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
-        const data = await res.json();
+        var res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
+        var data = await res.json();
         if (data.success) {
-          link.textContent = 'Triggered! Reloading in 60s...';
-          setTimeout(() => location.reload(), 60000);
+          link.textContent = 'Triggered! Waiting for build...';
+          var pollTimer = setInterval(function() {
+            fetch('index.html?_=' + Date.now(), { cache: 'no-store' })
+              .then(function(r) { return r.text(); })
+              .then(function(html) {
+                var match = html.match(/Generated ([^·]*)/);
+                var newTimestamp = match ? match[1].trim() : '';
+                if (newTimestamp && currentTimestamp && newTimestamp !== currentTimestamp) {
+                  clearInterval(pollTimer);
+                  location.reload();
+                }
+              })
+              .catch(function() {});
+          }, 15000);
+          document.addEventListener('visibilitychange', function handler() {
+            if (!document.hidden) {
+              document.removeEventListener('visibilitychange', handler);
+              clearInterval(pollTimer);
+              location.reload();
+            }
+          });
+          setTimeout(function() {
+            clearInterval(pollTimer);
+            link.textContent = 'Reload';
+            link.style.pointerEvents = 'auto';
+            link.onclick = function() { location.reload(); return false; };
+          }, 300000);
         } else {
           link.textContent = 'Error - try again';
           link.style.pointerEvents = 'auto';
