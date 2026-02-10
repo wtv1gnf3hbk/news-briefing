@@ -38,18 +38,22 @@
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated Tuesday, February 10, 2026 at 12:15 AM ET · <a href="#" onclick="refreshBriefing(); return false;">Refresh</a></div>
+  <div class="timestamp">Generated Tuesday, February 10, 2026 at 12:15 AM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
   <script>
-    async function refreshBriefing() {
-      const link = event.target;
+    async function refreshBriefing(e) {
+      var link = e.target;
       link.textContent = 'Refreshing...';
       link.style.pointerEvents = 'none';
+      var ts = document.querySelector('.timestamp').textContent.match(/Generated ([^·]*)/);
+      ts = ts ? ts[1].trim() : '';
       try {
-        const res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
-        const data = await res.json();
+        var res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
+        var data = await res.json();
         if (data.success) {
-          link.textContent = 'Triggered! Reloading in 60s...';
-          setTimeout(() => location.reload(), 60000);
+          link.textContent = 'Triggered! Waiting for build...';
+          var pt = setInterval(function(){fetch('index.html?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(html){var m=html.match(/Generated ([^·]*)/);var nt=m?m[1].trim():'';if(nt&&ts&&nt!==ts){clearInterval(pt);location.reload()}}).catch(function(){})},15000);
+          document.addEventListener('visibilitychange',function f(){if(!document.hidden){document.removeEventListener('visibilitychange',f);clearInterval(pt);location.reload()}});
+          setTimeout(function(){clearInterval(pt);link.textContent='Reload';link.style.pointerEvents='auto';link.onclick=function(){location.reload();return false}},300000);
         } else {
           link.textContent = 'Error - try again';
           link.style.pointerEvents = 'auto';
