@@ -1,27 +1,29 @@
-Good morning. Here's the state of play:
+Here's the state of play:
 
-Iran's back to business at its nuclear and missile facilities, according to new [satellite imagery](https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html) that shows Tehran rebuilding sites damaged in recent Israeli strikes. This comes as [indirect talks](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman) between the U.S. and Iran in Oman have ended "for now," Al Jazeera reports.
+The Trump administration is considering a significant expansion of the U.S. nuclear arsenal, including resuming underground weapons tests for the first time since 1992, according to [NYT reporting](https://www.nytimes.com/2026/02/09/us/politics/trump-nuclear-arms-underground-tests.html). The deliberations follow the expiration of New START, the last remaining nuclear arms treaty with Russia, and reflect a shift toward building new warheads rather than maintaining the existing stockpile. No final decisions have been made, but officials say the discussions have accelerated.
 
-Elsewhere, the world's trying to focus on the [Winter Olympics](https://www.nytimes.com/2026/02/06/world/europe/olympics-world-order-war.html) opening ceremonies in Milan today, though the games are playing out against a backdrop of global tensions that make the Olympic ideal of harmony feel pretty distant. Even Pope Leo felt compelled to warn against using sports for "propaganda or national supremacy" as the ceremonies kick off.
+A Hong Kong court [sentenced Jimmy Lai](https://www.nytimes.com/2026/02/09/world/asia/jimmy-lai-sentence-analysis.html), the 78-year-old founder of the pro-democracy newspaper Apple Daily, to 20 years in prison under Beijing's national security law. Lai, a British citizen, is the most prominent figure convicted under the law. China signaled it would deepen its security focus in Hong Kong in the wake of the ruling, Bloomberg reports.
 
-**Business/Tech**
+In Britain, the Epstein fallout is threatening to topple the prime minister. Anas Sarwar, the Scottish Labour leader, called on [Starmer to resign](https://www.nytimes.com/live/2026/02/09/world/uk-starmer-resign-epstein-mandelson) over the appointment of Peter Mandelson — who had ties to Jeffrey Epstein — as ambassador to the United States. Starmer told Labour MPs he would not quit, per the Economist, vowing not to plunge Britain "into chaos." Separately, Ghislaine Maxwell [refused to answer](https://www.bbc.com/news/articles/cvgv5yre39zo) questions from a congressional panel investigating Epstein, the BBC reports.
 
-• [AI concerns](https://www.nytimes.com/2026/02/06/business/the-dark-side-of-ai-weighs-on-the-stock-market.html) are weighing on markets as investors worry about the technology's darker implications, contributing to this week's tech selloff that's had everyone on edge.
+Israel has [expanded its control](https://www.nytimes.com/2026/02/09/world/middleeast/israel-settlements-west-bank.html) over the occupied West Bank, transferring authority over settlements from the military to a civilian government body. A U.S. official told Haaretz that Trump "clearly stated he does not support Israel annexing" the territory.
 
-• The EU is going after [TikTok's design](https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html) features, accusing the platform of deliberately making its app addictive and demanding changes to protect users.
+**Business/Technology**
 
-• Toyota is shaking things up with a [CEO change](https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html) as the Japanese giant faces pressure from both U.S. trade policies and Chinese competition in the EV market.
+- A [landmark trial](https://www.nytimes.com/2026/02/09/technology/social-media-addiction-trial.html) accusing Meta and YouTube of deliberately designing addictive products that harm children opened in federal court, with lawyers calling the platforms "digital casinos."
 
-• [Uber was found liable](https://www.nytimes.com/2026/02/05/business/uber-safety-rape-verdict.html) in a rape case involving one of its drivers, a verdict that could open the floodgates for thousands of similar lawsuits against the ride-sharing company.
+- Asian stocks extended their rally to [fresh records](https://www.bloomberg.com/news/articles/2026-02-09/stock-market-today-dow-s-p-live-updates), with the Nikkei surging more than 2% after Japan's election results, Bloomberg reports. U.S. tech shares also rebounded.
+
+- The Wall Street Journal reports that Trump is preparing to repeal a [landmark climate finding](https://www.wsj.com/articles/trump-to-repeal-landmark-climate-finding) that underpins decades of environmental regulation.
 
 **Around the World**
 
-• **Latin America:** Argentina and the U.S. just signed a [sweeping trade deal](https://www.nytimes.com/2026/02/05/world/americas/argentina-us-trade-deal-trump-milei.html) that deepens the alliance between Trump and President Milei, marking a significant shift in hemispheric trade relationships.
+- **Latin America:** Cuba has [run out of](https://www.nytimes.com/2026/02/09/world/americas/air-canada-flight-cancellations-cuba-jet-fuel.html) jet fuel, forcing Air Canada to cancel flights to the island. Russia warned the fuel situation is "critical," Al Jazeera reports, while Havana accused Washington of trying to break Cubans' "political will."
 
-• **Europe:** Norway's rallying behind its [royal family](https://www.nytimes.com/2026/02/06/world/europe/epstein-revelations-norway-royal-support.html) despite revelations about Epstein connections, showing how the scandal is rippling through European monarchies in unexpected ways.
+- **Europe:** At least 53 migrants are [dead or missing](https://www.nytimes.com/2026/02/09/world/europe/migrant-boat-capsize-libya-deaths.html) after a boat capsized off the Libyan coast, the U.N. migration agency said. Only two survivors were rescued, per the Guardian.
 
-• **Asia:** A Japanese politician is [upending local politics](https://www.nytimes.com/2026/02/06/world/asia/japan-election-pregnant-candidate.html) simply by announcing "I'm pregnant" during her campaign, challenging the country's rigid expectations for women in public life.
+- **Asia:** Japan's prime minister Sanae Takaichi [won a landslide](https://www.nytimes.com/2026/02/09/world/asia/japan-election-takaichi-analysis.html) in snap elections, securing a historic supermajority for the LDP. The result sent Japanese stocks soaring and prompted Washington to signal deeper security cooperation, according to the Japan Times.
 
-• **Middle East:** Iranian Nobel laureate Narges Mohammadi has started another [hunger strike](https://www.nytimes.com/2026/02/05/world/middleeast/iran-narges-mohammadi-prison-hunger-strike.html) in prison, highlighting Tehran's continued crackdown on dissent even as it engages in diplomacy abroad.
+- **Middle East:** Iran is [detaining prominent](https://www.nytimes.com/2026/02/09/world/europe/iran-detains-prominent-opposition-figures-expanding-crackdown-on-dissent.html) political figures, expanding its crackdown on dissent even as it engages in nuclear diplomacy. Videos analyzed by Le Monde show security forces using live ammunition against protesters.
 
-• **Africa:** A [political shakeup](https://www.nytimes.com/2026/02/04/world/africa/john-steenhuisen-democratic-alliance-anc-south-africa.html) in South Africa has the Democratic Alliance leader stepping down, raising fears about the stability of the country's coalition government.
+- **Africa:** Two Senegalese celebrities were [arrested](https://www.nytimes.com/2026/02/09/world/africa/senegal-gay-arrests-diallo-drame.html) in a crackdown on homosexuality, part of an intensifying campaign in the West African nation.
