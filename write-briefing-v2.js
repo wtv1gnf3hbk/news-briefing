@@ -210,6 +210,19 @@ function analyzeLeadStories(briefing) {
 // ============================================
 
 function buildDataContext(condensed) {
+  // Format international sources as a readable list with source names and URLs
+  // This is the key data that enables non-NYT links in the briefing
+  let intlSection = '';
+  for (const [source, items] of Object.entries(condensed.internationalSources)) {
+    intlSection += `\n${source.toUpperCase()}:\n`;
+    items.forEach(item => {
+      intlSection += `- ${item.title}`;
+      if (item.link) intlSection += `\n  URL: ${item.link}`;
+      if (item.source) intlSection += ` [${item.source}]`;
+      intlSection += '\n';
+    });
+  }
+
   return `LEAD STORY:
 ${JSON.stringify(condensed.lead, null, 2)}
 
@@ -222,8 +235,8 @@ ${JSON.stringify(condensed.primary, null, 2)}
 STORIES BY REGION (use these for Around the World section):
 ${JSON.stringify(condensed.byRegion, null, 2)}
 
-WIRE SERVICES:
-${JSON.stringify(condensed.wire, null, 2)}
+INTERNATIONAL SOURCES (MUST USE — these are your primary non-NYT sources for Around the World):
+${intlSection}
 
 INTERNATIONAL HOMEPAGE LEADS (what BBC/Guardian/Al Jazeera/Reuters are featuring):
 ${JSON.stringify(condensed.internationalLeads, null, 2)}`;
@@ -264,9 +277,16 @@ LINKS (CRITICAL):
 - BAD: "[Federal Reserve announces rate increase](url)"
 - Every bullet must have at least one link
 
-ATTRIBUTION:
-- For non-NYT stories, vary your attribution language: "Reuters reports", "according to Bloomberg", "the BBC notes", "per AP" (use "per X" only once in the entire briefing)
-- Don't over-attribute - if it's clearly sourced from the link, you don't always need to say where it came from
+ATTRIBUTION (CRITICAL):
+- When linking to a non-NYT source, you MUST attribute it: "according to BBC", "Al Jazeera reports", "per Reuters", "the Guardian notes"
+- Vary your attribution language (use "per X" only once in the entire briefing)
+- If the link goes to nytimes.com, attribution is optional. If it goes anywhere else, attribution is MANDATORY.
+
+SOURCE DIVERSITY (MANDATORY):
+- At least 3 bullets in Around the World MUST link to non-NYT sources (BBC, Guardian, Al Jazeera, SCMP, AFP, France24, Times of Israel, etc.)
+- The INTERNATIONAL SOURCES section below has headlines with real URLs from these outlets — USE THEM
+- Do NOT default to NYT links when a good international source link is available for the same story
+- If the lead story cites a non-NYT source (like Al Jazeera for Iran talks), attribute it explicitly in the text
 
 Here's the data:
 
@@ -297,6 +317,10 @@ Review the draft below against the source data, then produce a numbered list of 
 6. TONE: Flag any bullet that reads like a dry headline summary rather than a conversational thought.
 
 7. COVERAGE: Are all 5 regions represented in Around the World? (Latin America, Europe, Asia, Middle East, Africa)
+
+8. SOURCE DIVERSITY (BLOCKING): Extract every markdown link URL from the draft. Count how many link to non-nytimes.com domains. AT LEAST 3 links in the entire briefing must go to non-NYT sources (BBC, Guardian, Al Jazeera, SCMP, AFP, etc.). If the quota is not met, list which international source stories from the data below should replace NYT links. This is a BLOCKING issue — the briefing cannot publish without source diversity.
+
+9. ATTRIBUTION: For every non-NYT link, check that there is explicit source attribution nearby ("according to BBC", "Al Jazeera reports", "per Reuters", "the Guardian notes"). Flag any non-NYT link that is missing attribution text. The reader must know when a link goes to another outlet.
 
 SOURCE DATA:
 ${dataContext}
@@ -501,17 +525,31 @@ async function main() {
     byRegion[r] = briefing.nyt.secondary.filter(h => h.source === r).slice(0, 3);
   });
 
+  // Build international sources from ALL secondary feeds, filtering out
+  // Google News redirect URLs (they're unclickable for readers)
+  const internationalSources = {};
+  const skipKeys = ['timestamp'];
+  for (const [source, items] of Object.entries(briefing.secondary)) {
+    if (skipKeys.includes(source) || !Array.isArray(items)) continue;
+    // Only keep items with real, clickable URLs (not Google News redirects)
+    const usable = items
+      .filter(item => item.link && !item.link.includes('news.google.com/rss/articles/'))
+      .slice(0, 5);
+    if (usable.length > 0) {
+      internationalSources[source] = usable;
+    }
+  }
+
+  const intlSourceCount = Object.keys(internationalSources).length;
+  const intlItemCount = Object.values(internationalSources).flat().length;
+  console.log(`  International sources with usable URLs: ${intlSourceCount} sources, ${intlItemCount} items`);
+
   const condensed = {
     lead: briefing.nyt.lead,
     live: briefing.nyt.live.slice(0, 3),
     primary: briefing.nyt.primary.slice(0, 8),
     byRegion: byRegion,
-    wire: {
-      reuters: briefing.secondary.reuters?.slice(0, 3) || [],
-      ap: briefing.secondary.ap?.slice(0, 3) || [],
-      bbc: briefing.secondary.bbc?.slice(0, 3) || [],
-      bloomberg: briefing.secondary.bloomberg?.slice(0, 3) || []
-    },
+    internationalSources: internationalSources,
     internationalLeads: briefing.internationalLeads || {}
   };
 
