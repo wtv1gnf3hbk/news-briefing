@@ -1,27 +1,18 @@
 Good morning. Here's the state of play:
 
-The Trump administration's border security operations are under scrutiny after what appears to be a significant operational mishap at El Paso International Airport. The [Border Patrol's use](https://www.nytimes.com/2026/02/11/us/trump-administration-el-paso-airspace-closure-questions.html) of anti-drone laser technology apparently triggered the closure of civilian airspace, highlighting how [counter-drone weapons](https://www.nytimes.com/2026/02/11/us/weapons-used-to-fight-drones-dont-mix-well-with-civilian-airspace.html) can create unintended complications when deployed near busy airports. AP sources confirm the Pentagon had authorized Customs and Border Protection to use the laser system before the FAA shut down the airspace.
+The U.S.-Mexico border is making headlines for an unexpected reason. A [Border Agency laser](https://www.nytimes.com/2026/02/11/us/trump-administration-el-paso-airspace-closure-questions.html) designed to take down drones apparently caused the shutdown of El Paso's airspace this week. The incident highlights a growing challenge as the Trump administration ramps up border enforcement: [anti-drone weapons](https://www.nytimes.com/2026/02/11/us/weapons-used-to-fight-drones-dont-mix-well-with-civilian-airspace.html) don't play nicely with commercial aviation.
 
-Meanwhile, Trump's election security appointments continue raising eyebrows. The president has tapped an [election denier](https://www.nytimes.com/2026/02/12/us/politics/trump-kurt-olsen-election-denialism.html) to head election security efforts, while the House just passed a [strict voter ID](https://www.nytimes.com/2026/02/11/us/politics/house-passes-voter-id-bill.html) measure that amplifies Trump's fraud claims. It's part of a broader pattern of the administration reshaping election oversight in line with Trump's longstanding grievances about the 2020 race.
+Meanwhile, Bangladesh wrapped up voting in what could be a watershed election. Al Jazeera reports that [polls closed](https://www.aljazeera.com/news/liveblog/2026/2/12/bangladesh-election-results-live-polls-formally-close-counting-under-way) with counting now underway in the first democratic contest since Gen Z-led protests toppled Sheikh Hasina's authoritarian government. It's the kind of moment that could reshape South Asian politics, with voters hoping for a genuine return to democratic governance after 15 years of increasingly repressive rule.
 
 **Business/Tech**
-
-• The IEA is [cutting forecasts](https://news.google.com/rss/articles/CBMirwFBVV85cUxNMXhpSmhwZUZPNzVrQXd6bUxFMmpqZnVjeVJ0WXpZbDlUU3ZQRnVXS0FpSWtKaERqaC03WGg0QVp4ZXNZWUpWcUNHYVh6ODF0b1pKMnhCYkRoN1pKdzJiZEZtQkw3SU9tT3hpek5MRWpKUGw3UEo5dEhiSFp0QUNPcFdpblZXMGQ4blROSEdxS2hLWXgxSWpQY2lPM1VyNlBPSnpqakUzYTl6RFFZMzM4?oc=5) for global oil demand growth this year, Reuters reports, as economic uncertainties weigh on consumption expectations.
-
-• China is [softening its stance](https://news.google.com/rss/articles/CBMiyAFBVV85cUxNM1h3b0ZmenQ4QTBaM2luX3ZGZF9xazFZeGFKa1diRl9BZ2NSVzdqVG1fX3RLXzZ3b1B6ZWNGcEN1UzE4a3BNUU9yaXRKWFBaa1hKOHMxWWVfZ19SVlhhaW1Ob0tyU1dfMGJMdjkzX1pNQnFMYkw4aTBTbUxkQkp2N0R5VEFHX3VzOUd4cUd6ckJYdjZwZlVLbGcyQUxGUlJISFhDZnYxdkxUUHlvQ28yZlNHejA2cDFLVkw5TjZsWFlrRm5odHMyRw?oc=5) on EU trade disputes, according to Reuters, allowing individual EV makers to negotiate separately with Brussels on tariffs.
-
-• Instagram's Adam Mosseri testified that social media [isn't clinically addictive](https://www.nytimes.com/2026/02/11/technology/adam-mosseri-instagram-addiction-trial.html) during a landmark trial examining tech platforms' impact on youth mental health.
-
-• OpenAI is wrestling with [monetizing its AI](https://www.nytimes.com/2026/02/11/technology/openai-revenue-challenge.html) technology as it faces mounting pressure to turn its massive investments into sustainable revenue streams.
+- [SoftBank swung](https://www.bloomberg.com/news/articles/2026-02-12/softbank-swings-to-profit-on-valuation-boost-from-its-openai-bet) back to quarterly profit, with its OpenAI bet generating nearly $20 billion in investment gains, Bloomberg reports. That's a massive vindication for Masayoshi Son's latest AI gamble.
+- Amateur traders are [outpredicting Wall Street](https://www.nytimes.com/2026/02/11/business/economy/forecasts-prediction-markets-economy.html) Ph.D.s on economic forecasts, using prediction markets to beat traditional analysts at their own game.
+- Instagram's head testified that social media isn't ["clinically addictive"](https://www.nytimes.com/2026/02/11/technology/adam-mosseri-instagram-addiction-trial.html) in a landmark trial that could reshape how we think about tech platforms and mental health.
+- [OpenAI's biggest challenge](https://www.nytimes.com/2026/02/11/technology/openai-revenue-challenge.html) isn't building better AI models but figuring out how to turn all that technological prowess into sustainable revenue streams.
 
 **Around the World**
-
-• **Latin America:** A top U.S. energy official is [pressing Venezuela](https://www.nytimes.com/2026/02/11/world/americas/us-venezuela-foreign-investment-oil.html) to create better conditions for foreign investment, particularly in the country's oil sector as Washington seeks to expand economic ties.
-
-• **Europe:** Former NATO ambassadors and generals are [defending the alliance's importance](https://www.nytimes.com/2026/02/12/world/europe/nato-us.html) to U.S. security as Trump continues questioning America's commitment to the transatlantic partnership.
-
-• **Asia:** The BBC reports that Kim Jong Un has [chosen his teenage daughter](https://www.bbc.com/news/articles/cn0e1g7kwglo?at_medium=RSS&at_campaign=rss) as his heir apparent, with South Korea's intelligence agency pointing to Ki Ju Ae's increasingly prominent public appearances as evidence.
-
-• **Middle East:** Hamas would [retain some weapons](https://www.nytimes.com/2026/02/10/world/middleeast/hamas-weapons-draft-plan.html) initially under a draft Gaza ceasefire plan currently being negotiated, officials tell the Times.
-
-• **Africa:** Senegalese authorities have [arrested two celebrities](https://www.nytimes.com/2026/02/09/world/africa/senegal-gay-arrests-diallo-drame.html) as part of a broader government crackdown targeting the LGBTQ+ community in the West African nation.
+- **Latin America:** A top U.S. energy official is [pressing Venezuela](https://www.nytimes.com/2026/02/11/world/americas/us-venezuela-foreign-investment-oil.html) to do more to encourage foreign investment, particularly in its oil sector, as Washington tries to balance sanctions with energy market stability.
+- **Europe:** Former U.S. ambassadors and generals are [defending NATO](https://www.nytimes.com/2026/02/12/world/europe/nato-us.html) as vital to American security, pushing back against any suggestion the alliance has outlived its usefulness.
+- **Asia:** South Korea's spy agency says Kim Jong Un has [chosen his teenage daughter](https://www.bbc.com/news/articles/cn0e1g7kwglo) as his heir, according to the BBC. Ki Ju Ae's increasingly prominent public role apparently signals her position in the succession plan.
+- **Middle East:** [Hamas would keep](https://www.nytimes.com/2026/02/10/world/middleeast/hamas-weapons-draft-plan.html) some weapons initially under a draft Gaza plan being discussed by officials, suggesting the group isn't ready for complete disarmament even in a potential ceasefire deal.
+- **Africa:** Two Senegalese celebrities were [arrested in a crackdown](https://www.nytimes.com/2026/02/09/world/africa/senegal-gay-arrests-diallo-drame.html) on homosexuality, highlighting the ongoing persecution of LGBTQ+ individuals across much of the continent.
