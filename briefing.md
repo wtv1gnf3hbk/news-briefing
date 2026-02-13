@@ -1,18 +1,27 @@
 Good morning. Here's the state of play:
 
-The U.S.-Mexico border is making headlines for an unexpected reason. A [Border Agency laser](https://www.nytimes.com/2026/02/11/us/trump-administration-el-paso-airspace-closure-questions.html) designed to take down drones apparently caused the shutdown of El Paso's airspace this week. The incident highlights a growing challenge as the Trump administration ramps up border enforcement: [anti-drone weapons](https://www.nytimes.com/2026/02/11/us/weapons-used-to-fight-drones-dont-mix-well-with-civilian-airspace.html) don't play nicely with commercial aviation.
+Bangladesh has wrapped up its first free election since protesters toppled the authoritarian Sheikh Hasina in 2024, and the results are reshaping the country's political landscape. The [Bangladesh Nationalist Party](https://www.nytimes.com/live/2026/02/12/world/bangladesh-election-results) secured a commanding two-thirds majority with 204 of 300 parliamentary seats, though the Islamist Jamaat-e-Islami party is expressing dissatisfaction with the vote count, according to Al Jazeera. It's a pivotal moment for a nation that endured 15 years of increasingly despotic rule.
 
-Meanwhile, Bangladesh wrapped up voting in what could be a watershed election. Al Jazeera reports that [polls closed](https://www.aljazeera.com/news/liveblog/2026/2/12/bangladesh-election-results-live-polls-formally-close-counting-under-way) with counting now underway in the first democratic contest since Gen Z-led protests toppled Sheikh Hasina's authoritarian government. It's the kind of moment that could reshape South Asian politics, with voters hoping for a genuine return to democratic governance after 15 years of increasingly repressive rule.
+Meanwhile, European leaders are bracing for what could be a tense transatlantic reckoning at the [Munich Security Conference](https://www.nytimes.com/live/2026/02/13/world/munich-security-conference), where Secretary of State Marco Rubio is expected to deliver his first major address to European allies. The BBC reports that Rubio has already warned of a "new era in geopolitics," setting the stage for what many see as a crucial test of NATO unity after Trump's recent threats to annex Greenland. The timing couldn't be more fraught, with European officials openly nervous about America's commitment to traditional alliance structures.
 
 **Business/Tech**
-- [SoftBank swung](https://www.bloomberg.com/news/articles/2026-02-12/softbank-swings-to-profit-on-valuation-boost-from-its-openai-bet) back to quarterly profit, with its OpenAI bet generating nearly $20 billion in investment gains, Bloomberg reports. That's a massive vindication for Masayoshi Son's latest AI gamble.
-- Amateur traders are [outpredicting Wall Street](https://www.nytimes.com/2026/02/11/business/economy/forecasts-prediction-markets-economy.html) Ph.D.s on economic forecasts, using prediction markets to beat traditional analysts at their own game.
-- Instagram's head testified that social media isn't ["clinically addictive"](https://www.nytimes.com/2026/02/11/technology/adam-mosseri-instagram-addiction-trial.html) in a landmark trial that could reshape how we think about tech platforms and mental health.
-- [OpenAI's biggest challenge](https://www.nytimes.com/2026/02/11/technology/openai-revenue-challenge.html) isn't building better AI models but figuring out how to turn all that technological prowess into sustainable revenue streams.
+
+• [Goldman Sachs](https://www.nytimes.com/2026/02/12/business/goldman-lawyer-kathryn-ruemmler-resigns.html) saw its top lawyer Kathryn Ruemmler resign following revelations about her connections to Jeffrey Epstein, marking another high-profile departure tied to the disgraced financier's expanding web of influence.
+
+• [Anthropic launched](https://www.nytimes.com/2026/02/12/technology/anthropic-super-pac-openai.html) a $20 million super PAC operation specifically designed to counter OpenAI's growing political influence, escalating the AI industry's Washington lobbying wars.
+
+• [Oil prices](https://www.bloomberg.com/news/articles/2026-02-12/latest-oil-market-news-and-analysis-for-feb-13) are sliding toward their first back-to-back weekly decline this year, with Bloomberg reporting that some OPEC+ nations are eyeing potential production increases.
+
+• GE Aerospace is [turning to robots](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVHFIRUJIUU5oTTd3MFNyeDB5a3dhdW5VQ2lSdzF1dFIwUGJJaEozWHBSNWduZUVObXM1RFAzbGNaZjZEYVRjMVN6dFFmYU9tUkp0c1dsdWZtaTdOWWdseDBWS2VEV0lVQ3ZKX1VKS3Q3cUI5NmRlMFYwX2xRUmdZV0RpeVpBWTdWY2pvTV9SbGZJT3VoQy03UlI2Z0xocGZlY18tU3psN0h0Z2dIRWpHcHpQWkQ3NXZ2czFGYVEweTFzT0ZWZDlOajI1cDN5M2s2Unc?oc=5) and lean manufacturing to tackle a massive backlog in jet engine repairs, per Reuters.
 
 **Around the World**
-- **Latin America:** A top U.S. energy official is [pressing Venezuela](https://www.nytimes.com/2026/02/11/world/americas/us-venezuela-foreign-investment-oil.html) to do more to encourage foreign investment, particularly in its oil sector, as Washington tries to balance sanctions with energy market stability.
-- **Europe:** Former U.S. ambassadors and generals are [defending NATO](https://www.nytimes.com/2026/02/12/world/europe/nato-us.html) as vital to American security, pushing back against any suggestion the alliance has outlived its usefulness.
-- **Asia:** South Korea's spy agency says Kim Jong Un has [chosen his teenage daughter](https://www.bbc.com/news/articles/cn0e1g7kwglo) as his heir, according to the BBC. Ki Ju Ae's increasingly prominent public role apparently signals her position in the succession plan.
-- **Middle East:** [Hamas would keep](https://www.nytimes.com/2026/02/10/world/middleeast/hamas-weapons-draft-plan.html) some weapons initially under a draft Gaza plan being discussed by officials, suggesting the group isn't ready for complete disarmament even in a potential ceasefire deal.
-- **Africa:** Two Senegalese celebrities were [arrested in a crackdown](https://www.nytimes.com/2026/02/09/world/africa/senegal-gay-arrests-diallo-drame.html) on homosexuality, highlighting the ongoing persecution of LGBTQ+ individuals across much of the continent.
+
+• **Latin America**: A Venezuelan politician in exile is [being held](https://www.nytimes.com/2026/02/13/world/americas/carlos-roberto-garcia-asylum-ice-venezuela.html) by ICE and fears deportation back to Venezuela, where he could face persecution under the Maduro government.
+
+• **Europe**: A UK high court has [ruled unlawful](https://www.nytimes.com/2026/02/13/world/europe/uk-palestine-action-ban-court-ruling.html) the government's ban on the pro-Palestinian group Palestine Action, dealing a significant blow to Prime Minister Starmer's handling of Gaza-related activism.
+
+• **Asia**: Pakistan and India's cricket rivalry is [heating up again](https://www.nytimes.com/2026/02/13/world/asia/india-pakistan-boycott-cricket-world-cup.html), with both nations threatening to boycott each other's World Cup matches as diplomatic tensions spill onto the pitch.
+
+• **Middle East**: Iran has [deployed sophisticated digital surveillance](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition technology to hunt down protesters, as AP reports the death toll from the regime's crackdown has now exceeded 7,000.
+
+• **Africa**: Israel is [shaking up](https://www.nytimes.com/2026/02/12/world/africa/israel-somaliland-mideast-trump.html) the geopolitical balance in the Horn of Africa with new moves involving Somaliland, even as the US continues bombing operations in Somalia.
