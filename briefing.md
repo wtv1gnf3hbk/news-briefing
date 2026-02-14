@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Bangladesh has wrapped up its first free election since protesters toppled the authoritarian Sheikh Hasina in 2024, and the results are reshaping the country's political landscape. The [Bangladesh Nationalist Party](https://www.nytimes.com/live/2026/02/12/world/bangladesh-election-results) secured a commanding two-thirds majority with 204 of 300 parliamentary seats, though the Islamist Jamaat-e-Islami party is expressing dissatisfaction with the vote count, according to Al Jazeera. It's a pivotal moment for a nation that endured 15 years of increasingly despotic rule.
+The U.S. is grappling with a series of domestic security challenges that have international implications. A [major debacle](https://www.nytimes.com/2026/02/14/us/politics/el-paso-airspace-closure-faa-pentagon.html) led to the complete closure of El Paso's airspace, highlighting coordination problems between the Pentagon and FAA over anti-drone operations along the Mexican border. The situation underscores broader tensions as the Department of Homeland Security has [shut down](https://www.nytimes.com/2026/02/13/us/politics/dhs-shutdown-funding.html) due to funding disputes, leaving essential operations running but creating uncertainty for thousands of federal workers.
 
-Meanwhile, European leaders are bracing for what could be a tense transatlantic reckoning at the [Munich Security Conference](https://www.nytimes.com/live/2026/02/13/world/munich-security-conference), where Secretary of State Marco Rubio is expected to deliver his first major address to European allies. The BBC reports that Rubio has already warned of a "new era in geopolitics," setting the stage for what many see as a crucial test of NATO unity after Trump's recent threats to annex Greenland. The timing couldn't be more fraught, with European officials openly nervous about America's commitment to traditional alliance structures.
+Meanwhile, Secretary of State Rubio is working to reassure European allies at the Munich Security Conference, where [world leaders](https://www.aljazeera.com/news/liveblog/2026/2/14/live-world-leaders-gather-in-munich-for-2nd-day-of-security-conference) are gathering for a second day of discussions. European officials are expressing [cautious relief](https://www.nytimes.com/2026/02/14/world/europe/europe-reaction-rubio.html) about Rubio's approach, though concerns remain about broader U.S. policy directions under the new administration.
 
 **Business/Tech**
 
-• [Goldman Sachs](https://www.nytimes.com/2026/02/12/business/goldman-lawyer-kathryn-ruemmler-resigns.html) saw its top lawyer Kathryn Ruemmler resign following revelations about her connections to Jeffrey Epstein, marking another high-profile departure tied to the disgraced financier's expanding web of influence.
+• Elon Musk's AI chatbot Grok is [gaining market share](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRUFnYWJuNnhYanNOQ054b3B2T040NXl1QmFvWFk4T2w0UWt2cGhMREZ5S1loUldoZm5TQ3UxRjRnRVhEYW5qMTZ4Y3JmWm5XRER2dTRfWjloTGRyMFdvOFhTOHNwRmJvWmNPTEN) despite facing backlash over sexualized image generation, according to Reuters.
 
-• [Anthropic launched](https://www.nytimes.com/2026/02/12/technology/anthropic-super-pac-openai.html) a $20 million super PAC operation specifically designed to counter OpenAI's growing political influence, escalating the AI industry's Washington lobbying wars.
+• China's chip industry has made significant strides but still [faces major gaps](https://www.nytimes.com/2026/02/14/business/china-chips-nvidia-huawei.html) in competing with Western technology, particularly in high-end semiconductor manufacturing.
 
-• [Oil prices](https://www.bloomberg.com/news/articles/2026-02-12/latest-oil-market-news-and-analysis-for-feb-13) are sliding toward their first back-to-back weekly decline this year, with Bloomberg reporting that some OPEC+ nations are eyeing potential production increases.
+• Iran is deploying [digital surveillance tools](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition technology to track down protesters, expanding its crackdown capabilities.
 
-• GE Aerospace is [turning to robots](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVHFIRUJIUU5oTTd3MFNyeDB5a3dhdW5VQ2lSdzF1dFIwUGJJaEozWHBSNWduZUVObXM1RFAzbGNaZjZEYVRjMVN6dFFmYU9tUkp0c1dsdWZtaTdOWWdseDBWS2VEV0lVQ3ZKX1VKS3Q3cUI5NmRlMFYwX2xRUmdZV0RpeVpBWTdWY2pvTV9SbGZJT3VoQy03UlI2Z0xocGZlY18tU3psN0h0Z2dIRWpHcHpQWkQ3NXZ2czFGYVEweTFzT0ZWZDlOajI1cDN5M2s2Unc?oc=5) and lean manufacturing to tackle a massive backlog in jet engine repairs, per Reuters.
+• Goldman Sachs' [top lawyer departed](https://www.nytimes.com/2026/02/12/business/goldman-lawyer-kathryn-ruemmler-resigns.html) following revelations about her connections to Jeffrey Epstein.
 
 **Around the World**
 
-• **Latin America**: A Venezuelan politician in exile is [being held](https://www.nytimes.com/2026/02/13/world/americas/carlos-roberto-garcia-asylum-ice-venezuela.html) by ICE and fears deportation back to Venezuela, where he could face persecution under the Maduro government.
+• **Latin America**: The U.N. has [condemned U.S. measures](https://www.nytimes.com/2026/02/13/world/americas/trump-oil-un-cuba-venezuela.html) that halt oil deliveries to Cuba, marking an early diplomatic flashpoint over the new administration's Latin America policy.
 
-• **Europe**: A UK high court has [ruled unlawful](https://www.nytimes.com/2026/02/13/world/europe/uk-palestine-action-ban-court-ruling.html) the government's ban on the pro-Palestinian group Palestine Action, dealing a significant blow to Prime Minister Starmer's handling of Gaza-related activism.
+• **Europe**: Secretary of State Rubio delivered a [major speech](https://www.nytimes.com/2026/02/14/world/europe/rubio-munich-security-conference-speech.html) at the Munich Security Conference, stressing shared history with Europeans while warning of "civilizational erasure."
 
-• **Asia**: Pakistan and India's cricket rivalry is [heating up again](https://www.nytimes.com/2026/02/13/world/asia/india-pakistan-boycott-cricket-world-cup.html), with both nations threatening to boycott each other's World Cup matches as diplomatic tensions spill onto the pitch.
+• **Asia**: Japan has [released a Chinese boat captain](https://www.nytimes.com/2026/02/14/world/asia/japan-china-boat-captain-release.html) after detaining him for 30 hours, defusing a potential diplomatic incident between the two countries.
 
-• **Middle East**: Iran has [deployed sophisticated digital surveillance](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition technology to hunt down protesters, as AP reports the death toll from the regime's crackdown has now exceeded 7,000.
+• **Middle East**: The Pentagon is [preparing for possible war](https://www.nytimes.com/2026/02/13/us/politics/trump-iran-pentagon.html) with Iran even as diplomatic efforts continue, with Reuters reporting that military planners are readying for potentially weeks-long operations.
 
-• **Africa**: Israel is [shaking up](https://www.nytimes.com/2026/02/12/world/africa/israel-somaliland-mideast-trump.html) the geopolitical balance in the Horn of Africa with new moves involving Somaliland, even as the US continues bombing operations in Somalia.
+• **Africa**: The first U.S. troops have [arrived in Nigeria](https://www.nytimes.com/2026/02/13/world/africa/nigeria-us-military-christian-trump.html) to bolster counterterrorism operations, expanding American military presence in West Africa.
