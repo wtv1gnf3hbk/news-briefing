@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The U.S. is grappling with a series of domestic security challenges that have international implications. A [major debacle](https://www.nytimes.com/2026/02/14/us/politics/el-paso-airspace-closure-faa-pentagon.html) led to the complete closure of El Paso's airspace, highlighting coordination problems between the Pentagon and FAA over anti-drone operations along the Mexican border. The situation underscores broader tensions as the Department of Homeland Security has [shut down](https://www.nytimes.com/2026/02/13/us/politics/dhs-shutdown-funding.html) due to funding disputes, leaving essential operations running but creating uncertainty for thousands of federal workers.
+Washington is grappling with a [Homeland Security funding](https://www.nytimes.com/2026/02/14/us/politics/tsa-homeland-security-shutdown.html) crisis that could disrupt airport security and immigration enforcement. The standoff reflects broader tensions over Trump's aggressive deportation agenda, which has sparked [student protests](https://www.nytimes.com/2026/02/15/us/student-protests-walkouts-ice-texas.html) nationwide and raised questions about how far federal agencies can push their enforcement powers.
 
-Meanwhile, Secretary of State Rubio is working to reassure European allies at the Munich Security Conference, where [world leaders](https://www.aljazeera.com/news/liveblog/2026/2/14/live-world-leaders-gather-in-munich-for-2nd-day-of-security-conference) are gathering for a second day of discussions. European officials are expressing [cautious relief](https://www.nytimes.com/2026/02/14/world/europe/europe-reaction-rubio.html) about Rubio's approach, though concerns remain about broader U.S. policy directions under the new administration.
+The funding fight comes as the administration faces scrutiny over its immigration tactics. The U.S. secretly [deported nine migrants](https://www.nytimes.com/2026/02/14/world/africa/us-secret-deportation-cameroon.html) to Cameroon while ignoring legal protections, and Homeland Security is now [demanding social media platforms](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html) reveal anti-ICE accounts. The political fallout is reshaping Democratic messaging, with the party split between calls to "abolish ICE" versus reforming Trump's version of the agency.
 
 **Business/Tech**
 
-• Elon Musk's AI chatbot Grok is [gaining market share](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRUFnYWJuNnhYanNOQ054b3B2T040NXl1QmFvWFk4T2w0UWt2cGhMREZ5S1loUldoZm5TQ3UxRjRnRVhEYW5qMTZ4Y3JmWm5XRER2dTRfWjloTGRyMFdvOFhTOHNwRmJvWmNPTEN) despite facing backlash over sexualized image generation, according to Reuters.
+• The romance novel industry is getting an unwelcome makeover as [A.I. translations](https://www.nytimes.com/2026/02/15/world/europe/artificial-intelligence-language-translation.html) flood the market with cheap alternatives to human translators, raising questions about quality and jobs.
 
-• China's chip industry has made significant strides but still [faces major gaps](https://www.nytimes.com/2026/02/14/business/china-chips-nvidia-huawei.html) in competing with Western technology, particularly in high-end semiconductor manufacturing.
+• Iran is deploying [digital surveillance tools](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition to track down protesters, showing how authoritarian regimes are weaponizing tech against dissent.
 
-• Iran is deploying [digital surveillance tools](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition technology to track down protesters, expanding its crackdown capabilities.
+• A.I. companies are quietly [personalizing your internet](https://www.nytimes.com/2026/02/10/technology/personaltech/ai-google-meta-opt-out.html) experience without giving you any say in how the algorithms work, Bloomberg reports that [A.I. risk](https://www.bloomberg.com/news/articles/2026-02-15/ai-risk-is-dominating-conference-calls-as-investors-dump-stocks) is dominating earnings calls as investors dump tech stocks.
 
-• Goldman Sachs' [top lawyer departed](https://www.nytimes.com/2026/02/12/business/goldman-lawyer-kathryn-ruemmler-resigns.html) following revelations about her connections to Jeffrey Epstein.
+• The U.S. has [authorized Triso-X](https://news.google.com/rss/articles/CBMimwFBVV95cUxNQm50TnJjSmZoeGgxdlplcGpkdkNiMlFaaXNJYVdIeVdaUVJxNGMwekVyWThCRE42UzhFQk1GNXFyemVINmpoWWpkeHBIc2pmeGpYLTNVYlkySGVFXzBOOWlfNGhZMUw3cGRRcXJ) to use enriched uranium for reactor fuel production, per Reuters.
 
 **Around the World**
 
-• **Latin America**: The U.N. has [condemned U.S. measures](https://www.nytimes.com/2026/02/13/world/americas/trump-oil-un-cuba-venezuela.html) that halt oil deliveries to Cuba, marking an early diplomatic flashpoint over the new administration's Latin America policy.
+• **Latin America**: Brazil just claimed its [first-ever Winter Olympics](https://www.nytimes.com/2026/02/14/world/olympics/brazil-kazakhstan-gold-medals-winter-olympics.html) gold medal alongside Kazakhstan, marking a historic breakthrough for countries not traditionally associated with winter sports.
 
-• **Europe**: Secretary of State Rubio delivered a [major speech](https://www.nytimes.com/2026/02/14/world/europe/rubio-munich-security-conference-speech.html) at the Munich Security Conference, stressing shared history with Europeans while warning of "civilizational erasure."
+• **Europe**: A new [memoir by Gisèle Pelicot](https://www.nytimes.com/2026/02/15/books/review/gisele-pelicot-memoir-hymn-to-life-review.html) explains why she refused to be seen as a victim during her landmark sexual assault trial that captivated France and beyond.
 
-• **Asia**: Japan has [released a Chinese boat captain](https://www.nytimes.com/2026/02/14/world/asia/japan-china-boat-captain-release.html) after detaining him for 30 hours, defusing a potential diplomatic incident between the two countries.
+• **Asia**: An [Islamist party's growing influence](https://www.nytimes.com/2026/02/15/world/asia/bangladesh-election-students-islam.html) in Bangladesh is overshadowing the student revolution that toppled the previous government, raising questions about the country's secular future.
 
-• **Middle East**: The Pentagon is [preparing for possible war](https://www.nytimes.com/2026/02/13/us/politics/trump-iran-pentagon.html) with Iran even as diplomatic efforts continue, with Reuters reporting that military planners are readying for potentially weeks-long operations.
+• **Middle East**: The death of an Iranian protester in custody has [sparked fresh outrage](https://www.nytimes.com/2026/02/15/world/middleeast/ali-rahbar-iran-protester.html), with his family believing he was executed. The BBC reports Iran's deputy foreign minister says the country is [ready to discuss compromises](https://www.bbc.com/news/articles/clyz4y3zwz5o) on a nuclear deal.
 
-• **Africa**: The first U.S. troops have [arrived in Nigeria](https://www.nytimes.com/2026/02/13/world/africa/nigeria-us-military-christian-trump.html) to bolster counterterrorism operations, expanding American military presence in West Africa.
+• **Africa**: A South Sudanese peace activist was [caught plotting a coup](https://www.nytimes.com/2026/02/14/world/africa/south-sudan-peace-activist-coup-plot.html), highlighting the complex dynamics in one of the world's youngest nations where the line between peace and politics often blurs.
