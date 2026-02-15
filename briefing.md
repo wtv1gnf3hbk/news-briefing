@@ -1,25 +1,27 @@
 Good morning. Here's the state of play:
 
-The Department of Homeland Security is staring down a potential [funding crisis](https://www.nytimes.com/2026/02/14/us/politics/tsa-homeland-security-shutdown.html) that could disrupt everything from TSA operations to immigration enforcement. The standoff comes as the Trump administration pushes an aggressive domestic agenda, with students across the country [walking out](https://www.nytimes.com/2026/02/15/us/student-protests-walkouts-ice-texas.html) to protest ICE raids while Texas threatens to punish schools that allow such demonstrations.
+The U.S. government is facing another potential crisis as [Homeland Security funding](https://www.nytimes.com/2026/02/14/us/politics/tsa-homeland-security-shutdown.html) hangs in the balance. The standoff threatens to disrupt critical operations just as the administration ramps up immigration enforcement. TSA operations and border security could be affected if Congress doesn't act soon.
 
-The international picture is equally tense. European leaders are pushing back hard against American claims that Europe faces "civilizational erasure." EU Vice President Kaja Kallas led the charge, according to reports from European outlets. Meanwhile, the UK says Russia killed opposition leader Alexei Navalny using [dart frog toxin](https://www.bbc.com/news/articles/cwyk4lz4e3eo), calling for international action against Moscow. In Gaza, [at least 11 people](https://www.bbc.com/news/articles/c8r15eyvk2do) were killed in Israeli strikes over the past day, the BBC reports.
+Meanwhile, the administration is doubling down on its hardline immigration approach. The U.S. [secretly deported](https://www.nytimes.com/2026/02/14/world/africa/us-secret-deportation-cameroon.html) nine migrants to Cameroon while ignoring their legal protections, and students across the country are [walking out](https://www.nytimes.com/2026/02/15/us/student-protests-walkouts-ice-texas.html) in protest of ICE operations. Texas lawmakers want to punish schools that allow these demonstrations. The [El Paso airspace](https://www.nytimes.com/2026/02/14/us/politics/el-paso-airspace-closure-faa-pentagon.html) closure has added another wrinkle to border operations, with the Pentagon and FAA clashing over anti-drone laser systems.
 
 **Business/Tech**
 
-• The Homeland Security Department wants social media companies to [expose accounts](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html) that are organizing anti-ICE activities, raising fresh questions about government surveillance of digital platforms.
+• Homeland Security is demanding that [social media platforms](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html) expose accounts that organize against ICE operations, raising fresh questions about free speech and surveillance.
 
-• AI anxiety is taking over corporate earnings calls even as companies post strong quarterly numbers. Bloomberg reports that executives are spending more time talking about [AI threats](https://www.bloomberg.com/news/articles/2026-02-15/ai-risk-is-dominating-conference-calls-as-investors-dump-stocks) than celebrating profit growth.
+• [AI translation tools](https://www.nytimes.com/2026/02/15/world/europe/artificial-intelligence-language-translation.html) are starting to disrupt professional translators, with French romance novels serving as an unexpected testing ground for the technology's limits.
 
-• European Central Bank President Christine Lagarde is arguing against capital controls, telling Bloomberg that Europe should focus on creating [investment incentives](https://www.bloomberg.com/news/articles/2026-02-15/ecb-s-lagarde-pushes-back-against-taxes-to-stop-capital-outflows) rather than taxes to prevent money from fleeing to other regions.
+• A private ICE contractor is facing scrutiny over [poor medical care](https://www.nytimes.com/2026/02/14/business/ice-health-care-corecivic-immigrants-detention.html) at detention facilities, with sick detainees describing inadequate treatment.
+
+• Iran is ramping up its [digital surveillance](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) to track down protesters, using facial recognition and other tools to crack down on dissent.
 
 **Around the World**
 
-• **Latin America**: Brazil is having its Olympic moment at the Winter Games, claiming [surprise gold medals](https://www.nytimes.com/2026/02/14/world/olympics/brazil-kazakhstan-gold-medals-winter-olympics.html) alongside Kazakhstan in what's being called an Olympics of firsts for unlikely winter sports nations.
+• **Latin America:** Brazil claimed a [surprise gold medal](https://www.nytimes.com/2026/02/14/world/olympics/brazil-kazakhstan-gold-medals-winter-olympics.html) at the Winter Olympics, marking another historic first for the country in winter sports alongside Kazakhstan's breakthrough performance.
 
-• **Europe**: Ever wonder where Olympic champions actually keep their medals? Turns out many of them end up in [sock drawers](https://www.nytimes.com/2026/02/15/world/europe/olympic-medals-sock-drawers.html) and kitchen cabinets rather than trophy cases, according to interviews with medalists.
+• **Europe:** Olympic medalists apparently keep their hardware in [surprisingly mundane places](https://www.nytimes.com/2026/02/15/world/europe/olympic-medals-sock-drawers.html), with many champions stashing their gold in sock drawers and kitchen cabinets rather than display cases.
 
-• **Asia**: The student revolution that toppled Bangladesh's government is getting overshadowed by the [rising influence](https://www.nytimes.com/2026/02/15/world/asia/bangladesh-election-students-islam.html) of Islamist parties, raising questions about the long-term direction of the country's democratic transition.
+• **Asia:** Bangladesh's student revolution is being overshadowed by the [rising influence](https://www.nytimes.com/2026/02/15/world/asia/bangladesh-election-students-islam.html) of Islamist parties, complicating the country's political transition after the youth-led uprising.
 
-• **Middle East**: A young Iranian protester's death in custody has sparked outrage after his family said they believe he was [executed](https://www.nytimes.com/2026/02/15/world/middleeast/ali-rahbar-iran-protester.html) rather than killed in an accident, fueling fresh demonstrations against the regime.
+• **Middle East:** An Iranian protester's [death in custody](https://www.nytimes.com/2026/02/15/world/middleeast/ali-rahbar-iran-protester.html) has sparked outrage, with his family believing Ali Rahbar was executed by authorities rather than dying from natural causes.
 
-• **Africa**: South Sudan's government arrested a well-known peace activist for allegedly [plotting a coup](https://www.nytimes.com/2026/02/14/world/africa/south-sudan-peace-activist-coup-plot.html), in a case that's raising eyebrows given the man's reputation for promoting reconciliation in the war-torn country.
+• **Africa:** A South Sudanese peace activist was caught [plotting a coup](https://www.nytimes.com/2026/02/14/world/africa/south-sudan-peace-activist-coup-plot.html), highlighting the contradictions and desperation in one of the world's youngest nations.
