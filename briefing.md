@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Washington is grappling with a [Homeland Security funding](https://www.nytimes.com/2026/02/14/us/politics/tsa-homeland-security-shutdown.html) crisis that could disrupt airport security and immigration enforcement. The standoff reflects broader tensions over Trump's aggressive deportation agenda, which has sparked [student protests](https://www.nytimes.com/2026/02/15/us/student-protests-walkouts-ice-texas.html) nationwide and raised questions about how far federal agencies can push their enforcement powers.
+Washington is wrestling with a [Homeland Security funding](https://www.nytimes.com/2026/02/14/us/politics/tsa-homeland-security-shutdown.html) crisis that could disrupt TSA operations and other critical security functions. The standoff reflects broader tensions over immigration enforcement and border security priorities. Meanwhile, the administration is facing pushback on multiple fronts, from student [protests against ICE](https://www.nytimes.com/2026/02/15/us/student-protests-walkouts-ice-texas.html) operations to questions about [secret deportations](https://www.nytimes.com/2026/02/14/world/africa/us-secret-deportation-cameroon.html) that allegedly bypassed legal protections.
 
-The funding fight comes as the administration faces scrutiny over its immigration tactics. The U.S. secretly [deported nine migrants](https://www.nytimes.com/2026/02/14/world/africa/us-secret-deportation-cameroon.html) to Cameroon while ignoring legal protections, and Homeland Security is now [demanding social media platforms](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html) reveal anti-ICE accounts. The political fallout is reshaping Democratic messaging, with the party split between calls to "abolish ICE" versus reforming Trump's version of the agency.
+The domestic political landscape is getting more contentious as Trump's influence continues to reshape Republican messaging around elections and voter access. The broader implications of this shift are playing out in state-level battles over [election security](https://www.nytimes.com/2026/02/13/us/politics/trump-elections-midterms-voter-id.html) measures that critics say could restrict voting rights.
 
 **Business/Tech**
 
-• The romance novel industry is getting an unwelcome makeover as [A.I. translations](https://www.nytimes.com/2026/02/15/world/europe/artificial-intelligence-language-translation.html) flood the market with cheap alternatives to human translators, raising questions about quality and jobs.
+• Homeland Security is [demanding access](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html) to social media accounts that organize anti-ICE activities, raising questions about surveillance overreach and First Amendment protections.
 
-• Iran is deploying [digital surveillance tools](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition to track down protesters, showing how authoritarian regimes are weaponizing tech against dissent.
+• AI personalization is [reshaping your internet](https://www.nytimes.com/2026/02/10/technology/personaltech/ai-google-meta-opt-out.html) experience without your input, as tech giants roll out algorithms that curate content based on behavioral data you can't easily control.
 
-• A.I. companies are quietly [personalizing your internet](https://www.nytimes.com/2026/02/10/technology/personaltech/ai-google-meta-opt-out.html) experience without giving you any say in how the algorithms work, Bloomberg reports that [A.I. risk](https://www.bloomberg.com/news/articles/2026-02-15/ai-risk-is-dominating-conference-calls-as-investors-dump-stocks) is dominating earnings calls as investors dump tech stocks.
+• Iran is [deploying digital tools](https://www.nytimes.com/2026/02/13/technology/iran-protests-surveillance-facial-recognition.html) including facial recognition technology to track down protesters, part of a broader crackdown on dissent that's become increasingly tech-enabled.
 
-• The U.S. has [authorized Triso-X](https://news.google.com/rss/articles/CBMimwFBVV95cUxNQm50TnJjSmZoeGgxdlplcGpkdkNiMlFaaXNJYVdIeVdaUVJxNGMwekVyWThCRE42UzhFQk1GNXFyemVINmpoWWpkeHBIc2pmeGpYLTNVYlkySGVFXzBOOWlfNGhZMUw3cGRRcXJ) to use enriched uranium for reactor fuel production, per Reuters.
+• Corporate earnings calls are [dominated by AI concerns](https://www.bloomberg.com/news/articles/2026-02-15/ai-risk-is-dominating-conference-calls-as-investors-dump-stocks) as investors worry about which industries will be disrupted next, Bloomberg reports.
 
 **Around the World**
 
-• **Latin America**: Brazil just claimed its [first-ever Winter Olympics](https://www.nytimes.com/2026/02/14/world/olympics/brazil-kazakhstan-gold-medals-winter-olympics.html) gold medal alongside Kazakhstan, marking a historic breakthrough for countries not traditionally associated with winter sports.
+• **Latin America**: Brazil is [exploring polyamory](https://www.nytimes.com/2026/02/14/world/americas/brazil-polyamory-non-monogamy-catholic.html) in ways that would have been unthinkable in this heavily Catholic country just a decade ago, reflecting shifting social attitudes across the region.
 
-• **Europe**: A new [memoir by Gisèle Pelicot](https://www.nytimes.com/2026/02/15/books/review/gisele-pelicot-memoir-hymn-to-life-review.html) explains why she refused to be seen as a victim during her landmark sexual assault trial that captivated France and beyond.
+• **Europe**: The BBC reports that [Iran is ready](https://www.bbc.com/news/articles/clyz4y3zwz5o) to discuss nuclear compromises, with Tehran's deputy foreign minister telling the BBC that "the ball is in America's court" to prove they want a deal.
 
-• **Asia**: An [Islamist party's growing influence](https://www.nytimes.com/2026/02/15/world/asia/bangladesh-election-students-islam.html) in Bangladesh is overshadowing the student revolution that toppled the previous government, raising questions about the country's secular future.
+• **Asia**: An Islamist party's growing influence is [overshadowing student revolutionaries](https://www.nytimes.com/2026/02/15/world/asia/bangladesh-election-students-islam.html) in Bangladesh, creating tension between the youth movement that drove recent changes and religious conservatives gaining political ground.
 
-• **Middle East**: The death of an Iranian protester in custody has [sparked fresh outrage](https://www.nytimes.com/2026/02/15/world/middleeast/ali-rahbar-iran-protester.html), with his family believing he was executed. The BBC reports Iran's deputy foreign minister says the country is [ready to discuss compromises](https://www.bbc.com/news/articles/clyz4y3zwz5o) on a nuclear deal.
+• **Middle East**: The death of an Iranian protester in custody has [sparked outrage](https://www.nytimes.com/2026/02/15/world/middleeast/ali-rahbar-iran-protester.html), with his family convinced he was executed rather than dying from natural causes as authorities claim.
 
-• **Africa**: A South Sudanese peace activist was [caught plotting a coup](https://www.nytimes.com/2026/02/14/world/africa/south-sudan-peace-activist-coup-plot.html), highlighting the complex dynamics in one of the world's youngest nations where the line between peace and politics often blurs.
+• **Africa**: A [peace activist in South Sudan](https://www.nytimes.com/2026/02/14/world/africa/south-sudan-peace-activist-coup-plot.html) has been caught plotting a coup, highlighting the complex dynamics in a country where the line between political opposition and armed resistance remains blurred.
