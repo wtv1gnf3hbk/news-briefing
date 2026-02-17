@@ -1,27 +1,18 @@
 Good morning. Here's the state of play:
 
-The Rev. [Jesse Jackson](https://www.nytimes.com/2026/02/17/us/jesse-jackson-dead.html), the charismatic civil rights leader who carried forward Martin Luther King Jr.'s legacy for decades, has died at 84. Jackson's passing marks the end of an era for the American civil rights movement. He was a towering figure who ran for president twice, negotiated the release of hostages abroad, and never stopped pushing for racial and economic justice long after the movement's most famous victories.
+The civil rights movement has lost one of its most powerful voices. [Jesse Jackson](https://www.nytimes.com/2026/02/17/us/jesse-jackson-dead.html), the charismatic preacher and activist who transformed American politics through two groundbreaking presidential campaigns and decades of advocacy, died at 84. From his early days marching with Martin Luther King Jr. to building a rainbow coalition that redefined what was possible in electoral politics, Jackson helped shape the modern Democratic Party and paved the way for Barack Obama's presidency.
 
-The timing comes as U.S. and Iran [resume nuclear talks](https://www.nytimes.com/2026/02/17/us/politics/us-iran-nuclear-talks.html) for a second round in Switzerland, with tensions running high. Iran conducted [military exercises](https://www.nytimes.com/2026/02/16/world/middleeast/iran-strait-hormuz-exercise-talks-geneva-trump.html) in the Strait of Hormuz just as negotiations got underway, while Supreme Leader Khamenei took direct aim at Trump's approach to diplomacy, according to Al Jazeera. It's classic brinksmanship as both sides test each other's resolve.
+The timing feels particularly poignant as [nuclear negotiations](https://www.nytimes.com/2026/02/17/us/politics/us-iran-nuclear-talks.html) between the U.S. and Iran resume today in Switzerland, with tensions already running high. Al Jazeera reports that Iran's Supreme Leader Khamenei criticized Trump ahead of the talks, while Iranian forces conducted [military exercises](https://www.nytimes.com/2026/02/16/world/middleeast/iran-strait-hormuz-exercise-talks-geneva-trump.html) in the Strait of Hormuz. The second round of talks comes as protesters' memorials in Iran are testing the [state's crackdown](https://www.nytimes.com/2026/02/17/world/middleeast/iran-memorials-protesters-crackdown.html) on dissent.
 
 **Business/Tech**
-
-• Warner Bros. Discovery has [restarted deal talks](https://www.nytimes.com/2026/02/17/business/warner-bros-discovery-paramount.html) with Paramount, reviving a mega-merger that could reshape Hollywood's streaming landscape.
-
-• Tom Pritzker is [stepping down](https://www.nytimes.com/2026/02/16/us/politics/tom-pritzker-hyatt-epstein.html) as Hyatt's executive chairman, citing his connection to Jeffrey Epstein as the reason for his departure from the hotel empire his family built.
-
-• Spain is launching an [investigation](https://www.nytimes.com/2026/02/17/world/europe/spain-investigate-social-media.html) into major social media companies, escalating the trans-Atlantic tech dispute as European regulators continue their crackdown on Silicon Valley giants.
-
-• Meta is planning to add [facial recognition](https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html) technology to its smart glasses, raising fresh privacy concerns about the company's wearable ambitions.
+• [Warner Bros. Discovery](https://www.nytimes.com/2026/02/17/business/warner-bros-discovery-paramount.html) has restarted merger talks with Paramount, another attempt to consolidate the struggling streaming landscape as media giants search for scale.
+• Tom Pritzker is [stepping down](https://www.nytimes.com/2026/02/16/us/politics/tom-pritzker-hyatt-epstein.html) as Hyatt's executive chairman, citing his connection to Jeffrey Epstein as the reason for his departure from the hotel empire.
+• [Anderson Cooper](https://www.nytimes.com/2026/02/16/business/media/anderson-cooper-60-minutes.html) is leaving "60 Minutes" after years of splitting time between CBS and CNN, marking another shift in television journalism's old guard.
+• Meta is planning to add [facial recognition](https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html) technology to its smart glasses, raising fresh privacy concerns about wearable surveillance tech.
 
 **Around the World**
-
-• **Latin America**: Venezuelan [housing prices](https://www.nytimes.com/2026/02/16/world/americas/venezuela-real-estate-rush.html) are jumping as émigrés who fled the country's economic collapse consider buying property back home, creating an unexpected real estate boom.
-
-• **Europe**: Austrian prosecutors have [charged a man](https://www.nytimes.com/2026/02/17/world/europe/taylor-swift-concert-charges-austria.html) in connection with a thwarted attack on a Taylor Swift concert, moving forward with the case that forced the pop star to cancel shows last year.
-
-• **Asia**: Xi Jinping's [military purge](https://www.nytimes.com/2026/02/16/world/asia/xi-military-zhang-youxia-mao.html) continues as he searches for absolute loyalty within China's armed forces, removing officials who might challenge his authority.
-
-• **Middle East**: Iran is holding [military exercises](https://www.nytimes.com/2026/02/16/world/middleeast/iran-strait-hormuz-exercise-talks-geneva-trump.html) in the Strait of Hormuz right as nuclear negotiations resume, showing Tehran isn't backing down from Trump's threats of military action.
-
-• **Africa**: The U.S. secretly [deported nine migrants](https://www.nytimes.com/2026/02/14/world/africa/us-secret-deportation-cameroon.html) to Cameroon while ignoring their legal protections, highlighting how immigration enforcement is operating behind closed doors.
+• **Latin America:** Venezuelan real estate prices are [jumping sharply](https://www.nytimes.com/2026/02/16/world/americas/venezuela-real-estate-rush.html) as émigrés who fled the country's economic collapse are now considering buying property back home, a sign of how dramatically the market has shifted.
+• **Europe:** Spain is launching an [investigation](https://www.nytimes.com/2026/02/17/world/europe/spain-investigate-social-media.html) into social media giants, escalating the trans-Atlantic dispute over tech regulation as European authorities push for tighter controls on American platforms.
+• **Asia:** Xi Jinping's [military purge](https://www.nytimes.com/2026/02/16/world/asia/xi-military-zhang-youxia-mao.html) continues as the Chinese leader searches for absolute loyalty within the People's Liberation Army, removing generals he views as unreliable or corrupt.
+• **Middle East:** Iran held [military exercises](https://www.nytimes.com/2026/02/16/world/middleeast/iran-strait-hormuz-exercise-talks-geneva-trump.html) in the Strait of Hormuz after Trump threatened military action, a show of force just as nuclear negotiations were getting underway.
+• **Africa:** The U.S. secretly [deported nine migrants](https://www.nytimes.com/2026/02/14/world/africa/us-secret-deportation-cameroon.html) to Cameroon while ignoring legal protections that should have prevented their removal, highlighting aggressive enforcement tactics under the new administration.
