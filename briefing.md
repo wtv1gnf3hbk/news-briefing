@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The big story emerging from Geneva isn't encouraging. [Russia-Ukraine talks](https://www.nytimes.com/2026/02/18/world/europe/russia-ukraine-us-talks-war.html) wrapped up their second day after just two hours, with Russian media describing the atmosphere as "very tense." The American-led negotiations are clearly hitting major roadblocks, and the brevity of today's session suggests fundamental disagreements over what any ceasefire might look like.
+The release of [Jeffrey Epstein's](https://www.nytimes.com/2026/02/12/us/politics/epstein-files.html) vast email archive has sent shockwaves through elite circles on both sides of the Atlantic, and this morning brought the most dramatic development yet. UK police [arrested Andrew](https://www.nytimes.com/live/2026/02/19/world/uk-prince-andrew-arrest-epstein) Mountbatten-Windsor on suspicion of misconduct in public office, directly tied to his connections with the late financier. The former prince's ties to Epstein are now creating headaches for Prime Minister Keir Starmer's government, which has been trying to distance itself from the scandal.
 
-Back home, there's a different kind of political maneuvering underway. Republicans in Congress are [pushing new voting restrictions](https://www.nytimes.com/2026/02/17/us/politics/republicans-vote-fraud-id-midterms.html) as they brace for potential losses in upcoming elections. It's part of a broader pattern we're seeing where election rules themselves have become a central battleground, with other democracies watching how the U.S. handles its [unique redistricting process](https://www.nytimes.com/2026/02/18/us/midterm-elections-congress-gerrymander-maps.html).
+The timing couldn't be more fraught. While Britain grapples with this royal scandal, the U.S. is engaged in its own high-stakes diplomatic gamble with Iran. American officials are positioning [military assets](https://www.nytimes.com/2026/02/18/us/politics/us-military-iran.html) across the region while simultaneously pursuing nuclear talks in Geneva. Iran has responded by conducting [military exercises](https://www.nytimes.com/2026/02/16/world/middleeast/iran-strait-hormuz-exercise-talks-geneva-trump.html) in the Strait of Hormuz, creating the kind of gunboat diplomacy that could either force a breakthrough or spiral into conflict. Trump has openly discussed [regime change](https://www.nytimes.com/2026/02/13/us/politics/trump-iran-regime-change.html) options, raising the stakes considerably.
 
 **Business/Tech**
 
-• The [FDA rejected](https://news.google.com/rss/articles/CBMijAFBVV95cUxNVzV4djVqR0hOd0lXaVYzSEJlMVVLUHZUN2wwb1ZUMnAtLU9QT2RQanZoSXN3eVRYX2FlejA1WGZtVHI2SUhYQUEwdXRCYnltV0pabkk2a2xLZTB0RlRHTVJHa09YYV8xc3NOS1R) Moderna's application for its new mRNA flu vaccine, according to AP, dealing a setback to the company's efforts to expand beyond COVID shots.
+• [Mark Zuckerberg](https://www.nytimes.com/2026/02/18/technology/mark-zuckerberg-tech-addiction-trial.html) took the stand in a landmark social media addiction trial, the first time a major tech CEO has faced direct questioning under oath about platform design and youth mental health.
 
-• Japan announced plans to [invest $36 billion](https://www.bloomberg.com/news/videos/2026-02-18/japan-us-reach-36-billion-gas-mineral-projects-deals-video) in U.S. oil, gas, and critical mineral projects, Bloomberg reports, including facilities in Ohio and the Gulf of Mexico.
+• [Meta launched](https://www.nytimes.com/2026/02/18/technology/meta-65-million-election-ai.html) a $65 million lobbying push to shape AI policy ahead of the midterms, signaling how seriously Big Tech is taking regulatory threats from Washington.
 
-• California is building a new [AI oversight unit](https://news.google.com/rss/articles/CBMitAFBVV95cUxOT19UeXEzb3htU0xaWVNZQzE2dEJBOTlrZ1M0TWJ1RVBnM0I5ZldyZ0h2ZHpCZUtIdjJuMTg1dS1aUThWU0oyODRZYXlfZnM3aV9oRG5XLXRCdW5Cb09Uak9TMDF4Q2hNYkZzRHQ) while continuing its investigation into Elon Musk's xAI, per Reuters.
+• [Elon Musk's xAI](https://www.nytimes.com/2026/02/18/business/xai-humain-saudi-musk-spacex.html) secured $3 billion from a Saudi-backed AI firm, another sign of how Gulf money is flowing into American AI development.
 
-• [Chatbots are becoming](https://www.nytimes.com/2026/02/17/technology/chatbots-influencers-brands-marketing.html) the new influencers that brands need to court, as AI personalities gain followings and marketing clout.
+• [Uber announced](https://www.nytimes.com/2026/02/18/business/energy-environment/uber-electric-vehicle-charging-stations.html) incentives for electric vehicle charger construction, part of its broader push to electrify ride-sharing fleets.
 
 **Around the World**
 
-• **Latin America**: Peru has [ousted another president](https://www.nytimes.com/2026/02/17/world/americas/peru-president-jose-jeri-impeachment.html), with José Jeri becoming the latest casualty of the country's chronic political instability.
+• **Latin America**: Canadian professors are [suing their university](https://www.nytimes.com/2026/02/19/world/americas/bc-university-dei-lawsuit-indigenous-canada.html) over diversity policies they claim make "political correctness" effectively mandatory, a case that could reshape campus speech debates across North America.
 
-• **Europe**: The Winter Olympics in Italy are showcasing [ski mountaineering](https://www.nytimes.com/2026/02/18/world/olympics/ski-mountaineering-winter-olympics-sport.html) as the newest Olympic sport, where just skiing downhill isn't nearly enough.
+• **Europe**: The fallout from Andrew's arrest is creating a [political crisis](https://www.nytimes.com/2026/02/19/world/europe/uk-andrew-epstein-starmer-mandelson.html) for Keir Starmer, particularly around his ambassador to Washington, Peter Mandelson, who also appears in Epstein's correspondence.
 
-• **Asia**: A [300-mile drive](https://www.nytimes.com/2026/02/18/world/asia/afghanistan-highway-taliban-security.html) through Afghanistan reveals flawless asphalt and empty homes, offering a stark view of life under Taliban rule.
+• **Asia**: South Korea sentenced former president Yoon Suk Yeol to [life in prison](https://www.nytimes.com/live/2026/02/19/world/yoon-korea-martial-law-president/besides-yoon-5-other-former-officials-get-long-prison-terms) for his failed martial law attempt, with five other officials receiving lengthy sentences in what the BBC calls a fundamental attack on democracy.
 
-• **Middle East**: Gaza schools are incorporating ["peace building"](https://www.nytimes.com/2026/02/18/world/middleeast/gaza-schools-peace-curriculum.html) into their curriculum as the territory navigates its fragile ceasefire, Al Jazeera reports.
+• **Middle East**: The grandiose peace plans floating around Washington are [clashing with reality](https://www.nytimes.com/2026/02/19/world/middleeast/gaza-rebuilding.html) in Gaza, where basic infrastructure remains devastated and reconstruction efforts face massive logistical and political hurdles.
 
-• **Africa**: In Botswana, a woman known as ["Corn Lady"](https://www.nytimes.com/2026/02/18/world/africa/botswana-food-stand-corn.html) has built a culinary empire from a simple food stand, though not without controversy.
+• **Africa**: Journalists were [arrested in Cameroon](https://www.nytimes.com/2026/02/18/world/africa/cameroon-journalists-arrested-deportees.html) while investigating Trump's secretive deportation program, highlighting how the administration's immigration crackdown is creating press freedom issues beyond U.S. borders.
