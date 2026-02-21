@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Iran's nuclear program is back in the spotlight this morning, with [satellite images](https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html) showing Tehran actively working on both missile and nuclear facilities. This comes as diplomatic efforts hit another roadblock. Iran confirmed that [indirect talks](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman) with the US in Oman have ended "for now," leaving little hope for de-escalation through dialogue.
+Trump's trade war just got more expensive. After the Supreme Court struck down his initial 10% global tariff yesterday, the president doubled down and [raised rates](https://www.nytimes.com/2026/02/21/business/trump-tariffs.html) to 15% with immediate effect. He's invoking Section 122, which gives presidents broad authority to impose border levies during national emergencies. The move puts him on a collision course with his own Supreme Court appointees, creating what one analyst called ["murky waters"](https://www.nytimes.com/2026/02/21/business/economy/tariffs-supreme-court-global-busines-reaction.html) for global businesses trying to navigate the legal uncertainty.
 
-The timing couldn't be more awkward for the global community. Tonight, the Winter Olympics open in Milan with the usual pageantry about international harmony and peaceful competition. But as our colleagues note, [the Olympics](https://www.nytimes.com/2026/02/06/world/europe/olympics-world-order-war.html) are arriving at a moment when the world feels anything but harmonious. Between Iran's nuclear ambitions, ongoing conflicts, and rising geopolitical tensions, the contrast between Olympic ideals and reality has rarely been starker.
+The ripple effects are already spreading. [European leaders](https://www.nytimes.com/2026/02/21/world/europe/political-uncertainty-trump-tariff-loss.html) who hoped to move past trade tensions are now facing fresh uncertainty, while businesses are warning consumers may be stuck in a [waiting game](https://www.nytimes.com/2026/02/20/business/economy/tariff-ruling-consumer-prices.html) as companies decide whether to absorb costs or pass them along. The whole episode highlights a [growing divide](https://www.nytimes.com/2026/02/21/us/politics/supreme-court-tariffs-conservatives.html) among the Court's conservative justices that could complicate other parts of Trump's agenda.
 
 **Business/Tech**
 
-• AI stocks are getting hammered as investors start questioning whether the AI revolution is [sustainable](https://www.nytimes.com/2026/02/06/business/the-dark-side-of-ai-weighs-on-the-stock-market.html) or just expensive hype.
+• [Sony's eyeing](https://www.bloomberg.com/news/videos/2026-02-21/sony-says-diverse-capital-sources-key-for-acquisition-video) major acquisitions, according to Bloomberg, and is diversifying how it funds deals. Makes sense when you're swimming in PlayStation and movie cash.
 
-• [Toyota replaced](https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html) its CEO as the Japanese giant faces pressure from both American trade policies and Chinese competition in the electric vehicle space.
+• The AI boom isn't getting the love the dot-com era did. People are more skeptical about artificial intelligence than they were about the internet in the '90s, creating a [backlash problem](https://www.nytimes.com/2026/02/21/technology/ai-boom-backlash.html) for tech companies betting big on the technology.
 
-• Europe is coming for TikTok again, claiming the app is deliberately designed to be ["addictive"](https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html).
+• [Bitcoin's having](https://www.bloomberg.com/news/articles/2026-02-21/bitcoin-s-1-trillion-identity-crisis-hits-from-every-direction) an existential moment as it hits $1 trillion, per Bloomberg. Digital gold? Payment system? Something else? Even the crypto faithful can't seem to agree.
 
-• [Uber was found liable](https://www.nytimes.com/2026/02/05/business/uber-safety-rape-verdict.html) in a rape case involving one of its drivers, a verdict that could open the floodgates for thousands of similar lawsuits against the ride-sharing company.
+• India's trying to thread the needle on AI. At a major summit in New Delhi, officials are [seeking balance](https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html) between the U.S. and China as both superpowers compete for influence in the AI space.
 
 **Around the World**
 
-• **Latin America**: Trump and Argentina's Milei just inked a major [trade deal](https://www.nytimes.com/2026/02/05/world/americas/argentina-us-trade-deal-trump-milei.html), cementing their populist bromance.
+• **Latin America**: Colombia's military is getting outmaneuvered by cheap technology. [Combat drones](https://www.nytimes.com/2026/02/21/world/americas/colombia-combat-drones-military.html) costing just $600 are proving more effective than billion-dollar weapons systems against armed groups, forcing a rethink of defense strategies.
 
-• **Europe**: Pope Leo issued a pointed warning as the Olympics begin, urging nations not to use sports for ["propaganda or supremacy"](https://www.nytimes.com/2026/02/06/world/europe/pope-leo-milan-olympics-letter.html). The message feels particularly relevant given current global tensions.
+• **Europe**: French politics is reeling after the killing of a nationalist student sent [shockwaves through](https://www.france24.com/en/tv-shows/a-week-in-france/20260221-killing-of-nationalist-student-has-repercussions-for-french-politics) the far left, according to France24. The incident could reshape dynamics ahead of upcoming elections.
 
-• **Asia**: A Japanese politician is [upending local politics](https://www.nytimes.com/2026/02/06/world/asia/japan-election-pregnant-candidate.html) simply by announcing "I'm pregnant," challenging deep-seated cultural expectations about women in public life.
+• **Asia**: Russia and Ukraine are trading deadly blows. A [Russian attack](https://www.aljazeera.com/news/2026/2/21/russian-attack-on-kharkiv-kills-two-ukraine-hits-missile-plant) on Kharkiv killed two people while Ukraine struck back at a missile manufacturing plant, Al Jazeera reports.
 
-• **Middle East**: Iranian Nobel Peace laureate Narges Mohammadi has started another [hunger strike](https://www.nytimes.com/2026/02/05/world/middleeast/iran-narges-mohammadi-prison-hunger-strike.html) from prison, part of Iran's broader crackdown on dissent that's exacting a heavy toll on protest supporters.
+• **Middle East**: Iran is pushing back on international pressure. Tehran is [demanding evidence](https://www.aljazeera.com/news/2026/2/21/iran-demands-evidence-as-trump-un-experts-highlight-protest-killings) to support U.S. and UN claims about protest killings, according to Al Jazeera, as Trump considers military options.
 
-• **Africa**: A [political shakeup](https://www.nytimes.com/2026/02/04/world/africa/john-steenhuisen-democratic-alliance-anc-south-africa.html) in South Africa has the ruling coalition on edge after the Democratic Alliance leader stepped down, raising fresh questions about the government's stability.
+• **Africa**: The humanitarian crisis in Sudan is escalating. UN investigators found that the RSF siege of El Fasher has ["hallmarks of genocide,"](https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur) the Guardian reports, as the paramilitary group tightens its grip on the strategic city.

@@ -38,45 +38,37 @@
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated Saturday, February 21, 2026 at 8:42 PM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
+  <div class="timestamp">Generated Saturday, February 21, 2026 at 12:42 PM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
   <script>
     async function refreshBriefing(e) {
       var link = e.target;
       link.textContent = 'Refreshing...';
       link.style.pointerEvents = 'none';
-      var currentTimestamp = document.querySelector('.timestamp').textContent.match(/Generated ([^·]*)/);
-      currentTimestamp = currentTimestamp ? currentTimestamp[1].trim() : '';
       try {
         var res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
         var data = await res.json();
         if (data.success) {
-          link.textContent = 'Triggered! Waiting for build...';
-          var pollTimer = setInterval(function() {
-            fetch('index.html?_=' + Date.now(), { cache: 'no-store' })
-              .then(function(r) { return r.text(); })
-              .then(function(html) {
-                var match = html.match(/Generated ([^·]*)/);
-                var newTimestamp = match ? match[1].trim() : '';
-                if (newTimestamp && currentTimestamp && newTimestamp !== currentTimestamp) {
-                  clearInterval(pollTimer);
-                  location.reload();
-                }
-              })
-              .catch(function() {});
-          }, 15000);
+          // Build takes ~3-4 min. Show countdown then force-reload.
+          var secsLeft = 210;
+          link.textContent = 'Building... ~3:30';
+          var countdown = setInterval(function() {
+            secsLeft--;
+            var m = Math.floor(secsLeft / 60);
+            var s = secsLeft % 60;
+            link.textContent = 'Building... ' + m + ':' + s.toString().padStart(2, '0');
+            if (secsLeft <= 0) {
+              clearInterval(countdown);
+              location.reload();
+            }
+          }, 1000);
+          // Also reload when tab regains focus (user switched away and came back)
           document.addEventListener('visibilitychange', function handler() {
             if (!document.hidden) {
               document.removeEventListener('visibilitychange', handler);
-              clearInterval(pollTimer);
+              clearInterval(countdown);
               location.reload();
             }
           });
-          setTimeout(function() {
-            clearInterval(pollTimer);
-            link.textContent = 'Reload';
-            link.style.pointerEvents = 'auto';
-            link.onclick = function() { location.reload(); return false; };
-          }, 300000);
         } else {
           link.textContent = 'Error - try again';
           link.style.pointerEvents = 'auto';
@@ -88,68 +80,8 @@
     }
   </script>
 
-  <!-- Audio Player -->
-  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
-    <div style="display: flex; align-items: center; gap: 12px;">
-      <button id="play-btn" onclick="toggleAudio()" style="
-        width: 48px; height: 48px; border-radius: 50%; border: none;
-        background: #1a1a1a; color: white; cursor: pointer;
-        font-size: 18px; display: flex; align-items: center; justify-content: center;
-      ">&#9658;</button>
-      <div style="flex: 1;">
-        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
-          Listen to today's briefing
-        </div>
-        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
-      </div>
-    </div>
-    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
-  </div>
-  <script>
-    const audio = document.getElementById('briefing-audio');
-    const playBtn = document.getElementById('play-btn');
-    const voiceInfo = document.getElementById('voice-info');
-    audio.addEventListener('loadedmetadata', () => {
-      const duration = Math.round(audio.duration);
-      const mins = Math.floor(duration / 60);
-      const secs = duration % 60;
-      voiceInfo.textContent = mins + ':' + secs.toString().padStart(2, '0');
-    });
-    audio.addEventListener('error', () => {
-      document.getElementById('audio-player').style.display = 'none';
-    });
-    audio.addEventListener('ended', () => {
-      playBtn.innerHTML = '&#9658;';
-    });
-    function toggleAudio() {
-      if (audio.paused) {
-        audio.play();
-        playBtn.innerHTML = '&#10074;&#10074;';
-      } else {
-        audio.pause();
-        playBtn.innerHTML = '&#9658;';
-      }
-    }
-  </script>
-
   <div id="content">
-<p>Good morning. Here's the state of play:</p><p>The Supreme Court delivered a stunning rebuke to Trump yesterday, <a href="https://www.nytimes.com/2026/02/20/us/politics/supreme-court-trump-roberts-tariffs.html" target="_blank">striking down</a> his sweeping global tariffs in a decision that cuts to the heart of his economic agenda. The 6-3 ruling found that Trump's broad import taxes exceeded presidential authority, with Chief Justice Roberts writing for the majority. Trump's response was swift and furious, calling the justices who ruled against him <a href="https://www.nytimes.com/2026/02/20/us/politics/trump-justices-gorsuch-barrett-roberts.html" target="_blank">"fools and lap dogs"</a> and immediately imposing <a href="https://www.nytimes.com/live/2026/02/20/us/trump-tariffs-supreme-court" target="_blank">new 10% duties</a> on a range of goods.</p><p>The showdown represents a rare institutional check on presidential power, but it's hardly slowing Trump down. He's also <a href="https://www.nytimes.com/live/2026/02/20/us/trump-news" target="_blank">weighing military action</a> against Iran, acknowledging he's considering a "limited strike" after giving Tehran roughly 10 days to agree to nuclear restrictions. The dual crises are testing how far Trump can push both the courts and Congress as he tries to reshape American foreign and economic policy through executive action.</p><p><strong>Business/Tech</strong></p><p><ul><li>The <a href="https://www.nytimes.com/2026/02/20/business/economy/us-economy-gdp.html" target="_blank">U.S. economy</a> grew just 1.4% in the fourth quarter of 2025, a sharp slowdown from the previous quarter's 4.4% pace that's adding pressure on Trump's growth promises.</li></p>
-</ul>
-<ul><li>Stock markets are sending <a href="https://www.nytimes.com/2026/02/20/business/stocks-markets-mixed-signals.html" target="_blank">mixed signals</a> despite recent highs, with investors uncertain how to price in the Supreme Court's tariff ruling and Trump's unpredictable policy moves.</li>
-</ul>
-<ul><li>The Pentagon and AI company Anthropic are locked in a <a href="https://www.nytimes.com/2026/02/18/technology/defense-department-anthropic-ai-safety.html" target="_blank">public dispute</a> over artificial intelligence safety standards for military applications.</li>
-</ul>
-<ul><li>West Virginia filed a lawsuit claiming that Apple's platforms <a href="https://www.nytimes.com/2026/02/19/technology/apple-west-virginia-lawsuit-child-sexual-abuse.html" target="_blank">allow sharing</a> of child sexual abuse material, marking the latest legal challenge to Big Tech's content moderation.</li>
-</ul>
-<p><strong>Around the World</strong></p><p><ul><li><strong>Latin America</strong>: Trump has imposed what amounts to <a href="https://www.nytimes.com/2026/02/20/world/americas/cuba-oil-blockade-trump.html" target="_blank">a new blockade</a> on Cuba, targeting the island's oil supply lines in a move that's strangling the already fragile economy.</li></p>
-</ul>
-<ul><li><strong>Europe</strong>: Hungary is throwing up an <a href="https://www.nytimes.com/2026/02/20/world/europe/euro-loan-ukraine-hungary-obstacle.html" target="_blank">unexpected obstacle</a> to the EU's massive 90 billion euro loan package for Ukraine, complicating European efforts to sustain long-term support for Kyiv.</li>
-</ul>
-<ul><li><strong>Asia</strong>: China is actively <a href="https://www.nytimes.com/2026/02/20/world/asia/china-travel-japan-fear.html" target="_blank">stoking fear</a> about travel to Japan through state media and social platforms, part of a broader campaign to discourage Chinese tourism to its regional rival.</li>
-</ul>
-<ul><li><strong>Middle East</strong>: Iran says the U.S. <a href="https://www.nytimes.com/2026/02/20/world/middleeast/iran-us-nuclear-uranium.html" target="_blank">hasn't asked it</a> to stop enriching uranium, contradicting Trump administration claims about ongoing diplomatic pressure as tensions escalate.</li>
-</ul>
-<ul><li><strong>Africa</strong>: South Africa has <a href="https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html" target="_blank">pulled out</a> of the Venice Biennale after controversy erupted over a Gaza-themed artwork, highlighting how the Middle East conflict continues to roil cultural institutions worldwide.</li></ul>
+<p>Good morning. Here's the state of play:</p><p>Trump is doubling down on his trade agenda after yesterday's Supreme Court setback, announcing he'll <a href="https://www.nytimes.com/2026/02/21/business/trump-tariffs.html" target="_blank">raise tariffs</a> to 15 percent globally with immediate effect. This comes just hours after the Court struck down his initial 10 percent levies, creating what businesses are calling "<a href="https://www.nytimes.com/2026/02/21/business/economy/tariffs-supreme-court-global-busines-reaction.html" target="_blank">murky waters</a>" for global trade. The president is using Section 122 emergency powers to bypass the ruling, but he's facing <a href="https://www.nytimes.com/2026/02/21/us/politics/supreme-court-tariffs-conservatives.html" target="_blank">divisions among conservative justices</a> that could complicate his broader economic agenda.</p><p>The escalation puts American consumers in a <a href="https://www.nytimes.com/2026/02/20/business/economy/tariff-ruling-consumer-prices.html" target="_blank">waiting game</a> over price impacts, while businesses scramble to adjust supply chains. Trump is also <a href="https://www.nytimes.com/2026/02/21/business/trump-deminimis-loophole-closed.html" target="_blank">closing loopholes</a> on cheap imports, targeting the de minimis threshold that allows small packages to enter duty-free.</p><p><strong>Business/Tech</strong></p><p>• People aren't as excited about the AI boom as they were about the dot-com era, according to <a href="https://www.nytimes.com/2026/02/21/technology/ai-boom-backlash.html" target="_blank">new polling</a> that shows public skepticism toward tech's latest revolution.</p><p>• The Defense Department and Anthropic are in a <a href="https://www.nytimes.com/2026/02/18/technology/defense-department-anthropic-ai-safety.html" target="_blank">public spat</a> over AI safety protocols, highlighting tensions between national security needs and Silicon Valley's cautious approach.</p><p>• West Virginia filed a lawsuit claiming Apple's systems allow sharing of <a href="https://www.nytimes.com/2026/02/19/technology/apple-west-virginia-lawsuit-child-sexual-abuse.html" target="_blank">child sexual abuse</a> material, marking a new legal front for the tech giant.</p><p>• Most white-collar jobs aren't actually at risk from AI yet, Bloomberg reports, particularly in <a href="https://www.nytimes.com/2026/02/20/technology/ai-coding-software-jobs.html" target="_blank">coding roles</a> where human oversight remains essential.</p><p><strong>Around the World</strong></p><p>• <strong>Latin America</strong>: Colombia's military is struggling against guerrilla groups using <a href="https://www.nytimes.com/2026/02/21/world/americas/colombia-combat-drones-military.html" target="_blank">$600 drones</a> that are outsmarting billion-dollar defense systems, showing how cheap technology is changing warfare dynamics.</p><p>• <strong>Europe</strong>: The BBC reports that seven Chinese tourists died when their minibus <a href="https://www.bbc.com/news/articles/czd8y96mldyo" target="_blank">plunged through ice</a> into Lake Baikal in Siberia, with Russian rescue divers recovering the bodies from the bottom of the world's deepest lake.</p><p>• <strong>Asia</strong>: India is trying to chart a middle course between Washington and Beijing at this week's <a href="https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html" target="_blank">AI summit</a> in New Delhi, as it balances competing tech partnerships.</p><p>• <strong>Middle East</strong>: Al Jazeera reports that Iran is demanding <a href="https://www.aljazeera.com/news/2026/2/21/iran-demands-evidence-as-trump-un-experts-highlight-protest-killings" target="_blank">evidence</a> after Trump and UN experts highlighted killings during recent protests, escalating diplomatic tensions.</p><p>• <strong>Africa</strong>: South Africa withdrew from the Venice Biennale after controversy over <a href="https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html" target="_blank">Gaza artwork</a>, the latest cultural institution caught in geopolitical crossfire over the Israel-Palestine conflict.</p>
   </div>
 </body>
 </html>

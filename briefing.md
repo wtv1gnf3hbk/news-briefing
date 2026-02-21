@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Supreme Court delivered a stunning rebuke to Trump yesterday, [striking down](https://www.nytimes.com/2026/02/20/us/politics/supreme-court-trump-roberts-tariffs.html) his sweeping global tariffs in a decision that cuts to the heart of his economic agenda. The 6-3 ruling found that Trump's broad import taxes exceeded presidential authority, with Chief Justice Roberts writing for the majority. Trump's response was swift and furious, calling the justices who ruled against him ["fools and lap dogs"](https://www.nytimes.com/2026/02/20/us/politics/trump-justices-gorsuch-barrett-roberts.html) and immediately imposing [new 10% duties](https://www.nytimes.com/live/2026/02/20/us/trump-tariffs-supreme-court) on a range of goods.
+Trump is doubling down on his trade agenda after yesterday's Supreme Court setback, announcing he'll [raise tariffs](https://www.nytimes.com/2026/02/21/business/trump-tariffs.html) to 15 percent globally with immediate effect. This comes just hours after the Court struck down his initial 10 percent levies, creating what businesses are calling "[murky waters](https://www.nytimes.com/2026/02/21/business/economy/tariffs-supreme-court-global-busines-reaction.html)" for global trade. The president is using Section 122 emergency powers to bypass the ruling, but he's facing [divisions among conservative justices](https://www.nytimes.com/2026/02/21/us/politics/supreme-court-tariffs-conservatives.html) that could complicate his broader economic agenda.
 
-The showdown represents a rare institutional check on presidential power, but it's hardly slowing Trump down. He's also [weighing military action](https://www.nytimes.com/live/2026/02/20/us/trump-news) against Iran, acknowledging he's considering a "limited strike" after giving Tehran roughly 10 days to agree to nuclear restrictions. The dual crises are testing how far Trump can push both the courts and Congress as he tries to reshape American foreign and economic policy through executive action.
+The escalation puts American consumers in a [waiting game](https://www.nytimes.com/2026/02/20/business/economy/tariff-ruling-consumer-prices.html) over price impacts, while businesses scramble to adjust supply chains. Trump is also [closing loopholes](https://www.nytimes.com/2026/02/21/business/trump-deminimis-loophole-closed.html) on cheap imports, targeting the de minimis threshold that allows small packages to enter duty-free.
 
 **Business/Tech**
 
-- The [U.S. economy](https://www.nytimes.com/2026/02/20/business/economy/us-economy-gdp.html) grew just 1.4% in the fourth quarter of 2025, a sharp slowdown from the previous quarter's 4.4% pace that's adding pressure on Trump's growth promises.
+• People aren't as excited about the AI boom as they were about the dot-com era, according to [new polling](https://www.nytimes.com/2026/02/21/technology/ai-boom-backlash.html) that shows public skepticism toward tech's latest revolution.
 
-- Stock markets are sending [mixed signals](https://www.nytimes.com/2026/02/20/business/stocks-markets-mixed-signals.html) despite recent highs, with investors uncertain how to price in the Supreme Court's tariff ruling and Trump's unpredictable policy moves.
+• The Defense Department and Anthropic are in a [public spat](https://www.nytimes.com/2026/02/18/technology/defense-department-anthropic-ai-safety.html) over AI safety protocols, highlighting tensions between national security needs and Silicon Valley's cautious approach.
 
-- The Pentagon and AI company Anthropic are locked in a [public dispute](https://www.nytimes.com/2026/02/18/technology/defense-department-anthropic-ai-safety.html) over artificial intelligence safety standards for military applications.
+• West Virginia filed a lawsuit claiming Apple's systems allow sharing of [child sexual abuse](https://www.nytimes.com/2026/02/19/technology/apple-west-virginia-lawsuit-child-sexual-abuse.html) material, marking a new legal front for the tech giant.
 
-- West Virginia filed a lawsuit claiming that Apple's platforms [allow sharing](https://www.nytimes.com/2026/02/19/technology/apple-west-virginia-lawsuit-child-sexual-abuse.html) of child sexual abuse material, marking the latest legal challenge to Big Tech's content moderation.
+• Most white-collar jobs aren't actually at risk from AI yet, Bloomberg reports, particularly in [coding roles](https://www.nytimes.com/2026/02/20/technology/ai-coding-software-jobs.html) where human oversight remains essential.
 
 **Around the World**
 
-- **Latin America**: Trump has imposed what amounts to [a new blockade](https://www.nytimes.com/2026/02/20/world/americas/cuba-oil-blockade-trump.html) on Cuba, targeting the island's oil supply lines in a move that's strangling the already fragile economy.
+• **Latin America**: Colombia's military is struggling against guerrilla groups using [$600 drones](https://www.nytimes.com/2026/02/21/world/americas/colombia-combat-drones-military.html) that are outsmarting billion-dollar defense systems, showing how cheap technology is changing warfare dynamics.
 
-- **Europe**: Hungary is throwing up an [unexpected obstacle](https://www.nytimes.com/2026/02/20/world/europe/euro-loan-ukraine-hungary-obstacle.html) to the EU's massive 90 billion euro loan package for Ukraine, complicating European efforts to sustain long-term support for Kyiv.
+• **Europe**: The BBC reports that seven Chinese tourists died when their minibus [plunged through ice](https://www.bbc.com/news/articles/czd8y96mldyo) into Lake Baikal in Siberia, with Russian rescue divers recovering the bodies from the bottom of the world's deepest lake.
 
-- **Asia**: China is actively [stoking fear](https://www.nytimes.com/2026/02/20/world/asia/china-travel-japan-fear.html) about travel to Japan through state media and social platforms, part of a broader campaign to discourage Chinese tourism to its regional rival.
+• **Asia**: India is trying to chart a middle course between Washington and Beijing at this week's [AI summit](https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html) in New Delhi, as it balances competing tech partnerships.
 
-- **Middle East**: Iran says the U.S. [hasn't asked it](https://www.nytimes.com/2026/02/20/world/middleeast/iran-us-nuclear-uranium.html) to stop enriching uranium, contradicting Trump administration claims about ongoing diplomatic pressure as tensions escalate.
+• **Middle East**: Al Jazeera reports that Iran is demanding [evidence](https://www.aljazeera.com/news/2026/2/21/iran-demands-evidence-as-trump-un-experts-highlight-protest-killings) after Trump and UN experts highlighted killings during recent protests, escalating diplomatic tensions.
 
-- **Africa**: South Africa has [pulled out](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html) of the Venice Biennale after controversy erupted over a Gaza-themed artwork, highlighting how the Middle East conflict continues to roil cultural institutions worldwide.
+• **Africa**: South Africa withdrew from the Venice Biennale after controversy over [Gaza artwork](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html), the latest cultural institution caught in geopolitical crossfire over the Israel-Palestine conflict.

@@ -38,45 +38,37 @@
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated Friday, February 6, 2026 at 8:55 AM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
+  <div class="timestamp">Generated Saturday, February 21, 2026 at 12:43 PM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
   <script>
     async function refreshBriefing(e) {
       var link = e.target;
       link.textContent = 'Refreshing...';
       link.style.pointerEvents = 'none';
-      var currentTimestamp = document.querySelector('.timestamp').textContent.match(/Generated ([^·]*)/);
-      currentTimestamp = currentTimestamp ? currentTimestamp[1].trim() : '';
       try {
         var res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
         var data = await res.json();
         if (data.success) {
-          link.textContent = 'Triggered! Waiting for build...';
-          var pollTimer = setInterval(function() {
-            fetch('index.html?_=' + Date.now(), { cache: 'no-store' })
-              .then(function(r) { return r.text(); })
-              .then(function(html) {
-                var match = html.match(/Generated ([^·]*)/);
-                var newTimestamp = match ? match[1].trim() : '';
-                if (newTimestamp && currentTimestamp && newTimestamp !== currentTimestamp) {
-                  clearInterval(pollTimer);
-                  location.reload();
-                }
-              })
-              .catch(function() {});
-          }, 15000);
+          // Build takes ~3-4 min. Show countdown then force-reload.
+          var secsLeft = 210;
+          link.textContent = 'Building... ~3:30';
+          var countdown = setInterval(function() {
+            secsLeft--;
+            var m = Math.floor(secsLeft / 60);
+            var s = secsLeft % 60;
+            link.textContent = 'Building... ' + m + ':' + s.toString().padStart(2, '0');
+            if (secsLeft <= 0) {
+              clearInterval(countdown);
+              location.reload();
+            }
+          }, 1000);
+          // Also reload when tab regains focus (user switched away and came back)
           document.addEventListener('visibilitychange', function handler() {
             if (!document.hidden) {
               document.removeEventListener('visibilitychange', handler);
-              clearInterval(pollTimer);
+              clearInterval(countdown);
               location.reload();
             }
           });
-          setTimeout(function() {
-            clearInterval(pollTimer);
-            link.textContent = 'Reload';
-            link.style.pointerEvents = 'auto';
-            link.onclick = function() { location.reload(); return false; };
-          }, 300000);
         } else {
           link.textContent = 'Error - try again';
           link.style.pointerEvents = 'auto';
@@ -88,52 +80,8 @@
     }
   </script>
 
-  <!-- Audio Player -->
-  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
-    <div style="display: flex; align-items: center; gap: 12px;">
-      <button id="play-btn" onclick="toggleAudio()" style="
-        width: 48px; height: 48px; border-radius: 50%; border: none;
-        background: #1a1a1a; color: white; cursor: pointer;
-        font-size: 18px; display: flex; align-items: center; justify-content: center;
-      ">&#9658;</button>
-      <div style="flex: 1;">
-        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
-          Listen to today's briefing
-        </div>
-        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
-      </div>
-    </div>
-    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
-  </div>
-  <script>
-    const audio = document.getElementById('briefing-audio');
-    const playBtn = document.getElementById('play-btn');
-    const voiceInfo = document.getElementById('voice-info');
-    audio.addEventListener('loadedmetadata', () => {
-      const duration = Math.round(audio.duration);
-      const mins = Math.floor(duration / 60);
-      const secs = duration % 60;
-      voiceInfo.textContent = mins + ':' + secs.toString().padStart(2, '0');
-    });
-    audio.addEventListener('error', () => {
-      document.getElementById('audio-player').style.display = 'none';
-    });
-    audio.addEventListener('ended', () => {
-      playBtn.innerHTML = '&#9658;';
-    });
-    function toggleAudio() {
-      if (audio.paused) {
-        audio.play();
-        playBtn.innerHTML = '&#10074;&#10074;';
-      } else {
-        audio.pause();
-        playBtn.innerHTML = '&#9658;';
-      }
-    }
-  </script>
-
   <div id="content">
-<p>Good morning. Here's the state of play:</p><p>Iran's nuclear program is back in the spotlight this morning, with <a href="https://www.nytimes.com/2026/02/06/world/middleeast/iran-missile-nuclear-repairs.html" target="_blank">satellite images</a> showing Tehran actively working on both missile and nuclear facilities. This comes as diplomatic efforts hit another roadblock. Iran confirmed that <a href="https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman" target="_blank">indirect talks</a> with the US in Oman have ended "for now," leaving little hope for de-escalation through dialogue.</p><p>The timing couldn't be more awkward for the global community. Tonight, the Winter Olympics open in Milan with the usual pageantry about international harmony and peaceful competition. But as our colleagues note, <a href="https://www.nytimes.com/2026/02/06/world/europe/olympics-world-order-war.html" target="_blank">the Olympics</a> are arriving at a moment when the world feels anything but harmonious. Between Iran's nuclear ambitions, ongoing conflicts, and rising geopolitical tensions, the contrast between Olympic ideals and reality has rarely been starker.</p><p><strong>Business/Tech</strong></p><p>• AI stocks are getting hammered as investors start questioning whether the AI revolution is <a href="https://www.nytimes.com/2026/02/06/business/the-dark-side-of-ai-weighs-on-the-stock-market.html" target="_blank">sustainable</a> or just expensive hype.</p><p>• <a href="https://www.nytimes.com/2026/02/06/business/toyota-ceo-kenta-kon.html" target="_blank">Toyota replaced</a> its CEO as the Japanese giant faces pressure from both American trade policies and Chinese competition in the electric vehicle space.</p><p>• Europe is coming for TikTok again, claiming the app is deliberately designed to be <a href="https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html" target="_blank">"addictive"</a>.</p><p>• <a href="https://www.nytimes.com/2026/02/05/business/uber-safety-rape-verdict.html" target="_blank">Uber was found liable</a> in a rape case involving one of its drivers, a verdict that could open the floodgates for thousands of similar lawsuits against the ride-sharing company.</p><p><strong>Around the World</strong></p><p>• <strong>Latin America</strong>: Trump and Argentina's Milei just inked a major <a href="https://www.nytimes.com/2026/02/05/world/americas/argentina-us-trade-deal-trump-milei.html" target="_blank">trade deal</a>, cementing their populist bromance.</p><p>• <strong>Europe</strong>: Pope Leo issued a pointed warning as the Olympics begin, urging nations not to use sports for <a href="https://www.nytimes.com/2026/02/06/world/europe/pope-leo-milan-olympics-letter.html" target="_blank">"propaganda or supremacy"</a>. The message feels particularly relevant given current global tensions.</p><p>• <strong>Asia</strong>: A Japanese politician is <a href="https://www.nytimes.com/2026/02/06/world/asia/japan-election-pregnant-candidate.html" target="_blank">upending local politics</a> simply by announcing "I'm pregnant," challenging deep-seated cultural expectations about women in public life.</p><p>• <strong>Middle East</strong>: Iranian Nobel Peace laureate Narges Mohammadi has started another <a href="https://www.nytimes.com/2026/02/05/world/middleeast/iran-narges-mohammadi-prison-hunger-strike.html" target="_blank">hunger strike</a> from prison, part of Iran's broader crackdown on dissent that's exacting a heavy toll on protest supporters.</p><p>• <strong>Africa</strong>: A <a href="https://www.nytimes.com/2026/02/04/world/africa/john-steenhuisen-democratic-alliance-anc-south-africa.html" target="_blank">political shakeup</a> in South Africa has the ruling coalition on edge after the Democratic Alliance leader stepped down, raising fresh questions about the government's stability.</p>
+<p>Good morning. Here's the state of play:</p><p>Trump's trade war just got more expensive. After the Supreme Court struck down his initial 10% global tariff yesterday, the president doubled down and <a href="https://www.nytimes.com/2026/02/21/business/trump-tariffs.html" target="_blank">raised rates</a> to 15% with immediate effect. He's invoking Section 122, which gives presidents broad authority to impose border levies during national emergencies. The move puts him on a collision course with his own Supreme Court appointees, creating what one analyst called <a href="https://www.nytimes.com/2026/02/21/business/economy/tariffs-supreme-court-global-busines-reaction.html" target="_blank">"murky waters"</a> for global businesses trying to navigate the legal uncertainty.</p><p>The ripple effects are already spreading. <a href="https://www.nytimes.com/2026/02/21/world/europe/political-uncertainty-trump-tariff-loss.html" target="_blank">European leaders</a> who hoped to move past trade tensions are now facing fresh uncertainty, while businesses are warning consumers may be stuck in a <a href="https://www.nytimes.com/2026/02/20/business/economy/tariff-ruling-consumer-prices.html" target="_blank">waiting game</a> as companies decide whether to absorb costs or pass them along. The whole episode highlights a <a href="https://www.nytimes.com/2026/02/21/us/politics/supreme-court-tariffs-conservatives.html" target="_blank">growing divide</a> among the Court's conservative justices that could complicate other parts of Trump's agenda.</p><p><strong>Business/Tech</strong></p><p>• <a href="https://www.bloomberg.com/news/videos/2026-02-21/sony-says-diverse-capital-sources-key-for-acquisition-video" target="_blank">Sony's eyeing</a> major acquisitions, according to Bloomberg, and is diversifying how it funds deals. Makes sense when you're swimming in PlayStation and movie cash.</p><p>• The AI boom isn't getting the love the dot-com era did. People are more skeptical about artificial intelligence than they were about the internet in the '90s, creating a <a href="https://www.nytimes.com/2026/02/21/technology/ai-boom-backlash.html" target="_blank">backlash problem</a> for tech companies betting big on the technology.</p><p>• <a href="https://www.bloomberg.com/news/articles/2026-02-21/bitcoin-s-1-trillion-identity-crisis-hits-from-every-direction" target="_blank">Bitcoin's having</a> an existential moment as it hits $1 trillion, per Bloomberg. Digital gold? Payment system? Something else? Even the crypto faithful can't seem to agree.</p><p>• India's trying to thread the needle on AI. At a major summit in New Delhi, officials are <a href="https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html" target="_blank">seeking balance</a> between the U.S. and China as both superpowers compete for influence in the AI space.</p><p><strong>Around the World</strong></p><p>• <strong>Latin America</strong>: Colombia's military is getting outmaneuvered by cheap technology. <a href="https://www.nytimes.com/2026/02/21/world/americas/colombia-combat-drones-military.html" target="_blank">Combat drones</a> costing just $600 are proving more effective than billion-dollar weapons systems against armed groups, forcing a rethink of defense strategies.</p><p>• <strong>Europe</strong>: French politics is reeling after the killing of a nationalist student sent <a href="https://www.france24.com/en/tv-shows/a-week-in-france/20260221-killing-of-nationalist-student-has-repercussions-for-french-politics" target="_blank">shockwaves through</a> the far left, according to France24. The incident could reshape dynamics ahead of upcoming elections.</p><p>• <strong>Asia</strong>: Russia and Ukraine are trading deadly blows. A <a href="https://www.aljazeera.com/news/2026/2/21/russian-attack-on-kharkiv-kills-two-ukraine-hits-missile-plant" target="_blank">Russian attack</a> on Kharkiv killed two people while Ukraine struck back at a missile manufacturing plant, Al Jazeera reports.</p><p>• <strong>Middle East</strong>: Iran is pushing back on international pressure. Tehran is <a href="https://www.aljazeera.com/news/2026/2/21/iran-demands-evidence-as-trump-un-experts-highlight-protest-killings" target="_blank">demanding evidence</a> to support U.S. and UN claims about protest killings, according to Al Jazeera, as Trump considers military options.</p><p>• <strong>Africa</strong>: The humanitarian crisis in Sudan is escalating. UN investigators found that the RSF siege of El Fasher has <a href="https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur" target="_blank">"hallmarks of genocide,"</a> the Guardian reports, as the paramilitary group tightens its grip on the strategic city.</p>
   </div>
 </body>
 </html>
