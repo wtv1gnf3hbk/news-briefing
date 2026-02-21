@@ -12,6 +12,11 @@ on:
   # Manual trigger for testing
   workflow_dispatch:
 
+# Cancel in-progress runs when a new one starts (avoids wasting Actions minutes)
+concurrency:
+  group: briefing-generate
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -24,6 +29,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+
+      # Cache Puppeteer's Chromium download (~200MB)
+      # Without this, npm install takes 5+ min and sometimes hangs
+      - name: Cache Puppeteer browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}-${{ hashFiles('package-lock.json', 'package.json') }}
+          restore-keys: |
+            puppeteer-${{ runner.os }}-
 
       - name: Install dependencies
         run: npm install
