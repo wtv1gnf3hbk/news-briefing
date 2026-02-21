@@ -189,34 +189,30 @@ function analyzeLeadStories(briefing) {
   analysis.commonTopics = findCommonTopics(keyLeadsList);
 
   // Determine if we should suggest a different lead
-  // Use KEY sources (UK editions) for the comparison
+  // LOGIC: If NYT lead is US-domestic AND 2+ key international sources are NOT
+  // leading with US news, override the lead. We do NOT require the international
+  // outlets to agree on a topic — they just need to not be US-centric.
   if (analysis.nytIsUSCentric && keyLeadsList.length >= 2) {
-    // Count how many KEY sources are NOT leading with US news
     const nonUSLeads = keyLeadsList.filter(lead => !isUSCentric(lead.headline));
 
     if (nonUSLeads.length >= 2) {
-      // Find the most common non-US topic
+      // Provide ALL non-US leads and let Claude pick the strongest
+      analysis.suggestedLeads = nonUSLeads.map(lead => ({
+        headline: lead.headline,
+        url: lead.url,
+        source: lead.source
+      }));
+
+      // Also check for topic consensus (bonus signal, not required)
       const nonUSTopics = findCommonTopics(nonUSLeads);
-
       if (nonUSTopics.length > 0) {
-        // Find the lead that best represents the common topic
-        const topTopic = nonUSTopics[0].topic;
-        const bestLead = nonUSLeads.find(lead =>
-          lead.headline.toLowerCase().includes(topTopic)
-        ) || nonUSLeads[0];
-
-        analysis.suggestedLead = {
-          headline: bestLead.headline,
-          url: bestLead.url,
-          source: bestLead.source,
-          topic: topTopic,
-          consensusCount: nonUSTopics[0].count
-        };
-
-        analysis.reasoning = `NYT leads with US domestic news ("${analysis.nytLead.headline.slice(0, 50)}..."), ` +
-          `but ${nonUSLeads.length} of ${keyLeadsList.length} key UK sources (BBC, Guardian, Economist) are leading with non-US stories. ` +
-          `Common international topic: "${topTopic}" (${nonUSTopics[0].count} sources).`;
+        analysis.consensusTopic = nonUSTopics[0].topic;
       }
+
+      analysis.reasoning = `NYT leads with US domestic news ("${analysis.nytLead.headline.slice(0, 50)}..."), ` +
+        `but ${nonUSLeads.length} of ${keyLeadsList.length} key international sources are NOT leading with US stories. ` +
+        `International leads: ${nonUSLeads.map(l => l.source).join(', ')}.` +
+        (analysis.consensusTopic ? ` Shared topic: "${analysis.consensusTopic}".` : ' No shared topic — let Claude pick the strongest.');
     }
   }
 
@@ -237,10 +233,11 @@ async function main() {
   console.log(`NYT Lead: ${leadAnalysis.nytLead?.headline?.slice(0, 60) || 'None'}...`);
   console.log(`NYT is US-centric: ${leadAnalysis.nytIsUSCentric}`);
   console.log(`International leads found: ${Object.keys(leadAnalysis.internationalLeads).length}`);
-  if (leadAnalysis.suggestedLead) {
-    console.log(`\n⚡ SUGGESTED ALTERNATIVE LEAD:`);
-    console.log(`   "${leadAnalysis.suggestedLead.headline}"`);
-    console.log(`   Source: ${leadAnalysis.suggestedLead.source}`);
+  if (leadAnalysis.suggestedLeads && leadAnalysis.suggestedLeads.length > 0) {
+    console.log(`\n⚡ LEAD OVERRIDE TRIGGERED:`);
+    leadAnalysis.suggestedLeads.forEach(l => {
+      console.log(`   ${l.source}: "${l.headline}"`);
+    });
     console.log(`   Reason: ${leadAnalysis.reasoning}`);
   }
   console.log('=====================\n');
@@ -270,20 +267,24 @@ async function main() {
 
   // Build lead guidance based on analysis
   let leadGuidance = '';
-  if (leadAnalysis.suggestedLead) {
+  if (leadAnalysis.suggestedLeads && leadAnalysis.suggestedLeads.length > 0) {
+    // NYT is US-centric, international outlets disagree — override the lead
+    const leadsListText = leadAnalysis.suggestedLeads.map(l =>
+      `- ${l.source}: "${l.headline}" (${l.url})`
+    ).join('\n');
+
     leadGuidance = `
-IMPORTANT - LEAD STORY GUIDANCE:
-The NYT is leading with a US-centric domestic story, but key UK news outlets (BBC, Guardian, Economist) are prominently featuring a different global story. For this international news briefing, you should:
+CRITICAL - LEAD STORY OVERRIDE:
+This is an INTERNATIONAL news briefing. The NYT is leading with US domestic politics ("${leadAnalysis.nytLead.headline.slice(0, 60)}..."), but major international outlets are NOT leading with that story.
 
-1. LEAD with the international story that other outlets are featuring: "${leadAnalysis.suggestedLead.headline}"
-   Source: ${leadAnalysis.suggestedLead.source}
-   URL: ${leadAnalysis.suggestedLead.url}
+Here's what they're leading with instead:
+${leadsListText}
 
-2. THEN cover the NYT's US story as secondary/context, noting it's dominating US coverage
-
-3. Look for NYT coverage of the international lead story in the regional sections or wire services to augment your lead
-
-This ensures the briefing prioritizes globally significant news over US-centric stories.
+YOU MUST:
+1. LEAD with the strongest international story from the list above (pick the one with the biggest global stakes)
+2. US domestic politics should NEVER lead this briefing unless it has direct global consequences (sanctions, treaties, military action, trade wars). Congressional voting restrictions, partisan maneuvering, and domestic policy fights belong later in the briefing, not at the top.
+3. Include the NYT's US story later as a secondary item, not the lead.
+4. Look for NYT coverage of the international lead story in the regional sections to augment your lead with NYT links.
 `;
   } else if (Object.keys(leadAnalysis.internationalLeads).length > 0) {
     leadGuidance = `
@@ -414,39 +415,31 @@ Write the briefing now. Keep it concise but comprehensive.`;
       var link = e.target;
       link.textContent = 'Refreshing...';
       link.style.pointerEvents = 'none';
-      var currentTimestamp = document.querySelector('.timestamp').textContent.match(/Generated ([^·]*)/);
-      currentTimestamp = currentTimestamp ? currentTimestamp[1].trim() : '';
       try {
         var res = await fetch('https://briefing-refresh.adampasick.workers.dev/refresh');
         var data = await res.json();
         if (data.success) {
-          link.textContent = 'Triggered! Waiting for build...';
-          var pollTimer = setInterval(function() {
-            fetch('index.html?_=' + Date.now(), { cache: 'no-store' })
-              .then(function(r) { return r.text(); })
-              .then(function(html) {
-                var match = html.match(/Generated ([^·]*)/);
-                var newTimestamp = match ? match[1].trim() : '';
-                if (newTimestamp && currentTimestamp && newTimestamp !== currentTimestamp) {
-                  clearInterval(pollTimer);
-                  location.reload();
-                }
-              })
-              .catch(function() {});
-          }, 15000);
+          // Build takes ~3-4 min. Show countdown then force-reload.
+          var secsLeft = 210;
+          link.textContent = 'Building... ~3:30';
+          var countdown = setInterval(function() {
+            secsLeft--;
+            var m = Math.floor(secsLeft / 60);
+            var s = secsLeft % 60;
+            link.textContent = 'Building... ' + m + ':' + s.toString().padStart(2, '0');
+            if (secsLeft <= 0) {
+              clearInterval(countdown);
+              location.reload();
+            }
+          }, 1000);
+          // Also reload when tab regains focus (user switched away and came back)
           document.addEventListener('visibilitychange', function handler() {
             if (!document.hidden) {
               document.removeEventListener('visibilitychange', handler);
-              clearInterval(pollTimer);
+              clearInterval(countdown);
               location.reload();
             }
           });
-          setTimeout(function() {
-            clearInterval(pollTimer);
-            link.textContent = 'Reload';
-            link.style.pointerEvents = 'auto';
-            link.onclick = function() { location.reload(); return false; };
-          }, 300000);
         } else {
           link.textContent = 'Error - try again';
           link.style.pointerEvents = 'auto';
@@ -454,50 +447,6 @@ Write the briefing now. Keep it concise but comprehensive.`;
       } catch (e) {
         link.textContent = 'Error - try again';
         link.style.pointerEvents = 'auto';
-      }
-    }
-  </script>
-
-  <!-- Audio Player -->
-  <div id="audio-player" style="margin-bottom: 24px; padding: 16px; background: #f0f0f0; border-radius: 8px;">
-    <div style="display: flex; align-items: center; gap: 12px;">
-      <button id="play-btn" onclick="toggleAudio()" style="
-        width: 48px; height: 48px; border-radius: 50%; border: none;
-        background: #1a1a1a; color: white; cursor: pointer;
-        font-size: 18px; display: flex; align-items: center; justify-content: center;
-      ">&#9658;</button>
-      <div style="flex: 1;">
-        <div style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; font-size: 0.9rem;">
-          Listen to today's briefing
-        </div>
-        <div id="voice-info" style="font-size: 0.8rem; color: #666;">Loading...</div>
-      </div>
-    </div>
-    <audio id="briefing-audio" src="podcast.mp3" preload="metadata"></audio>
-  </div>
-  <script>
-    const audio = document.getElementById('briefing-audio');
-    const playBtn = document.getElementById('play-btn');
-    const voiceInfo = document.getElementById('voice-info');
-    audio.addEventListener('loadedmetadata', () => {
-      const duration = Math.round(audio.duration);
-      const mins = Math.floor(duration / 60);
-      const secs = duration % 60;
-      voiceInfo.textContent = mins + ':' + secs.toString().padStart(2, '0');
-    });
-    audio.addEventListener('error', () => {
-      document.getElementById('audio-player').style.display = 'none';
-    });
-    audio.addEventListener('ended', () => {
-      playBtn.innerHTML = '&#9658;';
-    });
-    function toggleAudio() {
-      if (audio.paused) {
-        audio.play();
-        playBtn.innerHTML = '&#10074;&#10074;';
-      } else {
-        audio.pause();
-        playBtn.innerHTML = '&#9658;';
       }
     }
   </script>

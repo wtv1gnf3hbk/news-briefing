@@ -34,16 +34,16 @@ jobs:
           ECONOMIST_PASSWORD: ${{ secrets.ECONOMIST_PASSWORD }}
         run: node generate-briefing.js
 
-      - name: Write conversational briefing
+      - name: Write V1 briefing (single-pass)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node write-briefing.js
 
-      - name: Generate audio podcast
+      - name: Write V2 briefing (3-pass editorial chain)
         continue-on-error: true
         env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: node generate-podcast.js
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node write-briefing-v2.js
 
       - name: Commit and push
         run: |
@@ -56,7 +56,7 @@ jobs:
           git reset --soft origin/main
 
           # Now stage and commit on top of the latest remote
-          git add briefing.json briefing.md index.html podcast.mp3 podcast-metadata.json
+          git add briefing.json briefing.md index.html briefing-v2/index.html briefing-v2/briefing.md
           git diff --staged --quiet || {
             git commit -m "Update briefing $(date -u +%Y-%m-%d)"
             git push origin main
