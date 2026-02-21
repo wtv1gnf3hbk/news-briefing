@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Trump administration is tightening the screws on Cuba with what amounts to a [new blockade](https://www.nytimes.com/2026/02/20/world/americas/cuba-oil-blockade-trump.html) that's cutting off oil supplies and strangling the island's already fragile economy. The strategy represents a return to maximum pressure tactics that go beyond the traditional embargo, targeting the energy lifeline that keeps Cuba functioning. It's the clearest sign yet of how Trump plans to handle leftist governments in the Americas during his second term.
+The Supreme Court delivered a stunning rebuke to Trump yesterday, [striking down](https://www.nytimes.com/2026/02/20/us/politics/supreme-court-trump-roberts-tariffs.html) his sweeping global tariffs in a decision that cuts to the heart of his economic agenda. The 6-3 ruling found that Trump's broad import taxes exceeded presidential authority, with Chief Justice Roberts writing for the majority. Trump's response was swift and furious, calling the justices who ruled against him ["fools and lap dogs"](https://www.nytimes.com/2026/02/20/us/politics/trump-justices-gorsuch-barrett-roberts.html) and immediately imposing [new 10% duties](https://www.nytimes.com/live/2026/02/20/us/trump-tariffs-supreme-court) on a range of goods.
 
-Meanwhile, the Jeffrey Epstein scandal has blown up the British royal family in spectacular fashion. Former Prince Andrew was [arrested yesterday](https://www.nytimes.com/2026/02/20/world/europe/prince-andrew-arrest-epstein-royal-family-uk.html) in connection with the Epstein case, sending shockwaves through the monarchy that had hoped to move past his scandals. Police are [searching his mansion](https://www.nytimes.com/2026/02/20/world/europe/prince-andrew-search-epstein.html) for the second day running, while the palace scrambles to contain damage that threatens to overshadow King Charles's reign.
+The showdown represents a rare institutional check on presidential power, but it's hardly slowing Trump down. He's also [weighing military action](https://www.nytimes.com/live/2026/02/20/us/trump-news) against Iran, acknowledging he's considering a "limited strike" after giving Tehran roughly 10 days to agree to nuclear restrictions. The dual crises are testing how far Trump can push both the courts and Congress as he tries to reshape American foreign and economic policy through executive action.
 
 **Business/Tech**
 
-• The [Defense Department](https://www.nytimes.com/2026/02/18/technology/defense-department-anthropic-ai-safety.html) and AI company Anthropic are in a public spat over artificial intelligence safety protocols, with the Pentagon pushing for fewer restrictions on military AI applications while the company digs in on its safety-first approach.
+- The [U.S. economy](https://www.nytimes.com/2026/02/20/business/economy/us-economy-gdp.html) grew just 1.4% in the fourth quarter of 2025, a sharp slowdown from the previous quarter's 4.4% pace that's adding pressure on Trump's growth promises.
 
-• [West Virginia](https://www.nytimes.com/2026/02/19/technology/apple-west-virginia-lawsuit-child-sexual-abuse.html) has filed a lawsuit claiming Apple's systems allow sharing of child sexual abuse material, escalating state-level pressure on tech companies over content moderation.
+- Stock markets are sending [mixed signals](https://www.nytimes.com/2026/02/20/business/stocks-markets-mixed-signals.html) despite recent highs, with investors uncertain how to price in the Supreme Court's tariff ruling and Trump's unpredictable policy moves.
 
-• The [FCC's equal-time rule](https://www.nytimes.com/2026/02/19/business/media/colbert-equal-time-fcc-brendan-carr.html) is causing headaches for late-night TV hosts, with Stephen Colbert and others having to navigate century-old broadcasting regulations that weren't designed for the Trump era.
+- The Pentagon and AI company Anthropic are locked in a [public dispute](https://www.nytimes.com/2026/02/18/technology/defense-department-anthropic-ai-safety.html) over artificial intelligence safety standards for military applications.
 
-• Bloomberg reports that [LyondellBasell](https://www.bloomberg.com/news/articles/2026-02-20/lyondellbasell-slashes-dividend-citing-challenging-markets) slashed its dividend by almost half, citing brutal market conditions in the chemicals sector.
+- West Virginia filed a lawsuit claiming that Apple's platforms [allow sharing](https://www.nytimes.com/2026/02/19/technology/apple-west-virginia-lawsuit-child-sexual-abuse.html) of child sexual abuse material, marking the latest legal challenge to Big Tech's content moderation.
 
 **Around the World**
 
-• **Latin America**: Venezuelan lawmakers passed an [amnesty bill](https://www.nytimes.com/2026/02/19/world/americas/venezuela-amnesty-bill-prisoners.html) that critics are calling deeply flawed, raising questions about whether it will actually free political prisoners or just provide cover for the Maduro government.
+- **Latin America**: Trump has imposed what amounts to [a new blockade](https://www.nytimes.com/2026/02/20/world/americas/cuba-oil-blockade-trump.html) on Cuba, targeting the island's oil supply lines in a move that's strangling the already fragile economy.
 
-• **Europe**: A whistle-blower claims the head of Russia's anti-doping agency was [directly involved](https://www.nytimes.com/2026/02/20/world/europe/olympics-doping-russia.html) in the 2014 Olympic doping scheme, potentially undermining Moscow's efforts to rehabilitate its sports reputation.
+- **Europe**: Hungary is throwing up an [unexpected obstacle](https://www.nytimes.com/2026/02/20/world/europe/euro-loan-ukraine-hungary-obstacle.html) to the EU's massive 90 billion euro loan package for Ukraine, complicating European efforts to sustain long-term support for Kyiv.
 
-• **Asia**: Beijing is [stoking fear](https://www.nytimes.com/2026/02/20/world/asia/china-travel-japan-fear.html) about travel to Japan through state media campaigns, part of a broader effort to discourage Chinese tourism to its neighbor over political disputes.
+- **Asia**: China is actively [stoking fear](https://www.nytimes.com/2026/02/20/world/asia/china-travel-japan-fear.html) about travel to Japan through state media and social platforms, part of a broader campaign to discourage Chinese tourism to its regional rival.
 
-• **Middle East**: Syria's new authorities have [banned makeup](https://www.nytimes.com/2026/02/20/world/middleeast/makeup-ban-women-syria.html) for women, the latest sign of how conservative religious interpretations are shaping post-Assad governance in Damascus.
+- **Middle East**: Iran says the U.S. [hasn't asked it](https://www.nytimes.com/2026/02/20/world/middleeast/iran-us-nuclear-uranium.html) to stop enriching uranium, contradicting Trump administration claims about ongoing diplomatic pressure as tensions escalate.
 
-• **Africa**: UN investigators found that attacks on the Sudanese city of El Fasher bore [hallmarks of genocide](https://www.nytimes.com/2026/02/19/world/africa/sudan-un-el-fasher-rsf.html), adding international legal weight to accusations against the paramilitary Rapid Support Forces.
+- **Africa**: South Africa has [pulled out](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html) of the Venice Biennale after controversy erupted over a Gaza-themed artwork, highlighting how the Middle East conflict continues to roil cultural institutions worldwide.
