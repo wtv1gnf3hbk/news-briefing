@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Ukraine's President Zelensky is escalating his rhetoric as the war enters its fourth year, [telling the BBC](https://www.bbc.com/news/articles/cvgj9p15y87o) that Putin has already started World War III and must be stopped. It's a stark framing that comes as Russia continues to feel the mounting effects of the prolonged conflict, according to BBC analysis from Moscow. The timing isn't coincidental — Zelensky's pushing for more Western support as the war's trajectory becomes increasingly critical for both NATO and global security.
+Mexico is reeling from explosive violence after security forces killed Nemesio Rubén Oseguera Cervantes, better known as "El Mencho," the leader of the Jalisco New Generation Cartel. [Al Jazeera reports](https://www.aljazeera.com/news/2026/2/23/el-mencho-killing-sparks-overwhelming-fear-as-violence-erupts-in-mexico) that cartel gunmen have unleashed coordinated attacks across multiple states, targeting government buildings and civilians in what looks like a desperate bid to maintain control of the criminal empire. El Mencho had been one of the world's most wanted drug traffickers, with the U.S. offering a $10 million bounty for his capture.
 
-Meanwhile, violence has erupted across parts of Mexico after security forces killed Nemesio Oseguera, known as "El Mencho," the leader of the powerful Jalisco New Generation Cartel. [Al Jazeera reports](https://www.aljazeera.com/news/2026/2/22/mexico-announces-killing-of-drug-cartel-kingpin-el-mencho) the cartel is retaliating with attacks on infrastructure and security forces. This isn't just a Mexican story — the CJNG has been one of the most internationally active cartels, with operations stretching into the U.S. and across Latin America.
+The killing creates a massive power vacuum in Mexico's most violent cartel, which controls trafficking routes from the Pacific coast to major U.S. cities. What happens next will determine whether Mexico sees a period of reduced cartel violence or an all-out war for succession that could destabilize entire regions. Meanwhile, tensions are escalating on other fronts as well. Iran's nuclear talks with the U.S. are set to resume Thursday in Geneva, with Tehran signaling some [encouraging signals](https://www.nytimes.com/2026/02/20/world/middleeast/iran-us-nuclear-uranium.html) even as Trump considers military strikes.
 
 **Business/Tech**
 
-• China's calling on the U.S. to [cancel tariffs](https://www.france24.com/en/asia-pacific/20260223-china-us-cancel-trump-era-tariffs-supreme-court) following the Supreme Court ruling, according to AFP. Beijing sees an opening after the legal setback for the administration's trade policy.
+• Morgan Stanley's investment arm is actively hunting for "AI-proof" assets in emerging markets, betting that some sectors will remain insulated from artificial intelligence disruption, [Bloomberg reports](https://www.bloomberg.com/news/articles/2026-02-23/morgan-stanley-im-adds-emerging-market-assets-without-ai-risks).
 
-• Major Chinese property developer Country Garden reported massive losses, the Wall Street Journal reports, showing how the real estate crisis is spreading even to previously stable players.
+• Global markets are wobbling on trade uncertainty after Trump's latest tariff threats, with stocks poised to open lower and the dollar pulling back from recent gains, [per Bloomberg](https://www.bloomberg.com/news/articles/2026-02-22/dollar-trades-within-range-amid-tariff-uncertainty-markets-wrap).
 
-• JPMorgan finally [admitted it closed](https://www.nytimes.com/2026/02/21/business/jpmorgan-trump-debanking.html) Trump's accounts after January 6th, ending speculation about the bank's debanking practices during the transition period.
+• JPMorgan has admitted it [closed Trump's accounts](https://www.nytimes.com/2026/02/21/business/jpmorgan-trump-debanking.html) after the January 6 Capitol attack, marking a rare acknowledgment of politically motivated debanking by a major financial institution.
 
-• AI disruption might not be the job killer everyone feared, at least not yet — new research suggests [coding jobs](https://www.nytimes.com/2026/02/20/technology/ai-coding-software-jobs.html) are adapting rather than disappearing wholesale.
+• A new study suggests AI isn't coming for white-collar jobs as quickly as feared, with [coding and software roles](https://www.nytimes.com/2026/02/20/technology/ai-coding-software-jobs.html) showing more resilience than initially predicted.
 
 **Around the World**
 
-• **Latin America**: The killing of El Mencho has triggered [widespread violence](https://www.bbc.com/news/articles/c795qgejzpxo) as the CJNG fights back against Mexican security forces, according to the BBC. This could reshape the entire drug trafficking landscape across the Americas.
+• **Latin America:** Violence has erupted across Mexico following the [killing of "El Mencho,"](https://www.aljazeera.com/news/2026/2/23/el-mencho-killing-sparks-overwhelming-fear-as-violence-erupts-in-mexico) with cartel gunmen launching coordinated attacks in response to their leader's death, Al Jazeera reports.
 
-• **Europe**: Paris is getting ready to transform its most hated building — [Tour Montparnasse](https://www.nytimes.com/2026/02/23/world/europe/tour-montparnasse-paris-makeover-piano.html) is getting a major Renzo Piano makeover that's dividing the city's architectural establishment.
+• **Europe:** EU support for Ukraine is [stumbling badly](https://www.nytimes.com/2026/02/23/world/europe/ukraine-war-russia-eu-hungary.html) just days before the fourth anniversary of Russia's invasion, with Hungary and other member states blocking new aid packages.
 
-• **Asia**: Pakistan launched [deadly strikes](https://www.aljazeera.com/news/2026/2/23/pakistan-claims-at-least-70-fighters-killed-in-strikes-along-afghan-border) along the Afghan border, claiming to have killed at least 70 fighters, Al Jazeera reports. Cross-border tensions are escalating again as both countries struggle with militant groups.
+• **Asia:** Duterte supporters have rallied in The Hague as the International Criminal Court [weighs evidence](https://www.nytimes.com/2026/02/23/world/asia/philippines-icc-duterte-supporters.html) against the former Philippine president over his deadly drug war.
 
-• **Middle East**: Arab leaders are [condemning remarks](https://www.nytimes.com/2026/02/22/world/middleeast/huckabee-israel-tucker-carlson.html) by U.S. Ambassador to Israel Mike Huckabee, adding another diplomatic complication to an already tense regional situation.
+• **Middle East:** Iranian students are [protesting for a second day](https://www.nytimes.com/2026/02/22/world/middleeast/iran-student-protests.html) despite a harsh state crackdown, adding domestic pressure as nuclear talks with Washington loom.
 
-• **Africa**: Rwanda-backed rebels have [entered Goma](https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8), Congo's key aid hub, the WSJ reports. It's a major escalation that could destabilize the entire eastern DRC region and complicate humanitarian operations.
+• **Africa:** The UN has found that the RSF siege of El Fasher in Sudan bears ["hallmarks of genocide,"](https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur) according to the Guardian, as the humanitarian crisis in Darfur deepens.
