@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Pakistan launched deadly strikes on Afghanistan overnight, marking a dangerous escalation in cross-border tensions. According to [Al Jazeera](https://www.aljazeera.com/news/2026/2/22/pakistan-carries-out-strikes-in-afghanistan-after-islamabad-suicide-attack), Pakistan says the attacks were retaliation for recent suicide bombings, but Afghanistan is promising an "appropriate response." This is exactly the kind of tit-for-tat escalation that can spiral quickly in a region where both countries are dealing with internal security crises.
+The big story dominating international coverage is the escalating U.S.-Iran crisis. Trump is [considering targeted strikes](https://www.nytimes.com/2026/02/22/us/politics/trump-iran-strike-attack.html) against Iran followed by larger attacks, while U.S. officials warn that Iran could [direct proxy attacks](https://www.nytimes.com/2026/02/22/us/politics/iran-terrorist-attacks-proxies-trump.html) against American targets abroad in response. The tension is playing out on multiple fronts: Iran is reportedly conducting [military operations](https://www.nytimes.com/2026/02/21/world/middleeast/iran-military-operation-venezuela.html) in Venezuela, Iranian students are [protesting](https://www.nytimes.com/2026/02/22/world/middleeast/iran-student-protests.html) for a second day despite state crackdowns, and the two countries are set for [nuclear talks](https://www.nytimes.com/2026/02/20/world/middleeast/iran-us-nuclear-uranium.html) in Geneva this week.
 
-The other big story is Iran's ongoing standoff with the US. Students at Iranian universities held their [first large protests](https://www.nytimes.com/2026/02/21/world/middleeast/iran-student-protests.html) since the regime's brutal crackdown last month, while President Pezeshkian said Iran won't bow to US pressure in nuclear talks. Meanwhile, Trump is [considering strikes](https://www.nytimes.com/2026/02/19/us/politics/trump-iran-military-strikes.html) on Iran even as his tariff powers got clipped by the Supreme Court. The Court ruling may have [strengthened Xi's hand](https://www.bloomberg.com/news/articles/2026-02-22/xi-gains-upper-hand-before-trump-summit-after-us-tariff-reversal) ahead of his planned summit with Trump, but it doesn't change the Iran calculus much.
+Meanwhile, New York is bracing for its [second major storm](https://www.nytimes.com/2026/02/22/weather/storm-nyc-preparations-mamdani.html) in just a few weeks, with NJ Transit suspending service and major disruptions expected for Monday's commute. The storm underscores how weather continues to complicate daily life across the Northeast.
 
 **Business/Tech**
 
-• [JPMorgan admitted](https://www.nytimes.com/2026/02/21/business/jpmorgan-trump-debanking.html) it closed Trump's accounts a month after January 6, ending years of denials about the "debanking" controversy
+• The dollar is sliding and Asian markets are jittery as Trump's tariff strategy hits legal roadblocks, according to Reuters. [Bloomberg reports](https://www.bloomberg.com/news/articles/2026-02-22/xi-gains-upper-hand-before-trump-summit-after-us-tariff-reversal) that Xi Jinping now has more leverage heading into his upcoming summit with Trump after the Supreme Court struck down many of the president's trade levies.
 
-• Global companies are navigating ["murky waters"](https://www.nytimes.com/2026/02/21/business/economy/tariffs-supreme-court-global-busines-reaction.html) after the Supreme Court struck down Trump's broad tariff powers
+• JPMorgan [finally admitted](https://www.nytimes.com/2026/02/21/business/jpmorgan-trump-debanking.html) it closed Trump's accounts after January 6th, ending months of speculation about the bank's decision-making process during the Capitol attack fallout.
 
-• Poland's chemical giant Azoty is seeking an [83% debt writedown](https://www.bloomberg.com/news/articles/2026-02-22/poland-s-azoty-seeks-83-debt-writedown-in-polymer-restructuring) on its massive polymer project, Bloomberg reports
+• Several Asian countries that cut deals with Trump to avoid tariffs are now finding themselves [stuck with the terms](https://www.nytimes.com/2026/02/22/business/trump-tariffs-japan-indonesia.html), even as the broader tariff wall crumbles in court.
 
-• Some [AI evangelists](https://www.nytimes.com/2026/02/22/world/asia/japan-ai-politics-election.html) are trying to shake up Japanese politics, pushing for tech-friendly reforms
+• Don't panic about AI taking your white-collar job just yet. A new analysis suggests [the threat is overblown](https://www.nytimes.com/2026/02/20/technology/ai-coding-software-jobs.html), at least for now, particularly in fields like software development.
 
 **Around the World**
 
-• **Latin America**: Colombia's military is struggling as [$600 drones](https://www.nytimes.com/2026/02/21/world/americas/colombia-combat-drones-military.html) are outsmarting its billion-dollar conventional forces in ongoing conflicts with armed groups
+• **Latin America**: The killing of Jalisco cartel leader "El Mencho" in a Mexican military operation has sparked [widespread violence](https://www.nytimes.com/2026/02/22/world/americas/el-mencho-mexico-what-we-know.html) across western Mexico, according to Al Jazeera. Nemesio Oseguera Cervantes was one of the world's most wanted drug traffickers.
 
-• **Europe**: Norway's record [Olympic medal haul](https://www.nytimes.com/2026/02/22/world/europe/2026-winter-olympics-klaebo-norway-epstein.html) is providing a welcome distraction from the country's Jeffrey Epstein scandal that's been dominating headlines
+• **Europe**: "One Battle After Another" took home [Best Film](https://www.nytimes.com/2026/02/22/movies/baftas-2026.html) at last night's BAFTAs, beating out "Hamnet" and "Sinners" in what the BBC called a surprise victory for the war drama.
 
-• **Asia**: Malaysia's Islamist party is [taking control](https://www.bloomberg.com/news/articles/2026-02-22/malaysia-s-islamist-party-rises-to-lead-in-opposition-shake-up) of the opposition coalition after months of internal rifts, Bloomberg reports
+• **Asia**: Trump is looking ahead to [his summit](https://www.nytimes.com/2026/02/22/world/asia/trump-xi-jinping-meeting-china.html) with Xi Jinping, but tariffs and Taiwan tensions are already complicating the agenda before the two leaders even sit down.
 
-• **Middle East**: Israeli strikes on Hezbollah positions in Lebanon [killed at least 10](https://www.nytimes.com/2026/02/21/world/middleeast/israel-strikes-lebanon-hezbollah.html) people, Lebanese officials say, as tensions remain high along the border
+• **Middle East**: Arab leaders are condemning [controversial remarks](https://www.nytimes.com/2026/02/22/world/middleeast/huckabee-israel-tucker-carlson.html) by U.S. Ambassador to Israel Mike Huckabee about supporting Israeli territorial expansion, creating another diplomatic headache for the Trump administration.
 
-• **Africa**: South Africa pulled out of the Venice Biennale after a [Gaza artwork controversy](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html), the latest cultural institution caught up in Middle East politics
+• **Africa**: South Africa has [pulled out](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html) of the Venice Biennale after a furor over Gaza-related artwork, highlighting how the conflict continues to ripple through cultural institutions worldwide.
