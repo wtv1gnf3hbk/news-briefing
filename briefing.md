@@ -1,27 +1,18 @@
 Good morning. Here's the state of play:
 
-Silicon Valley's long-ignored nightmare scenario is getting renewed attention as tensions rise across the Taiwan Strait. Our lead story today digs into how the global semiconductor industry remains dangerously dependent on Taiwan, particularly TSMC, which produces the most advanced chips powering everything from smartphones to AI systems. The [looming disaster](https://www.nytimes.com/2026/02/24/technology/taiwan-china-chips-silicon-valley-tsmc.html) has taken on new urgency as China ramps up economic pressure on Japan with new export bans, part of a broader pattern of Beijing flexing its economic muscle across the region.
+Aviation safety is back in the spotlight on Capitol Hill, but politics is getting in the way of progress. Supporters of new safety legislation are pointing to a [recent near-miss](https://www.nytimes.com/2026/02/24/us/politics/rotor-act-dc-plane-crash-teterboro.html) to make their case, but the House rejected the bill after Pentagon opposition. It's a familiar Washington story where good policy gets tangled up in bureaucratic turf wars and political calculations.
 
-The Ukraine war enters its fifth year today, and the international coverage reflects just how much the conflict has evolved. While Zelenskyy marks the anniversary by saying Putin failed to achieve his war goals, the reality on the ground shows a [hard year ahead](https://www.nytimes.com/2026/02/17/world/europe/trump-ukraine-war-putin.html) for Ukraine. There's growing talk of a [search for compromise](https://www.nytimes.com/2026/02/18/world/europe/ukraine-russia-peace-talks-demilitarized-zone.html), but many Ukrainians in occupied territories [don't want to be traded](https://www.nytimes.com/2026/02/24/world/europe/ukraine-war-donetsk.html) to Russia for peace. Meanwhile, Russia's own economy shows the strain of [remaking itself for war](https://www.nytimes.com/2026/02/24/world/europe/russia-ukraine-war-future.html).
+Meanwhile, Mexico finds itself caught between two impossible pressures. The country is dealing with [escalating cartel violence](https://www.nytimes.com/2026/02/23/world/americas/mexico-cartel-guadalajara.html) while Trump's administration pushes for aggressive action that could destabilize things further. President Sheinbaum is walking a tightrope, trying to maintain sovereignty while managing the reality that [Mexico sits between Trump and the cartels](https://www.nytimes.com/2026/02/24/world/americas/trump-sheinbaum-us-mexico-cartel.html) with little room to maneuver.
 
 **Business/Tech**
-
-- The Federal Reserve is still looking for more evidence that inflation is cooling before cutting rates, according to minutes from their last meeting, per [AP reporting](https://news.google.com/rss/articles/CBMijAFBVV95cUxQd0VxeWJleWpXTHB4Nlc1Nkt5OGNhVm8yUEhpWWFtMW1NRWdkT2hPTUJsSDRqeC03ejhBVTlCVW5EdmN6LUd2SXJ3S0JQdXJDb1lkd3p4U0QtX1RLS0o5YnljYzFJQ2VuWF9Ed1RHd0JyZnFBeG04Wl9QRjJPcWNKYU5JWFpmbkxpRGFydA?oc=5).
-
-- Saks owner Richard Baker insists he's [saved department stores](https://www.nytimes.com/2026/02/23/business/richard-baker-saks-neiman-marcus-bankruptcy.html), despite the recent Neiman Marcus bankruptcy that's raising questions about his rescue strategy.
-
-- Anthropic is going after three Chinese companies for allegedly [harvesting its data](https://www.nytimes.com/2026/02/23/technology/anthropic-chinese-startups-distillation.html) to train their own AI models, the latest sign of intensifying competition between US and Chinese AI firms.
-
-- Indian IT stocks are getting hammered after a research report highlighted how [AI fears](https://www.bloomberg.com/news/articles/2026-02-24/indian-it-stock-selloff-deepens-on-ai-scare-after-citrini-report) could hurt traditional software services companies, according to Bloomberg.
+• [Meta just struck](https://www.nytimes.com/2026/02/24/business/meta-amd-chips-ai.html) a chips-for-stock deal with AMD, giving the chip company its next big AI customer as it races to catch up with Nvidia's dominance in the space.
+• Tech stocks are bouncing back after yesterday's AI-driven selloff, with the S&P 500 up more than 0.6% as [Anthropic's announcements](https://www.bloomberg.com/news/articles/2026-02-24/s-p-500-rises-as-traders-assess-fallout-from-ai-fueled-slump) helped calm investor nerves about AI disruption.
+• [Intel signed a deal](https://www.nytimes.com/2026/02/24/technology/intel-sambanova-ceo-lip-bu-tan.html) with chip startup SambaNova, raising eyebrows since Intel's CEO had previously invested in the company.
+• Spirit Airlines finally has an [exit strategy from bankruptcy](https://www.bloomberg.com/news/articles/2026-02-24/spirit-aviation-strikes-deal-to-exit-chapter-11-later-this-year), striking a deal with noteholders to emerge from Chapter 11 later this year.
 
 **Around the World**
-
-**Latin America:** Mexico is dealing with the violent aftermath of killing cartel leader 'El Mencho,' with thousands of soldiers deployed to contain the chaos. The [cartel violence](https://www.nytimes.com/2026/02/23/world/americas/mexico-cartel-guadalajara.html) is raising fresh questions about tourism safety as spring break season approaches.
-
-**Europe:** Former UK ambassador Peter Mandelson's arrest on misconduct charges is [rattling British politics](https://www.nytimes.com/2026/02/24/world/europe/mandelson-arrest-epstein-starmer-uk.html), with connections to the Epstein case putting pressure on Keir Starmer's government.
-
-**Asia:** China is turning up the heat on Japan with new [export bans](https://www.nytimes.com/2026/02/24/world/asia/china-japan-export-ban.html), part of Beijing's broader strategy of using economic leverage to pressure its neighbors.
-
-**Middle East:** Binance employees discovered that [$1.7 billion](https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html) in cryptocurrency was sent to Iranian entities, leading to internal firings and raising new questions about sanctions enforcement.
-
-**Africa:** South Africa pulled out of the Venice Biennale after a [Gaza artwork controversy](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html), the latest example of how the Middle East conflict continues to reverberate through international cultural events.
+• **Latin America**: The war on drugs is hitting a grim milestone, with analysts asking [whether anything works](https://www.nytimes.com/2026/02/24/world/americas/mexico-war-on-drugs.html) after six decades of failed policies as Mexico grapples with unprecedented cartel violence.
+• **Europe**: Germany's new chancellor is making his first trip to Beijing, trying to [balance relations](https://www.nytimes.com/2026/02/24/world/europe/merz-germany-china-trip-beijing-xi.html) with China while managing pressure from Trump's America and concerns from EU partners.
+• **Asia**: Beijing is turning up the heat on Tokyo with new [export bans](https://www.nytimes.com/2026/02/24/world/asia/china-japan-export-ban.html), escalating trade tensions between the two Asian powers over territorial and security disputes.
+• **Middle East**: Ordinary Iranians are quietly [preparing for war](https://www.nytimes.com/2026/02/24/world/middleeast/iran-preparations-war.html) beneath a surface of daily normalcy, stocking up on supplies and making contingency plans as tensions with the US continue to escalate.
+• **Africa**: South Africa has [pulled out](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html) of the Venice Biennale after controversy over a Gaza-related artwork, highlighting how the conflict continues to ripple through international cultural events.
