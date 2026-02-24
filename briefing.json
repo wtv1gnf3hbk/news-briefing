@@ -1,51 +1,51 @@
 {
   "nyt": {
     "lead": {
-      "headline": "Trump Administration Begins Work to Pick Up the Pieces of Broken Tariffs",
-      "url": "https://www.nytimes.com/2026/02/23/us/politics/trump-tariffs-supreme-court.html",
+      "headline": "The Looming Taiwan Chip Disaster That Silicon Valley Has Long Ignored",
+      "url": "https://www.nytimes.com/2026/02/24/technology/taiwan-china-chips-silicon-valley-tsmc.html",
       "source": "Lead"
     },
     "live": [
       {
-        "headline": "Trump AdministrationFeb. 23, 2026, 9:11 p.m. ET",
-        "url": "https://www.nytimes.com/live/2026/02/23/us/trump-news",
-        "source": "Live"
-      },
-      {
-        "headline": "Northeast Winter StormFeb. 23, 2026, 9:03 p.m. ET",
-        "url": "https://www.nytimes.com/live/2026/02/23/weather/nyc-snow-storm",
-        "source": "Live"
-      },
-      {
         "headline": "Leer en español",
         "url": "https://www.nytimes.com/live/2026/02/23/espanol/mexico-mencho-violencia",
-        "source": "Live"
-      },
-      {
-        "headline": "Violence Wanes, but Mexico Remains on Edge After Killing of Cartel Boss",
-        "url": "https://www.nytimes.com/live/2026/02/23/world/mexico-cartel-el-mencho",
         "source": "Live"
       }
     ],
     "primary": [
       {
-        "headline": "Trump Administration Begins Work to Pick Up the Pieces of Broken Tariffs",
-        "url": "https://www.nytimes.com/2026/02/23/us/politics/trump-tariffs-supreme-court.html",
+        "headline": "The Looming Taiwan Chip Disaster That Silicon Valley Has Long Ignored",
+        "url": "https://www.nytimes.com/2026/02/24/technology/taiwan-china-chips-silicon-valley-tsmc.html",
         "source": "Homepage"
       },
       {
-        "headline": "FedEx Sues for Refund of Trump Tariffs Rejected by Supreme Court",
-        "url": "https://www.nytimes.com/2026/02/23/business/fedex-lawsuit-tariffs-refund.html",
+        "headline": "China Amps Up Pressure on Japan With Export Bans",
+        "url": "https://www.nytimes.com/2026/02/24/world/asia/china-japan-export-ban.html",
         "source": "Homepage"
       },
       {
-        "headline": "Judges Grow Angry Over Trump Administration Violating Their Orders",
-        "url": "https://www.nytimes.com/2026/02/23/us/politics/judges-contempt-immigration-trump.html",
+        "headline": "Search for Compromise",
+        "url": "https://www.nytimes.com/2026/02/18/world/europe/ukraine-russia-peace-talks-demilitarized-zone.html",
         "source": "Homepage"
       },
       {
-        "headline": "‘Angel Families’ Return to Washington to Support Trump at State of the Union",
-        "url": "https://www.nytimes.com/2026/02/23/us/politics/trump-angel-families-undocumented-immigrants.html",
+        "headline": "Potential Investments for Russia",
+        "url": "https://www.nytimes.com/2026/02/19/us/politics/trump-russia-deals-novatek.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Hard Year for Ukraine",
+        "url": "https://www.nytimes.com/2026/02/17/world/europe/trump-ukraine-war-putin.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "These Ukrainians Don’t Want to Be Traded to Russia for Peace",
+        "url": "https://www.nytimes.com/2026/02/24/world/europe/ukraine-war-donetsk.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "How Russia Put Its Future at Risk by Remaking Its Economy for War",
+        "url": "https://www.nytimes.com/2026/02/24/world/europe/russia-ukraine-war-future.html",
         "source": "Homepage"
       },
       {
@@ -62,32 +62,22 @@
         "headline": "Mexican Forces Say They Tracked Cartel Boss to Cabin by Following His Lover",
         "url": "https://www.nytimes.com/2026/02/23/world/americas/el-mencho-mexico-cartel-military-raid.html",
         "source": "Homepage"
-      },
-      {
-        "headline": "After Chaos Rips Across Mexico, the Remnants of Cartel Violence Haunt Residents",
-        "url": "https://www.nytimes.com/2026/02/23/world/americas/mexico-cartel-guadalajara.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "What Travelers Need to Know as Cartel Violence Rattles Mexico",
-        "url": "https://www.nytimes.com/2026/02/23/travel/cartel-violence-mexico-el-mencho-travel-flights.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Travel: What to Know",
-        "url": "https://www.nytimes.com/2026/02/21/travel/flight-cancellations-blizzard.html",
-        "source": "Homepage"
       }
     ],
     "secondary": [
       {
-        "headline": "Key Witness Who Disputed ICE Account of Fatal Texas Shooting Dies in Car Accident",
-        "url": "https://www.nytimes.com/2026/02/23/us/ice-shooting-texas-witness-dead.html",
+        "headline": "Cracks Appear in Trump Coalition Ahead of State of the Union",
+        "url": "https://www.nytimes.com/2026/02/24/us/politics/trump-state-of-the-union-pennsylvania.html",
         "source": "U.S."
       },
       {
-        "headline": "For Many Cash-Strapped Americans, ‘Basic Living Has Become a Burden’",
-        "url": "https://www.nytimes.com/2026/02/23/us/trump-affordability-inflation-families.html",
+        "headline": "Texas Representative Is Pressured to Resign Over Messages to Staff Member",
+        "url": "https://www.nytimes.com/2026/02/23/us/tony-gonzales-texas-texts-staff-resign.html",
+        "source": "U.S."
+      },
+      {
+        "headline": "Record Snowfall Slams New England and Leaves New York City Snarled",
+        "url": "https://www.nytimes.com/2026/02/24/us/record-snowfall-slams-new-england-and-leaves-new-york-city-snarled.html",
         "source": "U.S."
       },
       {
@@ -96,18 +86,13 @@
         "source": "U.S."
       },
       {
-        "headline": "In Washington State, Democrats Consider Breaking a Taboo: Taxing the Rich",
-        "url": "https://www.nytimes.com/2026/02/23/us/politics/washington-democrats-millionaires-tax.html",
+        "headline": "State of the Union May Be a Trial for ‘Barely Invited’ Justices",
+        "url": "https://www.nytimes.com/2026/02/24/us/politics/supreme-court-state-of-the-union.html",
         "source": "U.S."
       },
       {
-        "headline": "Trump Says Top General Sees Easy Victory if U.S. Attacks Iran",
-        "url": "https://www.nytimes.com/2026/02/23/us/politics/general-caine-iran-strikes-trump.html",
-        "source": "U.S."
-      },
-      {
-        "headline": "Trump Claims a Historic Turnaround for the U.S. Here Are the Facts.",
-        "url": "https://www.nytimes.com/2026/02/23/us/politics/trump-economy-fact-check.html",
+        "headline": "Here’s How to Watch Trump’s State of the Union Address",
+        "url": "https://www.nytimes.com/2026/02/24/us/politics/trump-state-of-union-watch-time-stream.html",
         "source": "Politics"
       },
       {
@@ -116,44 +101,59 @@
         "source": "Politics"
       },
       {
+        "headline": "Trump Administration Scrambles to Pick Up the Pieces of Broken Tariffs",
+        "url": "https://www.nytimes.com/2026/02/23/us/politics/trump-tariffs-supreme-court.html",
+        "source": "Politics"
+      },
+      {
+        "headline": "Is It Safe to Travel to Mexico Right Now?",
+        "url": "https://www.nytimes.com/2026/02/24/travel/mexico-tourism-safety-spring-break.html",
+        "source": "Latin America"
+      },
+      {
+        "headline": "After Six Decades of the War on Drugs, What Works?",
+        "url": "https://www.nytimes.com/2026/02/24/world/americas/mexico-war-on-drugs.html",
+        "source": "Latin America"
+      },
+      {
+        "headline": "After Chaos Rips Across Mexico, the Remnants of Cartel Violence Haunt Residents",
+        "url": "https://www.nytimes.com/2026/02/23/world/americas/mexico-cartel-guadalajara.html",
+        "source": "Latin America"
+      },
+      {
+        "headline": "Leer en español",
+        "url": "https://www.nytimes.com/es/2026/02/24/espanol/america-latina/violencia-mexico-muerte-mencho.html",
+        "source": "Latin America"
+      },
+      {
         "headline": "Hunkering Down in Mexico, Some Hope for a Flight Out Amid Burning Cars",
         "url": "https://www.nytimes.com/2026/02/23/world/americas/mexico-visitors-flights-violence.html",
         "source": "Latin America"
       },
       {
-        "headline": "Canada Presses OpenAI for Answers on Mass Shooter’s Chatbot Use",
-        "url": "https://www.nytimes.com/2026/02/23/world/canada/canada-shooting-openai.html",
-        "source": "Latin America"
-      },
-      {
-        "headline": "C.I.A. Intelligence Helped Lead Mexican Authorities to ‘El Mencho’",
-        "url": "https://www.nytimes.com/2026/02/23/world/americas/cia-el-hencho-location-mexico.html",
-        "source": "Latin America"
-      },
-      {
-        "headline": "Who Is Peter Mandelson?",
-        "url": "https://www.nytimes.com/2026/02/23/world/europe/who-is-peter-mandelson.html",
+        "headline": "Arrest of Ex-Ambassador Peter Mandelson Rattles U.K. Politics",
+        "url": "https://www.nytimes.com/2026/02/24/world/europe/mandelson-arrest-epstein-starmer-uk.html",
         "source": "Europe"
       },
       {
-        "headline": "U.K. Police Arrest Ex-Ambassador to U.S. Amid Epstein Accusations",
-        "url": "https://www.nytimes.com/2026/02/23/world/europe/peter-mandelson-epstein-uk.html",
+        "headline": "Russell Brand Pleads Not Guilty to Further Rape and Sexual Assault Charges",
+        "url": "https://www.nytimes.com/2026/02/24/movies/russell-brand-court-rape-charges.html",
         "source": "Europe"
       },
       {
-        "headline": "How a Tourette’s Outburst of a Racist Slur Caused a Backlash at the BAFTAs",
-        "url": "https://www.nytimes.com/2026/02/23/movies/baftas-tourettes.html",
+        "headline": "How Bookbinders Used Old Records to Help the Nazis Find Their Victims",
+        "url": "https://www.nytimes.com/2026/02/24/world/europe/nazi-germany-bookbinders.html",
         "source": "Europe"
       },
       {
-        "headline": "The European Union Hits Pause on Its U.S. Trade Deal",
-        "url": "https://www.nytimes.com/2026/02/23/world/europe/eu-us-trade-deal-pause-tariffs.html",
+        "headline": "What Brontë Country Tells Us About Britain Today",
+        "url": "https://www.nytimes.com/2026/02/24/world/europe/bronte-country-haworth-bradford-uk-today.html",
         "source": "Europe"
       },
       {
-        "headline": "France Summons U.S. Ambassador Over Comments on Activist’s Killing",
-        "url": "https://www.nytimes.com/2026/02/23/world/europe/france-us-ambassador-kushner-activist-killing.html",
-        "source": "Europe"
+        "headline": "A Powder Quest in Japan’s Ski Country",
+        "url": "https://www.nytimes.com/2026/02/24/travel/skiing-hokkaido-japan.html",
+        "source": "Asia"
       },
       {
         "headline": "Cities May Be ‘Evolutionary Training Grounds’ for Spotted Lanternflies",
@@ -163,21 +163,6 @@
       {
         "headline": "U.K., Australia and Others Worse Off Under Trump’s New Tariffs",
         "url": "https://www.nytimes.com/2026/02/23/business/uk-australia-trump-tariffs.html",
-        "source": "Asia"
-      },
-      {
-        "headline": "Some Chefs Balk at Abu Dhabi as Site of Best Restaurants Ceremony",
-        "url": "https://www.nytimes.com/2026/02/23/dining/worlds-50-best-restaurants-abu-dhabi-ceremony.html",
-        "source": "Asia"
-      },
-      {
-        "headline": "Duterte Won’t Appear at Hearing as I.C.C. Weighs Evidence Against Him",
-        "url": "https://www.nytimes.com/2026/02/23/world/asia/philippines-icc-duterte-supporters.html",
-        "source": "Asia"
-      },
-      {
-        "headline": "They Did Deals With Trump to Get Lower Tariffs. Now They Are Stuck.",
-        "url": "https://www.nytimes.com/2026/02/22/business/trump-tariffs-japan-indonesia.html",
         "source": "Asia"
       },
       {
@@ -231,6 +216,11 @@
         "source": "Africa"
       },
       {
+        "headline": "Saks Owner Says He Saved Department Stores. Never Mind the Bankruptcy.",
+        "url": "https://www.nytimes.com/2026/02/23/business/richard-baker-saks-neiman-marcus-bankruptcy.html",
+        "source": "Business"
+      },
+      {
         "headline": "Trump’s Challenge to Free Market Capitalism",
         "url": "https://www.nytimes.com/2026/02/22/business/economy/trump-republicans-economy-capitalism.html",
         "source": "Business"
@@ -238,11 +228,6 @@
       {
         "headline": "What’s Happened Since the Supreme Court’s Tariff Ruling",
         "url": "https://www.nytimes.com/2026/02/23/business/supreme-court-trump-tariffs-updates.html",
-        "source": "Business"
-      },
-      {
-        "headline": "Saks Owner Says He Saved Department Stores. Never Mind the Bankruptcy.",
-        "url": "https://www.nytimes.com/2026/02/23/business/richard-baker-saks-neiman-marcus-bankruptcy.html",
         "source": "Business"
       },
       {
@@ -266,127 +251,134 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-02-24T02:20:41.902Z"
+    "timestamp": "2026-02-24T11:40:28.324Z"
   },
   "secondary": {
-    "timestamp": "2026-02-24T02:20:41.902Z",
+    "timestamp": "2026-02-24T11:40:28.324Z",
     "reuters": [
       {
-        "title": "Trading Day: Trump tariff chaos hits US stocks hardest - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYzRWQmdlZnhRemI2UHFUcnZDcUxtWThhMFVXSndzdlduWFpVN09vektBVUlPdi1EZ0lmS2hacHhpRHNWZVl6NmpQNmdWcmRVMVJ3OG0zbjZtQldxLWtMRjl0SXlQVTNpM2JCYnpXLW5qc2FTWUpEbE9kdnJFM044X05pbEVkdw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNYzRWQmdlZnhRemI2UHFUcnZDcUxtWThhMFVXSndzdlduWFpVN09vektBVUlPdi1EZ0lmS2hacHhpRHNWZVl6NmpQNmdWcmRVMVJ3OG0zbjZtQldxLWtMRjl0SXlQVTNpM2JCYnp",
-        "pubDate": "Mon, 23 Feb 2026 22:02:56 GMT",
+        "title": "China says it will decide on US tariff countermeasures in due course - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUHhuZnpYWTJ6cThxQ0dGc09tU2FPbG9nb1FSLU5xaTFqVUJwWVV6c1gwSTNKeG9SWm5IanBxYzJ1VEhVMVFMRmxETXNOeFUyd09KbnlZbFNuZS1KT1dQMFo2SXFMdkhzVjBMXzZMbzZicmNNZkVZNGd4My0zQ3A0WHpkTWpyeVR3U0JUQVB3VzNPemYtcDFPMFREUVhMNzlvMHAxRk5YcjlUa2tmZ1ZES2tsNWJRcXA4ZkJZeHFn?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPUHhuZnpYWTJ6cThxQ0dGc09tU2FPbG9nb1FSLU5xaTFqVUJwWVV6c1gwSTNKeG9SWm5IanBxYzJ1VEhVMVFMRmxETXNOeFUyd09KbnlZbFNuZS1KT1dQMFo2SXFMdkhzVjBMXzZ",
+        "pubDate": "Tue, 24 Feb 2026 08:30:58 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Crypto.com gets conditional US approval for national trust bank charter - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVNESnhhcDl0djdJQ29GTmtQOGZaR1FuQTNfMExtSlhVVVZCWDVYMzRtTlBYNzVXbWx3S1l5MHNyR091WnBjOWpZX1FWSzFGazJDREdJU2xPMEk0LVUzWHc2TWdvR1BkTWhNenhwYlNGNGlpam5DZTFHOXNwWExtaXRBZnYzWVl5Y1VkQ0RyekRVQnJLT1J6MWVUUkc2d2hUQmJaWE04VC12Rm9fQ2RwY2c1WV9iNnhlbDZF?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVNESnhhcDl0djdJQ29GTmtQOGZaR1FuQTNfMExtSlhVVVZCWDVYMzRtTlBYNzVXbWx3S1l5MHNyR091WnBjOWpZX1FWSzFGazJDREdJU2xPMEk0LVUzWHc2TWdvR1BkTWhNenh",
-        "pubDate": "Mon, 23 Feb 2026 20:36:22 GMT",
+        "title": "Trump, facing headwinds at home and abroad, to address State of the Union - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlA0eC16aS1JV05hd24zUlFISkpvaDNlN0JWMzFfZHh2MmE5LWRNY0Y4WkxBbVVhV3dfclRKXzlrSXhSbnNSc3pRaUZKT2xyd1JGWHB2UkNFdXNoRHIxN3dwNkdCRlRJYzZQc3pIZmwwLVRPQlFhWWczMFVTNVUwOUJ1NV9OUVgyNVVNZnp5TGM1YXNJZUFHX0lNSy14RTkw?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlA0eC16aS1JV05hd24zUlFISkpvaDNlN0JWMzFfZHh2MmE5LWRNY0Y4WkxBbVVhV3dfclRKXzlrSXhSbnNSc3pRaUZKT2xyd1JGWHB2UkNFdXNoRHIxN3dwNkdCRlRJYzZQc3p",
+        "pubDate": "Tue, 24 Feb 2026 06:05:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "JPMorgan forecasts jump in first-quarter deal fees, trading revenue - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd1VzMWVKN3RGZFlRV2FiUDAyZmpDTWt1YVI3UkpIOUV2U09oLVhYM0RNUGRIVmMyYm9vbHcxdEN0NGVCQTJHcWYzQzFjcFMtbGFpUnN1T0NWTm90a0gyclpaTEtVVS12ckozVjcyajZGbm1FRVN0ZDZCa3BhUHVheUF4MF9QRmtOcFRyNWIzWUt0QVdqNUFEWGN3S19tdHlYYjVabnV4Q0N5NTly?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOd1VzMWVKN3RGZFlRV2FiUDAyZmpDTWt1YVI3UkpIOUV2U09oLVhYM0RNUGRIVmMyYm9vbHcxdEN0NGVCQTJHcWYzQzFjcFMtbGFpUnN1T0NWTm90a0gyclpaTEtVVS12ckozVjc",
-        "pubDate": "Mon, 23 Feb 2026 21:25:57 GMT",
+        "title": "Middle East oil exports push tanker costs to 6-year-high amid threat of US-Iran war - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenFYWkJzemZhLVNHMkZ6anNySkFhVVBVcVZTTHVNY2FFbE10MmZWT2ZzbTN2LU00RVRDUW95aW1ULURzYWxkM2dMdk1zd3V5SWtPMi1kczh6RENCb21RQnVMLTFna3kyRk5YdTVsVXlCcEVJUXY0T0xySXMxZW9QT0dFMEctTnhyd2RwZC1hMHViUGpHSXAtdjBoVGMtNEVYTHpXX2JEZlFfSkVHd01MYnJTeENTRl9iaEg5andQWmNLbS1LY0ZSVA?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenFYWkJzemZhLVNHMkZ6anNySkFhVVBVcVZTTHVNY2FFbE10MmZWT2ZzbTN2LU00RVRDUW95aW1ULURzYWxkM2dMdk1zd3V5SWtPMi1kczh6RENCb21RQnVMLTFna3kyRk5YdTV",
+        "pubDate": "Tue, 24 Feb 2026 09:40:35 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Democrats outpace Republicans in fundraising for key US House races - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUFVfWExiWUc3M2ZyTF9qVE1jb2ktMHRKSnE1U1VaODBpdDc0bkE5UTJsMW8tSkpNMllWUHJuRFlPWjROaGtXamVWNkU4dDFsclJoRVJVME1mcjRDWkhrb1luQU00MmxadHhkZlR5MzEtdXZGdV9QMnpVZ2hMMS1CdmdFSE9TLXBFX2ZXNzZjMDE1OWZRRWhmekVmeHUwV2p3dFdta2FjeTI?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUFVfWExiWUc3M2ZyTF9qVE1jb2ktMHRKSnE1U1VaODBpdDc0bkE5UTJsMW8tSkpNMllWUHJuRFlPWjROaGtXamVWNkU4dDFsclJoRVJVME1mcjRDWkhrb1luQU00MmxadHhkZlR",
-        "pubDate": "Mon, 23 Feb 2026 22:46:16 GMT",
+        "title": "Exclusive: Kuwait's KPC draws BlackRock, Brookfield, EIG to possible $7 billion pipeline deal, sources say - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZHFNc1hDWjJWV1FZcTQ1UDNkRkZtdVYwRkhYQjF5a3h5X2FWUXZFVDJPczN6QWRSZU9TRWQ3Z3pWYWNmQ2FHcUpEUHdnWmdJZ213WFRzRzRZalk2RXFmVnpvWUFDVUZfckZPaFpETnMxaUVaVDRMVnFzRGtHQWM1SmtKLV92Ym1vNVFUeVBRNUtRZ0R2QTV6dWxleXEzTTdpX2JuSVFFd1hpWjVPSVc4Nm4wVnp3U1VCbnVSR2xnS2FnTXdVS2c?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQZHFNc1hDWjJWV1FZcTQ1UDNkRkZtdVYwRkhYQjF5a3h5X2FWUXZFVDJPczN6QWRSZU9TRWQ3Z3pWYWNmQ2FHcUpEUHdnWmdJZ213WFRzRzRZalk2RXFmVnpvWUFDVUZfckZPaFp",
+        "pubDate": "Tue, 24 Feb 2026 09:34:09 GMT",
         "source": "Reuters"
       },
       {
-        "title": "FedEx sues US for refund on Trump's emergency tariffs - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObkFrSF82X3ZfM0xLTE5GNi10aktyRFY2bWp1VzV2aWhELUpYWWlySzlwVDdYbXZYSXBraVlnZjVtRWtqUmdfNDJnbUpKWDV2bW9vY3MzbFNsR01CalJRNTQyZ1RmVHlEM1dwTFFUYTJENzFKLTRCMlhmdjZpYjZuOHZESVoxRTZzNk1HaEpJQkE?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxObkFrSF82X3ZfM0xLTE5GNi10aktyRFY2bWp1VzV2aWhELUpYWWlySzlwVDdYbXZYSXBraVlnZjVtRWtqUmdfNDJnbUpKWDV2bW9vY3MzbFNsR01CalJRNTQyZ1RmVHlEM1dwTFF",
-        "pubDate": "Mon, 23 Feb 2026 23:02:16 GMT",
+        "title": "Drones dominate Ukraine battlefield four years into fighting - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSHBjOHUyX0d6cFpXeFNXcWlxbTJ5c0VlZDBUZkxnQTM1VEF2d1pKdVllWWdHLWJvMVdCTlZ0UXFFUnQ0VHRGbExSeGx3TzI1eUtwTEFvdXJsbk5wbGlxZDJsN2x1TmtjVVdVZVJ6d3FDbnY0VTZ5ZUpHcUR4YmF3Wml3MUtFR2x3N1hxMF90VEdoZWZFWHRXSV9VblVXOEZERlNWNnVuMkZvWWMteU9nMnBVNEZ2VkxlaXdaVjJpdmI?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSHBjOHUyX0d6cFpXeFNXcWlxbTJ5c0VlZDBUZkxnQTM1VEF2d1pKdVllWWdHLWJvMVdCTlZ0UXFFUnQ0VHRGbExSeGx3TzI1eUtwTEFvdXJsbk5wbGlxZDJsN2x1TmtjVVdVZVJ",
+        "pubDate": "Tue, 24 Feb 2026 07:05:49 GMT",
         "source": "Reuters"
       },
       {
-        "title": "C.H. Robinson CEO says AI will drive freight brokerage consolidation - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN1lpMDkya25CU0QtTlYwMER2NWpSeXZJM2VjN1I5Y2xyWlZSR3NrVWI5bEV3YnpteHd5STgxaEVBaEdRZW1YNXgzVnJZUWR0YlpFYmIzMDZfMEJzcTFUaWhsQjR3YV9aNDhwSUVsdkp6eXJjd1QwLVhscFRQa3N4dzlUdEtZdkFFRmNlQ0N3c2RkUjBwcmhpczVURWpSRUhaenUtVTNSR0JGdmVZbVZsZw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQN1lpMDkya25CU0QtTlYwMER2NWpSeXZJM2VjN1I5Y2xyWlZSR3NrVWI5bEV3YnpteHd5STgxaEVBaEdRZW1YNXgzVnJZUWR0YlpFYmIzMDZfMEJzcTFUaWhsQjR3YV9aNDhwSUV",
-        "pubDate": "Mon, 23 Feb 2026 18:37:26 GMT",
+        "title": "Morning Bid: Trump fumes against the world as his tariffs come up short - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIaUtJdU5INEl4OG1BMWMxV2RsRUZZaXZEYm53LXFlU1ZadmRINFlfc25HNW9nOTlnN001UDVNT0IxV2lqRFZ1Zk5MNmJLcjRxdU1ESzdQM24yNURkbDNhNXBUbHJaNXdhTlhiTGNvUDF4dFZ2RUhyYnE0QnVNdGc?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBIaUtJdU5INEl4OG1BMWMxV2RsRUZZaXZEYm53LXFlU1ZadmRINFlfc25HNW9nOTlnN001UDVNT0IxV2lqRFZ1Zk5MNmJLcjRxdU1ESzdQM24yNURkbDNhNXBUbHJaNXdhTlhiTGN",
+        "pubDate": "Tue, 24 Feb 2026 05:45:08 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Citi signs deal to sell 24% equity stake in Banamex - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZjVWZ1NNRFZrLWRvQTJRVUx5b1RKQ01hTTNrMk9RdEl4Q3ZWcS1xVTl6OEhsY2MwQjB4Sk1KSDhtNTd6RTk0NkU0Ti05S211MEJqM2cxYmlEWGtGZExFSTlLSl9DMEJhQjFVeTNzTUF5Q1JxT2h5TklkcU81R3loem1GckVyN2wtcEpfbDVXTUdyUlk?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNZjVWZ1NNRFZrLWRvQTJRVUx5b1RKQ01hTTNrMk9RdEl4Q3ZWcS1xVTl6OEhsY2MwQjB4Sk1KSDhtNTd6RTk0NkU0Ti05S211MEJqM2cxYmlEWGtGZExFSTlLSl9DMEJhQjFVeTN",
-        "pubDate": "Mon, 23 Feb 2026 21:48:27 GMT",
+        "title": "Etihad Airways profits soars nearly 50% as fleet, network expansion support strong demand - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGVZZWp3bkN4eXNlVE5oZThvdERYVTNoQ01xR2lOeXNXeFhlanhYYUVlYlFRcnowZ2lIOXcwdXdfR2tWWEx3cmtqOGRHR3RwZ1JJamdoWk0tdUMwSWFxY2RoRjdkRmhiTHZETzBoZXdBWlh4ZlA3M3NsN09BLUo1YkkzWVRscGlaMTVuVDUtMjlEVUR1TXFJc0ZvaGJiNHYxMmdfWHVqM2JUc1dOTWs2aTgtRFRocXJkSm94ZUJFTFc1bFI5WjdFVHBpUURIRGJXOWM0dkt2WQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGVZZWp3bkN4eXNlVE5oZThvdERYVTNoQ01xR2lOeXNXeFhlanhYYUVlYlFRcnowZ2lIOXcwdXdfR2tWWEx3cmtqOGRHR3RwZ1JJamdoWk0tdUMwSWFxY2RoRjdkRmhiTHZETzB",
+        "pubDate": "Tue, 24 Feb 2026 08:05:17 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Exclusive: ASML unveils EUV light source advance that could yield 50% more chips by 2030 - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVjc2UkF0RE40UHVvVGdoWVRVQmhYS255dTl5cFdkVjdGWERYNW5xdTNjR0tFUVpSODZqQlhydzBYQWJJWVgxR1oxMFpobGxUZ25TLTlKRmtuaUpyZktFNVdMQzFpajlEUUJfYWxxTVVOZ3hZd0lXSUFyMTJOWEg4MEcwS1hYb21FZnJMSmFhVGhhRjFjcHRSNW9KYXRDM0tnejdvTTFQZ2tQQ2RGeDFWdVB2eVV1SklMTlpwb09CNVFYdw?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVjc2UkF0RE40UHVvVGdoWVRVQmhYS255dTl5cFdkVjdGWERYNW5xdTNjR0tFUVpSODZqQlhydzBYQWJJWVgxR1oxMFpobGxUZ25TLTlKRmtuaUpyZktFNVdMQzFpajlEUUJfYWx",
-        "pubDate": "Mon, 23 Feb 2026 14:02:54 GMT",
+        "title": "Gold falls over 1% as dollar strengthens, investors book profits - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOGtrM29BM0VONTNtWDJINnAycjM3TTVjRm9uSHFEVlJUdjdwT0NWWVlwV3hoemZnU3dGSHJ1emxqaHRON2lCRy13OGtORzBlYXBQYTBjYjMxN20xUWg3QXRiVkJRR1dIZG1MX2NVUS1EUGt0a0doUjZnUVJSYm5aUDhTMm9nclhlN0pBekNPbEQ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNOGtrM29BM0VONTNtWDJINnAycjM3TTVjRm9uSHFEVlJUdjdwT0NWWVlwV3hoemZnU3dGSHJ1emxqaHRON2lCRy13OGtORzBlYXBQYTBjYjMxN20xUWg3QXRiVkJRR1dIZG1MX2N",
+        "pubDate": "Tue, 24 Feb 2026 02:19:49 GMT",
         "source": "Reuters"
       }
     ],
     "ap": [
       {
-        "title": "District of Columbia - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15MDExVnFuRDQzamVlSVlCVFNibExOMVlkZXBGMEdKMWxhendWNHRpWktDLWtpNlRjYjkwclhGSGUwX0NXank0dlFJT0NveGlldnBfREVR?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE15MDExVnFuRDQzamVlSVlCVFNibExOMVlkZXBGMEdKMWxhendWNHRpWktDLWtpNlRjYjkwclhGSGUwX0NXank0dlFJT0NveGlldnBfREVR?oc=5\" target=\"_blank\"&gt;Distr",
-        "pubDate": "Mon, 23 Feb 2026 21:41:23 GMT",
+        "title": "Fed minutes: Lower inflation needed before many officials will support rate cuts - AP News",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd0VxeWJleWpXTHB4Nlc1Nkt5OGNhVm8yUEhpWWFtMW1NRWdkT2hPTUJsSDRqeC03ejhBVTlCVW5EdmN6LUd2SXJ3S0JQdXJDb1lkd3p4U0QtX1RLS0o5YnljYzFJQ2VuWF9Ed1RHd0JyZnFBeG04Wl9QRjJPcWNKYU5JWFpmbkxpRGFydA?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQd0VxeWJleWpXTHB4Nlc1Nkt5OGNhVm8yUEhpWWFtMW1NRWdkT2hPTUJsSDRqeC03ejhBVTlCVW5EdmN6LUd2SXJ3S0JQdXJDb1lkd3p4U0QtX1RLS0o5YnljYzFJQ2VuWF9Ed1R",
+        "pubDate": "Tue, 24 Feb 2026 08:44:58 GMT",
         "source": "AP"
       },
       {
-        "title": "New Trump administration order could lead to the detention of thousands of legal refugees - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOGlrWEY4MWttdGJrV3N4akszR2xQdXQ1OTdKWHhVVG9Uak1mRHJGYmQ1ZEFtMTJJdkd6djU3TzNwaktBV0cyRHJnTVpoLVNoSFh6R0xaVFM0TFJ0c0VKMTllb3A3NWJYZ3ZkeklySk10T050dUdPTzlqdnRsSGNkYjFJdnkycWM1UGRnRWdiUFh3cTM4ZURRVWt5YU9HNUMxVFFTSHhrcmlQU2s?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOGlrWEY4MWttdGJrV3N4akszR2xQdXQ1OTdKWHhVVG9Uak1mRHJGYmQ1ZEFtMTJJdkd6djU3TzNwaktBV0cyRHJnTVpoLVNoSFh6R0xaVFM0TFJ0c0VKMTllb3A3NWJYZ3Zkekl",
-        "pubDate": "Mon, 23 Feb 2026 23:06:32 GMT",
+        "title": "The first US Olympic men’s hockey gold since 1980 happens without needing a ‘Miracle’ - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVDl3UkJmLU1wSUNTYlRsUElIcUhtRHRNSVBYaURXZVVjUzg3aUlsR1dwZ0U3dVNPVkc5Z2g0R2tySnZ1MDl1UDFrUG5TMjI1b0p3Ri1ZMkM4TllNU3lSR2g0aTU2U2g2LVhMSWpNSC0wTVZQWk1pV1JPMjZHV1RPdlV2RGRNdUtrX1E?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNVDl3UkJmLU1wSUNTYlRsUElIcUhtRHRNSVBYaURXZVVjUzg3aUlsR1dwZ0U3dVNPVkc5Z2g0R2tySnZ1MDl1UDFrUG5TMjI1b0p3Ri1ZMkM4TllNU3lSR2g0aTU2U2g2LVhMSWp",
+        "pubDate": "Tue, 24 Feb 2026 09:29:16 GMT",
         "source": "AP"
       },
       {
-        "title": "Huge snowstorm in the Northeast forces millions to stay home, disrupts flights and closes schools - AP News",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNk51d1Y4Q1NHdndVQkl3c0NRT2JEOEF1dGQwNkY0VnZzRTZVTmkxUkRHcTVMVzdTOV9lX1BPdlg3b1ZTVHpPaDJ0WWxmV0FNbGRXQTBvdWRQZjU4dU9YcVFNcXh1RVVxMlNlNXFTTUhfSnZIYUxlSHBuSTk1V1hac1FNRGJHNHZGTVhKTGVRYm9rcGtFWlZ6V2tOOA?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPNk51d1Y4Q1NHdndVQkl3c0NRT2JEOEF1dGQwNkY0VnZzRTZVTmkxUkRHcTVMVzdTOV9lX1BPdlg3b1ZTVHpPaDJ0WWxmV0FNbGRXQTBvdWRQZjU4dU9YcVFNcXh1RVVxMlNlNXF",
-        "pubDate": "Tue, 24 Feb 2026 01:21:00 GMT",
+        "title": "The criminal ascent of ‘El Mencho’ as Mexico’s most powerful drug lord - AP News",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmViWHB3UW5iYVFXU3BLWWZlem5KS3h5Q0lrdzE1cG9fRjNES1hqeUkxQXJqTHFlUGtkMm1NLXNIbkk1WWZscGVSVFplcHNWSkY0cVM4WGFFN203RWNzVldiRkh3UmZZM21QbjVGQnlWMk1wekZmeUVUNEEwYzRrUjNSYjJkZDA5YWQ3WEtUeEt6VXBNdXJXUGFR?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmViWHB3UW5iYVFXU3BLWWZlem5KS3h5Q0lrdzE1cG9fRjNES1hqeUkxQXJqTHFlUGtkMm1NLXNIbkk1WWZscGVSVFplcHNWSkY0cVM4WGFFN203RWNzVldiRkh3UmZZM21QbjV",
+        "pubDate": "Tue, 24 Feb 2026 04:04:00 GMT",
         "source": "AP"
       },
       {
-        "title": "Security forces keep up fight with cartel gunmen a day after the Mexican military killed a drug lord - AP News",
+        "title": "Kings end 16-game skid as Westbrook and Achiuwa lead the way in 123-114 win over Grizzlies - AP News",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHE1SV9oVlNicnJid3pnVkpWVWhVSFZnNmp1VVZLZWFUMjdtTVY5RUo5VWp4VndXUTZmemdCd2ZiOVZwcnRwd2ZaeF9jbE5uOURQZWI5QjQ3ZVlkb0szaXRDOUFYendnWVFtb0R3X2p3Vjl1dDhlNUxCY2dhTlZrYUl5RkdXdHlv?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHE1SV9oVlNicnJid3pnVkpWVWhVSFZnNmp1VVZLZWFUMjdtTVY5RUo5VWp4VndXUTZmemdCd2ZiOVZwcnRwd2ZaeF9jbE5uOURQZWI5QjQ3ZVlkb0szaXRDOUFYendnWVFtb0R",
+        "pubDate": "Tue, 24 Feb 2026 04:55:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Visita de activista cubana a México desata polémica y pone a prueba respaldo de Sheinbaum a Cuba - AP News",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWVJFbEJueUdRd2JXM3NaLXJERDFoQXFydjdKcHZrWjNqNXloZHdkQVBEY0JMTU9aNWRwUWUzYjlrVTlzcFdBd3B2SjR3TDk3enBHQ2gxQWliWjU5R3Bjd3NadDNYMVpScmFmYURUNzVZMUw1S1FLc3UwY3k3T19tdXVST19ud3NGQ0dWdm9GUERQNnpkbktN?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOWVJFbEJueUdRd2JXM3NaLXJERDFoQXFydjdKcHZrWjNqNXloZHdkQVBEY0JMTU9aNWRwUWUzYjlrVTlzcFdBd3B2SjR3TDk3enBHQ2gxQWliWjU5R3Bjd3NadDNYMVpScmFmYUR",
+        "pubDate": "Tue, 24 Feb 2026 04:20:26 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Soldiers keep up clash with cartel gunmen a day after Mexico’s military killed top drug lord - AP News",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLVNiN0R0blN4dXkwOXFVbjB3c1pRMDhLZWlDZzJRbEpnYnh3Y1l2bTVRWkg0YUwxelNFVGRBaW1XWVUtd3RpZVByMm5qalRzeW9lRkhSYU5fcDJZUW83MHpVcFMwUDUyc3RYSW5Ib0JnYS1JNTV0TTQtT2JZYlo5NnplQnprdTV3eEFBNDR6MnZsQnJmNXJqRk85WEtUNEhBRXBMblgtSQ?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNLVNiN0R0blN4dXkwOXFVbjB3c1pRMDhLZWlDZzJRbEpnYnh3Y1l2bTVRWkg0YUwxelNFVGRBaW1XWVUtd3RpZVByMm5qalRzeW9lRkhSYU5fcDJZUW83MHpVcFMwUDUyc3RYSW5",
-        "pubDate": "Tue, 24 Feb 2026 00:51:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Medical influencer Attia resigns post at CBS News after name included in multiple Epstein files - AP News",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNVpWdlh5WE8xVUJVaENKdENhS0h6Y3RXMTQ3SjVmWjhGLUZnSmplcjdQSlhRYjBRZUNPaXg0ZWdSOW85MV95S1VTMUMtQ3BqeVRueFBuS25LU2o3aDQtVHp3ZVVHY09Gb2hFa3JhTzE5MzN5S29yb2tDM0UtTDJvX0lUTmtaYndSU0V5Ql9xV3psTkZmM1N6RDR0V0I?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPNVpWdlh5WE8xVUJVaENKdENhS0h6Y3RXMTQ3SjVmWjhGLUZnSmplcjdQSlhRYjBRZUNPaXg0ZWdSOW85MV95S1VTMUMtQ3BqeVRueFBuS25LU2o3aDQtVHp3ZVVHY09Gb2hFa3J",
-        "pubDate": "Mon, 23 Feb 2026 23:37:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "U.S. Department of Homeland Security - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03RWN0OWxJMkltbXRtVlJKOE12WHE0WjR6X0lXczZ4U2Zmd1VkVlpaRDE2aEZRdGF1blRaUGk0RjVUSTdPWEpEQnVvai04TnpXWVcyX2ppdFVaX3hzdVFLQXR4c1ZGaExD?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE03RWN0OWxJMkltbXRtVlJKOE12WHE0WjR6X0lXczZ4U2Zmd1VkVlpaRDE2aEZRdGF1blRaUGk0RjVUSTdPWEpEQnVvai04TnpXWVcyX2ppdFVaX3hzdVFLQXR4c1ZGaExD?oc=5\" ",
-        "pubDate": "Mon, 23 Feb 2026 23:29:28 GMT",
+        "pubDate": "Tue, 24 Feb 2026 04:42:00 GMT",
         "source": "AP"
       },
       {
         "title": "In ‘Wonder’ the musical, young actors with facial differences find their voices onstage - AP News",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZlhXTzBUb20xUkFZVERraHlka1NoRnM5dkx6X3JXN1Zkakh6WExFMEdERXpVS1JTZDFrNUJLR3RGWTRSa1dGSEVybzdHZFV2Y0hvWjVzS0N6Z1dqWGw3aHpwZUxCQU5ueEttNEVnaXlLTGFjT29vVzdiUllDc0ZzV2VpcHN5dGY1Ry1YeTBFaENxYlVfRUY5djZFd0J2c0VDZTZzb2JnamEyYzdySkViUA?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNZlhXTzBUb20xUkFZVERraHlka1NoRnM5dkx6X3JXN1Zkakh6WExFMEdERXpVS1JTZDFrNUJLR3RGWTRSa1dGSEVybzdHZFV2Y0hvWjVzS0N6Z1dqWGw3aHpwZUxCQU5ueEttNEV",
-        "pubDate": "Mon, 23 Feb 2026 18:31:00 GMT",
+        "pubDate": "Tue, 24 Feb 2026 02:01:00 GMT",
         "source": "AP"
       },
       {
-        "title": "FBI director invites fresh scrutiny over travels with appearance at US men's hockey team celebration - AP News",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORlgzcF9PZ1pNdzFaMXVKQ0Z5VlhzNi1iWmstcW5EeFNoV2hEOW9WNDlQODFUWFhoRUlqUVdsSGhpQkZjN1hqeUtsSXBZT01BTU5Oei1vT2JqZThleEItWHNld2lVdUNNOEFXempuZGtUbHBwOTdnY2d1X3dhQjQ1ZTRSLTdlTFR3UTJEcUhQU1o5bjNRZkxkeG16anBta3Fu?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxORlgzcF9PZ1pNdzFaMXVKQ0Z5VlhzNi1iWmstcW5EeFNoV2hEOW9WNDlQODFUWFhoRUlqUVdsSGhpQkZjN1hqeUtsSXBZT01BTU5Oei1vT2JqZThleEItWHNld2lVdUNNOEFXemp",
-        "pubDate": "Mon, 23 Feb 2026 22:31:00 GMT",
+        "title": "US ambassador causes uproar by claiming Israel has a right to much of the Middle East - AP News",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRkZIYVlvbTl5aGpPTjBKRmRwdkM3Z0RxcEY2ZUlRa041My1TcnhON0lyMGhJSjYtOVpuNWJEVEVMOEdrQmtnQjQ3TF9raDJOZnZfVnhPajB4bmY0Rms1SFpfUi1PWXIzQldYT2kzN3k3a3ZZWjRLb0RxZ254VnJBcGhZVnZBMmNNSGh2LVJ6ak9qRVJDS2twaDdBWGhnQjVmX1lROTgxMDREc3ozbHdJ?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQRkZIYVlvbTl5aGpPTjBKRmRwdkM3Z0RxcEY2ZUlRa041My1TcnhON0lyMGhJSjYtOVpuNWJEVEVMOEdrQmtnQjQ3TF9raDJOZnZfVnhPajB4bmY0Rms1SFpfUi1PWXIzQldYT2k",
+        "pubDate": "Tue, 24 Feb 2026 07:55:04 GMT",
         "source": "AP"
       }
     ],
     "bbc": [
+      {
+        "title": "Russian soldiers tell BBC they saw fellow troops executed on commanders' orders",
+        "link": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Four men expose the horror and brutality of conditions in the Ukraine war, with two saying they saw soldiers being shot for refusing orders.",
+        "pubDate": "Tue, 24 Feb 2026 06:02:13 GMT",
+        "source": "BBC World"
+      },
       {
         "title": "Mexico sends thousands of soldiers to stop violence after death of drug lord",
         "link": "https://www.bbc.com/news/articles/cx2lp7xwql4o?at_medium=RSS&amp;at_campaign=rss",
@@ -397,8 +389,36 @@
       {
         "title": "More than 5,000 flights cancelled as US east coast digs out of record snow",
         "link": "https://www.bbc.com/news/articles/cx289g1yw97o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "A major snowstorm walloped the US north-east, causing disruptions for millions and thousands of flight cancellations.",
-        "pubDate": "Tue, 24 Feb 2026 01:39:11 GMT",
+        "description": "A major snowstorm dumps more than a foot of snow in several areas, bringing power cuts and disruption.",
+        "pubDate": "Tue, 24 Feb 2026 08:30:46 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "French minister moves to block US envoy Kushner from government access",
+        "link": "https://www.bbc.com/news/articles/c8d5eg5pl34o?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The minister says Charles Kushner, father of Trump's son-in-law Jared, failed to explain comments about violence in France.",
+        "pubDate": "Mon, 23 Feb 2026 22:55:06 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "Robert Carradine, Lizzie McGuire and Revenge of the Nerds star, dies aged 71",
+        "link": "https://www.bbc.com/news/articles/cy0dqpjjprno?at_medium=RSS&amp;at_campaign=rss",
+        "description": "His family says the actor took his own life after living with bipolar disorder for nearly two decades.",
+        "pubDate": "Tue, 24 Feb 2026 09:34:31 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "Celebrity doctor Peter Attia steps down from CBS over Epstein links",
+        "link": "https://www.bbc.com/news/articles/cwy95ln0ynyo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The health influencer's spokesman says he wants to avoid his association with the late sex offender becoming \"a distraction\".",
+        "pubDate": "Tue, 24 Feb 2026 11:34:15 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "Probe under way after illness kills 72 tigers in Thai tourist park",
+        "link": "https://www.bbc.com/news/articles/cly833zjp4po?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Authorities say samples showed the canine distemper virus, but have not confirmed where it came from.",
+        "pubDate": "Tue, 24 Feb 2026 08:31:11 GMT",
         "source": "BBC World"
       },
       {
@@ -406,41 +426,6 @@
         "link": "https://www.bbc.com/news/articles/cj32l00k47lo?at_medium=RSS&amp;at_campaign=rss",
         "description": "The State Department has ordered non-essential staff to leave the embassy in Beirut after a security review.",
         "pubDate": "Mon, 23 Feb 2026 19:08:55 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "Four years into its full-scale war in Ukraine, Russia is feeling the effects",
-        "link": "https://www.bbc.com/news/articles/c4gj20xzw39o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Steve Rosenberg reports on the economic consequences of Russia's war, and how people are coping.",
-        "pubDate": "Mon, 23 Feb 2026 06:01:59 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "Ukraine negotiator tells BBC how it feels to sit across table from Russia",
-        "link": "https://www.bbc.com/news/articles/c89k0lxlpnpo?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Sergiy Kyslytsya is among those trying to negotiate an end to the conflict, which is entering its fifth year.",
-        "pubDate": "Mon, 23 Feb 2026 19:17:11 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "French minister moves to block US envoy Kushner from government access",
-        "link": "https://www.bbc.com/news/articles/c8d5eg5pl34o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The minister says Charles Kushner, father of Trump's son-in-law Jared, had failed to explain US comments about violence in France.",
-        "pubDate": "Mon, 23 Feb 2026 22:55:06 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "Rob Jetten becomes Netherlands' youngest ever PM",
-        "link": "https://www.bbc.com/news/articles/clygj3421pqo?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The 38-year-old is sworn in as premier after clinching a narrow victory in October's election.",
-        "pubDate": "Mon, 23 Feb 2026 16:33:33 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "Trump threatens countries that 'play games' with existing trade deals",
-        "link": "https://www.bbc.com/news/articles/c5yvky5ldk1o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The threat comes after the Supreme Court ruled on Friday that Trump had exceeded his authority in enacting a sweeping global programme of tariffs.",
-        "pubDate": "Mon, 23 Feb 2026 21:12:43 GMT",
         "source": "BBC World"
       }
     ],
@@ -560,115 +545,115 @@
     ],
     "bloomberg": [
       {
-        "title": "Chinese Stocks Gain After Holiday on Tariff Relief, AI Buzz",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-24/china-stocks-may-see-resilient-reopen-on-tariff-relief-ai-buzz",
-        "description": "China’s onshore shares rose as traders returned from a nine-day Lunar New Year break, with optimism about lower US tariffs and homegrown technologies offsetting mixed signals on holiday spending.",
-        "pubDate": "Tue, 24 Feb 2026 00:04:38 GMT",
+        "title": "Indian IT Stocks Slide to 30-Month Low as Citrini Flags AI Risks",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/indian-it-stock-selloff-deepens-on-ai-scare-after-citrini-report",
+        "description": "A rout in Indian software services stocks deepened, tracking a US tech selloff, after a report from Citrini Research amplified concerns about companies vulnerable to the growing influence of artificia",
+        "pubDate": "Tue, 24 Feb 2026 04:58:07 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Asian Stocks Avoid AI Angst in US, China Gains: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-23/stock-market-today-dow-s-p-live-updates",
-        "description": "Asian shares mostly bucked a US selloff sparked by anxiety over the impact of artificial intelligence on company profits that rattled Wall Street. Gold and silver fell.",
-        "pubDate": "Mon, 23 Feb 2026 22:27:29 GMT",
+        "title": "Arini’s Lemssouguer Says AI Fear Risks Software Defaults",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/arini-s-lemssouguer-says-ai-fear-alone-risks-software-defaults",
+        "description": "Fear of AI’s potential for disruption is enough to push up borrowing costs for software companies, causing problems for a sector that has a lot of debt, according to Arini Capital Management’s founder",
+        "pubDate": "Tue, 24 Feb 2026 09:09:52 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Jane Street Sued for Insider Trading by Terraform Administrator",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-24/jane-street-sued-for-insider-trading-by-terraform-administrator",
-        "description": "Jane Street Group LLC was sued for alleged insider trading by the administrator winding up the affairs of Terraform Labs, the firm whose $40 billion collapse in 2022 roiled the crypto markets and cont",
-        "pubDate": "Tue, 24 Feb 2026 01:57:26 GMT",
+        "title": "US Can Sell More T-Bills to Offset Lost Tariff Revenue, BNY Says",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/us-can-sell-more-t-bills-to-offset-lost-tariff-revenue-bny-says",
+        "description": "The US is likely to issue more short-dated notes to make up for lost revenues after the Supreme Court overturned President Donald Trump’s tariffs, according to a BNY strategist.",
+        "pubDate": "Tue, 24 Feb 2026 11:21:28 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "EU Hub Gets First Indian Fuel After New Russian Sanctions",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-23/eu-hub-gets-first-indian-fuel-since-new-russian-sanctions-began",
-        "description": "A tanker carrying diesel from India has moored in Europe’s largest port, a notable arrival after some traders had expressed caution about falling foul of new sanctions on buying fuel made from Russian",
-        "pubDate": "Mon, 23 Feb 2026 13:10:42 GMT",
+        "title": "Fire, Power Outage Disrupt Operations at Cape Town Airport",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/fire-power-outage-disrupt-operations-at-cape-town-airport",
+        "description": "A fire and a power outage disrupted operations at Cape Town International Airport on Tuesday, leading to delays at the gateway to South Africa’s main tourism hub.",
+        "pubDate": "Tue, 24 Feb 2026 11:16:13 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Hong Kong Is Near End of Budget Deficit Era But Caution Prevails",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-24/hong-kong-is-near-end-of-budget-deficit-era-but-caution-prevails",
-        "description": "For a city on the cusp of ending its longest run of budget deficits in two decades, Hong Kong isn’t brimming with confidence just yet.",
-        "pubDate": "Tue, 24 Feb 2026 01:43:53 GMT",
+        "title": "Old-Economy Stocks Are Looking Pretty Good Right About Now",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-02-24/old-economy-stocks-are-looking-pretty-good-right-about-now",
+        "description": "A basket of capital-intensive stocks is rallying as investors flee AI disruption.",
+        "pubDate": "Tue, 24 Feb 2026 11:06:54 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Panama to Occupy Canal Ports After Court Scraps CK Hutchison Deal",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
-        "description": "Panamanian President José Raul Mulino ordered the temporary occupation of two ports run by a unit of CK Hutchison Holdings Ltd. following a top court’s ruling against the firm’s concession, escalating",
-        "pubDate": "Mon, 23 Feb 2026 19:25:17 GMT",
+        "title": "Tata Defers Vote on Chairman’s New Term, Signaling Power Tussle",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/tata-defers-vote-on-chairman-s-new-term-signaling-power-tussle",
+        "description": "The board of Tata Sons Pvt. deferred a decision on granting a third term to Chairman Natarajan Chandrasekaran, people familiar said, in the latest sign that another leadership tussle could be brewing ",
+        "pubDate": "Tue, 24 Feb 2026 11:00:30 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "India May Buy Dollars for Reserves Should Rupee Gain, Citi Says",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-24/citi-sees-india-building-reserves-if-rupee-gains-to-88-89-usd",
-        "description": "India’s central bank is likely to start buying dollars to bolster its foreign-exchange reserves once the rupee strengthens to around 88&mdash;89 per dollar, according to Citigroup Inc.’s local markets",
-        "pubDate": "Tue, 24 Feb 2026 01:30:00 GMT",
+        "title": "America’s Ube Obsession Is Straining Supplies",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-24/america-s-ube-obsession-is-straining-supplies",
+        "description": "Ube has officially gone viral. Purple lattes, cheesecakes and pancakes are increasingly cropping up on dessert menus, but as a result, supplies are tightening. Ilena Peng has more. (Source: Bloomberg)",
+        "pubDate": "Tue, 24 Feb 2026 11:00:04 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Oil Steadies as Trump Reiterates Preference for Deal with Iran",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-23/latest-oil-market-news-and-analysis-for-feb-24",
-        "description": "Oil steadied as US President Donald Trump said his preference was for a nuclear deal with Iran before talks this week, though he warned of consequences if an agreement wasn’t reached.",
-        "pubDate": "Mon, 23 Feb 2026 23:33:09 GMT",
+        "title": "Meat Snack Maker Archer Gets $100 Million Loan as Demand From Women Grows",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/meat-snack-maker-archer-gets-100-million-loan-as-demand-from-women-grows",
+        "description": "Archer Meat Snacks secured a credit facility for nearly $100 million from JPMorgan Chase &amp; Co., allowing it to ramp up production as demand surges for its high-protein snacks &mdash; particularly ",
+        "pubDate": "Tue, 24 Feb 2026 11:00:00 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Japan Warns Against Trade Deal Backtracking After Tariff Actions",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-24/japan-warns-against-trade-deal-backtracking-after-latest-tariffs",
-        "description": "Japanese Trade Minister Ryosei Akazawa warned against any tariff moves that could leave Japan worse off than under a Japan-U.S. trade deal agreed to last year, during a phone call with U.S. Commerce S",
-        "pubDate": "Tue, 24 Feb 2026 01:44:39 GMT",
+        "title": "South Africa Wins Release of Men Tricked Into Fighting for Russia",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/s-africa-wins-release-of-men-tricked-into-fighting-for-russia",
+        "description": "South Africa’s President Cyril Ramaphosa said his government has secured the release of the remaining citizens whose families said they were duped into fighting for Russia.",
+        "pubDate": "Tue, 24 Feb 2026 11:23:30 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Trump Says Economy Is His Now, Faces a Tough Job Selling It",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/trump-says-economy-is-his-now-faces-a-tough-job-selling-it",
+        "description": "Donald Trump says the US economy is finally his. Now he’ll have to defend it.",
+        "pubDate": "Tue, 24 Feb 2026 11:00:00 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Undiplomatic US Envoys Are Riling Their Hosts",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-02-24/trump-ambassadors-rile-european-hosts-kushner-ignores-summons",
+        "description": "Charles Kushner failed to appear when summoned by the French Foreign Ministry.",
+        "pubDate": "Tue, 24 Feb 2026 10:59:08 GMT",
         "source": "Bloomberg Politics"
       },
       {
         "title": "Panama to Occupy Canal Ports After Court Scraps CK Hutchison Deal",
         "link": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
-        "description": "Panamanian President José Raul Mulino ordered the temporary occupation of two ports run by a unit of CK Hutchison Holdings Ltd. following a top court’s ruling against the firm’s concession, escalating",
+        "description": "Panamanian President José Raul Mulino ordered the temporary occupation of two ports run by Hong Kong-based CK Hutchison Holdings Ltd. following a top court’s ruling against the firm’s concession, esca",
         "pubDate": "Mon, 23 Feb 2026 19:25:17 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Mexico Details How It Took Out Its Most-Wanted Cartel Chief",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-23/mexico-details-how-it-took-out-its-most-wanted-drug-cartel-chief",
-        "description": "Mexico’s government laid out details of how it located the country’s most-wanted drug kingpin, stressing that US security agents didn’t actively participate in President Claudia Sheinbaum’s most direc",
-        "pubDate": "Mon, 23 Feb 2026 16:47:09 GMT",
+        "title": "Dutch Central Bank Chief Says Ukraine in EU Would Boost Bloc",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-23/dutch-central-bank-chief-says-ukraine-in-eu-would-boost-bloc",
+        "description": "Ukraine joining the European Union would give a “significant boost” to the bloc’s single market, according to Dutch Central Bank governor Olaf Sleijpen.",
+        "pubDate": "Mon, 23 Feb 2026 16:58:27 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Australia Backs Move to Nix ‘This Bloke’ Andrew From Succession",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-23/uk-effort-to-remove-andrew-from-line-of-succession-gathers-pace",
-        "description": "A UK government proposal to remove King Charles III’s brother, Andrew Mountbatten-Windsor, from the line of succession to the monarchy gained momentum as governments in Australia and New Zealand backe",
-        "pubDate": "Mon, 23 Feb 2026 12:20:24 GMT",
+        "title": "Trump said Iran Strike Would Be ‘Easily Won’ But Wants Deal",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-23/us-orders-some-staff-to-leave-beirut-embassy-amid-iran-tensions",
+        "description": "President Donald Trump pushed back on reports that the Pentagon was concerned that an extended military campaign against Iran could prove difficult, even as he insisted Monday his preference was still",
+        "pubDate": "Mon, 23 Feb 2026 15:12:26 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Rep. Bacon Says Airpower Alone Won't Bring Regime Change in Iran",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-24/rep-bacon-airpower-alone-won-t-bring-change-in-iran-video",
-        "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:44:58 GMT",
+        "title": "China Hits Takaichi With Tougher Export Curbs on Japan Firms",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/china-puts-export-curb-on-japan-firms-including-mitsubishi-heavy",
+        "description": "China blacklisted 20 Japanese entities and tightened scrutiny on a raft of other firms, signaling Beijing won’t drop its pressure campaign against Tokyo even after Prime Minister Sanae Takaichi’s rece",
+        "pubDate": "Tue, 24 Feb 2026 02:19:00 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Rep. Arrington: Americans Should Forget $2,000 Tariff Checks 'For Now'",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-24/rep-arrington-forget-2-000-tariff-checks-for-now-video",
-        "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:40:36 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Sen. Coons Warns Trump Could Launch Iran Strike Within 'Days'",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-24/sen-coons-trump-could-launch-iran-strike-within-days-video",
-        "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:39:13 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "US, Iran Pressure Mounts as Trump Pushes for Deal | Balance of Power: Late Edition 2/23/2026",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-24/balance-of-power-late-edition-2-23-2026-video",
-        "description": "\"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Sen. Chris Coons tells Balance of Power hosts Joe Mathieu and Kailey Leinz that a U.S. st",
-        "pubDate": "Tue, 24 Feb 2026 00:30:14 GMT",
+        "title": "Trump on Tariffs and ICE: What to Expect From State of the Union",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-24/state-of-the-union-2026-tariffs-immigration-other-topics-to-watch",
+        "description": "The speech comes after the Supreme Court struck down the president’s global tariffs&nbsp;and as Demorats sense opportunity in this year’s elections.",
+        "pubDate": "Tue, 24 Feb 2026 10:00:05 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -732,118 +717,60 @@
     ],
     "aljazeera": [
       {
-        "title": "Trump set to deliver second term’s first State of the Union: What to expect",
-        "link": "https://www.aljazeera.com/news/2026/2/24/trump-set-to-deliver-second-terms-first-state-of-the-union-what-to-expect?traffic_source=rss",
-        "description": "The US president&#039;s polarising policies risk voter backlash in the November midterm elections.",
-        "pubDate": "Tue, 24 Feb 2026 01:54:24 +0000",
+        "title": "New Trump tariffs take effect days after Supreme Court ruling",
+        "link": "https://www.aljazeera.com/news/2026/2/24/new-trump-tariffs-take-effect-days-after-supreme-court-decision?traffic_source=rss",
+        "description": "New tariffs on imported goods come into effect as Trump moves to rebuild his trade agenda after top court&#039;s ruling.",
+        "pubDate": "Tue, 24 Feb 2026 10:56:08 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Trump hits out at reports that top general flagged risks of attacking Iran",
-        "link": "https://www.aljazeera.com/news/2026/2/24/trump-hits-out-at-reports-that-top-general-flagged-risks-of-attacking-iran?traffic_source=rss",
-        "description": "US president slams reports that General Dan Caine warned him of risks of war with Iran as &#039;100 percent incorrect&#039;.",
-        "pubDate": "Tue, 24 Feb 2026 01:41:30 +0000",
+        "title": "Residents raise alarm as violence-hit Guadalajara to host World Cup games",
+        "link": "https://www.aljazeera.com/sports/2026/2/24/residents-raise-alarm-as-violence-hit-guadalajara-to-host-world-cup-games?traffic_source=rss",
+        "description": "Mexican city set to host 2026 World Cup games erupts in violence after army kills the leader of a powerful drug cartel.",
+        "pubDate": "Tue, 24 Feb 2026 10:47:00 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Are the US and Iran moving closer to war?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/2/23/are-the-us-and-iran-moving-closer-to-war?traffic_source=rss",
-        "description": "Diplomacy continues despite the significant United States military build-up.",
-        "pubDate": "Mon, 23 Feb 2026 20:58:54 +0000",
+        "title": "In Pictures: Four years of Ukraine war",
+        "link": "https://www.aljazeera.com/gallery/2026/2/24/four-years-of-war-in-ukraine-in-pictures?traffic_source=rss",
+        "description": "UN says more than 15,000 civilians and 763 children killed, highlighting the immense human cost of the ongoing conflict.",
+        "pubDate": "Tue, 24 Feb 2026 10:36:41 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Slovakia halts emergency power supplies to Ukraine over Russian oil dispute",
-        "link": "https://www.aljazeera.com/news/2026/2/23/slovakia-halts-emergency-power-supplies-to-ukraine-over-russian-oil-dispute?traffic_source=rss",
-        "description": "Slovakia had issued a two-day ultimatum to Ukraine to reopen the Soviet-era Druzhba pipeline.",
-        "pubDate": "Mon, 23 Feb 2026 20:54:04 +0000",
+        "title": "Blast kills policeman in Moscow train station on Ukraine war anniversary",
+        "link": "https://www.aljazeera.com/video/2026/2/24/blast-kills-policeman-in-moscow-train-station-on-ukraine-war-anniversary?traffic_source=rss",
+        "description": "A police officer has been killed in an explosion in the Russian capital.",
+        "pubDate": "Tue, 24 Feb 2026 10:32:03 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Trump’s new tariff threats trigger economic uncertainty; trade deals stall",
-        "link": "https://www.aljazeera.com/economy/2026/2/23/trumps-new-tariff-threats-trigger-economic-uncertainty-trade-deals-stall?traffic_source=rss",
-        "description": "The White House is set to impose a 15 percent tariff through Section 122 after the US Supreme Court ruled against Trump.",
-        "pubDate": "Mon, 23 Feb 2026 20:38:53 +0000",
+        "title": "LIVE: Pakistan vs England – T20 World Cup",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/2/24/live-pakistan-vs-england-t20-world-cup-today-commentary-score-stream?traffic_source=rss",
+        "description": "Follow our live build-up, team news, talking points, toss updates, score and commentary stream from the Super 8 match.",
+        "pubDate": "Tue, 24 Feb 2026 10:25:00 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Tourette syndrome campaigner shouts slur at BAFTA ceremony",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/23/tourette-syndrome-campaigner-shouts-slur-at-bafta-ceremony?traffic_source=rss",
-        "description": "At the BAFTA Film Awards, a guest with Tourette syndrome involuntarily shouted a racial slur during the BBC’s broadcast.",
-        "pubDate": "Mon, 23 Feb 2026 20:29:26 +0000",
+        "title": "Ukrainians were shocked by Russia’s war. Now many are numb and hopeless",
+        "link": "https://www.aljazeera.com/news/2026/2/24/ukrainians-were-shocked-by-russias-war-now-many-are-numb-and-hopeless?traffic_source=rss",
+        "description": "Al Jazeera’s Nils Adler reflects on the changes he has seen in Ukraine after four years of reporting on the war.",
+        "pubDate": "Tue, 24 Feb 2026 10:03:32 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "El Mencho: Mexico officials say 25 soldiers killed after cartel raid",
-        "link": "https://www.aljazeera.com/news/2026/2/23/mexican-officials-say-25-soldiers-killed-in-clashes-following-cartel-raid?traffic_source=rss",
-        "description": "Mexican President Claudia Sheinbaum says that calm is being restored and improvised cartel roadblocks are being removed.",
-        "pubDate": "Mon, 23 Feb 2026 20:07:12 +0000",
+        "title": "Floyd Mayweather and Manny Pacquiao agree to fight rematch in September",
+        "link": "https://www.aljazeera.com/sports/2026/2/24/floyd-mayweather-and-manny-pacquiao-agree-to-fight-rematch-in-september?traffic_source=rss",
+        "description": "Rematch of 2015 bout to be streamed on Netflix and will be the first boxing event to be held at the Sphere in Las Vegas.",
+        "pubDate": "Tue, 24 Feb 2026 09:31:16 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Another US boat strike in Caribbean Sea kills three, Pentagon says",
-        "link": "https://www.aljazeera.com/news/2026/2/23/another-us-boat-strike-in-caribbean-sea-kills-three-pentagon-says?traffic_source=rss",
-        "description": "Attack on alleged drug smugglers brings death toll of US military campaign against suspected drug boats to about 150.",
-        "pubDate": "Mon, 23 Feb 2026 20:06:24 +0000",
+        "title": "Iran army helicopter crashes into market, killing 2 pilots and 2 merchants",
+        "link": "https://www.aljazeera.com/news/2026/2/24/army-helicopter-crashes-into-iran-market-killing-2-pilots-and-2-merchants?traffic_source=rss",
+        "description": "The incident in Isfahan province follows crash of fighter jet in Hamadan province less than a week ago.",
+        "pubDate": "Tue, 24 Feb 2026 09:24:28 +0000",
         "source": "Al Jazeera"
-      }
-    ],
-    "washpost": [
-      {
-        "title": "Former U.K. ambassador to U.S. arrested amid Epstein revelations",
-        "link": "https://www.washingtonpost.com/world/2026/02/23/mandelson-peter-arrest-epstein-ambassador/",
-        "description": "British police arrested Peter Mandelson on suspicion of misconduct in office, just days after the detention of former prince Andrew.",
-        "pubDate": "Tue, 24 Feb 2026 00:14:32 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "CIA intelligence helped Mexican forces track down slain cartel boss",
-        "link": "https://www.washingtonpost.com/world/2026/02/23/us-mexico-el-mencho-travel-warning/",
-        "description": "The killing of El Mencho triggered violence across Mexico. In cities including Puerto Vallarta and Cancún, the U.S. warned citizens to shelter in place.",
-        "pubDate": "Tue, 24 Feb 2026 00:10:05 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Trump’s top general foresees acute risks in an attack on Iran",
-        "link": "https://www.washingtonpost.com/national-security/2026/02/23/dan-caine-iran-risk-trump/",
-        "description": "The Joint Chiefs of Staff chairman has said that a lack of munitions and allied support could mean greater danger for U.S. troops, people familiar with the talks say.",
-        "pubDate": "Mon, 23 Feb 2026 22:19:26 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Israelis brace for another war as Trump mulls strikes on Iran",
-        "link": "https://www.washingtonpost.com/world/2026/02/23/israel-iran-war-preparations-trump/",
-        "description": "Israeli officials say they won’t initiate a strike on Iran but the public is bracing for the possibility of another war.",
-        "pubDate": "Mon, 23 Feb 2026 10:00:44 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "As Andrew fell, Queen Elizabeth II held out hope, and Charles and William fumed",
-        "link": "https://www.washingtonpost.com/world/2026/02/23/andrew-charles-william-epstein-royal-scandal/",
-        "description": "As sordid allegations engulfed Prince Andrew, Queen Elizabeth II showed a mother’s love, King Charles III a brother’s fury, and Prince William, a nephew’s dismay.",
-        "pubDate": "Mon, 23 Feb 2026 10:00:28 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Mexico’s most powerful cartel leader is killed by security forces",
-        "link": "https://www.washingtonpost.com/world/2026/02/22/mexico-cartel-leader-killed-oseguera/",
-        "description": "The Mexican military’s killing of Nemesio Rubén Oseguera Cervantes, a.k.a. “El Mencho,” set off violence in areas controlled by the Jalisco New Generation Cartel.",
-        "pubDate": "Sun, 22 Feb 2026 23:16:58 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Jack Hughes loses some teeth, picks up gold in epic U.S. win over Canada",
-        "link": "https://www.washingtonpost.com/sports/olympics/2026/02/22/us-canada-hockey-olympics-gold-medal/",
-        "description": "The American center’s overtime goal will go down in history as the United States ends its 46-year Olympic drought.",
-        "pubDate": "Sun, 22 Feb 2026 20:17:30 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Trump’s talk of sending a hospital ship to Greenland puzzles leaders",
-        "link": "https://www.washingtonpost.com/politics/2026/02/22/trump-greenland-hospital-ship/",
-        "description": "Trump says he’s sending a ship to care for Greenland’s sick. But the territory doesn’t want the help and the U.S. appears to have no hospital ships available to send.",
-        "pubDate": "Sun, 22 Feb 2026 17:35:40 +0000",
-        "source": "Washington Post"
       }
     ],
     "economist": [
@@ -852,13 +779,6 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sLXlrTjg1dnFzdkozV09lc2tHZDBYaU9XS1RrVENxVWF4cS1FblRtbTNtQ0NWcDhtOTJlT1ozSkZ2SkU2ODBhYUZxZjJ0ZktPbjNSTkN3a0k5bmR2a0pB?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sLXlrTjg1dnFzdkozV09lc2tHZDBYaU9XS1RrVENxVWF4cS1FblRtbTNtQ0NWcDhtOTJlT1ozSkZ2SkU2ODBhYUZxZjJ0ZktPbjNSTkN3a0k5bmR2a0pB?oc=5\" target=\"_bla",
         "pubDate": "Sat, 21 Feb 2026 08:00:00 GMT",
-        "source": "Economist"
-      },
-      {
-        "title": "The Midwest’s remarkable turnaround - The Economist",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTRXNFIyY2JsQmVqSzFKMERjT19Zb0d5bHB5YjAwMkRMcjA5cHJWN0I0VDBKRS1sWWpSOGhCQk9ZSkZIT001eFBKQkk2cktJSUhDeWJ1VlpRV2R2aS1MdTFFZVZuTDhqcWYzOTVzLUZ6NlFqS09SRVVaaldla2xKNldwSWJ1Y3pEVzdYRFhn?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTRXNFIyY2JsQmVqSzFKMERjT19Zb0d5bHB5YjAwMkRMcjA5cHJWN0I0VDBKRS1sWWpSOGhCQk9ZSkZIT001eFBKQkk2cktJSUhDeWJ1VlpRV2R2aS1MdTFFZVZuTDhqcWYzOTV",
-        "pubDate": "Sat, 21 Feb 2026 16:36:10 GMT",
         "source": "Economist"
       },
       {
@@ -873,13 +793,6 @@
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGhkSGlLY25UUFRJX1RIc1hHRUtUUlJ2czVPSFpEM19xQWptYjl0XzVocEYxSWdUeVdUQVROT2NBanNvODIyU1ZRS2ktMXBOY3dHLWZHa3prWG8wWFdPbmJlaFBQWk9tMHEtNlZtVERILVZNOUNlZ1dfbTNnMU1wZ0RlVVdyNFQ3dkduNGxudWw3ZHVHWV9wX1R3?oc=5",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGhkSGlLY25UUFRJX1RIc1hHRUtUUlJ2czVPSFpEM19xQWptYjl0XzVocEYxSWdUeVdUQVROT2NBanNvODIyU1ZRS2ktMXBOY3dHLWZHa3prWG8wWFdPbmJlaFBQWk9tMHEtNlZ",
         "pubDate": "Fri, 20 Feb 2026 12:42:02 GMT",
-        "source": "Economist"
-      },
-      {
-        "title": "How big is the prize of reopening Russia? - The Economist",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcE1RTjBwSE94UmNqYjM0SjBiVm9yOUNsNk12emJRZldhekd4dGVBaE5wcWNrNUo1dU4xeHFhT1ZXVllXLUtWdDREZ1k5OWJKVmhZOWp3VzliS0hOR3pJM3pCYXdLMlhpRnNMYWN1VXhMY2JyYnV4cHV5ZEJnVG9uclI1MW53RDBMSGh0TTZESXR4LWdyOXlhQW1jLUsyLVBU?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcE1RTjBwSE94UmNqYjM0SjBiVm9yOUNsNk12emJRZldhekd4dGVBaE5wcWNrNUo1dU4xeHFhT1ZXVllXLUtWdDREZ1k5OWJKVmhZOWp3VzliS0hOR3pJM3pCYXdLMlhpRnNMYWN",
-        "pubDate": "Tue, 17 Feb 2026 20:30:52 GMT",
         "source": "Economist"
       },
       {
@@ -902,283 +815,297 @@
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQYmd2TjhVa1pyQ0VkUWJuLWhzUVRhTjJaN2ZRNnZ0bE96WEhfNERQcmk1dWEyVXNjUWY0MURsWlRSeWZIRXBXYVdKTmpCLUh0Nkg2ZnJhbl9VbG44SHFRYkdVa0hGZFBDaGZJaGZ",
         "pubDate": "Thu, 19 Feb 2026 10:23:48 GMT",
         "source": "Economist"
+      },
+      {
+        "title": "How big is the prize of reopening Russia? - The Economist",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcE1RTjBwSE94UmNqYjM0SjBiVm9yOUNsNk12emJRZldhekd4dGVBaE5wcWNrNUo1dU4xeHFhT1ZXVllXLUtWdDREZ1k5OWJKVmhZOWp3VzliS0hOR3pJM3pCYXdLMlhpRnNMYWN1VXhMY2JyYnV4cHV5ZEJnVG9uclI1MW53RDBMSGh0TTZESXR4LWdyOXlhQW1jLUsyLVBU?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcE1RTjBwSE94UmNqYjM0SjBiVm9yOUNsNk12emJRZldhekd4dGVBaE5wcWNrNUo1dU4xeHFhT1ZXVllXLUtWdDREZ1k5OWJKVmhZOWp3VzliS0hOR3pJM3pCYXdLMlhpRnNMYWN",
+        "pubDate": "Tue, 17 Feb 2026 20:30:52 GMT",
+        "source": "Economist"
+      },
+      {
+        "title": "How four years of war have changed Russia - The Economist",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVXhLN3o3bnJKZ0RQa1lqYVpWLWhOUndyTFJCUzMwMUxkZDIxeTU2TlVMSUg4QVMwNmk5RktiLVRwZGVZQkR6bWF4ei1zRUduTFluZjZoXzVZbFhITHY0bHY0dGtYdnBWaUxlZ0JKQ3JrVTBZTC1RTG9VM29zY3Ywd2JOUzBzZ2tHZHk4dzJIQVg?oc=5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPVXhLN3o3bnJKZ0RQa1lqYVpWLWhOUndyTFJCUzMwMUxkZDIxeTU2TlVMSUg4QVMwNmk5RktiLVRwZGVZQkR6bWF4ei1zRUduTFluZjZoXzVZbFhITHY0bHY0dGtYdnBWaUxlZ0J",
+        "pubDate": "Thu, 19 Feb 2026 11:15:08 GMT",
+        "source": "Economist"
       }
     ],
     "scmp": [
       {
-        "title": "Seoul’s protest over stand-off seen as reluctance to let US Forces Korea confront China",
-        "link": "https://www.scmp.com/news/china/military/article/3344369/seouls-protest-over-stand-seen-reluctance-let-us-forces-korea-confront-china?utm_source=rss_feed",
+        "title": "Why Indonesia’s lead role in Gaza peacekeeping force carries high political risk",
+        "link": "https://www.scmp.com/week-asia/politics/article/3344477/why-indonesias-lead-role-gaza-peacekeeping-force-carries-high-political-risk?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 02:00:15 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:31:59 +0000",
         "source": "SCMP"
       },
       {
-        "title": "A speedy pardon in the Jimmy Lai case is unlikely",
-        "link": "https://www.scmp.com/opinion/china-opinion/article/3344253/speedy-pardon-jimmy-lai-case-unlikely?utm_source=rss_feed",
+        "title": "4 years into Ukraine conflict, Zelensky says Russia’s Putin ‘did not win this war’",
+        "link": "https://www.scmp.com/news/world/russia-central-asia/article/3344478/4-years-ukraine-conflict-zelensky-says-russias-putin-did-not-win-war?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 01:30:08 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:29:35 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Assailant kills police officer and himself in blast near Moscow railway station",
-        "link": "https://www.scmp.com/news/world/russia-central-asia/article/3344392/assailant-kills-police-officer-and-himself-blast-near-moscow-railway-station?utm_source=rss_feed",
+        "title": "‘Record’ Chinese maritime militia deployed in South China Sea in 2025: US report",
+        "link": "https://www.scmp.com/news/china/military/article/3344474/record-chinese-maritime-militia-deployed-south-china-sea-2025-us-report?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 01:13:52 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:18:23 +0000",
         "source": "SCMP"
       },
       {
-        "title": "North Korean leader Kim Jong-un’s sister takes major step up party rungs",
-        "link": "https://www.scmp.com/news/asia/east-asia/article/3344391/north-korean-leader-kim-jong-uns-sister-takes-major-step-party-rungs?utm_source=rss_feed",
+        "title": "China’s top court backs legal action against corrupt firms amid equity markets rally",
+        "link": "https://www.scmp.com/business/markets/article/3344453/chinas-top-court-backs-legal-action-against-corrupt-firms-amid-equity-markets-rally?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 01:03:35 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:00:20 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Self-styled China doctors nabbed for performing ‘bloodletting therapy’ to ‘remove’ evil energy",
-        "link": "https://www.scmp.com/news/people-culture/trending-china/article/3343296/self-styled-china-doctors-nabbed-performing-bloodletting-therapy-remove-evil-energy?utm_source=rss_feed",
+        "title": "Why did 72 tigers die at a Thailand tourist park in under 2 weeks?",
+        "link": "https://www.scmp.com/week-asia/health-environment/article/3344470/why-did-72-tigers-die-thailand-tourist-park-under-2-weeks?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 01:00:08 +0000",
+        "pubDate": "Tue, 24 Feb 2026 09:58:22 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Hong Kong budget to target IP economy boost with new academy, patent evaluation support",
-        "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344370/hong-kong-boost-ip-economy-new-academy-patent-evaluation-support?utm_source=rss_feed",
+        "title": "China’s Lunar New Year box office hits 6-year low as releases fall flat",
+        "link": "https://www.scmp.com/economy/china-economy/article/3344458/chinas-lunar-new-year-box-office-hits-6-year-low-releases-fall-flat?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:30:08 +0000",
+        "pubDate": "Tue, 24 Feb 2026 09:30:50 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Freedom Shield rift: South Korea, US at odds over war games’ scale",
-        "link": "https://www.scmp.com/week-asia/politics/article/3344312/freedom-shield-rift-south-korea-us-odds-over-war-games-scale?utm_source=rss_feed",
+        "title": "Hong Kong authorities probe death of scaffolding worker who fell from factory",
+        "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344460/hong-kong-authorities-probe-death-scaffolding-worker-who-fell-factory?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:00:08 +0000",
+        "pubDate": "Tue, 24 Feb 2026 09:09:44 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Mexico security forces keep up fight with cartel gunmen after drug lord’s death",
-        "link": "https://www.scmp.com/news/world/americas/article/3344389/73-people-died-attempt-capture-mexican-cartel-leader-and-its-violent-aftermath-officials?utm_source=rss_feed",
+        "title": "France demands answers from US envoy for ignoring summons as diplomatic feud deepens",
+        "link": "https://www.scmp.com/news/world/europe/article/3344459/france-demands-answers-us-envoy-ignoring-summons-diplomatic-feud-deepens?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 23:57:49 +0000",
+        "pubDate": "Tue, 24 Feb 2026 09:08:44 +0000",
         "source": "SCMP"
       }
     ],
     "timesofisrael": [
       {
-        "title": "Denying reports, Trump says top general isn&#8217;t against Iran war, thinks it would be &#8216;easily won&#8217;",
-        "link": "https://www.timesofisrael.com/denying-reports-trump-says-top-general-isnt-against-iran-war-thinks-it-would-be-easily-won/",
+        "title": "Decisive hours: Progress on a new nuclear deal, or countdown to a US strike?",
+        "link": "https://www.timesofisrael.com/decisive-hours-progress-on-a-new-nuclear-deal-or-countdown-to-a-us-strike/",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 01:53:18 +0000",
+        "pubDate": "Tue, 24 Feb 2026 11:07:02 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Great Isaiah Scroll, oldest near-complete biblical book ever found, on show in entirety for 1st time since 1968",
-        "link": "https://www.timesofisrael.com/great-isaiah-scroll-oldest-near-complete-biblical-book-ever-found-on-show-in-entirety-for-1st-time-since-1968/",
+        "title": "Jewish students warn US Commission on Civil Rights against politicizing campus antisemitism",
+        "link": "https://www.timesofisrael.com/jewish-students-warn-us-commission-on-civil-rights-against-politicizing-campus-antisemitism/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 23:45:13 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:55:49 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Board of Peace said looking into &#8216;stablecoin&#8217; to boost economy of postwar Gaza",
-        "link": "https://www.timesofisrael.com/board-of-peace-said-looking-into-stablecoin-to-boost-economy-of-postwar-gaza/",
+        "title": "After 4 years of war, Ukraine&#8217;s Jews face increasing sirens, shortages and uncertainty",
+        "link": "https://www.timesofisrael.com/after-4-years-of-war-ukraines-jews-face-increasing-sirens-shortages-and-uncertainty/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 23:16:23 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:55:46 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Ben Gvir&#8217;s National Guard operating without directives or oversight, Knesset finds",
-        "link": "https://www.timesofisrael.com/ben-gvirs-national-guard-operating-without-directives-or-oversight-knesset-finds/",
+        "title": "Anti-Zionist group&#8217;s planned protest of keffiyeh ban at Buchenwald memorial sparks outrage",
+        "link": "https://www.timesofisrael.com/anti-zionist-groups-planned-protest-of-keffiyeh-ban-at-buchenwald-memorial-sparks-outrage/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 21:19:22 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:55:42 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Man shot and killed in northern Arab town as deadly crime keeps surging",
-        "link": "https://www.timesofisrael.com/man-shot-and-killed-in-northern-arab-town-as-deadly-crime-keeps-surging/",
+        "title": "Trump said frustrated with limits of military leverage against Iran",
+        "link": "https://www.timesofisrael.com/trump-said-frustrated-with-limits-of-military-leverage-against-iran/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 20:38:27 +0000",
+        "pubDate": "Tue, 24 Feb 2026 10:49:48 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Hamas seen working to maintain control of Gaza via Trump-backed bodies",
-        "link": "https://www.timesofisrael.com/hamas-seen-working-to-maintain-control-of-gaza-via-trump-backed-bodies/",
+        "title": "Nearly 20 nations slam Israel&#8217;s West Bank moves as step toward ‘de facto annexation’",
+        "link": "https://www.timesofisrael.com/nearly-20-nations-slam-israels-west-bank-moves-as-step-toward-de-facto-annexation/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 20:19:19 +0000",
+        "pubDate": "Tue, 24 Feb 2026 08:27:30 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Ex-UK envoy to US Mandelson arrested over suspicions of &#8216;misconduct in public office&#8217;",
-        "link": "https://www.timesofisrael.com/amid-epstein-scrutiny-ex-uk-ambassador-mandelson-arrested-by-british-police/",
+        "title": "Ukraine war exhibit opens at Berlin museum in former Nazi bunker",
+        "link": "https://www.timesofisrael.com/ukraine-war-exhibit-opens-at-berlin-museum-in-former-nazi-bunker/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 19:43:02 +0000",
+        "pubDate": "Tue, 24 Feb 2026 07:58:05 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Rob Reiner’s son pleads not guilty to murder in the killing of his parents",
-        "link": "https://www.timesofisrael.com/rob-reiners-son-pleads-not-guilty-to-murder-in-the-killing-of-his-parents/",
+        "title": "Footage from 2022 shows Hamas commanders overseeing dry run of October 7 attack",
+        "link": "https://www.timesofisrael.com/footage-from-2022-shows-hamas-commanders-overseeing-dry-run-of-october-7-attack/",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 19:08:28 +0000",
+        "pubDate": "Tue, 24 Feb 2026 07:03:25 +0000",
         "source": "Times of Israel"
       }
     ],
     "afp": [
       {
-        "title": "Venezuela begins prisoner releases as Rodriguez promises return for exiles",
-        "link": "https://www.france24.com/en/americas/20260224-venezuela-begins-prisoner-releases-as-rodriguez-promises-return-for-exiles",
+        "title": "Paris Saint-Germain and Morocco footballer Hakimi to face trial for rape",
+        "link": "https://www.france24.com/en/sport/20260224-paris-saint-germain-and-morocco-footballer-hakimi-to-face-trial-for-rape",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 01:39:58 GMT",
+        "pubDate": "Tue, 24 Feb 2026 11:15:58 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Kim Jon-Un's sister promoted in rare North Korea party congress",
-        "link": "https://www.france24.com/en/asia-pacific/20260224-kim-jon-un-sister-promoted-north-korea-party-congress",
+        "title": "Reconstruction of Ukraine's economy could cost $588 billion over 10 years",
+        "link": "https://www.france24.com/en/tv-shows/business/20260224-reconstruction-of-ukraine-s-economy-could-cost-588-billion-over-10-years",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:41:36 GMT",
+        "pubDate": "Tue, 24 Feb 2026 11:08:41 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Iran-US tensions soars",
-        "link": "https://www.france24.com/en/tv-shows/spotlight/20260224-iran-us-tensions-soars",
+        "title": "France: Emmanuel Macron holds talks on combating violence",
+        "link": "https://www.france24.com/en/france-emmanuel-macron-holds-talks-on-combating-violence",
         "description": "",
-        "pubDate": "Tue, 24 Feb 2026 00:31:53 GMT",
+        "pubDate": "Tue, 24 Feb 2026 11:03:17 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Historic nor’easter paralyses US Northeast with record snowfall",
-        "link": "https://www.france24.com/en/americas/20260223-historic-nor-easter-paralyses-us-northeast-with-record-snowfall",
+        "title": "Ukraine marks four years since Russia's full-scale invasion",
+        "link": "https://www.france24.com/en/ukraine-marks-four-years-since-russia-s-full-scale-invasion",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 23:57:48 GMT",
+        "pubDate": "Tue, 24 Feb 2026 10:52:03 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "France to revoke US envoy's government access after summons no-show",
-        "link": "https://www.france24.com/en/france-to-revoke-us-envoy-s-government-access-after-summons-no-show",
+        "title": "No end in sight for displaced Ukrainians after four years of war",
+        "link": "https://www.france24.com/en/tv-shows/focus/20260224-no-end-in-sight-for-displaced-ukrainians-after-four-years-of-war",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 22:32:59 GMT",
+        "pubDate": "Tue, 24 Feb 2026 10:51:05 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Access to US-made weapons 'a key element' of Mexican cartels' power, expert says",
-        "link": "https://www.france24.com/en/tv-shows/a-propos/20260223-access-to-us-made-weapons-a-key-element-of-mexican-cartels-power-expert-says",
+        "title": "Zelensky addresses the European Parliament: What are the main takeaways?",
+        "link": "https://www.france24.com/en/zelensky-addresses-the-european-parliament-what-are-the-main-takeaways",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 22:02:16 GMT",
+        "pubDate": "Tue, 24 Feb 2026 10:09:39 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "No, American Special Forces didn't lead the Mexican operation against El Mencho",
-        "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20260223-no-american-special-forces-didn-t-lead-the-mexican-operation-against-el-mencho",
+        "title": "Replay: Zelensky addresses European Parliament as Ukraine marks four years since Russian invasion",
+        "link": "https://www.france24.com/en/replay-zelensky-addresses-european-parliament-as-ukraine-marks-four-years-since-russian-invasion",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 22:01:00 GMT",
+        "pubDate": "Tue, 24 Feb 2026 10:06:48 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "EU hits pause on trade deal with US, Trump warns countries not to 'play games' after Supreme Court ruling",
-        "link": "https://www.france24.com/en/tv-shows/business/20260223-eu-hits-pause-on-trade-deal-with-us-trump-warns-countries-not-to-play-games-after-supreme-court-ruling",
+        "title": "'They look like a toy': Ukrainian civilians under threat from ‘petal mines’",
+        "link": "https://www.france24.com/en/tv-shows/the-observers/20260224-they-look-like-a-toy-ukrainian-civilians-under-threat-from-petal-mines",
         "description": "",
-        "pubDate": "Mon, 23 Feb 2026 22:01:00 GMT",
+        "pubDate": "Tue, 24 Feb 2026 10:02:00 GMT",
         "source": "AFP/France24"
       }
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-02-24T02:20:41.902Z",
+    "timestamp": "2026-02-24T11:40:28.324Z",
     "bbc": {
       "lead": {
-        "headline": "Lord Mandelson arrested on suspicion of misconduct in public office",
-        "url": "https://www.bbc.com/news/articles/c8xy5jzrrxzo",
+        "headline": "Ukraine war four years on",
+        "url": "https://www.bbc.com/news/topics/c1vw6q14rzqt",
         "source": "BBC"
       },
       "top": [
         {
-          "headline": "Lord Mandelson arrested on suspicion of misconduct in public office",
+          "headline": "Ukraine war four years on",
+          "url": "https://www.bbc.com/news/topics/c1vw6q14rzqt",
+          "source": "BBC"
+        },
+        {
+          "headline": "Russian soldiers tell BBC they saw fellow troops executed on commanders' orders",
+          "url": "https://www.bbc.com/news/articles/cz7gw3l395ro",
+          "source": "BBC"
+        },
+        {
+          "headline": "Bowen: Why Ukraine remains defiant and does not feel close to defeat",
+          "url": "https://www.bbc.com/news/articles/cd9g2ggq4epo",
+          "source": "BBC"
+        },
+        {
+          "headline": "Live. Tears at public inquiry as families pay tribute to loved ones killed in the Nottingham attacks",
+          "url": "https://www.bbc.com/news/live/ce8w3grp659t",
+          "source": "BBC"
+        },
+        {
+          "headline": "Lord Mandelson released on bail after arrest on suspicion of misconduct in public office",
           "url": "https://www.bbc.com/news/articles/c8xy5jzrrxzo",
-          "source": "BBC"
-        },
-        {
-          "headline": "Watch: Peter Mandelson led away by police from Camden home. Video, 00:00:32Watch: Peter Mandelson led away by police from Camden home",
-          "url": "https://www.bbc.com/news/videos/c5y627gx8gko",
-          "source": "BBC"
-        },
-        {
-          "headline": "First British baby born using transplanted womb from deceased donor",
-          "url": "https://www.bbc.com/news/articles/cvg53xp5857o",
-          "source": "BBC"
-        },
-        {
-          "headline": "Mexico sends thousands of soldiers to stop violence after death of drug lord",
-          "url": "https://www.bbc.com/news/articles/cx2lp7xwql4o",
-          "source": "BBC"
-        },
-        {
-          "headline": "Chocolate kept in anti-theft boxes as retailers warn it's being stolen to order",
-          "url": "https://www.bbc.com/news/articles/ce3gqr7p0lqo",
           "source": "BBC"
         }
       ]
     },
     "guardian": {
       "lead": {
-        "headline": "Nottingham killer was not sectioned because of his race, inquiry told",
-        "url": "https://www.theguardian.com/uk-news/2026/feb/23/nottingham-killer-valdo-calocane-race-mental-health-inquiry",
+        "headline": "‘We’ve been paying for happy endings for Andrew for years’: the inside story of a royal disgrace, by his biographer",
+        "url": "https://www.theguardian.com/uk-news/2026/feb/24/andrew-mountbatten-windsor-biographer-andrew-lownie-entitled",
         "source": "Guardian"
       },
       "top": [
         {
-          "headline": "Nottingham killer was not sectioned because of his race, inquiry told",
-          "url": "https://www.theguardian.com/uk-news/2026/feb/23/nottingham-killer-valdo-calocane-race-mental-health-inquiry",
+          "headline": "‘We’ve been paying for happy endings for Andrew for years’: the inside story of a royal disgrace, by his biographer",
+          "url": "https://www.theguardian.com/uk-news/2026/feb/24/andrew-mountbatten-windsor-biographer-andrew-lownie-entitled",
           "source": "Guardian"
         },
         {
-          "headline": "France blocks US ambassador’s access to ministers after he fails to show for meeting",
-          "url": "https://www.theguardian.com/world/2026/feb/23/us-ambassador-to-paris-banned-from-meeting-french-ministers-after-no-show",
+          "headline": "Where tourists seldom tread, part 20: three UK towns that feel like home",
+          "url": "https://www.theguardian.com/travel/2026/feb/24/where-tourists-seldom-tread-part-20-three-uk-towns-that-feel-like-home",
           "source": "Guardian"
         },
         {
-          "headline": "Peter Mandelson arrested on suspicion of misconduct in public office",
-          "url": "https://www.theguardian.com/uk-news/2026/feb/23/peter-mandelson-arrested-on-suspicion-of-misconduct-in-public-office",
+          "headline": "Trump Iran airstrikes decision to be guided by Jared Kushner and Steve Witkoff’s advice",
+          "url": "https://www.theguardian.com/us-news/2026/feb/23/trump-iran-airstrikes-nuclear-deal",
           "source": "Guardian"
         },
         {
-          "headline": "‘Profoundly moving’: Netflix’s posthumous celebrity interview series is a marvel",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/feb/23/famous-last-words-netflix-eric-dane",
+          "headline": "Trump’s scramble to fix his crumbling tariff strategy sows global chaos and confusion",
+          "url": "https://www.theguardian.com/us-news/2026/feb/24/trump-crumbling-tariff-strategy-global-chaos-confusion",
           "source": "Guardian"
         },
         {
-          "headline": "double quotation markFarage kicks things off before 30 minutes of hate – and has the final word",
-          "url": "https://www.theguardian.com/politics/2026/feb/23/farage-kicks-things-off-30-minutes-hate-final-word",
+          "headline": "Dirty Business review – if this doesn’t incite righteous anger over our filthy water then nothing will",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/feb/23/dirty-business-review-righteous-anger-filthy-water",
           "source": "Guardian"
         }
       ]
     },
     "aljazeera": {
       "lead": {
-        "headline": "Reports of top US general’s concerns over attack on Iran rebuked by Trump",
-        "url": "https://www.aljazeera.com/news/2026/2/24/trump-hits-out-at-reports-that-top-general-flagged-risks-of-attacking-iran",
+        "headline": "Putin failed to achieve war goals, says Zelenskyy on invasion anniversary",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/2/24/live-russia-ukraine-war-enters-fifth-year-as-strikes-hit-zaporizhzhia",
         "source": "Al Jazeera"
       },
       "top": [
         {
-          "headline": "Reports of top US general’s concerns over attack on Iran rebuked by Trump",
-          "url": "https://www.aljazeera.com/news/2026/2/24/trump-hits-out-at-reports-that-top-general-flagged-risks-of-attacking-iran",
+          "headline": "Putin failed to achieve war goals, says Zelenskyy on invasion anniversary",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/24/live-russia-ukraine-war-enters-fifth-year-as-strikes-hit-zaporizhzhia",
           "source": "Al Jazeera"
         },
         {
-          "headline": "‘El Mencho’ killing sparks ‘overwhelming fear’ as violence erupts in Mexico",
-          "url": "https://www.aljazeera.com/news/2026/2/23/el-mencho-killing-sparks-overwhelming-fear-as-violence-erupts-in-mexico",
+          "headline": "WATCH: What do four years of war in Ukraine add up to?",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/24/live-russia-ukraine-war-enters-fifth-year-as-strikes-hit-zaporizhzhia?update=4333791",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Trump set to deliver second term’s first State of the Union: What to expect",
-          "url": "https://www.aljazeera.com/news/2026/2/24/trump-set-to-deliver-second-terms-first-state-of-the-union-what-to-expect",
+          "headline": "Mapping Russian attacks and territorial gains across Ukraine",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/24/live-russia-ukraine-war-enters-fifth-year-as-strikes-hit-zaporizhzhia?update=4333748",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Iran banks big on murky oil ‘trustees’ as war with US on the horizon",
-          "url": "https://www.aljazeera.com/news/2026/2/23/iran-banks-big-on-murky-oil-trustees-as-war-with-us-on-the-horizon",
+          "headline": "Elephant in the room in Kyiv is what EU support will look like in future",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/24/live-russia-ukraine-war-enters-fifth-year-as-strikes-hit-zaporizhzhia?update=4333977",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Who was El Mencho? What drug lord’s killing means for Mexico",
-          "url": "https://www.aljazeera.com/news/2026/2/23/who-was-el-mencho-what-drug-lords-killing-means-for-mexico",
+          "headline": "War has hit economies of both sides",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/24/live-russia-ukraine-war-enters-fifth-year-as-strikes-hit-zaporizhzhia?update=4333212",
           "source": "Al Jazeera"
         }
       ]
@@ -1189,14 +1116,19 @@
     },
     "economist": {
       "lead": {
-        "headline": "Mexico’s security minister said criminal gangs have killed at least 25 soldiers in retaliatory attacks since the death of the leader of the Jalisco New Generation Cartel, the country’s most notorious ",
-        "url": "https://www.economist.com/the-americas/2025/03/25/a-newly-discovered-killing-site-shocks-mexico",
+        "headline": "Donald Trump’s new global tariff of 10% came into effect. The president announced the duty last week just hours after the Supreme Court struck down many of his previous levies. He later vowed to raise",
+        "url": "https://www.economist.com/finance-and-economics/2026/02/20/donald-trump-answers-a-supreme-court-rebuke-with-new-tariff-threats",
         "source": "Economist"
       },
       "top": [
         {
-          "headline": "Mexico’s security minister said criminal gangs have killed at least 25 soldiers in retaliatory attacks since the death of the leader of the Jalisco New Generation Cartel, the country’s most notorious ",
-          "url": "https://www.economist.com/the-americas/2025/03/25/a-newly-discovered-killing-site-shocks-mexico",
+          "headline": "Donald Trump’s new global tariff of 10% came into effect. The president announced the duty last week just hours after the Supreme Court struck down many of his previous levies. He later vowed to raise",
+          "url": "https://www.economist.com/finance-and-economics/2026/02/20/donald-trump-answers-a-supreme-court-rebuke-with-new-tariff-threats",
+          "source": "Economist"
+        },
+        {
+          "headline": "The uncertainty over America’s tariff, along with AI concerns, rattled American stockmarkets. The S&P 500 and the tech-heavy Nasdaq fell by more than 1%, driven by a continued software sell-off. Share",
+          "url": "https://www.economist.com/the-world-in-brief",
           "source": "Economist"
         },
         {
@@ -1207,6 +1139,6 @@
       ]
     }
   },
-  "generated": "2026-02-24T02:20:42.976Z",
+  "generated": "2026-02-24T11:40:29.482Z",
   "source": "github-actions"
 }
