@@ -1,27 +1,29 @@
 Good morning. Here's the state of play:
 
-Mexico is reeling from explosive violence after security forces killed Nemesio Rubén Oseguera Cervantes, better known as "El Mencho," the leader of the Jalisco New Generation Cartel. [Al Jazeera reports](https://www.aljazeera.com/news/2026/2/23/el-mencho-killing-sparks-overwhelming-fear-as-violence-erupts-in-mexico) that cartel gunmen have unleashed coordinated attacks across multiple states, targeting government buildings and civilians in what looks like a desperate bid to maintain control of the criminal empire. El Mencho had been one of the world's most wanted drug traffickers, with the U.S. offering a $10 million bounty for his capture.
+Mexico is reeling from cartel violence that's killed at least 25 soldiers in retaliatory strikes since government forces tracked down and killed Nemesio Oseguera, better known as "El Mencho," the head of the Jalisco New Generation Cartel, the Economist reports. The [Economist reports](https://www.economist.com/the-americas/2025/03/25/a-newly-discovered-killing-site-shocks-mexico) that Mexico's security minister confirmed the death toll as the country's most powerful criminal organization fragments and lashes out. The killing has triggered chaos across western Mexico, with burning vehicles blocking roads and thousands of tourists stranded at airports.
 
-The killing creates a massive power vacuum in Mexico's most violent cartel, which controls trafficking routes from the Pacific coast to major U.S. cities. What happens next will determine whether Mexico sees a period of reduced cartel violence or an all-out war for succession that could destabilize entire regions. Meanwhile, tensions are escalating on other fronts as well. Iran's nuclear talks with the U.S. are set to resume Thursday in Geneva, with Tehran signaling some [encouraging signals](https://www.nytimes.com/2026/02/20/world/middleeast/iran-us-nuclear-uranium.html) even as Trump considers military strikes.
+What makes this particularly significant is how it happened. [CIA intelligence](https://www.nytimes.com/2026/02/23/world/americas/cia-el-hencho-location-mexico.html) helped Mexican forces track El Mencho to a remote cabin by following his lover. The cross-border intelligence cooperation represents a major win for both governments, but the violent aftermath shows how cartel leadership decapitation can sometimes make things worse before they get better.
+
+Meanwhile, there's also growing concern about the Trump administration's escalating rhetoric toward Iran. Reports suggest Trump is considering [targeted strikes](https://www.nytimes.com/2026/02/22/us/politics/trump-iran-strike-attack.html) against Iranian facilities, though he's pushed back against suggestions that his top general has reservations about such an attack.
 
 **Business/Tech**
 
-• Morgan Stanley's investment arm is actively hunting for "AI-proof" assets in emerging markets, betting that some sectors will remain insulated from artificial intelligence disruption, [Bloomberg reports](https://www.bloomberg.com/news/articles/2026-02-23/morgan-stanley-im-adds-emerging-market-assets-without-ai-risks).
+• According to Bloomberg, Chinese markets are bouncing back after the holiday break, with investors showing relief over Trump's [tariff relief](https://www.bloomberg.com/news/articles/2026-02-24/china-stocks-may-see-resilient-reopen-on-tariff-relief-ai-buzz) and growing excitement about AI developments.
 
-• Global markets are wobbling on trade uncertainty after Trump's latest tariff threats, with stocks poised to open lower and the dollar pulling back from recent gains, [per Bloomberg](https://www.bloomberg.com/news/articles/2026-02-22/dollar-trades-within-range-amid-tariff-uncertainty-markets-wrap).
+• Binance is in hot water after employees discovered [$1.7 billion](https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html) in cryptocurrency transactions went to Iranian entities, raising serious sanctions compliance questions.
 
-• JPMorgan has admitted it [closed Trump's accounts](https://www.nytimes.com/2026/02/21/business/jpmorgan-trump-debanking.html) after the January 6 Capitol attack, marking a rare acknowledgment of politically motivated debanking by a major financial institution.
+• FedEx is suing for a [tariff refund](https://www.nytimes.com/2026/02/23/business/fedex-lawsuit-tariffs-refund.html) after the Supreme Court rejected their previous challenge to Trump-era trade policies.
 
-• A new study suggests AI isn't coming for white-collar jobs as quickly as feared, with [coding and software roles](https://www.nytimes.com/2026/02/20/technology/ai-coding-software-jobs.html) showing more resilience than initially predicted.
+• Anthropic is accusing three [Chinese companies](https://www.nytimes.com/2026/02/23/technology/anthropic-chinese-startups-distillation.html) of harvesting its AI data, the latest sign of growing tech tensions between the superpowers.
 
 **Around the World**
 
-• **Latin America:** Violence has erupted across Mexico following the [killing of "El Mencho,"](https://www.aljazeera.com/news/2026/2/23/el-mencho-killing-sparks-overwhelming-fear-as-violence-erupts-in-mexico) with cartel gunmen launching coordinated attacks in response to their leader's death, Al Jazeera reports.
+• **Latin America**: According to France24, Venezuela has started [releasing prisoners](https://www.france24.com/en/americas/20260224-venezuela-begins-prisoner-releases-as-rodriguez-promises-return-for-exiles) while promising the return of political exiles, in what looks like the biggest political opening in years.
 
-• **Europe:** EU support for Ukraine is [stumbling badly](https://www.nytimes.com/2026/02/23/world/europe/ukraine-war-russia-eu-hungary.html) just days before the fourth anniversary of Russia's invasion, with Hungary and other member states blocking new aid packages.
+• **Europe**: France has blocked the US ambassador's [minister access](https://www.theguardian.com/world/2026/feb/23/us-ambassador-to-paris-banned-from-meeting-french-ministers-after-no-show) after he failed to show up for a scheduled meeting, the Guardian reports. It's a rare diplomatic snub that signals growing transatlantic tensions.
 
-• **Asia:** Duterte supporters have rallied in The Hague as the International Criminal Court [weighs evidence](https://www.nytimes.com/2026/02/23/world/asia/philippines-icc-duterte-supporters.html) against the former Philippine president over his deadly drug war.
+• **Asia**: Kim Jong-un's sister has been [promoted](https://www.france24.com/en/asia-pacific/20260224-kim-jon-un-sister-promoted-north-korea-party-congress) to a top party position in North Korea's rare congress, France24 reports, cementing her role as the regime's second-most powerful figure.
 
-• **Middle East:** Iranian students are [protesting for a second day](https://www.nytimes.com/2026/02/22/world/middleeast/iran-student-protests.html) despite a harsh state crackdown, adding domestic pressure as nuclear talks with Washington loom.
+• **Middle East**: The US has [partially evacuated](https://www.bbc.com/news/articles/cj32l00k47lo) its Beirut embassy as tensions with Iran escalate, the BBC reports. It's the clearest sign yet that Washington is preparing for potential military action.
 
-• **Africa:** The UN has found that the RSF siege of El Fasher in Sudan bears ["hallmarks of genocide,"](https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur) according to the Guardian, as the humanitarian crisis in Darfur deepens.
+• **Africa**: Rwanda-backed rebels have entered [Congo city](https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8) that serves as a major aid hub, the Wall Street Journal reports, marking a dangerous escalation in the region's conflict.
