@@ -20,7 +20,7 @@ if (!ANTHROPIC_API_KEY) {
 // CLAUDE API CALL
 // ============================================
 
-function callClaude(prompt) {
+function callClaudeOnce(prompt) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       model: 'claude-sonnet-4-20250514',
@@ -63,6 +63,28 @@ function callClaude(prompt) {
     req.write(body);
     req.end();
   });
+}
+
+// Retry wrapper — handles transient 529 (Overloaded) errors
+// from the Anthropic API. Waits 15s, 30s, 60s between retries.
+async function callClaude(prompt) {
+  const MAX_RETRIES = 3;
+  const BACKOFF = [15000, 30000, 60000];
+
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      return await callClaudeOnce(prompt);
+    } catch (err) {
+      const isRetryable = err.message.includes('Overloaded') ||
+                          err.message.includes('timeout') ||
+                          err.message.includes('529');
+      if (!isRetryable || attempt === MAX_RETRIES) throw err;
+
+      const wait = BACKOFF[attempt] || 60000;
+      console.log(`  ⚠ ${err.message} — retrying in ${wait / 1000}s (attempt ${attempt + 1}/${MAX_RETRIES})...`);
+      await new Promise(r => setTimeout(r, wait));
+    }
+  }
 }
 
 // ============================================
