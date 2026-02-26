@@ -1,13 +1,13 @@
 #!/usr/bin/env node
+// SYNC NOTE: This is the master copy. After editing, sync to all briefing repos:
+//   cp ~/Downloads/nyt-concierge/validate-draft.js ~/Downloads/russell-briefing/
+//   cp ~/Downloads/nyt-concierge/validate-draft.js ~/Downloads/japan-briefing/
+//   cp ~/Downloads/nyt-concierge/validate-draft.js ~/news-briefing/
 /**
  * validate-draft.js
  *
- * CANONICAL SOURCE: ~/Downloads/nyt-concierge/validate-draft.js
- * This is a copy for CI use. After editing the canonical version,
- * run: cp ~/Downloads/nyt-concierge/validate-draft.js ~/news-briefing/validate-draft.js
- *
  * Post-draft quality gate for The World newsletter briefings.
- * Runs 10 automated checks against the briefing markdown before publication.
+ * Runs 13 automated checks against the briefing markdown before publication.
  *
  * Usage:
  *   node validate-draft.js < draft.md           # Read from stdin
@@ -33,6 +33,9 @@
  *     8. Tacked-on analysis — ", showing how..." / ", highlighting..." at end of bullets
  *     9. Link text quality — bare country/person names, vague fragments, form CTAs
  *    10. "While" overuse — ", while" clause joiners; warns if > 2 occurrences
+ *    11. Multi-paragraph lead — lead should be ONE narrative paragraph
+ *    12. Link text length — max 3 words per writing-rules.md Rule 7
+ *    13. Stale stories — cross-refs draft against briefing.json pubDates >36h old
  *
  * No external dependencies — pure Node.js.
  */
@@ -144,6 +147,7 @@ const INTERNATIONAL_KEYWORDS = [
 // Tacked-on analysis patterns — secondary clauses that interpret the news.
 // These typically appear as ", <phrase>" at the end of a bullet.
 const TACKED_ON_PATTERNS = [
+  // Explicit patterns (original)
   /, showing how\b/i,
   /, showing just how\b/i,
   /, highlighting how\b/i,
@@ -156,6 +160,14 @@ const TACKED_ON_PATTERNS = [
   /, indicating\b/i,
   /, signaling\b/i,
   /, reflecting\b/i,
+  // Soft variants — backtesting found these in ~60% of drafts where
+  // the explicit patterns above missed them. Added Feb 2026.
+  /the latest .{5,40} to\b/i,
+  /adding another\b/i,
+  /adding to\b/i,
+  /continuing a pattern/i,
+  /marking the latest/i,
+  /in what (many|some|officials|analysts) (see|call|describe|are calling)/i,
 ];
 
 
@@ -361,14 +373,22 @@ function validateLinkDiversity(text) {
       });
     }
   } else {
-    // No Around the World section found — might be a different format
-    // Just warn, don't error
-    issues.push({
-      type: 'error',
-      message: 'Could not find "Around the World" section — unable to check non-NYT link quota',
-      line: null,
-      context: null,
-    });
+    // No "Around the World" section — fall back to checking non-NYT diversity
+    // across the full briefing. This handles Russell-style formats (Top Stories,
+    // Conflicts & Diplomacy, etc.) and any future briefing formats.
+    // Backtest finding: this check was structurally broken for Russell (100% false
+    // positive rate) because it errored on the missing section instead of adapting.
+    const nonNytCount = allLinks.filter(l => !isNYTLink(l.url)).length;
+    const nytCount = allLinks.filter(l => isNYTLink(l.url)).length;
+
+    if (nonNytCount < MIN_NON_NYT_AROUND_WORLD) {
+      issues.push({
+        type: 'error',
+        message: `Link diversity (full briefing fallback): ${nytCount} NYT links, ${nonNytCount} non-NYT links (minimum ${MIN_NON_NYT_AROUND_WORLD} non-NYT required)`,
+        line: null,
+        context: null,
+      });
+    }
   }
 
   return issues;
@@ -818,6 +838,188 @@ function validateWhileOveruse(text) {
 }
 
 
+/**
+ * CHECK 11: Multi-paragraph lead
+ *
+ * The Writer ROLE.md says the lead should be ONE narrative paragraph.
+ * Backtesting found 51.3% of drafts had multi-paragraph leads — the Writer
+ * kept splitting the lead across 2-3 paragraphs instead of one punchy block.
+ *
+ * "Lead" = everything before the first bold section header (**Business/...**),
+ * minus the greeting line. Multiple non-empty paragraphs = violation.
+ *
+ * WARNS if lead contains more than one paragraph.
+ */
+function validateLeadParagraphCount(text) {
+  const issues = [];
+
+  // Get the raw text before the first bold section header — we need to count
+  // paragraphs BEFORE extractLead strips blank lines (which would collapse
+  // multi-paragraph leads into one block).
+  const headerMatch = text.match(/\n\s*\*\*[A-Z]/);
+  if (!headerMatch) return issues;
+  const rawLead = text.substring(0, headerMatch.index).trim();
+  if (!rawLead) return issues;
+
+  // Split into paragraphs (separated by blank lines), then filter out
+  // greeting lines, "generated" timestamps, and empty blocks.
+  const paragraphs = rawLead.split(/\n\s*\n/).filter(p => {
+    const trimmed = p.trim();
+    if (!trimmed) return false;
+    if (/^(good (morning|afternoon|evening)|here's the state)/i.test(trimmed)) return false;
+    if (/^generated /i.test(trimmed)) return false;
+    return true;
+  });
+
+  if (paragraphs.length > 1) {
+    issues.push({
+      type: 'warning',
+      message: `Multi-paragraph lead: Found ${paragraphs.length} paragraphs before first section header. The lead should be ONE narrative paragraph.`,
+      line: 1,
+      context: paragraphs[0].substring(0, 80) + (paragraphs[0].length > 80 ? '...' : ''),
+    });
+  }
+
+  return issues;
+}
+
+
+/**
+ * CHECK 12: Link text length
+ *
+ * Writing-rules.md Rule 7: link text max 3 words. Backtesting found 38.5%
+ * of drafts violate this with zero enforcement.
+ *
+ * Exceptions:
+ *   - CTAs like "Read more here" (4 words but high-performing)
+ *   - Headlines used as link text (full sentence style, >5 words)
+ *     are technically a violation but handled differently by the Editor.
+ *
+ * WARNS for link text > 3 words that isn't a known CTA pattern.
+ */
+const LINK_TEXT_CTA_EXCEPTIONS = [
+  /^read more here$/i,
+  /^take a look$/i,
+  /^see how/i,
+  /^see the/i,
+  /^see what/i,
+  /^here'?s what/i,
+  /^here are/i,
+  /^watch .* here$/i,
+  /^listen to/i,
+];
+
+function validateLinkTextLength(text) {
+  const issues = [];
+  const allLinks = extractLinks(text);
+
+  for (const link of allLinks) {
+    const linkText = link.text.trim();
+    const words = linkText.split(/\s+/);
+
+    if (words.length > 3) {
+      // Skip if it matches a known high-performing CTA pattern
+      const isCTA = LINK_TEXT_CTA_EXCEPTIONS.some(p => p.test(linkText));
+      if (isCTA) continue;
+
+      issues.push({
+        type: 'warning',
+        message: `Link text too long: "${linkText}" (${words.length} words, max 3). Shorten or use a CTA pattern.`,
+        line: link.line,
+        context: getContext(text, link.index),
+      });
+    }
+  }
+
+  return issues;
+}
+
+
+/**
+ * CHECK 13: Stale stories
+ *
+ * Cross-references the draft text against briefing.json to detect stories
+ * whose pubDate is older than 36 hours. This catches the case where an RSS
+ * feed returns an old story, the recency filter in write-briefing.js misses it
+ * (or doesn't exist), and Claude includes it in the briefing anyway.
+ *
+ * How it works:
+ *   1. Reads briefing.json from CWD (same directory where validation runs)
+ *   2. Collects all RSS stories with a parseable pubDate
+ *   3. Flags any story > 36h old whose headline appears in the draft text
+ *      (fuzzy match: first 5 significant words of the headline)
+ *
+ * Returns empty array if briefing.json doesn't exist (graceful fallback
+ * for stdin-only validation or when run outside the briefing directory).
+ *
+ * WARNS (non-blocking) so editors can review whether the story is genuinely stale.
+ */
+const STALE_HOURS_THRESHOLD = 36;
+
+function validateStaleStories(text) {
+  const issues = [];
+
+  // Try to load briefing.json from CWD
+  let briefing;
+  try {
+    const raw = fs.readFileSync('briefing.json', 'utf8');
+    briefing = JSON.parse(raw);
+  } catch {
+    // No briefing.json available — skip this check silently
+    return issues;
+  }
+
+  const now = new Date();
+
+  // Collect all RSS-sourced stories with pubDate from the secondary sources
+  // (wire services like reuters, ap, bbc, bloomberg, etc.)
+  const allRssStories = [];
+  if (briefing.secondary && typeof briefing.secondary === 'object') {
+    for (const [source, stories] of Object.entries(briefing.secondary)) {
+      if (!Array.isArray(stories)) continue;
+      for (const story of stories) {
+        const dateStr = story.pubDate || story.date;
+        if (!dateStr) continue;
+        const pubDate = new Date(dateStr);
+        if (isNaN(pubDate.getTime())) continue;
+        const hoursAgo = (now - pubDate) / (1000 * 60 * 60);
+        if (hoursAgo > STALE_HOURS_THRESHOLD) {
+          allRssStories.push({ source, title: story.title, hoursAgo: Math.round(hoursAgo) });
+        }
+      }
+    }
+  }
+
+  if (allRssStories.length === 0) return issues;
+
+  // For each stale story, check if its headline appears in the draft.
+  // Use first 5 significant words of the headline for fuzzy matching.
+  const draftLower = text.toLowerCase();
+  for (const story of allRssStories) {
+    if (!story.title) continue;
+    // Extract significant words (skip short words like "a", "the", "in")
+    const words = story.title
+      .replace(/[^\w\s]/g, '')
+      .toLowerCase()
+      .split(/\s+/)
+      .filter(w => w.length > 2);
+    const searchPhrase = words.slice(0, 5).join(' ');
+    if (searchPhrase.length < 10) continue; // Too short to match reliably
+
+    // Check if enough of the headline words appear near each other in the draft
+    const matchCount = words.slice(0, 5).filter(w => draftLower.includes(w)).length;
+    if (matchCount >= 4) {
+      issues.push({
+        type: 'warning',
+        message: `Possibly stale story (~${story.hoursAgo}h old) from ${story.source}: "${story.title.slice(0, 60)}..."`,
+      });
+    }
+  }
+
+  return issues;
+}
+
+
 // ---------------------------------------------------------------------------
 // OUTPUT
 // ---------------------------------------------------------------------------
@@ -887,7 +1089,7 @@ function main() {
     process.exit(0);
   }
 
-  // Run all 10 validators
+  // Run all 13 validators
   const errors = [
     ...validateLinkDiversity(draftText),       // Check 1
     ...validateGoogleNewsUrls(draftText),      // Check 2
@@ -902,6 +1104,9 @@ function main() {
     ...validateTackedOnAnalysis(draftText),     // Check 8
     ...validateLinkTextQuality(draftText),      // Check 9
     ...validateWhileOveruse(draftText),          // Check 10
+    ...validateLeadParagraphCount(draftText),   // Check 11
+    ...validateLinkTextLength(draftText),        // Check 12
+    ...validateStaleStories(draftText),          // Check 13
   ];
 
   const results = { errors, warnings };
@@ -952,9 +1157,13 @@ if (require.main === module) {
     validateTackedOnAnalysis,
     validateLinkTextQuality,
     validateWhileOveruse,
-    // Constants (useful for test assertions)
+    validateLeadParagraphCount,
+    validateLinkTextLength,
+    validateStaleStories,
+    // Constants (useful for test assertions and fix-draft.js)
     BANNED_PHRASES,
     CONTRACTION_VERBS,
+    TACKED_ON_PATTERNS,
     SOURCE_DOMAINS,
     US_DOMESTIC_KEYWORDS,
     INTERNATIONAL_KEYWORDS,

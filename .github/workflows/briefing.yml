@@ -61,20 +61,50 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node write-briefing-v2.js
 
-      # Post-draft quality gate: 10 automated checks (link diversity,
-      # Google News URLs, attribution, banned phrases, contractions,
-      # US-domestic lead, tacked-on analysis, link text quality, while overuse).
-      # Exit 1 = blocking errors, exit 2 = warnings only.
-      # We log warnings but don't block the build (continue-on-error).
-      - name: Validate V1 briefing
+      # Auto-fix: mechanically correct 's contractions, "amid", tacked-on analysis
+      # before validation. Synced from nyt-concierge/fix-draft.js.
+      - name: Auto-fix V1 briefing
         continue-on-error: true
-        run: node validate-draft.js briefing.md
+        run: |
+          if [ -f briefing.md ]; then
+            node fix-draft.js briefing.md > briefing-fixed.md && mv briefing-fixed.md briefing.md
+          fi
+
+      - name: Auto-fix V2 briefing
+        continue-on-error: true
+        run: |
+          if [ -f briefing-v2/briefing.md ]; then
+            node fix-draft.js briefing-v2/briefing.md > briefing-v2/briefing-fixed.md && mv briefing-v2/briefing-fixed.md briefing-v2/briefing.md
+          fi
+
+      # Post-draft quality gate: 13 automated checks.
+      # Exit 1 = BLOCKING errors (link diversity, Google News URLs, attribution
+      #   mismatches) — build fails, briefing not published.
+      # Exit 2 = warnings only (banned phrases, contractions, etc.) — logged
+      #   but build continues.
+      - name: Validate V1 briefing
+        run: |
+          set +e
+          node validate-draft.js briefing.md
+          EXIT_CODE=$?
+          set -e
+          if [ $EXIT_CODE -eq 1 ]; then
+            echo "::error::Blocking validation errors in V1 — build halted"
+            exit 1
+          fi
 
       - name: Validate V2 briefing
         continue-on-error: true
         run: |
           if [ -f briefing-v2/briefing.md ]; then
+            set +e
             node validate-draft.js briefing-v2/briefing.md
+            EXIT_CODE=$?
+            set -e
+            if [ $EXIT_CODE -eq 1 ]; then
+              echo "::error::Blocking validation errors in V2"
+              exit 1
+            fi
           else
             echo "No V2 briefing to validate"
           fi

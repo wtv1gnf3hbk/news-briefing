@@ -8,6 +8,11 @@
 
 const https = require('https');
 const fs = require('fs');
+const path = require('path');
+
+// Load universal style rules from shared file (single-sourced from nyt-concierge)
+const styleRulesPath = path.join(__dirname, 'style-rules-prompt.txt');
+const styleRules = fs.readFileSync(styleRulesPath, 'utf8').trim();
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
@@ -272,17 +277,60 @@ async function main() {
     byRegion[r] = briefing.nyt.secondary.filter(h => h.source === r).slice(0, 3);
   });
 
+  // ---- Recency filter ----
+  // Tag each RSS story with hoursAgo and drop anything > 24h.
+  // Ported from russell-briefing/write-briefing.js where this prevented
+  // the exact same stale-story bug (Sudan "hallmarks of genocide" etc.).
+  // Stories without a parseable pubDate are kept but sorted to the end.
+  const now = new Date();
+
+  function tagRecency(storyList) {
+    return (storyList || []).map(s => {
+      if (s.pubDate || s.date) {
+        const pubDate = new Date(s.pubDate || s.date);
+        const hoursAgo = isNaN(pubDate.getTime()) ? null : (now - pubDate) / (1000 * 60 * 60);
+        return { ...s, hoursAgo: hoursAgo !== null ? Math.round(hoursAgo * 10) / 10 : null };
+      }
+      return { ...s, hoursAgo: null };
+    });
+  }
+
+  function filterRecent(storyList, maxHours = 24) {
+    const tagged = tagRecency(storyList);
+    const fresh = tagged.filter(s => s.hoursAgo === null || s.hoursAgo <= maxHours);
+    const stale = tagged.length - fresh.length;
+    if (stale > 0) console.log(`  Filtered out ${stale} stories older than ${maxHours}h`);
+    // Sort: newest first (null ages go to end)
+    return fresh.sort((a, b) => {
+      if (a.hoursAgo === null) return 1;
+      if (b.hoursAgo === null) return -1;
+      return a.hoursAgo - b.hoursAgo;
+    });
+  }
+
+  // Apply recency filter to all RSS-sourced stories (wire services).
+  // NYT homepage scrapes and international homepage scrapes don't carry pubDate
+  // so they pass through unfiltered.
+  console.log('Applying recency filter (24h max)...');
+  const filteredWire = {
+    reuters: filterRecent(briefing.secondary.reuters || [], 24).slice(0, 3),
+    ap: filterRecent(briefing.secondary.ap || [], 24).slice(0, 3),
+    bbc: filterRecent(briefing.secondary.bbc || [], 24).slice(0, 3),
+    bloomberg: filterRecent(briefing.secondary.bloomberg || [], 24).slice(0, 3)
+  };
+
+  // Also filter byRegion stories — NYT section pages sometimes carry pubDate
+  const filteredByRegion = {};
+  regions.forEach(r => {
+    filteredByRegion[r] = filterRecent(byRegion[r], 24);
+  });
+
   const condensed = {
     lead: briefing.nyt.lead,
     live: briefing.nyt.live.slice(0, 3),
     primary: briefing.nyt.primary.slice(0, 8),
-    byRegion: byRegion,
-    wire: {
-      reuters: briefing.secondary.reuters?.slice(0, 3) || [],
-      ap: briefing.secondary.ap?.slice(0, 3) || [],
-      bbc: briefing.secondary.bbc?.slice(0, 3) || [],
-      bloomberg: briefing.secondary.bloomberg?.slice(0, 3) || []
-    },
+    byRegion: filteredByRegion,
+    wire: filteredWire,
     // Add international homepage leads for context
     internationalLeads: briefing.internationalLeads || {}
   };
@@ -338,13 +386,18 @@ STYLE:
 - BULLETS MUST BE CONVERSATIONAL TOO - write them as complete thoughts with context, not just "Headline happened, per Source"
 - BAD bullet: "AstraZeneca is switching from Nasdaq to NYSE, per Reuters"
 - GOOD bullet: "AstraZeneca is planning to ditch Nasdaq for the NYSE next month, a rare transatlantic switch that says something about where the action is"
-- Be specific about geopolitical frameworks - say "NATO" not "transatlantic relations", say "EU" not "Europe" when referring to the institution, name specific alliances and organizations
-- NEVER use the word "amid" - it's lazy jargon. Find a better way to connect ideas.
-- NEVER use em-dashes or hyphens to join two independent clauses. Write separate sentences instead.
-- NEVER use 's as a contraction for "is" or "has" (possessives are fine). BAD: "Toyota's shaking things up" GOOD: "Toyota is shaking things up". BAD: "Iran's back to business" GOOD: "Iran is back to business".
-- NEVER add speculative analysis or editorializing. No "The timing isn't coincidental", "suggest it's doubling down", "which could...", "This signals...", "It's a reminder...". Stick to reported facts only.
-- Do NOT use ", while" to connect two unrelated news developments in one sentence. If they're separate stories, make them separate sentences. "While" is fine when the two clauses are genuinely related (same story, cause-and-effect) or when it means "during" (e.g. "arrested while reporting"). "Meanwhile" as a paragraph opener is OK sparingly.
-- When linking to a non-NYT source, ALWAYS attribute it. If a fact comes from an Al Jazeera link, say "Al Jazeera reports" or "according to Al Jazeera". The link alone is not enough attribution.
+${styleRules}
+
+BRIEFING-SPECIFIC RULES:
+- Use contractions freely (except 's for is/has per the style rules above).
+- Be specific about geopolitical frameworks — say "NATO" not "transatlantic relations", say "EU" not "Europe" when referring to the institution, name specific alliances and organizations.
+
+RECENCY:
+- Wire service stories include an "hoursAgo" field showing how old they are.
+- For all sections, strongly prefer stories from the last 12 hours.
+- Stories older than 18 hours should only appear if they are genuinely major and no fresher coverage exists.
+- A 2-hour-old story beats a 20-hour-old story unless the older one is seismic.
+- If a story has no hoursAgo field, treat it as current (it came from a homepage scrape, not RSS).
 
 LINKS (CRITICAL):
 - Use markdown links: [link text](url)
