@@ -1,29 +1,27 @@
 Good morning. Here's the state of play:
 
-The world's attention is fixed on Geneva today, where [U.S.-Iran nuclear talks](https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions) are underway in what many see as a last-ditch effort to prevent military conflict. Iran's negotiating team says they've advanced "important, practical" proposals, according to Al Jazeera, but the atmosphere remains tense. Oil markets are already [climbing higher](https://www.bloomberg.com/news/articles/2026-02-25/latest-oil-market-news-and-analysis-for-feb-26) as investors worry about potential disruptions to OPEC supplies if diplomacy fails.
+The most consequential diplomacy in years is happening in Geneva today, where U.S. and Iranian negotiators are trying to avert what could become a broader Middle East conflict. Al Jazeera reports that Iran says ["important, practical" proposals](https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions) have been advanced in the nuclear talks, though both sides have [taken a break](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton#section-282793051) to confer with their capitals. The stakes couldn't be higher, with Trump having floated potential military strikes against Iranian nuclear facilities.
 
-The stakes couldn't be higher. Trump has been openly discussing [military strikes](https://www.nytimes.com/2026/02/26/us/politics/trump-iran-strike.html) on Iran as both a foreign policy tool and domestic political strategy. Meanwhile, Russia launched [major attacks](https://www.nytimes.com/2026/02/26/world/europe/russia-attack-ukraine-talks.html) on Ukraine just before separate U.S.-Ukraine talks began, also in Geneva. The timing of both diplomatic pushes isn't coincidental.
-
-Back in the UK, there's a shocking prison story making headlines. Ian Huntley, who murdered two 10-year-old girls in Soham in 2002, was [seriously injured](https://www.theguardian.com/uk-news/2026/feb/26/ian-huntley-seriously-injured-attack-hospital-hmp-frankland-county-durham) in an attack at HMP Frankland and has been hospitalized, the Guardian reports.
+Back in Washington, the Epstein document releases continue to create political headaches. Hillary Clinton's closed-door [deposition was paused](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton#section-88344609) after a photo from the supposedly private session leaked, adding another twist to an already fraught process. The BBC is leading with this story, noting the unusual breach of what was meant to be confidential testimony.
 
 **Business/Tech**
 
-• Nvidia's AI chip dominance continues to pay off massively. The company posted [$43 billion](https://www.nytimes.com/2026/02/25/technology/nvidia-earnings.html) in quarterly profit, though that's actually creating new headaches about what happens when chatbots are used to [plan violence](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html).
+• Nvidia's massive [$43 billion quarterly profit](https://www.nytimes.com/2026/02/25/technology/nvidia-earnings.html) from AI chip sales somehow wasn't enough to impress investors, with Bloomberg reporting that chipmaker stocks are retreating as traders wanted even more reassurance about the AI boom's staying power.
 
-• The World Economic Forum's chief is [stepping down](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) over his ties to Jeffrey Epstein, adding another high-profile resignation to the growing list of officials caught up in the scandal.
+• [Mortgage rates fell](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) below 6% for the first time in years, potentially giving the housing market some much-needed relief after months of sky-high borrowing costs.
 
-• Trump's crypto venture isn't doing so well. American Bitcoin, backed by the Trump brothers, swung to a [quarterly loss](https://www.reuters.com/business/trump-brothers-backed-american-bitcoin-swings-quarterly-loss-amid-crypto-selloff-2026-02-26/) during the recent crypto selloff, Reuters reports.
+• Tech companies are grappling with a new liability question: when AI chatbots are used to [plan violence](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html), do the companies have a duty to warn law enforcement?
 
-• India's markets regulator is changing how [gold and silver](https://www.reuters.com/sustainability/boards-policy-regulation/india-markets-regulator-changes-gold-silver-valuation-mutual-funds-2026-02-26/) get valued in mutual funds, a technical move that could affect millions of investors, according to Reuters.
+• The [World Economic Forum chief](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) resigned over his Epstein connections, another casualty of the ongoing document releases that keep claiming high-profile scalps.
 
 **Around the World**
 
-• **Latin America**: Cuba's maritime borders remain tense after vessels [clashed again](https://www.nytimes.com/2026/02/25/world/americas/vessel-gunfight-cuba-history.html) with Cuban border forces, continuing a pattern of confrontations that have escalated in recent months.
+• **Latin America**: [Venezuela's capital Caracas](https://www.nytimes.com/2026/02/26/world/americas/caracas-venezuela-economy.html) is showing signs of economic life after years of misrule devastated what was once South America's wealthiest city.
 
-• **Europe**: Denmark's prime minister called a [snap election](https://www.bbc.com/news/articles/ckg3e63jwj8o) with Greenland taking center stage, after Trump's repeated demands to annex the territory have made it a defining political issue, the BBC notes.
+• **Europe**: Russia launched [major strikes](https://www.nytimes.com/2026/02/26/world/europe/russia-attack-ukraine-talks.html) on Ukraine just before U.S.-Ukraine talks are set to begin in Geneva, a clear attempt to strengthen Moscow's negotiating position.
 
-• **Asia**: A Japanese city received an unusual donation to fix its infrastructure problems. Someone sent Osaka [21 gold bars](https://www.nytimes.com/2026/02/26/world/asia/osaka-water-pipes-gold-bars.html) with instructions to repair the water pipes, no questions asked.
+• **Asia**: A Japanese city received an unusual donation: [21 gold bars](https://www.nytimes.com/2026/02/26/world/asia/osaka-water-pipes-gold-bars.html) from an anonymous benefactor with specific instructions to fix the city's aging water pipes.
 
-• **Middle East**: An Israeli intelligence agent has been [charged with smuggling](https://www.nytimes.com/2026/02/26/world/middleeast/israeli-agent-smuggling-gaza.html) goods into Gaza, raising questions about corruption within Israel's security apparatus during wartime.
+• **Middle East**: An [Israeli intelligence agent](https://www.nytimes.com/2026/02/26/world/middleeast/israeli-agent-smuggling-gaza.html) has been charged with smuggling goods into Gaza, highlighting the complex web of unofficial trade that continues despite the blockade.
 
-• **Africa**: Journalists were [arrested in Cameroon](https://www.nytimes.com/2026/02/18/world/africa/cameroon-journalists-arrested-deportees.html) while reporting on Trump's secretive deportation program, highlighting how U.S. immigration enforcement is affecting press freedom abroad.
+• **Africa**: [Journalists were arrested](https://www.nytimes.com/2026/02/18/world/africa/cameroon-journalists-arrested-deportees.html) in Cameroon while reporting on Trump's secretive deportation program, underscoring the challenges facing press freedom across the continent.
