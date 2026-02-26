@@ -343,6 +343,7 @@ STYLE:
 - NEVER use em-dashes or hyphens to join two independent clauses. Write separate sentences instead.
 - NEVER use 's as a contraction for "is" or "has" (possessives are fine). BAD: "Toyota's shaking things up" GOOD: "Toyota is shaking things up". BAD: "Iran's back to business" GOOD: "Iran is back to business".
 - NEVER add speculative analysis or editorializing. No "The timing isn't coincidental", "suggest it's doubling down", "which could...", "This signals...", "It's a reminder...". Stick to reported facts only.
+- Do NOT use ", while" to connect two unrelated news developments in one sentence. If they're separate stories, make them separate sentences. "While" is fine when the two clauses are genuinely related (same story, cause-and-effect) or when it means "during" (e.g. "arrested while reporting"). "Meanwhile" as a paragraph opener is OK sparingly.
 - When linking to a non-NYT source, ALWAYS attribute it. If a fact comes from an Al Jazeera link, say "Al Jazeera reports" or "according to Al Jazeera". The link alone is not enough attribution.
 
 LINKS (CRITICAL):

@@ -61,6 +61,24 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node write-briefing-v2.js
 
+      # Post-draft quality gate: 10 automated checks (link diversity,
+      # Google News URLs, attribution, banned phrases, contractions,
+      # US-domestic lead, tacked-on analysis, link text quality, while overuse).
+      # Exit 1 = blocking errors, exit 2 = warnings only.
+      # We log warnings but don't block the build (continue-on-error).
+      - name: Validate V1 briefing
+        continue-on-error: true
+        run: node validate-draft.js briefing.md
+
+      - name: Validate V2 briefing
+        continue-on-error: true
+        run: |
+          if [ -f briefing-v2/briefing.md ]; then
+            node validate-draft.js briefing-v2/briefing.md
+          else
+            echo "No V2 briefing to validate"
+          fi
+
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions Bot"

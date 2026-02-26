@@ -292,6 +292,7 @@ STYLE:
 - NEVER use em-dashes or hyphens to join two independent clauses. Write separate sentences instead.
 - NEVER use "'s" as a contraction for "is" (e.g., write "Meta is planning" not "Meta's planning"). Possessive "'s" is fine (e.g., "Meta's earnings").
 - NEVER use meta-news framing — don't say "The biggest story today is..." or "...is drawing global attention" or "...is dominating headlines." Just report the news. Let placement signal importance.
+- Do NOT use ", while" to connect two unrelated news developments in one sentence. If they're separate stories, make them separate sentences. "While" is fine when the two clauses are genuinely related (same story, cause-and-effect) or when it means "during" (e.g. "arrested while reporting"). "Meanwhile" as a paragraph opener is OK sparingly.
 
 LINKS (CRITICAL):
 - Use markdown links: [link text](url)
@@ -344,6 +345,8 @@ Review the draft below against the source data, then produce a numbered list of 
 8. SOURCE DIVERSITY (BLOCKING): Extract every markdown link URL from the draft. Count how many link to non-nytimes.com domains. AT LEAST 3 links in the entire briefing must go to non-NYT sources (BBC, Guardian, Al Jazeera, SCMP, AFP, etc.). If the quota is not met, list which international source stories from the data below should replace NYT links. This is a BLOCKING issue — the briefing cannot publish without source diversity.
 
 9. ATTRIBUTION: For every non-NYT link, check that there is explicit source attribution nearby ("according to BBC", "Al Jazeera reports", "per Reuters", "the Guardian notes"). Flag any non-NYT link that is missing attribution text. The reader must know when a link goes to another outlet.
+
+10. STYLE - "WHILE" OVERUSE: Count every instance of ", while" used to join two unrelated news developments in one sentence (e.g. "Kim hinted at talks, while a Japanese city received gold bars"). This is the most common AI writing crutch. If there are MORE THAN 2 such instances, list each one with the exact quote and instruct the reviser to split them into separate sentences. "While" meaning "during" (e.g. "arrested while reporting") is fine. "Meanwhile" as a sentence opener is fine sparingly.
 
 SOURCE DATA:
 ${dataContext}
