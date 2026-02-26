@@ -291,6 +291,7 @@ STYLE:
 - NEVER use the word "amid" - it's lazy jargon. Find a better way to connect ideas.
 - NEVER use em-dashes or hyphens to join two independent clauses. Write separate sentences instead.
 - NEVER use "'s" as a contraction for "is" (e.g., write "Meta is planning" not "Meta's planning"). Possessive "'s" is fine (e.g., "Meta's earnings").
+- NEVER use meta-news framing — don't say "The biggest story today is..." or "...is drawing global attention" or "...is dominating headlines." Just report the news. Let placement signal importance.
 
 LINKS (CRITICAL):
 - Use markdown links: [link text](url)
