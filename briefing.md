@@ -1,27 +1,22 @@
 Good morning. Here's the state of play:
 
-The Justice Department made a stunning blunder that's sending shockwaves through the Jeffrey Epstein investigation. Federal prosecutors [accidentally exposed](https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html) the identities of cooperating witnesses in court filings, a redaction failure that could compromise ongoing investigations and put sources at risk. The error comes as Hillary Clinton faces intense Republican questioning in a House deposition about her knowledge of Epstein's crimes, with her [testimony briefly halted](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton) after GOP members leaked a photo of her during the proceedings.
+The Justice Department made a major blunder in the Jeffrey Epstein case, [accidentally exposing](https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html) cooperating witnesses in court filings through faulty redactions. The error puts witnesses at potential risk and adds another layer of controversy to a case that continues to ripple through elite circles years after Epstein's death. Meanwhile, Hillary Clinton is facing her own [Epstein-related questioning](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton) in a House deposition, with Democrats rallying to her defense as she denies knowledge of any crimes.
 
-The Epstein story continues to ripple outward, claiming high-profile casualties. The head of the World Economic Forum [resigned over](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) his ties to the disgraced financier, just as new reporting reveals how [one close associate](https://www.nytimes.com/2026/02/26/business/jeffrey-epstein-joichi-ito-japan.html) of Epstein's managed to rebuild his career in Japan. The revelations underscore how the investigation continues to ensnare powerful figures years after Epstein's death.
+The fallout is spreading beyond American politics. The [World Economic Forum chief](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) resigned over Epstein ties, while a separate investigation revealed how [one Epstein associate](https://www.nytimes.com/2026/02/26/business/jeffrey-epstein-joichi-ito-japan.html) managed to rebuild his career in Japan's tech scene. It's a reminder of how Epstein's network stretched globally and continues to surface in unexpected places.
 
 **Business/Tech**
-
-• US mortgage rates [dropped below](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) 6% for the first time since 2022, offering potential relief to homebuyers who've been locked out by high borrowing costs.
-
-• Tech companies are grappling with a thorny new question: when AI chatbots are used to [plan violence](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html), do they have a legal duty to warn authorities? The debate comes as AI safety concerns intensify.
-
-• Oil markets are whipsawing as traders try to parse [mixed signals](https://www.bloomberg.com/news/articles/2026-02-25/latest-oil-market-news-and-analysis-for-feb-26) from the US-Iran nuclear talks, according to Bloomberg.
-
-• Electronic Arts couldn't secure enough bondholder support for a [debt buyback](https://www.bloomberg.com/news/articles/2026-02-26/ea-fails-to-win-bondholder-support-for-buyback-by-key-deadline) at a steep discount, missing a key deadline, Bloomberg reports.
+• [Mortgage rates dropped](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) below 6% for the first time in years, potentially giving the housing market its biggest boost since the pandemic started
+• Reuters reports that Fed rate cut expectations are [pulling back sharply](https://www.reuters.com/business/odds-early-warsh-led-fed-rate-cuts-slide-with-bullish-outlook-2026-02-26/) following stronger-than-expected economic signals from the incoming Warsh administration
+• The smartphone market is heading for its [worst year ever](https://www.reuters.com/business/media-telecom/smartphone-market-set-biggest-ever-decline-2026-memory-price-surge-idc-says-2026-02-26/) in 2026, according to IDC, as memory chip price surges make devices increasingly expensive
+• Tech companies are grappling with whether they have a [duty to warn](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html) authorities when their AI chatbots are used to plan violence
 
 **Around the World**
+• **Latin America**: [Venezuela's capital](https://www.nytimes.com/2026/02/26/world/americas/caracas-venezuela-economy.html) is showing unexpected signs of economic life after years of collapse, though it's unclear whether this represents genuine recovery or just temporary stabilization
 
-• **Latin America**: Venezuela's capital Caracas is showing [signs of recovery](https://www.nytimes.com/2026/02/26/world/americas/caracas-venezuela-economy.html) after years of economic collapse, with businesses reopening and infrastructure slowly improving under the Maduro government's latest economic reforms.
+• **Europe**: A German court [temporarily lifted](https://www.nytimes.com/2026/02/26/world/europe/germany-ruling-afd-extremist.html) the extremist designation for the far-right AfD party, a legal victory that could boost the party's standing ahead of federal elections
 
-• **Europe**: Denmark's prime minister called [snap elections](https://www.nytimes.com/2026/02/26/world/europe/denmark-election-frederiksen-greenland.html) after seeing her poll numbers surge over her firm stance against Trump's Greenland annexation threats, betting that defending sovereignty will resonate with voters.
+• **Asia**: An anonymous donor in Japan sent [21 gold bars](https://www.nytimes.com/2026/02/26/world/asia/osaka-water-pipes-gold-bars.html) to a cash-strapped city with a note instructing officials to fix their water infrastructure, sparking a nationwide mystery
 
-• **Asia**: An anonymous donor sent 21 gold bars to officials in Osaka with a simple message: [fix your](https://www.nytimes.com/2026/02/26/world/asia/osaka-water-pipes-gold-bars.html) water pipes. The unusual gift is worth enough to fund significant infrastructure repairs in the Japanese city.
+• **Middle East**: The BBC reports that [US-Iran nuclear talks](https://www.bbc.com/news/articles/cvg1vd95nl9o) wrapped up their third round in Geneva with mediators citing "significant progress," though both sides remain cautious about breakthrough prospects
 
-• **Middle East**: The BBC reports that US-Iran nuclear talks in Geneva ended with ["significant progress"](https://www.bbc.com/news/articles/cvg1vd95nl9o) according to mediators, though both sides remain tight-lipped about [specific breakthroughs](https://www.nytimes.com/2026/02/26/world/middleeast/iran-us-nuclear-talks.html).
-
-• **Africa**: South Africa pulled out of the Venice Biennale after [controversy erupted](https://www.nytimes.com/2026/02/20/arts/design/south-africa-venice-biennale.html) over a planned Gaza-themed artwork, highlighting how the Middle East conflict continues to divide the art world.
+• **Africa**: The BBC notes that a Kenyan man was [charged with recruiting](https://www.bbc.com/news/articles/cx2g79kpe2po) young Kenyans to fight for Russia in Ukraine, part of what investigators say is a broader network that has lured 1,000 Kenyans into the conflict
