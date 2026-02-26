@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Justice Department made a stunning error in the Jeffrey Epstein case, accidentally exposing the identities of cooperating witnesses in court filings that were supposed to be redacted. The [DOJ exposed](https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html) several people who had been working with federal investigators, potentially putting them at risk and undermining ongoing investigations into Epstein's trafficking network.
+The Justice Department made a major blunder in the ongoing Epstein investigation, [accidentally exposing](https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html) the identities of cooperating witnesses in court filings that were supposed to be redacted. It's a significant breach that could endanger people who've been helping federal investigators piece together the late financier's network. The timing couldn't be worse, as Hillary Clinton spent yesterday giving a deposition about her connections to Epstein, with [proceedings briefly halted](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton) when Republicans leaked a photo of her during the testimony.
 
-The blunder comes as Hillary Clinton faced intense questioning from House Republicans about her knowledge of Epstein's crimes. Her [deposition was briefly](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton) halted after a GOP lawmaker leaked a photo of her during the proceedings. Clinton has denied any knowledge of Epstein's criminal activities, though the revelations have already claimed high-profile casualties. The head of the World Economic Forum [resigned over](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) his connections to Epstein, underscoring how the scandal continues to ripple through elite circles years after Epstein's death.
+The Epstein files continue to claim high-profile casualties. The head of the World Economic Forum [resigned over ties](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) to the disgraced financier, while a close Epstein associate has been [quietly rebuilding his career](https://www.nytimes.com/2026/02/26/business/jeffrey-epstein-joichi-ito-japan.html) in Japan's tech scene. These revelations underscore how the fallout from the document release is still reverberating through elite circles worldwide.
 
 **Business/Tech**
 
-• U.S. [mortgage rates](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) dropped below 6% for the first time since 2022, offering some relief to potential homebuyers after years of elevated borrowing costs.
+• U.S. mortgage rates [dropped below 6%](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) for the first time in years, offering a glimmer of hope for would-be homebuyers who've been priced out by borrowing costs that peaked above 7% in 2023.
 
-• Tech companies are grappling with a thorny new question: when AI chatbots are used to plan violence, do they have a [duty to warn](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html) authorities? The debate highlights growing concerns about AI safety as these tools become more sophisticated.
+• Tech companies face new questions about whether they should warn authorities when their AI chatbots are used to [plan violence](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html), as lawmakers push for clearer guidelines on digital platforms' responsibilities.
 
-• [Netflix and Apple TV](https://www.reuters.com/business/media-telecom/netflix-apple-tv-join-forces-f1-content-2026-02-26/) are joining forces on Formula 1 content, according to Reuters, as streaming giants compete for sports audiences.
+• Oil markets are [whipsawing on mixed signals](https://www.bloomberg.com/news/articles/2026-02-25/latest-oil-market-news-and-analysis-for-feb-26) from the U.S.-Iran talks, with traders uncertain whether diplomatic progress will ease tensions or collapse into conflict.
 
-• A German union says it reached a [truce with Tesla](https://www.reuters.com/business/world-at-work/german-union-says-settlement-reached-dispute-with-tesla-2026-02-26/) over workplace disputes, per Reuters, easing tensions at the carmaker's European operations.
+• EA is struggling to win [bondholder support](https://www.bloomberg.com/news/articles/2026-02-26/ea-fails-to-win-bondholder-support-for-buyback-by-key-deadline) for a key debt buyback after missing a crucial deadline, according to Bloomberg.
 
 **Around the World**
 
-• **Latin America**: [Caracas is stirring](https://www.nytimes.com/2026/02/26/world/americas/caracas-venezuela-economy.html) back to life after years of economic collapse, with businesses reopening and residents cautiously optimistic despite Venezuela's ongoing political crisis.
+• **Latin America**: Cuba claims that armed infiltrators attempted to reach the island on a [U.S.-registered speedboat](https://www.bbc.com/news/articles/c24drvj8yl2o), with Cuban forces firing on the vessel in what Havana describes as thwarting a planned attack, the BBC reports.
 
-• **Europe**: Denmark's Prime Minister called [snap elections](https://www.bbc.com/news/articles/ckg3e63jwj8o) after seeing her support surge over the Greenland controversy, according to the BBC, gambling that Trump's territorial ambitions have boosted her standing with voters.
+• **Europe**: Denmark's Prime Minister called [snap elections](https://www.bbc.com/news/articles/ckg3e63jwj8o) after seeing her support surge over the Greenland crisis, betting that her tough stance against Trump's territorial ambitions will pay off at the ballot box, per the BBC.
 
-• **Asia**: A Japanese city received an extraordinary anonymous gift: [21 gold bars](https://www.nytimes.com/2026/02/26/world/asia/osaka-water-pipes-gold-bars.html) with a note instructing officials to use the money to fix their aging water infrastructure.
+• **Asia**: The Taliban launched what it called ["large-scale offensive operations"](https://www.france24.com/en/asia-pacific/20260226-pakistan-vows-immediate-response-after-afghanistan-launches-retaliatory-attacks) along the Pakistan border in retaliation for Pakistani strikes, escalating a dangerous border conflict that Pakistan vows to respond to immediately, France24 reports.
 
-• **Middle East**: The third round of [US-Iran talks](https://www.aljazeera.com/news/2026/2/26/us-iran-talks-conclude-claims-progress-few-details) concluded with claims of progress but few concrete details, Al Jazeera reports, as both sides prepare for another round next week with war tensions still simmering.
+• **Middle East**: The third round of [U.S.-Iran talks](https://www.aljazeera.com/news/2026/2/26/us-iran-talks-conclude-claims-progress-few-details) wrapped up with claims of "significant progress" but few concrete details, as both sides prepare for another round next week with war still looming, Al Jazeera reports.
 
-• **Africa**: A Kenyan man was [charged with duping](https://www.aljazeera.com/news/2026/2/26/kenyan-man-charged-with-duping-people-to-fight-for-russia-in-ukraine-war) fellow citizens into fighting for Russia in Ukraine, per Al Jazeera, highlighting how Moscow's recruitment networks have spread across Africa.
+• **Africa**: A Kenyan man has been [charged with duping](https://www.aljazeera.com/news/2026/2/26/kenyan-man-charged-with-duping-people-to-fight-for-russia-in-ukraine-war) his countrymen into fighting for Russia in Ukraine, highlighting how Moscow's recruitment efforts have reached deep into Africa, according to Al Jazeera.
