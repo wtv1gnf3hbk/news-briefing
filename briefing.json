@@ -12,7 +12,7 @@
         "source": "Live"
       },
       {
-        "headline": "Clinton Deposition Is Paused as Lawmakers Confer About Leaked Photo",
+        "headline": "Deposition Is Paused After Republican Leaks a Photo of Clinton Testifying",
         "url": "https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton#section-88344609",
         "source": "Live"
       },
@@ -96,8 +96,8 @@
         "source": "U.S."
       },
       {
-        "headline": "Judge Declines to Halt Construction on Trump’s East Wing Ballroom Project",
-        "url": "https://www.nytimes.com/2026/02/26/us/politics/judge-white-house-ballroom-trump.html",
+        "headline": "Trump Administration Asks Supreme Court to End Protections for Syrian Migrants",
+        "url": "https://www.nytimes.com/2026/02/26/us/politics/supreme-court-deportation-syrians.html",
         "source": "U.S."
       },
       {
@@ -113,6 +113,11 @@
       {
         "headline": "For Trump, Military Strike in Iran Could Serve Symbolic Purpose",
         "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-iran-strike.html",
+        "source": "Politics"
+      },
+      {
+        "headline": "Clinton Halts Epstein Deposition After Republican Leaks Photo of Her Testifying",
+        "url": "https://www.nytimes.com/2026/02/26/us/politics/hillary-clinton-epstein-deposition-lauren-boebert.html",
         "source": "Politics"
       },
       {
@@ -261,12 +266,69 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-02-26T18:19:26.499Z"
+    "timestamp": "2026-02-26T18:40:13.277Z"
   },
   "secondary": {
-    "timestamp": "2026-02-26T18:19:26.499Z",
+    "timestamp": "2026-02-26T18:40:13.277Z",
     "reuters": [],
-    "ap": [],
+    "ap": [
+      {
+        "title": "Artificial intelligence - AP News",
+        "link": "https://apnews.com/hub/artificial-intelligence",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4Qi1oeTk1Z21hMnphRDg4Q3FlR1NuQmd0RUpidzBDU3A4YVRlVlZoMnZDbFVNSXA5bWVtUU55UkFqaXBVR1JqY29Sd0Q4NUZOOWtSNFJEWmVZUQ?oc=5\" target=\"_blank\"&gt",
+        "pubDate": "Thu, 26 Feb 2026 14:59:41 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Supreme Court rules the Postal Service can't be sued, even when mail is intentionally not delivered - AP News",
+        "link": "https://apnews.com/article/supreme-court-postal-service-missing-mail-7ce97a5b7d56373cdeaa6ecc9a9132f5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNWEkxc1Y0NDV2bGQxcV90d0JNdEwyOW1Jbzd4Q1VlMUsxRUhhM3FldVYydEJYa1JrZElJaWJsdk54Q1lnT3hZTU1yQUtsTnk0SGZDdkMzQ21FSEowMHRXOTBhMXVCLWVONy1RMmN",
+        "pubDate": "Thu, 26 Feb 2026 16:58:06 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Cuba says 4 killed in speedboat shooting were attempting to infiltrate the country - AP News",
+        "link": "https://apnews.com/article/cuba-us-florida-boat-shooting-68e07061282dc2470993f6539bd0bde2",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQaGpvZ29GVm1QNUgwbnFheFYzbEZlYWg2cHA2NW5hY0N2S0dQXzZXS0VqSTZtUk80b21rUkc3Vi1DSW43YnFURlh2WEVjV0xhdEw0QzU3U2FhWlJMemxEX3Z1SzJfZGRHVmZkdmp",
+        "pubDate": "Thu, 26 Feb 2026 10:58:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Pentagon appeals order blocking Sen. Mark Kelly's punishment for call to resist unlawful orders - AP News",
+        "link": "https://apnews.com/article/pentagon-kelly-hegseth-illegal-orders-lawsuit-210024d0b2d5bd5c8f3c890ba934f608",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMUVHNHJ5YnhUOEdQbndOQTFSOEhUbXJTQWdZNnpWQ2VIVDBLZGV2bEoxQm4xaFhOelBULVBndU1wR3A1YzFJREpDSElhSE45MWFITWdRVHJrQlY5R21zOWpaLUJFMjZ4WnlzbFl",
+        "pubDate": "Thu, 26 Feb 2026 12:53:57 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Texas grand jury rejects indictments in fatal shooting of US citizen by federal immigration agent - AP News",
+        "link": "https://apnews.com/article/texas-ice-shooting-martinez-death-grand-jury-e4882b787c7251cbf494be08976dbedd",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNQnF5MW9rcGlRUnVFb2laZnVfNTBJTlg3NnY4YUFHSVNPWGFfNEJZWEt0VDRiOVU3ZGxYeUJjWGlBYm0wYk0zNGlieUIyd0IzTDJaOFlBZm9fUi1tR2R3N0J1ZGlyQXoyNEQ4TzA",
+        "pubDate": "Thu, 26 Feb 2026 14:49:11 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Live updates: Negotiations between the US and Iran resume after a lengthy break - AP News",
+        "link": "https://apnews.com/live/us-iran-geneva-nuclear-talks-updates-2-26-2026",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1GUlVVcEpVakFJNko4a1RMM3N3V1RGeThzUEtzVmgyVkROVldDa3FFa1pVeUs3WXVFV2tvZFFBaTZDbmxOUV9jRnA4SThMaHhlcDdGYU1mczV0aEw3RldNa2JnYlF0RFBubGtpX1h",
+        "pubDate": "Thu, 26 Feb 2026 17:07:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "U.S. Department of Justice - AP News",
+        "link": "https://apnews.com/hub/us-department-of-justice",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DVGVUcl95ZUJpNjQwRlQ1UGFiS1FvZURuRy1SRXVhdVlnREtMOW93d0NZY1c2dHJacGlfNUFJd3ZFZ3JtdXVnOFBhUVlWWHBXdnBzTHJuU09lbUE?oc=5\" target=\"_blank\"&g",
+        "pubDate": "Thu, 26 Feb 2026 12:09:04 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Judge orders changes to Columbia and Snake river dam operations to help 'disappearing' salmon - AP News",
+        "link": "https://apnews.com/article/snake-columbia-rivers-dams-salmon-trump-d9e5f824be812d3f86539060272c234a",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPYkx2LVdheXBzOVc0cV9kWXRhVjFFeUprX0wxa2h0eGNwV3RpNDV3WHJKRkF3b0p0ZXp1T3R0c0Etei15b2c3ZHlsZ3QwdEZ0RUxpaG1sZUdxV29FbFBRamMxOTgyMmJ2b0d2OHR",
+        "pubDate": "Thu, 26 Feb 2026 16:24:00 GMT",
+        "source": "AP"
+      }
+    ],
     "bbc": [
       {
         "title": "Danish PM calls snap election with Greenland issue centre-stage",
@@ -279,7 +341,7 @@
         "title": "US and Iran hold talks seen as crucial to prevent conflict",
         "link": "https://www.bbc.com/news/articles/cvg1vd95nl9o?at_medium=RSS&amp;at_campaign=rss",
         "description": "The indirect negotiations in Geneva are seen as a last-ditch effort, but the chances of a nuclear agreement are unclear.",
-        "pubDate": "Thu, 26 Feb 2026 13:37:08 GMT",
+        "pubDate": "Thu, 26 Feb 2026 18:24:34 GMT",
         "source": "BBC World"
       },
       {
@@ -476,6 +538,13 @@
         "source": "Bloomberg Markets"
       },
       {
+        "title": "Bloomberg Surveillance 2/26/2026",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-26/bloomberg-surveillance-2-26-2026-video",
+        "description": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
+        "pubDate": "Thu, 26 Feb 2026 17:30:20 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
         "title": "Fed's Bowman Says Consensus Has Been Reached on Basel Plan",
         "link": "https://www.bloomberg.com/news/videos/2026-02-26/fed-s-bowman-says-consensus-reached-on-basel-plan-video",
         "description": "Federal Reserve Vice Chair for Supervision Michelle Bowman says regulators are getting close to releasing a revised version of a bank capital proposal known as Basel III endgame at a Senate Banking Co",
@@ -490,17 +559,17 @@
         "source": "Bloomberg Markets"
       },
       {
-        "title": "30-Year Mortgage Rate Falls Below 6% For First Time Since 2022",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-26/us-30-year-mortgage-rate-falls-below-6-first-time-since-2022",
-        "description": "For the first time since 2022, the average 30-year mortgage rate in the US has slipped below 6%, a milestone that could breathe life into the coming spring home-selling season.",
-        "pubDate": "Thu, 26 Feb 2026 17:01:30 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
         "title": "Iran Says US Nuclear Talks So Far ‘Very Intense and Serious’",
         "link": "https://www.bloomberg.com/news/articles/2026-02-26/us-iran-to-hold-nuclear-talks-as-trump-s-deal-deadline-looms",
         "description": "Iran said nuclear talks with the US have progressed “very intensely and very seriously” as the two sides continued negotiations over a deal into the evening in Switzerland.",
         "pubDate": "Thu, 26 Feb 2026 07:09:53 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Pentagon’s First Kamikaze Drone Unit Ready for Any Iran Strikes",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-26/pentagon-s-first-kamikaze-drone-unit-ready-for-any-iran-strikes",
+        "description": "The Pentagon’s first kamikaze drone unit is ready to participate if President Donald Trump decides to launch strikes on Iran, according to US officials and analysts.",
+        "pubDate": "Thu, 26 Feb 2026 18:09:30 GMT",
         "source": "Bloomberg Politics"
       },
       {
@@ -543,13 +612,6 @@
         "link": "https://www.bloomberg.com/graphics/2026-iran-protects-nuclear-sites/",
         "description": "If it&nbsp;decides to attack, the US&nbsp;would face a complicated&nbsp;set of targets because of&nbsp;Iran’s rugged geography and its efforts to protect military assets.",
         "pubDate": "Thu, 26 Feb 2026 05:00:07 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Supreme Court Asked to Let US Lift Syrian Deportation Shield",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-26/supreme-court-asked-to-let-us-lift-syrian-migrant-protections",
-        "description": "The Trump administration asked the Supreme Court for clearance to end legal protections that let almost 7,000 Syrians temporarily live and work in the US without risk of deportation.",
-        "pubDate": "Thu, 26 Feb 2026 15:21:24 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -613,6 +675,13 @@
     ],
     "aljazeera": [
       {
+        "title": "India and Israel pledge to boost cooperation on trade, defence",
+        "link": "https://www.aljazeera.com/news/2026/2/26/india-and-israel-pledge-to-boost-cooperation-on-trade-defence?traffic_source=rss",
+        "description": "Narendra Modi&#039;s visit to Israel has drawn criticism at home amid tensions over Israel&#039;s genocidal war on Gaza.",
+        "pubDate": "Thu, 26 Feb 2026 18:09:14 +0000",
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Blood tech: UK’s use of Israeli spyware that helps underpin a genocide",
         "link": "https://www.aljazeera.com/news/2026/2/26/blood-tech-the-uk-and-the-israeli-spyware-that-helps-underpin-genocide?traffic_source=rss",
         "description": "Despite its public objections to Israel&#039;s actions, the UK is buying spyware developed and tested on Palestinians.",
@@ -622,7 +691,7 @@
       {
         "title": "Afghanistan says it launches attacks against Pakistan",
         "link": "https://www.aljazeera.com/news/2026/2/26/afghanistan-says-it-launches-attacks-against-pakistan?traffic_source=rss",
-        "description": "This is a breaking news story.",
+        "description": "Afghanistan&#039;s Taliban gov&#039;t spokesman says attacks kill &quot;numerous soldiers&quot; as Pakistan says its forces have responsded.",
         "pubDate": "Thu, 26 Feb 2026 17:20:05 +0000",
         "source": "Al Jazeera"
       },
@@ -660,13 +729,64 @@
         "description": "A mother from Gaza says she recognised her missing son listed as ‘for sale’ in a post shared by Israeli soldiers.",
         "pubDate": "Thu, 26 Feb 2026 15:22:47 +0000",
         "source": "Al Jazeera"
+      }
+    ],
+    "washpost": [
+      {
+        "title": "Cubans attempted to infiltrate island on U.S. speedboat, Havana says",
+        "link": "https://www.washingtonpost.com/world/2026/02/25/cuba-us-boat-shooting/",
+        "description": "The crew of the Florida-registered vessel opened fire on border agents, Cuba’s Interior Ministry said. Cuban forces returned fire, killing four.",
+        "pubDate": "Thu, 26 Feb 2026 16:47:25 +0000",
+        "source": "Washington Post"
       },
       {
-        "title": "What is Greater Israel, and how popular is it among Israelis?",
-        "link": "https://www.aljazeera.com/news/2026/2/26/what-is-greater-israel-and-how-popular-is-it-among-israelis?traffic_source=rss",
-        "description": "Recent US and Israeli comments on &#039;Greater Israel&#039; trigger regional concerns over sovereignty and territorial expansion.",
-        "pubDate": "Thu, 26 Feb 2026 14:56:20 +0000",
-        "source": "Al Jazeera"
+        "title": "Iran, U.S. resume nuclear negotiations as Trump’s war clock ticks down",
+        "link": "https://www.washingtonpost.com/national-security/2026/02/25/iran-us-nuclear-negotiations-geneva/",
+        "description": "Tehran is expected to deliver a new proposal on nuclear enrichment in Geneva as the United States continues to amass military forces in the Middle East.",
+        "pubDate": "Thu, 26 Feb 2026 13:12:24 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "An emboldened Kim flaunts nuclear ambitions while leaving room for U.S. talks",
+        "link": "https://www.washingtonpost.com/world/2026/02/26/north-korea-kim-nuclear-weapons-trump/",
+        "description": "Offering “peaceful coexistence or eternal confrontation,” North Korea’s leader said he would only restart talks if the U.S. ends “hostile” policies and accepts Pyongyang’s nuclear status.",
+        "pubDate": "Thu, 26 Feb 2026 11:27:01 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Rubio visits the Caribbean as Trump’s Iran gambit nears tipping point",
+        "link": "https://www.washingtonpost.com/national-security/2026/02/25/rubio-iran-caribbean/",
+        "description": "Marco Rubio attended a regional summit to emphasize the Trump administration’s focus on the Western Hemisphere even as the prospect of conflict in the Middle East looms.",
+        "pubDate": "Thu, 26 Feb 2026 00:25:59 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Antonio Tejero, leader of failed 1981 coup in Spain, dies at 93",
+        "link": "https://www.washingtonpost.com/obituaries/2026/02/25/antonio-tejero-dead-spain-coup/",
+        "description": "The revolt inspired fear that Francoist fascism had returned. Mr. Tejero died the same day the Spanish government declassified documents related to the coup.",
+        "pubDate": "Wed, 25 Feb 2026 21:13:04 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Brazilian court convicts ex-lawmaker in murder of politician Marielle Franco",
+        "link": "https://www.washingtonpost.com/world/2026/02/25/marielle-franco-assassination-brazao-guilty/",
+        "description": "The 2018 assassination of rights activist and Rio de Janeiro city council member Marielle Franco, a rising star in Brazilian politics, reverberated worldwide.",
+        "pubDate": "Wed, 25 Feb 2026 20:53:16 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Iranians eye Venezuela for hints of Trump’s next move",
+        "link": "https://www.washingtonpost.com/world/2026/02/25/iran-strikes-venezuela-trump-protests-maduro/",
+        "description": "The Maduro raid encouraged anti-government activists in Iran, some of them said. But it doesn’t appear to have sent a clear message to Tehran’s leadership.",
+        "pubDate": "Wed, 25 Feb 2026 10:00:59 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Trump tariff chaos gives Beijing a win before Xi meeting",
+        "link": "https://www.washingtonpost.com/national-security/2026/02/24/us-china-tariffs-trump-xi/",
+        "description": "The Supreme Court decision spiking Trump’s tariffs threatens to undermine the White House’s China strategy, just weeks before the two leaders are expected to meet.",
+        "pubDate": "Tue, 24 Feb 2026 23:31:17 +0000",
+        "source": "Washington Post"
       }
     ],
     "economist": [
@@ -729,6 +849,13 @@
     ],
     "scmp": [
       {
+        "title": "Trump’s US$400 million White House ballroom can move ahead for now, judge rules",
+        "link": "https://www.scmp.com/news/world/united-states-canada/article/3344786/trumps-us400-million-white-house-ballroom-can-move-ahead-now-judge-rules?utm_source=rss_feed",
+        "description": "",
+        "pubDate": "Thu, 26 Feb 2026 18:37:40 +0000",
+        "source": "SCMP"
+      },
+      {
         "title": "New York police arrest man after officers were pelted during snowball fight",
         "link": "https://www.scmp.com/news/world/united-states-canada/article/3344785/new-york-police-arrest-man-after-officers-were-pelted-during-snowball-fight?utm_source=rss_feed",
         "description": "",
@@ -776,16 +903,16 @@
         "description": "",
         "pubDate": "Thu, 26 Feb 2026 15:27:01 +0000",
         "source": "SCMP"
-      },
-      {
-        "title": "Trump-Xi summit preparations falter as planning gaps unsettle Beijing",
-        "link": "https://www.scmp.com/news/china/article/3344769/trump-xi-summit-preparations-falter-planning-gaps-unsettle-beijing?utm_source=rss_feed",
-        "description": "",
-        "pubDate": "Thu, 26 Feb 2026 15:00:09 +0000",
-        "source": "SCMP"
       }
     ],
     "timesofisrael": [
+      {
+        "title": "Embracing go-bags and gallows humor, Israelis live in limbo as Trump teases war with Iran",
+        "link": "https://www.timesofisrael.com/embracing-go-bags-and-gallows-humor-israelis-live-in-limbo-as-trump-teases-war-with-iran/",
+        "description": "",
+        "pubDate": "Thu, 26 Feb 2026 18:23:43 +0000",
+        "source": "Times of Israel"
+      },
       {
         "title": "Not waiting for state okay, 2 kibbutzim buy lockable, bulletproof doors for safe rooms",
         "link": "https://www.timesofisrael.com/not-waiting-for-state-okay-2-kibbutzim-buy-lockable-bulletproof-doors-for-safe-rooms/",
@@ -794,14 +921,14 @@
         "source": "Times of Israel"
       },
       {
-        "title": "UK&#8217;s Jeremy Corbyn set to be appointed parliamentary head of far-left Your Party",
+        "title": "UK&#8217;s anti-Israel Corbyn set to be appointed parliamentary head of far-left Your Party",
         "link": "https://www.timesofisrael.com/uks-jeremy-corbyn-to-be-appointed-parliamentary-head-of-far-left-your-party/",
         "description": "",
         "pubDate": "Thu, 26 Feb 2026 17:19:41 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Last service at Eucalyptus restaurant as Jerusalem institution closes",
+        "title": "Last service at Eucalyptus restaurant as a Jerusalem institution closes",
         "link": "https://www.timesofisrael.com/last-service-at-eucalyptus-as-chef-closes-jerusalem-institution/",
         "description": "",
         "pubDate": "Thu, 26 Feb 2026 17:11:45 +0000",
@@ -833,13 +960,6 @@
         "link": "https://www.timesofisrael.com/departing-israel-modi-says-theres-no-place-for-terrorism-praises-gaza-peace-plan/",
         "description": "",
         "pubDate": "Thu, 26 Feb 2026 14:46:54 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Iran would be outgunned in war with the US, but could still inflict considerable pain",
-        "link": "https://www.timesofisrael.com/iran-would-be-outgunned-in-war-with-the-us-but-could-still-inflict-considerable-pain/",
-        "description": "",
-        "pubDate": "Thu, 26 Feb 2026 14:29:10 +0000",
         "source": "Times of Israel"
       }
     ],
@@ -903,7 +1023,7 @@
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-02-26T18:19:26.499Z",
+    "timestamp": "2026-02-26T18:40:13.277Z",
     "bbc": {
       "lead": {
         "headline": "Live. Hillary Clinton's Epstein testimony paused after photo leaked from closed-door session",
@@ -927,13 +1047,13 @@
           "source": "BBC"
         },
         {
-          "headline": "Tracey Emin says her artwork My Bed would be 'tidy, clean and boring' if she made it today",
-          "url": "https://www.bbc.com/news/articles/c8jxm2n9lm1o",
+          "headline": "No 10 will have no say on which Mandelson papers are released",
+          "url": "https://www.bbc.com/news/articles/cp85j06ezyro",
           "source": "BBC"
         },
         {
-          "headline": "Woman angry at lack of prosecution after she fell from window fleeing triple killer",
-          "url": "https://www.bbc.com/news/articles/clyg1rx15qqo",
+          "headline": "Tracey Emin says her artwork My Bed would be 'tidy, clean and boring' if she made it today",
+          "url": "https://www.bbc.com/news/articles/c8jxm2n9lm1o",
           "source": "BBC"
         }
       ]
@@ -966,8 +1086,8 @@
           "source": "Guardian"
         },
         {
-          "headline": "Leave big tech behind! How to replace Amazon, Google, X, Meta, Apple – and more",
-          "url": "https://www.theguardian.com/technology/2026/feb/26/how-to-replace-amazon-google-x-meta-apple-alternatives",
+          "headline": "‘How can I start again at 68?’ Maria has spent 50 years in the UK – and is fighting deportation",
+          "url": "https://www.theguardian.com/uk-news/2026/feb/26/how-can-i-start-again-at-68-maria-has-spent-50-years-in-the-uk-and-is-fighting-deportation",
           "source": "Guardian"
         }
       ]
@@ -985,6 +1105,16 @@
           "source": "Al Jazeera"
         },
         {
+          "headline": "Witkoff-Araghchi meeting limited ‘basic courtesy’: Iran’s Tasnim agency",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions?update=4341573",
+          "source": "Al Jazeera"
+        },
+        {
+          "headline": "What is uranium enrichment?",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions?update=4341428",
+          "source": "Al Jazeera"
+        },
+        {
           "headline": "US officials issue conflicting claims on state of Iran’s nuclear programme",
           "url": "https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions?update=4341404",
           "source": "Al Jazeera"
@@ -992,16 +1122,6 @@
         {
           "headline": "Conservative US commentator calls for destroying Iran",
           "url": "https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions?update=4341265",
-          "source": "Al Jazeera"
-        },
-        {
-          "headline": "WATCH: US-Iran nuclear talks hinge on red lines",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions?update=4341229",
-          "source": "Al Jazeera"
-        },
-        {
-          "headline": "Third round needs to produce more than statements about ‘constructive’ talks",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/26/us-iran-talks-live-nuclear-talks-to-kick-off-in-geneva-amid-tensions?update=4341154",
           "source": "Al Jazeera"
         }
       ]
@@ -1012,14 +1132,14 @@
     },
     "economist": {
       "lead": {
-        "headline": "Volodymyr Zelensky said he had spoken to Donald Trump ahead of a meeting between America and Ukraine in Geneva on Thursday. Ukraine’s president said that the past winter, during which Russia repeatedl",
-        "url": "https://www.economist.com/europe/2026/02/18/how-a-four-year-onslaught-has-changed-ukraine",
+        "headline": "Afghanistan launched “large-scale offensive operations” along its border with Pakistan. The Taliban said the strikes were in retaliation against Pakistani attacks on Afghanistan on Sunday. Pakistan sa",
+        "url": "https://www.economist.com/the-world-in-brief",
         "source": "Economist"
       },
       "top": [
         {
-          "headline": "Volodymyr Zelensky said he had spoken to Donald Trump ahead of a meeting between America and Ukraine in Geneva on Thursday. Ukraine’s president said that the past winter, during which Russia repeatedl",
-          "url": "https://www.economist.com/europe/2026/02/18/how-a-four-year-onslaught-has-changed-ukraine",
+          "headline": "Afghanistan launched “large-scale offensive operations” along its border with Pakistan. The Taliban said the strikes were in retaliation against Pakistani attacks on Afghanistan on Sunday. Pakistan sa",
+          "url": "https://www.economist.com/the-world-in-brief",
           "source": "Economist"
         },
         {
@@ -1030,6 +1150,6 @@
       ]
     }
   },
-  "generated": "2026-02-26T18:19:32.984Z",
+  "generated": "2026-02-26T18:40:25.470Z",
   "source": "github-actions"
 }
