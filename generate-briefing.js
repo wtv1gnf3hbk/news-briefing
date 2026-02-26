@@ -478,7 +478,9 @@ function parseReutersHomepage(html) {
 // ============================================
 
 function isGoogleNewsUrl(url) {
-  return url && url.includes('news.google.com/rss/articles/');
+  // typeof guard needed: String.prototype.link is a legacy function that's truthy,
+  // so `url && url.includes(...)` crashes when url is a function instead of a string
+  return typeof url === 'string' && url.includes('news.google.com/rss/articles/');
 }
 
 /**
@@ -752,6 +754,7 @@ async function main() {
   // Collect all Google News URLs from the secondary stories dict.
   const allGoogleUrls = [];
   for (const [key, stories] of Object.entries(secondary)) {
+    if (!Array.isArray(stories)) continue;  // skip 'timestamp' and other metadata
     for (const story of stories) {
       if (isGoogleNewsUrl(story.link || story.url)) {
         allGoogleUrls.push(story.link || story.url);
@@ -763,6 +766,7 @@ async function main() {
 
   // Apply resolved URLs back to stories
   for (const [key, stories] of Object.entries(secondary)) {
+    if (!Array.isArray(stories)) continue;  // skip 'timestamp' and other metadata
     for (const story of stories) {
       const storyUrl = story.link || story.url;
       if (resolvedUrls.has(storyUrl)) {
