@@ -432,8 +432,8 @@ function generateHTML(briefingText) {
     .feedback-btn { font-size: 1.4rem; padding: 8px 16px; border: 1px solid #ddd; border-radius: 8px; background: transparent; cursor: pointer; transition: background 0.15s; }
     .feedback-btn:hover { background: #f0f0f0; }
     .feedback-btn.selected { background: #e8e8e8; border-color: #999; }
-    .feedback-textarea { display: none; width: 100%; max-width: 480px; margin: 12px auto; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.9rem; resize: vertical; }
-    .feedback-submit { display: none; margin: 8px auto; padding: 6px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer; }
+    .feedback-textarea { display: block; width: 100%; max-width: 480px; margin: 12px auto; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.9rem; resize: vertical; }
+    .feedback-submit { display: block; margin: 8px auto; padding: 6px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer; }
     .feedback-submit:hover { background: #e8e8e8; }
     .feedback-thanks { display: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; color: #666; margin-top: 8px; }
   </style>
@@ -531,13 +531,11 @@ ${briefingText
       document.querySelectorAll('.feedback-btn').forEach(function(b) { b.classList.remove('selected'); });
       btn.classList.add('selected');
       selectedReaction = btn.dataset.reaction;
-      document.getElementById('feedback-comment').style.display = 'block';
-      document.getElementById('feedback-submit').style.display = 'block';
     }
 
     async function submitFeedback() {
-      if (!selectedReaction) return;
       var comment = document.getElementById('feedback-comment').value.trim();
+      if (!selectedReaction && !comment) return;
       var dateKey = document.getElementById('feedback-section').dataset.date;
       var submitBtn = document.getElementById('feedback-submit');
       submitBtn.textContent = 'Sending...';
@@ -546,7 +544,7 @@ ${briefingText
         var res = await fetch(FEEDBACK_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ reaction: selectedReaction, comment: comment || '', briefingDate: dateKey })
+          body: JSON.stringify({ reaction: selectedReaction || 'comment', comment: comment || '', briefingDate: dateKey })
         });
         if (!res.ok) throw new Error('Server error');
         document.getElementById('feedback-buttons').style.display = 'none';
