@@ -1,24 +1,29 @@
 Good morning. Here's the state of play:
 
-Pakistan has declared ["open war"](https://www.bbc.com/news/articles/cvgjd7pv4y4o) on Afghanistan after launching what it calls "counter strikes" on Kabul and Kandahar. The BBC reports the attacks came after months of escalating tensions between the neighbors, despite a fragile ceasefire agreed to in October. Pakistan's defense minister used the dramatic language as the country carried out some of its most significant cross-border operations yet.
+Pakistan declared ["open war"](https://www.bbc.com/news/articles/cvgjd7pv4y4o) on Afghanistan's Taliban government yesterday after launching strikes on Kabul and Kandahar, marking the most serious escalation between the two neighbors in years. Pakistan's defense minister said the "counter strikes" were responding to what he called large-scale Afghan attacks, though the Taliban disputes this version of events. The conflict shatters a fragile ceasefire that had held since October and raises concerns about regional stability, especially with both countries hosting significant refugee populations and cross-border militant groups.
 
-The timing couldn't be worse for regional stability. The strikes represent the most serious escalation between Pakistan and the Taliban government since the latter took power, and they're happening as the U.S. is already [deploying forces](https://apnews.com/article/iran-us-talks-oman-nuclear-protests-e5fce5e891243b7651cf76d8211f78ae) across the Middle East for potential conflict with Iran. Meanwhile, Britain is dealing with its own political upheaval after the Green Party scored a stunning [upset victory](https://www.nytimes.com/2026/02/26/world/europe/gorton-denton-result-green-party-labour.html) in a special election, pushing Labour to third place in what was considered a safe seat.
+The crisis is drawing international attention as diplomatic efforts to de-escalate begin. The UK called for "immediate steps toward de-escalation," while Qatar is pushing for a diplomatic solution. But with Pakistan saying its ["operation continuing"](https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan) and the Taliban vowing retaliation, there's little sign either side is ready to step back from the brink.
+
+Meanwhile, Trump's foreign policy team is making waves with what the Times calls a ["resurrecting empire"](https://www.nytimes.com/2026/02/27/us/politics/trump-rubio-foreign-policy-empire.html) approach, as tensions with Iran continue building. The U.S. authorized [embassy staff](https://www.nytimes.com/2026/02/27/world/middleeast/us-embassy-jerusalem-authorized-departure.html) to leave Israel as a possible Iranian strike looms.
 
 **Business/Tech**
 
-- The [World Economic Forum](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) chief resigned over Jeffrey Epstein ties, the latest fallout from the financier's network reaching into elite circles
-- U.S. [mortgage rates](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) dropped below 6% for the first time in years, potentially giving the housing market some relief
-- Target is [removing synthetic](https://www.reuters.com/business/healthcare-pharmaceuticals/target-remove-synthetic-color-cereals-by-may-end-2026-02-27/) colors from its cereals by May, according to Reuters, following broader consumer health trends
-- German [inflation eased](https://www.bloomberg.com/news/articles/2026-02-27/german-inflation-eases-to-2-as-economic-recovery-starts-slowly) to exactly 2% in February, Bloomberg reports, hitting the European Central Bank's target as the economy recovers slowly
+• The World Economic Forum chief [resigned over](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) ties to Jeffrey Epstein, the latest fallout from the financier's sprawling network of elite connections.
+
+• U.S. mortgage rates fell [below 6%](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) for the first time in years, potentially giving the housing market its first real boost in a while.
+
+• Elon Musk is building a [secret web](https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html) of companies in Texas, part of his broader vision of what he calls "sustainable abundance."
+
+• South Korea finally [cleared the way](https://www.nytimes.com/2026/02/27/world/asia/google-maps-south-korea.html) for Google Maps to operate fully there, ending years of national security restrictions.
 
 **Around the World**
 
-- **Latin America:** Argentina's $40 billion [copper boom](https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law) hinges on Javier Milei loosening glacier protection laws, Bloomberg reports, setting up a battle with environmental groups
+• **Latin America**: Argentina is [pushing through](https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law) changes to its strict glacier protection laws to unlock a potential $40 billion copper boom, according to Bloomberg, though environmental groups are fighting back hard.
 
-- **Europe:** Spain's main opposition party wants [Juan Carlos](https://www.bbc.com/news/articles/cy03yw2dyxko) to return from exile, saying the disgraced 88-year-old former king should spend his final years "in dignity" despite the corruption scandals
+• **Europe**: Spain's main opposition party is [calling for](https://www.bbc.com/news/articles/cy03yw2dyxko) disgraced former King Juan Carlos to return from exile, saying the 88-year-old should spend his final years with dignity at home.
 
-- **Asia:** South Korea finally [cleared the way](https://www.nytimes.com/2026/02/27/world/asia/google-maps-south-korea.html) for Google Maps to operate fully in the country, ending years of restrictions due to security concerns about North Korea
+• **Asia**: Besides the Pakistan-Afghanistan crisis, India's economy is [surging ahead](https://www.nytimes.com/2026/02/27/business/india-economy-gdp.html) to become one of the world's largest, a remarkable transformation that's reshaping global trade patterns.
 
-- **Middle East:** Iran and the U.S. are holding [new nuclear talks](https://www.nytimes.com/2026/02/26/world/middleeast/iran-us-talks.html) in Oman, though a marathon session yesterday produced no breakthrough as American forces deploy across the region
+• **Middle East**: Iran-U.S. nuclear talks in Oman are [making progress](https://www.nytimes.com/2026/02/26/world/middleeast/iran-us-talks.html) but still haven't produced a breakthrough, even as both sides cite momentum from their marathon negotiating sessions.
 
-- **Africa:** Fifteen South Africans who were [duped into fighting](https://www.nytimes.com/2026/02/26/world/africa/russia-ukraine-south-africa-fighters.html) for Russia in Ukraine have returned home.
+• **Africa**: Nigerian billionaire Aliko Dangote is [trading glamour](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) for industrial ambition, pushing a massive refinery project he hopes will transform Nigeria's economy and reduce its dependence on fuel imports.
