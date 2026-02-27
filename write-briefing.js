@@ -93,6 +93,102 @@ async function callClaude(prompt) {
 }
 
 // ============================================
+// LINK DIVERSITY CODE GATE
+// Ported from russell-briefing/write-briefing.js.
+// After the Writer returns a draft, checks if any single domain exceeds
+// 30% of all links. If so, does ONE retry with explicit feedback telling
+// the Writer which domains to diversify. This is a safety net — the prompt
+// rule should prevent most violations, but LLMs are unreliable self-checkers.
+// ============================================
+
+function analyzeLinkDiversity(markdown) {
+  // Extract all markdown links: [text](url)
+  const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+  const domains = {};
+  let total = 0;
+  let match;
+
+  while ((match = linkRegex.exec(markdown)) !== null) {
+    try {
+      const hostname = new URL(match[2]).hostname.replace(/^www\./, '');
+      domains[hostname] = (domains[hostname] || 0) + 1;
+      total++;
+    } catch (e) { /* skip malformed URLs */ }
+  }
+
+  return { domains, total };
+}
+
+async function enforceLinkDiversity(draft, originalPrompt) {
+  const { domains, total } = analyzeLinkDiversity(draft);
+  const MAX_SHARE = 0.30;
+
+  if (total === 0) return draft; // no links to check
+
+  // Find domains that exceed 30%
+  const violations = [];
+  for (const [domain, count] of Object.entries(domains)) {
+    const share = count / total;
+    if (share > MAX_SHARE) {
+      violations.push({ domain, count, share: (share * 100).toFixed(0) });
+    }
+  }
+
+  // Log the distribution either way
+  console.log(`\nLink diversity check (${total} links):`);
+  const sorted = Object.entries(domains).sort((a, b) => b[1] - a[1]);
+  for (const [domain, count] of sorted) {
+    const pct = ((count / total) * 100).toFixed(0);
+    const flag = (count / total) > MAX_SHARE ? ' ⚠ OVER 30%' : '';
+    console.log(`  ${domain}: ${count}/${total} (${pct}%)${flag}`);
+  }
+
+  if (violations.length === 0) {
+    console.log('  ✓ Diversity check passed');
+    return draft;
+  }
+
+  // Build targeted retry prompt
+  const violationDesc = violations
+    .map(v => `${v.domain} has ${v.count}/${total} links (${v.share}%)`)
+    .join(', ');
+  const otherSources = ['apnews.com', 'reuters.com', 'bbc.com', 'bloomberg.com', 'theguardian.com', 'aljazeera.com']
+    .filter(d => !violations.some(v => v.domain.includes(d.replace('.com', ''))))
+    .join(', ');
+
+  console.log(`\n  ⚠ Diversity violation: ${violationDesc}`);
+  console.log('  Retrying with diversity feedback...');
+
+  // news-briefing uses a single combined prompt (no separate system prompt),
+  // so we append diversity feedback directly to the original prompt string.
+  const diversityFeedback = `\n\nIMPORTANT CORRECTION: Your previous draft violated the link diversity rule. ${violationDesc}. No single domain should exceed 30% of links. In Around the World, at least 2 bullets must use non-NYT sources. The story data includes wire stories from ${otherSources} — actively use them. Rewrite the briefing now.`;
+
+  try {
+    const retryDraft = await callClaude(originalPrompt + diversityFeedback);
+
+    // Check if retry actually improved things
+    const retry = analyzeLinkDiversity(retryDraft);
+    const stillBad = Object.entries(retry.domains).some(([_, c]) => c / retry.total > MAX_SHARE);
+
+    if (stillBad) {
+      console.log('  ⚠ Retry still has diversity issues — using retry anyway (closer to target)');
+    } else {
+      console.log('  ✓ Retry passed diversity check');
+    }
+
+    // Log retry distribution
+    for (const [domain, count] of Object.entries(retry.domains).sort((a, b) => b[1] - a[1])) {
+      console.log(`  ${domain}: ${count}/${retry.total} (${((count / retry.total) * 100).toFixed(0)}%)`);
+    }
+
+    return retryDraft;
+  } catch (e) {
+    console.warn('  Diversity retry failed — using original draft:', e.message);
+    return draft;
+  }
+}
+
+// ============================================
 // CROSS-SOURCE LEAD ANALYSIS
 // ============================================
 
@@ -325,6 +421,46 @@ async function main() {
     filteredByRegion[r] = filterRecent(byRegion[r], 24);
   });
 
+  // ---- Merge wire stories into regional buckets ----
+  // The Writer defaults to NYT data for "Around the World" because byRegion is
+  // neatly organized by region. Wire stories (AP, Reuters, BBC, Bloomberg) are
+  // passed separately and get ignored, causing all-NYT link patterns that fail
+  // the link diversity validator (Check 1: min 2 non-NYT in Around the World).
+  //
+  // Fix: tag wire stories with approximate regions via keyword matching and
+  // inject them into filteredByRegion so the Writer has non-NYT options per region.
+  const REGION_KEYWORDS = {
+    'Latin America': ['brazil', 'mexico', 'colombia', 'venezuela', 'argentina', 'chile', 'peru', 'cuba', 'caribbean', 'latin america', 'south america', 'central america', 'lula', 'milei', 'bogota', 'buenos aires', 'lima', 'santiago', 'panama', 'ecuador', 'bolivia', 'honduras', 'guatemala', 'nicaragua', 'el salvador', 'haiti', 'dominican'],
+    'Europe': ['france', 'germany', 'uk', 'britain', 'london', 'paris', 'berlin', 'eu ', 'european union', 'nato', 'ukraine', 'russia', 'moscow', 'kyiv', 'poland', 'spain', 'italy', 'macron', 'scholz', 'starmer', 'brussels', 'rome', 'madrid', 'portugal', 'sweden', 'norway', 'finland', 'denmark', 'netherlands', 'belgium', 'czech', 'romania', 'hungary', 'greece', 'serbia', 'kosovo', 'moldova', 'baltic', 'zelensky', 'putin'],
+    'Asia': ['china', 'japan', 'korea', 'india', 'taiwan', 'beijing', 'tokyo', 'delhi', 'modi', 'xi jinping', 'asean', 'south china sea', 'pacific', 'indonesia', 'philippines', 'singapore', 'vietnam', 'thailand', 'myanmar', 'bangladesh', 'pakistan', 'afghanistan', 'sri lanka', 'nepal', 'cambodia', 'laos', 'malaysia', 'australia', 'new zealand', 'hong kong'],
+    'Middle East': ['israel', 'gaza', 'iran', 'saudi', 'iraq', 'syria', 'lebanon', 'hamas', 'hezbollah', 'netanyahu', 'tehran', 'middle east', 'yemen', 'houthi', 'west bank', 'palestinian', 'jordan', 'qatar', 'uae', 'dubai', 'bahrain', 'oman', 'kuwait', 'turkey', 'ankara', 'erdogan', 'kurdish'],
+    'Africa': ['africa', 'nigeria', 'kenya', 'south africa', 'ethiopia', 'sudan', 'congo', 'sahel', 'morocco', 'egypt', 'cairo', 'african union', 'tunisia', 'algeria', 'libya', 'somalia', 'uganda', 'tanzania', 'mozambique', 'ghana', 'senegal', 'mali', 'niger', 'chad', 'rwanda', 'zimbabwe']
+  };
+
+  let wireStoriesInjected = 0;
+  for (const [sourceName, stories] of Object.entries(filteredWire)) {
+    for (const story of stories) {
+      const text = ((story.title || story.headline || '') + ' ' + (story.description || '')).toLowerCase();
+      for (const [region, keywords] of Object.entries(REGION_KEYWORDS)) {
+        if (keywords.some(kw => text.includes(kw))) {
+          if (!filteredByRegion[region]) filteredByRegion[region] = [];
+          // Inject with wire flag so the prompt can identify non-NYT options
+          filteredByRegion[region].push({
+            ...story,
+            source: `${story.source || sourceName} (wire)`,
+            isWire: true
+          });
+          wireStoriesInjected++;
+          break; // First region match wins — avoid double-counting
+        }
+      }
+      // Stories that don't match any region stay in the flat WIRE SERVICES section
+    }
+  }
+  if (wireStoriesInjected > 0) {
+    console.log(`  Injected ${wireStoriesInjected} wire stories into regional buckets`);
+  }
+
   const condensed = {
     lead: briefing.nyt.lead,
     live: briefing.nyt.live.slice(0, 3),
@@ -409,6 +545,12 @@ LINKS (CRITICAL):
 ATTRIBUTION:
 - For non-NYT stories, vary your attribution language: "Reuters reports", "according to Bloomberg", "the BBC notes", "per AP" (use "per X" only once in the entire briefing)
 - Don't over-attribute - if it's clearly sourced from the link, you don't always need to say where it came from
+- ATTRIBUTION-URL BINDING: When you attribute a story, the source name MUST match the domain of the URL you link. If you link apnews.com, write "AP" not "Reuters". Each story in the data has a "source" field — use it.
+
+AROUND THE WORLD LINK DIVERSITY (CRITICAL):
+- At least 2 of the 5 regional bullets MUST link to non-NYT sources (AP, Reuters, BBC, Bloomberg, etc.).
+- Wire stories are included in the STORIES BY REGION data below — look for items with "(wire)" in the source field. Use them.
+- If the data for a region only has NYT links, check WIRE SERVICES for a story from that region to use instead.
 
 Here's the data:
 
@@ -421,7 +563,7 @@ ${JSON.stringify(condensed.live, null, 2)}
 TOP HEADLINES:
 ${JSON.stringify(condensed.primary, null, 2)}
 
-STORIES BY REGION (use these for Around the World section):
+STORIES BY REGION (for Around the World — includes NYT + wire stories; use at least 2 non-NYT):
 ${JSON.stringify(condensed.byRegion, null, 2)}
 
 WIRE SERVICES:
@@ -436,9 +578,12 @@ Write the briefing now. Keep it concise but comprehensive.`;
   const startTime = Date.now();
 
   try {
-    const briefingText = await callClaude(prompt);
+    let briefingText = await callClaude(prompt);
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
     console.log(`Claude responded in ${elapsed}s`);
+
+    // Run link diversity code gate — retries once if any domain > 30%
+    briefingText = await enforceLinkDiversity(briefingText, prompt);
 
     // Save markdown
     fs.writeFileSync('briefing.md', briefingText);
