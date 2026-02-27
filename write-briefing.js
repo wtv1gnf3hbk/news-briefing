@@ -610,6 +610,9 @@ Write the briefing now. Keep it concise but comprehensive.`;
     fs.writeFileSync('briefing.md', briefingText);
     console.log('Saved briefing.md');
 
+    // ISO date for feedback widget
+    const isoDate = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
+
     // Also save as HTML snippet for easy embedding
     const htmlContent = `<!DOCTYPE html>
 <html lang="en">
@@ -648,6 +651,17 @@ Write the briefing now. Keep it concise but comprehensive.`;
     }
     a:hover { text-decoration-color: #333; }
     strong { font-weight: 600; }
+    /* Feedback section */
+    .feedback-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e0e0e0; text-align: center; }
+    .feedback-prompt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; color: #666; margin-bottom: 12px; }
+    .feedback-buttons { display: flex; justify-content: center; gap: 12px; margin-bottom: 12px; }
+    .feedback-btn { font-size: 1.4rem; padding: 8px 16px; border: 1px solid #ddd; border-radius: 8px; background: transparent; cursor: pointer; transition: background 0.15s; }
+    .feedback-btn:hover { background: #f0f0f0; }
+    .feedback-btn.selected { background: #e8e8e8; border-color: #999; }
+    .feedback-textarea { display: none; width: 100%; max-width: 480px; margin: 12px auto; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.9rem; resize: vertical; }
+    .feedback-submit { display: none; margin: 8px auto; padding: 6px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer; }
+    .feedback-submit:hover { background: #e8e8e8; }
+    .feedback-thanks { display: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; color: #666; margin-top: 8px; }
   </style>
 </head>
 <body>
@@ -713,6 +727,66 @@ ${briefingText
   })
   .join('\n')}
   </div>
+
+  <div class="feedback-section" id="feedback-section" data-date="${isoDate}">
+    <div class="feedback-prompt">How was today's briefing?</div>
+    <div class="feedback-buttons" id="feedback-buttons">
+      <button class="feedback-btn" data-reaction="thumbsup" onclick="selectReaction(this)">&#x1F44D;</button>
+      <button class="feedback-btn" data-reaction="thumbsdown" onclick="selectReaction(this)">&#x1F44E;</button>
+    </div>
+    <textarea class="feedback-textarea" id="feedback-comment" placeholder="Optional: tell us more..." rows="3"></textarea>
+    <button class="feedback-submit" id="feedback-submit" onclick="submitFeedback()">Send</button>
+    <div class="feedback-thanks" id="feedback-thanks">Thanks for the feedback!</div>
+  </div>
+
+  <script>
+    var FEEDBACK_URL = 'https://briefing-refresh.adampasick.workers.dev/feedback';
+    var selectedReaction = null;
+
+    (function() {
+      var dateKey = document.getElementById('feedback-section').dataset.date;
+      if (localStorage.getItem('feedback-sent-' + dateKey)) {
+        document.getElementById('feedback-buttons').style.display = 'none';
+        document.querySelector('.feedback-prompt').style.display = 'none';
+        document.getElementById('feedback-thanks').style.display = 'block';
+        document.getElementById('feedback-thanks').textContent = 'Feedback sent \\u2014 thank you!';
+      }
+    })();
+
+    function selectReaction(btn) {
+      document.querySelectorAll('.feedback-btn').forEach(function(b) { b.classList.remove('selected'); });
+      btn.classList.add('selected');
+      selectedReaction = btn.dataset.reaction;
+      document.getElementById('feedback-comment').style.display = 'block';
+      document.getElementById('feedback-submit').style.display = 'block';
+    }
+
+    async function submitFeedback() {
+      if (!selectedReaction) return;
+      var comment = document.getElementById('feedback-comment').value.trim();
+      var dateKey = document.getElementById('feedback-section').dataset.date;
+      var submitBtn = document.getElementById('feedback-submit');
+      submitBtn.textContent = 'Sending...';
+      submitBtn.disabled = true;
+      try {
+        var res = await fetch(FEEDBACK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ reaction: selectedReaction, comment: comment || '', briefingDate: dateKey })
+        });
+        if (!res.ok) throw new Error('Server error');
+        document.getElementById('feedback-buttons').style.display = 'none';
+        document.getElementById('feedback-comment').style.display = 'none';
+        document.getElementById('feedback-submit').style.display = 'none';
+        document.querySelector('.feedback-prompt').style.display = 'none';
+        document.getElementById('feedback-thanks').style.display = 'block';
+        localStorage.setItem('feedback-sent-' + dateKey, '1');
+      } catch (e) {
+        submitBtn.textContent = 'Error \\u2014 try again';
+        submitBtn.disabled = false;
+      }
+    }
+  </script>
 </body>
 </html>`;
 
