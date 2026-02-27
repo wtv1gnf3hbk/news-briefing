@@ -1,22 +1,24 @@
 Good morning. Here's the state of play:
 
-The Justice Department made a major blunder in the Jeffrey Epstein case, [accidentally exposing](https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html) cooperating witnesses in court filings through faulty redactions. The error puts witnesses at potential risk and adds another layer of controversy to a case that continues to ripple through elite circles years after Epstein's death. Meanwhile, Hillary Clinton is facing her own [Epstein-related questioning](https://www.nytimes.com/live/2026/02/26/us/trump-iran-epstein-clinton) in a House deposition, with Democrats rallying to her defense as she denies knowledge of any crimes.
+Pakistan has declared ["open war"](https://www.bbc.com/news/articles/cvgjd7pv4y4o) on Afghanistan after launching what it calls "counter strikes" on Kabul and Kandahar. The BBC reports the attacks came after months of escalating tensions between the neighbors, despite a fragile ceasefire agreed to in October. Pakistan's defense minister used the dramatic language as the country carried out some of its most significant cross-border operations yet.
 
-The fallout is spreading beyond American politics. The [World Economic Forum chief](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) resigned over Epstein ties, while a separate investigation revealed how [one Epstein associate](https://www.nytimes.com/2026/02/26/business/jeffrey-epstein-joichi-ito-japan.html) managed to rebuild his career in Japan's tech scene. It's a reminder of how Epstein's network stretched globally and continues to surface in unexpected places.
+The timing couldn't be worse for regional stability. The strikes represent the most serious escalation between Pakistan and the Taliban government since the latter took power, and they're happening as the U.S. is already [deploying forces](https://apnews.com/article/iran-us-talks-oman-nuclear-protests-e5fce5e891243b7651cf76d8211f78ae) across the Middle East for potential conflict with Iran. Meanwhile, Britain is dealing with its own political upheaval after the Green Party scored a stunning [upset victory](https://www.nytimes.com/2026/02/26/world/europe/gorton-denton-result-green-party-labour.html) in a special election, pushing Labour to third place in what was considered a safe seat.
 
 **Business/Tech**
-• [Mortgage rates dropped](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) below 6% for the first time in years, potentially giving the housing market its biggest boost since the pandemic started
-• Reuters reports that Fed rate cut expectations are [pulling back sharply](https://www.reuters.com/business/odds-early-warsh-led-fed-rate-cuts-slide-with-bullish-outlook-2026-02-26/) following stronger-than-expected economic signals from the incoming Warsh administration
-• The smartphone market is heading for its [worst year ever](https://www.reuters.com/business/media-telecom/smartphone-market-set-biggest-ever-decline-2026-memory-price-surge-idc-says-2026-02-26/) in 2026, according to IDC, as memory chip price surges make devices increasingly expensive
-• Tech companies are grappling with whether they have a [duty to warn](https://www.nytimes.com/2026/02/26/technology/chatbots-duty-warn-police.html) authorities when their AI chatbots are used to plan violence
+
+- The [World Economic Forum](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) chief resigned over Jeffrey Epstein ties, the latest fallout from the financier's network reaching into elite circles
+- U.S. [mortgage rates](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) dropped below 6% for the first time in years, potentially giving the housing market some relief
+- Target is [removing synthetic](https://www.reuters.com/business/healthcare-pharmaceuticals/target-remove-synthetic-color-cereals-by-may-end-2026-02-27/) colors from its cereals by May, according to Reuters, following broader consumer health trends
+- German [inflation eased](https://www.bloomberg.com/news/articles/2026-02-27/german-inflation-eases-to-2-as-economic-recovery-starts-slowly) to exactly 2% in February, Bloomberg reports, hitting the European Central Bank's target as the economy recovers slowly
 
 **Around the World**
-• **Latin America**: [Venezuela's capital](https://www.nytimes.com/2026/02/26/world/americas/caracas-venezuela-economy.html) is showing unexpected signs of economic life after years of collapse, though it's unclear whether this represents genuine recovery or just temporary stabilization
 
-• **Europe**: A German court [temporarily lifted](https://www.nytimes.com/2026/02/26/world/europe/germany-ruling-afd-extremist.html) the extremist designation for the far-right AfD party, a legal victory that could boost the party's standing ahead of federal elections
+- **Latin America:** Argentina's $40 billion [copper boom](https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law) hinges on Javier Milei loosening glacier protection laws, Bloomberg reports, setting up a battle with environmental groups
 
-• **Asia**: An anonymous donor in Japan sent [21 gold bars](https://www.nytimes.com/2026/02/26/world/asia/osaka-water-pipes-gold-bars.html) to a cash-strapped city with a note instructing officials to fix their water infrastructure, sparking a nationwide mystery
+- **Europe:** Spain's main opposition party wants [Juan Carlos](https://www.bbc.com/news/articles/cy03yw2dyxko) to return from exile, saying the disgraced 88-year-old former king should spend his final years "in dignity" despite the corruption scandals
 
-• **Middle East**: The BBC reports that [US-Iran nuclear talks](https://www.bbc.com/news/articles/cvg1vd95nl9o) wrapped up their third round in Geneva with mediators citing "significant progress," though both sides remain cautious about breakthrough prospects
+- **Asia:** South Korea finally [cleared the way](https://www.nytimes.com/2026/02/27/world/asia/google-maps-south-korea.html) for Google Maps to operate fully in the country, ending years of restrictions due to security concerns about North Korea
 
-• **Africa**: The BBC notes that a Kenyan man was [charged with recruiting](https://www.bbc.com/news/articles/cx2g79kpe2po) young Kenyans to fight for Russia in Ukraine, part of what investigators say is a broader network that has lured 1,000 Kenyans into the conflict
+- **Middle East:** Iran and the U.S. are holding [new nuclear talks](https://www.nytimes.com/2026/02/26/world/middleeast/iran-us-talks.html) in Oman, though a marathon session yesterday produced no breakthrough as American forces deploy across the region
+
+- **Africa:** Fifteen South Africans who were [duped into fighting](https://www.nytimes.com/2026/02/26/world/africa/russia-ukraine-south-africa-fighters.html) for Russia in Ukraine have returned home.
