@@ -415,6 +415,27 @@ async function main() {
     bloomberg: filterRecent(briefing.secondary.bloomberg || [], 24).slice(0, 3)
   };
 
+  // Strip stories with unresolved Google News redirect URLs.
+  // When Puppeteer fails to launch (common in CI), the URL resolver returns
+  // empty and these stories keep their news.google.com/rss/articles/... URLs.
+  // Readers can't open those links, and validate-draft.js flags them as errors.
+  // Better to drop them from the data so the Writer can't use them.
+  function stripGoogleNewsUrls(storyList) {
+    const before = storyList.length;
+    const clean = storyList.filter(s => {
+      const url = s.link || s.url || '';
+      return !url.includes('news.google.com/rss/articles/');
+    });
+    const dropped = before - clean.length;
+    if (dropped > 0) console.log(`  Dropped ${dropped} stories with unresolved Google News URLs`);
+    return clean;
+  }
+
+  // Apply to all wire sources
+  for (const [src, stories] of Object.entries(filteredWire)) {
+    filteredWire[src] = stripGoogleNewsUrls(stories);
+  }
+
   // Also filter byRegion stories — NYT section pages sometimes carry pubDate
   const filteredByRegion = {};
   regions.forEach(r => {
