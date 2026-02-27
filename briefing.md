@@ -1,29 +1,27 @@
 Good morning. Here's the state of play:
 
-The Trump administration is framing its foreign policy around what it calls "resurrecting empire" — a sweeping vision that's putting allies on edge and reshaping decades of diplomatic norms. Trump's [foreign policy approach](https://www.nytimes.com/2026/02/27/us/politics/trump-rubio-foreign-policy-empire.html) centers on projecting American dominance more aggressively, while his administration makes increasingly bold claims about adversaries like Iran that fact-checkers are finding [difficult to substantiate](https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html).
+The biggest geopolitical story today is Pakistan declaring ["open war"](https://www.nytimes.com/2026/02/27/world/asia/afghanistan-pakistan-taliban-airstrikes.html) on Afghanistan after launching airstrikes on Kabul and Kandahar. Pakistan's defense minister says the operation is continuing following what Islamabad called large-scale Afghan attacks on its territory. The escalation between the two neighbors has both militaries on high alert and represents a serious deterioration in an already tense relationship.
 
-The stakes are becoming real fast. The U.S. is now telling embassy staff they can [leave Israel](https://www.nytimes.com/2026/02/27/world/middleeast/us-embassy-jerusalem-authorized-departure.html) as tensions with Iran escalate, while military analysts are questioning whether Israel has enough [missile interceptors](https://www.nytimes.com/2026/02/27/world/middleeast/israel-stockpile-missile-interceptors.html) to handle a broader conflict. Meanwhile, Pakistan has declared "open war" on Afghanistan's Taliban government after launching cross-border strikes, creating another major crisis point.
-
-The European response has been notably measured. Finland's president is urging calm as other NATO allies worry about [ruptures with](https://www.nytimes.com/2026/02/27/world/europe/finland-alexander-stubb-nato-trump.html) the U.S., while Hungary's Viktor Orban is using the chaos to position himself as a [spoiler within](https://www.nytimes.com/2026/02/27/world/europe/hungary-orban-europe.html) the EU ahead of his own elections.
+Meanwhile, diplomatic evacuations are accelerating as U.S.-Iran tensions spike. The State Department has authorized [non-emergency staff](https://www.nytimes.com/2026/02/27/world/middleeast/us-embassy-jerusalem-authorized-departure.html) at the Jerusalem embassy to leave Israel, while the UK is [withdrawing personnel](https://www.bbc.com/news/articles/c309vz0z893o?at_medium=RSS&at_campaign=rss) from Tehran, according to the BBC. Israel is also grappling with [depleted missile defenses](https://www.nytimes.com/2026/02/27/world/middleeast/israel-stockpile-missile-interceptors.html) as the prospect of a larger regional conflict looms. Trump's administration has been building a case for military action against Iran, though fact-checkers have found [several claims](https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html) in that argument to be false or unproven.
 
 **Business/Tech**
 
-- The World Economic Forum's chief resigned over ties to Jeffrey Epstein.
+- Netflix has [backed out](https://www.nytimes.com/2026/02/26/business/warner-bros-discovery-paramount-deal-netflix.html) of bidding for Warner Bros. Discovery, clearing the path for Paramount to pursue its takeover of the media giant in what could reshape Hollywood's streaming landscape.
 
-- U.S. mortgage rates dropped [below 6%](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) for the first time in years, potentially signaling a shift in the housing market as the Fed's policy changes take effect
+- The World Economic Forum's chief executive resigned following revelations about his ties to Jeffrey Epstein, marking another [high-profile departure](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) connected to the disgraced financier's network.
 
-- Elon Musk has built a [secret network](https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html) of companies in Texas while promoting his theory of "sustainable abundance" — the idea that technology will eventually make [everything free](https://www.nytimes.com/2026/02/27/business/a-world-where-all-is-free-thats-elon-musks-theory-of-sustainable-abundance.html)
+- Mexico's state oil company Pemex posted a [$2.6 billion](https://www.bloomberg.com/news/articles/2026-02-27/pemex-annual-loss-reaches-2-6-billion-despite-state-support) annual loss despite massive government support, Bloomberg reports, raising questions about President Sheinbaum's bailout strategy.
 
-- JPMorgan is [taking profits](https://news.google.com/rss/articles/CBMimAFBVV95cUxQeE5rdEdEbTZuQ1hoNUdfa0R6OGltMkxrSkV5MmZhVVFhRnNHRFl6OWJSb2xiUXhzUjh3Y3VYSlVHN0ZMZjFqQlp5SE55OENJbzBDRHM4dHVlTXROYzJ4eTYydmRHMTNlWVk2SXB) on the Chinese yuan rally, Reuters reports, as currency markets continue their volatile start to 2026
+- South Korea has [cleared the way](https://www.nytimes.com/2026/02/27/world/asia/google-maps-south-korea.html) for Google Maps to operate fully in the country, ending years of restrictions tied to national security concerns about detailed mapping data.
 
 **Around the World**
 
-- **Latin America**: Argentina's Javier Milei is pushing to unlock a [$40 billion boom](https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law) in copper mining by revamping strict glacier protection laws, Bloomberg reports, setting up a major fight with environmental groups
+- **Latin America**: A bizarre incident involving [stolen boats](https://www.nytimes.com/2026/02/26/world/americas/cuba-gunfight-boat-miami.html) and a deadly gunfight has sparked new tensions between Cuba and Miami-based exile groups, with Cuban officials alleging a U.S.-backed plot.
 
-- **Europe**: Russians are [shivering through](https://www.nytimes.com/2026/02/27/world/europe/russia-blackouts-heating-breakdowns.html) widespread heating and power failures as the war drains resources from already underfunded infrastructure systems
+- **Europe**: Sweden's prime minister says a [drone jammed](https://www.bbc.com/news/articles/c1mj3e2nz8ko?at_medium=RSS&at_campaign=rss) near a French aircraft carrier was "probably Russian," calling it a serious incident that fits Moscow's pattern of provocative behavior, the BBC notes.
 
-- **Asia**: Pakistan's defense minister says the country is in [open war](https://www.bbc.com/news/articles/cvgjd7pv4y4o) with Afghanistan after launching strikes across the border, the BBC reports, marking the most serious escalation between the neighbors in years
+- **Asia**: An Australian supermarket chain has had to [tweak its](https://www.bbc.com/news/articles/cy7jeyeyd18o?at_medium=RSS&at_campaign=rss) AI-powered chatbot after customers complained it was "obnoxious" and talked about having a mother, according to the BBC.
 
-- **Middle East**: A phone call from Trump has ignited a [bitter feud](https://www.nytimes.com/2026/02/27/world/middleeast/saudi-arabia-united-arab-emirates-feud-trump-call.html) between Saudi Arabia and the UAE, two key U.S. allies whose relationship was already strained
+- **Middle East**: A phone call from Trump has ignited a [bitter feud](https://www.nytimes.com/2026/02/27/world/middleeast/saudi-arabia-united-arab-emirates-feud-trump-call.html) between Saudi Arabia and the UAE, two longtime U.S. allies whose relationship is crucial for regional stability.
 
-- **Africa**: Fifteen South Africans who were duped into fighting for Russia in Ukraine have [returned home](https://www.nytimes.com/2026/02/26/world/africa/russia-ukraine-south-africa-fighters.html).
+- **Africa**: Nigerian billionaire Aliko Dangote is [trading glamour](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) for an industrial mission to transform his country's economy through Africa's largest oil refinery, despite facing significant regulatory hurdles.

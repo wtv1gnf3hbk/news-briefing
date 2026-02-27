@@ -35,10 +35,21 @@
     }
     a:hover { text-decoration-color: #333; }
     strong { font-weight: 600; }
+    /* Feedback section */
+    .feedback-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e0e0e0; text-align: center; }
+    .feedback-prompt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; color: #666; margin-bottom: 12px; }
+    .feedback-buttons { display: flex; justify-content: center; gap: 12px; margin-bottom: 12px; }
+    .feedback-btn { font-size: 1.4rem; padding: 8px 16px; border: 1px solid #ddd; border-radius: 8px; background: transparent; cursor: pointer; transition: background 0.15s; }
+    .feedback-btn:hover { background: #f0f0f0; }
+    .feedback-btn.selected { background: #e8e8e8; border-color: #999; }
+    .feedback-textarea { display: none; width: 100%; max-width: 480px; margin: 12px auto; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.9rem; resize: vertical; }
+    .feedback-submit { display: none; margin: 8px auto; padding: 6px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer; }
+    .feedback-submit:hover { background: #e8e8e8; }
+    .feedback-thanks { display: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.85rem; color: #666; margin-top: 8px; }
   </style>
 </head>
 <body>
-  <div class="timestamp">Generated Friday, February 27, 2026 at 8:18 AM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
+  <div class="timestamp">Generated Friday, February 27, 2026 at 11:04 AM ET · <a href="#" onclick="refreshBriefing(event); return false;">Refresh</a></div>
   <script>
     async function refreshBriefing(e) {
       var link = e.target;
@@ -81,23 +92,83 @@
   </script>
 
   <div id="content">
-<p>Good morning. Here's the state of play:</p><p>The Trump administration is framing its foreign policy around what it calls "resurrecting empire" — a sweeping vision that's putting allies on edge and reshaping decades of diplomatic norms. Trump's <a href="https://www.nytimes.com/2026/02/27/us/politics/trump-rubio-foreign-policy-empire.html" target="_blank">foreign policy approach</a> centers on projecting American dominance more aggressively, while his administration makes increasingly bold claims about adversaries like Iran that fact-checkers are finding <a href="https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html" target="_blank">difficult to substantiate</a>.</p><p>The stakes are becoming real fast. The U.S. is now telling embassy staff they can <a href="https://www.nytimes.com/2026/02/27/world/middleeast/us-embassy-jerusalem-authorized-departure.html" target="_blank">leave Israel</a> as tensions with Iran escalate, while military analysts are questioning whether Israel has enough <a href="https://www.nytimes.com/2026/02/27/world/middleeast/israel-stockpile-missile-interceptors.html" target="_blank">missile interceptors</a> to handle a broader conflict. Meanwhile, Pakistan has declared "open war" on Afghanistan's Taliban government after launching cross-border strikes, creating another major crisis point.</p><p>The European response has been notably measured. Finland's president is urging calm as other NATO allies worry about <a href="https://www.nytimes.com/2026/02/27/world/europe/finland-alexander-stubb-nato-trump.html" target="_blank">ruptures with</a> the U.S., while Hungary's Viktor Orban is using the chaos to position himself as a <a href="https://www.nytimes.com/2026/02/27/world/europe/hungary-orban-europe.html" target="_blank">spoiler within</a> the EU ahead of his own elections.</p><p><strong>Business/Tech</strong></p><p><ul><li>The World Economic Forum's chief resigned over ties to Jeffrey Epstein, adding to the <a href="https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html" target="_blank">ongoing fallout</a> from newly released FBI files that contain explosive but unverified claims about prominent figures</li></p>
+<p>Good morning. Here's the state of play:</p><p>The biggest geopolitical story today is Pakistan declaring <a href="https://www.nytimes.com/2026/02/27/world/asia/afghanistan-pakistan-taliban-airstrikes.html" target="_blank">"open war"</a> on Afghanistan after launching airstrikes on Kabul and Kandahar. Pakistan's defense minister says the operation is continuing following what Islamabad called large-scale Afghan attacks on its territory. The escalation between the two neighbors has both militaries on high alert and represents a serious deterioration in an already tense relationship.</p><p>Meanwhile, diplomatic evacuations are accelerating as U.S.-Iran tensions spike. The State Department has authorized <a href="https://www.nytimes.com/2026/02/27/world/middleeast/us-embassy-jerusalem-authorized-departure.html" target="_blank">non-emergency staff</a> at the Jerusalem embassy to leave Israel, while the UK is <a href="https://www.bbc.com/news/articles/c309vz0z893o?at_medium=RSS&at_campaign=rss" target="_blank">withdrawing personnel</a> from Tehran, according to the BBC. Israel is also grappling with <a href="https://www.nytimes.com/2026/02/27/world/middleeast/israel-stockpile-missile-interceptors.html" target="_blank">depleted missile defenses</a> as the prospect of a larger regional conflict looms. Trump's administration has been building a case for military action against Iran, though fact-checkers have found <a href="https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html" target="_blank">several claims</a> in that argument to be false or unproven.</p><p><strong>Business/Tech</strong></p><p><ul><li>Netflix has <a href="https://www.nytimes.com/2026/02/26/business/warner-bros-discovery-paramount-deal-netflix.html" target="_blank">backed out</a> of bidding for Warner Bros. Discovery, clearing the path for Paramount to pursue its takeover of the media giant in what could reshape Hollywood's streaming landscape.</li></p>
 </ul>
-<ul><li>U.S. mortgage rates dropped <a href="https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html" target="_blank">below 6%</a> for the first time in years, potentially signaling a shift in the housing market as the Fed's policy changes take effect</li>
+<ul><li>The World Economic Forum's chief executive resigned following revelations about his ties to Jeffrey Epstein, marking another <a href="https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html" target="_blank">high-profile departure</a> connected to the disgraced financier's network.</li>
 </ul>
-<ul><li>Elon Musk has built a <a href="https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html" target="_blank">secret network</a> of companies in Texas while promoting his theory of "sustainable abundance" — the idea that technology will eventually make <a href="https://www.nytimes.com/2026/02/27/business/a-world-where-all-is-free-thats-elon-musks-theory-of-sustainable-abundance.html" target="_blank">everything free</a></li>
+<ul><li>Mexico's state oil company Pemex posted a <a href="https://www.bloomberg.com/news/articles/2026-02-27/pemex-annual-loss-reaches-2-6-billion-despite-state-support" target="_blank">$2.6 billion</a> annual loss despite massive government support, Bloomberg reports, raising questions about President Sheinbaum's bailout strategy.</li>
 </ul>
-<ul><li>JPMorgan is <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQeE5rdEdEbTZuQ1hoNUdfa0R6OGltMkxrSkV5MmZhVVFhRnNHRFl6OWJSb2xiUXhzUjh3Y3VYSlVHN0ZMZjFqQlp5SE55OENJbzBDRHM4dHVlTXROYzJ4eTYydmRHMTNlWVk2SXB" target="_blank">taking profits</a> on the Chinese yuan rally, Reuters reports, as currency markets continue their volatile start to 2026</li>
+<ul><li>South Korea has <a href="https://www.nytimes.com/2026/02/27/world/asia/google-maps-south-korea.html" target="_blank">cleared the way</a> for Google Maps to operate fully in the country, ending years of restrictions tied to national security concerns about detailed mapping data.</li>
 </ul>
-<p><strong>Around the World</strong></p><p><ul><li><strong>Latin America</strong>: Argentina's Javier Milei is pushing to unlock a <a href="https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law" target="_blank">$40 billion boom</a> in copper mining by revamping strict glacier protection laws, Bloomberg reports, setting up a major fight with environmental groups</li></p>
+<p><strong>Around the World</strong></p><p><ul><li><strong>Latin America</strong>: A bizarre incident involving <a href="https://www.nytimes.com/2026/02/26/world/americas/cuba-gunfight-boat-miami.html" target="_blank">stolen boats</a> and a deadly gunfight has sparked new tensions between Cuba and Miami-based exile groups, with Cuban officials alleging a U.S.-backed plot.</li></p>
 </ul>
-<ul><li><strong>Europe</strong>: Russians are <a href="https://www.nytimes.com/2026/02/27/world/europe/russia-blackouts-heating-breakdowns.html" target="_blank">shivering through</a> widespread heating and power failures as the war drains resources from already underfunded infrastructure systems</li>
+<ul><li><strong>Europe</strong>: Sweden's prime minister says a <a href="https://www.bbc.com/news/articles/c1mj3e2nz8ko?at_medium=RSS&at_campaign=rss" target="_blank">drone jammed</a> near a French aircraft carrier was "probably Russian," calling it a serious incident that fits Moscow's pattern of provocative behavior, the BBC notes.</li>
 </ul>
-<ul><li><strong>Asia</strong>: Pakistan's defense minister says the country is in <a href="https://www.bbc.com/news/articles/cvgjd7pv4y4o" target="_blank">open war</a> with Afghanistan after launching strikes across the border, the BBC reports, marking the most serious escalation between the neighbors in years</li>
+<ul><li><strong>Asia</strong>: An Australian supermarket chain has had to <a href="https://www.bbc.com/news/articles/cy7jeyeyd18o?at_medium=RSS&at_campaign=rss" target="_blank">tweak its</a> AI-powered chatbot after customers complained it was "obnoxious" and talked about having a mother, according to the BBC.</li>
 </ul>
-<ul><li><strong>Middle East</strong>: A phone call from Trump has ignited a <a href="https://www.nytimes.com/2026/02/27/world/middleeast/saudi-arabia-united-arab-emirates-feud-trump-call.html" target="_blank">bitter feud</a> between Saudi Arabia and the UAE, two key U.S. allies whose relationship was already strained</li>
+<ul><li><strong>Middle East</strong>: A phone call from Trump has ignited a <a href="https://www.nytimes.com/2026/02/27/world/middleeast/saudi-arabia-united-arab-emirates-feud-trump-call.html" target="_blank">bitter feud</a> between Saudi Arabia and the UAE, two longtime U.S. allies whose relationship is crucial for regional stability.</li>
 </ul>
-<ul><li><strong>Africa</strong>: Fifteen South Africans who were duped into fighting for Russia in Ukraine have <a href="https://www.nytimes.com/2026/02/26/world/africa/russia-ukraine-south-africa-fighters.html" target="_blank">returned home</a>, highlighting how Moscow's recruitment efforts are reaching across continents</li></ul>
+<ul><li><strong>Africa</strong>: Nigerian billionaire Aliko Dangote is <a href="https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html" target="_blank">trading glamour</a> for an industrial mission to transform his country's economy through Africa's largest oil refinery, despite facing significant regulatory hurdles.</li></ul>
   </div>
+
+  <div class="feedback-section" id="feedback-section" data-date="2026-02-27">
+    <div class="feedback-prompt">How was today's briefing?</div>
+    <div class="feedback-buttons" id="feedback-buttons">
+      <button class="feedback-btn" data-reaction="thumbsup" onclick="selectReaction(this)">&#x1F44D;</button>
+      <button class="feedback-btn" data-reaction="thumbsdown" onclick="selectReaction(this)">&#x1F44E;</button>
+    </div>
+    <textarea class="feedback-textarea" id="feedback-comment" placeholder="Optional: tell us more..." rows="3"></textarea>
+    <button class="feedback-submit" id="feedback-submit" onclick="submitFeedback()">Send</button>
+    <div class="feedback-thanks" id="feedback-thanks">Thanks for the feedback!</div>
+  </div>
+
+  <script>
+    var FEEDBACK_URL = 'https://briefing-refresh.adampasick.workers.dev/feedback';
+    var selectedReaction = null;
+
+    (function() {
+      var dateKey = document.getElementById('feedback-section').dataset.date;
+      if (localStorage.getItem('feedback-sent-' + dateKey)) {
+        document.getElementById('feedback-buttons').style.display = 'none';
+        document.querySelector('.feedback-prompt').style.display = 'none';
+        document.getElementById('feedback-thanks').style.display = 'block';
+        document.getElementById('feedback-thanks').textContent = 'Feedback sent \u2014 thank you!';
+      }
+    })();
+
+    function selectReaction(btn) {
+      document.querySelectorAll('.feedback-btn').forEach(function(b) { b.classList.remove('selected'); });
+      btn.classList.add('selected');
+      selectedReaction = btn.dataset.reaction;
+      document.getElementById('feedback-comment').style.display = 'block';
+      document.getElementById('feedback-submit').style.display = 'block';
+    }
+
+    async function submitFeedback() {
+      if (!selectedReaction) return;
+      var comment = document.getElementById('feedback-comment').value.trim();
+      var dateKey = document.getElementById('feedback-section').dataset.date;
+      var submitBtn = document.getElementById('feedback-submit');
+      submitBtn.textContent = 'Sending...';
+      submitBtn.disabled = true;
+      try {
+        var res = await fetch(FEEDBACK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ reaction: selectedReaction, comment: comment || '', briefingDate: dateKey })
+        });
+        if (!res.ok) throw new Error('Server error');
+        document.getElementById('feedback-buttons').style.display = 'none';
+        document.getElementById('feedback-comment').style.display = 'none';
+        document.getElementById('feedback-submit').style.display = 'none';
+        document.querySelector('.feedback-prompt').style.display = 'none';
+        document.getElementById('feedback-thanks').style.display = 'block';
+        localStorage.setItem('feedback-sent-' + dateKey, '1');
+      } catch (e) {
+        submitBtn.textContent = 'Error \u2014 try again';
+        submitBtn.disabled = false;
+      }
+    }
+  </script>
 </body>
 </html>

@@ -1,29 +1,29 @@
 Good morning. Here's the state of play:
 
-Pakistan has declared ["open war"](https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan) on Afghanistan after launching airstrikes on Kabul and Kandahar, according to Al Jazeera. This marks a dramatic escalation in tensions between the nuclear-armed nation and the Taliban government next door. Pakistan's defense minister announced the "counter strikes" came in response to what they called large-scale Afghan attacks on Pakistani territory.
+The most striking development isn't coming from Washington today, but from the escalating crisis between Pakistan and Afghanistan. Pakistan's defense minister has declared ["open war"](https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan) on its neighbor after launching strikes on Kabul and Kandahar, according to Al Jazeera. This represents a dramatic escalation in tensions that have been simmering since last October, and it's putting additional strain on an already volatile region.
 
-The strikes push this regional crisis into genuinely dangerous territory. We're talking about a nuclear power going toe-to-toe with a battle-hardened Taliban regime that's been consolidating control since the U.S. withdrawal. The [attacks on Kabul](https://apnews.com/article/afghanistan-pakistan-airstrikes-open-war-98927b79ee9ef5741bf0804956d3c2e6) represent Pakistan's boldest military action against Afghanistan in years, per AP News.
+The timing couldn't be more precarious. The U.S. has just [authorized staff](https://www.nytimes.com/2026/02/27/world/middleeast/us-embassy-jerusalem-authorized-departure.html) to leave its embassy in Israel as tensions with Iran reach a boiling point. Multiple allied nations are now pulling diplomatic personnel from the Middle East as the prospect of broader conflict looms. It's a reminder of how quickly regional disputes can spiral when great power tensions are already running high.
 
-Back in Washington, the Trump administration is making its own aggressive moves. The [NYT reports](https://www.nytimes.com/2026/02/27/us/politics/trump-rubio-foreign-policy-empire.html) that Trump and Secretary of State Rubio are pursuing what they're calling a resurrection of American empire through foreign policy. This comes as the administration weighs military action against Iran, though the [NYT notes](https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html) Trump's case for war contains several false or unproven claims about Iran's nuclear program.
+Back home, there's a fascinating demographic story gaining attention. The U.S. birthrate continues its [steep decline](https://www.nytimes.com/2026/02/27/us/politics/us-birthrate-decline-women.html), but some experts are arguing this isn't the crisis politicians make it out to be. The debate touches on everything from economic pressures to women's autonomy, and it's likely to become a bigger political issue as the midterms approach.
 
 **Business/Tech**
 
-- The World Economic Forum's chief executive resigned over his ties to Jeffrey Epstein, according to the [NYT](https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html). It's another domino falling in the wave of resignations since the Epstein files became public.
+• Netflix just [backed out](https://www.nytimes.com/2026/02/26/business/warner-bros-discovery-paramount-deal-netflix.html) of its bid for Warner Bros., clearing the path for Paramount to potentially snap up the media giant. It's a rare retreat for the streaming behemoth and signals some interesting shifts in how these companies view growth strategies.
 
-- Paramount is set to complete an [$111 billion takeover](https://www.bbc.com/news/articles/c5y6p5ypgmzo) of Warner Bros after Netflix dropped its competing bid, the BBC reports. The deal would create a media giant to rival Disney and Amazon.
+• Elon Musk has built a [secret web](https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html) of shell companies across Texas, raising questions about transparency in his sprawling business empire. The revelation comes as he continues to consolidate power across multiple industries.
 
-- German [inflation fell](https://www.bloomberg.com/news/articles/2026-02-27/german-inflation-eases-to-2-as-economic-recovery-starts-slowly) to exactly 2% as Europe's largest economy shows early signs of recovery, Bloomberg reports.
+• The World Economic Forum's chief just [stepped down](https://www.bloomberg.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html) over ties to Jeffrey Epstein, according to Bloomberg, another aftershock from scandals that keep rippling through elite circles years later.
 
-- U.S. [mortgage rates](https://www.nytimes.com/2026/02/26/business/mortgage-rates-30-year.html) dropped below 6% for the first time in years, potentially giving the housing market its first real boost since the pandemic.
+• There's a growing [dispute](https://www.nytimes.com/2026/02/27/us/politics/anthropic-military-ai.html) between the Pentagon and AI company Anthropic as a key deadline approaches for military artificial intelligence contracts.
 
 **Around the World**
 
-- **Latin America**: Cuba shot at a boat carrying Americans in what appears to be a [botched plot](https://www.nytimes.com/2026/02/26/world/americas/cuba-gunfight-boat-miami.html) launched from Miami. The incident is fueling Trump administration talk about regime change in Havana.
+• **Latin America**: A bizarre incident off Cuba's coast is raising questions about potential plots against the island nation. A [stolen boat](https://www.nytimes.com/2026/02/26/world/americas/cuba-gunfight-boat-miami.html) and deadly gunfight have sparked investigations into what Cuban authorities claim was a planned incursion from Miami.
 
-- **Europe**: The Green Party delivered a shocking defeat to Labour in a UK special election, [winning the seat](https://www.theguardian.com/politics/2026/feb/27/green-party-wins-gorton-and-denton-byelection-in-blow-to-keir-starmer) and pushing Starmer's party to third place, the Guardian reports. It's a major blow to the Labour government.
+• **Europe**: Hungary's Viktor Orban is [playing spoiler](https://www.theguardian.com/2026/02/27/world/europe/hungary-orban-europe.html) again in EU politics, this time straining for votes at home by blocking European initiatives, according to The Guardian. It's a familiar pattern that's becoming increasingly costly for Brussels.
 
-- **Asia**: South Korea finally cleared the way for [Google Maps](https://www.nytimes.com/2026/02/27/world/asia/google-maps-south-korea.html) to operate fully in the country, ending years of restrictions over security concerns about mapping near the DMZ.
+• **Asia**: South Korea just [cleared the way](https://www.bbc.com/2026/02/27/world/asia/google-maps-south-korea.html) for Google Maps to operate fully in the country, ending years of restrictions tied to security concerns about North Korea, the BBC reports. The move reflects changing geopolitical calculations in Seoul.
 
-- **Middle East**: The U.S. is telling some embassy staff to [leave Israel](https://www.scmp.com/news/world/middle-east/article/3344925/us-tells-some-embassy-staff-leave-israel-iran-war-clouds-gather) as war clouds gather over potential strikes on Iran, SCMP reports. Iran and the U.S. just wrapped up another round of nuclear talks with no breakthrough.
+• **Middle East**: A single phone call from Trump has [ignited](https://www.nytimes.com/2026/02/27/world/middleeast/saudi-arabia-united-arab-emirates-feud-trump-call.html) a bitter feud between Saudi Arabia and the UAE, two key U.S. allies who are now at each other's throats over what was said and promised.
 
-- **Africa**: Nigeria's richest man is betting everything on [industrializing the country](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) through his massive new oil refinery. It's a test case for whether African billionaires can actually transform their economies.
+• **Africa**: Fifteen South Africans who were [deceived](https://www.nytimes.com/2026/02/26/world/africa/russia-ukraine-south-africa-fighters.html) into fighting for Russia in Ukraine have finally made it home.
