@@ -10,6 +10,11 @@
         "headline": "Bill Clinton Says He ‘Did Nothing Wrong’ in Epstein Inquiry Deposition",
         "url": "https://www.nytimes.com/live/2026/02/27/us/trump-bill-clinton-epstein",
         "source": "Live"
+      },
+      {
+        "headline": "Trump Says No Final Decision Made on Military Action Against Iran",
+        "url": "https://www.nytimes.com/live/2026/02/27/us/trump-bill-clinton-epstein#section-282793051",
+        "source": "Live"
       }
     ],
     "primary": [
@@ -39,18 +44,13 @@
         "source": "Homepage"
       },
       {
-        "headline": "Former Prince Andrew Arrested",
-        "url": "https://www.nytimes.com/2026/02/19/world/europe/andrew-mountbatten-windsor-arrest-epstein-explained.html",
+        "headline": "Hillary Clinton’s Deposition",
+        "url": "https://www.nytimes.com/2026/02/26/us/politics/hillary-clinton-epstein-deposition-lauren-boebert.html",
         "source": "Homepage"
       },
       {
-        "headline": "Latest Files Release",
-        "url": "https://www.nytimes.com/2026/01/30/us/what-to-know-epstein-files.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Culture of Silence",
-        "url": "https://www.nytimes.com/2026/02/17/well/epstein-files-associates.html",
+        "headline": "Cooperating Witnesses Exposed",
+        "url": "https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html",
         "source": "Homepage"
       },
       {
@@ -59,8 +59,13 @@
         "source": "Homepage"
       },
       {
-        "headline": "In Trump’s Case for War With Iran, a Series of False or Unproven Claims",
-        "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html",
+        "headline": "U.S.-Iran Talks",
+        "url": "https://www.nytimes.com/2026/02/26/world/middleeast/iran-us-nuclear-talks.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Trump Considers Strikes",
+        "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-iran-strike.html",
         "source": "Homepage"
       }
     ],
@@ -76,9 +81,14 @@
         "source": "U.S."
       },
       {
-        "headline": "Bill Clinton Begins Deposition About His Relationship With Epstein",
-        "url": "https://www.nytimes.com/2026/02/27/us/politics/bill-clinton-epstein.html",
+        "headline": "U.S.S. Ford Steams Toward a Possible War",
+        "url": "https://www.nytimes.com/2026/02/27/us/politics/uss-ford-iran.html",
         "source": "U.S."
+      },
+      {
+        "headline": "In Trump’s Case for War, a Series of False or Unproven Claims",
+        "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html",
+        "source": "Politics"
       },
       {
         "headline": "Trump’s Foreign Policy: Resurrecting Empire",
@@ -88,6 +98,11 @@
       {
         "headline": "Regime Change in Cuba Appeals to Trump but Carries Risks",
         "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-cuba-regime-change.html",
+        "source": "Politics"
+      },
+      {
+        "headline": "Justice Thomas Bemoans Incivility as Security Prompts Cancellation of In-Person Speech",
+        "url": "https://www.nytimes.com/2026/02/27/us/politics/supreme-court-thomas-security.html",
         "source": "Politics"
       },
       {
@@ -109,6 +124,11 @@
         "headline": "Leer en español",
         "url": "https://www.nytimes.com/es/2026/02/26/espanol/america-latina/cuba-incursion-lancha-robada.html",
         "source": "Latin America"
+      },
+      {
+        "headline": "Overlooked No More: Bobby Garnett, ‘Godfather’ of Vintage Dealers",
+        "url": "https://www.nytimes.com/2026/02/27/obituaries/bobby-garnett-overlooked.html",
+        "source": "Europe"
       },
       {
         "headline": "Are Germany’s Top Cultural Events Becoming Impossible to Run?",
@@ -186,11 +206,6 @@
         "source": "Africa"
       },
       {
-        "headline": "Assault on Sudanese City Bore ‘Hallmarks of Genocide,’ U.N. Finds",
-        "url": "https://www.nytimes.com/2026/02/19/world/africa/sudan-un-el-fasher-rsf.html",
-        "source": "Africa"
-      },
-      {
         "headline": "Netflix Backs Out of Bid for Warner Bros., Paving Way for an Ellison Takeover",
         "url": "https://www.nytimes.com/2026/02/26/business/warner-bros-discovery-paramount-deal-netflix.html",
         "source": "Business"
@@ -206,14 +221,19 @@
         "source": "Business"
       },
       {
-        "headline": "A World Where All Is Free? That’s Elon Musk’s Theory of ‘Sustainable Abundance.’",
-        "url": "https://www.nytimes.com/2026/02/27/business/a-world-where-all-is-free-thats-elon-musks-theory-of-sustainable-abundance.html",
-        "source": "Business"
-      },
-      {
         "headline": "The Warning Signs Flashing From the Tech-Heavy Bloat of the S&P 500",
         "url": "https://www.nytimes.com/interactive/2026/02/26/business/stock-market-sp-500-nvidia-tech-bubble-crises.html",
         "source": "Business"
+      },
+      {
+        "headline": "Tech, TV, Movies and News: Ellisons on Brink of Colossal Empire",
+        "url": "https://www.nytimes.com/2026/02/27/business/media/tech-tv-movies-and-news-ellisons-on-brink-of-colossal-empire.html",
+        "source": "Business"
+      },
+      {
+        "headline": "A World Where All Is Free? That’s Elon Musk’s Theory of ‘Sustainable Abundance.’",
+        "url": "https://www.nytimes.com/2026/02/27/business/a-world-where-all-is-free-thats-elon-musks-theory-of-sustainable-abundance.html",
+        "source": "Technology"
       },
       {
         "headline": "India Built the World’s Back Office. A.I. Is Starting to Shrink It.",
@@ -226,18 +246,132 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-02-27T18:28:57.603Z"
+    "timestamp": "2026-02-27T19:30:04.107Z"
   },
   "secondary": {
-    "timestamp": "2026-02-27T18:28:57.603Z",
-    "reuters": [],
-    "ap": [],
+    "timestamp": "2026-02-27T19:30:04.107Z",
+    "reuters": [
+      {
+        "title": "Merck to lay off around 150 employees at US site amid slump in Gardasil sales - Reuters",
+        "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/merck-lay-off-around-150-employees-us-site-amid-slump-gardasil-sales-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaktYb1NESXZ6aUxHVHhfZHM0Vy1pVjB0Qkp5Smp1Wk5yTVUtT2cwc1UyRzBiOXN4Z0NISHcyM29vcWQ3UnpiTHBjMUpIYUJtd0NLQ1lCUUxVV0Y0cFJmdXAtS0x1Qm0wUnZ6bUV",
+        "pubDate": "Fri, 27 Feb 2026 17:33:25 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Blue Owl turmoil adds to strain in $2 trillion US private credit sector - Reuters",
+        "link": "https://www.reuters.com/business/finance/blue-owl-turmoil-adds-strain-2-trillion-us-private-credit-sector-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbUNzaElic3JhbEtPS1N3SGpOdWo3bFN0SGdQVEpxZ3VuUGZYQ1dDQllfbmJvbWhMN1hER09oRkkxbTlRTkxWY2pqcnhzNXdfSkN5S2lZaUFsZDFfbzRCek5VS1NaeGZ1d3FGR0R",
+        "pubDate": "Fri, 27 Feb 2026 17:13:03 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Mexico's Pemex narrows losses in last quarter of 2025 - Reuters",
+        "link": "https://www.reuters.com/business/energy/mexicos-pemex-reports-fourth-quarter-net-loss-862-million-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxObWRpekNVWmExcjB4TnhieFk5bnBkdXFrVXc5T1gxRXl2dWdodEFTdTYtamFOSV9ReWJXc3dtZkVJUTNiRENuZ3A2YXB6MmhWOWJnQmVxWk54dXQyX0YzVE5NcS1qTzBHR0VKNDh",
+        "pubDate": "Fri, 27 Feb 2026 15:52:09 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Mexico's Grupo Televisa cancels dividend payment, shares drop - Reuters",
+        "link": "https://www.reuters.com/business/media-telecom/mexicos-grupo-televisa-cancels-dividend-payment-shares-drop-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDU4UjZyd2loeTNOQTNKLXIxczRpdk9NYjhzZlJEZXp0aHJkS2NRcVFmUGExVm1WY3pZenhaLVlwUDFDOEhIRVhzNElRNWRSWDZpNTNxN2E2bEFpMmRVODNmQUlWRlZSSG12bG9",
+        "pubDate": "Fri, 27 Feb 2026 15:43:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Morning Bid: AI horror stories - Reuters",
+        "link": "https://www.reuters.com/business/finance/global-markets-view-usa-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNeHhMa3BIRjRoM0VPcDdOQWFFNHJJTERUY2hINlRfR051WUNTQ1pxN1hEalpfWmJvUDdWMVRiQjFDdkMyd1djbVFEVVFtaFl0U3pfckRQNEVJZjEyQkFlTGRfNHJiOGdnZURjdml",
+        "pubDate": "Fri, 27 Feb 2026 11:49:33 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Saudi Aramco bringing shale gas revolution to Arabian Desert - Reuters",
+        "link": "https://www.reuters.com/business/energy/saudi-aramco-bringing-shale-gas-revolution-arabian-desert-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQR09HSGNQQXRYX2NucThFdDNZdmxOSjhqZjlhaF9DNVFRTlB5MWo1c29fR1JvN2ZKbGtaLThPYlhvQ2pSV1FLZW1YUzNCWU51YWQyclZKU3NFUndQN1ZXS3VXTXJQeE9semFtSFN",
+        "pubDate": "Fri, 27 Feb 2026 14:23:48 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Tether says it has frozen $4.2 billion of its stablecoin over crime links - Reuters",
+        "link": "https://www.reuters.com/sustainability/boards-policy-regulation/tether-says-it-has-frozen-42-billion-its-stablecoin-over-crime-links-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdllLSEgydHc1bUNTdGpzOVF4Y0RXX0dlWndPZmp2REZkcTl0N2hydzRlbkdGLXBtbnZWY1NHUGFjOHdtdFh6Y1ZKSlVFOFctVHNqV2NiMFF4bGVidnpadG1HSmZ2OHlaRTlVUEh",
+        "pubDate": "Fri, 27 Feb 2026 12:09:04 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Wall St Week Ahead AI disruption looms over markets with US jobs data on tap - Reuters",
+        "link": "https://www.reuters.com/business/wall-st-week-ahead-ai-disruption-looms-over-markets-with-us-jobs-data-tap-2026-02-27/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQWUZZSW15R3BDOS12TTNwOVR1eFhlNTV0RktQSkpPMlFrNElmS3ZBY2xQMTJrLUpLRzVPcF9NTGZlaGRBaDJvQmgxdGd4Xzk2Um9MM2RPN3JrZTBIV2g1QzJxLTVoMlRrZzFHVG9",
+        "pubDate": "Fri, 27 Feb 2026 11:06:52 GMT",
+        "source": "Reuters"
+      }
+    ],
+    "ap": [
+      {
+        "title": "Pakistan is in ‘open war’ with Afghanistan after latest strikes, defense minister says - AP News",
+        "link": "https://apnews.com/article/afghanistan-pakistan-airstrikes-open-war-98927b79ee9ef5741bf0804956d3c2e6",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQQkFDQXU1WElmc0xWWDJ6ZXJkbkJydW1wbVNBQ3BFWVJPSFRweUNlTzNlZEd4d0JrbmFnLU5zemN5Q0N2TkF1NVMzdUExXy1xNXhua05fVU9SVjlVaVpqN3hSVXVHTERoNEk5STU",
+        "pubDate": "Fri, 27 Feb 2026 17:19:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Trump heads to Texas, where 3 supporters are battling it out in the Senate Republican primary - AP News",
+        "link": "https://apnews.com/article/trump-texas-cornyn-paxton-hunt-gop-primary-cd31dbec10c54ce230ae915e51cbccf0",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOTUxfZkVONFozRnI4cWx0b21CNzcxMlJRNzVOUGFBOW1UenNfUnA5cF9Mekx4QXFhNzB1bnZkVE13M24yX3JCVS1FVnBsQmcwNmFLbXBxbDNIUEpVTVZNWWdOOVlhUEZLeGdPWHd",
+        "pubDate": "Fri, 27 Feb 2026 18:46:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Fintech company Block lays off 4,000 of its 10,000 staff, citing gains from AI - AP News",
+        "link": "https://apnews.com/article/block-dorsey-layoffs-ai-jobs-18e00a0b278977b0a87893f55e3db7bb",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPeHV3aTdoZjBmTDU4RU5hX21qQjVVd3NsRTNBYXJpc0pMV0hidjA0UzdEV2NiSnpiTWctbFg4U3VYNGhoQ2QybE91YmxMQzhiTFFnSnZMcG5KWk1Uby05NWVxaHI0Rnc2aUlxby1",
+        "pubDate": "Fri, 27 Feb 2026 17:50:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Transgender youths are targeted in Scouting America changes pushed by the Pentagon - AP News",
+        "link": "https://apnews.com/article/scouting-america-pentagon-military-boy-scouts-14a5fc1521fcd1e51103638f6f504214",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY0hrUC13MVh3Rk52Z0M5Zm1kcjExMXI3blhqRDEyd29OeEVWNWdyWGQzdXRpdDdMSmljU2dtX0NwaVFDS25PWkF2MDFZZVRLSlhVOVJucU45UFR2VzVaRUZJZWdSekJlb3oxVVV",
+        "pubDate": "Fri, 27 Feb 2026 17:36:00 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Bulgarian president appoints caretaker government and sets snap election date for April 19 - AP News",
+        "link": "https://apnews.com/article/bulgaria-interim-government-president-elections-yotova-instability-c26f450ecbf8c28ec441306210493bd0",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxONVk0Tm54bGxKSG1URTN6dUtpRXZYbXF2QXpKaElTNmI5ZXVSczNSRTl2V1Y5WlprbUV6NTVPOEZCb01wZzFQTXJKa055eHF4YzhTeHFDWnUyMjhDSC11d1B0VnV2eVBMaG1iUXh",
+        "pubDate": "Fri, 27 Feb 2026 15:17:34 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "Large banner featuring Trump’s face is displayed on Justice Department headquarters - AP News",
+        "link": "https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOYWhZWFlmTXB0cEZYTmw3b3RNSDVJUUZlU1lkNU1uc1dPREYxMDdkUEZYUzFRcGE1d2piWVE4Z08taFBGUmhGcmdUa2ZObGoySFg0N1oxT201ODJyV2tOR1IzQk5fRjhSZUh1RzR",
+        "pubDate": "Fri, 27 Feb 2026 15:13:08 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "What to know as Iran and US meet for new nuclear talks as Americans deploy forces in Mideast - AP News",
+        "link": "https://apnews.com/article/iran-us-talks-oman-nuclear-protests-e5fce5e891243b7651cf76d8211f78ae",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPX2JYY0Q1dmJxT2Y3WUdMSU1kQ0gtUUFabnVtRjVqSUZkRkljVmFYQUg3S3dkV1VOUFpNdmFFRU1wOG96cFpUa05lbDRMMG8tZ3lDZ2xEd29YTW9BVTZpWDFBaXJFdS1LaVBWSWx",
+        "pubDate": "Fri, 27 Feb 2026 18:18:58 GMT",
+        "source": "AP"
+      },
+      {
+        "title": "The faces of Mexico’s disappeared haunt this city's streets. Families worry they will be wiped away - AP News",
+        "link": "https://apnews.com/article/mexico-cartel-violence-guadalajara-disappeared-world-cup-bc58ae115bb17568359f56296d6a68e6",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNdVR5amEybGVXRWp1dXBwR0RzeW9Zd2g1cVhtUTNCY1p2RnNuTFBrN1hmRHhxWmJEejRlMml3ZUJ3OWRkcGJiVFVHaUdtMXZzWW5JRTdYbkJ1dWYtRW12VGxGbDU3NENJaDEyUER",
+        "pubDate": "Fri, 27 Feb 2026 15:00:00 GMT",
+        "source": "AP"
+      }
+    ],
     "bbc": [
       {
-        "title": "Tram derails in Milan, leaving one dead and dozens injured",
+        "title": "Tram derails in Milan, leaving two dead and dozens injured",
         "link": "https://www.bbc.com/news/articles/c5y599degnqo?at_medium=RSS&amp;at_campaign=rss",
         "description": "The crowded tram was travelling in the centre of Milan at rush hour when it appeared to crash into the side of a building.",
-        "pubDate": "Fri, 27 Feb 2026 17:30:00 GMT",
+        "pubDate": "Fri, 27 Feb 2026 19:03:10 GMT",
         "source": "BBC World"
       },
       {
@@ -262,10 +396,10 @@
         "source": "BBC World"
       },
       {
-        "title": "UK withdraws Tehran embassy staff as concern grows over threat of US strikes",
+        "title": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
         "link": "https://www.bbc.com/news/articles/c309vz0z893o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The US embassy in Israel has also told some non-emergency staff they can leave the country if they wish.",
-        "pubDate": "Fri, 27 Feb 2026 17:10:57 GMT",
+        "description": "President Trump said he was not happy with Iran's stance, but had not yet decided whether to attack.",
+        "pubDate": "Fri, 27 Feb 2026 18:45:41 GMT",
         "source": "BBC World"
       },
       {
@@ -413,53 +547,88 @@
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Goldman Says It’s Unlike Private Credit Peers Hit by Redemptions",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/goldman-says-it-s-unlike-private-credit-peers-hit-by-redemptions",
-        "description": "Goldman Sachs Group Inc.’s asset management arm has sought to reassure clients that redemption rates and software exposure are both relatively low in one of its biggest retail-oriented private credit ",
-        "pubDate": "Fri, 27 Feb 2026 18:09:47 GMT",
+        "title": "Tricolor Noteholders Sue JPMorgan, Barclays and Fifth Third",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/tricolor-noteholders-sue-jpmorgan-barclays-and-fifth-third",
+        "description": "Holders of notes issued by Tricolor Holdings sued JPMorgan Chase &amp; Co., Barclays Plc and Fifth Third Bancorp., accusing the banks of helping to perpetuate a fraud at the now-bankrupt used-car deal",
+        "pubDate": "Fri, 27 Feb 2026 16:32:47 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "MFS Creditors Warn of £930 Million Shortfall in Collateral",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/mfs-creditors-warn-of-930-million-shortfall-from-double-pledges",
-        "description": "Some creditors of Market Financial Solutions Ltd., the failed UK mortgage firm backed by Wall Street lenders, warned there may be a £930 million ($1.3 billion) shortfall in collateral backing their lo",
-        "pubDate": "Fri, 27 Feb 2026 14:50:13 GMT",
+        "title": "NY Transit Agency Threatens to Sue US",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-27/ny-transit-agency-threatens-to-sue-us-video",
+        "description": "The MTA warned the Trump administration that it will sue unless it receives by March 6 about $60 million of funding for a subway extension project that’s been stalled since October. Bloomberg's Michel",
+        "pubDate": "Fri, 27 Feb 2026 19:26:15 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Bradesco, Odontoprev Form $10 Billion Brazilian Health Giant",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/bradesco-odontoprev-form-10-billion-brazilian-health-giant",
-        "description": "Banco Bradesco SA and dental insurer Odontoprev SA are combining their health-care assets to create one of Brazil’s largest integrated medical groups, serving more than 13 million beneficiaries in the",
-        "pubDate": "Fri, 27 Feb 2026 17:40:44 GMT",
+        "title": "Pemex Reports $2.6 Billion Annual Loss as Oil Output Falters",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/pemex-annual-loss-reaches-2-6-billion-despite-state-support",
+        "description": "Petroleos Mexicanos posted an annual loss of 45.2 billion pesos ($2.6 billion) as President Claudia Sheinbaum’s massive financial support for the debt-laden company has so far failed to lift crude pro",
+        "pubDate": "Fri, 27 Feb 2026 15:52:23 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Leveraged ETF Fees Triple Since 2020 as Traders Embrace High-Risk Funds",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-02-27/leveraged-etf-revenue-hits-1-billion-as-issuers-push-for-4x-and-5x-products",
-        "description": "Leverage sells",
-        "pubDate": "Fri, 27 Feb 2026 17:38:42 GMT",
+        "title": "US Crude Oil Production Hit Six-Month Low in December, EIA Says",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/us-crude-oil-production-hit-six-month-low-in-december-eia-says",
+        "description": "US crude production fell to near 13.7 million barrels a day in December, the lowest in six months, according to a monthly report from the US government.",
+        "pubDate": "Fri, 27 Feb 2026 19:04:38 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "TPG Has $59 Million Exposure to Collapsed Lender MFS",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-27/tpg-has-59-million-exposure-to-collapsed-lender-mfs-video",
-        "description": "TPG says the fund’s total exposure to Market Financial Solutions is £44 million ($59 million), according to an emailed statement. Constantine Courcoulas reports on \"Bloomberg Real Yield.\" (Source: Blo",
-        "pubDate": "Fri, 27 Feb 2026 17:32:13 GMT",
+        "title": "China Halts Canada Canola Meal Tariffs, Adding to Trade Thaw",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/china-halts-canada-canola-meal-tariffs-adding-to-trade-thaw",
+        "description": "China said it would drop tariffs on Canadian rapeseed meal and lobsters, easing disruptions to agricultural trade after Prime Minister Mark Carney’s January visit.",
+        "pubDate": "Fri, 27 Feb 2026 09:41:11 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "First Brands to Sell Units That Produce Parts for Ford",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/first-brands-to-sell-units-that-produce-parts-for-ford",
-        "description": "First Brands Group has four potential buyers for factories that produce parts for automakers, including Ford Motor Co., under a proposal designed to save thousands of jobs as the bankrupt company stru",
-        "pubDate": "Fri, 27 Feb 2026 17:27:05 GMT",
+        "title": "S&amp;P 500 Falls in Retreat From Risk as Block Cuts Spur AI Anxiety",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/s-p-500-falls-as-risk-off-prevails-block-cuts-spur-ai-anxiety",
+        "description": "US stocks dropped as risk-off sentiment swept through markets and fintech Block Inc.’s massive layoffs fanned angst that artificial-intelligence is poised to upend broad sections of the economy.",
+        "pubDate": "Fri, 27 Feb 2026 14:51:04 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "What to Watch for on 'Bloomberg This Weekend'",
-        "link": "https://www.bloomberg.com/news/videos/2026-02-27/what-to-watch-for-on-bloomberg-this-weekend-video",
-        "description": "",
-        "pubDate": "Fri, 27 Feb 2026 17:26:13 GMT",
+        "title": "Best Month in a Year for Bonds Sends 10-Year Yield Below 4%",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/treasuries-regain-edge-as-safety-play-with-best-month-in-year",
+        "description": "US bonds are wrapping up their best monthly performance in a year against a backdrop of rising global risks, with resurgent demand serving as proof that investors still see Treasuries as the premier h",
+        "pubDate": "Fri, 27 Feb 2026 10:00:00 GMT",
         "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Trump Not Happy With How Iran Is Negotiating",
+        "link": "https://www.bloomberg.com/news/videos/2026-02-27/trump-not-happy-with-how-iran-is-negotiating-video",
+        "description": "Tensions with Iran are increasing heading into the weekend. President Donald Trump spoke to reporters at the White House Friday before heading to Texas. “We’re not happy with what’s going on. They sho",
+        "pubDate": "Fri, 27 Feb 2026 19:16:46 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Merz to Demand Tariff Clarity From Trump During Visit to DC",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/merz-to-demand-clarity-from-trump-on-tariffs-in-washington-talks",
+        "description": "German Chancellor Friedrich Merz will seek clarity on US tariff policy for European Union goods during his talks with President Donald Trump in Washington next Tuesday.",
+        "pubDate": "Fri, 27 Feb 2026 12:11:29 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "China Halts Canada Canola Meal Tariffs, Adding to Trade Thaw",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/china-halts-canada-canola-meal-tariffs-adding-to-trade-thaw",
+        "description": "China said it would drop tariffs on Canadian rapeseed meal and lobsters, easing disruptions to agricultural trade after Prime Minister Mark Carney’s January visit.",
+        "pubDate": "Fri, 27 Feb 2026 09:41:11 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "SEC Announces New Insider Trading Rules for Foreign Companies",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/sec-announces-new-insider-trading-rules-for-foreign-companies",
+        "description": "The US Securities and Exchange Commission announced new insider trade rules on Friday for executives in non-US companies who buy or sell stock in their firms.",
+        "pubDate": "Fri, 27 Feb 2026 19:04:02 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Anthropic’s Fight With Pentagon Over AI Widens Ahead of Deadline",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-27/pentagon-open-to-ai-talks-with-anthropic-before-friday-deadline",
+        "description": "Anthropic PBC and the Pentagon showed little sign of yielding in their standoff over safeguards for artificial intelligence, as the company gained support in Silicon Valley hours before a deadline for",
+        "pubDate": "Fri, 27 Feb 2026 13:44:11 GMT",
+        "source": "Bloomberg Politics"
       },
       {
         "title": "Embassies Evacuate in Mideast With Trump ‘Not Happy’ On Iran",
@@ -480,41 +649,6 @@
         "link": "https://www.bloomberg.com/news/articles/2026-02-27/trump-heads-to-texas-after-speech-as-primary-fight-nears-vote",
         "description": "Donald Trump is visiting Texas just days before the state’s fractious primary election, an early test of the Republican Party’s strength and the president’s political sway ahead of November’s midterm ",
         "pubDate": "Fri, 27 Feb 2026 18:13:44 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Trump Says He Sees Possible ‘Friendly Takeover of Cuba’",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/trump-says-he-sees-possible-friendly-takeover-of-cuba",
-        "description": "US President Donald Trump suggested a possible “friendly takeover of Cuba” as the White House looks to leverage the Communist-run island’s energy crisis to exert greater influence.",
-        "pubDate": "Fri, 27 Feb 2026 18:11:19 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Cuba and US Take Calm Approach to Investigating Deadly Boat Incident",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/cuba-and-us-take-calm-approach-to-investigating-shootout",
-        "description": "A chaotic encounter between Cuban security forces and a boatful of men who had set out from Florida this week could have lit a fuse at a time of increased tension between the US and Havana. Instead, c",
-        "pubDate": "Fri, 27 Feb 2026 18:06:50 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "World Cup Cities Say They Can’t Wait Much Longer on Safety Funds",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/world-cup-cities-say-they-can-t-wait-much-longer-on-safety-funds",
-        "description": "World Cup host cities from Kansas City to Miami are sounding the alarm over delays in federal public-safety grants with only a few months left before millions of fans descend for the world’s largest s",
-        "pubDate": "Fri, 27 Feb 2026 17:51:44 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Bill Clinton Tells House Panel He Wasn’t Aware of Epstein Crimes",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/clinton-to-become-first-ex-president-forced-to-testify-to-house",
-        "description": "Former President Bill Clinton delivered a sweeping denial of any knowledge of Jeffrey Epstein’s crimes as he began closed-door testimony Friday before a House committee investigating the disgraced fin",
-        "pubDate": "Fri, 27 Feb 2026 13:00:00 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "The Cold War Era Law at the Center of Hegseth’s Anthropic Threat",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-27/the-cold-war-era-law-at-the-center-of-hegseth-s-anthropic-threat",
-        "description": "The Pentagon is poised to take unprecedented steps in its standoff with Anthropic PBC that risk touching off a massive legal fight with the $380 billion company and threaten to undermine Pentagon effo",
-        "pubDate": "Fri, 27 Feb 2026 17:05:18 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -578,6 +712,27 @@
     ],
     "aljazeera": [
       {
+        "title": "Israel’s top court allows aid groups facing Gaza ban to continue working",
+        "link": "https://www.aljazeera.com/news/2026/2/27/israels-top-court-allows-aid-groups-facing-gaza-ban-to-continue-working?traffic_source=rss",
+        "description": "The Supreme Court ruling comes after Israel said it would ban 37 aid groups from Gaza for failing to follow new rules.",
+        "pubDate": "Fri, 27 Feb 2026 18:49:49 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Netflix stock surges as it walks away from Warner Bros deal",
+        "link": "https://www.aljazeera.com/economy/2026/2/27/netflix-stock-surges-as-it-walks-away-from-warner-bros-deal?traffic_source=rss",
+        "description": "Netflix declined to raise its proposal to match a higher one from Paramount for Warner Bros.",
+        "pubDate": "Fri, 27 Feb 2026 18:35:53 +0000",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Nomadic art haven opens in Qatar’s desert",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/27/nomadic-art-haven-opens-in-qatars-desert?traffic_source=rss",
+        "description": "A new art exhibition in a tent in the middle of the Qatari desert offers visitors a new way to experience creativity.",
+        "pubDate": "Fri, 27 Feb 2026 18:35:15 +0000",
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Residents describe panic as Pakistan attacks Afghanistan in ‘open war’",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/2/27/residents-describe-panic-as-pakistan-attacks-afghanistan-in-open?traffic_source=rss",
         "description": "Residents of Kabul, Afghanistan are cleaning up broken glass and describing how they tried to run to safety.",
@@ -592,7 +747,7 @@
         "source": "Al Jazeera"
       },
       {
-        "title": "Pakistan vs Sri Lanka: T20 World Cup Super Eights – teams, start, lineups",
+        "title": "Pakistan vs Sri Lanka: T20 World Cup Super Eights – teams, net run-rate",
         "link": "https://www.aljazeera.com/sports/2026/2/27/pakistan-vs-sri-lanka-t20-world-cup-super-eights-teams-start-lineups?traffic_source=rss",
         "description": "Pakistan must beat already-eliminated Sri Lanka by a handsome margin if they are to progress to T20 World Cup semifinal.",
         "pubDate": "Fri, 27 Feb 2026 17:56:15 +0000",
@@ -610,27 +765,6 @@
         "link": "https://www.aljazeera.com/sports/2026/2/27/england-keep-pakistan-t20-world-cup-hopes-will-by-beating-new-zealand?traffic_source=rss",
         "description": "England seal top spot in Group 2 at T20 World Cup in Super Eights stage with four-wicket win against New Zealand.",
         "pubDate": "Fri, 27 Feb 2026 16:55:52 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Iran says US must drop ‘excessive demands’ in nuclear negotiations",
-        "link": "https://www.aljazeera.com/news/2026/2/27/iran-says-us-must-drop-excessive-demands-in-nuclear-negotiations?traffic_source=rss",
-        "description": "Iranian foreign minister emphasizes seriousness and realism as key to successful negotiations with the United States.",
-        "pubDate": "Fri, 27 Feb 2026 16:31:16 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections",
-        "link": "https://www.aljazeera.com/news/longform/2026/2/27/like-its-2024-again-trump-takes-centre-stage-in-2026-midterm-elections?traffic_source=rss",
-        "description": "With control of Congress in the balance, officials say the president plans to campaign as if he were &#039;on the ballot&#039;.",
-        "pubDate": "Fri, 27 Feb 2026 15:50:13 +0000",
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "Is the US negotiating with Iran or preparing to strike?",
-        "link": "https://www.aljazeera.com/video/the-take-2/2026/2/27/aje-onl-irn_genevatalks2026_av_v2-260226?traffic_source=rss",
-        "description": "Iran and the US begin new nuclear talks as Washington builds up forces in the region.",
-        "pubDate": "Fri, 27 Feb 2026 15:48:00 +0000",
         "source": "Al Jazeera"
       }
     ],
@@ -695,6 +829,13 @@
     "economist": [],
     "scmp": [
       {
+        "title": "Trump says US discussing ‘friendly takeover’ of Cuba: ‘they’re in big trouble’",
+        "link": "https://www.scmp.com/news/world/americas/article/3344941/trump-says-us-discussing-friendly-takeover-cuba-theyre-big-trouble?utm_source=rss_feed",
+        "description": "",
+        "pubDate": "Fri, 27 Feb 2026 18:52:28 +0000",
+        "source": "SCMP"
+      },
+      {
         "title": "BMW to trial humanoid robots at German factory, as China competition heats up",
         "link": "https://www.scmp.com/news/world/europe/article/3344940/bmw-trial-humanoid-robots-german-factory-china-competition-heats?utm_source=rss_feed",
         "description": "",
@@ -742,16 +883,23 @@
         "description": "",
         "pubDate": "Fri, 27 Feb 2026 13:31:47 +0000",
         "source": "SCMP"
-      },
-      {
-        "title": "Trump’s tariff setback could spark surge in Chinese imports to US: analysts",
-        "link": "https://www.scmp.com/economy/global-economy/article/3344893/trumps-tariff-setback-could-spark-surge-chinese-imports-us-analysts?utm_source=rss_feed",
-        "description": "",
-        "pubDate": "Fri, 27 Feb 2026 13:00:13 +0000",
-        "source": "SCMP"
       }
     ],
     "timesofisrael": [
+      {
+        "title": "UK, France, Germany and Poland warn against travel to Israel amid Iran tensions",
+        "link": "https://www.timesofisrael.com/uk-france-germany-and-poland-warn-against-travel-to-israel-amid-iran-tensions/",
+        "description": "",
+        "pubDate": "Fri, 27 Feb 2026 19:22:23 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Inking over scars: Victims of Israel terror attacks get tattooed in New York",
+        "link": "https://www.timesofisrael.com/inking-over-scars-victims-of-israel-terror-attacks-get-tattooed-in-new-york/",
+        "description": "",
+        "pubDate": "Fri, 27 Feb 2026 19:14:46 +0000",
+        "source": "Times of Israel"
+      },
       {
         "title": "UN watchdog says it can&#8217;t verify whether Iran has suspended all uranium enrichment",
         "link": "https://www.timesofisrael.com/un-watchdog-says-it-cant-verify-whether-iran-has-suspended-all-uranium-enrichment/",
@@ -793,25 +941,11 @@
         "description": "",
         "pubDate": "Fri, 27 Feb 2026 16:07:04 +0000",
         "source": "Times of Israel"
-      },
-      {
-        "title": "Over 3,000 people run largest-ever Tel Aviv Marathon; new women&#8217;s record set",
-        "link": "https://www.timesofisrael.com/over-3000-people-run-largest-ever-tel-aviv-marathon-new-womens-record-set/",
-        "description": "",
-        "pubDate": "Fri, 27 Feb 2026 14:59:39 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Green Party&#8217;s Manchester election upset is a crippling blow to Labour &#8211; and a major boon to anti-Zionism",
-        "link": "https://www.timesofisrael.com/green-partys-manchester-election-upset-is-a-crippling-blow-to-labour-and-a-major-boon-to-anti-zionism/",
-        "description": "",
-        "pubDate": "Fri, 27 Feb 2026 14:42:01 +0000",
-        "source": "Times of Israel"
       }
     ],
     "afp": [
       {
-        "title": "Rubio to hold talks in Israel next week as US-Iran tensions remain high",
+        "title": "Trump says 'not happy' with Iran talks, but undecided on possible military action",
         "link": "https://www.france24.com/en/middle-east/20260227-rubio-to-hold-talks-in-israel-next-week-as-us-iran-tensions-remain-high",
         "description": "",
         "pubDate": "Fri, 27 Feb 2026 17:23:01 GMT",
@@ -869,7 +1003,7 @@
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-02-27T18:28:57.603Z",
+    "timestamp": "2026-02-27T19:30:04.107Z",
     "bbc": {
       "lead": {
         "headline": "Starmer vows to fight on after historic Green by-election win",
@@ -927,13 +1061,13 @@
           "source": "Guardian"
         },
         {
-          "headline": "US urges its citizens to leave Israel immediately amid strike threat to Iran",
-          "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+          "headline": "Labour MPs demand Starmer change course after humiliating byelection loss",
+          "url": "https://www.theguardian.com/politics/2026/feb/27/labour-mps-demand-starmer-change-direction-after-humiliating-byelection-loss",
           "source": "Guardian"
         },
         {
-          "headline": "Hannah Spencer: the Green MP speaking to everyday people’s frustrations",
-          "url": "https://www.theguardian.com/politics/2026/feb/27/hannah-spencer-green-mp-gorton-and-denton-byelection-profile",
+          "headline": "Trump says he is ‘not happy’ with Iran situation and military force is still an option",
+          "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
           "source": "Guardian"
         }
       ]
@@ -951,23 +1085,23 @@
           "source": "Al Jazeera"
         },
         {
-          "headline": "WATCH: Pakistan’s air strikes, declaration of ‘open war’ on Afghanistan",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343710",
+          "headline": "Islamabad claims almost 300 Afghan fighters have been killed",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343779",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Afghan minister says country ‘ashamed’ of Pakistan’s actions",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343701",
+          "headline": "Pakistani official claims Afghan military installations ‘completely destroyed’ in strikes",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343757",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Iraq calls on Afghanistan, Pakistan to show restraint, urges dialogue",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343692",
+          "headline": "Iran urges Pakistan and Afghanistan to ‘refrain’ from escalatory actions",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343749",
           "source": "Al Jazeera"
         },
         {
-          "headline": "International Committee of the Red Cross calls for de-escalation of tensions",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343645",
+          "headline": "UN’s secretary-general calls for ‘immediate ceasefire’",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan?update=4343735",
           "source": "Al Jazeera"
         }
       ]
@@ -978,11 +1112,16 @@
     },
     "economist": {
       "lead": {
-        "headline": "California Consumer Privacy Act (CCPA) Opt-Out IconYour Privacy Choices",
-        "url": "https://www.economist.com/privacyportal",
+        "headline": "America’s ambassador in Jerusalem told embassy employees that they may leave Israel and, if they planned to do so, that they should depart on Friday. Donald Trump is considering striking Iran; Israel ",
+        "url": "https://www.economist.com/middle-east-and-africa/2026/02/25/americans-have-no-idea-what-donald-trump-wants-from-iran",
         "source": "Economist"
       },
       "top": [
+        {
+          "headline": "America’s ambassador in Jerusalem told embassy employees that they may leave Israel and, if they planned to do so, that they should depart on Friday. Donald Trump is considering striking Iran; Israel ",
+          "url": "https://www.economist.com/middle-east-and-africa/2026/02/25/americans-have-no-idea-what-donald-trump-wants-from-iran",
+          "source": "Economist"
+        },
         {
           "headline": "California Consumer Privacy Act (CCPA) Opt-Out IconYour Privacy Choices",
           "url": "https://www.economist.com/privacyportal",
@@ -991,6 +1130,6 @@
       ]
     }
   },
-  "generated": "2026-02-27T18:28:58.771Z",
+  "generated": "2026-02-27T19:30:15.990Z",
   "source": "github-actions"
 }
