@@ -1,27 +1,25 @@
 Good morning. Here's the state of play:
 
-The Middle East is on edge as Trump signals growing frustration with Iran's nuclear stance. The president said he's ["not thrilled"](https://www.bbc.com/news/articles/c309vz0z893o) with Tehran after the latest round of talks, telling reporters he hasn't decided whether to launch strikes but is clearly losing patience. The BBC reports that US embassy staff in Jerusalem were told they could leave Israel by Friday if they chose to — a telling precautionary move as tensions escalate.
+The Middle East is erupting this morning after the U.S. and Israel launched coordinated strikes against Iran, marking a dramatic escalation that's already spiraling beyond previous cycles of retaliation. [Chaos and panic](https://www.nytimes.com/2026/02/28/world/middleeast/iran-reaction-us-attack-tehran.html) gripped Tehran as airstrikes shook the capital, while Iran fired back with missile barrages targeting Israel. The strikes initially focused on [military targets](https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump#iran-us-attacks-military-targets), U.S. officials say, but the conflict is already widening across the region with explosions reported in Qatar, Bahrain, Saudi Arabia, and the UAE.
 
-Meanwhile, Britain's political landscape shifted overnight after the Green Party scored a stunning upset in a Labour stronghold, winning their first-ever parliamentary seat in a traditional working-class district. Labour MPs are openly [demanding Starmer](https://www.theguardian.com/politics/2026/feb/27/labour-mps-demand-starmer-change-direction-after-humiliating-byelection-loss) change course after what the Guardian calls a "humiliating" loss that suggests voter dissatisfaction with the government's direction.
+Trump has seized the moment to [call for](https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump#trump-iran-strikes-video) a change in Iran's leadership, while Bloomberg reports that Tehran is treating this as [an existential](https://www.bloomberg.com/news/articles/2026-02-28/middle-east-conflict-widens-as-tehran-faces-existential-threat) threat. The situation remains fluid, with missiles being [intercepted above](https://www.bloomberg.com/news/videos/2026-02-28/missiles-intercepted-above-haifa-northern-israel-video) Haifa and strikes continuing in southern Lebanon.
 
 **Business/Tech**
 
-• Elon Musk's sprawling business empire in Texas is more interconnected than previously known, with a [complex web](https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html) of at least 15 companies sharing resources and personnel across his ventures.
+• OpenAI struck [an agreement](https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html) with the Pentagon after Trump ordered the government to stop using Anthropic following the AI company's refusal to work on defense projects. Silicon Valley firms are [rallying behind](https://www.nytimes.com/2026/02/27/technology/anthropic-trump-pentagon-silicon-valley.html) Anthropic in what's becoming a defining battle over AI's role in warfare.
 
-• Netflix has [backed out](https://www.nytimes.com/2026/02/26/business/warner-bros-discovery-paramount-deal-netflix.html) of its bid for Warner Bros. Discovery, clearing the path for Larry Ellison's Paramount to acquire the media giant in what could reshape Hollywood's streaming landscape.
+• The Pentagon standoff represents [a decisive](https://www.nytimes.com/2026/02/27/technology/defense-department-anthropic-ai-safety.html) moment for how artificial intelligence will be deployed in military operations, with major implications for the tech industry's relationship with defense contractors.
 
-• OpenAI is promising [safety policy changes](https://www.bbc.com/news/articles/cr73m4x8r2lo) after a Canadian shooting suspect's ChatGPT account raised internal concerns but wasn't flagged to authorities, according to the BBC.
-
-• Compass and Rocket Companies announced a [new partnership](https://www.bloomberg.com/news/videos/2026-02-27/compass-rocket-partner-on-home-listing-initiative-video) that will expand the real estate firm's presence on Redfin's platform, Bloomberg reports.
+• Elon Musk has built [a secret](https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html) web of companies across Texas as he consolidates his operations in the state, according to corporate filings and public records.
 
 **Around the World**
 
-• **Latin America**: Trump administration officials are increasingly discussing [regime change](https://www.nytimes.com/2026/02/26/us/politics/trump-cuba-regime-change.html) in Cuba as a policy option, though the approach carries significant diplomatic and security risks.
+• **Latin America**: At least 15 people died when [a military](https://www.bbc.com/news/articles/c0rjpxxpp49o?at_medium=RSS&at_campaign=rss) plane carrying banknotes crashed in Bolivia, according to the BBC. Police fired tear gas to disperse crowds allegedly trying to take money from the crash site.
 
-• **Europe**: Sweden says a drone that jammed communications near a French aircraft carrier was [Russian in origin](https://www.bbc.com/news/articles/c1mj3e2nz8ko), calling it a "serious but not unexpected incident" that fits Moscow's established pattern of provocative behavior.
+• **Europe**: Germany's top cultural events are facing [operational crises](https://www.nytimes.com/2026/02/27/arts/berlin-film-festival-tricia-tuttle-israel-gaza.html) as political tensions over Israel and Gaza make major festivals increasingly difficult to manage, with the Berlin Film Festival serving as a key example.
 
-• **Asia**: Pakistan's airstrikes in Afghanistan have escalated into what Al Jazeera describes as an ["operation continuing"](https://www.aljazeera.com/news/liveblog/2026/2/27/live-kabul-bombed-as-pakistan-declares-open-war-on-afghanistan) against Taliban targets, with deadly attacks reported in Kabul as tensions between the neighbors reach a breaking point.
+• **Asia**: A former U.S. Air Force officer was [accused of](https://www.nytimes.com/2026/02/28/us/air-force-pilot-china-arrest.html) training Chinese military pilots in what prosecutors describe as a national security breach involving sensitive aviation expertise.
 
-• **Middle East**: Iranian students are [protesting again](https://www.nytimes.com/2026/02/27/world/middleeast/iran-student-protests.html) despite a deadly government crackdown, showing continued resistance even as nuclear talks with the US appear to be stalling.
+• **Middle East**: The BBC reports that Iran has retaliated with [a missile](https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss) barrage toward Israel following the joint U.S.-Israeli strikes, with explosions heard across multiple Gulf states as the conflict spreads regionally.
 
-• **Africa**: A Nigerian billionaire is betting big on [industrializing his country](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) with Africa's largest oil refinery, trading his previous glamorous lifestyle for an ambitious economic transformation project.
+• **Africa**: Nigerian billionaire Aliko Dangote is trading [his glamorous](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) lifestyle for an industrial mission, pushing to transform his country's economy through massive refinery and manufacturing investments.
