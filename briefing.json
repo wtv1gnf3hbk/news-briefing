@@ -1,36 +1,21 @@
 {
   "nyt": {
     "lead": {
-      "headline": "Iranians Take to the Streets to Celebrate Khamenei’s Death",
-      "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-khameni-celebrations.html",
+      "headline": "Why Diplomacy Was Doomed: Trump’s Issue Was Iran’s Leadership Itself",
+      "url": "https://www.nytimes.com/2026/03/01/us/politics/iran-trump-diplomacy-fail.html",
       "source": "Lead"
     },
     "live": [
       {
-        "headline": "Iran’s Supreme Leader Is Killed in Strikes",
-        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
-        "source": "Live"
-      },
-      {
-        "headline": "Shipping traffic through Strait of Hormuz plummets after the attacks on Iran.Feb. 28, 2026, 7:42 p.m. ET",
-        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump#strait-of-hormuz-ship-traffic",
-        "source": "Live"
-      },
-      {
-        "headline": "Who could take over for Ayatollah Ali Khamenei?",
-        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump#ali-khamenei-iran-leader-succession",
-        "source": "Live"
-      },
-      {
-        "headline": "False and outdated videos circulated online after the Iran strikes.",
-        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump#false-and-outdated-videos-circulated-online-after-the-iran-strikes",
+        "headline": "Iran Promises Retaliation for Leader’s Death",
+        "url": "https://www.nytimes.com/live/2026/03/01/world/iran-attack-khamenei-trump",
         "source": "Live"
       }
     ],
     "primary": [
       {
-        "headline": "Iranians Take to the Streets to Celebrate Khamenei’s Death",
-        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-khameni-celebrations.html",
+        "headline": "Why Diplomacy Was Doomed: Trump’s Issue Was Iran’s Leadership Itself",
+        "url": "https://www.nytimes.com/2026/03/01/us/politics/iran-trump-diplomacy-fail.html",
         "source": "Homepage"
       },
       {
@@ -39,23 +24,13 @@
         "source": "Homepage"
       },
       {
+        "headline": "The C.I.A. Helped Pinpoint a Gathering of Iranian Leaders. Then Israel Struck.",
+        "url": "https://www.nytimes.com/2026/03/01/us/politics/cia-israel-ayatollah-compound.html",
+        "source": "Homepage"
+      },
+      {
         "headline": "Diagramming the Blows to Iran’s Leadership",
         "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-leadership-khamenei-shamkhani-pakpour-nasirzadeh.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Trump, the Self-Declared Peace President, Goes to War Seeking Regime Change",
-        "url": "https://www.nytimes.com/2026/02/28/us/politics/trump-peace-president-war.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "<img src=\"https://static01.nyt.com/images/2026/02/28/multimedia/2026-01-28-iran-new-strikes-index/2026-01-28-iran-new-strikes-index-threeBy",
-        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/us-israel-iran-attack-maps.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "What to Know About the Attacks",
-        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
         "source": "Homepage"
       },
       {
@@ -77,6 +52,16 @@
         "headline": "Cooperating Witnesses Exposed",
         "url": "https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html",
         "source": "Homepage"
+      },
+      {
+        "headline": "Why the Epstein Investigations Took So Long and Did So Little",
+        "url": "https://www.nytimes.com/2026/03/01/us/epstein-justice-department-investigations.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "The U.S. Released the Epstein Files. So Why Are All The Arrests Overseas?",
+        "url": "https://www.nytimes.com/2026/03/01/world/europe/epstein-files-arrests-europe-uk.html",
+        "source": "Homepage"
       }
     ],
     "secondary": [
@@ -91,28 +76,23 @@
         "source": "U.S."
       },
       {
-        "headline": "Los Angeles Schools Chief Is Placed on Leave Following F.B.I. Raid",
-        "url": "https://www.nytimes.com/2026/02/27/us/lausd-superintendent-alberto-carvalho-fbi.html",
-        "source": "U.S."
-      },
-      {
         "headline": "‘Avalanche!’: Survivors Recount the Tragedy at Perry’s Peak",
         "url": "https://www.nytimes.com/interactive/2026/02/28/us/tahoe-avalanche-survivors.html",
         "source": "U.S."
       },
       {
-        "headline": "Iranian Americans in L.A. Find Hope in U.S.-Israeli Strikes on Iran",
-        "url": "https://www.nytimes.com/2026/02/28/us/iranian-americans-los-angeles.html",
+        "headline": "Los Angeles Schools Chief Is Placed on Leave Following F.B.I. Raid",
+        "url": "https://www.nytimes.com/2026/02/27/us/lausd-superintendent-alberto-carvalho-fbi.html",
         "source": "U.S."
-      },
-      {
-        "headline": "In Trump’s Case for War, a Series of False or Unproven Claims",
-        "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-iran-claims-nuclear-weapons.html",
-        "source": "Politics"
       },
       {
         "headline": "For Trump, the Iran Attack Is the Ultimate War of Choice",
         "url": "https://www.nytimes.com/2026/02/28/us/politics/trump-iran-attack.html",
+        "source": "Politics"
+      },
+      {
+        "headline": "Trump, the Self-Declared Peace President, Goes to War Seeking Regime Change",
+        "url": "https://www.nytimes.com/2026/02/28/us/politics/trump-peace-president-war.html",
         "source": "Politics"
       },
       {
@@ -121,8 +101,8 @@
         "source": "Politics"
       },
       {
-        "headline": "Trump’s Decision to Strike Iran Opens New Fissures in Midterms",
-        "url": "https://www.nytimes.com/2026/02/28/us/politics/trump-iran-attack-midterms.html",
+        "headline": "How Wesley Hunt of Texas Is Working in Plain Sight With Outside Groups",
+        "url": "https://www.nytimes.com/2026/02/28/us/politics/wesley-hunt-texas-senate-race-campaign-finance.html",
         "source": "Politics"
       },
       {
@@ -151,6 +131,11 @@
         "source": "Latin America"
       },
       {
+        "headline": "In Ukraine, a Community of ‘Simple Believers’ Shuns the Modern World",
+        "url": "https://www.nytimes.com/2026/03/01/world/europe/ukraine-simple-believers.html",
+        "source": "Europe"
+      },
+      {
         "headline": "Attacks Close Airspace in Middle East, Causing 1,600 Flight cancellations",
         "url": "https://www.nytimes.com/2026/02/28/world/middleeast/middle-east-airport-closures-emirates-qatar.html",
         "source": "Europe"
@@ -158,21 +143,6 @@
       {
         "headline": "Henrietta Lacks’s Family Settles Suit With Novartis Over Use of Her Cells",
         "url": "https://www.nytimes.com/2026/02/27/us/novartis-settlement-henrietta-lacks-stolen-cells.html",
-        "source": "Europe"
-      },
-      {
-        "headline": "Overlooked No More: Bobby Garnett, ‘Godfather’ of Vintage Dealers",
-        "url": "https://www.nytimes.com/2026/02/27/obituaries/bobby-garnett-overlooked.html",
-        "source": "Europe"
-      },
-      {
-        "headline": "Are Germany’s Top Cultural Events Becoming Impossible to Run?",
-        "url": "https://www.nytimes.com/2026/02/27/arts/berlin-film-festival-tricia-tuttle-israel-gaza.html",
-        "source": "Europe"
-      },
-      {
-        "headline": "Hungary Plays Spoiler in Europe as Orban Strains for Votes at Home",
-        "url": "https://www.nytimes.com/2026/02/27/world/europe/hungary-orban-europe.html",
         "source": "Europe"
       },
       {
@@ -196,18 +166,18 @@
         "source": "Asia"
       },
       {
-        "headline": "Shipping Traffic Through Strait of Hormuz Plummets After Attacks on Iran",
-        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/strait-of-hormuz-ship-traffic.html",
+        "headline": "Israel launches new military strikes as Iran retaliates after Khamenei’s killing.",
+        "url": "https://www.nytimes.com/live/2026/03/01/world/iran-attack-khamenei-trump/israel-launches-new-military-strikes-as-iran-retaliates-after-khameneis-killing",
         "source": "Middle East"
       },
       {
-        "headline": "Who Could Take Over for Ayatollah Ali Khamenei?",
-        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/ali-khamenei-iran-leader-succession.html",
+        "headline": "Ayatollah Ali Khamenei",
+        "url": "https://www.nytimes.com/2026/03/01/world/middleeast/ayatollah-ali-khamenei.html",
         "source": "Middle East"
       },
       {
-        "headline": "Trump Tells Iranians to ‘Take Over’ Their Government. But How?",
-        "url": "https://www.nytimes.com/2026/02/28/us/politics/trump-iran-messaging-broadcasting.html",
+        "headline": "Here’s the latest.",
+        "url": "https://www.nytimes.com/live/2026/03/01/world/iran-attack-khamenei-trump/heres-the-latest",
         "source": "Middle East"
       },
       {
@@ -241,28 +211,33 @@
         "source": "Business"
       },
       {
-        "headline": "Abrupt Change for Warner Bros. Prompts Many Grim Faces",
-        "url": "https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html",
-        "source": "Business"
-      },
-      {
         "headline": "4 Ways to Enjoy Your Savings in Retirement Without Going Broke",
         "url": "https://www.nytimes.com/2026/02/28/business/retirement-savings-spending-finances.html",
         "source": "Business"
       },
       {
-        "headline": "Netflix Lost Warner. Maybe That’s a Good Thing.",
-        "url": "https://www.nytimes.com/2026/02/28/business/media/netflix-warner-bros-discovery-analysts.html",
+        "headline": "Abrupt Change for Warner Bros. Prompts Many Grim Faces",
+        "url": "https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html",
         "source": "Business"
       },
       {
-        "headline": "Silicon Valley Rallies Behind Anthropic in A.I. Clash With Trump",
-        "url": "https://www.nytimes.com/2026/02/27/technology/anthropic-trump-pentagon-silicon-valley.html",
+        "headline": "Lloyd Blankfein on Trump, Epstein and Life After Goldman Sachs",
+        "url": "https://www.nytimes.com/2026/02/28/business/dealbook/lloyd-blankfein-book.html",
+        "source": "Business"
+      },
+      {
+        "headline": "To Extract Hot Water From the Earth, a Plan to Pipe It In First",
+        "url": "https://www.nytimes.com/2026/02/28/business/germany-geothermal-renewable-energy.html",
         "source": "Business"
       },
       {
         "headline": "Crypto’s Richest Man Details His Secret Talks, Prison Time and Humbling Comedown",
         "url": "https://www.nytimes.com/2026/02/27/technology/cz-changpeng-zhao-binance-memoir-prison.html",
+        "source": "Technology"
+      },
+      {
+        "headline": "Silicon Valley Rallies Behind Anthropic in A.I. Clash With Trump",
+        "url": "https://www.nytimes.com/2026/02/27/technology/anthropic-trump-pentagon-silicon-valley.html",
         "source": "Technology"
       },
       {
@@ -281,69 +256,69 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-03-01T04:01:22.959Z"
+    "timestamp": "2026-03-01T11:20:19.854Z"
   },
   "secondary": {
-    "timestamp": "2026-03-01T04:01:22.959Z",
-    "reuters": [
+    "timestamp": "2026-03-01T11:20:19.854Z",
+    "reuters": [],
+    "ap": [
       {
-        "title": "What are the main US military bases in the Middle East? - Reuters",
-        "link": "https://www.reuters.com/world/middle-east/us-military-facilities-middle-east-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPdXNlOGg1b1EzRUhlWWxBVjR1bmZWMmZVWl9EbFI4QVBwbVQ0T2RpSVExb3owRGtJNWg3ZDBrd0g3a1FJSEZJY1kwZzhDZ1RORWNSQVBRMVhFRXZxMW9EaTI2OUk3SDVFdUllMFI",
-        "pubDate": "Sun, 01 Mar 2026 02:43:15 GMT",
-        "source": "Reuters"
+        "title": "US and Israel clash with Iran at emergency Security Council meeting. UN chief condemns attacks - AP News",
+        "link": "https://apnews.com/article/iran-israel-us-un-security-council-airstrikes-9140bca9241fb99be8cb3cff2c650741",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeFZXSGxTNW9GdUIyUFJaTFA4bDk2NWJWWmFuUUZPbG5BTTNnc25keW42QXpUaE1BRXZXb0RKZzdyZ19GdFhwUWtyZk90LWt6ckFBZGozemZCMEw0TjhTMFZjOU9RRkFiRGRxMXZ",
+        "pubDate": "Sun, 01 Mar 2026 01:45:00 GMT",
+        "source": "AP"
       },
       {
-        "title": "Dubai airport, iconic Burj Al Arab hotel damaged in Iranian missile strikes - Reuters",
-        "link": "https://www.reuters.com/world/middle-east/four-injured-after-incident-dubai-international-airport-dubai-media-office-says-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQZzlYMlpkMktUTTRERmdoOGVSWkFwWWJUZ202NlJLUHdkWldpWmVIUkV4azdXck9SaWFhSHd5dVh1eW04UHBPeEsweVFESTNaaW9oUC1semF4TXBKUHJDMGxwdUNRMFRIR1V3Qnk",
-        "pubDate": "Sat, 28 Feb 2026 22:07:56 GMT",
-        "source": "Reuters"
+        "title": "Iran’s supreme leader killed in major attack by US and Israel - AP News",
+        "link": "https://apnews.com/article/iran-us-explosion-tehran-c2f11247d8a66e36929266f2c557a54c",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFZPOFpNc0VPYmlUWEFubGVLZUR0aGtxUGxkX1FXbFdkSWR3QWZQUVVZaFB2Z1dCUHI3TmV1UE9DMGc5ZGNhU00tdmhhMUhBNG53Zm1QeC1jSGFKV2RZWFREOEdoM050WE5nV20",
+        "pubDate": "Sun, 01 Mar 2026 03:55:00 GMT",
+        "source": "AP"
       },
       {
-        "title": "Germany, France and UK tell Iran to stop attacks in region - Reuters",
-        "link": "https://www.reuters.com/world/europe/germany-france-uk-tell-iran-stop-attacks-region-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNb0U0QkU5aE15OGdwSmU4dE5vSmtESHY1Z2RuZEl3V0NmWjhqa3ZSVEdGQlJBR2xvM3pxUXlRWmcyYzloX3pFaC1CZmVJdFgyQTJaZ2R6UzgxT0tGNWF6UkNyY056TndzajAyOW8",
-        "pubDate": "Sat, 28 Feb 2026 14:02:07 GMT",
-        "source": "Reuters"
+        "title": "What to know about the new US-Israel attacks on Iran - AP News",
+        "link": "https://apnews.com/article/iran-us-us-israel-trump-979a41042f073f8f4004e34e67b470f5",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnFwZ0N2QWVjdVRuNEcyTFd4MEl4WGN5cUVBVWFnZjdYbE5JZURXRVpoSzZuV2NSSmZYUWVxYW1wV3VncC1yVk5pMWtzYW5YZkJCT2xLMy1pVmhTRnp4MmVWNVlaRzQ3UDEweUV",
+        "pubDate": "Sun, 01 Mar 2026 06:01:00 GMT",
+        "source": "AP"
       },
       {
-        "title": "OpenAI details layered protections in US defense department pact - Reuters",
-        "link": "https://www.reuters.com/business/media-telecom/openai-details-layered-protections-us-defense-department-pact-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPUEZyaHBmVm54d0JrdnowZkpiM0Q3NHJhU2VGRm5sZ0tQSXE3TnRNRkVjTERjWnhTTlpVZk9iSFpxbG5Rekc5U281cnlDSWFSYkh0ZHFnTjYydVRZS1hFbkVTSXlmbGROc0oxNXl",
-        "pubDate": "Sat, 28 Feb 2026 23:05:50 GMT",
-        "source": "Reuters"
+        "title": "Netherlands’ coalition government takes office led by youngest-ever premier Rob Jetten - AP News",
+        "link": "https://apnews.com/article/netherlands-new-government-hague-jetten-524182c2237409d249e263248cd57d35",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPbGZUNWZwWDgwWHlWX25pOHBJTU5VM2tkZnVlWUp1aG1haURWakp4MHJZbDQ1WVB4dDg2elpZTEs1WndDLWdHMVJtdU9wTEZ2T1FwaXBKVmlQMmY0bGpTLWIzY18zMjUwT19ZT1V",
+        "pubDate": "Sun, 01 Mar 2026 09:28:24 GMT",
+        "source": "AP"
       },
       {
-        "title": "Market analysts react to US-Israel strikes on Iran - Reuters",
-        "link": "https://www.reuters.com/business/energy/market-analysts-react-us-israel-strikes-iran-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOQXo4OXh1bC0xc2lwbjJRN1k3ZFF5TjlVNHNQd3dZek5KUTkyZzZ1cFJKTElmR2UybUxZZWdKdXhWbzhPbzhGZzVWWEZENk5LZWFsZldQYXNEVHdWLXdJTXM4c3JFbmNTLXRJTEV",
-        "pubDate": "Sat, 28 Feb 2026 13:53:02 GMT",
-        "source": "Reuters"
+        "title": "At least 9 killed as Shiites storm US Consulate in Pakistan over killing of Iran's supreme leader - AP News",
+        "link": "https://apnews.com/article/pakistan-protesters-attacked-us-consulate-karachi-iran-a3cc0c3c6f126cc54a657f61d312a203",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5nM2NYUUxmXzNxWVJnQUR2NFhSSUtYbnNFWkoyZTlvQkF6Y1I1TWFqLUNaQVZjdVFtWlJ6M1RzZnZuaHF6QmZTeElvdjQzTVlLV0lJaDdrM0Jab1JzTFp0NGVPcWpQdmV5NlV",
+        "pubDate": "Sun, 01 Mar 2026 11:07:00 GMT",
+        "source": "AP"
       },
       {
-        "title": "Kyiv says Russia accepted US plan for Ukraine security guarantees - Reuters",
-        "link": "https://www.reuters.com/business/aerospace-defense/kyiv-says-russia-accepted-us-plan-ukraine-security-guarantees-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGN3b1QwM08xSk9oSGFzSkZxVDBOOEExVGh5cGppc1ItN2NBLXROMXZZbnBFSHRRZTZuQ2I1XzVVeHRMSVRTV2o4bDR1a0R3M1loNUpsSnJmYUs0MzhHS3prU0EwNkFMWG11a2V",
-        "pubDate": "Sat, 28 Feb 2026 20:40:24 GMT",
-        "source": "Reuters"
+        "title": "Iran’s Supreme Leader Ayatollah Ali Khamenei, who led the Islamic Republic since 1989, is dead at 86 - AP News",
+        "link": "https://apnews.com/article/iran-supreme-leader-ayatollah-ali-khamenei-dead-5b13b69b708c4ed38e8f95f5fb41a597",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSE9ieV9BNnl1SlJTWnZremZ4UE1hbnFoR0huTlY4MEV0NTdZZmIwQkpBYlNzSFlKLThxT25qTXZmMjNKLWxuSUhtV045blJQMGc2dDhuREltWk9PNU94bFJYMk05dXNYR0RLckR",
+        "pubDate": "Sun, 01 Mar 2026 03:21:00 GMT",
+        "source": "AP"
       },
       {
-        "title": "Wall St notches monthly declines on AI, tariff, geopolitical worries - Reuters",
-        "link": "https://www.reuters.com/video/markets-now/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2eVNmNXVqbVVESE8zMENLbUxnMUIzdFUxUEZXU09lU0h3WmR6eXp1c1R5bTQ0TmxwME56TGFCaF93LW9mNXRIdF85bURtaWxWTzRWNg?oc=5\" target=\"_blank\"&gt;Wall St",
-        "pubDate": "Sat, 28 Feb 2026 16:37:09 GMT",
-        "source": "Reuters"
+        "title": "Sykes’ 39 lead Long Beach State past Cal State Bakersfield 88-87 - AP News",
+        "link": "https://apnews.com/article/long-beach-gavin-sykes-college-basketball-college-sports-mens-college-basketball-8841e9db773e4cc4ab6ce3d2aa07878f",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVW0tMnNXMHpsOTFGX3I3VGlscDZacFdfOVhGQWxsdDBVWnFYVzA1VlZjdFVzb0w5clpnSmVfaHJCcXJWNWJoT1M1VUlpMF91WGQ4X0JFRC10aFVFaHhoZmJ1RG9STG5OV2VESEl",
+        "pubDate": "Sun, 01 Mar 2026 05:17:00 GMT",
+        "source": "AP"
       },
       {
-        "title": "Iran's revolutionary guards tell ships passage through Strait of Hormuz 'not allowed', EU naval mission official says - Reuters",
-        "link": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-tell-ships-passage-through-strait-hormuz-not-allowed-2026-02-28/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQb3BrRjBTQ2UtTVd5ZDNoYVdOYVAxeDZDZW5TN3lhbGc0NXdkdDNlRHFBSE5FbkNZRDB5WVl3ZzFqalhubV81X2RCNFNIWmNhQ1JNbl9paktPM3E1YW5tV25UbGFvNy1QVENJMGd",
-        "pubDate": "Sat, 28 Feb 2026 15:52:17 GMT",
-        "source": "Reuters"
+        "title": "Facebook owner Meta to buy AI chips from AMD in deal worth up to $100 billion - AP News",
+        "link": "https://apnews.com/article/amd-meta-ai-facebook-2ac7d0a302d291dbce8ed23b78722abd",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPUzE2Qjl2LVVkeDFhWW56LWdDWUFRdWZNRDNnV1NQYWhhS2dLYVlITVNoMU5nUTZwRVpzZGdKOURYTnppOVJ6X0RKVXFQV1lKLUY0ODdrSmJrbm40Y0EwNHNLRGFXWW9GaXFEanh",
+        "pubDate": "Sun, 01 Mar 2026 10:11:02 GMT",
+        "source": "AP"
       }
     ],
-    "ap": [],
     "bbc": [
       {
         "title": "Ayatollah Khamenei's iron grip on power in Iran comes to an end",
@@ -353,10 +328,17 @@
         "source": "BBC World"
       },
       {
-        "title": "Inside Iran, panic as strikes hit but for some it's a moment of relief",
-        "link": "https://www.bbc.com/news/articles/c05v8jzjn40o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Iranians talk about what is happening inside the country, despite an almost total internet blackout.",
-        "pubDate": "Sat, 28 Feb 2026 15:36:27 GMT",
+        "title": "What we know so far about the US-Israel attacks and Iran's retaliation",
+        "link": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Iran responds by launching missiles and drones towards Israel and four Gulf Arab countries that host US military bases.",
+        "pubDate": "Sun, 01 Mar 2026 10:58:33 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "Iran says US and Israel strikes hit school killing 108",
+        "link": "https://www.bbc.com/news/articles/c1l7rvqq51eo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "There is no confirmation by the US or Israel of the strike on the school located near elite military troops.",
+        "pubDate": "Sun, 01 Mar 2026 02:34:04 GMT",
         "source": "BBC World"
       },
       {
@@ -367,17 +349,17 @@
         "source": "BBC World"
       },
       {
-        "title": "Iran retaliation raises questions about US air defences",
-        "link": "https://www.bbc.com/news/articles/cg5nm6v2p4no?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Iran's strike on US Navy base in Bahrain will worry Washington and its allies in the region.",
-        "pubDate": "Sat, 28 Feb 2026 19:34:00 GMT",
-        "source": "BBC World"
-      },
-      {
         "title": "Where have Nepal's 'nepo kids' gone as corruption takes centre stage in election?",
         "link": "https://www.bbc.com/news/articles/cgqgl3j5nj4o?at_medium=RSS&amp;at_campaign=rss",
         "description": "The excess of politicians' children was front and centre of the anger that drove protests that toppled the government last year.",
         "pubDate": "Sat, 28 Feb 2026 23:03:48 GMT",
+        "source": "BBC World"
+      },
+      {
+        "title": "Wellness peptide craze: Why people are injecting drugs 'not for human consumption'",
+        "link": "https://www.bbc.com/news/articles/cdr268m5pxro?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Growing numbers of people are injecting unregulated peptides for health reasons - but one expert says they are \"lab rats\".",
+        "pubDate": "Sun, 01 Mar 2026 00:51:29 GMT",
         "source": "BBC World"
       },
       {
@@ -392,13 +374,6 @@
         "link": "https://www.bbc.com/news/articles/c0rjpxxpp49o?at_medium=RSS&amp;at_campaign=rss",
         "description": "Police fire tear gas to disperse crowds allegedly trying to take banknotes from the crash site.",
         "pubDate": "Sat, 28 Feb 2026 13:00:39 GMT",
-        "source": "BBC World"
-      },
-      {
-        "title": "Bill Clinton asked about hot tub photo and testifies he knew 'nothing' of Epstein crimes",
-        "link": "https://www.bbc.com/news/articles/cvg345qvld5o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The former president told the committee that he would never have flown on Epstein's plane if he \"had any inkling of what he was doing\".",
-        "pubDate": "Sat, 28 Feb 2026 03:43:56 GMT",
         "source": "BBC World"
       }
     ],
@@ -518,73 +493,101 @@
     ],
     "bloomberg": [
       {
-        "title": "Iran Strikes Disrupt Thousands of Flights; Dubai Airport Hit",
+        "title": "OPEC+ Agrees in Principle to Larger Oil Hike, Delegates Say",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/opec-agrees-in-principle-to-206k-b-d-hike-for-april-delegates",
+        "description": "OPEC+ agreed in principle to a slightly larger increase in oil production next month, delegates said, as a conflict sparked by US-Israeli strikes on Iran threatened to bolster a rally in crude prices.",
+        "pubDate": "Sun, 01 Mar 2026 10:51:17 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Global Earnings Underscore Shift From US as S&amp;P 500 Slumped",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/global-earnings-underscore-shift-from-us-as-s-p-500-slumped",
+        "description": "As the latest earnings season wraps, investors could be forgiven for missing some of the fireworks, what with AI’s stranglehold on the market narrative, geopolitical angst and renewed trade uncertaint",
+        "pubDate": "Sun, 01 Mar 2026 10:00:00 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Wall Street Turns to ‘Haven-First’ Strategy Amid Iran Crisis",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/wall-street-turns-to-haven-first-strategies-amid-iran-attacks",
+        "description": "The fast‑moving conflict across the Middle East is heightening investor anxiety and strengthening the case for safe‑haven trades such as Treasuries, gold and the Swiss franc.",
+        "pubDate": "Sun, 01 Mar 2026 08:41:58 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "US Job Growth Seen Moderating After Robust January",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/us-job-growth-seen-moderating-after-robust-january",
+        "description": "US payrolls growth probably settled back in February after the strongest month of hiring in a year, returning to a more moderate and likely sustainable pace of hiring.",
+        "pubDate": "Sat, 28 Feb 2026 21:00:00 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Gulf Airlines Extend Flight Cancellations as Iran Targets Hubs",
         "link": "https://www.bloomberg.com/news/articles/2026-03-01/iran-strikes-disrupt-thousands-of-flights-dubai-airport-damaged",
-        "description": "Thousands of flights have been disrupted in the wake of the escalating conflict engulfing the Middle East, with Dubai’s main airport &mdash; the world’s busiest aviation hub &mdash; effectively shut d",
+        "description": "Airlines across the Persian Gulf extended their suspension of operations as retaliatory strikes from Iran enter a second day, causing major disruptions at some of the world’s busiest airports.",
         "pubDate": "Sun, 01 Mar 2026 02:56:37 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Iran’s Supreme Leader Ali Khamenei Dead at 86",
-        "link": "https://www.bloomberg.com/news/videos/2026-03-01/iran-s-supreme-leader-ali-khamenei-dead-at-86-video",
-        "description": "Ali Khamenei, Iran’s anti-Western supreme leader who dominated the Islamic Republic for more than three decades, has died at 86. Bloomberg's Haslinda Amin explains. (Source: Bloomberg)",
-        "pubDate": "Sun, 01 Mar 2026 02:53:15 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Japan’s Shipping Companies Suspend Operations in Persian Gulf",
+        "title": "Japan Shipping Companies Suspend Operations in Persian Gulf",
         "link": "https://www.bloomberg.com/news/articles/2026-03-01/japan-s-shipping-companies-suspend-operations-in-persian-gulf",
         "description": "Japanese shipping companies have suspended operations in the Persian Gulf as the military conflict in Iran escalates.",
         "pubDate": "Sun, 01 Mar 2026 02:52:21 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "China Calls For Immediate Ceasefire After US Attacks Iran",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-28/china-calls-for-immediate-ceasefire-after-us-israel-bomb-iran",
-        "description": "China called for an immediate ceasefire following the US and Israel’s attacks on Iran, as President Xi Jinping’s government weighs its options in the Middle East.",
-        "pubDate": "Sat, 28 Feb 2026 14:26:25 GMT",
+        "title": "How Starmer Stumbled Into a French-Style Fix for Britain’s Woes",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/how-starmer-stumbled-into-a-french-style-fix-for-britain-s-woes",
+        "description": "The UK’s growth plan is simple. It wants more investment to deliver higher productivity that lifts wages and boosts living standards. There is an unfortunate consequence, however: unemployment.",
+        "pubDate": "Sun, 01 Mar 2026 06:00:00 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Korea Export Momentum Continues, Easing Monetary Policy Pressure",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/korea-export-momentum-continues-easing-monetary-policy-pressure",
-        "description": "South Korea’s exports accelerated in February, reinforcing the central bank’s view that solid semiconductor demand is helping cushion the economy as it maintains a neutral policy stance while monitori",
-        "pubDate": "Sun, 01 Mar 2026 00:53:29 GMT",
+        "title": "France’s CMA CGM Suspends Vessels’ Passage Through Suez Canal",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/france-s-cma-cgm-suspends-vessels-passage-through-suez-canal",
+        "description": "France’s CMA CGM SA, the world’s third-largest container line, told vessels in the Persian Gulf to take shelter immediately and suspended passage through the Suez Canal.",
+        "pubDate": "Sun, 01 Mar 2026 05:17:51 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "China’s Policy Summit Puts Tech, Stimulus in Focus for Investors",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/china-s-policy-summit-puts-tech-stimulus-in-focus-for-investors",
-        "description": "China kicks off its most important annual political meeting next week, with investors seeking clarity on how Beijing intends to press ahead with its tech ambitions while reviving a fragile consumer ec",
-        "pubDate": "Sun, 01 Mar 2026 00:00:01 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Thai Gold-Trading Curbs Take Effect as Authorities Rein in Baht",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/thai-gold-trading-curbs-take-effect-as-authorities-rein-in-baht",
-        "description": "Thailand will implement tough new rules governing retail gold-trading from March 1, hoping to curb speculative activity that’s fueled gains in the baht and weakened the nation’s competitiveness.",
-        "pubDate": "Sun, 01 Mar 2026 00:00:00 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Bolivia Races to Destroy $62 Million in Cash That Fell From Sky",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-races-to-destroy-cash-that-fell-from-sky-in-plane-crash",
-        "description": "Bolivian authorities are scrambling to destroy the equivalent of $62 million worth of local currency bank notes that fell from the sky in a deadly plane crash in the country’s second largest city.",
-        "pubDate": "Sat, 28 Feb 2026 18:25:22 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "World Leaders Urge Swift End to Iran Crisis After Khamenei Death",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/world-leaders-urge-swift-end-to-iran-crisis-after-khamenei-death",
-        "description": "Global leaders called for a quick resolution to the crisis in the Middle East as US allies backed the decision to target Iran’s supreme leader Ayatollah Ali Khamenei.",
-        "pubDate": "Sun, 01 Mar 2026 03:31:24 GMT",
+        "title": "Iran Supreme Leader Killed in US-Israel Attack as War Widens",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/iran-s-supreme-leader-killed-in-us-israeli-attacks-as-war-widens",
+        "description": "Iran’s supreme leader was killed in US–Israeli airstrikes, a seismic development in a conflict that’s spread to half a dozen countries across the Middle East and threatens to disrupt energy flows.",
+        "pubDate": "Sun, 01 Mar 2026 05:48:08 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Diplomacy Shifts to War: How Trump’s Team Decided to Attack Iran",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/iran-strikes-how-us-decided-to-launch-operation-epic-fury",
-        "description": "Donald Trump was done negotiating.",
-        "pubDate": "Sun, 01 Mar 2026 02:39:07 GMT",
+        "title": "Belgian Forces Seize Russian ‘Shadow Fleet’ Tanker in North Sea",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/belgian-forces-seize-russian-shadow-fleet-tanker-in-north-sea",
+        "description": "Belgium’s special forces on Sunday boarded and seized an oil tanker from the “shadow fleet” that Russia uses to circumvent Western sanctions imposed over its war in Ukraine.",
+        "pubDate": "Sun, 01 Mar 2026 10:12:28 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Iran-Linked Oil Tanker Targeted Near Strait of Hormuz",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/oman-says-oil-tanker-targeted-off-its-north-coast",
+        "description": "A small oil tanker, which appears to be sanctioned by the US for helping Iran export fuels, was targeted off Oman’s northern coast, the first maritime attack since war broke out in the Middle East ove",
+        "pubDate": "Sun, 01 Mar 2026 08:41:23 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Nine Killed in Pro-Iran Protests at US Consulate in Pakistan",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-01/nine-killed-as-protesters-try-to-storm-us-consulate-in-pakistan",
+        "description": "At least nine pro-Iranian protesters were killed in clashes with police as they tried to storm the gates of the US Consulate in Pakistan’s main port city of Karachi on Sunday.",
+        "pubDate": "Sun, 01 Mar 2026 08:22:27 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Egypt Reshuffles LNG Imports, Seeks More as Israel Cuts Gas",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/egypt-seeks-earlier-lng-imports-as-israel-cuts-gas-amid-iran-war",
+        "description": "Egypt is seeking to bring forward some LNG imports and plans to buy more cargoes after energy supplier Israel shuttered fields following its strikes on Iran, according to people familiar with the matt",
+        "pubDate": "Sat, 28 Feb 2026 20:36:29 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Dubai’s Worst Nightmare Unfolds as Iran Strikes Neighbors",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/dubai-s-worst-nightmare-unfolds-as-iran-strikes-gulf-neighbors",
+        "description": "Dubai’s nightmare scenario unfolded Saturday: Defense systems repelling Iranian missiles and drones over its famous skyscrapers, explosions and plumes of black smoke rising out of the city-state’s mos",
+        "pubDate": "Sat, 28 Feb 2026 18:03:10 GMT",
         "source": "Bloomberg Politics"
       },
       {
@@ -595,38 +598,10 @@
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Iranians on Khamenei’s Death: Mourning on State TV, Public Joy",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/iranians-on-khamenei-s-death-mourning-on-state-tv-public-joy",
-        "description": "Millions of Iranians have lived their entire lives under the thumb of Ayatollah Ali Khamenei, the supreme leader of Iran. When reports of his demise began to trickle in, the response in the streets of",
-        "pubDate": "Sun, 01 Mar 2026 01:58:29 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Khamenei Killed as US and Israel Strike Iran in Widening War",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-28/us-israel-start-attacks-on-iran-in-war-that-s-engulfing-region",
-        "description": "Iran’s supreme leader was killed in US-Israeli airstrikes, raising the stakes in a conflict that’s spiraling across the oil-rich Middle East and disrupting traffic around the Hormuz shipping strait.",
-        "pubDate": "Sat, 28 Feb 2026 16:51:01 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Iran State TV Confirms Khamenei’s Death",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/iran-state-tv-confirms-khamenei-s-death",
-        "description": "Ayatollah Ali Khamenei, the Supreme Leader of Iran, is dead, Iran state TV confirms.",
-        "pubDate": "Sun, 01 Mar 2026 01:30:25 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "China’s Policy Summit Puts Tech, Stimulus in Focus for Investors",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-01/china-s-policy-summit-puts-tech-stimulus-in-focus-for-investors",
-        "description": "China kicks off its most important annual political meeting next week, with investors seeking clarity on how Beijing intends to press ahead with its tech ambitions while reviving a fragile consumer ec",
-        "pubDate": "Sun, 01 Mar 2026 00:00:01 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Dubai’s Worst Nightmare Unfolds as Iran Strikes Neighbors",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-28/dubai-s-worst-nightmare-unfolds-as-iran-strikes-gulf-neighbors",
-        "description": "Dubai’s nightmare scenario unfolded Saturday: Defense systems repelling Iranian missiles and drones over its famous skyscrapers, random explosions and plumes of black smoke rising out of the city-stat",
-        "pubDate": "Sat, 28 Feb 2026 18:03:10 GMT",
+        "title": "Botswana Eyes Critical Minerals Boom",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-01/botswana-eyes-critical-minerals-boom-video",
+        "description": "Botswana is looking to pivot toward a more diversified minerals future. Bloomberg's Jennifer Zabasajja speaks with Minister of Minerals and Energy Bogolo Kenewendo on what comes next and how the natio",
+        "pubDate": "Sun, 01 Mar 2026 06:03:15 GMT",
         "source": "Bloomberg Politics"
       }
     ],
@@ -690,60 +665,118 @@
     ],
     "aljazeera": [
       {
-        "title": "Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US",
-        "link": "https://www.aljazeera.com/news/2026/3/1/netanyahus-war-analysts-say-trumps-iran-strikes-benefit-israel-not-us?traffic_source=rss",
-        "description": "War with Iran contradicts the US president&#039;s own criticism of regime change policies in the Middle East, analysts say.",
-        "pubDate": "Sun, 01 Mar 2026 02:14:32 +0000",
+        "title": "Man accuses Israel of war crimes as he holds remains of girl killed in Iran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/man-accuses-israel-of-war-crimes-as-he-holds-remains-of-girl-killed-in-iran?traffic_source=rss",
+        "description": "An Iranian man accused Israel of war crimes as he cradled remains of a girl killed in an attack on an elementary school.",
+        "pubDate": "Sun, 01 Mar 2026 10:43:41 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "US strikes on Iran lead to renewed demands for war powers legislation",
-        "link": "https://www.aljazeera.com/news/2026/3/1/us-strikes-on-iran-lead-to-renewed-demands-for-war-powers-legislation?traffic_source=rss",
-        "description": "Democratic lawmakers have largely condemned the strikes on Iran, emphasising the lack of congressional approval.",
-        "pubDate": "Sun, 01 Mar 2026 01:48:20 +0000",
+        "title": "‘US and Israel’s war on Iran is based on a flawed strategy’",
+        "link": "https://www.aljazeera.com/video/quotable/2026/3/1/us-and-israels-war-on-iran-is-based-on-a-flawed-strategy?traffic_source=rss",
+        "description": "&#039;US and Israel&#039;s war on Iran is based on a flawed strategy&#039;",
+        "pubDate": "Sun, 01 Mar 2026 10:41:06 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "New Yorkers protest US strikes on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/new-yorkers-protest-us-strikes-on-iran?traffic_source=rss",
-        "description": "New Yorkers protested Saturday hours after US President Donald Trump ordered a wave of deadly strikes on Iran.",
-        "pubDate": "Sun, 01 Mar 2026 00:33:46 +0000",
+        "title": "LIVE: India vs West Indies – T20 World Cup Super Eights",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/3/1/live-india-vs-west-india-t20-world-cup-super-eights?traffic_source=rss",
+        "description": "Follow our live updates, with toss and team news coverage, ahead of our live text commentary stream of the Group 1 game.",
+        "pubDate": "Sun, 01 Mar 2026 10:28:54 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-ambassador-to-un-calls-us-israeli-attacks-a-war?traffic_source=rss",
-        "description": "Iranian Ambassador to the United Nations, Amir-Saeid Iravani denounced US-Israeli military strikes across the country.",
-        "pubDate": "Sun, 01 Mar 2026 00:05:38 +0000",
+        "title": "Israel closes Gaza’s Rafah crossing amid attacks on Iran",
+        "link": "https://www.aljazeera.com/news/2026/3/1/israel-closes-gazas-rafah-crossing-amid-attacks-on-iran?traffic_source=rss",
+        "description": "The crossing with Egypt is considered vital for delivery of humanitarian aid and evacuation of critically ill patients.",
+        "pubDate": "Sun, 01 Mar 2026 09:59:03 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "How have US politicians reacted to the attack on Iran?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/how-have-us-politicians-reacted-to-the-attack-on-iran?traffic_source=rss",
-        "description": "Republicans largely rally behind Trump&#039;s strikes on Iran, while Democrats fail to offer singular message of opposition.",
-        "pubDate": "Sat, 28 Feb 2026 23:56:51 +0000",
+        "title": "Iran forms interim council to oversee transition after Khamenei’s killing",
+        "link": "https://www.aljazeera.com/news/2026/3/1/iran-to-form-interim-council-to-oversee-transition-after-khameneis-killing?traffic_source=rss",
+        "description": "Ayatollah Alireza Arafi appointed to the temporary council along with Iranian president and chief justice.",
+        "pubDate": "Sun, 01 Mar 2026 09:48:23 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Missile debris injures eight in Qatar after Iran launches barrage",
-        "link": "https://www.aljazeera.com/news/2026/2/28/missile-debris-injures-eight-in-qatar-after-iran-launches-barrage?traffic_source=rss",
-        "description": "Interior Ministry official says 66 missiles were fired at Qatar, and there were 114 reports of falling shrapnel.",
-        "pubDate": "Sat, 28 Feb 2026 23:20:30 +0000",
+        "title": "Video: Smoke seen rising from Dubai’s main shipping port after Iran attack",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/video-smoke-seen-rising-from-dubais-main-shipping-port-after-iran-attack?traffic_source=rss",
+        "description": "Plumes of smoke were seen rising from Dubai&#039;s Jebel Ali Port on Sunday morning as Iran continued its retaliation.",
+        "pubDate": "Sun, 01 Mar 2026 09:33:39 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Who is Ali Shamkhani, Iran official reportedly killed in US-Israel attacks?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/who-is-ali-shamkhani-iran-official-reportedly-killed-in-us-israel-attacks?traffic_source=rss",
-        "description": "The former defence minister and secretary of Iran&#039;s Defence Council was involved in US-Iran nuclear negotiations.",
-        "pubDate": "Sat, 28 Feb 2026 23:07:08 +0000",
+        "title": "US-Israel attacks on Iran, day 2: Khamenei is killed, Iran retaliates",
+        "link": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-day-2-khamenei-is-killed-iran-retaliates?traffic_source=rss",
+        "description": "Iran carries out retaliatory attacks as supreme leader is killed in US-Israeli attacks pushing the region to the edge.",
+        "pubDate": "Sun, 01 Mar 2026 09:10:06 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "pubDate": "Sat, 28 Feb 2026 23:03:08 +0000",
+        "title": "More blasts rock Dubai, Doha and Manama as Iran targets US assets in Gulf",
+        "link": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf?traffic_source=rss",
+        "description": "Iran&#039;s retaliatory attacks on US assets in the region continue for a second day as fears of a wider conflict rise.",
+        "pubDate": "Sun, 01 Mar 2026 08:44:52 +0000",
         "source": "Al Jazeera"
+      }
+    ],
+    "washpost": [
+      {
+        "title": "IDF says operation killed 40 senior Iranian commanders in a minute",
+        "link": "https://www.washingtonpost.com",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 11:13:50 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Live updates: Israel announces new wave of strikes as Iran vows to avenge Khamenei",
+        "link": "https://www.washingtonpost.com/world/2026/03/01/trump-iran-israel-khamenei-strikes-live-updates/",
+        "description": "President Donald Trump responded to a vow of revenge by Iran’s Islamic Revolutionary Guard Corps, promising to meet retaliation with “a force that has never been seen before!”",
+        "pubDate": "Sun, 01 Mar 2026 11:13:50 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Wary of wider conflict, European allies stress they didn’t join Iran strikes",
+        "link": "https://www.washingtonpost.com",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 11:11:58 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Smoke engulfs hospital building in Tehran",
+        "link": "https://www.washingtonpost.com",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 10:59:34 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Iran’s supreme leader killed in U.S.-Israeli attack; Tehran strikes Israel, Arab states",
+        "link": "https://www.washingtonpost.com/world/2026/02/28/israel-strikes-iran-live-updates/",
+        "description": "Ayatollah Ali Khamenei was killed in an Israeli airstrike on his Tehran compound, according to four Israeli security officials briefed on the matter.",
+        "pubDate": "Sun, 01 Mar 2026 10:59:34 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Smoke engulfs hospital building in Tehran",
+        "link": "https://www.washingtonpost.com",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 10:58:07 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Israel said it launched a fresh wave of airstrikes on Tehran on Sunday, marking a second...",
+        "link": "https://www.washingtonpost.com",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 10:56:41 +0000",
+        "source": "Washington Post"
+      },
+      {
+        "title": "Pakistani authorities said protesters stormed the perimeter of the U.S. Consulate General in Karachi on Sunday,...",
+        "link": "https://www.washingtonpost.com",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 10:54:01 +0000",
+        "source": "Washington Post"
       }
     ],
     "economist": [
@@ -766,6 +799,13 @@
         "link": "https://www.economist.com/finance-and-economics/2026/02/22/the-ai-productivity-boom-is-not-here-yet",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPX2RURVdWMTRGRmE4OTdsZTVGUE5zOEI4YTc5c2RzYTc1bWhyVUFSWDB1aUdZeHlNbHNfVHBZeTExVFB1c3VQY25fZFVEWXFad1dnWkN1VkxSdl9yM0wxeHlvdTdkQWlyU0xxYVh",
         "pubDate": "Sun, 22 Feb 2026 12:41:33 GMT",
+        "source": "Economist"
+      },
+      {
+        "title": "Digging for victory - The Economist",
+        "link": "https://www.economist.com/weeklyedition/2026-02-28",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zNG1GOHRBR2U0aXJoY2NWZlpEVTN6NjNzNllVQTdrU3FpWTU5T2d3WDVTM1Z3UTgwZlJZbUJLQUdJb0xKenZTbVBBOFY5bVo2RDF6Q21kZjhnNzZKNWxR?oc=5\" target=\"_bla",
+        "pubDate": "Sun, 01 Mar 2026 08:42:22 GMT",
         "source": "Economist"
       },
       {
@@ -795,207 +835,200 @@
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOY25TWU1VNHRIRkRWWWo5UWJucVVHU3RmVVdidFQ5dEE0WnBSMmcxUXpsMmh3QTd5ZFJwTlZlUWI5TzVVdll5Q3ZCMFJHMFVQQWU3RkNKakJuTF9rY21OcDRRczUwczdsXzdUOU5",
         "pubDate": "Wed, 25 Feb 2026 23:00:25 GMT",
         "source": "Economist"
-      },
-      {
-        "title": "Donald Trump lashes out at Anthropic - The Economist",
-        "link": "https://www.economist.com/business/2026/02/28/donald-trump-lashes-out-at-anthropic",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQclZTU2xBd2Y1djVMcTdUNDN2N2pFYWcxRDR6Und1cF9PY2tibGd3Z1RQWGRtREsxc2k3VGpkY05NYmkxYjVxX3ZJejY1SFhndk9NYzNNTWE4WWZSTjkzZHpPQk1JWHZ2Q09SLXR",
-        "pubDate": "Sat, 28 Feb 2026 02:32:55 GMT",
-        "source": "Economist"
       }
     ],
     "scmp": [
       {
-        "title": "With Khamenei dead, who will be Iran’s next supreme leader?",
-        "link": "https://www.scmp.com/news/world/middle-east/article/3345004/khamenei-dead-who-will-be-irans-next-supreme-leader?utm_source=rss_feed",
+        "title": "Belgium special forces seize Russian ‘shadow fleet’ tanker",
+        "link": "https://www.scmp.com/news/world/europe/article/3345031/belgium-special-forces-seize-russian-shadow-fleet-tanker?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 03:29:32 +0000",
+        "pubDate": "Sun, 01 Mar 2026 11:17:33 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Indonesia is getting an aircraft carrier. The Philippines isn’t. Does it matter?",
-        "link": "https://www.scmp.com/week-asia/politics/article/3344910/indonesia-getting-aircraft-carrier-philippines-isnt-does-it-matter?utm_source=rss_feed",
+        "title": "More than 40,000 Hong Kong cabbies register to accept Octopus payment",
+        "link": "https://www.scmp.com/news/hong-kong/transport/article/3345030/more-40000-hong-kong-cabbies-register-accept-octopus-payment?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 02:00:22 +0000",
+        "pubDate": "Sun, 01 Mar 2026 11:11:37 +0000",
         "source": "SCMP"
       },
       {
-        "title": "How China could narrow a tech hub’s income gap – and avoid Silicon Valley’s fate",
-        "link": "https://www.scmp.com/economy/china-economy/article/3344302/how-china-could-narrow-tech-hubs-income-gap-and-avoid-silicon-valleys-fate?utm_source=rss_feed",
+        "title": "As US names official for Tibet policy, is it eyeing China, its minority groups or trade?",
+        "link": "https://www.scmp.com/news/china/politics/article/3345029/us-names-official-tibet-policy-it-eyeing-china-its-minority-groups-or-trade?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 02:00:12 +0000",
+        "pubDate": "Sun, 01 Mar 2026 11:01:42 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Trump was once not keen on regime change in Iran – then he lost patience",
-        "link": "https://www.scmp.com/news/world/united-states-canada/article/3345003/trump-was-once-not-keen-regime-change-iran-then-he-lost-patience?utm_source=rss_feed",
+        "title": "Inside Xi Jinping’s new guide to promoting Communist Party officials",
+        "link": "https://www.scmp.com/news/china/politics/article/3345015/inside-xi-jinpings-new-guide-promoting-communist-party-officials?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:30:25 +0000",
+        "pubDate": "Sun, 01 Mar 2026 10:00:27 +0000",
         "source": "SCMP"
       },
       {
-        "title": "The high price of Hong Kong’s slow switch to electric buses and taxis",
-        "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3344649/high-price-hong-kongs-slow-switch-electric-buses-and-taxis?utm_source=rss_feed",
+        "title": "Warm winter no match: China’s sportswear sector posts surprise growth",
+        "link": "https://www.scmp.com/business/article/3345011/warm-winter-no-match-chinas-sportswear-sector-posts-surprise-growth?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:30:09 +0000",
+        "pubDate": "Sun, 01 Mar 2026 10:00:18 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Chinese social media bans female Uygur comic over marriage jokes – sparks backlash",
-        "link": "https://www.scmp.com/news/china/politics/article/3344977/chinese-social-media-bans-female-uygur-comic-over-marriage-jokes-sparks-backlash?utm_source=rss_feed",
+        "title": "Why Chinese honour Toilet Goddess with straw effigies, rituals during Lantern Festival",
+        "link": "https://www.scmp.com/news/people-culture/article/3344710/why-chinese-honour-toilet-goddess-straw-effigies-rituals-during-lantern-festival?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:00:20 +0000",
+        "pubDate": "Sun, 01 Mar 2026 10:00:10 +0000",
         "source": "SCMP"
       },
       {
-        "title": "China entrepreneur, abandoned as child, owns fashion brand that generates US$36 million sales",
-        "link": "https://www.scmp.com/news/people-culture/china-personalities/article/3344619/china-entrepreneur-abandoned-child-owns-fashion-brand-generates-us36-million-sales?utm_source=rss_feed",
+        "title": "Pakistani, Afghan clashes widen as Arab states struggle to halt war",
+        "link": "https://www.scmp.com/news/asia/south-asia/article/3345024/pakistani-afghan-clashes-widen-arab-states-struggle-halt-war?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:00:09 +0000",
+        "pubDate": "Sun, 01 Mar 2026 09:49:14 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Are new Hong Kong subdivided flat standards triggering a wave of evictions?",
-        "link": "https://www.scmp.com/news/hong-kong/society/article/3344967/are-new-hong-kong-subdivided-flat-standards-triggering-wave-evictions?utm_source=rss_feed",
+        "title": "Hong Kong government ‘prepared’ for more volatility after Iran attacks: Paul Chan",
+        "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345021/hong-kong-government-prepared-more-volatility-after-iran-attacks-paul-chan?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 00:30:08 +0000",
+        "pubDate": "Sun, 01 Mar 2026 09:09:42 +0000",
         "source": "SCMP"
       }
     ],
     "timesofisrael": [
       {
-        "title": "After Khamenei&#8217;s death, Iran’s IRGC vows ‘most ferocious offensive operation in history’ against Israel, US",
+        "title": "&#8216;Blue Moon&#8217;: Brilliant or a waste of space?",
+        "link": "https://www.timesofisrael.com/blue-moon-brilliant-or-a-waste-of-space/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 10:42:49 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "After Khamenei killed, Iran set for largely opaque supreme succession",
+        "link": "https://www.timesofisrael.com/after-khamenei-killed-iran-set-for-largely-opaque-supreme-succession/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 09:21:17 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Trump threatens Iran with force &#8216;never seen before&#8217; as missiles bombard Israel for second day",
+        "link": "https://www.timesofisrael.com/trump-threatens-iran-with-force-never-seen-before-as-missiles-bombard-israel-for-second-day/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 09:14:21 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Iran attacks on Gulf damage Dubai airport, ignite fire at iconic Burj Al Arab hotel",
+        "link": "https://www.timesofisrael.com/fiery-explosions-rock-gulf-as-iran-attacks-arab-neighbors-over-us-israeli-strikes/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 08:02:39 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "US, Israel defend strikes on Iran as lawful at heated UN Security Council meeting",
+        "link": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 06:34:17 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Sirens, shelters and an empty Old City: Jerusalem rattled on day 1 of war with Iran",
+        "link": "https://www.timesofisrael.com/sirens-shelters-and-an-empty-old-city-jerusalem-rattled-on-day-1-of-war-with-iran/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 05:57:48 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Iran&#8217;s Ali Khamenei, who based brutal rule on fiery hostility to US and Israel, dead at 86",
+        "link": "https://www.timesofisrael.com/irans-ali-khamenei-who-based-brutal-rule-on-fiery-hostility-to-us-and-israel-dead-at-86/",
+        "description": "",
+        "pubDate": "Sun, 01 Mar 2026 04:02:09 +0000",
+        "source": "Times of Israel"
+      },
+      {
+        "title": "Iran launches fresh missile attack as President Herzog appears at site of deadly Tel Aviv blast",
         "link": "https://www.timesofisrael.com/liveblog-march-01-2026/",
         "description": "",
         "pubDate": "Sun, 01 Mar 2026 02:35:48 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Woman killed, dozens injured as Iranian missile strikes Tel Aviv residential block",
-        "link": "https://www.timesofisrael.com/woman-killed-dozens-injured-as-iranian-missile-strikes-tel-aviv-residential-block/",
-        "description": "",
-        "pubDate": "Sun, 01 Mar 2026 02:28:17 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Khamenei set Iran&#8217;s direction for decades. Now the public he suppressed has hope",
-        "link": "https://www.timesofisrael.com/khamenei-set-irans-direction-for-decades-now-the-public-he-suppressed-has-hope/",
-        "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:20:40 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "End of an era as Iran confirms Khamenei is dead; Trump: Justice for Iranians and beyond",
-        "link": "https://www.timesofisrael.com/trump-says-evil-khamenei-is-dead-israeli-official-says-his-body-has-been-found/",
-        "description": "",
-        "pubDate": "Sun, 01 Mar 2026 00:00:23 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Top US official: Iran planned to preemptively launch missiles, Trump was forced to act",
-        "link": "https://www.timesofisrael.com/top-us-official-iran-planned-to-preemptively-launch-missiles-trump-was-forced-to-act/",
-        "description": "",
-        "pubDate": "Sat, 28 Feb 2026 23:47:06 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "&#8216;We meet again&#8217;: Inside the &#8216;pajama party&#8217; at a north Tel Aviv bomb shelter",
-        "link": "https://www.timesofisrael.com/we-meet-again-inside-the-pajama-party-at-a-north-tel-aviv-bomb-shelter/",
-        "description": "",
-        "pubDate": "Sat, 28 Feb 2026 21:24:36 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "Iran conflict strands tens of thousands of Israelis abroad",
-        "link": "https://www.timesofisrael.com/iran-conflict-strands-tens-of-thousands-of-israelis-abroad/",
-        "description": "",
-        "pubDate": "Sat, 28 Feb 2026 21:02:23 +0000",
-        "source": "Times of Israel"
-      },
-      {
-        "title": "UN Security Council to hold emergency meeting on US-Israeli strikes against Iran",
-        "link": "https://www.timesofisrael.com/un-security-council-to-hold-emergency-meeting-on-us-israeli-strikes-against-iran/",
-        "description": "",
-        "pubDate": "Sat, 28 Feb 2026 20:35:59 +0000",
         "source": "Times of Israel"
       }
     ],
     "afp": [
       {
-        "title": "Explosions heard in Kabul as Afghan forces open fire at Pakistani aircraft",
-        "link": "https://www.france24.com/en/asia-pacific/20260301-explosions-kabul-afghan-forces-pakistani-aircraft",
+        "title": "'The limits of American power': Will killing Khamenei bring regime change in Iran?",
+        "link": "https://www.france24.com/en/asia-pacific/20260301-limits-american-power-will-killing-khamenei-bring-regime-change-iran",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 03:18:48 GMT",
+        "pubDate": "Sun, 01 Mar 2026 10:35:20 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Iran supreme leader Ayatollah Khamenei dies, killed in joint US–Israeli attack",
-        "link": "https://www.france24.com/en/asia-pacific/20260301-iran-supreme-leader-ayatollah-khamenei-dies-killed",
+        "title": "People gather all over the world after Khamenei's death in Iran",
+        "link": "https://www.france24.com/en/people-gather-all-over-the-world-after-khamenei-s-death-in-iran",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:53:53 GMT",
+        "pubDate": "Sun, 01 Mar 2026 10:32:01 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "🔴 Iran's state TV confirms death of Supreme Leader Ali Khamenei",
-        "link": "https://www.france24.com/en/live-news/20260301-%F0%9F%94%B4-iran-s-state-tv-confirms-death-of-supreme-leader-ali-khamenei",
+        "title": "Iran vows revenge for slain supreme leader despite Trump threat",
+        "link": "https://www.france24.com/en/iran-vows-revenge-for-slain-supreme-leader-despite-trump-threat",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:34:26 GMT",
+        "pubDate": "Sun, 01 Mar 2026 10:22:45 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Khamenei death gives Iranians ‘greatest chance’ to take back country, says Trump",
-        "link": "https://www.france24.com/en/middle-east/20260301-trump-says-iran-supreme-leader-khamenei-killed-us-israeli-attack",
+        "title": "Iran: Israel says has began striking targets in heart of Tehran",
+        "link": "https://www.france24.com/en/video/20260301-iran-israel-says-has-began-striking-targets-in-heart-of-tehran",
         "description": "",
-        "pubDate": "Sun, 01 Mar 2026 01:32:04 GMT",
+        "pubDate": "Sun, 01 Mar 2026 10:02:49 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Trump says Iran's supreme leader Khamenei confirmed dead",
-        "link": "https://www.france24.com/en/asia-pacific/20260228-live-israel-says-launched-preventive-strike-against-iran-declares-state-of-emergency",
+        "title": "Attack on Iran: Ayatollah Ali Khamenei killed in US-Israeli attack",
+        "link": "https://www.france24.com/en/attack-on-iran-ayatollah-ali-khamenei-killed-in-us-israeli-attack",
         "description": "",
-        "pubDate": "Sat, 28 Feb 2026 21:44:16 GMT",
+        "pubDate": "Sun, 01 Mar 2026 10:01:01 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "US hails progress on Haiti's anti-gang force, but elections face steep hurdles",
-        "link": "https://www.france24.com/en/americas/20260228-us-hails-progress-haiti-anti-gang-force-rubio-elections",
+        "title": "US-Israeli attacks on Iran: Ayatollah Ali Khamenei confirmed dead",
+        "link": "https://www.france24.com/en/us-israeli-attacks-on-iran-ayatollah-ali-khamenei-confirmed-dead",
         "description": "",
-        "pubDate": "Sat, 28 Feb 2026 19:30:16 GMT",
+        "pubDate": "Sun, 01 Mar 2026 09:57:13 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Live: Israel's Netanyahu says 'many signs' that Iran's supreme leader Khamenei 'is no longer'",
-        "link": "https://www.france24.com/en/asia-pacific/20260228-live-israel-says-launched-preventive-strike-against-iran-declares-state-of-emergency",
+        "title": "Iran’s Supreme Leader Khamenei killed in US-Israeli attack",
+        "link": "https://www.france24.com/en/iran-s-supreme-leader-khamenei-killed-in-us-israeli-attack",
         "description": "",
-        "pubDate": "Sat, 28 Feb 2026 19:23:12 GMT",
+        "pubDate": "Sun, 01 Mar 2026 09:53:35 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "🔴 Live: Israel's 'largest ever' air raids struck 500 targets in Iran, army says",
-        "link": "https://www.france24.com/en/asia-pacific/20260228-live-israel-says-launched-preventive-strike-against-iran-declares-state-of-emergency",
+        "title": "Khamenei transition process starts, Trump threatens Iran with force",
+        "link": "https://www.france24.com/en/khamenei-transition-process-starts-trump-threatens-iran-with-force",
         "description": "",
-        "pubDate": "Sat, 28 Feb 2026 17:22:08 GMT",
+        "pubDate": "Sun, 01 Mar 2026 09:51:13 GMT",
         "source": "AFP/France24"
       }
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-03-01T04:01:22.959Z",
+    "timestamp": "2026-03-01T11:20:19.854Z",
     "bbc": {
       "lead": {
-        "headline": "Iran's Supreme Leader Ayatollah Ali Khamenei has been killed, state media says",
+        "headline": "Israel and Iran launch fresh attacks after Iran's Supreme Leader Khamenei killed",
         "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
         "source": "BBC"
       },
       "top": [
         {
-          "headline": "Iran's Supreme Leader Ayatollah Ali Khamenei has been killed, state media says",
+          "headline": "Israel and Iran launch fresh attacks after Iran's Supreme Leader Khamenei killed",
           "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
           "source": "BBC"
         },
         {
-          "headline": "Lyse Doucet: This is an extraordinary moment Iran has been preparing for",
-          "url": "https://www.bbc.com/news/articles/c98g91wgdd8o",
+          "headline": "One killed and 11 injured at Dubai and Abu Dhabi airports as Iran strikes region",
+          "url": "https://www.bbc.com/news/articles/c363zkp1pgxo",
           "source": "BBC"
         },
         {
@@ -1004,12 +1037,12 @@
           "source": "BBC"
         },
         {
-          "headline": "What we know so far: Supreme Leader Khamenei killed, as Iran launches retaliatory strikes",
-          "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo",
+          "headline": "Lyse Doucet: This is an extraordinary moment Iran has been preparing for",
+          "url": "https://www.bbc.com/news/articles/c98g91wgdd8o",
           "source": "BBC"
         },
         {
-          "headline": "Ayatollah Khamenei's iron grip on power in Iran comes to an end",
+          "headline": "How Ayatollah Khamenei kept an iron grip on power for almost 40 years",
           "url": "https://www.bbc.com/news/articles/c3gdnpjvj4ko",
           "source": "BBC"
         }
@@ -1017,14 +1050,14 @@
     },
     "guardian": {
       "lead": {
-        "headline": "Explosions rock Dubai, Bahrain, Jordan and Kuwait as war spreads across Middle East",
-        "url": "https://www.theguardian.com/world/2026/feb/28/dubais-famous-fairmont-hotel-in-flames-after-iranian-air-strike",
+        "headline": "Supreme leader killed as US and Israel wage war on Iran: what we know so far on day two",
+        "url": "https://www.theguardian.com/us-news/2026/mar/01/supreme-leader-killed-as-us-and-israel-wage-war-on-iran-what-we-know-so-far-on-day-two",
         "source": "Guardian"
       },
       "top": [
         {
-          "headline": "Explosions rock Dubai, Bahrain, Jordan and Kuwait as war spreads across Middle East",
-          "url": "https://www.theguardian.com/world/2026/feb/28/dubais-famous-fairmont-hotel-in-flames-after-iranian-air-strike",
+          "headline": "Supreme leader killed as US and Israel wage war on Iran: what we know so far on day two",
+          "url": "https://www.theguardian.com/us-news/2026/mar/01/supreme-leader-killed-as-us-and-israel-wage-war-on-iran-what-we-know-so-far-on-day-two",
           "source": "Guardian"
         },
         {
@@ -1033,52 +1066,52 @@
           "source": "Guardian"
         },
         {
-          "headline": "Pep Guardiola condemns fans who booed as Muslim players broke Ramadan fast at Leeds",
-          "url": "https://www.theguardian.com/football/2026/feb/28/pep-guardiola-condemns-fans-who-booed-as-muslim-players-broke-ramadan-fast-at-leeds",
+          "headline": "‘Middle East in flames’: what the papers say about the war on Iran",
+          "url": "https://www.theguardian.com/us-news/2026/mar/01/middle-east-in-flames-what-the-papers-say-about-the-war-on-iran",
           "source": "Guardian"
         },
         {
-          "headline": "The rise and fall of Iran’s ruthless and pragmatic Ayatollah Ali Khamenei",
-          "url": "https://www.theguardian.com/world/2026/feb/28/iran-ayatollah-ali-khamenei",
+          "headline": "Explosions rock Dubai, Bahrain, Jordan and Kuwait as war spreads across Middle East",
+          "url": "https://www.theguardian.com/world/2026/feb/28/dubais-famous-fairmont-hotel-in-flames-after-iranian-air-strike",
           "source": "Guardian"
         },
         {
-          "headline": "Inside Trump’s decision to attack Iran: ‘a window of opportunity’",
-          "url": "https://www.theguardian.com/us-news/2026/feb/28/trump-attack-iran-opportunity",
+          "headline": "Iran state media confirms killing of Ayatollah Ali Khamenei after US-Israeli missile strikes",
+          "url": "https://www.theguardian.com/us-news/2026/feb/28/khamenei-likely-killed-us-israel-iran-strikes",
           "source": "Guardian"
         }
       ]
     },
     "aljazeera": {
       "lead": {
-        "headline": "IRAN CONFIRMS KHAMENEI’S KILLING IN US-ISRAEL STRIKES",
+        "headline": "ISRAEL STRIKES ‘HEART’ OF TEHRAN; IRAN HITS BACK AFTER KHAMENEI KILLED",
         "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran",
         "source": "Al Jazeera"
       },
       "top": [
         {
-          "headline": "IRAN CONFIRMS KHAMENEI’S KILLING IN US-ISRAEL STRIKES",
+          "headline": "ISRAEL STRIKES ‘HEART’ OF TEHRAN; IRAN HITS BACK AFTER KHAMENEI KILLED",
           "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Smoke rises after drone crash near Erbil airport in Iraq: Reports",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4349324",
+          "headline": "Bahrain says Manama hotel damaged in attack",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4350575",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Iraq’s Muqtada al-Sadr mourns Khameni",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4349250",
+          "headline": "UKMTO warns of ‘significant military activity’ around Strait of Hormuz",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4350447",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Trump says diplomacy ‘much easier’ after attacking Iran",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4349223",
+          "headline": "Photos: People cross from Iran into Turkiye at Kapikoy border",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4350422",
           "source": "Al Jazeera"
         },
         {
-          "headline": "One killed, 121 wounded in Iranian attacks on Israel",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4349213",
+          "headline": "Drone shot down by US air defences near Erbil airport military base",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran?update=4350424",
           "source": "Al Jazeera"
         }
       ]
@@ -1102,6 +1135,6 @@
       ]
     }
   },
-  "generated": "2026-03-01T04:01:34.101Z",
+  "generated": "2026-03-01T11:20:31.488Z",
   "source": "github-actions"
 }

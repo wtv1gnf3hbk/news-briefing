@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Iran's Supreme Leader Ayatollah Ali Khamenei is dead at 86, killed in coordinated US-Israeli strikes that have fundamentally altered the Middle East overnight. Iranian state television confirmed his death early this morning, marking the end of more than three decades of authoritarian rule. The strikes have triggered [massive celebrations](https://www.nytimes.com/2026/02/28/world/middleeast/iran-khameni-celebrations.html) across Iranian cities, with crowds taking to the streets despite the ongoing conflict.
+The Middle East is engulfed in open warfare following the killing of Iran's Supreme Leader Ayatollah Ali Khamenei in coordinated US-Israeli strikes. Iran [launched massive](https://www.nytimes.com/live/2026/03/01/world/iran-attack-khamenei-trump) retaliation overnight, firing missiles and drones at Israel and four Gulf Arab nations hosting US military bases. The BBC reports that Iran's strikes [killed one](https://www.bbc.com/news/articles/c363zkp1pgxo) person and injured 11 at Dubai and Abu Dhabi airports, while explosions rocked Kuwait, Bahrain, and Jordan.
 
-But Iran's retaliation is spreading the war far beyond its borders. Iranian missiles have [struck Dubai](https://www.reuters.com/world/middle-east/four-injured-after-incident-dubai-international-airport-dubai-media-office-says-2026-02-28/), damaging the world's busiest airport and the iconic Burj Al Arab hotel, according to Reuters. Similar attacks hit Bahrain, Jordan, and Kuwait overnight. The [Strait of Hormuz](https://www.nytimes.com/2026/02/28/world/middleeast/strait-of-hormuz-ship-traffic.html) has become a no-go zone for commercial shipping, threatening global oil supplies. Meanwhile, Trump is calling on Iranians to "take over" their government, but the [succession question](https://www.nytimes.com/2026/02/28/world/middleeast/ali-khamenei-iran-leader-succession.html) remains wide open as Iran's leadership structure fractures.
+This is day two of what amounts to a regional war. The [CIA helped](https://www.nytimes.com/2026/03/01/us/politics/cia-israel-ayatollah-compound.html) Israel pinpoint Iranian leadership targets, including the compound where Khamenei was killed alongside other top officials. Iran has closed the Strait of Hormuz, and 1,600 flights have been canceled across the region. The conflict has also sparked deadly protests, with at least nine people killed when Shiite demonstrators stormed the US Consulate in Karachi, according to AP.
 
 **Business/Tech**
 
-�� [OpenAI detailed](https://www.reuters.com/business/media-telecom/openai-details-layered-protections-us-defense-department-pact-2026-02-28/) its new Pentagon partnership yesterday, outlining "layered protections" for military AI applications just as the defense department faces its biggest test in years, Reuters reports.
+• OPEC+ agreed to a larger oil production increase for April, Bloomberg reports, as crude prices rally following the Iran strikes. The move aims to stabilize markets during the [regional conflict](https://www.bloomberg.com/news/articles/2026-03-01/opec-agrees-in-principle-to-206k-b-d-hike-for-april-delegates).
 
-• The former [Binance CEO](https://www.nytimes.com/2026/02/27/technology/cz-changpeng-zhao-binance-memoir-prison.html) Changpeng Zhao is opening up about his prison time and the secret talks that preceded his downfall, offering rare insights into crypto's regulatory reckoning.
+• Meta is planning to buy AI chips from AMD in a deal worth up to $100 billion, AP reports, marking a [massive expansion](https://apnews.com/article/amd-meta-ai-facebook-2ac7d0a302d291dbce8ed23b78722abd) of the social media giant's AI infrastructure.
 
-• [Warner Bros](https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html) employees are facing an uncertain future following abrupt changes at the media giant, with many expecting major restructuring ahead.
+• Silicon Valley is [rallying behind](https://www.nytimes.com/2026/02/27/technology/anthropic-trump-pentagon-silicon-valley.html) Anthropic in its standoff with the Trump administration over Pentagon AI contracts, creating a rare tech industry confrontation with the White House.
 
-• Elon Musk has built a [secretive network](https://www.nytimes.com/2026/02/27/technology/elon-musk-companies-texas.html) of shell companies across Texas, raising questions about transparency in his expanding business empire.
+• Warner Bros. faces internal turmoil following [abrupt changes](https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html) in its corporate structure, with many employees expressing concern about the company's direction.
 
 **Around the World**
 
-• **Latin America**: Trump [gave private companies](https://www.nytimes.com/2026/02/28/world/americas/trump-cuba-oil-sales.html) the green light to sell oil directly to Cuba, a quiet shift in policy that could reshape US-Cuba relations while Washington focuses on Iran.
+• **Latin America**: Trump has given the green light to private US companies to sell oil to Cuba, marking a [significant shift](https://www.nytimes.com/2026/02/28/world/americas/trump-cuba-oil-sales.html) in Washington's approach to the communist island during his second term.
 
-• **Europe**: Global leaders are calling for a swift resolution to the Middle East crisis, with [US allies backing](https://www.bloomberg.com/news/articles/2026-03-01/world-leaders-urge-swift-end-to-iran-crisis-after-khamenei-death) the decision to target Khamenei even as they worry about regional spillover, Bloomberg reports.
+• **Europe**: Belgian special forces seized a Russian "shadow fleet" oil tanker in the North Sea, Bloomberg reports, as authorities crack down on vessels helping Moscow [circumvent sanctions](https://www.bloomberg.com/news/articles/2026-03-01/belgian-forces-seize-russian-shadow-fleet-tanker-in-north-sea) over Ukraine.
 
-• **Asia**: A [privacy battle](https://www.bbc.com/news/articles/cp81wegj123o?at_medium=RSS&at_campaign=rss) is brewing in India over WhatsApp's 2021 policy requiring users to share data with Meta for advertising purposes, the BBC notes, as the app faces a major legal challenge.
+• **Asia**: Violence erupted in Pakistan where Shiite protesters stormed the US Consulate in Karachi over Khamenei's killing, with AP reporting at least [nine deaths](https://apnews.com/article/pakistan-protesters-attacked-us-consulate-karachi-iran-a3cc0c3c6f126cc54a657f61d312a203) in the clashes.
 
-• **Middle East**: [Aviation chaos](https://www.bloomberg.com/news/articles/2026-03-01/iran-strikes-disrupt-thousands-of-flights-dubai-airport-damaged) is gripping the region, with thousands of flights canceled and Dubai's airport effectively shut down as Iranian missiles continue to target regional hubs, according to Bloomberg.
+• **Middle East**: The BBC reports what we know so far about the escalating conflict, with Iran responding to the assassination by launching [missiles and drones](https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss) toward Israel and Gulf Arab nations hosting American forces.
 
-• **Africa**: Nigerian billionaire Aliko Dangote has [traded his glamorous lifestyle](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) for an ambitious mission to industrialize Africa's most populous country, betting big on local manufacturing.
+• **Africa**: Nigerian billionaire Aliko Dangote has transformed from glamorous businessman to industrial pioneer, betting big on a massive refinery project aimed at [industrializing Nigeria](https://www.nytimes.com/2026/02/27/world/africa/nigeria-dangote-refinery.html) and reducing oil import dependence.
