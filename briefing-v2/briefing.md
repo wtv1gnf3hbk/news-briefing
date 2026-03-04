@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Middle East is reshaping before our eyes as Israel capitalizes on Iran's weakened position following the death of Supreme Leader Khamenei. What started as targeted strikes has evolved into something much broader. Israel is now [seizing territory](https://www.nytimes.com/2026/03/03/world/middleeast/israeli-forces-in-lebanon.html) in southern Lebanon and systematically dismantling Iran's security apparatus, while Trump doubles down on military action despite growing international isolation.
+The Iran war is escalating rapidly, with [Israel launching](https://www.bbc.com/news/live/c62gg44d53xt) what it calls a "broad wave" of strikes on Iranian targets as Tehran fires back with missiles hitting Israeli towns. According to BBC, Iranians describe conditions as getting "worse every day" as the conflict spreads across the region. The violence has expanded beyond Iran's borders, with [French forces](https://www.aljazeera.com/news/liveblog/2026/3/4/iran-live-news-us-embassy-in-dubai-hit-israel-pounds-tehran-beirut) shooting down drones over the UAE, Al Jazeera reports, and pro-Iran groups claiming attacks on US targets in Jordan.
 
-The conflict's economic shockwaves are rippling globally. [Oil prices](https://www.bbc.com/news/articles/cr5lz0vgy52o) are soaring and markets are tumbling as Iran threatens crucial shipping lanes in the Gulf, according to the BBC. The human toll keeps climbing, with [787 deaths](https://www.aljazeera.com/news/liveblog/2026/3/3/iran-live-news-israel-bombs-tehran-beirut-trump-says-war-to-last-4-weeks) reported in Iran, according to Al Jazeera. Iranian drones struck the US embassy in Riyadh this morning, prompting America to close diplomatic missions in Saudi Arabia and Kuwait. Trump's political gamble on "energy dominance" and military supremacy is now testing both his presidency and America's standing with allies who've largely refused to back the strikes.
+The broader geopolitical fallout is intensifying. [Global leaders](https://www.nytimes.com/2026/03/04/world/europe/iran-trump-world-reaction.html) are bracing for the conflict's ripple effects, and there are signs Iran may be seeking diplomatic channels. The NYT reports that Tehran has made [secret outreach](https://www.nytimes.com/2026/03/04/us/politics/trump-iran-intelligence-leaders.html) to Trump. In a significant development for Iran's future, [Khamenei's son](https://www.nytimes.com/2026/03/03/world/middleeast/iran-mojtaba-khamenei-successor.html) has emerged as the leading choice to succeed the late supreme leader.
 
 **Business/Tech**
 
-• Global markets are in free fall as investors flee to safe havens. [Treasury yields](https://www.bloomberg.com/news/articles/2026-03-03/us-treasuries-extend-fall-as-iran-war-fuels-global-bond-rout) are spiking as traders slash bets on Fed rate cuts, Bloomberg reports.
+- [Energy markets](https://www.nytimes.com/2026/03/04/business/iran-stocks-natural-gas-oil.html) are in turmoil as the war disrupts global oil and gas flows through the Strait of Hormuz. Oil prices have spiked on fears the conflict could drag on for months.
 
-• Norway says its capacity to boost gas deliveries to Europe is [limited](https://www.bloomberg.com/news/articles/2026-03-03/norway-s-capacity-to-boost-gas-deliveries-limited-minister-says), per Bloomberg, just when the continent needs alternatives to Middle Eastern energy most.
+- Wall Street is getting rattled by [risky loans](https://www.nytimes.com/2026/03/03/business/private-credit-crisis-blue-owl-capital.html) from big lenders, with the private credit market showing signs of stress that are making investors nervous.
 
-• China's methanol imports from Iran could face significant [disruption](https://www.scmp.com/economy/china-economy/article/3345276/iran-war-could-significantly-disrupt-chinas-methanol-imports-analysts), analysts tell the South China Morning Post.
+- The Pentagon's favorite defense contractor is [Palmer Luckey's](https://www.nytimes.com/2026/03/02/technology/pentagon-anduril-palmer-luckey.html) Anduril, with the Hawaiian shirt-wearing founder becoming a key player in military tech deals.
 
-• Palantir shares are bouncing back after a 38% plunge, with Wall Street analysts putting the defense contractor back on their [buy lists](https://www.bloomberg.com/news/articles/2026-03-03/palantir-is-back-on-wall-street-s-buy-list-after-a-38-plunge) as war spending expectations rise, according to Bloomberg.
+- [OpenAI has amended](https://www.nytimes.com/2026/03/02/technology/openai-pentagon-deal-amended-surveillance.html) its controversial deal with the Pentagon after pushback over surveillance applications.
 
 **Around the World**
 
-• **Latin America**: Cuba's leadership is calling for [urgent economic change](https://www.nytimes.com/2026/03/02/world/americas/cuba-economy-change-communism.html) as Trump's pressure campaign intensifies and the Iran conflict raises fears of further US action in the region.
+- **Latin America**: Cuba's tourism industry is [collapsing completely](https://www.nytimes.com/2026/03/04/world/americas/cuba-tourism-travel-canada-trump.html) as fuel shortages cripple the island's ability to host visitors, dealing another blow to the cash-strapped economy.
 
-• **Europe**: Germany's military spending surge is making its NATO allies [nervous](https://www.nytimes.com/2026/03/03/world/europe/germany-military-defense-spending-europe-nato.html), reviving old anxieties about German rearmament even as the alliance faces new threats.
+- **Europe**: The UK has imposed an [emergency brake](https://www.theguardian.com/uk-news/2026/mar/03/uk-puts-emergency-brake-on-study-visas-for-four-countries-nationals) on study visas for nationals from four countries, the Guardian reports, marking a significant shift in Britain's immigration policy.
 
-• **Asia**: The US strikes on Iran are testing Trump's [fragile truce](https://www.nytimes.com/2026/03/03/world/asia/us-iran-china-trump-xi.html) with China, which has been trying to mediate while protecting its economic interests in Tehran.
+- **Asia**: [Nepal's Gen Z](https://www.nytimes.com/2026/03/04/world/asia/nepal-election-gen-z-what-to-know.html) voters are pinning their hopes on a millennial rapper in upcoming elections.
 
-• **Middle East**: Israel and the US are specifically targeting Iranian security agencies that [crushed protests](https://www.nytimes.com/2026/03/03/world/middleeast/us-israel-strikes-iran-state-security-police.html) in recent years, sending a message to both the regime and Iranian dissidents.
+- **Middle East**: The Iran war is creating an unexpected challenge for FIFA as it grapples with whether Iran can [participate in](https://www.nytimes.com/2026/03/04/world/middleeast/iran-war-us-fifa-world-cup-soccer.html) the upcoming World Cup.
 
-• **Africa**: The US has hit Rwanda with [new sanctions](https://www.nytimes.com/2026/03/02/world/africa/rwanda-sanctions-trump-peace-m23.html), accusing Kigali of sabotaging Trump's peace deal in eastern Congo as the administration takes a harder line globally.
+- **Africa**: The US has [imposed sanctions](https://www.nytimes.com/2026/03/02/world/africa/rwanda-sanctions-trump-peace-m23.html) on Rwanda, accusing Kigali of sabotaging Trump's peace deal as fighting escalates in eastern Congo.

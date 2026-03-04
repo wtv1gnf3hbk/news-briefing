@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Middle East is reshaping itself in real time, and Israel is driving much of that change. What started as targeted strikes on Iran has evolved into something far more ambitious — [Israel is seizing](https://www.nytimes.com/2026/03/03/world/middleeast/israel-iran-hezbollah.html) opportunities to fundamentally alter the regional balance of power. Israeli forces are now advancing deeper into Lebanon while coordinating with the U.S. on strikes that have killed nearly 800 people in Iran, according to Al Jazeera's latest count.
+The Israel-Iran conflict is escalating rapidly, with Israeli forces conducting what they describe as a "broad wave" of strikes across Iran while Tehran fires back with attacks on multiple fronts. The [BBC reports](https://www.bbc.com/news/live/c62gg44d53xt) that Iranians are telling journalists "it's getting worse every day" as the violence spreads. Israel is targeting Iran's security apparatus and leadership, according to [AP](https://apnews.com/article/iran-israel-us-march-04-2026-e1c316da4ce809407122590a6872aa85), while Iranian-backed groups have launched strikes reaching from Lebanon to Jordan.
 
-The economic shockwaves are hitting everywhere at once. [Global markets tumbled](https://www.nytimes.com/2026/03/03/world/middleeast/stock-markets-iran.html) as oil and gas prices surge, with Iranian officials threatening to "set fire" to ships passing through the Strait of Hormuz — the world's most crucial energy chokepoint. Meanwhile, Trump is betting that America's domestic energy boom will insulate the U.S. from the worst economic fallout, even as he escalates a conflict that could define his presidency.
+The conflict is sending shockwaves far beyond the Middle East. Global [energy prices](https://www.nytimes.com/2026/03/04/business/iran-stocks-natural-gas-oil.html) are spiking as markets worry about oil supply disruptions, and world leaders are [bracing for](https://www.nytimes.com/2026/03/04/world/europe/iran-trump-world-reaction.html) the fallout from what many see as a rapidly metastasizing war. The succession dynamics in Tehran add another layer of uncertainty, with Supreme Leader Khamenei's son [emerging as](https://www.nytimes.com/2026/03/03/world/middleeast/iran-mojtaba-khamenei-successor.html) the leading choice to replace his father during this critical moment.
 
 **Business/Tech**
 
-• [Oil and gas](https://www.bbc.com/news/articles/cr5lz0vgy52o) prices are soaring as Iran threatens to shut down the Strait of Hormuz, the BBC reports — about 20% of global oil passes through that narrow waterway
+• Asian markets are getting hammered as the Iran war hits this year's [winning trades](https://www.bloomberg.com/news/newsletters/2026-03-04/this-year-s-winning-stock-trades-take-the-brunt-of-war-selloff) hardest, Bloomberg notes, particularly because the region depends heavily on imported oil.
 
-• [Norway's gas producers](https://www.bloomberg.com/news/articles/2026-03-03/norway-s-capacity-to-boost-gas-deliveries-limited-minister-says) are already operating near full capacity, Bloomberg reports, leaving European nations scrambling to secure alternative energy supplies
+• The Strait of Hormuz chokepoint is [disrupting global](https://www.nytimes.com/interactive/2026/03/03/business/iran-war-oil-gas-strait-of-hormuz.html) oil and gas flows, creating supply chain headaches worldwide.
 
-• The [global economy faces](https://www.nytimes.com/2026/03/03/business/us-iran-israel-economic-fallout.html) the prospect of another profound shock, with analysts warning that sustained Middle East conflict could trigger recession in energy-dependent regions
+• Private credit firms are facing scrutiny as [risky loans](https://www.nytimes.com/2026/03/03/business/private-credit-crisis-blue-owl-capital.html) from big lenders rattle Wall Street during the broader market turmoil.
 
-• Rolex enthusiasts can now [bet on watch](https://www.bloomberg.com/news/articles/2026-03-03/rolex-enthusiasts-get-kalshi-contracts-to-bet-on-watch-prices) prices through new Kalshi contracts, according to Bloomberg — because apparently even luxury timepieces need prediction markets now
+• Barclays is [owed about](https://www.bloomberg.com/news/articles/2026-03-04/barclays-owed-about-500-million-by-collapsed-uk-lender-mfs) £500 million by the collapsed UK mortgage lender MFS, per Bloomberg.
 
 **Around the World**
 
-• **Latin America:** Mexico's most feared drug lord 'El Mencho' was [buried in a](https://www.bbc.com/news/articles/c0j5v6e2py6o) golden coffin after dying in a February firefight, the BBC reports — his Jalisco New Generation Cartel remains one of the most powerful criminal organizations in the Americas
+• **Latin America**: Cuba's tourism industry is [collapsing as](https://www.nytimes.com/2026/03/04/world/americas/cuba-tourism-travel-canada-trump.html) fuel shortages strangle the island's economy, creating a perfect storm with Trump's renewed sanctions threats.
 
-• **Europe:** Ukrainian President Zelensky [fears Trump's Iran](https://www.bbc.com/news/articles/clyv10dre79o) war could devastate Ukraine by driving up oil prices and creating shortages in air defense systems, according to the BBC
+• **Europe**: Spain's Pedro Sánchez is [hitting back](https://www.bbc.com/news/articles/c93wwq1n542o) at Trump's trade threats, telling the BBC his country says "no to war" as transatlantic tensions spike over the Iran conflict.
 
-• **Asia:** The [U.S. attacks on](https://www.nytimes.com/2026/03/03/world/asia/us-iran-china-trump-xi.html) Iran are testing the fragile truce between Washington and Beijing, as China weighs whether to openly support its Iranian allies
+• **Asia**: China is kicking off its annual "two sessions" political meetings, which the [BBC explains](https://www.bbc.com/news/articles/c2lrxyke7kro) will signal Beijing's priorities as the world's second-largest economy navigates the Middle East crisis.
 
-• **Middle East:** [U.S. embassies in](https://www.nytimes.com/2026/03/03/world/middleeast/us-closes-embassies-in-saudi-arabia-and-kuwait.html) Saudi Arabia and Kuwait have closed following Iranian drone attacks on the Riyadh facility that caused fires and structural damage
+• **Middle East**: FIFA faces a test ahead of the World Cup as the US-Iran conflict complicates [soccer diplomacy](https://www.nytimes.com/2026/03/04/world/middleeast/iran-war-us-fifa-world-cup-soccer.html) and tournament planning.
 
-• **Africa:** The [U.S. imposed sanctions](https://www.nytimes.com/2026/03/02/world/africa/rwanda-sanctions-trump-peace-m23.html) on Rwanda yesterday, accusing Kigali of sabotaging Trump's peace deal in eastern Congo by continuing to back M23 rebels
+• **Africa**: South Africa's former defense minister Mosiuoa Lekota, who was [imprisoned with](https://www.bbc.com/news/articles/clyzzdgv2k0o) Nelson Mandela on Robben Island, has died, the BBC reports.
