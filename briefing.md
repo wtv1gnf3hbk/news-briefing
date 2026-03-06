@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The conflict between Iran and the U.S.-Israel coalition is escalating rapidly, with new strikes on multiple fronts. Iran [denies firing](https://www.nytimes.com/live/2026/03/05/world/iran-war-israel-trump) a missile at Turkey, though NATO Secretary-General Rutte says Article Five isn't "on the table" over the Turkish incident. The BBC reports that [Israel and Iran](https://www.bbc.com/news/live/c62gg44d53xt) launched new strikes as Britain's first evacuation flight bringing citizens home faces delays.
+The Pentagon is investigating whether a school was damaged during yesterday's U.S. [strikes on](https://www.nytimes.com/2026/03/05/world/middleeast/iran-school-us-strikes-naval-base.html) an Iranian naval base. The analysis comes as Israel continues [pummeling Beirut](https://www.nytimes.com/live/2026/03/06/world/iran-war-trump-israel-lebanon) with some of its most intense strikes yet against Hezbollah positions.
 
-The conflict is [spilling beyond](https://www.nytimes.com/live/2026/03/05/world/iran-war-israel-trump) the traditional Middle East battleground, creating ripple effects across global markets and testing alliance structures. Defense Secretary Hegseth confirmed a U.S. submarine sank an Iranian warship in the Indian Ocean, according to the BBC, with around [140 people](https://www.bbc.com/news/articles/c0e55g03v2zo?at_medium=RSS&at_campaign=rss) feared missing off Sri Lanka's coast. Meanwhile, Trump is pushing for a [quick victory](https://www.nytimes.com/2026/03/05/us/politics/trump-iran-war-deaths.html) in Iran, though analysts warn the war could prove costly in both lives and resources.
+The regional crisis is reshaping power dynamics beyond the immediate battlefield. Lebanon finds itself at a [tipping point](https://www.nytimes.com/2026/03/06/world/middleeast/lebanon-hezbollah-iran-disarm.html) as it tries to curb Hezbollah's influence, while analysts suggest Trump's aggressive approach is actually diminishing Russia's global clout as Putin finds himself [out-Putined](https://www.nytimes.com/2026/03/06/world/europe/russia-iran-putin.html). The conflict has even drawn in unlikely players — three Australian naval officers were aboard the U.S. submarine that [sank an](https://www.nytimes.com/2026/03/06/world/middleeast/iran-warship-us-submarine-australia.html) Iranian warship this week.
 
 **Business/Tech**
 
-- Markets are feeling the heat from Middle East tensions, with Reuters reporting [U.S. stock futures](https://www.reuters.com/business/us-stock-futures-slip-investors-weigh-middle-east-war-fallout-2026-03-05/) slipping as investors weigh the war's fallout on global trade and energy supplies.
+• Reinsurers are [scrapping war-risk](https://www.bloomberg.com/news/articles/2026-03-06/reinsurers-scrap-war-risk-cover-after-us-torpedoes-iranian-ship) coverage after the U.S. torpedoed that Iranian ship, according to Bloomberg — a sign of how quickly the conflict is spilling into global markets
 
-- China's e-commerce giant JD.com [missed quarterly](https://www.reuters.com/business/retail-consumer/chinas-jdcom-misses-quarterly-revenue-estimates-2026-03-05/) revenue estimates, Reuters reports, another sign of headwinds in the world's second-largest economy.
+• Monthly car payments averaging $800 are [hurting sales](https://www.nytimes.com/2026/03/05/business/new-car-sales-payments-affordability.html) across the industry as affordability becomes a bigger barrier for buyers
 
-- Iran's cheap Shahed drones are creating a costly problem for U.S. forces, with American interceptor missiles [costing a fraction](https://www.nytimes.com/2026/03/04/business/iran-shahed-drones-missiles-us-war.html) of what it takes to shoot down each Iranian drone.
+• AI prospectors are tapping into a [billion-dollar gusher](https://www.nytimes.com/2026/03/05/technology/ai-data-centers-land-cloverleaf-infrastructure.html) by buying up land for data centers, creating a new real estate gold rush
 
-- Wall Street is grappling with AI's potential for "creative destruction," with Bloomberg noting analysts worry [entire companies](https://www.bloomberg.com/news/articles/2026-03-05/wall-street-s-ai-stock-trade-is-about-the-next-blockbusters) could be displaced, not just individual jobs.
+• Don't let AI [file your](https://www.nytimes.com/2026/03/05/technology/artificial-intelligence-taxes-tax-refund.html) taxes this year — the technology isn't reliable enough yet for something this consequential
 
 **Around the World**
 
-- **Latin America**: Ecuador has [invited U.S. military](https://www.nytimes.com/2026/03/04/world/americas/ecuador-trump-drug-gangs-us-military.html) help to combat powerful drug gangs that have turned parts of the country into war zones, marking a significant shift in regional security cooperation.
+• **Latin America**: The U.S. and Venezuela [agreed to](https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss) resume diplomatic ties after the U.S. captured Nicolás Maduro and his wife, the BBC reports, with both sides pledging joint efforts to promote stability
 
-- **Europe**: China set its [lowest economic](https://www.bbc.com/news/articles/cqxddwl93qjo?at_medium=RSS&at_campaign=rss) growth target since 1991, the BBC reports, the first cut since it dropped to "around 5%" in 2023 as Beijing grapples with mounting economic pressures.
+• **Europe**: Hungary is [holding seven](https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss) Ukrainian bank workers and $80 million in cash they were transporting between Austria and Ukraine, according to the BBC
 
-- **Asia**: South Korea's markets survived a turbulent 24-hour period that tested the resilience of [Asian financial](https://www.nytimes.com/2026/03/05/business/south-korea-markets.html) systems as energy prices spiked following the Middle East conflict.
+• **Asia**: Shiite Muslims across South Asia are [expressing anger](https://www.nytimes.com/2026/03/06/world/middleeast/iran-khamenei-shiite-india-pakistan.html) and grief over Ayatollah Khamenei's killing.
 
-- **Middle East**: Iran launched strikes targeting [Iranian Kurdish](https://www.bbc.com/news/articles/c2k88y1147jo?at_medium=RSS&at_campaign=rss) forces in Iraq, the BBC reports, following speculation that Washington wants these groups to join the fight against Tehran.
+• **Middle East**: Israeli evacuation warnings for Beirut's Hezbollah stronghold [sparked panic](https://www.bbc.com/news/articles/cj32750e7j6o?at_medium=RSS&at_campaign=rss) and massive traffic jams as residents fled the area, the BBC notes
 
-- **Africa**: South African President Ramaphosa opened up about his [tense Oval Office](https://www.nytimes.com/2026/03/05/world/africa/south-africa-ramaphosa-trump-meeting-racist.html) meeting with Trump, describing what he called an "ambush" over trade and diplomatic issues.
+• **Africa**: South African President Cyril Ramaphosa opened up about his recent meeting with Trump, calling it an ["ambush"](https://www.nytimes.com/2026/03/05/world/africa/south-africa-ramaphosa-trump-meeting-racist.html) and discussing the president's approach to racism
