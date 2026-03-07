@@ -1,27 +1,25 @@
 Good morning. Here's the state of play:
 
-The fallout from U.S. strikes on an Iranian naval base continues to deepen after analysis suggests a [school was hit](https://www.nytimes.com/2026/03/05/world/middleeast/iran-school-us-strikes-naval-base.html) during the operation. The incident adds another layer of complexity to an already volatile situation, as Tehran residents describe experiencing the ["worst night"](https://www.bbc.com/news/live/ceqvwrydzpqt) of Israeli strikes so far, according to BBC. The strikes have created a humanitarian crisis that's rippling across the region, with Israeli forces simultaneously [pummeling Beirut](https://www.nytimes.com/live/2026/03/06/world/iran-war-trump-israel-lebanon) and intensifying their campaign against Hezbollah.
+The Middle East conflict is pulling Europe into exactly the kind of war it hoped to avoid. European leaders find themselves caught between Trump's demands for solidarity and their own deep reservations about the escalating strikes on Iran. The continent didn't want this fight, but [airstrikes hit](https://www.nytimes.com/live/2026/03/07/world/iran-war-trump-israel-lebanon) Tehran's main airport yesterday as the conflict spreads beyond anyone's initial calculations.
 
-Lebanon finds itself at a critical juncture as the government seeks to [curb Hezbollah's influence](https://www.nytimes.com/2026/03/06/world/middleeast/lebanon-hezbollah-iran-disarm.html) while managing the chaos. The broader geopolitical implications are becoming clearer too. Russia's global standing appears to be eroding as Trump's aggressive Middle East policy overshadows Putin's traditional spheres of influence, fundamentally reshaping how Moscow projects power internationally.
+Meanwhile, Iran's president is defying Trump's calls for "unconditional surrender" and simultaneously [apologizing to neighbors](https://www.bbc.com/news/live/ceqvwrydzpqt) for strikes that hit near Dubai's airport, according to BBC. It's a delicate balancing act that shows how Tehran is trying to project strength against the U.S. and avoid a wider regional war that could bring in the Gulf states. The question now is whether this diplomatic tightrope can hold as both sides escalate.
 
 **Business/Tech**
 
-• SoftBank is eyeing a massive [loan](https://www.reuters.com/business/media-telecom/softbank-seeks-up-40-billion-loan-finance-openai-investment-Reuters-news-2026-03-06/) of up to $40 billion to fund its OpenAI investment, according to Reuters. It's another sign of just how much capital is chasing AI opportunities right now.
+• The [AI rivalry](https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html) between OpenAI and Anthropic just got deeply personal, with both companies now competing for Pentagon contracts that could reshape the defense industry's relationship with artificial intelligence.
 
-• Car sales are getting hammered by [$800 monthly payments](https://www.nytimes.com/2026/03/05/business/new-car-sales-payments-affordability.html) that are pricing out ordinary buyers. The affordability crisis is fundamentally changing who can actually buy a new vehicle in America.
+• [Stock markets](https://www.nytimes.com/2026/03/06/business/stocks-jobs-report.html) are officially in negative territory for 2026 after a brutal week that saw everything from Iran war jitters to disappointing economic data hammer investor confidence.
 
-• The Persian Gulf conflict could spill into the [U.S. economy](https://www.nytimes.com/2026/03/05/business/economy/iran-oil-economy-consumers.html) in ways that hit consumers directly. Oil prices and supply chains are the obvious channels, but the ripple effects could be much broader.
-
-• A.I. prospectors are tapping into a [billion-dollar gusher](https://www.nytimes.com/2026/03/05/technology/ai-data-centers-land-cloverleaf-infrastructure.html) as they scramble to secure land for data centers. It's creating a new kind of gold rush in unlikely places across America.
+• The [casual dining](https://www.nytimes.com/2026/03/06/business/chipotle-cava-sweetgreen-bowl-sales-prices.html) boom is losing steam as consumers pull back from pricey "slop bowls" at chains like Chipotle and Sweetgreen.
 
 **Around the World**
 
-• **Latin America**: The U.S. just restarted [diplomatic relations](https://www.nytimes.com/2026/03/05/world/americas/us-venezuela-diplomatic-relations.html) with Venezuela after years of isolation. Interior Secretary Burgum is already pushing for [mining access](https://www.nytimes.com/2026/03/05/world/americas/venezuela-mining-access-burgum.html), showing this isn't just about oil diplomacy.
+• **Latin America**: Cuba saw [widespread protests](https://www.aljazeera.com/video/newsfeed/2026/3/7/protests-in-cuba-after-thousands-without-power-following-blackout?traffic_source=rss) after massive blackouts left thousands without power, according to Al Jazeera.
 
-• **Europe**: British authorities arrested [four men](https://www.timesofisrael.com/uk-arrests-four-iranian-nationals-on-suspicion-of-spying-on-london-jews-for-tehran/) suspected of spying on London's Jewish community for Iran, according to the Times of Israel. The intelligence operation highlights how the Middle East conflict is playing out on European soil.
+• **Europe**: [Armed robots](https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss) are now fighting on Ukrainian battlefields, the BBC reports, marking a new phase in warfare technology that is raising ethical questions across NATO capitals.
 
-• **Asia**: The death of Iran's Khamenei is sparking [anger and grief](https://www.nytimes.com/2026/03/06/world/middleeast/iran-khamenei-shiite-india-pakistan.html) among Shiite Muslims across South Asia. The religious and political reverberations are being felt far from Tehran, particularly in India and Pakistan's Shiite communities.
+• **Asia**: Xi Jinping sees Trump's embrace of the Iran war as proof that [China needs](https://www.nytimes.com/2026/03/07/world/asia/china-iran-power.html) more military power to counter American influence, potentially accelerating Beijing's defense buildup.
 
-• **Middle East**: Three Australian military personnel were aboard the [U.S. submarine](https://www.nytimes.com/2026/03/06/world/middleeast/iran-warship-us-submarine-australia.html) that sank an Iranian warship. It's a concrete example of how AUKUS partnerships are operating in combat situations, not just on paper.
+• **Middle East**: Israeli commandos conducted a [failed raid](https://www.timesofisrael.com/reported-israeli-commando-raid-deep-in-lebanon-said-aimed-at-recovering-remains-of-ron-arad/) deep inside Lebanon searching for the remains of missing airman Ron Arad, the Times of Israel reports.
 
-• **Africa**: South African President Ramaphosa called Trump's policy offering refuge to white Afrikaners ["racist"](https://www.theguardian.com/world/2026/mar/05/south-africa-president-cyril-ramaphosa-calls-donald-trump-policy-white-afrikaners-racist) in a blunt assessment, the Guardian reports. The diplomatic spat reflects deeper tensions over how Trump views post-apartheid South Africa.
+• **Africa**: South Africa's president called Trump's policy offering refuge to white Afrikaners ["racist"](https://www.theguardian.com/world/2026/mar/05/south-africa-president-cyril-ramaphosa-calls-donald-trump-policy-white-afrikaners-racist) in a blunt assessment that signals growing tensions between Pretoria and Washington, the Guardian reports.
