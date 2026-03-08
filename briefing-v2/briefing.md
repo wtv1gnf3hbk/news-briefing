@@ -1,25 +1,27 @@
 Good morning. Here's the state of play:
 
-The Middle East conflict is pulling Europe into exactly the kind of war it hoped to avoid. European leaders find themselves caught between Trump's demands for solidarity and their own deep reservations about the escalating strikes on Iran. The continent didn't want this fight, but [airstrikes hit](https://www.nytimes.com/live/2026/03/07/world/iran-war-trump-israel-lebanon) Tehran's main airport yesterday as the conflict spreads beyond anyone's initial calculations.
+The U.S.-Israel war against Iran just wrapped its [first week](https://www.nytimes.com/2026/03/07/us/politics/iran-war-first-week.html), and the assessment isn't pretty. What started as a punishing military campaign has delivered tactical successes but no clear endgame, leaving Trump's administration with an escalating conflict that's drawing uncomfortable parallels to Putin's miscalculations in Ukraine. The strikes have intensified overnight, with [fuel depots burning](https://www.nytimes.com/live/2026/03/08/world/iran-war-trump-israel-lebanon) across Tehran and the conflict spilling into Gulf states.
 
-Meanwhile, Iran's president is defying Trump's calls for "unconditional surrender" and simultaneously [apologizing to neighbors](https://www.bbc.com/news/live/ceqvwrydzpqt) for strikes that hit near Dubai's airport, according to BBC. It's a delicate balancing act that shows how Tehran is trying to project strength against the U.S. and avoid a wider regional war that could bring in the Gulf states. The question now is whether this diplomatic tightrope can hold as both sides escalate.
+The human cost is mounting on both sides. Trump attended a [dignified transfer ceremony](https://www.nytimes.com/2026/03/07/us/politics/trump-dover-dignified-transfer-iran.html) at Dover for six U.S. service members killed in action, a somber reminder that this isn't the quick victory the administration promised. Tehran appears close to naming a new supreme leader, according to [Al Jazeera reports](https://www.aljazeera.com/news/liveblog/2026/3/8/iran-live-israel-bombs-tehran-oil-depots-attacks-on-gulf-states-continue), while Israel has vowed to target whoever takes the role. The conflict has also strained U.S. alliances, with Trump publicly dismissing British offers of support even as American forces use UK bases for strikes.
 
 **Business/Tech**
 
-• The [AI rivalry](https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html) between OpenAI and Anthropic just got deeply personal, with both companies now competing for Pentagon contracts that could reshape the defense industry's relationship with artificial intelligence.
+• The war is reshaping AI competition in unexpected ways. OpenAI and Anthropic are locked in a [deeply personal rivalry](https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html) over Pentagon contracts, with the Defense Department officially labeling Anthropic a "supply chain risk" for its reluctance to support military applications.
 
-• [Stock markets](https://www.nytimes.com/2026/03/06/business/stocks-jobs-report.html) are officially in negative territory for 2026 after a brutal week that saw everything from Iran war jitters to disappointing economic data hammer investor confidence.
+• Energy markets are in chaos as the conflict disrupts Middle East oil flows. [UAE and Kuwait](https://www.bloomberg.com/news/articles/2026-03-07/kuwait-cuts-oil-and-refining-output-as-hormuz-transits-slow) have started cutting production after Iran's blockade of the Strait of Hormuz slowed tanker traffic to a crawl, Bloomberg reports.
 
-• The [casual dining](https://www.nytimes.com/2026/03/06/business/chipotle-cava-sweetgreen-bowl-sales-prices.html) boom is losing steam as consumers pull back from pricey "slop bowls" at chains like Chipotle and Sweetgreen.
+• Consumer spending is cooling as war jitters hit wallets. Even the formerly unstoppable "bowl" trend at chains like Chipotle and Cava is [losing steam](https://www.nytimes.com/2026/03/06/business/chipotle-cava-sweetgreen-bowl-sales-prices.html) as customers tighten their belts.
+
+• The cheap Iranian drones that have become a signature of this conflict are proving surprisingly effective against U.S. and Israeli forces.
 
 **Around the World**
 
-• **Latin America**: Cuba saw [widespread protests](https://www.aljazeera.com/video/newsfeed/2026/3/7/protests-in-cuba-after-thousands-without-power-following-blackout?traffic_source=rss) after massive blackouts left thousands without power, according to Al Jazeera.
+• **Latin America**: Colombia's upcoming elections are being overshadowed by [unprecedented violence](https://www.nytimes.com/2026/03/08/world/americas/colombia-elections-politicial-violence-kidnapping-assassination.html) targeting candidates and campaign workers, with cartels and armed groups ramping up intimidation tactics as voting approaches.
 
-• **Europe**: [Armed robots](https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss) are now fighting on Ukrainian battlefields, the BBC reports, marking a new phase in warfare technology that is raising ethical questions across NATO capitals.
+• **Europe**: Norway is investigating after an [explosion hit](https://www.bbc.com/news/articles/c5yjegg892lo) the U.S. embassy in Oslo, causing minor damage but raising security concerns as tensions with Iran escalate globally, according to BBC reports.
 
-• **Asia**: Xi Jinping sees Trump's embrace of the Iran war as proof that [China needs](https://www.nytimes.com/2026/03/07/world/asia/china-iran-power.html) more military power to counter American influence, potentially accelerating Beijing's defense buildup.
+• **Asia**: Nepal is about to get its most unconventional leader yet. A [Gen Z-backed rapper](https://www.scmp.com/news/asia/south-asia/article/3345883/nepali-ex-rapper-will-form-government-after-landslide-election-win) is set to form a government after winning a landslide victory, per the South China Morning Post, marking a generational shift in Himalayan politics.
 
-• **Middle East**: Israeli commandos conducted a [failed raid](https://www.timesofisrael.com/reported-israeli-commando-raid-deep-in-lebanon-said-aimed-at-recovering-remains-of-ron-arad/) deep inside Lebanon searching for the remains of missing airman Ron Arad, the Times of Israel reports.
+• **Middle East**: The BRICS coalition is [fracturing over Iran](https://www.nytimes.com/2026/03/08/world/middleeast/brics-iran-allies-us-israel-war.html), with member states taking different positions on the conflict despite their supposed alignment against Western influence.
 
-• **Africa**: South Africa's president called Trump's policy offering refuge to white Afrikaners ["racist"](https://www.theguardian.com/world/2026/mar/05/south-africa-president-cyril-ramaphosa-calls-donald-trump-policy-white-afrikaners-racist) in a blunt assessment that signals growing tensions between Pretoria and Washington, the Guardian reports.
+• **Africa**: Rwanda-backed rebels have [entered Goma](https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8), Congo's key humanitarian hub, according to the Wall Street Journal, escalating a conflict that Trump claimed to have ended but continues to simmer.

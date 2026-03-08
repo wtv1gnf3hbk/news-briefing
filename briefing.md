@@ -1,24 +1,27 @@
 Good morning. Here's the state of play:
 
-Europe finds itself caught in an impossible position as the week-long U.S.-Israel war with Iran escalates. European leaders never wanted this conflict, but they're struggling to stay on the sidelines as [airstrikes hit](https://www.nytimes.com/live/2026/03/07/world/iran-war-trump-israel-lebanon) Tehran's major airport and Iran continues launching missile barrages at Gulf states. The dilemma is stark: support Trump's military campaign against a regime they despise, or risk looking weak while their closest ally wages war.
+The U.S.-Iran war has entered its second week without any clear path to resolution. Trump's [punishing military campaign](https://www.nytimes.com/2026/03/07/us/politics/iran-war-first-week.html) has expanded dramatically, with [fuel depots burning](https://www.nytimes.com/live/2026/03/08/world/iran-war-trump-israel-lebanon) across Tehran as Israeli and American forces coordinate strikes. But as the Times reports, there's still no coherent endgame in sight.
 
-The conflict is reshaping global power dynamics in ways that extend far beyond the Middle East. Xi Jinping sees Trump's embrace of military action as proof that [China needs](https://www.nytimes.com/2026/03/07/world/asia/china-iran-power.html) more hard power to counter American influence. Meanwhile, Russia is enjoying an unexpected windfall as oil and gas prices soar, giving Putin's economy a [sudden boost](https://www.nytimes.com/2026/03/07/world/europe/russia-iran-oil-exports.html) just when he needed it most.
+The human cost is mounting. Trump witnessed the [return of bodies](https://www.nytimes.com/2026/03/07/us/politics/trump-dover-dignified-transfer-iran.html) of six U.S. service members at Dover yesterday, while Iran appears close to selecting a new supreme leader after the U.S. killed Khamenei. The war is also testing alliances globally — Trump has told Britain that [help isn't needed](https://www.theguardian.com/us-news/2026/mar/07/trump-starmer-iran-criticism) even as the U.S. uses UK bases for strikes, creating awkward diplomatic tensions with allies who want to support the effort.
 
 **Business/Tech**
 
-- Oil markets remain in chaos as the [Strait of Hormuz](https://www.bloomberg.com/news/articles/2026-03-07/hormuz-tracker-iran-linked-ships-transit-as-others-stay-away) stays nearly shut down for a sixth day, with only Iran-linked tankers making the crossing, according to Bloomberg
-- The war has left stocks in negative territory for the year after [a week](https://www.nytimes.com/2026/03/06/business/stocks-jobs-report.html) of turmoil that's rattled investors globally
-- OpenAI and Anthropic's rivalry has turned personal as they compete for Pentagon contracts during the Iran crisis, with the Defense Department officially [designating Anthropic](https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html) a "supply chain risk"
-- The FDA is rolling out [bonus payments](https://apnews.com/article/drugs-fda-review-bonus-payments-makary-af17b24723035e3e6e2eefdfea694808) for staffers who complete speedy drug reviews, according to AP
+• [Saudi Aramco surged](https://www.bloomberg.com/news/articles/2026-03-08/aramco-shares-surge-most-since-2023-as-war-roils-energy-markets) the most since May 2023 on Sunday as the Iran conflict disrupts energy markets and threatens to send oil prices higher when global trading resumes.
+
+• The Pentagon officially [notified Anthropic](https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html) that it's considered a "supply chain risk," escalating the government's concerns about the AI company's security practices.
+
+• OpenAI and Anthropic are locked in an increasingly [personal rivalry](https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html) over Pentagon contracts, with former colleagues now competing for lucrative defense AI deals.
+
+• Bowl restaurants like Chipotle and Sweetgreen are seeing their "[slop bowl](https://www.nytimes.com/2026/03/06/business/chipotle-cava-sweetgreen-bowl-sales-prices.html)" appeal fade as consumers tighten spending on casual dining.
 
 **Around the World**
 
-- **Latin America**: Bolivia's president made a dramatic U-turn at Trump's summit for regional leaders.
+• **Latin America:** Violence is [escalating dramatically](https://www.nytimes.com/2026/03/08/world/americas/colombia-elections-politicial-violence-kidnapping-assassination.html) on Colombia's campaign trail ahead of elections, with candidates facing kidnappings and assassination attempts that are rattling the democratic process.
 
-- **Europe**: A Russian strike on a Kharkiv apartment block [killed seven people](https://www.bbc.com/news/articles/cn8zd049l08o?at_medium=RSS&at_campaign=rss) and injured ten others including children, the BBC reports, as rescuers continue searching through rubble
+• **Europe:** The [U.S. embassy](https://www.bbc.com/news/articles/c5yjegg892lo) in Oslo was hit by an explosion overnight, according to BBC reports, though Norwegian police say there were no injuries and only minor damage to the building.
 
-- **Asia**: Xi Jinping views Trump's military approach to Iran as validation that [China needs](https://www.nytimes.com/2026/03/07/world/asia/china-iran-power.html) to build more hard power to counter American dominance globally
+• **Asia:** A Gen Z-backed rapper is on course to [lead Nepal](https://www.nytimes.com/2026/03/07/world/asia/nepal-election-rapper-balen-genz.html) with a landslide win in elections that followed violent youth-led protests that toppled the previous government.
 
-- **Middle East**: Iran's president has [vowed not](https://www.bloomberg.com/news/articles/2026-03-07/iran-vows-not-to-surrender-after-week-of-war-that-s-shaken-world) to surrender after a week of conflict, Bloomberg reports, as Tehran maintains missile strikes on Gulf states
+• **Middle East:** [Trump has rejected](https://www.reuters.com/world/europe/trump-rejects-settling-iran-war-raises-prospect-killing-all-its-potential-2026-03-08/) any settlement talks with Iran, Reuters reports, even raising the prospect of targeting all potential supreme leader candidates as Tehran nears a decision on new leadership.
 
-- **Africa**: Researchers in Madagascar are studying how lemurs' love for invasive guava fruit is actually [helping spread](https://www.nytimes.com/2026/03/07/science/lemurs-guavas-forests-madagascar.html) the plants that are choking the island's native forests
+• **Africa:** South African President Ramaphosa spoke candidly about his [awkward Oval Office](https://www.nytimes.com/2026/03/05/world/africa/south-africa-ramaphosa-trump-meeting-racist.html) meeting with Trump, calling it an "ambush" and addressing the president's history of racist comments about the continent.
