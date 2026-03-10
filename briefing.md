@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Defense Secretary Pete Hegseth is calling today the ["most intense"](https://www.nytimes.com/live/2026/03/10/world/iran-war-trump-us-israel) day yet in the U.S. air campaign against Iran, as the conflict enters what appears to be a critical phase. The escalation comes as Iran's [new Supreme Leader](https://www.nytimes.com/2026/03/10/world/middleeast/iran-supreme-leader-secretive-office.html) consolidates power through a sprawling, secretive bureaucracy that has dominated Iranian politics for decades.
+The Pentagon has [confirmed that](https://www.nytimes.com/2026/03/10/world/middleeast/us-injuries-iran-war.html) 140 U.S. service members have been wounded in the Iran conflict as the war enters what Defense Secretary Pete Hegseth called its "most intense" day yet. The casualty figure marks the first official accounting of American injuries since fighting began. The strikes have left residents saying ["nothing will remain"](https://www.nytimes.com/2026/03/10/world/middleeast/iran-bombing-tehran.html) of the Iranian capital.
 
-The war is already reshaping global energy markets and supply chains. Oil disruptions have triggered [price caps and rationing](https://www.nytimes.com/2026/03/09/business/iran-oil-gas-asia.html) across Asia, while Pakistan has deployed [navy escorts](https://www.nytimes.com/2026/03/10/world/middleeast/pakistan-gulf-conflict-oil-economy.html) to protect its shipping in the Gulf. Back home, rising gas prices are complicating Trump's [midterm agenda](https://www.nytimes.com/2026/03/09/us/politics/trump-iran-gas-prices-gop-agenda.html) as Republicans face voter frustration over the economic fallout.
+The broader ripple effects are becoming clear. Trump's timeline for ending the conflict [remains muddled](https://www.nytimes.com/2026/03/10/us/politics/trump-iran-war-how-long-timeline.html), with the president offering contradictory statements about duration and objectives. Russia is positioning itself as a potential mediator while seeking economic gains from the crisis, with the U.S. already [easing sanctions](https://www.nytimes.com/2026/03/10/world/middleeast/iran-war-putin-russia-energy-oil-prices.html) on Russian energy as oil prices soar.
 
 **Business/Tech**
 
-• [Home sales](https://www.bloomberg.com/news/articles/2026-03-10/us-existing-home-sales-increase-as-affordability-improves) unexpectedly rose in February as mortgage rates declined, according to Bloomberg, offering a bright spot in an otherwise war-rattled economy
+• Oil prices are hammering American consumers and businesses, with [gas stations across](https://www.nytimes.com/2026/03/10/us/gas-prices-iran-war-cost-of-living.html) the country reporting sharp increases that have drivers saying it's "harder to exist."
 
-• [Treasuries fell](https://www.bloomberg.com/news/articles/2026-03-10/treasuries-fall-as-corporate-bond-market-comes-back-to-life) as corporate bond sales resumed after a two-day hiatus caused by market volatility from the Iran conflict, Bloomberg reports
+• The war is disrupting trade in [critical materials](https://www.nytimes.com/2026/03/10/business/iran-war-impact-helium-urea-sulfur.html) beyond oil, including helium and industrial chemicals that power everything from semiconductors to fertilizers.
 
-• Volkswagen plans to [cut 50,000](https://www.bbc.com/news/articles/c4gqyyly9v8o) jobs as Europe's largest carmaker saw profits drop to their lowest level since 2016, the BBC notes
+• Meta has [acquired Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), the social network designed exclusively for AI bots to interact with each other.
 
-• Anthropic is [suing the Pentagon](https://www.nytimes.com/2026/03/09/technology/anthropic-defense-artificial-intelligence-lawsuit.html) over a "supply chain risk" label that the AI company says unfairly restricts its business opportunities
+• Bank of America [poached four](https://www.reuters.com/business/finance/bank-america-poaches-four-top-tech-bankers-boost-tech-dealmaking-memos-show-2026-03-10/) top tech bankers from rivals to boost its dealmaking capabilities, according to Reuters.
 
 **Around the World**
 
-• **Latin America:** The trial begins in Miami for men accused of [plotting the assassination](https://www.nytimes.com/2026/03/10/world/americas/haiti-president-murder-assassination-trial-miami-florida.html) of Haiti's president, a case that has drawn international attention to the country's ongoing political crisis
+• **Latin America:** Acclaimed Peruvian writer Alfredo Bryce Echenique, best known for his novel "A World for Julius," [died at](https://www.bbc.com/news/articles/ce82j8j8l25o?at_medium=RSS&at_campaign=rss) age 87, the BBC reports.
 
-• **Europe:** A 6.0-magnitude [earthquake struck](https://www.nytimes.com/interactive/2026/03/10/world/europe/quake-tracker-tyrrhenian-sea-naples.html) near Naples in the Tyrrhenian Sea, though no major damage has been reported from the Italian coastal city
+• **Europe:** President Putin is [positioning Russia](https://www.bbc.com/news/articles/c4gjyg0djvmo?at_medium=RSS&at_campaign=rss) as a potential Iran war mediator while seeking diplomatic and economic gains from the conflict, though that's proving a tough sell, the BBC's Russia editor writes.
 
-• **Asia:** Beijing is frustrated by what it sees as insufficient U.S. preparation for the Xi-Trump summit planned for later this month, Bloomberg reports, potentially limiting the [landmark meeting](https://www.bloomberg.com/news/articles/2026-03-10/china-frustrated-by-last-minute-scramble-to-plan-xi-trump-summit) to trade agreements
+• **Asia:** Two more members of Iran's women's soccer team [sought asylum](https://www.bloomberg.com/news/articles/2026-03-10/two-more-iranian-soccer-players-seek-australia-asylum-abc-says) in Australia while the rest of the squad departed Sydney, Bloomberg reports.
 
-• **Middle East:** Lebanon's president has called for talks with Israel on a plan to end the Hezbollah conflict, according to the BBC, outlining a path toward ["permanent security"](https://www.bbc.com/news/articles/cd9g5p3ppxlo) as Israeli strikes continue
+• **Middle East:** The U.S. conducted its [most intense](https://www.nytimes.com/2026/03/10/world/middleeast/us-iran-war-strikes-pentagon.html) bombing campaign yet against Iran on Monday, with American and dual-national prisoners caught under the bombardment.
 
-• **Africa:** Conservationists are racing to [save a baby gorilla](https://www.nytimes.com/interactive/2026/03/09/magazine/bili-wildlife-trafficking-illegal-gorilla-trade.html) caught up in Central Africa's illegal wildlife trade.
+• **Africa:** Wildlife researchers are working to [save a baby](https://www.nytimes.com/interactive/2026/03/09/magazine/bili-wildlife-trafficking-illegal-gorilla-trade.html) gorilla from traffickers in what highlights the broader illegal wildlife trade threatening the continent's endangered species.
