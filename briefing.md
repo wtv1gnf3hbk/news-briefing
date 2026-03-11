@@ -1,27 +1,18 @@
 Good morning. Here's the state of play:
 
-The Pentagon has [confirmed that](https://www.nytimes.com/2026/03/10/world/middleeast/us-injuries-iran-war.html) 140 U.S. service members have been wounded in the Iran conflict as the war enters what Defense Secretary Pete Hegseth called its "most intense" day yet. The casualty figure marks the first official accounting of American injuries since fighting began. The strikes have left residents saying ["nothing will remain"](https://www.nytimes.com/2026/03/10/world/middleeast/iran-bombing-tehran.html) of the Iranian capital.
+The Trump administration is facing intense scrutiny over how badly it [miscalculated Iran's response](https://www.nytimes.com/2026/03/10/us/politics/how-trump-miscalculated-iran-response.html) to what was supposed to be a limited military action. What began as targeted strikes has escalated into a [full regional conflict](https://www.nytimes.com/2026/03/11/world/europe/trump-iran-war-global-impact.html) that's reshaping global markets and politics in ways the White House clearly didn't anticipate. Iran has proven far more adaptable than U.S. officials expected, with Iranian forces now targeting commercial shipping, Gulf state infrastructure, and showing tactical flexibility that's [surprised Pentagon analysts](https://www.nytimes.com/2026/03/10/us/politics/iran-military-tactics.html).
 
-The broader ripple effects are becoming clear. Trump's timeline for ending the conflict [remains muddled](https://www.nytimes.com/2026/03/10/us/politics/trump-iran-war-how-long-timeline.html), with the president offering contradictory statements about duration and objectives. Russia is positioning itself as a potential mediator while seeking economic gains from the crisis, with the U.S. already [easing sanctions](https://www.nytimes.com/2026/03/10/world/middleeast/iran-war-putin-russia-energy-oil-prices.html) on Russian energy as oil prices soar.
+The economic fallout is becoming Trump's biggest political liability. Gas prices have [jumped for 11 straight days](https://www.nytimes.com/2026/03/11/business/gas-prices-oil-iran.html), and unlike previous U.S. conflicts, [most Americans oppose](https://www.nytimes.com/2026/03/10/us/politics/polls-wars-us-support.html) this war. Trump is now trying to manage the conflict with markets as his primary concern, but the damage to global supply chains extends [far beyond oil](https://www.nytimes.com/2026/03/10/business/iran-war-impact-helium-urea-sulfur.html) to critical materials like helium and industrial chemicals.
 
 **Business/Tech**
-
-• Oil prices are hammering American consumers and businesses, with [gas stations across](https://www.nytimes.com/2026/03/10/us/gas-prices-iran-war-cost-of-living.html) the country reporting sharp increases that have drivers saying it's "harder to exist."
-
-• The war is disrupting trade in [critical materials](https://www.nytimes.com/2026/03/10/business/iran-war-impact-helium-urea-sulfur.html) beyond oil, including helium and industrial chemicals that power everything from semiconductors to fertilizers.
-
-• Meta has [acquired Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), the social network designed exclusively for AI bots to interact with each other.
-
-• Bank of America [poached four](https://www.reuters.com/business/finance/bank-america-poaches-four-top-tech-bankers-boost-tech-dealmaking-memos-show-2026-03-10/) top tech bankers from rivals to boost its dealmaking capabilities, according to Reuters.
+• Wall Street traders are [hunting for signs](https://www.bloomberg.com/news/articles/2026-03-11/wall-street-traders-hunt-for-bottom-as-war-turmoil-continues) that stocks have hit bottom, according to Bloomberg, as technical analysts spot early bearish momentum patterns in the S&P 500.
+• Germany says it's ready to [release oil reserves](https://www.bloomberg.com/news/articles/2026-03-11/germany-says-ready-to-release-part-of-national-oil-reserve) if the International Energy Agency approves a coordinated drawdown to ease supply pressures.
+• Meta just acquired [Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), a social network designed exclusively for AI bots to interact with each other, marking another big bet on artificial intelligence.
+• YouTube rolled out new tools to help [public figures report](https://www.nytimes.com/2026/03/10/technology/youtube-deepfakes-detection-tool.html) deepfakes and other AI-generated content that uses their likeness without permission.
 
 **Around the World**
-
-• **Latin America:** Acclaimed Peruvian writer Alfredo Bryce Echenique, best known for his novel "A World for Julius," [died at](https://www.bbc.com/news/articles/ce82j8j8l25o?at_medium=RSS&at_campaign=rss) age 87, the BBC reports.
-
-• **Europe:** President Putin is [positioning Russia](https://www.bbc.com/news/articles/c4gjyg0djvmo?at_medium=RSS&at_campaign=rss) as a potential Iran war mediator while seeking diplomatic and economic gains from the conflict, though that's proving a tough sell, the BBC's Russia editor writes.
-
-• **Asia:** Two more members of Iran's women's soccer team [sought asylum](https://www.bloomberg.com/news/articles/2026-03-10/two-more-iranian-soccer-players-seek-australia-asylum-abc-says) in Australia while the rest of the squad departed Sydney, Bloomberg reports.
-
-• **Middle East:** The U.S. conducted its [most intense](https://www.nytimes.com/2026/03/10/world/middleeast/us-iran-war-strikes-pentagon.html) bombing campaign yet against Iran on Monday, with American and dual-national prisoners caught under the bombardment.
-
-• **Africa:** Wildlife researchers are working to [save a baby](https://www.nytimes.com/interactive/2026/03/09/magazine/bili-wildlife-trafficking-illegal-gorilla-trade.html) gorilla from traffickers in what highlights the broader illegal wildlife trade threatening the continent's endangered species.
+• **Latin America**: The widow of Haiti's assassinated president gave [harrowing testimony](https://www.nytimes.com/2026/03/10/world/americas/haiti-moise-assassination-trial.html) about the 2021 killing of Jovenel Moïse, describing how gunmen burst into their bedroom and shot her husband multiple times.
+• **Europe**: Canada's Prime Minister Mark Carney is [inching closer](https://www.bbc.com/news/articles/c0e5jwz0703o?at_medium=RSS&at_campaign=rss) to a parliamentary majority after a fourth MP defected to his Liberals, with former NDP member Lori Idlout becoming the latest to cross the floor, the BBC reports.
+• **Asia**: India's Supreme Court has [allowed doctors](https://www.bbc.com/news/articles/c62v64rz6mko?at_medium=RSS&at_campaign=rss) to remove life support from a man who's been in a vegetative state since 2013, following a landmark right-to-die case, according to the BBC.
+• **Middle East**: Iran is [targeting commercial ships](https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396) in the Strait of Hormuz along with Dubai's airport and Gulf oil facilities, AP reports, as concerns grow over global energy security.
+• **Africa**: The son of Zimbabwe's late dictator Robert Mugabe has [dropped his bail request](https://www.bbc.com/news/articles/cp32xx35lwwo?at_medium=RSS&at_campaign=rss) as he faces court proceedings.
