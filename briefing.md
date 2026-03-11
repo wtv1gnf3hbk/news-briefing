@@ -1,18 +1,27 @@
 Good morning. Here's the state of play:
 
-The Trump administration is facing intense scrutiny over how badly it [miscalculated Iran's response](https://www.nytimes.com/2026/03/10/us/politics/how-trump-miscalculated-iran-response.html) to what was supposed to be a limited military action. What began as targeted strikes has escalated into a [full regional conflict](https://www.nytimes.com/2026/03/11/world/europe/trump-iran-war-global-impact.html) that's reshaping global markets and politics in ways the White House clearly didn't anticipate. Iran has proven far more adaptable than U.S. officials expected, with Iranian forces now targeting commercial shipping, Gulf state infrastructure, and showing tactical flexibility that's [surprised Pentagon analysts](https://www.nytimes.com/2026/03/10/us/politics/iran-military-tactics.html).
+A preliminary U.S. inquiry has concluded that American forces were [at fault](https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html) in a strike that hit a school in Iran, marking a significant admission as the conflict enters its second week. The finding comes as the war's economic ripple effects intensify, with the International Energy Agency announcing a record release of 400 million barrels from emergency oil reserves to combat soaring prices.
 
-The economic fallout is becoming Trump's biggest political liability. Gas prices have [jumped for 11 straight days](https://www.nytimes.com/2026/03/11/business/gas-prices-oil-iran.html), and unlike previous U.S. conflicts, [most Americans oppose](https://www.nytimes.com/2026/03/10/us/politics/polls-wars-us-support.html) this war. Trump is now trying to manage the conflict with markets as his primary concern, but the damage to global supply chains extends [far beyond oil](https://www.nytimes.com/2026/03/10/business/iran-war-impact-helium-urea-sulfur.html) to critical materials like helium and industrial chemicals.
+The conflict is reshaping global energy markets and forcing a major diplomatic reckoning. Israeli strikes have reached central Beirut for the first time, while Iran continues targeting Gulf infrastructure and shipping in the Strait of Hormuz. The IEA's coordinated reserve release represents the largest emergency intervention since the agency's founding, but oil prices remain volatile as markets weigh supply disruptions against the flood of strategic reserves.
 
 **Business/Tech**
-• Wall Street traders are [hunting for signs](https://www.bloomberg.com/news/articles/2026-03-11/wall-street-traders-hunt-for-bottom-as-war-turmoil-continues) that stocks have hit bottom, according to Bloomberg, as technical analysts spot early bearish momentum patterns in the S&P 500.
-• Germany says it's ready to [release oil reserves](https://www.bloomberg.com/news/articles/2026-03-11/germany-says-ready-to-release-part-of-national-oil-reserve) if the International Energy Agency approves a coordinated drawdown to ease supply pressures.
-• Meta just acquired [Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), a social network designed exclusively for AI bots to interact with each other, marking another big bet on artificial intelligence.
-• YouTube rolled out new tools to help [public figures report](https://www.nytimes.com/2026/03/10/technology/youtube-deepfakes-detection-tool.html) deepfakes and other AI-generated content that uses their likeness without permission.
+
+- U.S. gas prices have [jumped for](https://www.nytimes.com/2026/03/11/business/gas-prices-oil-iran.html) 11 straight days while oil continues climbing, putting fresh pressure on consumers already dealing with inflation concerns.
+
+- Pimco's commodity hedge fund has [plunged 17%](https://www.bloomberg.com/news/articles/2026-03-11/pimco-commodity-fund-slumps-17-in-march-as-iran-war-upends-oil) this month, according to Bloomberg, as the Iran war rattles oil markets and commodity trading strategies.
+
+- Microsoft is [taking a stand](https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html) against the Trump administration's AI policies, while Meta acquired Moltbook, a social network designed specifically for AI bots.
+
+- Tesla's delivery struggles may [stretch into](https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/) a third consecutive year, Reuters reports, raising concerns about cash burn as the company faces mounting competition.
 
 **Around the World**
-• **Latin America**: The widow of Haiti's assassinated president gave [harrowing testimony](https://www.nytimes.com/2026/03/10/world/americas/haiti-moise-assassination-trial.html) about the 2021 killing of Jovenel Moïse, describing how gunmen burst into their bedroom and shot her husband multiple times.
-• **Europe**: Canada's Prime Minister Mark Carney is [inching closer](https://www.bbc.com/news/articles/c0e5jwz0703o?at_medium=RSS&at_campaign=rss) to a parliamentary majority after a fourth MP defected to his Liberals, with former NDP member Lori Idlout becoming the latest to cross the floor, the BBC reports.
-• **Asia**: India's Supreme Court has [allowed doctors](https://www.bbc.com/news/articles/c62v64rz6mko?at_medium=RSS&at_campaign=rss) to remove life support from a man who's been in a vegetative state since 2013, following a landmark right-to-die case, according to the BBC.
-• **Middle East**: Iran is [targeting commercial ships](https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396) in the Strait of Hormuz along with Dubai's airport and Gulf oil facilities, AP reports, as concerns grow over global energy security.
-• **Africa**: The son of Zimbabwe's late dictator Robert Mugabe has [dropped his bail request](https://www.bbc.com/news/articles/cp32xx35lwwo?at_medium=RSS&at_campaign=rss) as he faces court proceedings.
+
+- **Latin America**: Trump is casting [a long shadow](https://www.nytimes.com/2026/03/11/world/americas/trump-sinaloa-cartels.html) over Mexico's Sinaloa state, one of the country's deadliest regions, as his administration's policies ripple south of the border.
+
+- **Europe**: Three brothers were [arrested in Norway](https://www.bbc.com/news/articles/cx2grl7lrrmo?at_medium=RSS&at_campaign=rss) after an explosion at the U.S. embassy in Oslo, with authorities investigating possible foreign state involvement, the BBC reports.
+
+- **Asia**: China's military has [quietly reduced](https://www.nytimes.com/2026/03/11/world/asia/taiwan-china-military-planes.html) flights near Taiwan in recent weeks, a shift that comes as Beijing prepares for an uncertain Trump-Xi summit.
+
+- **Middle East**: Iran is [targeting ships](https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396) and oil facilities across the Gulf while hitting Dubai's airport, AP reports, as economic concerns mount over the widening conflict.
+
+- **Africa**: Conservationists are working to [save one](https://www.nytimes.com/interactive/2026/03/09/magazine/bili-wildlife-trafficking-illegal-gorilla-trade.html) baby gorilla from wildlife trafficking in Central Africa.
