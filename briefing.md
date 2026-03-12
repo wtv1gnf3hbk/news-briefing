@@ -1,27 +1,24 @@
 Good morning. Here's the state of play:
 
-A preliminary U.S. inquiry has concluded that American forces were [at fault](https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html) in a strike that hit a school in Iran, marking a significant admission as the conflict enters its second week. The finding comes as the war's economic ripple effects intensify, with the International Energy Agency announcing a record release of 400 million barrels from emergency oil reserves to combat soaring prices.
+Oil markets are in chaos this morning as Iran's attacks on shipping in the Persian Gulf intensify. [Oil prices jumped](https://www.nytimes.com/2026/03/12/business/iran-oil-price-reserves.html) back above $100 a barrel despite a coordinated release of strategic reserves, and [two tankers](https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel) are burning off Iraq's coast after fresh attacks. Iraq has closed its oil terminals in response to what Bloomberg calls the biggest oil market disruption in decades.
 
-The conflict is reshaping global energy markets and forcing a major diplomatic reckoning. Israeli strikes have reached central Beirut for the first time, while Iran continues targeting Gulf infrastructure and shipping in the Strait of Hormuz. The IEA's coordinated reserve release represents the largest emergency intervention since the agency's founding, but oil prices remain volatile as markets weigh supply disruptions against the flood of strategic reserves.
+The escalation is putting enormous strain on global energy supplies and testing the limits of strategic reserve releases. Even with governments flooding the market with emergency oil stocks, traders are betting that supply disruptions will outweigh any buffer efforts. The attacks are also forcing difficult diplomatic calculations across Europe, where leaders like Italy's Giorgia Meloni are [trying to balance](https://www.nytimes.com/2026/03/12/world/europe/meloni-trump-iran-italy.html) their relationships with Trump while avoiding deeper entanglement in the Middle East conflict.
 
 **Business/Tech**
 
-- U.S. gas prices have [jumped for](https://www.nytimes.com/2026/03/11/business/gas-prices-oil-iran.html) 11 straight days while oil continues climbing, putting fresh pressure on consumers already dealing with inflation concerns.
-
-- Pimco's commodity hedge fund has [plunged 17%](https://www.bloomberg.com/news/articles/2026-03-11/pimco-commodity-fund-slumps-17-in-march-as-iran-war-upends-oil) this month, according to Bloomberg, as the Iran war rattles oil markets and commodity trading strategies.
-
-- Microsoft is [taking a stand](https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html) against the Trump administration's AI policies, while Meta acquired Moltbook, a social network designed specifically for AI bots.
-
-- Tesla's delivery struggles may [stretch into](https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/) a third consecutive year, Reuters reports, raising concerns about cash burn as the company faces mounting competition.
+- [Wall Street futures](https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/) are dropping this morning as the oil price spike revives inflation fears, Reuters reports
+- [Emerging market currencies](https://www.bloomberg.com/news/articles/2026-03-12/emerging-currency-options-are-hinting-at-lot-more-near-term-pain) are bracing for more pain over the next month as options traders price in escalating war risks, according to Bloomberg
+- Microsoft is [taking a stand](https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html) against the Trump administration over AI contracts with the Pentagon
+- Eli Lilly found [dangerous impurities](https://www.reuters.com/business/healthcare-pharmaceuticals/lilly-finds-impurity-compounded-version-its-weight-loss-drug-warns-health-risks-2026-03-12/) in compounded versions of its weight-loss drugs and is warning patients about health risks, Reuters reports
 
 **Around the World**
 
-- **Latin America**: Trump is casting [a long shadow](https://www.nytimes.com/2026/03/11/world/americas/trump-sinaloa-cartels.html) over Mexico's Sinaloa state, one of the country's deadliest regions, as his administration's policies ripple south of the border.
+**Latin America:** [War is pushing](https://www.bloomberg.com/news/articles/2026-03-12/war-is-pushing-iran-s-water-supply-to-the-brink-of-collapse) Iran's water supply to the brink of collapse, Bloomberg reports, as climate-fueled drought combines with wartime pressures to create a severe shortage
 
-- **Europe**: Three brothers were [arrested in Norway](https://www.bbc.com/news/articles/cx2grl7lrrmo?at_medium=RSS&at_campaign=rss) after an explosion at the U.S. embassy in Oslo, with authorities investigating possible foreign state involvement, the BBC reports.
+**Europe:** Viktor Orbán is [making Ukraine's president](https://www.bbc.com/news/articles/crm8rxwyyz8o?at_medium=RSS&at_campaign=rss) his main campaign target as Hungary heads to elections, according to the BBC, while Russia's attacks continue pushing Ukraine's power grid toward total collapse
 
-- **Asia**: China's military has [quietly reduced](https://www.nytimes.com/2026/03/11/world/asia/taiwan-china-military-planes.html) flights near Taiwan in recent weeks, a shift that comes as Beijing prepares for an uncertain Trump-Xi summit.
+**Asia:** China's National People's Congress wrapped up with [rare public debate](https://www.nytimes.com/2026/03/12/world/asia/china-pensions-inequality-farmers.html) about inequality between urban workers and farmers, while Beijing also passed new laws requiring ethnic minorities to "blend in"
 
-- **Middle East**: Iran is [targeting ships](https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396) and oil facilities across the Gulf while hitting Dubai's airport, AP reports, as economic concerns mount over the widening conflict.
+**Middle East:** The [shipping crisis](https://www.bloomberg.com/news/articles/2026-03-12/mideast-shipping-crisis-widens-with-more-tankers-hit-in-gulf) in the Persian Gulf is widening as Iran launches fresh waves of attacks on oil tankers, while the U.S. says Iran is losing air capability after American strikes
 
-- **Africa**: Conservationists are working to [save one](https://www.nytimes.com/interactive/2026/03/09/magazine/bili-wildlife-trafficking-illegal-gorilla-trade.html) baby gorilla from wildlife trafficking in Central Africa.
+**Africa:** Wildlife trafficking investigators are racing to [save a baby gorilla](https://www.nytimes.com/interactive/2026/03/09/magazine/bili-wildlife-trafficking-illegal-gorilla-trade.html) from an uncertain fate after it was seized from traffickers in the Democratic Republic of Congo
