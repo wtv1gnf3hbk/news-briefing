@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Oil markets are telling a story that governments don't want to hear. Despite the [largest coordinated release](https://www.nytimes.com/2026/03/12/business/iran-oil-price-reserves.html) of strategic petroleum reserves in history, crude prices jumped back toward $100 a barrel as [two more tankers](https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel) caught fire off Iraq's coast. The attacks underscore how Iran's ability to disrupt shipping lanes trumps even massive government interventions in oil markets.
+Oil markets are defying economic logic this morning. Despite the International Energy Agency announcing an unprecedented release of 400 million barrels from strategic reserves, [Brent crude](https://www.nytimes.com/2026/03/12/business/iran-oil-price-reserves.html) has jumped back past $100. The culprit? Iran's escalating attacks on shipping in the Persian Gulf are creating supply fears that dwarf any temporary reserve releases.
 
-The escalation isn't limited to the Persian Gulf. Israel expanded operations into Lebanon overnight, trading fire with Hezbollah as the conflict widens beyond Iran's borders. Back in Washington, [preliminary findings](https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html) suggest a U.S. strike mistakenly hit an Iranian elementary school, adding pressure on an administration already facing questions about its war strategy. The Pentagon is pushing back against calls for more transparency about the conflict.
+[Two tankers](https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel) are burning off Iraq's coast after the latest Iranian strikes, and Tehran is [warning countries](https://www.economist.com/middle-east-and-africa/2026/03/10/can-america-clear-the-strait-of-hormuz-of-irans-drones-and-mines) to "get ready for oil to be $200 a barrel," the Economist reports. Iraq has already closed key oil terminals following the attacks. The markets are betting that Iran's ability to disrupt the Strait of Hormuz, through which 20% of global oil flows, matters more than any government stockpile release.
 
 **Business/Tech**
 
-• [Wall Street futures](https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/) are sliding as the oil shock hits broader markets, according to Reuters. Airlines are already raising ticket prices as jet fuel costs surge.
+• [Wall Street futures](https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/) dropped sharply as Middle East tensions pushed oil above $100, according to Reuters. Airlines are getting hit particularly hard as jet fuel costs surge.
 
-• Microsoft is [taking a stand](https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html) against the Trump administration, reportedly refusing to provide AI tools for certain Pentagon operations in the Iran conflict.
+• [Microsoft is taking](https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html) a rare public stand against the Trump administration, refusing to provide AI services for certain Pentagon contracts involving Iran operations.
 
-• Meta acquired [Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), a social network designed exclusively for AI bots to interact with each other. It's either the future of digital interaction or a sign we've completely lost the plot.
+• Meta acquired [Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), a social network designed exclusively for AI bots to interact with each other. The purchase signals Meta's push into AI-only digital spaces.
 
-• [YouTube rolled out](https://www.nytimes.com/2026/03/10/technology/youtube-deepfakes-detection-tool.html) new tools to help public figures report AI-generated fake videos, as deepfakes become a bigger headache for celebrities and politicians alike.
+• YouTube launched a [new tool](https://www.nytimes.com/2026/03/10/technology/youtube-deepfakes-detection-tool.html) to help public figures report AI-generated deepfake videos, as concerns about election misinformation grow.
 
 **Around the World**
 
-• **Latin America**: The widow of Haiti's assassinated president testified in Miami that [the killers spoke Spanish](https://www.nytimes.com/2026/03/11/world/americas/martine-moise-haiti-president-assassination-trial-miami.html) and used nicknames during the 2021 attack, offering new clues about the international plot that destabilized the Caribbean nation.
+• **Latin America**: Two people died after [donating plasma](https://www.nytimes.com/2026/03/11/world/canada/winnipeg-plasma-blood-donation-deaths.html) at commercial clinics in Winnipeg, raising fresh safety questions about Canada's growing paid plasma industry.
 
-• **Europe**: Italy's Giorgia Meloni is trying to [distance herself](https://www.nytimes.com/2026/03/12/world/europe/meloni-trump-iran-italy.html) from Trump's Iran war despite their friendship.
+• **Europe**: Italy's Giorgia Meloni is trying to [distance herself](https://www.nytimes.com/2026/03/12/world/europe/meloni-trump-iran-italy.html) from Trump's Iran strategy while maintaining their broader alliance. It's a delicate dance as NATO unity frays over Middle East policy.
 
-• **Asia**: Beijing just made ethnic assimilation [legally mandatory](https://www.nytimes.com/2026/03/12/world/asia/china-minorities-xinjiang-tibet.html), codifying into law what critics say amounts to cultural erasure of Tibetans, Uyghurs, and other minority groups across China.
+• **Asia**: China just made it [legally mandatory](https://www.bbc.com/news/articles/cp9meeek051o) for ethnic minorities to learn Mandarin and "blend in" with Han Chinese culture, according to BBC. The new "ethnic unity" law formalizes Beijing's assimilation policies in Xinjiang and Tibet.
 
-• **Middle East**: [Al Jazeera reports](https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace) that Tehran has laid out three conditions for peace talks, though the U.S. and Israel show no signs of engaging diplomatically as military operations intensify.
+• **Middle East**: Iran is [allowing Indian-flagged tankers](https://www.reuters.com/world/india/iran-allow-india-flagged-tankers-pass-through-strait-hormuz-indian-source-says-2026-03-12/) to pass through the Strait of Hormuz, Reuters reports. It's part of Tehran's strategy to split the international response by exempting key partners.
 
-• **Africa**: [Rwanda-backed rebels](https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8) have entered a key Congolese city that served as a humanitarian safe haven, according to the Wall Street Journal, escalating a conflict that's already displaced millions in the region.
+• **Africa**: At least 65 Nigerian soldiers were [killed in jihadist raids](https://www.theguardian.com/world/2026/mar/11/nigerian-soldiers-killed-jihadist-raids-north-east) in the country's northeast, the Guardian reports. The attacks highlight how security has deteriorated in regions where Boko Haram operates.
