@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Iran is hitting back at the US and Israel by [choking off](https://www.nytimes.com/2026/03/12/us/politics/strait-of-hormuz-iran-war.html) the Strait of Hormuz, the world's most crucial oil shipping lane. After weeks of airstrikes that have decimated its military infrastructure, Tehran is deploying naval mines and fast boats to strangle energy supplies flowing to global markets. It's a classic asymmetric response from a weakened power, but one with massive economic consequences.
+The Trump administration has [suspended key sanctions](https://www.nytimes.com/2026/03/13/world/europe/russia-oil-suspended-sanctions-economy.html) on Russian oil exports, handing Moscow both an economic lifeline and a major propaganda victory while the U.S. is locked in its expanding war with Iran. The move comes as oil prices have hit historic highs following Iran's closure of the Strait of Hormuz, creating what economists are calling the largest energy shock since the 1970s embargo. Ukraine and European allies are furious, with President Zelensky saying the decision "certainly does not help achieve peace."
 
-The strategy is already working from Iran's perspective. Oil prices have spiked, global supply chains are buckling under the pressure, and economists are calling this ["the big one"](https://www.nytimes.com/2026/03/12/business/economy/iran-oil-shock-economy-global-impact.html) when it comes to energy shocks. Trump has responded by [lifting sanctions](https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html) on Russian oil to help offset the shortfall, a move that underscores just how serious the supply crunch has become. The conflict is also spreading geographically, with Turkey reporting that [NATO defenses](https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html) shot down a third Iranian missile, and a drone strike putting Cyprus and the broader EU on edge.
+The timing couldn't be more fraught. Defense Secretary Pete Hegseth claimed yesterday that Iran's supreme leader Mojtaba Khamenei has been wounded and is "probably disfigured" in recent strikes, though Tehran released a defiant audio statement from Khamenei vowing continued resistance. Meanwhile, the [U.S. confirmed](https://www.nytimes.com/2026/03/12/world/middleeast/us-refueling-plane-crash-iraq.html) that all six crew members died when a refueling aircraft crashed in western Iraq.
 
 **Business/Tech**
 
-• Oil shock ripples are hitting mortgage markets hard, with rates [climbing above](https://www.nytimes.com/2026/03/12/business/mortgage-rates-rise-above-6-percent.html) 6 percent as investors flee to safer assets and inflation fears spike.
+• [U.S. stocks fell](https://apnews.com/article/stocks-markets-oil-iran-trump-74bf078b7e40b6a0d38033c9fe29a87b) as oil prices continued their relentless climb, with investors pulling money from emerging market funds for the second straight week as the Iran conflict reverberates through global markets.
 
-• At least [16 ships](https://www.nytimes.com/interactive/2026/03/12/business/energy-environment/iran-war-ship-attacks.html) have now been targeted in Iranian attacks on commercial vessels, creating a nightmare for global shipping companies trying to navigate the crisis.
+• SpaceX is taking over xAI ahead of a planned IPO in what Bloomberg calls Elon Musk's [familiar playbook](https://www.bloomberg.com/news/articles/2026-03-13/spacex-investor-baillie-gifford-hails-pre-ipo-takeover-of-xai) of combining his ventures before major public offerings.
 
-• Social media companies are bracing for a potential reckoning as a major [addiction trial](https://www.nytimes.com/2026/03/12/technology/social-media-addiction-society-verdict.html) nears its end, with public opinion already firmly against the platforms.
+• Adobe will [pay $75 million](https://www.reuters.com/world/adobe-pay-75-million-resolve-us-lawsuit-over-fees-subscription-cancellations-2026-03-13/) to settle a U.S. lawsuit over subscription fees and difficult cancellation processes, according to Reuters.
 
-• US farmers are [rushing to sell](https://www.reuters.com/business/us-farmers-rush-sell-crops-iran-war-fuels-rally-2026-03-13/) their grain stockpiles as commodity prices surge due to the Iran conflict, according to Reuters.
+• Meta has [delayed the rollout](https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html) of its new "Avocado" AI model after internal performance concerns, marking another stumble in the AI race.
 
 **Around the World**
 
-• **Latin America:** Cuba's president has acknowledged holding [talks with](https://www.nytimes.com/2026/03/13/world/americas/cuba-us-talks-trump-oil.html) the Trump administration, likely seeking relief from sanctions as the global energy crisis creates new diplomatic opportunities.
+• **Latin America**: Cuba's president acknowledged direct talks with the Trump administration about potentially supplying oil as Washington scrambles to replace Iranian energy supplies, according to [new reporting](https://www.nytimes.com/2026/03/13/world/americas/cuba-us-talks-trump-oil.html) from Havana.
 
-• **Europe:** Ukrainian drone manufacturers are fielding a surge in orders from Middle Eastern clients who want the same [interceptor technology](https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html) that has been battle-tested against Russian attacks.
+• **Europe**: Ukrainian defense companies say their phones are "ringing off the hook" with Middle Eastern buyers seeking [drone interceptors](https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html) and air defense systems as the Iran war spreads regional anxiety about aerial attacks.
 
-• **Asia:** Afghanistan is accusing Pakistan of [targeting homes](https://apnews.com/article/afghanistan-pakistan-fighting-eb61a70a88f6b44ef114e88064b84136) in airstrikes that killed at least six civilians, AP reports, as cross-border tensions escalate while both countries grapple with the regional fallout from the Iran war.
+• **Asia**: Afghanistan accused Pakistan of targeting civilians after Pakistani airstrikes [killed six people](https://apnews.com/article/afghanistan-pakistan-fighting-eb61a70a88f6b44ef114e88064b84136) in cross-border attacks, AP reports.
 
-• **Middle East:** Defense Secretary Hegseth says Iran's Supreme Leader Mojtaba Khamenei has been ["wounded" and "likely disfigured"](https://www.bloomberg.com/news/articles/2026-03-13/hegseth-says-khamenei-wounded-likely-disfigured) in the ongoing US-Israeli campaign, Bloomberg reports, though the Pentagon has not provided evidence for the claim.
+• **Middle East**: A Michigan man who attacked a synagogue had [lost relatives](https://apnews.com/article/michigan-synagogue-attack-fbi-investigation-58331bad2c28e78c6c99a4a764637873) in Israeli airstrikes in Lebanon, according to FBI officials investigating what authorities call a targeted act of antisemitic violence.
 
-• **Africa:** A drone strike in eastern Congo [killed three people](https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html), including a UN worker, as the country's long-running conflict takes on new dimensions with more sophisticated weapons entering the battlefield.
+• **Africa**: A drone strike in eastern Congo [killed three people](https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html), including a UN worker, as the conflict there continues to escalate with increasingly sophisticated weapons.
