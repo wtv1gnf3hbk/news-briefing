@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Oil markets are defying gravity this morning, with Brent crude [jumping back](https://www.nytimes.com/2026/03/12/business/iran-oil-price-reserves.html) past $100 despite the International Energy Agency's unprecedented release of 400 million barrels from strategic reserves. The counterintuitive surge reflects just how badly Iran's escalating attacks on Gulf shipping are rattling global energy markets. Two more tankers are burning off Iraq's coast after overnight strikes, and Iran's Revolutionary Guard is warning countries to "get ready for oil to be $200 a barrel."
+Iran is [escalating dramatically](https://www.nytimes.com/2026/03/12/us/politics/strait-of-hormuz-iran-war.html) in response to recent military losses, effectively choking off the Strait of Hormuz and threatening global oil supplies. The regime's naval forces are stopping tankers and commercial vessels in the vital waterway that carries about a fifth of the world's oil. It's a desperate but effective move by a weakened Iran to hit back where it can cause maximum economic pain.
 
-The broader conflict shows mixed signals. US officials say Iran is [losing air](https://www.reuters.com/video/world-news/) capability after sustained strikes on its aircraft, per Reuters, while the [pace of](https://www.nytimes.com/2026/03/11/world/middleeast/iran-weapons-missiles-israel-gulf.html) Iran's retaliatory attacks appears to be slowing. But Tehran's focus on choking off energy exports through the Persian Gulf is proving effective at spooking markets, even as the physical supply disruption remains limited so far.
+The broader conflict continues to spiral, with Israel [striking central Beirut](https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel) against Hezbollah targets while NATO defenses [shot down](https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html) a third Iranian missile over Turkey. Oil prices are surging despite Trump's decision to temporarily ease sanctions on Russian petroleum, and a U.S. refueling aircraft [crashed in Iraq](https://www.nytimes.com/2026/03/12/world/middleeast/us-refueling-plane-crash-iraq.html), killing all four crew members. The Pentagon says hostile fire wasn't involved, but the timing underscores how quickly this conflict is reshaping the region's security landscape.
 
 **Business/Tech**
 
-• Eli Lilly found a concerning impurity in compounded versions of its blockbuster weight-loss drug and is [warning of](https://www.reuters.com/business/healthcare-pharmaceuticals/lilly-finds-impurity-compounded-version-its-weight-loss-drug-warns-health-risks-2026-03-12/) health risks from knockoff treatments, Reuters reports
+• Energy markets are in full crisis mode, with analysts [scrambling to revise](https://www.reuters.com/business/energy/analysts-reassess-oil-price-estimates-iran-conflict-disrupts-markets-2026-03-13/) their price forecasts as Iran's blockade of shipping lanes sends shockwaves through global supply chains
 
-• Stock traders are [bracing for](https://www.bloomberg.com/news/articles/2026-03-12/stock-traders-brace-for-more-short-term-jitters-as-war-rages-on) weeks more volatility before any calm returns to global markets, according to Bloomberg
+• Adobe shares are [tumbling after](https://www.reuters.com/business/adobe-shares-drop-after-ceo-exit-adds-ai-disruption-concerns-2026-03-13/) CEO departure news adds to broader concerns about AI disruption hitting traditional software companies
 
-• Microsoft is [taking a](https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html) rare public stand against the Trump administration over AI contracts
+• Mortgage rates are [climbing back](https://www.nytimes.com/2026/03/12/business/mortgage-rates-rise-above-6-percent.html) above 6% as the Iran conflict ripples through financial markets, adding housing pressure just as spring buying season begins
 
-• Meta just [acquired Moltbook](https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html), the social network designed exclusively for AI bots to interact with each other
+• The social media addiction trial is [wrapping up](https://www.nytimes.com/2026/03/12/technology/social-media-addiction-society-verdict.html), but public opinion has long since moved past legal proceedings to demand real accountability from tech platforms
 
 **Around the World**
 
-• **Latin America**: [Venezuela needs](https://www.bloomberg.com/news/videos/2026-03-12/venezuela-needs-its-oil-expats-to-come-home-many-won-t-go) its oil expats to come home to rebuild the industry, but most still don't trust the government enough to return, Bloomberg reports
+• **Latin America**: Canada is [expanding its military](https://www.nytimes.com/2026/03/12/world/canada/canada-military-arctic-trump.html) presence in the Arctic following Trump's renewed threats about territorial claims, a significant shift in Ottawa's defense posture
 
-• **Europe**: Italy's Giorgia Meloni is trying to [distance herself](https://www.nytimes.com/2026/03/12/world/europe/meloni-trump-iran-italy.html) from Trump's Iran strategy, a tricky position for his closest European ally
+• **Europe**: Ukrainian defense companies are seeing their [phones ring](https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html) nonstop as Middle Eastern countries desperately seek drone defense systems, creating an unexpected wartime export boom
 
-• **Asia**: China just made ethnic minority assimilation [into law](https://www.nytimes.com/2026/03/12/world/asia/china-minorities-xinjiang-tibet.html), formalizing policies that have drawn international condemnation in Xinjiang and Tibet
+• **Asia**: The BBC reports that [84 Iranian sailors](https://www.bbc.com/news/articles/c363lk4xk07o?at_medium=RSS&at_campaign=rss) killed when the U.S. sunk the warship Iris Dena near Sri Lanka will be repatriated, a grim reminder of the human toll as this conflict escalates
 
-• **Middle East**: Iran's police chief has [warned citizens](https://www.bbc.com/news/articles/c5y5rldz897o?at_medium=RSS&at_campaign=rss) that his forces have "fingers on the trigger" and will treat anyone protesting "at the enemy's request" as an enemy, the BBC reports
+• **Middle East**: The BBC confirms that [four U.S. crew members](https://www.bbc.com/news/articles/cy0dz5ql17vo?at_medium=RSS&at_campaign=rss) died when their refueling aircraft crashed in western Iraq, with rescue efforts continuing in the dangerous airspace
 
-• **Africa**: Flooding and landslides in Ethiopia have [killed more](https://www.bbc.com/news/articles/ce947x4m0e1o?at_medium=RSS&at_campaign=rss) than 60 people, with forecasters saying storms are intensifying due to climate change, according to the BBC
+• **Africa**: A [drone strike](https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html) in Congo killed three people including a U.N. worker.

@@ -1,83 +1,73 @@
 {
   "nyt": {
     "lead": {
-      "headline": "Why Oil Prices Surged Even After the Release of Strategic Reserves",
-      "url": "https://www.nytimes.com/2026/03/12/business/iran-oil-price-reserves.html",
+      "headline": "A Weakened Iran Hits Back by Strangling a Vital Waterway for Oil Supplies",
+      "url": "https://www.nytimes.com/2026/03/12/us/politics/strait-of-hormuz-iran-war.html",
       "source": "Lead"
     },
     "live": [
       {
-        "headline": "Oil Prices Jump; Two Tankers Burn Off Iraq’s Coast After Attacks",
-        "url": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel",
+        "headline": "Israel Escalates Attacks Against Hezbollah, Striking Central Beirut",
+        "url": "https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel",
         "source": "Live"
       }
     ],
     "primary": [
       {
-        "headline": "Why Oil Prices Surged Even After the Release of Strategic Reserves",
-        "url": "https://www.nytimes.com/2026/03/12/business/iran-oil-price-reserves.html",
+        "headline": "A Weakened Iran Hits Back by Strangling a Vital Waterway for Oil Supplies",
+        "url": "https://www.nytimes.com/2026/03/12/us/politics/strait-of-hormuz-iran-war.html",
         "source": "Homepage"
       },
       {
-        "headline": "How Hegseth Came to See Moral Purpose in War as Weakness",
-        "url": "https://www.nytimes.com/2026/03/12/us/politics/hegseth-iran-war.html",
+        "headline": "Hegseth’s Views on Rules of Engagement Face Scrutiny After School Strike",
+        "url": "https://www.nytimes.com/2026/03/13/us/politics/hegseth-iran-war-rules.html",
         "source": "Homepage"
       },
       {
-        "headline": "Ground Down by War, Hezbollah’s Loyal Base Shows Cracks",
-        "url": "https://www.nytimes.com/2026/03/12/world/middleeast/lebanon-hezbollah-israel.html",
+        "headline": "Oil Prices Rise Despite Trump’s Decision to Lift Russia Sanctions",
+        "url": "https://www.nytimes.com/2026/03/12/business/oil-stock-gas-markets-iran.html",
         "source": "Homepage"
       },
       {
-        "headline": "Iran’s Frantic Attempt to Save Its Ships Before Torpedo Attack",
-        "url": "https://www.nytimes.com/2026/03/12/world/asia/iran-ships-sri-lanka.html",
+        "headline": "4 Killed in Crash of U.S. Refueling Plane in Iraq, Military Says",
+        "url": "https://www.nytimes.com/2026/03/12/world/middleeast/us-refueling-plane-crash-iraq.html",
         "source": "Homepage"
       },
       {
-        "headline": "Pace of Iran’s Retaliatory Strikes Appears to Be Slowing",
-        "url": "https://www.nytimes.com/2026/03/11/world/middleeast/iran-weapons-missiles-israel-gulf.html",
+        "headline": "Turkey Says NATO Defenses Shot Down a Third Iranian Missile",
+        "url": "https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html",
         "source": "Homepage"
       },
       {
-        "headline": "Kristi Noem Fired",
-        "url": "https://www.nytimes.com/2026/03/05/us/politics/kristi-noem-dhs-timeline.html",
+        "headline": "Synagogue Attacks",
+        "url": "https://www.nytimes.com/2026/03/12/us/synagogue-attacks-united-states-world.html",
         "source": "Homepage"
       },
       {
-        "headline": "F.D.A. Regulator Resigning",
-        "url": "https://www.nytimes.com/2026/03/06/health/fda-prasad-resigns.html",
+        "headline": "Echoes of Michigan Church Attack",
+        "url": "https://www.nytimes.com/2026/03/12/us/synagogue-shooting-michigan-church.html",
         "source": "Homepage"
       },
       {
-        "headline": "Trump’s Tour of States Is About More Than the Midterms",
+        "headline": "After Latest Attack, Some Jews Wonder How Much More Security Is Possible",
+        "url": "https://www.nytimes.com/2026/03/13/us/antisemitism-michigan-synogogue.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "What We Know About Yesterday’s Synagogue Attack in Michigan",
+        "url": "https://www.nytimes.com/2026/03/12/us/michigan-synagogue-shooting-temple-israel.html",
+        "source": "Homepage"
+      },
+      {
+        "headline": "Trump’s Multistate Tour",
         "url": "https://www.nytimes.com/2026/03/11/us/politics/trumps-states-control-republican-party.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "Eye Doctor Named to Air Pollution Advisory Board Draws Pushback",
-        "url": "https://www.nytimes.com/2026/03/12/climate/epa-science-adviser-brian-joondeph.html",
-        "source": "Homepage"
-      },
-      {
-        "headline": "A Call for Reporting Tips Rankles Pentagon Officials",
-        "url": "https://www.nytimes.com/2026/03/12/business/media/a-call-for-reporting-tips-rankles-pentagon-officials.html",
         "source": "Homepage"
       }
     ],
     "secondary": [
       {
-        "headline": "A State of Wealthy Entrepreneurs Passes a ‘Millionaires’ Tax’",
-        "url": "https://www.nytimes.com/2026/03/11/us/washington-millionaires-tax-bezos-schultz.html",
-        "source": "U.S."
-      },
-      {
-        "headline": "ICE Lawyer Who Told Judge She Was Overwhelmed Seeks New Role: Lawmaker",
-        "url": "https://www.nytimes.com/2026/03/11/us/ice-lawyer-congress-julie-t-le.html",
-        "source": "U.S."
-      },
-      {
-        "headline": "Charlie Kirk’s Group Expands Into High Schools. G.O.P. States Are Helping.",
-        "url": "https://www.nytimes.com/2026/03/11/us/politics/turning-point-usa-high-school-clubs-charlie-kirk.html",
+        "headline": "Florida Republicans Pass Bill Requiring Proof of Citizenship to Vote",
+        "url": "https://www.nytimes.com/2026/03/12/us/elections/florida-voting-citizenship-proof-bill.html",
         "source": "U.S."
       },
       {
@@ -86,74 +76,89 @@
         "source": "U.S."
       },
       {
-        "headline": "San Francisco’s Chinatown Celebrated Eileen Gu. Others Are More Conflicted.",
-        "url": "https://www.nytimes.com/2026/03/12/us/eileen-gu-olympics-chinese-american.html",
+        "headline": "People in This Mississippi City Faced Off With Elon Musk. They Lost.",
+        "url": "https://www.nytimes.com/2026/03/12/us/elon-musk-xai-mississippi.html",
         "source": "U.S."
       },
       {
-        "headline": "U.S. at Fault in Strike on School in Iran, Preliminary Inquiry Says",
-        "url": "https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html",
+        "headline": "Joaquin Castro Is on a Quest to Get Detained Immigrants Released",
+        "url": "https://www.nytimes.com/2026/03/13/us/politics/joaquin-castro-immigration-detention-texas.html",
+        "source": "U.S."
+      },
+      {
+        "headline": "With Disputed Legal Maneuver, Trump Tries to Set Policy Without Legislation",
+        "url": "https://www.nytimes.com/2026/03/12/us/politics/trump-lawsuits-settlements.html",
         "source": "Politics"
       },
       {
-        "headline": "How Trump and His Advisers Miscalculated Iran’s Response to War",
-        "url": "https://www.nytimes.com/2026/03/10/us/politics/how-trump-miscalculated-iran-response.html",
+        "headline": "Trump Targets Forced Labor in Global Tariff Scheme",
+        "url": "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html",
         "source": "Politics"
       },
       {
-        "headline": "Are T.S.A. Lines Really That Long? What’s Going On at Airports.",
-        "url": "https://www.nytimes.com/2026/03/12/travel/airport-lines-times-tsa-security.html",
+        "headline": "What Does It Mean to Have Air Superiority Over Iran?",
+        "url": "https://www.nytimes.com/2026/03/13/world/middleeast/air-superiority-iran-war.html",
         "source": "Politics"
       },
       {
-        "headline": "Haitian President’s Widow Recalls Killers Spoke Spanish and Used Nicknames",
-        "url": "https://www.nytimes.com/2026/03/11/world/americas/martine-moise-haiti-president-assassination-trial-miami.html",
-        "source": "Latin America"
-      },
-      {
-        "headline": "Two People Die After Paid Plasma Donation at Clinics in Canada",
-        "url": "https://www.nytimes.com/2026/03/11/world/canada/winnipeg-plasma-blood-donation-deaths.html",
+        "headline": "‘A Lot of Life Years Lost’: How NAFTA Shortened American Life Spans",
+        "url": "https://www.nytimes.com/2026/03/13/us/politics/a-lot-of-life-years-lost-how-nafta-shortened-american-life-spans.html",
         "source": "Latin America"
       },
       {
         "headline": "Leer en español",
-        "url": "https://www.nytimes.com/es/2026/03/11/espanol/mundo/canada-muerte-donantes-plasma.html",
+        "url": "https://www.nytimes.com/es/2026/03/13/espanol/estados-unidos/tratado-libre-comercio-mexico-estados-unidos-efectos.html",
         "source": "Latin America"
       },
       {
-        "headline": "Trump Administration Asks Supreme Court to End Protections for Haitian Immigrants",
-        "url": "https://www.nytimes.com/2026/03/11/us/politics/supreme-court-haitians-deportation.html",
+        "headline": "Canada to Expand Military Presence in Arctic, Following Trump Threats",
+        "url": "https://www.nytimes.com/2026/03/12/world/canada/canada-military-arctic-trump.html",
         "source": "Latin America"
       },
       {
-        "headline": "U.S. Seeks Extradition of Maduro Ally Pardoned by Biden",
-        "url": "https://www.nytimes.com/2026/03/11/world/americas/us-alex-saab-extradition-maduro-ally.html",
+        "headline": "Cuba Pledges to Release 51 Prisoners Amid U.S. Pressure",
+        "url": "https://www.nytimes.com/2026/03/12/world/americas/cuba-prisoner-release-trump-oil-blocade.html",
         "source": "Latin America"
       },
       {
-        "headline": "Giorgia Meloni, Trump’s Friend in Europe, Seeks Distance on Iran",
-        "url": "https://www.nytimes.com/2026/03/12/world/europe/meloni-trump-iran-italy.html",
+        "headline": "Leer en español",
+        "url": "https://www.nytimes.com/es/2026/03/12/espanol/america-latina/cuba-presos-politicos.html",
+        "source": "Latin America"
+      },
+      {
+        "headline": "Phones ‘Ringing Off the Hook’ for Ukraine Defense Firms as Mideast Seeks Help",
+        "url": "https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html",
         "source": "Europe"
       },
       {
-        "headline": "How Russia’s Scorched-Earth Attacks Put Ukraine’s Power Grid Near Collapse",
-        "url": "https://www.nytimes.com/2026/03/12/world/europe/ukraine-russia-energy-system.html",
+        "headline": "1,865 Coats in 15 Minutes: A Fine-Tuned Opera House Team",
+        "url": "https://www.nytimes.com/2026/03/13/arts/music/deutsche-oper-coat-check-garderobe.html",
         "source": "Europe"
       },
       {
-        "headline": "How to Afford Housing in London: Multiple Roommates, No Living Room",
-        "url": "https://www.nytimes.com/2026/03/12/business/london-house-prices-rent-roommates.html",
+        "headline": "Surging Energy Costs Put German Industry ‘Really in Danger’",
+        "url": "https://www.nytimes.com/2026/03/13/business/energy-environment/iran-energy-costs-germany-factories.html",
         "source": "Europe"
       },
       {
-        "headline": "Countries Scramble to Shore Up Global Oil Supplies as Ships Are Attacked",
-        "url": "https://www.nytimes.com/2026/03/11/world/middleeast/oil-ships-lebanon-iran-israel.html",
+        "headline": "Ukraine to Make Drone Videos Available for Training A.I. Models",
+        "url": "https://www.nytimes.com/2026/03/12/world/europe/ukraine-drones-ai-models-training.html",
         "source": "Europe"
       },
       {
-        "headline": "Strong or Weak? How Trump Picks His Battles.",
-        "url": "https://www.nytimes.com/2026/03/11/us/politics/trump-adversaries-picking-battles.html",
-        "source": "Europe"
+        "headline": "An Ancient Temple at the Heart of a Modern Conflict",
+        "url": "https://www.nytimes.com/2026/03/13/world/asia/thailand-cambodia-preah-vihear-temple.html",
+        "source": "Asia"
+      },
+      {
+        "headline": "How the War in Iran Could Help China and Change Asia",
+        "url": "https://www.nytimes.com/2026/03/13/world/asia/iran-war-china-asia.html",
+        "source": "Asia"
+      },
+      {
+        "headline": "Iran’s Frantic Attempt to Save Its Ships Before Torpedo Attack",
+        "url": "https://www.nytimes.com/2026/03/12/world/asia/iran-ships-sri-lanka.html",
+        "source": "Asia"
       },
       {
         "headline": "China Wants Its Ethnic Minorities to Blend In. Now It’s the Law.",
@@ -161,24 +166,14 @@
         "source": "Asia"
       },
       {
-        "headline": "At China’s Big Political Meeting, a Rare Debate About Inequality",
-        "url": "https://www.nytimes.com/2026/03/12/world/asia/china-pensions-inequality-farmers.html",
-        "source": "Asia"
-      },
-      {
-        "headline": "Mines Have Haunted the Persian Gulf for Decades",
-        "url": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-war-mines-ships-history.html",
+        "headline": "Drone Strike Has Cyprus, and Europe, on Edge",
+        "url": "https://www.nytimes.com/2026/03/13/world/middleeast/cyprus-iran-drone-strike.html",
         "source": "Middle East"
       },
       {
-        "headline": "How The Times Uses Graphics and Maps to Track the Mideast Conflict",
-        "url": "https://www.nytimes.com/2026/03/12/insider/how-the-times-uses-graphics-and-maps-to-track-the-middle-east-conflict.html",
-        "source": "Middle East"
-      },
-      {
-        "headline": "Deadly Attack on Oil Tankers Prompts Iraq to Close Oil Terminals",
-        "url": "https://www.nytimes.com/2026/03/12/world/middleeast/iraq-oil-tankers-attack-iran-war.html",
-        "source": "Middle East"
+        "headline": "Drone Strike in Congo Kills 3, Including U.N. Worker",
+        "url": "https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html",
+        "source": "Africa"
       },
       {
         "headline": "The Quest to Save One Baby Gorilla From an Uncertain Fate",
@@ -201,231 +196,169 @@
         "source": "Africa"
       },
       {
-        "headline": "In Sierra Leone, a New Maternal Care Center Aims to be a Blueprint",
-        "url": "https://www.nytimes.com/2026/03/04/world/africa/women-maternal-health-sierra-leone.html",
-        "source": "Africa"
-      },
-      {
-        "headline": "Microsoft Takes a Stand Against the Trump Administration",
-        "url": "https://www.nytimes.com/2026/03/11/business/dealbook/microsoft-anthropic-pentagon.html",
+        "headline": "Oil Shock Sends Tremors Through World Economy: ‘This Really Is the Big One’",
+        "url": "https://www.nytimes.com/2026/03/12/business/economy/iran-oil-shock-economy-global-impact.html",
         "source": "Business"
       },
       {
-        "headline": "Businesses Ask the TACO Question About Iran",
-        "url": "https://www.nytimes.com/2026/03/10/business/dealbook/trump-iran-taco.html",
+        "headline": "Mortgage Rates Rise as Iran War Ripples Through Financial Markets",
+        "url": "https://www.nytimes.com/2026/03/12/business/mortgage-rates-rise-above-6-percent.html",
         "source": "Business"
       },
       {
-        "headline": "America Is an Oil Exporter. Why Does a Mideast War Raise U.S. Gas Prices?",
-        "url": "https://www.nytimes.com/2026/03/10/business/gasoline-price-energy-costs.html",
+        "headline": "16 and Counting: Oil and Cargo Ships Are Growing Targets in War With Iran",
+        "url": "https://www.nytimes.com/interactive/2026/03/12/business/energy-environment/iran-war-ship-attacks.html",
         "source": "Business"
       },
       {
-        "headline": "What’s Better Than One Top Oscar Nominee? How About Two?",
-        "url": "https://www.nytimes.com/2026/03/11/business/media/sinners-one-battle-warner-oscars.html",
+        "headline": "Meta Delays Rollout of New A.I. Model After Performance Concerns",
+        "url": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html",
         "source": "Business"
       },
       {
-        "headline": "A.I. Incites a New Wave of Grieving Parents Fighting for Online Safety",
-        "url": "https://www.nytimes.com/2026/03/10/technology/ai-social-media-child-safety-parents.html",
+        "headline": "War With Iran Puts Further Strain on America’s Pessimistic Farmers",
+        "url": "https://www.nytimes.com/2026/03/12/business/war-iran-farmers-agriculture-costs.html",
+        "source": "Business"
+      },
+      {
+        "headline": "Social Media Addiction Trial Nears End. Society Long Ago Rendered Its Verdict.",
+        "url": "https://www.nytimes.com/2026/03/12/technology/social-media-addiction-society-verdict.html",
         "source": "Technology"
       },
       {
-        "headline": "Meta Acquires Moltbook, the Social Network Just for A.I. Bots",
-        "url": "https://www.nytimes.com/2026/03/10/technology/meta-moltbook-social-ai-bots.html",
+        "headline": "A.I. Chatbots Want Your Health Records. Tread Carefully.",
+        "url": "https://www.nytimes.com/2026/03/12/technology/personaltech/microsoft-copilot-health-ai-chatbots.html",
         "source": "Technology"
       },
       {
-        "headline": "YouTube Adds Tool to Help Public Figures Report Fake Videos",
-        "url": "https://www.nytimes.com/2026/03/10/technology/youtube-deepfakes-detection-tool.html",
+        "headline": "Silicon Valley’s Image Takes a Dark Turn in Pop Culture",
+        "url": "https://www.nytimes.com/2026/03/12/technology/silicon-valley-pop-culture.html",
         "source": "Technology"
       },
       {
-        "headline": "Former Meta A.I. Chief’s Start-Up Is Valued at $3.5 Billion",
-        "url": "https://www.nytimes.com/2026/03/10/technology/ami-labs-yann-lecun-funding.html",
-        "source": "Technology"
-      },
-      {
-        "headline": "The Smart Home Never Quite Worked. Now It’s Getting an A.I. Reboot.",
-        "url": "https://www.nytimes.com/2026/03/05/technology/personaltech/ai-smart-home-google-gemini-amazon-alexa.html",
+        "headline": "Traveling With Disabilities Is Often Hard. These Tools Can Help.",
+        "url": "https://www.nytimes.com/2026/03/13/travel/disabled-travelers-apps-accessibility.html",
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-03-12T11:31:29.864Z"
+    "timestamp": "2026-03-13T11:31:06.991Z"
   },
   "secondary": {
-    "timestamp": "2026-03-12T11:31:29.864Z",
+    "timestamp": "2026-03-13T11:31:06.991Z",
     "reuters": [
       {
-        "title": "Indian source says Iran to allow India-flagged tankers to pass through Strait of Hormuz - Reuters",
-        "link": "https://www.reuters.com/world/india/iran-allow-india-flagged-tankers-pass-through-strait-hormuz-indian-source-says-2026-03-12/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmVyWE1BTTllX3pRQjU4Sk9fMzB2aFRmLW1ucl9DZzJDcUVkek8taTc2S0hXZHFnclNhVWxaRVpWQzVBc2k1emJDZGEwMGo4RnI2dnl2MzV5RTl3dzltTXRsZVVva1BqRFdGVEx",
-        "pubDate": "Thu, 12 Mar 2026 05:54:00 GMT",
+        "title": "China slams US trade probe ahead of Paris talks - Reuters",
+        "link": "https://www.reuters.com/world/china/china-slams-us-trade-probe-ahead-paris-talks-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPS3ktMTAtdlNaV2xNTGE1MmVON0pGSnVtWnV5VVpLblVuaVE5M0hPaU82YWg4N2k0MDl1SHJFQlRVWVptRldORW9KNjRtQjlkN0tfeHpSWGppU0E3bVE0eWhwaTBOY2pNMlNINHY",
+        "pubDate": "Fri, 13 Mar 2026 07:40:48 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Wall St whisperers help financial firms navigate Iran conflict risks - Reuters",
-        "link": "https://www.reuters.com/business/finance/wall-st-whisperers-help-financial-firms-navigate-iran-conflict-risks-2026-03-12/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPYUZVTzBUeWUtQ0NicC1OcUQ2S09kMEN5SkhVQ3hZa2RyZEpKdUlJdDlpT2s1bk9uS29xeldJX3BMeVNKMTRJR1o1a25iZzB5V2lXMlZHaUdmNEhlM2t6ODNiOWtZRnJ5cV82MDd",
-        "pubDate": "Thu, 12 Mar 2026 10:02:46 GMT",
+        "title": "Analysts reassess oil price estimates as Iran conflict disrupts markets - Reuters",
+        "link": "https://www.reuters.com/business/energy/analysts-reassess-oil-price-estimates-iran-conflict-disrupts-markets-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNNzhpVTRKOEtmWThrdzJmdExsZldCczlSYjlrQ1FZUnJLQXprVGY2QnhVeWxsbUQtX2w1NUdpb3g4cWZCa2JJbzB0c3hNcHl1RTFlX2ZhV0FSeG1acnJrV2hMZTVNeGw0RmNuU3g",
+        "pubDate": "Fri, 13 Mar 2026 08:25:16 GMT",
         "source": "Reuters"
       },
       {
-        "title": "US says Iran losing air capability, shows strikes on planes - Reuters",
-        "link": "https://www.reuters.com/video/world-news/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KcFExU3IzV0hqRVctRnF0cDJLUFFfN0hGRktMeVQyc0tmVUNrRHd5MVQ4R3RsVG1HS0xET0FjV0NnNU40RnYxLXR5bDhQMC1EczI4?oc=5\" target=\"_blank\"&gt;US says I",
-        "pubDate": "Thu, 12 Mar 2026 08:06:14 GMT",
+        "title": "Exclusive: ABB open to 'more than one' big deal in renewed M&amp;A drive, chairman says - Reuters",
+        "link": "https://www.reuters.com/business/abb-open-more-than-one-big-deal-renewed-ma-drive-chairman-says-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGFnUnpaV3VzQVZEWWZfOUo0Mno2cTlad1R6S2RVckFNUU56N0RpUG14UjkydnNrbDllZEtsSnd2TFgxU1YwdlJBaGQ3RTh1OG9BenY4TUc1U2JqRElJTnh3RkRNa2RFZnBfRDI",
+        "pubDate": "Fri, 13 Mar 2026 06:01:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Wall Street futures drop as Middle East tensions lift oil prices to $100 - Reuters",
-        "link": "https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxObktuYWV1VkhZd0EyT0w5U0JFVjMxWFFIRDNfcktMZHZuMTVoVlRhMENtSlNqU2txd1M3SFJld0dEemxaV3ZXNEgtYlNGdU1nLW5QZm9aNGIzV2o3c1o5dWd0RE5nZUN6TmxqX2d",
-        "pubDate": "Thu, 12 Mar 2026 08:00:06 GMT",
+        "title": "Vietnam produces world's largest trade surplus with US, Jan data shows - Reuters",
+        "link": "https://www.reuters.com/world/asia-pacific/vietnam-produces-worlds-largest-trade-surplus-with-us-jan-data-shows-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTG9pbDlYV0xoMkUwT2s1dl9SVHZ0SVpOSC0wSXl4NkZCZEVYZlpsYnU1N3NfZFMzOXpZSTMzeDRxbG5vRUQtQjhvY3BzUkx3LVdFX0ZDRk1rYnk5YXpvT3QtdE02OXV6THdfVVl",
+        "pubDate": "Fri, 13 Mar 2026 06:12:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Airline hedging strategies fall short as jet fuel price surges - Reuters",
-        "link": "https://www.reuters.com/sustainability/land-use-biodiversity/airline-hedging-strategies-fall-short-jet-fuel-price-surges-2026-03-12/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPU01XSkNzN05aN3QzSTFXSEM5OTFDdGZfZ2xJOEhXZnZPWFJiNWFqTENWTHRSY1I3cGdmLXFIQzdWNW5LUTNUcHVGQnVMMFdibXJGclFIRC02Vk4xZTNBVkY4U19hbU1Odzl1YzJ",
-        "pubDate": "Thu, 12 Mar 2026 04:33:00 GMT",
+        "title": "STMicroelectronics plans robots, retraining to avoid closures - Reuters",
+        "link": "https://www.reuters.com/business/stmicroelectronics-plans-robots-retraining-avoid-closures-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGw4SEotdWVlcVp3dzRMdW44emNheThoQk5YWFMtSHlzbTZVY3hWUWNvbzl4dVdnSldodmZ0cVJRZTRNdVRMVTZwellQTnhKOTlYQk1FMmo5cWI5a2s0YWJtWDJHcklmdlo1Q0N",
+        "pubDate": "Fri, 13 Mar 2026 06:02:00 GMT",
         "source": "Reuters"
       },
       {
-        "title": "'Stealth' Pokemon hit boosts Nintendo Switch 2 momentum sentiment - Reuters",
-        "link": "https://www.reuters.com/technology/stealth-pokemon-hit-boosts-nintendo-switch-2-momentum-sentiment-2026-03-12/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQTEdfbHRON3FycXk3TldZSEJCUGpOeThKck5XMzl1ZzROUlJtM29lcnZReF9pZDRYbVJRUFNkRk81aHNFUDIzVjhrVERVTXN3SHU2NUxOMEJjbjVsX0VVOVJrb1F2RnpSWnRvWlV",
-        "pubDate": "Thu, 12 Mar 2026 01:38:49 GMT",
+        "title": "Adobe shares drop after CEO exit adds to AI-disruption concerns - Reuters",
+        "link": "https://www.reuters.com/business/adobe-shares-drop-after-ceo-exit-adds-ai-disruption-concerns-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNem9TYW92ZzZwSUlFZ3NLWDVldUhDa29xNWpaMWwtNWpJdVNWbGQwUHJLZ3lWSU9iZHhOdXRYellsRnRtczA4UzRueXNwVEg1ZE9PdU5lbEkzbHBFZGlBTXpZWk85Mm5LdDJJX2p",
+        "pubDate": "Fri, 13 Mar 2026 09:19:59 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Pentagon opens door to exempt Anthropic use beyond 6-month ramp-down, memo says - Reuters",
-        "link": "https://www.reuters.com/business/pentagon-opens-door-exempt-anthropic-use-beyond-6-month-ramp-down-memo-says-2026-03-11/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPMk9LVjBNZFZ3eG92d0JQczFaZU1uTmZMdVBXNXdsNHVYSVhsQWxxU1ZEZjVHUXU2WFd5d181YkhhTlVuckdEeUxJNEpzUzF3Y1A4TzlzaGNiM2taeFZfdm1FSWk1VGZmNV9JUUV",
-        "pubDate": "Wed, 11 Mar 2026 22:30:02 GMT",
+        "title": "India to hold off on US trade deal amid new probe, sources say - Reuters",
+        "link": "https://www.reuters.com/world/india/india-hold-off-us-trade-deal-amid-new-probe-sources-say-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2NIeW9CNGxBbUxPMzh6TGpQeW8ycE42aG1YM0diZXptZWxLaVR0NHBUOFJKMTJxZHR3RWtsMFU4WXB3dzVCM2xjcWhLNjZ4WWFQZ2d3YlV2elRMd2psX1htWjJ4a3VUS3B2UDB",
+        "pubDate": "Fri, 13 Mar 2026 08:13:43 GMT",
         "source": "Reuters"
       },
       {
-        "title": "Lilly finds impurity in compounded version of its weight-loss drug, warns of health risks - Reuters",
-        "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/lilly-finds-impurity-compounded-version-its-weight-loss-drug-warns-health-risks-2026-03-12/",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOV0dqMWtESjYyck5UMktyX3E1S3Q4cWVHR2UtZWVKYmpHLW0xREpuWThOOUFtcVcwMGx6ZG9nOG14MXBBQmVTOFl4T0V4XzkzU3ZMSlhJd2VpeWNFU1pGWXJGZTkxelRMcGl5Wko",
-        "pubDate": "Thu, 12 Mar 2026 09:01:58 GMT",
+        "title": "Dollar on track for second weekly rise; euro, yen at multi-month lows - Reuters",
+        "link": "https://www.reuters.com/world/asia-pacific/dollar-poised-second-weekly-gain-with-no-end-sight-iran-war-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOcktUUkJRSnJnRjdNUV9tYm0wbktmaGkySlQ4VHB0TlVwTTEySUVySFVvcTdXWk44NURJNjl0WGRkeV96a05yRFc2UFRYRHRBeVg3eVlEVTgtZzBlUXVXeVV0a3ZoWEk0aWh3Umd",
+        "pubDate": "Fri, 13 Mar 2026 00:34:00 GMT",
         "source": "Reuters"
       }
     ],
-    "ap": [
-      {
-        "title": "Oil shock from Iran war prompts countries to open strategic reserves - AP News",
-        "link": "https://apnews.com/article/iran-war-oil-gas-02339048caa3fe1f08a198eb9224de2b",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQbWI0VVFtMGRvLXFLaHBDMGdaMG92VXVYRk9DV2N1VHBkMENCbWUyb0tCVmZvLVluQjc2bG44MHJVaHliQktVNm85TmlhZVBDdnZxYjMxVnozQlloUGl0aDJJYm95WFpFYTFkMC1",
-        "pubDate": "Thu, 12 Mar 2026 04:18:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "U.S. Department of Justice - AP News",
-        "link": "https://apnews.com/hub/us-department-of-justice",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DVGVUcl95ZUJpNjQwRlQ1UGFiS1FvZURuRy1SRXVhdVlnREtMOW93d0NZY1c2dHJacGlfNUFJd3ZFZ3JtdXVnOFBhUVlWWHBXdnBzTHJuU09lbUE?oc=5\" target=\"_blank\"&g",
-        "pubDate": "Thu, 12 Mar 2026 07:43:34 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Artificial intelligence - AP News",
-        "link": "https://apnews.com/hub/artificial-intelligence",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4Qi1oeTk1Z21hMnphRDg4Q3FlR1NuQmd0RUpidzBDU3A4YVRlVlZoMnZDbFVNSXA5bWVtUU55UkFqaXBVR1JqY29Sd0Q4NUZOOWtSNFJEWmVZUQ?oc=5\" target=\"_blank\"&gt",
-        "pubDate": "Thu, 12 Mar 2026 05:21:05 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "2024 Paris Olympic Games - AP News",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0SzNsTl9Tdy1uOWR4c3dDQXdIWGo4QUpIQ0pxVmFvMHU3R21VOG1DSzBRTW1pUk0xLTJHRDFvNE50bVc4RUJUa1pmdTZIOFNFU1k1VW1OQk5zajg?oc=5",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0SzNsTl9Tdy1uOWR4c3dDQXdIWGo4QUpIQ0pxVmFvMHU3R21VOG1DSzBRTW1pUk0xLTJHRDFvNE50bVc4RUJUa1pmdTZIOFNFU1k1VW1OQk5zajg?oc=5\" target=\"_blank\"&g",
-        "pubDate": "Thu, 12 Mar 2026 10:07:09 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Trump touts cutting drug prices, slams fellow Republican Rep. Massie during stops in Ohio, Kentucky - AP News",
-        "link": "https://apnews.com/article/trump-economy-oil-iran-massie-kentucky-ohio-a4dfc8bcdb32951495bf1c9bbda54ed8",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0xDZm1BUmZPaDIwZUowdC1UZ2NTNldDRXRfbkNZU2dPMVg3dzRZVExVbUdLVjlUUWRfNWxmaTNVblFOS1JaY3VhQUNPN0VjcEpMMC05TDFmQkZyZnRUR2lDUkJTZVFwbVVLdXV",
-        "pubDate": "Thu, 12 Mar 2026 00:14:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Iran targets busiest international airport as top UN body demands halt to attacks on Gulf neighbors - AP News",
-        "link": "https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPNHlpakYzV29uWUcta3BPbDdFZnk2cEQ5WlNkZ0FHczdodk9Rb1hNZWEtRXRiQnE5THllenhSYzBlRnMzTU51N0U1d2xqeWx6aWdYek0wblE5NFpuV3NJMGNQdlRBU2phclQ0T3R",
-        "pubDate": "Thu, 12 Mar 2026 03:05:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "Iran's unrelenting attacks on Mideast shipping and energy infrastructure send oil prices soaring - AP News",
-        "link": "https://apnews.com/article/iran-israel-us-march-12-2026-oil-prices-90e17dbf7354d1e9428994ab2a036506",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3UyV1FyQ2VRM3VLV2JXaUhzNWpzYUUyYnotbnkybzc2X1Jaakh4ZlRwcE1QaFkwUU94YTN0RVBnVEV1amRPYzd4WFdiczNwTWhtTVZHYXU3NlY3YllCMG9hRkdDUFp0bEdJNnZ",
-        "pubDate": "Thu, 12 Mar 2026 09:56:00 GMT",
-        "source": "AP"
-      },
-      {
-        "title": "US stock market remains calm, even as oil prices rise - AP News",
-        "link": "https://apnews.com/article/stocks-markets-oil-iran-trump-9015cbc7db4569fddd124659acfcaf86",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOaUtKTFhnN0lka1hsbXpJWVBVZEZJRm5mSlZiQTBvRm14SlpuT2FhWGxqYkFnSGFQcEZMUEdURG1hdkNWbG9DdG9acEQzNHRMelJaZjE1a3dpYmo2ZkNiREpyajBialVDTE94QTI",
-        "pubDate": "Wed, 11 Mar 2026 20:17:00 GMT",
-        "source": "AP"
-      }
-    ],
+    "ap": [],
     "bbc": [
       {
-        "title": "'Fingers on the trigger': Deadly warnings for Iranians being urged to take action",
-        "link": "https://www.bbc.com/news/articles/c5y5rldz897o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Iran's police chief has warned that his forces would treat anyone taking to the streets \"at the enemy's request\" as an enemy.",
-        "pubDate": "Thu, 12 Mar 2026 10:07:43 GMT",
+        "title": "Four crew members killed after US refuelling plane crashes in Iraq",
+        "link": "https://www.bbc.com/news/articles/cy0dz5ql17vo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The US Central Command says rescue efforts continue after a refuelling aircraft went down over western Iraq.",
+        "pubDate": "Fri, 13 Mar 2026 11:06:16 GMT",
         "source": "BBC World"
       },
       {
-        "title": "China approves 'ethnic unity' law requiring minorities to learn Mandarin",
-        "link": "https://www.bbc.com/news/articles/cp9meeek051o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The law states that children should be taught Mandarin before kindergarten, until the end of high school.",
-        "pubDate": "Thu, 12 Mar 2026 08:41:47 GMT",
+        "title": "'There's no hiding place on a ship': The sailors stranded in the Gulf",
+        "link": "https://www.bbc.com/news/articles/ce3g0vz223no?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
+        "pubDate": "Fri, 13 Mar 2026 01:47:54 GMT",
         "source": "BBC World"
       },
       {
-        "title": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
-        "link": "https://www.bbc.com/news/articles/cr4576v66kno?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Modelling agent used businesses to recruit girls and arrange US visas to visit Jeffrey Epstein, Brazilian women tell BBC.",
-        "pubDate": "Thu, 12 Mar 2026 00:05:52 GMT",
+        "title": "Bodies of 84 Iranian sailors killed in US torpedo strike to be repatriated",
+        "link": "https://www.bbc.com/news/articles/c363lk4xk07o?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The seamen died when Iranian warship the Iris Dena was sunk on 4 March by a US submarine near Sri Lanka.",
+        "pubDate": "Fri, 13 Mar 2026 10:43:21 GMT",
         "source": "BBC World"
       },
       {
-        "title": "War in Ukraine spills into Hungarian election campaign",
-        "link": "https://www.bbc.com/news/articles/crm8rxwyyz8o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Hungary is going to the polls soon and Prime Minister Viktor Orbán has one public enemy in his sights - Ukraine's president.",
-        "pubDate": "Thu, 12 Mar 2026 09:03:39 GMT",
+        "title": "French vote tests polarised electorate with right hoping to win control of Paris",
+        "link": "https://www.bbc.com/news/articles/cdxzzqye9w0o?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The highest-profile contest is for the mayorship of Paris - which has been under left-wing control for 25 years.",
+        "pubDate": "Fri, 13 Mar 2026 00:15:23 GMT",
         "source": "BBC World"
       },
       {
-        "title": "Noma head chef resigns from restaurant amid abuse allegations",
-        "link": "https://www.bbc.com/news/articles/c07jr2pe5j9o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "René Redzepi had previously apologised after ex-employees of the Danish restaurant accused him of creating a toxic work environment.",
-        "pubDate": "Thu, 12 Mar 2026 04:09:16 GMT",
+        "title": "King expressed 'concern' over Alberta separatists, say First Nations chiefs",
+        "link": "https://www.bbc.com/news/articles/cd9g4dpjwgvo?at_medium=RSS&amp;at_campaign=rss",
+        "description": "Indigenous leaders made Charles aware of the \"threat\" posed by the movement during a meeting in London, they say.",
+        "pubDate": "Fri, 13 Mar 2026 03:04:28 GMT",
         "source": "BBC World"
       },
       {
-        "title": "Hozier, Jessie Buckley and Bruce Springsteen record Shane MacGowan tribute album",
-        "link": "https://www.bbc.com/news/articles/cn87ndvklr2o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "The album will also feature Primal Scream, David Gray, Jessie Buckley, Johnny Depp and Kate Moss.",
-        "pubDate": "Thu, 12 Mar 2026 10:32:03 GMT",
+        "title": "KPop Demon Hunters to return as Netflix announces sequel",
+        "link": "https://www.bbc.com/news/articles/c2k8wvzgqk7o?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The sequel brings back the co-directors of the first film, which was a smash-hit for the streaming service.",
+        "pubDate": "Fri, 13 Mar 2026 03:15:44 GMT",
         "source": "BBC World"
       },
       {
-        "title": "Death toll from Ethiopia floods and landslides rises to more than 60",
-        "link": "https://www.bbc.com/news/articles/ce947x4m0e1o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Forecasters say storms are becoming more intense in the region, partly due to global warming.",
-        "pubDate": "Thu, 12 Mar 2026 10:33:24 GMT",
+        "title": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
+        "link": "https://www.bbc.com/news/articles/cm2xrz71zm3o?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The Israeli military's top lawyer cites \"exceptional circumstances\" for dropping the case involving a Palestinian man held at Sde Teiman military prison.",
+        "pubDate": "Thu, 12 Mar 2026 20:36:10 GMT",
         "source": "BBC World"
       },
       {
-        "title": "The Pussycat Dolls confirm reunion: 'We're celebrating where we're at as women'",
-        "link": "https://www.bbc.com/news/articles/cwykd08eyg5o?at_medium=RSS&amp;at_campaign=rss",
-        "description": "Nicole Scherzinger, Ashley Roberts and Kimberly Wyatt announce a new single and world tour.",
-        "pubDate": "Thu, 12 Mar 2026 08:03:26 GMT",
+        "title": "Suspect dead after ramming vehicle into Michigan synagogue",
+        "link": "https://www.bbc.com/news/articles/cx28zd30078o?at_medium=RSS&amp;at_campaign=rss",
+        "description": "The FBI says the incident is being investigated as a \"targeted act of violence against the Jewish community\".",
+        "pubDate": "Fri, 13 Mar 2026 10:16:36 GMT",
         "source": "BBC World"
       }
     ],
@@ -545,119 +478,133 @@
     ],
     "bloomberg": [
       {
-        "title": "Gold Steadies as Traders Weigh Energy Prices and Rate-Cut Bets",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-11/gold-little-changed-as-traders-weigh-reduced-rate-cut-prospects",
-        "description": "Gold traded in a narrow range, after the release of US inflation data dimmed prospects for interest-rate cuts and the war in the Middle East pushed oil prices higher.",
-        "pubDate": "Wed, 11 Mar 2026 22:19:57 GMT",
+        "title": "Turkey Moves Toward Nuclear in Bid to Diversify Energy Sources",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/turkey-moves-toward-nuclear-in-bid-to-diversify-energy-sources",
+        "description": "Turkey and South Korea are discussing the joint construction of a nuclear power plant, the latest of recent efforts by Ankara to diversify its energy sources.",
+        "pubDate": "Fri, 13 Mar 2026 11:23:43 GMT",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Qatar Aluminum Plant to Avert Full Halt as Gas Is Secured",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/qatar-aluminum-smelter-alters-shutdown-plans-to-avert-full-halt",
-        "description": "Qatar Aluminum Ltd. no longer plans to fully shut down its smelter in the country, and will now maintain operations at about 60% of capacity following confirmation that the plant will continue to rece",
-        "pubDate": "Thu, 12 Mar 2026 10:35:24 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Stock Traders Brace for More Short-Term Jitters as War Rages On",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/stock-traders-brace-for-more-short-term-jitters-as-war-rages-on",
-        "description": "Equity traders are hedging against the risk of weeks of further volatility before any sense of calm returns to global markets.",
-        "pubDate": "Thu, 12 Mar 2026 11:08:32 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Global Bonds Erase 2026 Gains as War Fuels Inflation Angst",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/global-bonds-erase-2026-gains-as-war-fuels-inflation-angst",
-        "description": "Global bonds have surrendered their year-to-date gains as elevated oil prices stoke fears that inflation will reignite, triggering a selloff across fixed-income markets.",
-        "pubDate": "Thu, 12 Mar 2026 06:29:49 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Blue Owl Tells Investors Its Loan Sale Had No Hidden Incentives",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/blue-owl-tells-investors-its-loan-sale-had-no-hidden-incentives",
-        "description": "Blue Owl Capital Inc. defended its recent sale of $1.4 billion of loans from three of its funds, arguing the transaction contained no backstops or hidden incentives, as the asset manager remains a pri",
-        "pubDate": "Thu, 12 Mar 2026 11:00:40 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Venezuela Needs Its Oil Expats to Come Home. Many Won’t Go",
-        "link": "https://www.bloomberg.com/news/videos/2026-03-12/venezuela-needs-its-oil-expats-to-come-home-many-won-t-go",
-        "description": "A global diaspora of oil workers holds the key to the country’s recovery, but many still don’t trust the government. Peter Millard explains.  (Source: Bloomberg)",
-        "pubDate": "Thu, 12 Mar 2026 11:00:05 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "India Asks China For Urea as War-Induced Gas Crunch Hits Plants",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/india-asks-china-for-urea-as-war-induced-gas-crunch-hits-plants",
-        "description": "India has asked China to allow the sale of some urea cargoes as the war in the Middle East curtails the nation’s gas supplies, threatening fertilizer production in the agricultural powerhouse.",
-        "pubDate": "Thu, 12 Mar 2026 10:52:48 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Buyout Shop Charlesbank to Buy Stake in Canada’s Overbay Capital",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/buyout-shop-charlesbank-to-buy-stake-in-canada-s-overbay-capital",
-        "description": "Middle-market buyout shop Charlesbank Capital Partners LLC agreed to buy a stake in Overbay Capital Partners Inc. in a deal that values the Canadian secondaries firm at C$200 million ($147 million), a",
-        "pubDate": "Thu, 12 Mar 2026 10:52:20 GMT",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Iran Steps Up Attacks on Dubai and Shipping as War Escalates",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/iran-escalates-attacks-on-shipping-and-dubai-sending-oil-higher",
-        "description": "Iran escalated attacks on parts of Dubai and shipping assets, heightening concern about the length of the Middle East war and the impact on already volatile energy markets.",
-        "pubDate": "Thu, 12 Mar 2026 08:59:02 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Putin Grabs Opportunity From Global Oil Chaos",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-03-12/iran-war-putin-grabs-opportunity-with-trump-outreach-amid-global-oil-chaos",
-        "description": "A Kremlin envoy met Trump officials in Florida yesterday to discuss the energy crisis.",
-        "pubDate": "Thu, 12 Mar 2026 10:59:18 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Russia to Slash Spending Even as Iran War Boosts Oil Prices",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/russia-to-slash-spending-even-as-iran-war-boosts-oil-prices",
-        "description": "Russia plans to scale back this year’s budget spending to rein in a widening deficit and avoid an increase in borrowing, even as surging oil prices boost revenue.",
-        "pubDate": "Thu, 12 Mar 2026 10:40:07 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "War Is Pushing Iran’s Water Supply to the Brink of Collapse",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-12/war-is-pushing-iran-s-water-supply-to-the-brink-of-collapse",
-        "description": "Climate-fueled drought and mismanagement&nbsp;have left the country with a severe water shortage, and war only adds to the strain.&nbsp;",
-        "pubDate": "Thu, 12 Mar 2026 10:30:02 GMT",
-        "source": "Bloomberg Politics"
-      },
-      {
-        "title": "Iran Escalates Attacks on Shipping and Dubai",
-        "link": "https://www.bloomberg.com/news/live-blog/2026-03-12/iran-latest",
+        "title": "Sweden Punching Above Its Weight: SSE Business Lab CEO",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-13/sweden-punching-above-its-weight-sse-business-lab-ceo-video",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 02:42:11 GMT",
+        "pubDate": "Fri, 13 Mar 2026 11:22:24 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "BNP Paribas Tests Appetite for SRT as War Reprices Credit Risk",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/bnp-paribas-tests-appetite-for-srt-as-war-reprices-credit-risk",
+        "description": "BNP Paribas SA is holding discussions with investors about a potential significant risk transfer tied to about €2.5 billion ($2.9 billion) of corporate loans, according to people familiar with the mat",
+        "pubDate": "Fri, 13 Mar 2026 11:20:35 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Sweden Tech’s Success Is No Accident: Kinnevik’s Shalalvand",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-13/sweden-tech-s-success-is-no-accident-shalalvand-says-video",
+        "description": "",
+        "pubDate": "Fri, 13 Mar 2026 11:18:56 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Explaining Sweden’s Tech Success",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-13/explaining-sweden-s-tech-success-video",
+        "description": "",
+        "pubDate": "Fri, 13 Mar 2026 11:18:31 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Lundbeck Eyes US, China Investment as Drug Rewards Lag in Europe",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/lundbeck-eyes-us-china-investment-as-drug-rewards-lag-in-europe",
+        "description": "H. Lundbeck A/S will focus its capital investments on the US and China rather than Europe as the region faces growing pressure to incentivize innovation, according to the Danish drugmaker’s chief exec",
+        "pubDate": "Fri, 13 Mar 2026 11:10:11 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Veja os Três Assuntos que Marcaram a Semana no Brasil",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-13/veja-os-tres-assuntos-que-marcaram-a-semana-no-brasil-video",
+        "description": "A repórter Beatriz Reis traz os assuntos que foram destaque da semana. Com produção de Barbara Nascimento e edição de Patricia Xavier.  (Source: Bloomberg)",
+        "pubDate": "Fri, 13 Mar 2026 11:01:56 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Economists See Two Fed 2026 Rate Cuts and Reveal Worries Over Chair Nominee Warsh",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/economists-see-two-fed-2026-rate-cuts-reveal-worries-over-chair-nominee-warsh",
+        "description": "Economists pushed back their expectation for the Federal Reserve’s next interest rate cut to June from March, but still see two quarter-point reductions by year-end, according to a survey by Bloomberg",
+        "pubDate": "Fri, 13 Mar 2026 11:00:00 GMT",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Behind The Dramatic Capture of an Alleged Scam Kingpin (Video)",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-13/behind-the-dramatic-capture-of-an-alleged-scam-kingpin-video",
+        "description": "",
+        "pubDate": "Fri, 13 Mar 2026 11:28:21 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "EU Warns Iran Conflict Could Push Bloc’s Inflation Above 3%",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-11/eu-warns-iran-conflict-could-push-the-bloc-s-inflation-above-3",
-        "description": "The European Union warned that its inflation rate could surpass 3% this year if the war in the Middle East causes Brent oil prices to remain around $100 per barrel and gas prices stay elevated for an ",
-        "pubDate": "Wed, 11 Mar 2026 20:07:01 GMT",
+        "title": "US Treasury Allows More Russian Oil Sales to Help Tame Prices",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/us-treasury-gives-green-light-for-sale-of-more-russian-oil",
+        "description": "The US issued a second authorization letting countries buy more Russian oil that’s stuck on tankers due to sanctions, part of the White House’s push to prevent prices from surging.",
+        "pubDate": "Fri, 13 Mar 2026 00:01:30 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "US Trade Probe Into China Paves Way for New Trump Tariffs",
-        "link": "https://www.bloomberg.com/news/videos/2026-03-12/us-trade-probe-into-china-paves-way-for-new-trump-levies-video",
-        "description": "President Donald Trump’s administration started the first of several sweeping trade investigations that set the stage for new tariffs, the centerpiece of a push to replace levies struck down by the US",
-        "pubDate": "Thu, 12 Mar 2026 08:56:46 GMT",
+        "title": "Trump Warns of New Strikes on Iran as War Hits Two-Week Mark",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/trump-warns-iran-to-watch-what-happens-as-war-hits-two-week-mark",
+        "description": "US President Donald Trump threatened Iran with further attacks after the Islamic Republic’s new leader signaled defiance, suggesting there will be no letup in a war that’s upending energy flows and gl",
+        "pubDate": "Fri, 13 Mar 2026 07:30:51 GMT",
         "source": "Bloomberg Politics"
       },
       {
-        "title": "Iran War Tests Egypt’s Resilience After Bond Outflows Surge",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-11/ripples-from-iran-war-put-egypt-s-resilience-under-spotlight",
-        "description": "Egyptian assets have been among the Middle East’s worst hit by the Iran war, a major stress test for grueling International Monetary Fund-backed reforms meant to protect against future crises.",
-        "pubDate": "Wed, 11 Mar 2026 23:03:26 GMT",
+        "title": "The Young Men That Have Abandoned Trump",
+        "link": "https://www.bloomberg.com/news/videos/2026-03-13/the-young-men-that-have-abandoned-trump",
+        "description": "Young male voters are abandoning Trump. Bloomberg Opinion columnist David M. Drucker explains why. (Source: Bloomberg)",
+        "pubDate": "Fri, 13 Mar 2026 11:00:02 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Trump Flatterers Privately Fuming at Iran War",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-03-13/trump-flatterers-privately-fuming-at-iran-war",
+        "description": "America’s allies are increasingly anxious about the US president’s escalating campaign in the Middle East.",
+        "pubDate": "Fri, 13 Mar 2026 10:59:03 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Serbia Buys Chinese Missiles as Vucic Warns of Threats",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/serbia-buys-chinese-supersonic-missiles-as-vucic-alleges-threats",
+        "description": "President Aleksandar Vucic said Serbia bought supersonic, air-to-surface missiles from China as part of $17 billion defense upgrades against what he claimed were hostile intentions of nearby NATO coun",
+        "pubDate": "Fri, 13 Mar 2026 08:13:32 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "Asean Will Keep Energy, Food Trade Open as War Roils Markets",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/philippines-calls-on-asean-to-anchor-investment-certainty",
+        "description": "The Association of Southeast Asian Nations will reinforce supply chains and keep trade flowing to ensure the region can weather the impact of the Middle East war on food, fuel and vital supplies.",
+        "pubDate": "Fri, 13 Mar 2026 03:11:36 GMT",
+        "source": "Bloomberg Politics"
+      },
+      {
+        "title": "NATO Intercepts Iranian Missile in Turkish Airspace",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-13/nato-intercepts-third-iranian-missile-in-turkish-airspace",
+        "description": "The North Atlantic Treaty Organization intercepted an Iranian missile that entered Turkish airspace on Friday, Turkey’s Defense Ministry said in a statement.",
+        "pubDate": "Fri, 13 Mar 2026 10:00:07 GMT",
         "source": "Bloomberg Politics"
       }
     ],
     "guardian": [
+      {
+        "title": "Eswatini says it received more ‘third country’ deportees as part of deal with Trump administration",
+        "link": "https://www.theguardian.com/us-news/2026/mar/12/trump-immigration-deportations-eswatini",
+        "description": "&lt;p&gt;Two  deportees sent to Eswatini were from Somalia, one was from Sudan and one was from Tanzania&lt;/p&gt;&lt;p&gt;The government of &lt;a href=\"https://www.theguardian.com/world/eswatini\"&gt;",
+        "pubDate": "Thu, 12 Mar 2026 21:20:29 GMT",
+        "source": "Guardian World"
+      },
+      {
+        "title": "UK government axes flagship global health project",
+        "link": "https://www.theguardian.com/global-development/2026/mar/12/uk-government-axes-flagship-global-health-project",
+        "description": "&lt;p&gt;Programme which supports schemes in six African countries was previously hailed as vital protection for Britain against future pandemics&lt;/p&gt;&lt;p&gt;A flagship health project in Africa,",
+        "pubDate": "Thu, 12 Mar 2026 12:59:29 GMT",
+        "source": "Guardian World"
+      },
       {
         "title": "‘Invasive’ AI-led mass surveillance in Africa violating freedoms, warn experts",
         "link": "https://www.theguardian.com/global-development/2026/mar/12/invasive-ai-led-mass-surveillance-in-africa-violating-freedoms-warn-experts",
@@ -680,17 +627,17 @@
         "source": "Guardian World"
       },
       {
-        "title": "At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east",
-        "link": "https://www.theguardian.com/world/2026/mar/11/nigerian-soldiers-killed-jihadist-raids-north-east",
-        "description": "&lt;p&gt;Gunmen from Islamic State West Africa Province overran four military bases and abducted 300 civilians, say reports&lt;/p&gt;&lt;p&gt;At least 65 Nigerian soldiers have been killed in jihadist",
-        "pubDate": "Wed, 11 Mar 2026 13:18:05 GMT",
+        "title": "One family’s harrowing escape to the US – and the Trump government’s relentless efforts to deport them back",
+        "link": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/13/honduras-family-immigration-deportation",
+        "description": "&lt;p&gt;Oscar, Ana and their children fled violence for safety in the US. Now Oscar, afraid and alone, is back in Honduras – ‘at the mercy of God and his will’ &lt;/p&gt;&lt;p&gt;As soon as Oscar’s d",
+        "pubDate": "Fri, 13 Mar 2026 11:00:50 GMT",
         "source": "Guardian World"
       },
       {
-        "title": "Experts fear ‘unethical’ vaccine trial in Africa is ‘prototype’ for US studies under RFK Jr",
-        "link": "https://www.theguardian.com/us-news/2026/mar/11/rfk-vaccine-trials-guinea-bissau",
-        "description": "&lt;p&gt;Danish researchers whose work on effects of vaccines has been called into question are at center of US vaccine policy&lt;/p&gt;&lt;p&gt;New details are leading experts to fear that an “unethi",
-        "pubDate": "Wed, 11 Mar 2026 11:00:01 GMT",
+        "title": "Two people die after donating plasma at Canadian clinics under federal investigation",
+        "link": "https://www.theguardian.com/world/2026/mar/12/two-plasma-donors-die-private-canada-clinics",
+        "description": "&lt;p&gt;Company that runs the sites says it has ‘no reason to believe there is a correlation between the donors’ passing and plasma donation’&lt;/p&gt;&lt;p&gt;Two people have died in Canada after do",
+        "pubDate": "Thu, 12 Mar 2026 15:24:20 GMT",
         "source": "Guardian World"
       },
       {
@@ -699,77 +646,63 @@
         "description": "&lt;p&gt;Global heating linked to rising risk of extreme rain that causes devastating landslides and rising coffee prices&lt;/p&gt;&lt;p&gt;The record floods that have brought death and destruction to",
         "pubDate": "Thu, 12 Mar 2026 03:01:06 GMT",
         "source": "Guardian World"
-      },
-      {
-        "title": "El Salvador’s mass arrest policy may have led to crimes against humanity, study shows",
-        "link": "https://www.theguardian.com/world/2026/mar/11/el-salvador-mass-incarceration-crimes-against-humanity-study",
-        "description": "&lt;p&gt;Experts documented murder, torture and disappearances under Nayib Bukele’s policy targeting gangs&lt;/p&gt;&lt;p&gt;The draconian mass incarceration policy of El Salvador’s president, Nayib B",
-        "pubDate": "Wed, 11 Mar 2026 15:00:44 GMT",
-        "source": "Guardian World"
-      },
-      {
-        "title": "Argentina grants asylum to Brasília rioter in move that may sway Brazil vote",
-        "link": "https://www.theguardian.com/world/2026/mar/11/argentina-asylum-brasil-elections",
-        "description": "&lt;p&gt;Decision to shield pro-Bolsonaro truck driver sentenced for 8 January 2023 attack could inflame Brazil election politics&lt;/p&gt;&lt;p&gt;Argentina has granted asylum to a Brazilian fugitive",
-        "pubDate": "Wed, 11 Mar 2026 14:11:07 GMT",
-        "source": "Guardian World"
       }
     ],
     "aljazeera": [
       {
-        "title": "Dubai high-rise building damaged in overnight drone hit",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/dubai-high-rise-building-damaged-in-overnight-drone-hit?traffic_source=rss",
-        "description": "Video shows damage to a Dubai high-rise building hit by a drone.",
-        "pubDate": "Thu, 12 Mar 2026 11:01:57 +0000",
+        "title": "Black smoke seen after blasts in Dubai financial district",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
+        "description": "Black smoke seen after blasts in Dubai financial district",
+        "pubDate": "Fri, 13 Mar 2026 10:39:40 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Chile’s new far-right president is sworn in",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/chiles-new-far-right-president-is-sworn-in?traffic_source=rss",
-        "description": "Chile’s new president Jose Antonio Kast has been sworn in, marking a sharp shift to the right in the country’s politics.",
-        "pubDate": "Thu, 12 Mar 2026 10:48:28 +0000",
+        "title": "The ‘bad leader’ trap",
+        "link": "https://www.aljazeera.com/opinions/2026/3/13/the-bad-leader-trap?traffic_source=rss",
+        "description": "Turning leaders into symbols of evil makes intervention easy to justify and its consequences easy to ignore.",
+        "pubDate": "Fri, 13 Mar 2026 10:39:38 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Iran says it targets Israeli bases, accuses Israel of targeting hospitals",
-        "link": "https://www.aljazeera.com/news/2026/3/12/iran-says-it-targets-israeli-bases-accuses-israel-of-targeting-hospitals?traffic_source=rss",
-        "description": "Missile alert alarms sound in Jerusalem as the Israeli military says it launches another round of &#039;wide-scale&#039; strikes.",
-        "pubDate": "Thu, 12 Mar 2026 10:37:28 +0000",
+        "title": "Real Madrid vs Elche: La Liga – teams, start, lineups, kickoff time",
+        "link": "https://www.aljazeera.com/sports/2026/3/13/real-madrid-vs-elche-la-liga-teams-start-lineups-kickoff-time?traffic_source=rss",
+        "description": "Elche hope to upset the odds as they travel to title-chasing Real Madrid, seeking their first win at Bernabeu Stadium.",
+        "pubDate": "Fri, 13 Mar 2026 10:30:54 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "North Korea says no more protests after China stir in Women’s Asian Cup",
-        "link": "https://www.aljazeera.com/sports/2026/3/12/north-korea-vows-no-more-protests-after-china-stir-in-womens-asian-cup?traffic_source=rss",
-        "description": "North Korea face Australia in the Women&#039;s Asian Cup quarterfinals, and promise no repeat of protests in China game.",
-        "pubDate": "Thu, 12 Mar 2026 10:16:01 +0000",
+        "title": "Video shows projectile near Turkish base hosting US troops",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/13/video-shows-projectile-near-turkish-base-hosting-us-troops?traffic_source=rss",
+        "description": "Video shared on social media shows a projectile streaking across the sky near the Incirlik military base in Turkiye.",
+        "pubDate": "Fri, 13 Mar 2026 10:30:21 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Al Jazeera sees bombs being loaded onto US planes at UK base",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/al-jazeera-sees-bombs-being-loaded-onto-us-planes-at-uk-base?traffic_source=rss",
-        "description": "An Al Jazeera crew filmed bunker-busting bombs being loaded onto US military planes at a UK military base.",
-        "pubDate": "Thu, 12 Mar 2026 09:46:23 +0000",
+        "title": "Sri Lanka to repatriate remains of 84 Iranian sailors killed in US attack",
+        "link": "https://www.aljazeera.com/news/2026/3/13/sri-lanka-to-repatriate-remains-of-84-iranian-sailors-killed-in-us-attack?traffic_source=rss",
+        "description": "The 32 sailors who were rescued by Sri Lanka&#039;s navy will remain in the island nation, said the Foreign Ministry.",
+        "pubDate": "Fri, 13 Mar 2026 10:04:31 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Saudi Arabia and UAE condemn Iranian attacks",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/saudi-arabia-and-uae-condemn-iranian-attacks?traffic_source=rss",
-        "description": "Saudi and UAE ambassadors to the UN condemn Iranian attacks ahead of Security Council meeting.",
-        "pubDate": "Thu, 12 Mar 2026 09:38:07 +0000",
+        "title": "Explosions near Tehran al-Quds Day march in solidarity with Palestinians",
+        "link": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians?traffic_source=rss",
+        "description": "State media outlet Press TV says one woman was killed from shrapnel as a result of a US-Israeli airstrike.",
+        "pubDate": "Fri, 13 Mar 2026 10:04:00 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Residents of this Beirut neighbourhood felt safe. Then Israel attacked it.",
-        "link": "https://www.aljazeera.com/features/2026/3/12/residents-of-this-beirut-neighbourhood-felt-safe-then-israel-attacked-it?traffic_source=rss",
-        "description": "Residents of a Beirut neighbourhood tell Al Jazeera they felt safe until the Israeli attack on Wednesday morning.",
-        "pubDate": "Thu, 12 Mar 2026 09:36:15 +0000",
+        "title": "China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup",
+        "link": "https://www.aljazeera.com/sports/2026/3/13/china-coach-tells-players-to-stay-calm-in-taiwan-clash-at-asian-cup?traffic_source=rss",
+        "description": "China face Taiwan in a highly charged quarterfinal at the Women&#039;s Asian Cup, which already has a political focus.",
+        "pubDate": "Fri, 13 Mar 2026 08:45:49 +0000",
         "source": "Al Jazeera"
       },
       {
-        "title": "Bangladesh parliament meets after uprising, elections ushered in new gov’t",
-        "link": "https://www.aljazeera.com/news/2026/3/12/bangladesh-parliament-meets-for-first-time-after-uprising-elections?traffic_source=rss",
-        "description": "Newly elected PM Rahman has blamed Sheikh Hasina and her Awami League party for undermining the previous parliament.",
-        "pubDate": "Thu, 12 Mar 2026 09:34:06 +0000",
+        "title": "Two killed in Oman by drones, several also fired at Saudi Arabia",
+        "link": "https://www.aljazeera.com/news/2026/3/13/two-killed-in-oman-by-drones-several-also-fired-at-saudi-arabia?traffic_source=rss",
+        "description": "Two drones target Oman&#039;s Sohar province, killing two foreign nationals and injuring others, state news agency reports.",
+        "pubDate": "Fri, 13 Mar 2026 08:21:12 +0000",
         "source": "Al Jazeera"
       }
     ],
@@ -782,13 +715,6 @@
         "source": "Economist"
       },
       {
-        "title": "What people get wrong about women’s rights - The Economist",
-        "link": "https://www.economist.com/by-invitation/2026/03/06/what-people-get-wrong-about-womens-rights",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPV1ZQa2xUVFdwMXJJcC1wbVp6VXIweU0wcVFhNEdYNVplak1aQ1NrSDRySjZVeU44aGd4R2ljbzNXZm0wWEJkSW9lTnc3M09hZ25aWG1WNWFtb3haOWdNWmRBUE5YR08zeXpodjh",
-        "pubDate": "Fri, 06 Mar 2026 16:08:47 GMT",
-        "source": "Economist"
-      },
-      {
         "title": "Ukraine’s housing market is increasingly peculiar - The Economist",
         "link": "https://www.economist.com/europe/2026/03/10/ukraines-housing-market-is-increasingly-peculiar",
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxON3JJQWdFYzVjLWJBcHRYWnhRT2huaUNrTS01NHhvQlA1enpzTUdnaXltVW5kcjFoRHpMNi1XSW83REVaWEdQX0lFd1V5dDYtbEs3aFZkUlphc0dwdEYtOFJHRENfWjdmNzg5Ul9",
@@ -796,10 +722,10 @@
         "source": "Economist"
       },
       {
-        "title": "An AI disaster is getting ever closer - The Economist",
-        "link": "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVU0tZG1pVllBSEI1RXNjNWNERTh5ZTNxYlFrdWZYSTdLQ0dJbndURmpadFJEenQ4X1ZvU0pKaXhiVUdPZjZ0TnVJcjc0aGtORkJGT1dOMWgteGVtVEFhc3hRNmlVU2RiRFVZbFZ",
-        "pubDate": "Thu, 05 Mar 2026 13:45:01 GMT",
+        "title": "What people get wrong about women’s rights - The Economist",
+        "link": "https://www.economist.com/by-invitation/2026/03/06/what-people-get-wrong-about-womens-rights",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPV1ZQa2xUVFdwMXJJcC1wbVp6VXIweU0wcVFhNEdYNVplak1aQ1NrSDRySjZVeU44aGd4R2ljbzNXZm0wWEJkSW9lTnc3M09hZ25aWG1WNWFtb3haOWdNWmRBUE5YR08zeXpodjh",
+        "pubDate": "Fri, 06 Mar 2026 16:08:47 GMT",
         "source": "Economist"
       },
       {
@@ -810,17 +736,10 @@
         "source": "Economist"
       },
       {
-        "title": "Pedro Sánchez: No to war - The Economist",
-        "link": "https://www.economist.com/by-invitation/2026/03/06/pedro-sanchez-no-to-war",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1qSUFRTnZScWhHbXpfa2Zjb1NTSndvUml2MVU5NV9fRGJzeTJDR1pqZ0FYZDRkTi1OcmRaQWFIeWo0SjVkMjI3VUdzWVg2d2pPaHFieVhQZnY5UmV3VU9Qa2RVMF9pa3dJZjRCWTd",
-        "pubDate": "Fri, 06 Mar 2026 11:29:42 GMT",
-        "source": "Economist"
-      },
-      {
-        "title": "Would America be in recession without the super-rich? - The Economist",
-        "link": "https://www.economist.com/finance-and-economics/2026/03/08/would-america-be-in-recession-without-the-super-rich",
-        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0RSemU2QTlCUl8tVjJIM1l5QVA0UFFUNHFwNU9RQkFyQzEzVWx5eUVCbFdDcG0zbVJfUGRxQW9mSFQ0VjJfRmRMbEt1NlZmRWxZRGtnaVdHTzNPSG5VZWd0ZkMzYjVjUk9ENW1",
-        "pubDate": "Sun, 08 Mar 2026 12:36:30 GMT",
+        "title": "An attack on the world economy - The Economist",
+        "link": "https://www.economist.com/weeklyedition/2026-03-14",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ta2NjUnlCT2tqXy1JekI5VHpDV3c1T3lWdW5FNExyeTRwaEVKN0hOd09GaE5iZmN1YUg0eWxDbGRma0VVdm9RMUNsaU9HT0JidGRYa3NxUmpVYU5HS1NJ?oc=5\" target=\"_bla",
+        "pubDate": "Fri, 13 Mar 2026 10:48:12 GMT",
         "source": "Economist"
       },
       {
@@ -829,283 +748,297 @@
         "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNR0xoYXYtZlc4MHQ1aFppNkNPdDljOTdVd3RyZ2hXWlp1RVo2SUFNZF9NbTdFVXhDeUE2d0puem9la1hocy1aclljXzY0d3g3S1U3c3dyNjAtQXg1OEhXdzl4ZEZIQ0VCcDJ6eWx",
         "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT",
         "source": "Economist"
+      },
+      {
+        "title": "Why investors won’t know what to make of AI for a while - The Economist",
+        "link": "https://www.economist.com/finance-and-economics/2026/03/12/why-investors-wont-know-what-to-make-of-ai-for-a-while",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxONndsbWxsNTNlVzdXWmhqdUZFbG1yX2F4Tms1eEdxSEZMLWkxUGdGWlFOeUFtaHVYX2pYQlg0TXQxdHNEaF9pLVRqTV9rbElsbFpMTEF4RUZvb2VzSW1oUG55cFgxVEw3TW9WYmx",
+        "pubDate": "Thu, 12 Mar 2026 15:11:08 GMT",
+        "source": "Economist"
+      },
+      {
+        "title": "An attack on the world economy - The Economist",
+        "link": "https://www.economist.com/leaders/2026/03/12/an-attack-on-the-world-economy",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxObW5BVXVuRzA2NEtKYVpxSk42TURkNWJFeGJsVlNtSnZ4S1lJN004WnJ0LWtGZ2JIZUV4am55cU5DZHpNMDFwY2o3MzJFOEhEazFOZS12dENWOTdIVmVvejBmNTRxSjBCLVJ0SXQ",
+        "pubDate": "Thu, 12 Mar 2026 10:40:58 GMT",
+        "source": "Economist"
       }
     ],
     "scmp": [
       {
-        "title": "Ant smuggling rises in Kenya as Chinese national caught with 2,238 insects at airport",
-        "link": "https://www.scmp.com/news/world/africa/article/3346382/ant-smuggling-rises-kenya-chinese-national-caught-2238-insects-airport?utm_source=rss_feed",
+        "title": "UK says Russia, Iran trying to ‘hijack global economy’ amid Hormuz blockade",
+        "link": "https://www.scmp.com/news/world/europe/article/3346523/uk-says-russia-iran-trying-hijack-global-economy-amid-hormuz-blockade?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:15:10 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:57:13 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Former Hong Kong lawmaker Regina Ip swaps policy for photo cards at ComplexCon",
-        "link": "https://www.scmp.com/news/hong-kong/society/article/3346389/former-hong-kong-lawmaker-regina-ip-swaps-policy-photo-cards-complexcon?utm_source=rss_feed",
+        "title": "Malaysia’s fuel subsidy bill to rise more than fourfold as Iran war drags on",
+        "link": "https://www.scmp.com/week-asia/economics/article/3346520/malaysias-fuel-subsidy-bill-rise-more-fourfold-iran-war-drags?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:13:14 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:30:26 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Impact report for border crossing revamp approved despite concerns over temple",
-        "link": "https://www.scmp.com/news/hong-kong/society/article/3346387/impact-report-border-crossing-revamp-approved-despite-concerns-temple?utm_source=rss_feed",
+        "title": "JPMorgan signs up as anchor tenant for SHKP’s West Kowloon office development",
+        "link": "https://www.scmp.com/business/article/3346491/jpmorgan-signs-anchor-tenant-shkps-west-kowloon-office-development?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:04:57 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:30:08 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Hong Kong export credit insurer keeps premiums low despite Middle East tensions",
-        "link": "https://www.scmp.com/business/banking-finance/article/3346369/hong-kong-export-credit-insurer-keeps-premiums-low-despite-middle-east-tensions?utm_source=rss_feed",
+        "title": "Hong Kong MTR Corp pay rise below expectations: union",
+        "link": "https://www.scmp.com/news/hong-kong/article/3346512/hong-kong-mtr-corp-pay-rise-below-expectations-union?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:00:17 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:20:27 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Trump’s tariff investigation ‘bluff’ will not work on China, analysts warn",
-        "link": "https://www.scmp.com/economy/china-economy/article/3346365/trumps-tariff-investigation-bluff-will-not-work-china-analysts-warn?utm_source=rss_feed",
+        "title": "Japan taps oil reserves as Iran war spreads. Could it give China leverage?",
+        "link": "https://www.scmp.com/economy/global-economy/article/3346499/japan-taps-oil-reserves-iran-war-spreads-could-it-give-china-leverage?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:00:12 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:00:15 +0000",
         "source": "SCMP"
       },
       {
-        "title": "Iranian women’s football team lands in Malaysia as video fuels fresh asylum claims",
-        "link": "https://www.scmp.com/week-asia/people/article/3346386/iranian-womens-football-team-lands-malaysia-video-fuels-fresh-asylum-claims?utm_source=rss_feed",
+        "title": "Death of Chinese scientist Li Xinying, 48, in Egypt raises sharp questions back home",
+        "link": "https://www.scmp.com/news/china/science/article/3346434/death-chinese-scientist-li-xinying-48-egypt-raises-sharp-questions-back-home?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:59:49 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:00:11 +0000",
         "source": "SCMP"
       },
       {
-        "title": "What China’s OpenClaw divide reveals about local and central government priorities",
-        "link": "https://www.scmp.com/news/china/politics/article/3346384/what-chinas-openclaw-divide-reveals-about-local-and-central-government-priorities?utm_source=rss_feed",
+        "title": "Chinese man posts a big note on mother-in-law’s suitcase to seek help for her solo travel",
+        "link": "https://www.scmp.com/news/people-culture/trending-china/article/3346109/chinese-man-posts-big-note-mother-laws-suitcase-seek-help-her-solo-travel?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:57:44 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:00:09 +0000",
         "source": "SCMP"
       },
       {
-        "title": "With some Singapore flats above 60 storeys on the horizon, will owners face tighter curbs?",
-        "link": "https://www.scmp.com/week-asia/lifestyle-culture/article/3346379/some-singapore-flats-above-60-storeys-horizon-will-owners-face-tighter-curbs?utm_source=rss_feed",
+        "title": "Is Bali’s Kuta Beach disappearing? Coastal erosion crisis threatens famed shoreline",
+        "link": "https://www.scmp.com/week-asia/health-environment/article/3346510/balis-kuta-beach-disappearing-coastal-erosion-crisis-threatens-famed-shoreline?utm_source=rss_feed",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:41:54 +0000",
+        "pubDate": "Fri, 13 Mar 2026 09:35:38 +0000",
         "source": "SCMP"
       }
     ],
     "timesofisrael": [
       {
-        "title": "Education minister: Some schools may reopen next week, but not in Tel Aviv area or north",
-        "link": "https://www.timesofisrael.com/education-minister-some-schools-may-reopen-next-week-but-not-in-tel-aviv-area-or-north/",
+        "title": "Gallia Lindenstrauss: Iran war reaches Kurds, Turkey and Azerbaijan",
+        "link": "https://www.timesofisrael.com/gallia-lindenstrauss-iran-war-reaches-kurds-turkey-and-azerbaijan/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:54:03 +0000",
+        "pubDate": "Fri, 13 Mar 2026 11:12:43 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "IDF admits error in not notifying public ahead of major Hezbollah barrage",
-        "link": "https://www.timesofisrael.com/idf-admits-error-in-not-notifying-public-ahead-of-major-hezbollah-barrage/",
+        "title": "US defends Israel against South Africa&#8217;s allegation of genocide in top UN court",
+        "link": "https://www.timesofisrael.com/us-defends-israel-against-south-africas-allegation-of-genocide-in-top-un-court/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:15:42 +0000",
+        "pubDate": "Fri, 13 Mar 2026 10:23:17 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Yoav Gallant says he won&#8217;t run for office in next election, leaves future open",
-        "link": "https://www.timesofisrael.com/yoav-gallant-says-he-wont-run-for-office-in-next-election-leaves-future-open/",
+        "title": "Woman wounded by shrapnel, dozens lightly hurt as Iranian missile hits northern town",
+        "link": "https://www.timesofisrael.com/woman-wounded-by-shrapnel-dozens-lightly-hurt-as-iranian-missile-hits-northern-town/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 09:44:44 +0000",
+        "pubDate": "Fri, 13 Mar 2026 09:46:33 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Amid war, Israeli Para athlete stands tall as she proudly displays national flag",
-        "link": "https://www.timesofisrael.com/amid-war-israeli-para-athlete-stands-tall-as-she-proudly-displays-national-flag/",
+        "title": "With foreign airlines fleeing war, fares take off as local carriers cash in",
+        "link": "https://www.timesofisrael.com/with-foreign-airlines-fleeing-war-fares-take-off-as-local-carriers-cash-in/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 09:24:08 +0000",
+        "pubDate": "Fri, 13 Mar 2026 09:27:26 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Argentine streamer draws antisemitism complaint for mocking Milei&#8217;s Israel support",
-        "link": "https://www.timesofisrael.com/argentine-streamer-draws-antisemitism-complaint-for-mocking-mileis-israel-support/",
+        "title": "US political standoff over immigration delays security grants for synagogues",
+        "link": "https://www.timesofisrael.com/a-us-political-standoff-over-immigration-is-delaying-security-grants-for-synagogues/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 08:32:23 +0000",
+        "pubDate": "Fri, 13 Mar 2026 07:15:40 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "As Trump boasts of success in Iran, war&#8217;s timeline and endgame remain murky",
-        "link": "https://www.timesofisrael.com/as-trump-boasts-of-success-in-iran-wars-timeline-and-endgame-remain-murky/",
+        "title": "‘Every light is flashing’: After shootings at synagogues, Canada&#8217;s Jews fear what&#8217;s next",
+        "link": "https://www.timesofisrael.com/every-light-is-flashing-after-shootings-at-synagogues-canadas-jews-fear-whats-next/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 08:20:09 +0000",
+        "pubDate": "Fri, 13 Mar 2026 06:15:15 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Epstein&#8217;s longtime accountant testifies on source of his wealth, ties to the rich",
-        "link": "https://www.timesofisrael.com/epsteins-longtime-accountant-testifies-on-source-of-his-wealth-ties-to-the-rich/",
+        "title": "Michigan synagogue&#8217;s security preparations credited with saving lives",
+        "link": "https://www.timesofisrael.com/michigan-synagogues-security-preparations-credited-with-saving-lives/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 07:28:58 +0000",
+        "pubDate": "Fri, 13 Mar 2026 04:56:38 +0000",
         "source": "Times of Israel"
       },
       {
-        "title": "Under a rain of Hezbollah missiles, determined northern farmers still sow for the future",
-        "link": "https://www.timesofisrael.com/we-dont-see-a-future-northern-farmers-find-themselves-under-hezbollah-fire-again/",
+        "title": "Teen girl fatally run over, reportedly while rushing to shelter amid Iran missile attack",
+        "link": "https://www.timesofisrael.com/teen-girl-fatally-run-over-reportedly-while-rushing-to-shelter-amid-iran-missile-attack/",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 07:26:24 +0000",
+        "pubDate": "Fri, 13 Mar 2026 03:22:07 +0000",
         "source": "Times of Israel"
       }
     ],
     "afp": [
       {
-        "title": "Washington tracking if Iran has activated 'sleeper cells' on US soil",
-        "link": "https://www.france24.com/en/video/20260312-washington-tracking-if-iran-has-activated-sleeper-cells-on-us-soil",
+        "title": "French officer killed in drone attack in Iraq",
+        "link": "https://www.france24.com/en/video/20260313-french-officer-killed-in-drone-attack-in-iraq",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:09:58 GMT",
+        "pubDate": "Fri, 13 Mar 2026 11:20:22 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Mojtaba Khamenei as Iran's new Supreme Leader signals continuity to international community",
-        "link": "https://www.france24.com/en/mojtaba-khamenei-as-iran-s-new-supreme-leader-signals-continuity-to-international-community",
+        "title": "Housing crisis at heart of local elections: Residents squeezed in Biarritz",
+        "link": "https://www.france24.com/en/tv-shows/focus/20260313-housing-crisis-at-heart-of-local-elections-residents-squeezed-in-biarritz",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:06:48 GMT",
+        "pubDate": "Fri, 13 Mar 2026 11:02:07 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Middle East war: Oil tankers set ablaze in the Gulf in latest Iranian attacks",
-        "link": "https://www.france24.com/en/video/20260312-middle-east-war-oil-tankers-set-ablaze-in-the-gulf-in-latest-iranian-attacks",
+        "title": "'Mental, subjective impact': Iran taking on 'American might' with cyberterrorism",
+        "link": "https://www.france24.com/en/tv-shows/spotlight/20260313-mental-subjective-impact-iran-taking-on-american-might-with-cyberterrorism-1",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 11:05:33 GMT",
+        "pubDate": "Fri, 13 Mar 2026 10:49:53 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "On the ground: Iran attacks Gulf infrastructures",
-        "link": "https://www.france24.com/en/video/20260312-on-the-ground-iran-attacks-gulf-infrastructures",
+        "title": "In Ukraine, war forces schools below ground to keep classes going",
+        "link": "https://www.france24.com/en/video/20260313-in-ukraine-war-forces-schools-below-ground-to-keep-classes-going",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:59:49 GMT",
+        "pubDate": "Fri, 13 Mar 2026 10:48:48 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "War in the Middle East: Heavy Israeli strikes hit central Beirut",
-        "link": "https://www.france24.com/en/video/20260312-war-in-the-middle-east-heavy-israeli-strikes-hit-central-beirut",
+        "title": "War in the Middle East: New wave of attacks on Gulf states",
+        "link": "https://www.france24.com/en/video/20260313-war-in-the-middle-east-new-wave-of-attacks-on-gulf-states",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:46:37 GMT",
+        "pubDate": "Fri, 13 Mar 2026 10:46:11 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "War in the Middle East: New waves of missiles hit Israel",
-        "link": "https://www.france24.com/en/video/20260312-war-in-the-middle-east-new-waves-of-missiles-hit-israel",
+        "title": "French soldier killed in attack in Iraqi Kurdistan",
+        "link": "https://www.france24.com/en/video/20260313-french-soldier-killed-in-attack-in-iraqi-kurdistan",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:45:34 GMT",
+        "pubDate": "Fri, 13 Mar 2026 10:45:52 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "Strait of Hormuz: Iran’s attacks on shipping worsen economic concerns",
-        "link": "https://www.france24.com/en/video/20260312-strait-of-hormuz-iran-s-attacks-on-shipping-worsen-economic-concerns",
+        "title": "In first public comments, Iran’s supreme leader pledges to keep fighting",
+        "link": "https://www.france24.com/en/video/20260313-in-first-public-comments-iran-s-supreme-leader-pledges-to-keep-fighting",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:44:29 GMT",
+        "pubDate": "Fri, 13 Mar 2026 10:44:41 GMT",
         "source": "AFP/France24"
       },
       {
-        "title": "IEA announces record oil stockpile release over Iran supply disruptions",
-        "link": "https://www.france24.com/en/video/20260312-iea-announces-record-oil-stockpile-release-over-iran-supply-disruptions",
+        "title": "NOMA chef steps down after New York Times report of abuse",
+        "link": "https://www.france24.com/en/tv-shows/press-review/20260313-noma-chef-steps-down-after-new-york-times-report-of-abuse",
         "description": "",
-        "pubDate": "Thu, 12 Mar 2026 10:43:16 GMT",
+        "pubDate": "Fri, 13 Mar 2026 10:43:49 GMT",
         "source": "AFP/France24"
       }
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-03-12T11:31:29.864Z",
+    "timestamp": "2026-03-13T11:31:06.991Z",
     "bbc": {
       "lead": {
-        "headline": "Live. Attacks reported on three more cargo ships in Gulf, with oil price back near $100",
-        "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t",
+        "headline": "Elsewhere on the BBC",
+        "url": "https://www.bbc.com/iplayer/group/m001bm4d?at_mid=uHOvttClku&at_campaign=iPlayer_New_and_Trending&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m001bm4d&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=iPlayer_New_and_Trending&at_bbc_team=BBC",
         "source": "BBC"
       },
       "top": [
         {
-          "headline": "Live. Attacks reported on three more cargo ships in Gulf, with oil price back near $100",
+          "headline": "Elsewhere on the BBC",
+          "url": "https://www.bbc.com/iplayer/group/m001bm4d?at_mid=uHOvttClku&at_campaign=iPlayer_New_and_Trending&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m001bm4d&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=iPlayer_New_and_Trending&at_bbc_team=BBC",
+          "source": "BBC"
+        },
+        {
+          "headline": "Four crew members killed after US refuelling plane crashes in Iraq",
+          "url": "https://www.bbc.com/news/articles/cy0dz5ql17vo",
+          "source": "BBC"
+        },
+        {
+          "headline": "Live. US temporarily eases Russia oil sanctions as Iran war pushes up energy prices",
           "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t",
           "source": "BBC"
         },
         {
-          "headline": "Lloyds, Bank of Scotland and Halifax apps showed customers other users' transactions",
-          "url": "https://www.bbc.com/news/articles/c4g23npxpwgo",
+          "headline": "UK economy flatlines as people cut back on eating out",
+          "url": "https://www.bbc.com/news/articles/c75e06e0kd7o",
           "source": "BBC"
         },
         {
-          "headline": "Hundreds of GPs tell BBC they have never refused a fit note for mental health concerns",
-          "url": "https://www.bbc.com/news/articles/c20lew24kngo",
-          "source": "BBC"
-        },
-        {
-          "headline": "Live. Woman who was kept as slave for 25 years will 'live with trauma' for life, court hears",
-          "url": "https://www.bbc.com/news/live/clyve7vn7m7t",
-          "source": "BBC"
-        },
-        {
-          "headline": "Minister defends PM's handling of Mandelson appointment",
-          "url": "https://www.bbc.com/news/articles/c875nzlv7ddo",
+          "headline": "Winners, Sinners and record breakers: 17 fun facts about this year's Oscars",
+          "url": "https://www.bbc.com/news/articles/c1je21lgn5zo",
           "source": "BBC"
         }
       ]
     },
     "guardian": {
       "lead": {
-        "headline": "Noma chef resigns amid shocking allegations of physical abuse of staff",
-        "url": "https://www.theguardian.com/food/2026/mar/11/noma-chef-resigns-rene-redzepi",
+        "headline": "Starmer may face more resignations after release of Mandelson WhatsApp messages, say sources",
+        "url": "https://www.theguardian.com/politics/2026/mar/12/starmer-may-face-more-resignations-after-release-of-mandelson-whatsapp-messages-say-sources",
         "source": "Guardian"
       },
       "top": [
         {
-          "headline": "Noma chef resigns amid shocking allegations of physical abuse of staff",
-          "url": "https://www.theguardian.com/food/2026/mar/11/noma-chef-resigns-rene-redzepi",
+          "headline": "Starmer may face more resignations after release of Mandelson WhatsApp messages, say sources",
+          "url": "https://www.theguardian.com/politics/2026/mar/12/starmer-may-face-more-resignations-after-release-of-mandelson-whatsapp-messages-say-sources",
           "source": "Guardian"
         },
         {
-          "headline": "A young girl is knocked over at Tokyo crossing – what’s behind Japan’s ‘bumping’ trend?",
-          "url": "https://www.theguardian.com/world/2026/mar/12/japan-butsukari-otoko-bumping-man-trend-explained-tokyo-girl-shoved",
+          "headline": "Bailiffs board Ryanair plane after airline refuses to pay delayed flight compensation",
+          "url": "https://www.theguardian.com/business/2026/mar/13/bailiffs-board-ryanair-plane-after-airline-refused-to-pay-compensation-over-delayed-flight",
           "source": "Guardian"
         },
         {
-          "headline": "‘I have never seen anything like it’: MP warns of rise in extreme views on race and identity",
-          "url": "https://www.theguardian.com/news/2026/mar/12/mp-zubir-ahmed-warns-rise-extreme-views-race-identity-islamophobia",
+          "headline": "double quotation markUK energy prices are soaring – and propagandists want to sell you a false reason why",
+          "url": "https://www.theguardian.com/commentisfree/2026/mar/13/uk-energy-prices-soaring-war-iran-fossil-fuel-north-sea",
           "source": "Guardian"
         },
         {
-          "headline": "The unbelievable life of Leo Sayer! The songs, the sex, being swindled – and a spooky phone call from Elvis",
-          "url": "https://www.theguardian.com/music/2026/mar/12/unbelievable-life-leo-sayer-interview-songs-sex-swindled-spooky-phone-call-elvis",
+          "headline": "Short tempers and legal threats: UK teachers report rise in problem parents",
+          "url": "https://www.theguardian.com/education/2026/mar/13/teachers-mental-heath-parents-behaviour-education",
           "source": "Guardian"
         },
         {
-          "headline": "Families given a week to decide whether to leave UK voluntarily plead for more time",
-          "url": "https://www.theguardian.com/uk-news/2026/mar/12/families-given-a-week-to-decide-whether-to-leave-uk-voluntarily-plead-for-more-time",
+          "headline": "Four crew confirmed dead after US military plane crash in Iraq",
+          "url": "https://www.theguardian.com/us-news/2026/mar/12/us-military-aircraft-iraq-crash",
           "source": "Guardian"
         }
       ]
     },
     "aljazeera": {
       "lead": {
-        "headline": "Blasts across Tehran, Israel threatens to ‘take Lebanese territory’",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace",
+        "headline": "Israel launches new attacks on Tehran; 2 killed by drone debris in Oman",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war-live-trump-says-war-going-well-as-gulf-under-wave-of-attacks",
         "source": "Al Jazeera"
       },
       "top": [
         {
-          "headline": "Blasts across Tehran, Israel threatens to ‘take Lebanese territory’",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace",
+          "headline": "Israel launches new attacks on Tehran; 2 killed by drone debris in Oman",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war-live-trump-says-war-going-well-as-gulf-under-wave-of-attacks",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Israeli military says it targeted ‘key site’ linked to Iran’s nuclear programme",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?update=4392616",
+          "headline": "Iranian drone responsible for attack that killed French soldier, says commanding officer",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war-live-trump-says-war-going-well-as-gulf-under-wave-of-attacks?update=4395523",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Iraq turning into secondary battlefield",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?update=4392503",
+          "headline": "Two Israeli air strikes hit southern Lebanon",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war-live-trump-says-war-going-well-as-gulf-under-wave-of-attacks?update=4395535",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Russia urges US and Israel to halt attacks on Iran, resume negotiations",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?update=4392595",
+          "headline": "Saudi Arabia says its intercepted 56 drones today",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war-live-trump-says-war-going-well-as-gulf-under-wave-of-attacks?update=4395493",
           "source": "Al Jazeera"
         },
         {
-          "headline": "Qatar intercepts new missile attack",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?update=4392601",
+          "headline": "Israeli attack on Sidon killed 8 people",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war-live-trump-says-war-going-well-as-gulf-under-wave-of-attacks?update=4395491",
           "source": "Al Jazeera"
         }
       ]
@@ -1116,19 +1049,19 @@
     },
     "economist": {
       "lead": {
-        "headline": "Oil prices rose despite the International Energy Agency announcing it would release an unprecedented 400m barrels of oil from its reserves. Brent crude, the global oil benchmark, jumped back past $100",
-        "url": "https://www.economist.com/middle-east-and-africa/2026/03/10/can-america-clear-the-strait-of-hormuz-of-irans-drones-and-mines",
+        "headline": "America temporarily eased sanctions on Russian oil and petroleum currently at sea. The authorisation, part of efforts to stabilise global energy markets, will last until April 11th. Britain announced ",
+        "url": "https://www.economist.com/leaders/2026/03/12/an-attack-on-the-world-economy",
         "source": "Economist"
       },
       "top": [
         {
-          "headline": "Oil prices rose despite the International Energy Agency announcing it would release an unprecedented 400m barrels of oil from its reserves. Brent crude, the global oil benchmark, jumped back past $100",
-          "url": "https://www.economist.com/middle-east-and-africa/2026/03/10/can-america-clear-the-strait-of-hormuz-of-irans-drones-and-mines",
+          "headline": "America temporarily eased sanctions on Russian oil and petroleum currently at sea. The authorisation, part of efforts to stabilise global energy markets, will last until April 11th. Britain announced ",
+          "url": "https://www.economist.com/leaders/2026/03/12/an-attack-on-the-world-economy",
           "source": "Economist"
         },
         {
-          "headline": "The Islamic Revolutionary Guard Corps, the Iranian regime’s security forces, warned countries to “get ready for oil to be $200 a barrel”. Iran struck several more vessels in the Persian Gulf. Two were",
-          "url": "https://www.economist.com/middle-east-and-africa/2026/03/10/can-america-clear-the-strait-of-hormuz-of-irans-drones-and-mines",
+          "headline": "Israel launched a fresh wave of attacks on central Tehran and against Hizbullah targets in Lebanon. Earlier an American refuelling plane crashed in Iraq. The Pentagon said that neither “hostile fire o",
+          "url": "https://www.economist.com/the-world-in-brief",
           "source": "Economist"
         },
         {
@@ -1139,6 +1072,6 @@
       ]
     }
   },
-  "generated": "2026-03-12T11:31:43.626Z",
+  "generated": "2026-03-13T11:31:18.035Z",
   "source": "github-actions"
 }
