@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-Iran is [escalating dramatically](https://www.nytimes.com/2026/03/12/us/politics/strait-of-hormuz-iran-war.html) in response to recent military losses, effectively choking off the Strait of Hormuz and threatening global oil supplies. The regime's naval forces are stopping tankers and commercial vessels in the vital waterway that carries about a fifth of the world's oil. It's a desperate but effective move by a weakened Iran to hit back where it can cause maximum economic pain.
+Iran is hitting back at the US and Israel by [choking off](https://www.nytimes.com/2026/03/12/us/politics/strait-of-hormuz-iran-war.html) the Strait of Hormuz, the world's most crucial oil shipping lane. After weeks of airstrikes that have decimated its military infrastructure, Tehran is deploying naval mines and fast boats to strangle energy supplies flowing to global markets. It's a classic asymmetric response from a weakened power, but one with massive economic consequences.
 
-The broader conflict continues to spiral, with Israel [striking central Beirut](https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel) against Hezbollah targets while NATO defenses [shot down](https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html) a third Iranian missile over Turkey. Oil prices are surging despite Trump's decision to temporarily ease sanctions on Russian petroleum, and a U.S. refueling aircraft [crashed in Iraq](https://www.nytimes.com/2026/03/12/world/middleeast/us-refueling-plane-crash-iraq.html), killing all four crew members. The Pentagon says hostile fire wasn't involved, but the timing underscores how quickly this conflict is reshaping the region's security landscape.
+The strategy is already working from Iran's perspective. Oil prices have spiked, global supply chains are buckling under the pressure, and economists are calling this ["the big one"](https://www.nytimes.com/2026/03/12/business/economy/iran-oil-shock-economy-global-impact.html) when it comes to energy shocks. Trump has responded by [lifting sanctions](https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html) on Russian oil to help offset the shortfall, a move that underscores just how serious the supply crunch has become. The conflict is also spreading geographically, with Turkey reporting that [NATO defenses](https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html) shot down a third Iranian missile, and a drone strike putting Cyprus and the broader EU on edge.
 
 **Business/Tech**
 
-• Energy markets are in full crisis mode, with analysts [scrambling to revise](https://www.reuters.com/business/energy/analysts-reassess-oil-price-estimates-iran-conflict-disrupts-markets-2026-03-13/) their price forecasts as Iran's blockade of shipping lanes sends shockwaves through global supply chains
+• Oil shock ripples are hitting mortgage markets hard, with rates [climbing above](https://www.nytimes.com/2026/03/12/business/mortgage-rates-rise-above-6-percent.html) 6 percent as investors flee to safer assets and inflation fears spike.
 
-• Adobe shares are [tumbling after](https://www.reuters.com/business/adobe-shares-drop-after-ceo-exit-adds-ai-disruption-concerns-2026-03-13/) CEO departure news adds to broader concerns about AI disruption hitting traditional software companies
+• At least [16 ships](https://www.nytimes.com/interactive/2026/03/12/business/energy-environment/iran-war-ship-attacks.html) have now been targeted in Iranian attacks on commercial vessels, creating a nightmare for global shipping companies trying to navigate the crisis.
 
-• Mortgage rates are [climbing back](https://www.nytimes.com/2026/03/12/business/mortgage-rates-rise-above-6-percent.html) above 6% as the Iran conflict ripples through financial markets, adding housing pressure just as spring buying season begins
+• Social media companies are bracing for a potential reckoning as a major [addiction trial](https://www.nytimes.com/2026/03/12/technology/social-media-addiction-society-verdict.html) nears its end, with public opinion already firmly against the platforms.
 
-• The social media addiction trial is [wrapping up](https://www.nytimes.com/2026/03/12/technology/social-media-addiction-society-verdict.html), but public opinion has long since moved past legal proceedings to demand real accountability from tech platforms
+• US farmers are [rushing to sell](https://www.reuters.com/business/us-farmers-rush-sell-crops-iran-war-fuels-rally-2026-03-13/) their grain stockpiles as commodity prices surge due to the Iran conflict, according to Reuters.
 
 **Around the World**
 
-• **Latin America**: Canada is [expanding its military](https://www.nytimes.com/2026/03/12/world/canada/canada-military-arctic-trump.html) presence in the Arctic following Trump's renewed threats about territorial claims, a significant shift in Ottawa's defense posture
+• **Latin America:** Cuba's president has acknowledged holding [talks with](https://www.nytimes.com/2026/03/13/world/americas/cuba-us-talks-trump-oil.html) the Trump administration, likely seeking relief from sanctions as the global energy crisis creates new diplomatic opportunities.
 
-• **Europe**: Ukrainian defense companies are seeing their [phones ring](https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html) nonstop as Middle Eastern countries desperately seek drone defense systems, creating an unexpected wartime export boom
+• **Europe:** Ukrainian drone manufacturers are fielding a surge in orders from Middle Eastern clients who want the same [interceptor technology](https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html) that has been battle-tested against Russian attacks.
 
-• **Asia**: The BBC reports that [84 Iranian sailors](https://www.bbc.com/news/articles/c363lk4xk07o?at_medium=RSS&at_campaign=rss) killed when the U.S. sunk the warship Iris Dena near Sri Lanka will be repatriated, a grim reminder of the human toll as this conflict escalates
+• **Asia:** Afghanistan is accusing Pakistan of [targeting homes](https://apnews.com/article/afghanistan-pakistan-fighting-eb61a70a88f6b44ef114e88064b84136) in airstrikes that killed at least six civilians, AP reports, as cross-border tensions escalate while both countries grapple with the regional fallout from the Iran war.
 
-• **Middle East**: The BBC confirms that [four U.S. crew members](https://www.bbc.com/news/articles/cy0dz5ql17vo?at_medium=RSS&at_campaign=rss) died when their refueling aircraft crashed in western Iraq, with rescue efforts continuing in the dangerous airspace
+• **Middle East:** Defense Secretary Hegseth says Iran's Supreme Leader Mojtaba Khamenei has been ["wounded" and "likely disfigured"](https://www.bloomberg.com/news/articles/2026-03-13/hegseth-says-khamenei-wounded-likely-disfigured) in the ongoing US-Israeli campaign, Bloomberg reports, though the Pentagon has not provided evidence for the claim.
 
-• **Africa**: A [drone strike](https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html) in Congo killed three people including a U.N. worker.
+• **Africa:** A drone strike in eastern Congo [killed three people](https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html), including a UN worker, as the country's long-running conflict takes on new dimensions with more sophisticated weapons entering the battlefield.
