@@ -1,0 +1,8 @@
+name = "news-briefing-refresh"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Cron trigger: 11:00 UTC = 7am ET (EST) / 7am ET (EDT = 11:00-1=10:00, but GitHub cron is also 11:00 UTC)
+# This fires the workflow even if GitHub skips the cron due to repo inactivity
+[triggers]
+crons = ["0 11 * * *"]
