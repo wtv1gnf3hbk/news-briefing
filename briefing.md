@@ -1,27 +1,27 @@
 Good morning. Here's the state of play:
 
-The Trump administration has [suspended key sanctions](https://www.nytimes.com/2026/03/13/world/europe/russia-oil-suspended-sanctions-economy.html) on Russian oil exports, handing Moscow both an economic lifeline and a major propaganda victory while the U.S. is locked in its expanding war with Iran. The move comes as oil prices have hit historic highs following Iran's closure of the Strait of Hormuz, creating what economists are calling the largest energy shock since the 1970s embargo. Ukraine and European allies are furious, with President Zelensky saying the decision "certainly does not help achieve peace."
+The US-Iran war is escalating rapidly after American forces bombed Iran's key oil hub at Kharg Island. Iran's Revolutionary Guards are now threatening US "hideouts" in the UAE as [legitimate targets](https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran), marking a dangerous expansion of the conflict beyond direct US-Iran confrontation. Oil prices have [surged past](https://www.nytimes.com/2026/03/14/business/energy-environment/iran-strait-hormuz-oil-middle-east.html) $103 per barrel for the first time in nearly four years.
 
-The timing couldn't be more fraught. Defense Secretary Pete Hegseth claimed yesterday that Iran's supreme leader Mojtaba Khamenei has been wounded and is "probably disfigured" in recent strikes, though Tehran released a defiant audio statement from Khamenei vowing continued resistance. Meanwhile, the [U.S. confirmed](https://www.nytimes.com/2026/03/12/world/middleeast/us-refueling-plane-crash-iraq.html) that all six crew members died when a refueling aircraft crashed in western Iraq.
+The broader regional implications are becoming clear. NATO allies are scrambling to manage energy security, with Japan asking Australia to boost LNG output and the UK preparing [targeted support](https://www.bloomberg.com/news/articles/2026-03-14/reeves-weighs-targeted-energy-support-as-oil-prices-surge) for households facing soaring energy bills. Meanwhile, Trump's approach reflects what officials describe as a "destroy and deal" strategy, [fundamentally reshaping](https://www.nytimes.com/2026/03/13/us/politics/trumps-war-alliance-with-israel-is-reshaping-the-middle-east-but-it-carries-risks.html) Middle East dynamics through unprecedented coordination with Israel.
 
 **Business/Tech**
 
-• [U.S. stocks fell](https://apnews.com/article/stocks-markets-oil-iran-trump-74bf078b7e40b6a0d38033c9fe29a87b) as oil prices continued their relentless climb, with investors pulling money from emerging market funds for the second straight week as the Iran conflict reverberates through global markets.
+• Oil's shock waves are hitting differently across economies. [China's advantage](https://www.nytimes.com/2026/03/14/business/china-oil-cars.html) in electric vehicles and renewables is cushioning the blow, while Pakistan's already fragile economy is taking a [direct hit](https://www.nytimes.com/2026/03/14/world/asia/pakistan-oil-prices.html) from the price surge.
 
-• SpaceX is taking over xAI ahead of a planned IPO in what Bloomberg calls Elon Musk's [familiar playbook](https://www.bloomberg.com/news/articles/2026-03-13/spacex-investor-baillie-gifford-hails-pre-ipo-takeover-of-xai) of combining his ventures before major public offerings.
+• US tech giants with Persian Gulf operations are now finding themselves in the [crosshairs](https://www.nytimes.com/2026/03/13/technology/amazon-google-persian-gulf-war.html). Amazon, Google and others expanded heavily into the region, but the war has made them potential targets.
 
-• Adobe will [pay $75 million](https://www.reuters.com/world/adobe-pay-75-million-resolve-us-lawsuit-over-fees-subscription-cancellations-2026-03-13/) to settle a U.S. lawsuit over subscription fees and difficult cancellation processes, according to Reuters.
+• TikTok's investors are set to [pay $10 billion](https://www.nytimes.com/2026/03/13/business/tiktok-investors-set-to-pay-10-billion-fee-to-trump-administration.html) to the Trump administration as part of the platform's survival deal, a massive fee that underscores the stakes in US-China tech tensions.
 
-• Meta has [delayed the rollout](https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html) of its new "Avocado" AI model after internal performance concerns, marking another stumble in the AI race.
+• Meta has [delayed rollout](https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html) of its new AI model following performance concerns, another setback in the race to compete with ChatGPT.
 
 **Around the World**
 
-• **Latin America**: Cuba's president acknowledged direct talks with the Trump administration about potentially supplying oil as Washington scrambles to replace Iranian energy supplies, according to [new reporting](https://www.nytimes.com/2026/03/13/world/americas/cuba-us-talks-trump-oil.html) from Havana.
+• **Latin America**: Canada is taking its sovereignty push to space, launching a [Starlink competitor](https://www.nytimes.com/2026/03/14/world/canada/starlink-satellites-defense-carney-canada.html) as part of Prime Minister Carney's broader effort to reduce dependence on US tech infrastructure.
 
-• **Europe**: Ukrainian defense companies say their phones are "ringing off the hook" with Middle Eastern buyers seeking [drone interceptors](https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html) and air defense systems as the Iran war spreads regional anxiety about aerial attacks.
+• **Europe**: An explosion at an Amsterdam Jewish school is being treated as a [deliberate attack](https://www.bbc.com/news/articles/cwyg4j58gdyo?at_medium=RSS&at_campaign=rss) by the mayor, according to the BBC. Security had already been heightened at Jewish institutions following an earlier incident in Rotterdam.
 
-• **Asia**: Afghanistan accused Pakistan of targeting civilians after Pakistani airstrikes [killed six people](https://apnews.com/article/afghanistan-pakistan-fighting-eb61a70a88f6b44ef114e88064b84136) in cross-border attacks, AP reports.
+• **Asia**: China rejected Taiwan President Lai's remarks [linking democracy](https://www.bloomberg.com/news/articles/2026-03-14/china-rejects-lai-remarks-linking-democracy-with-sovereignty) with sovereignty, Bloomberg reports. Beijing called the argument "misleading" as cross-strait tensions continue to simmer.
 
-• **Middle East**: A Michigan man who attacked a synagogue had [lost relatives](https://apnews.com/article/michigan-synagogue-attack-fbi-investigation-58331bad2c28e78c6c99a4a764637873) in Israeli airstrikes in Lebanon, according to FBI officials investigating what authorities call a targeted act of antisemitic violence.
+• **Middle East**: Netanyahu has the war with Iran he's always wanted, but it's happening on [Trump's terms](https://www.nytimes.com/2026/03/14/world/middleeast/netanyahu-iran-war-trump.html). The unprecedented US-Israel coordination is reshaping regional dynamics in ways that could outlast this conflict.
 
-• **Africa**: A drone strike in eastern Congo [killed three people](https://www.nytimes.com/2026/03/12/world/africa/drone-strike-congo-kills-three.html), including a UN worker, as the conflict there continues to escalate with increasingly sophisticated weapons.
+• **Africa**: Rwanda is warning it may [withdraw troops](https://www.bloomberg.com/news/articles/2026-03-14/rwanda-warns-it-may-withdraw-troops-securing-mozambique-lng-area) securing northern Mozambique's $50 billion natural gas projects, according to Bloomberg. The move would leave a crucial LNG region vulnerable during a global energy crunch.
