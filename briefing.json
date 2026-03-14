@@ -66,8 +66,13 @@
     ],
     "secondary": [
       {
-        "headline": "At War With Iran, U.S. Sees More Violence at Home",
-        "url": "https://www.nytimes.com/2026/03/14/us/iran-us-attacks-terrorism-michigan-old-dominion.html",
+        "headline": "Before Deadly Attack, the Parallel Lives of 2 Soldiers Diverged",
+        "url": "https://www.nytimes.com/2026/03/13/us/old-dominion-shooting-suspect.html",
+        "source": "U.S."
+      },
+      {
+        "headline": "N.C. Sheriff Poised to Pull Off Stunning Upset in Consequential G.O.P. Primary",
+        "url": "https://www.nytimes.com/2026/03/13/us/berger-page-north-carolina-senate.html",
         "source": "U.S."
       },
       {
@@ -76,33 +81,23 @@
         "source": "U.S."
       },
       {
-        "headline": "His Mother Vanished When He Was 14. 33 Years Later, He Found Her.",
-        "url": "https://www.nytimes.com/2026/03/09/us/antonio-wiley-missing-mother-found.html",
+        "headline": "Old Dominion Attacker Appeared to Target R.O.T.C., Court Records Show",
+        "url": "https://www.nytimes.com/2026/03/13/us/old-dominion-shooting-gunman-rotc.html",
         "source": "U.S."
       },
       {
-        "headline": "Before Deadly Attack, the Parallel Lives of 2 Soldiers Diverged",
-        "url": "https://www.nytimes.com/2026/03/13/us/old-dominion-shooting-suspect.html",
+        "headline": "At War With Iran, U.S. Sees More Violence at Home",
+        "url": "https://www.nytimes.com/2026/03/14/us/iran-us-attacks-terrorism-michigan-old-dominion.html",
         "source": "U.S."
       },
       {
-        "headline": "Tim Kaine Is Forcing the Iran War Debate From the Minority",
-        "url": "https://www.nytimes.com/2026/03/14/us/politics/tim-kaine-iran-war-congress.html",
-        "source": "U.S."
-      },
-      {
-        "headline": "Hegseth’s Claim About Killing a Would-Be Assassin Creates a Mystery",
-        "url": "https://www.nytimes.com/2026/03/13/us/politics/hegseth-claim-iran-trump.html",
+        "headline": "Justice Dept. Drops Prosecution of Veteran Who Burned American Flag",
+        "url": "https://www.nytimes.com/2026/03/13/us/politics/veteran-flag-burning-case-dismissed.html",
         "source": "Politics"
       },
       {
-        "headline": "War Stirs Mixed Feelings for the Only Iranian American Democrat in Congress",
-        "url": "https://www.nytimes.com/2026/03/13/us/politics/ansari-iranian-american-congress.html",
-        "source": "Politics"
-      },
-      {
-        "headline": "With Endorsement, Trump Clears Oklahoma Senate Path",
-        "url": "https://www.nytimes.com/2026/03/13/us/politics/oklahoma-senate-trump-endorsement.html",
+        "headline": "Judge Temporarily Blocks Trump Demand for Student Race Data",
+        "url": "https://www.nytimes.com/2026/03/13/us/politics/trump-lawsuit-college-admissions.html",
         "source": "Politics"
       },
       {
@@ -163,6 +158,11 @@
       {
         "headline": "Netanyahu Has the War He Always Wanted, but on Trump’s Terms",
         "url": "https://www.nytimes.com/2026/03/14/world/middleeast/netanyahu-iran-war-trump.html",
+        "source": "Middle East"
+      },
+      {
+        "headline": "Tim Kaine Is Forcing the Iran War Debate From the Minority",
+        "url": "https://www.nytimes.com/2026/03/14/us/politics/tim-kaine-iran-war-congress.html",
         "source": "Middle East"
       },
       {
@@ -236,11 +236,68 @@
         "source": "Technology"
       }
     ],
-    "timestamp": "2026-03-14T11:01:25.791Z"
+    "timestamp": "2026-03-14T11:24:39.133Z"
   },
   "secondary": {
-    "timestamp": "2026-03-14T11:01:25.791Z",
-    "reuters": [],
+    "timestamp": "2026-03-14T11:24:39.133Z",
+    "reuters": [
+      {
+        "title": "Greek-flagged tanker hit by unidentified object outside CPC terminal at Novorossiysk, minor damage, operator says - Reuters",
+        "link": "https://www.reuters.com/world/china/greek-flagged-tanker-hit-by-unidentified-object-outside-cpc-terminal-2026-03-14/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjZZYjVqNDRTLXZYR3pZdzRuV3o3RjJVcjFpNmV3eVB0Vm96VnRudjBRTjZ4d18tVWo0clVUQVBLNUlvUWxEbFhsem1WbEU3TDd5bk51bDJNVnJNbUdZa2xmb2FIYWhORWdmNEV",
+        "pubDate": "Sat, 14 Mar 2026 09:40:44 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Apple MacBook Neo emerges as company’s most repairable laptop in more than a decade - Reuters",
+        "link": "https://www.reuters.com/world/china/apple-macbook-neo-emerges-companys-most-repairable-laptop-more-than-decade-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0NwcGFWTXlJUTE1U1EycGNqb3Fkclh4S3hoMnY3Z29qcm4xRHE0eV81a3A4V2FqdUhuem91c05YaFBPUmRHRWFOT195N3B2MWx2ZGdPaktNdTBRWGFJNnNRaGIycEZEak1KV0F",
+        "pubDate": "Fri, 13 Mar 2026 23:20:39 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Auto groups urge Trump to keep Chinese carmakers out of US - Reuters",
+        "link": "https://www.reuters.com/business/autos-transportation/auto-industry-groups-urge-trump-keep-chinese-autos-out-us-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxORUpFWGdEazVJS2R3Ul9fX20tMU43ZUkzMmxFZXcxMXBTb0ZoQ3B2RzZQdWxHYmZ0YzFIVXN1akEtZVhZNHJRRG1mbXhyaTQ5LUJ1cTh5dGlkOVpuSzVrQkJMV0YwWVNwSUxxaDZ",
+        "pubDate": "Fri, 13 Mar 2026 21:34:51 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Exclusive: Meta planning sweeping layoffs as AI costs mount - Reuters",
+        "link": "https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNdHRvMGkwTFd4Qkt3QzB1bDhZa2g1cWtiVlRXc0NoSlpfM2N4cmJUV0VTd3REcFljTHlWVDh6cUQ2emJaUVdPUVY1MFVqWVYzNFVkbk9zU2VhSDUtcUtBYlZtNVR5MGUwQ2FoakZ",
+        "pubDate": "Sat, 14 Mar 2026 00:17:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "US Commerce Department withdraws planned rule on AI chip exports - Reuters",
+        "link": "https://www.reuters.com/business/us-commerce-department-withdraws-planned-rule-ai-chip-exports-government-website-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRThuSC0xOThBSkZibWpSTnp4VlIwaFh2el9saXFhUTZMZHpLR1VMdW9xd0VKZFVtSWlNcXppemJJZGI0ZFNBY2pYOUF3UF9RMkNSTnQ4eERRTGUzX0xpYWJ2MkQ2OERoWWlrN1B",
+        "pubDate": "Fri, 13 Mar 2026 21:41:12 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "US, Japan agree on their roles in potential nuclear power project, Westinghouse says - Reuters",
+        "link": "https://www.reuters.com/business/energy/us-japan-agree-their-roles-potential-nuclear-power-project-westinghouse-says-2026-03-14/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQSWtjM1lUQW12N1hJQlBkU2d6V2o5THBxbWtWMWJFOHhzRXd0V3ljNlB6U1hFVDVVT3YyVDJaclByUTJ0dWIwbk9ZMUFIaFVSVDdHZ1dYZjVLQTBlNVFjTURZd1NrNWJjd19BcEN",
+        "pubDate": "Sat, 14 Mar 2026 04:06:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "South Korea PM, Trump discuss possible talks with North Korea's Kim, Yonhap says - Reuters",
+        "link": "https://www.reuters.com/world/asia-pacific/south-koreas-pm-meets-trump-washington-official-says-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVl9PdC1fUzZhdkdYdXdWWHlGWnpFYlMzYnNZeUFPTF8yZldlRHNZRDhqUHhVc2NGZEZiYW16enFWQkRqNzBjU3BlUVhyS1NqOWttWWVDYTJwazFLYmhrcFRFZHF4bFBta2pTanM",
+        "pubDate": "Fri, 13 Mar 2026 19:30:35 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Storms cut power to over 1 million customers in US Midwest, Mid-Atlantic; Ohio hardest hit - Reuters",
+        "link": "https://www.reuters.com/business/energy/storms-cut-power-396000-customers-us-midwest-mid-atlantic-ohio-hardest-hit-2026-03-13/",
+        "description": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPWG02SURnM0FGN1VLbld4cXVFNzdnR0tEZjAzZWdmczVDQWc2aHZLbWpKelpJMFdsX0hQMTNoUUpWa2VNb2FZd3gxVHF5a1B2UXJuNGZMOGZuYlBaUnNUVTg5YXZlVHNoNTgtQkY",
+        "pubDate": "Fri, 13 Mar 2026 19:32:23 GMT",
+        "source": "Reuters"
+      }
+    ],
     "ap": [],
     "bbc": [
       {
@@ -644,66 +701,22 @@
         "source": "Al Jazeera"
       }
     ],
-    "washpost": [
-      {
-        "title": "What Earth’s longest-lived animals can teach us about aging better",
-        "link": "https://www.washingtonpost.com/science/2026/03/15/oldest-animals-longevity-aging/",
-        "description": "Inside the growing scientific quest to understand what creatures with the extraordinary ability to defy the ravages of time can teach us about making human aging better.",
-        "pubDate": "Sat, 14 Mar 2026 10:34:28 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Trump urged uprising, but as bombs fall, Iranians are ‘too scared to move’",
-        "link": "https://www.washingtonpost.com/world/2026/03/14/iranians-dubai-war-fear-relatives/",
-        "description": "Some Iranians living in Dubai say their families celebrated the death of the supreme leader, Ayatollah Ali Khamenei, but the war could leave Iran in a worse situation than before.",
-        "pubDate": "Sat, 14 Mar 2026 09:00:40 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "They came to build China’s EV future. Investigators found ‘slavery-like’ conditions.",
-        "link": "https://www.washingtonpost.com/world/2026/03/01/byd-slavery-allegations-brazil/",
-        "description": "Few Chinese laborers have spoken out about the abuses they allegedly suffered while toiling abroad. Until now.",
-        "pubDate": "Sat, 14 Mar 2026 09:00:10 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "For Russia, Trump’s sanctions pause means more money to fight Ukraine",
-        "link": "https://www.washingtonpost.com/world/2026/03/14/russia-oil-sanction-iran-war-trump/",
-        "description": "The Kremlin hopes the Trump administration’s move to contain oil prices sent soaring by the U.S.-Israeli war on Iran will lead to further relief.",
-        "pubDate": "Sat, 14 Mar 2026 09:00:00 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Trump says U.S. bombed Kharg Island, striking core of Iran’s oil economy",
-        "link": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/",
-        "description": "About 90 percent of the country’s oil exports move through facilities on Kharg Island, located some 15 miles from the mainland in the Persian Gulf.",
-        "pubDate": "Sat, 14 Mar 2026 01:53:54 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Hegseth vows thorough probe of school strike that Trump blamed on Iran",
-        "link": "https://www.washingtonpost.com/national-security/2026/03/13/hegseth-iran-school-strike/",
-        "description": "The announcement appeared to tacitly acknowledge a growing body of evidence that U.S. forces, not Iran, were responsible for the deadly attack.",
-        "pubDate": "Fri, 13 Mar 2026 19:02:16 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "Cuba acknowledges secret meetings with U.S. as Trump dials up threats",
-        "link": "https://www.washingtonpost.com/national-security/2026/03/13/cuba-us-secret-talks-trump-pressure/",
-        "description": "Trump has warned that Cuba is next in line after Venezuela and Iran, saying that the Havana regime is in its “last moments of life.”",
-        "pubDate": "Fri, 13 Mar 2026 17:36:31 +0000",
-        "source": "Washington Post"
-      },
-      {
-        "title": "6 dead after U.S. Air Force refueler crashes in Iraq while supporting Iran war",
-        "link": "https://www.washingtonpost.com/national-security/2026/03/12/kc-135-crash-iraq-iran/",
-        "description": "The KC-135 tanker was involved in an apparent accident with another KC-135. The other aircraft landed safely, officials said.",
-        "pubDate": "Fri, 13 Mar 2026 14:50:38 +0000",
-        "source": "Washington Post"
-      }
-    ],
     "economist": [],
     "scmp": [
+      {
+        "title": "2 monks brawl during temple ceremony in Hong Kong, leaving 1 injured",
+        "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3346607/2-monks-brawl-during-temple-ceremony-hong-kong-leaving-1-injured?utm_source=rss_feed",
+        "description": "",
+        "pubDate": "Sat, 14 Mar 2026 11:14:17 +0000",
+        "source": "SCMP"
+      },
+      {
+        "title": "Air China to resume North Korea flights after 6 years amid warming ties",
+        "link": "https://www.scmp.com/news/china/diplomacy/article/3346590/air-china-resume-north-korea-flights-after-6-years-amid-warming-ties?utm_source=rss_feed",
+        "description": "",
+        "pubDate": "Sat, 14 Mar 2026 11:00:54 +0000",
+        "source": "SCMP"
+      },
       {
         "title": "Wang Fuk Court residents in resettlement limbo slam ‘unhelpful’ engagement officers",
         "link": "https://www.scmp.com/news/hong-kong/society/article/3346603/wang-fuk-court-residents-resettlement-limbo-slam-unhelpful-engagement-officers?utm_source=rss_feed",
@@ -744,20 +757,6 @@
         "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment?utm_source=rss_feed",
         "description": "",
         "pubDate": "Sat, 14 Mar 2026 09:45:31 +0000",
-        "source": "SCMP"
-      },
-      {
-        "title": "Flying car dreams gain altitude as Xpeng affiliate Aridge raises US$200 million",
-        "link": "https://www.scmp.com/tech/article/3346597/flying-car-dreams-gain-altitude-xpeng-affiliate-aridge-raises-us200-million?utm_source=rss_feed",
-        "description": "",
-        "pubDate": "Sat, 14 Mar 2026 08:43:40 +0000",
-        "source": "SCMP"
-      },
-      {
-        "title": "By waging war on Iran, Trump leaves the US economy more vulnerable",
-        "link": "https://www.scmp.com/opinion/world-opinion/article/3346308/waging-war-iran-trump-leaves-us-economy-more-vulnerable?utm_source=rss_feed",
-        "description": "",
-        "pubDate": "Sat, 14 Mar 2026 08:30:08 +0000",
         "source": "SCMP"
       }
     ],
@@ -879,7 +878,7 @@
     ]
   },
   "internationalLeads": {
-    "timestamp": "2026-03-14T11:01:25.791Z",
+    "timestamp": "2026-03-14T11:24:39.133Z",
     "bbc": {
       "lead": {
         "headline": "Elsewhere on the BBC",
@@ -893,7 +892,7 @@
           "source": "BBC"
         },
         {
-          "headline": "Live. US embassy in Baghdad hit by strike as Trump says military targets 'obliterated' on Iran's key oil island",
+          "headline": "Live. Crucial UAE port targeted in attack as Trump says Iran's key oil island 'obliterated'",
           "url": "https://www.bbc.com/news/live/ckg1w1jp8kjt",
           "source": "BBC"
         },
@@ -916,13 +915,13 @@
     },
     "guardian": {
       "lead": {
-        "headline": "‘Drinking from a fetid pond��: superbug-creating genes found in UK’s largest lake",
+        "headline": "‘Drinking from a fetid pond’: superbug-creating genes found in UK’s largest lake",
         "url": "https://www.theguardian.com/environment/2026/mar/14/lough-neagh-northern-ireland-genes-antibiotic-resistance-superbugs",
         "source": "Guardian"
       },
       "top": [
         {
-          "headline": "‘Drinking from a fetid pond��: superbug-creating genes found in UK’s largest lake",
+          "headline": "‘Drinking from a fetid pond’: superbug-creating genes found in UK’s largest lake",
           "url": "https://www.theguardian.com/environment/2026/mar/14/lough-neagh-northern-ireland-genes-antibiotic-resistance-superbugs",
           "source": "Guardian"
         },
@@ -942,8 +941,8 @@
           "source": "Guardian"
         },
         {
-          "headline": "The Claudia Winkleman Show review – yes we love her, but this chatshow is a mess",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/mar/13/the-claudia-winkleman-show-review-bbc",
+          "headline": "‘You are all worse than each other’: anti-regime Iranians turn on Trump",
+          "url": "https://www.theguardian.com/world/2026/mar/14/anti-regime-iranians-turn-on-trump-us",
           "source": "Guardian"
         }
       ]
@@ -961,6 +960,16 @@
           "source": "Al Jazeera"
         },
         {
+          "headline": "Iran’s navy claims strikes on US forces in Abu Dhabi, Bahrain",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?update=4398111",
+          "source": "Al Jazeera"
+        },
+        {
+          "headline": "Iraq seeks alternatives to Strait of Hormuz for oil exports",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?update=4397926",
+          "source": "Al Jazeera"
+        },
+        {
           "headline": "Japan asks Australia for increased LNG output to ensure energy security",
           "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?update=4397992",
           "source": "Al Jazeera"
@@ -968,16 +977,6 @@
         {
           "headline": "Israel says interception under way after Iranian missiles spotted",
           "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?update=4398102",
-          "source": "Al Jazeera"
-        },
-        {
-          "headline": "Oil exports from Kharg island remain uninterrupted, Iranian official says",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?update=4398047",
-          "source": "Al Jazeera"
-        },
-        {
-          "headline": "France ‘ready’ to host ceasefire talks between Lebanon, Israel",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?update=4398005",
           "source": "Al Jazeera"
         }
       ]
@@ -1006,6 +1005,6 @@
       ]
     }
   },
-  "generated": "2026-03-14T11:01:26.895Z",
+  "generated": "2026-03-14T11:24:45.626Z",
   "source": "github-actions"
 }
